@@ -297,6 +297,54 @@ legend {
   color: var(--ink);
 }
 
+.segmented[data-group="taste"] input[value="rich"] + span {
+  border-color: rgba(203, 45, 36, 0.32);
+  background: #fff0ed;
+  color: #9f2118;
+}
+
+.segmented[data-group="taste"] input[value="semi-rich"] + span {
+  border-color: rgba(239, 92, 72, 0.3);
+  background: #fff4f1;
+  color: #b84436;
+}
+
+.segmented[data-group="taste"] input[value="semi-light"] + span {
+  border-color: rgba(40, 169, 211, 0.3);
+  background: #edfaff;
+  color: #176579;
+}
+
+.segmented[data-group="taste"] input[value="light"] + span {
+  border-color: rgba(44, 100, 207, 0.3);
+  background: #edf3ff;
+  color: #244b9a;
+}
+
+.segmented[data-group="taste"] input[value="rich"]:checked + span {
+  border-color: #b6231b;
+  background: #df3429;
+  color: #fff;
+}
+
+.segmented[data-group="taste"] input[value="semi-rich"]:checked + span {
+  border-color: #ef7a69;
+  background: #ffb3a7;
+  color: #7f241a;
+}
+
+.segmented[data-group="taste"] input[value="semi-light"]:checked + span {
+  border-color: #5bbcdf;
+  background: #a7e8f8;
+  color: #0b5268;
+}
+
+.segmented[data-group="taste"] input[value="light"]:checked + span {
+  border-color: #2557c8;
+  background: #2f6fe4;
+  color: #fff;
+}
+
 .segmented label:nth-child(2) input:checked + span {
   background: #92ead2;
 }
