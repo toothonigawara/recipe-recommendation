@@ -394,80 +394,80 @@ legend {
 }
 
 .condition-button.taste-rich {
-  border-color: #b6231b !important;
-  background: #df3429 !important;
-  color: #fff !important;
+  border-color: #f0a09a !important;
+  background: #ffd4cf !important;
+  color: #7d2a24 !important;
 }
 
 .segmented input:checked + .condition-button.taste-rich {
-  border-color: #8f1b15 !important;
-  background: #c9271e !important;
+  border-color: #e37d75 !important;
+  background: #ffb8b0 !important;
 }
 
 .condition-button.taste-semi-rich {
-  border-color: #ef7a69 !important;
-  background: #ffb3a7 !important;
-  color: #7f241a !important;
+  border-color: #f3b8af !important;
+  background: #ffe2de !important;
+  color: #8b4038 !important;
 }
 
 .segmented input:checked + .condition-button.taste-semi-rich {
-  border-color: #dc6655 !important;
-  background: #ff9d8e !important;
+  border-color: #eba299 !important;
+  background: #ffd0c9 !important;
 }
 
 .condition-button.taste-semi-light {
-  border-color: #5bbcdf !important;
-  background: #a7e8f8 !important;
-  color: #0b5268 !important;
+  border-color: #9bd7eb !important;
+  background: #d8f4fb !important;
+  color: #245d6e !important;
 }
 
 .segmented input:checked + .condition-button.taste-semi-light {
-  border-color: #42aeda !important;
-  background: #87def3 !important;
+  border-color: #7dc9e3 !important;
+  background: #bfeefa !important;
 }
 
 .condition-button.taste-light {
-  border-color: #2557c8 !important;
-  background: #2f6fe4 !important;
-  color: #fff !important;
+  border-color: #9bb8ef !important;
+  background: #d9e6ff !important;
+  color: #2d4d91 !important;
 }
 
 .segmented input:checked + .condition-button.taste-light {
-  border-color: #1e49af !important;
-  background: #245ecf !important;
+  border-color: #7f9fe6 !important;
+  background: #bfd3ff !important;
 }
 
 .condition-button.time-easy {
-  border-color: #38a169 !important;
-  background: #9ae6b4 !important;
-  color: #174a2f !important;
+  border-color: #9acfac !important;
+  background: #daf4e2 !important;
+  color: #2e613e !important;
 }
 
 .segmented input:checked + .condition-button.time-easy {
-  border-color: #2f855a !important;
-  background: #68d391 !important;
+  border-color: #7abc94 !important;
+  background: #c4ebd1 !important;
 }
 
 .condition-button.time-normal {
-  border-color: #d6a100 !important;
-  background: #ffe08a !important;
-  color: #5c4300 !important;
+  border-color: #e5c76c !important;
+  background: #fff2c7 !important;
+  color: #6a5220 !important;
 }
 
 .segmented input:checked + .condition-button.time-normal {
-  border-color: #b8860b !important;
-  background: #f6c944 !important;
+  border-color: #d7b653 !important;
+  background: #ffe8a6 !important;
 }
 
 .condition-button.time-slow {
-  border-color: #7c5cc4 !important;
-  background: #d6c7ff !important;
-  color: #39246f !important;
+  border-color: #c2afe7 !important;
+  background: #eee7ff !important;
+  color: #59467c !important;
 }
 
 .segmented input:checked + .condition-button.time-slow {
-  border-color: #6342ad !important;
-  background: #b69cff !important;
+  border-color: #ac96db !important;
+  background: #ded3ff !important;
 }
 
 .segmented span:hover {
