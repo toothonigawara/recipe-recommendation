@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>動画レシピ推薦システム</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="site-topbar">
+          <div class="brand-pill">RECIPE MARKET</div>
+          <a href="#recommendations">TOP 3</a>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Cooking Video Recommender</p>
+          <h1 id="page-title">RECIPE MARKET</h1>
+          <p class="lead">
+            今日の気分に合う料理動画を、ぎゅっと3本だけ。
+          </p>
+          <div class="hero-badges" aria-label="推薦の特徴">
+            <span>1000 DATA</span>
+            <span>3 PICKS</span>
+            <span>SHORTS</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="推薦条件と結果">
+        <aside class="control-panel" aria-label="条件選択">
+          <div class="panel-heading">
+            <p class="section-kicker">Conditions</p>
+            <h2>今の条件</h2>
+          </div>
+
+          <form id="recommendForm">
+            <fieldset>
+              <legend>味</legend>
+              <div class="segmented four" data-group="taste">
+                <label>
+                  <input type="radio" name="taste" value="rich" checked>
+                  <span>ガッツリ</span>
+                </label>
+                <label>
+                  <input type="radio" name="taste" value="semi-rich">
+                  <span>ややガッツリ</span>
+                </label>
+                <label>
+                  <input type="radio" name="taste" value="semi-light">
+                  <span>ややあっさり</span>
+                </label>
+                <label>
+                  <input type="radio" name="taste" value="light">
+                  <span>あっさり</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>調理時間</legend>
+              <div class="segmented three" data-group="time">
+                <label>
+                  <input type="radio" name="time" value="easy" checked>
+                  <span>簡単<br><small>〜15分</small></span>
+                </label>
+                <label>
+                  <input type="radio" name="time" value="normal">
+                  <span>普通<br><small>15〜30分</small></span>
+                </label>
+                <label>
+                  <input type="radio" name="time" value="slow">
+                  <span>じっくり<br><small>30分〜</small></span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>温度</legend>
+              <div class="segmented two" data-group="temperature">
+                <label>
+                  <input type="radio" name="temperature" value="warm" checked>
+                  <span>温かい</span>
+                </label>
+                <label>
+                  <input type="radio" name="temperature" value="cold">
+                  <span>冷たい</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>使用食材</legend>
+              <div class="ingredient-picker-card">
+                <button class="ingredient-open-button" id="openIngredientSelector" type="button">
+                  食材カテゴリを選ぶ
+                  <span id="ingredientCount">未選択</span>
+                </button>
+                <div class="ingredient-selected" id="selectedIngredients">
+                  <span>カテゴリ未選択</span>
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="ingredient-dialog" id="ingredientDialog" role="dialog" aria-modal="true" aria-labelledby="ingredientDialogTitle" hidden>
+              <div class="ingredient-dialog-panel">
+                <div class="ingredient-dialog-header">
+                  <h2 id="ingredientDialogTitle">食材カテゴリ選択</h2>
+                  <button class="icon-button" id="closeIngredientSelector" type="button" aria-label="閉じる">×</button>
+                </div>
+
+                <div class="ingredient-section meat-section">
+                  <h3>肉類</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="meat" data-category-toggle="meat">
+                    <span>肉類</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="beef" data-category-item="meat"><span>牛肉</span></label>
+                    <label><input type="checkbox" name="ingredients" value="pork" data-category-item="meat"><span>豚肉</span></label>
+                    <label><input type="checkbox" name="ingredients" value="minced_meat" data-category-item="meat"><span>挽肉</span></label>
+                    <label><input type="checkbox" name="ingredients" value="ham" data-category-item="meat"><span>ハム</span></label>
+                    <label><input type="checkbox" name="ingredients" value="bacon" data-category-item="meat"><span>ベーコン</span></label>
+                    <label><input type="checkbox" name="ingredients" value="chicken"><span>鶏肉</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-section seafood-section">
+                  <h3>魚介</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="seafood" data-category-toggle="seafood">
+                    <span>魚介</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="aji" data-category-item="seafood"><span>アジ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="squid" data-category-item="seafood"><span>いか</span></label>
+                    <label><input type="checkbox" name="ingredients" value="sardine" data-category-item="seafood"><span>イワシ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="shrimp" data-category-item="seafood"><span>えび</span></label>
+                    <label><input type="checkbox" name="ingredients" value="shellfish" data-category-item="seafood"><span>貝</span></label>
+                    <label><input type="checkbox" name="ingredients" value="oyster" data-category-item="seafood"><span>かき</span></label>
+                    <label><input type="checkbox" name="ingredients" value="crab" data-category-item="seafood"><span>かに</span></label>
+                    <label><input type="checkbox" name="ingredients" value="salmon" data-category-item="seafood"><span>サケ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="mackerel" data-category-item="seafood"><span>サバ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="saury" data-category-item="seafood"><span>サンマ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="shirasu" data-category-item="seafood"><span>しらす</span></label>
+                    <label><input type="checkbox" name="ingredients" value="whitefish" data-category-item="seafood"><span>白身魚</span></label>
+                    <label><input type="checkbox" name="ingredients" value="octopus" data-category-item="seafood"><span>たこ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="yellowtail" data-category-item="seafood"><span>ブリ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="scallop" data-category-item="seafood"><span>ほたて</span></label>
+                    <label><input type="checkbox" name="ingredients" value="tuna_sashimi" data-category-item="seafood"><span>マグロ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="canned_tuna" data-category-item="seafood"><span>ツナ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="mentaiko" data-category-item="seafood"><span>明太子</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-section vegetable-section">
+                  <h3>野菜</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="vegetableAll" data-category-toggle="vegetableAll">
+                    <span>野菜</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label class="ingredient-subcategory"><input type="checkbox" name="ingredients" value="leafyVegetable" data-category-toggle="leafyVegetable" data-category-item="vegetableAll"><span>葉物野菜</span></label>
+                    <label class="ingredient-subcategory"><input type="checkbox" name="ingredients" value="rootVegetable" data-category-toggle="rootVegetable" data-category-item="vegetableAll"><span>根菜</span></label>
+                    <label><input type="checkbox" name="ingredients" value="cabbage" data-category-item="vegetableAll leafyVegetable"><span>キャベツ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="cucumber" data-category-item="vegetableAll leafyVegetable"><span>きゅうり</span></label>
+                    <label><input type="checkbox" name="ingredients" value="komatsuna" data-category-item="vegetableAll leafyVegetable"><span>小松菜</span></label>
+                    <label><input type="checkbox" name="ingredients" value="bok_choy" data-category-item="vegetableAll leafyVegetable"><span>チンゲン菜</span></label>
+                    <label><input type="checkbox" name="ingredients" value="napa_cabbage" data-category-item="vegetableAll leafyVegetable"><span>白菜</span></label>
+                    <label><input type="checkbox" name="ingredients" value="nira" data-category-item="vegetableAll leafyVegetable"><span>にら</span></label>
+                    <label><input type="checkbox" name="ingredients" value="green_onion" data-category-item="vegetableAll leafyVegetable"><span>ネギ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="spinach" data-category-item="vegetableAll leafyVegetable"><span>ほうれん草</span></label>
+                    <label><input type="checkbox" name="ingredients" value="bean_sprouts" data-category-item="vegetableAll leafyVegetable"><span>もやし</span></label>
+                    <label><input type="checkbox" name="ingredients" value="lettuce" data-category-item="vegetableAll leafyVegetable"><span>レタス</span></label>
+                    <label><input type="checkbox" name="ingredients" value="turnip" data-category-item="vegetableAll rootVegetable"><span>かぶ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="pumpkin" data-category-item="vegetableAll rootVegetable"><span>かぼちゃ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="burdock" data-category-item="vegetableAll rootVegetable"><span>ごぼう</span></label>
+                    <label><input type="checkbox" name="ingredients" value="sweet_potato" data-category-item="vegetableAll rootVegetable"><span>さつま芋</span></label>
+                    <label><input type="checkbox" name="ingredients" value="taro" data-category-item="vegetableAll rootVegetable"><span>里芋</span></label>
+                    <label><input type="checkbox" name="ingredients" value="potato" data-category-item="vegetableAll rootVegetable"><span>じゃが芋</span></label>
+                    <label><input type="checkbox" name="ingredients" value="daikon" data-category-item="vegetableAll rootVegetable"><span>大根</span></label>
+                    <label><input type="checkbox" name="ingredients" value="onion" data-category-item="vegetableAll rootVegetable"><span>玉ねぎ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="nagaimo" data-category-item="vegetableAll rootVegetable"><span>長芋</span></label>
+                    <label><input type="checkbox" name="ingredients" value="carrot" data-category-item="vegetableAll rootVegetable"><span>にんじん</span></label>
+                    <label><input type="checkbox" name="ingredients" value="lotus_root" data-category-item="vegetableAll rootVegetable"><span>レンコン</span></label>
+                    <label><input type="checkbox" name="ingredients" value="tomato" data-category-item="vegetableAll"><span>トマト</span></label>
+                    <label><input type="checkbox" name="ingredients" value="eggplant" data-category-item="vegetableAll"><span>なす</span></label>
+                    <label><input type="checkbox" name="ingredients" value="bell_pepper" data-category-item="vegetableAll"><span>ピーマン</span></label>
+                    <label><input type="checkbox" name="ingredients" value="broccoli" data-category-item="vegetableAll"><span>ブロッコリー</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-section mushroom-section">
+                  <h3>きのこ</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="mushroom" data-category-toggle="mushroom">
+                    <span>きのこ</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="enoki" data-category-item="mushroom"><span>えのき茸</span></label>
+                    <label><input type="checkbox" name="ingredients" value="shimeji" data-category-item="mushroom"><span>しめじ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="shiitake" data-category-item="mushroom"><span>生しいたけ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="dried_shiitake" data-category-item="mushroom"><span>干しいたけ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="jellyfish" data-category-item="mushroom"><span>きくらげ</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-section soy-section">
+                  <h3>卵・豆腐</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="egg" data-category-toggle="egg">
+                    <span>卵</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="quail_egg" data-category-item="egg"><span>うずら卵</span></label>
+                  </div>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="soy" data-category-toggle="soy">
+                    <span>豆腐・大豆系</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="tofu" data-category-item="soy"><span>豆腐</span></label>
+                    <label><input type="checkbox" name="ingredients" value="atsuage" data-category-item="soy"><span>厚揚げ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="aburaage" data-category-item="soy"><span>油揚げ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="soybean" data-category-item="soy"><span>大豆</span></label>
+                    <label><input type="checkbox" name="ingredients" value="natto" data-category-item="soy"><span>納豆</span></label>
+                    <label><input type="checkbox" name="ingredients" value="okara" data-category-item="soy"><span>おから</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-section noodle-section">
+                  <h3>米・麺</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="rice">
+                    <span>米</span>
+                  </label>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="noodle" data-category-toggle="noodle">
+                    <span>麺</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="pasta" data-category-item="noodle"><span>パスタ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="udon" data-category-item="noodle"><span>うどん</span></label>
+                    <label><input type="checkbox" name="ingredients" value="soba" data-category-item="noodle"><span>そば</span></label>
+                    <label><input type="checkbox" name="ingredients" value="noodles" data-category-item="noodle"><span>中華麺</span></label>
+                    <label><input type="checkbox" name="ingredients" value="somen" data-category-item="noodle"><span>そうめん</span></label>
+                    <label><input type="checkbox" name="ingredients" value="ramen" data-category-item="noodle"><span>ラーメン</span></label>
+                    <label><input type="checkbox" name="ingredients" value="yakisoba_noodles" data-category-item="noodle"><span>焼きそば麺</span></label>
+                    <label><input type="checkbox" name="ingredients" value="rice_noodles" data-category-item="noodle"><span>ビーフン・フォー</span></label>
+                    <label><input type="checkbox" name="ingredients" value="harusame" data-category-item="noodle"><span>春雨</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-section other-section">
+                  <h3>その他</h3>
+                  <label class="ingredient-parent">
+                    <input type="checkbox" name="ingredients" value="richDairy" data-category-toggle="richDairy">
+                    <span>チーズ・バター・マヨ系</span>
+                  </label>
+                  <div class="ingredient-choice-grid">
+                    <label><input type="checkbox" name="ingredients" value="cheese" data-category-item="richDairy"><span>チーズ</span></label>
+                    <label><input type="checkbox" name="ingredients" value="butter" data-category-item="richDairy"><span>バター</span></label>
+                  </div>
+                </div>
+
+                <div class="ingredient-actions">
+                  <button class="primary-action" id="confirmIngredientSelector" type="button">決定</button>
+                  <button class="secondary-action" id="backIngredientSelector" type="button">戻る</button>
+                  <button class="secondary-action" id="clearIngredientSelector" type="button">クリア</button>
+                </div>
+              </div>
+            </div>
+
+            <fieldset>
+              <legend>オプション</legend>
+              <div class="option-list">
+                <label class="toggle-row">
+                  <span>包丁を使わない</span>
+                  <input type="checkbox" name="noKnife">
+                </label>
+                <label class="toggle-row">
+                  <span>火を使わない</span>
+                  <input type="checkbox" name="noHeat">
+                </label>
+              </div>
+            </fieldset>
+          </form>
+        </aside>
+
+        <section class="result-panel" aria-label="推薦結果">
+          <div class="result-header">
+            <div>
+              <p class="section-kicker">Top 3</p>
+              <h2>推薦動画</h2>
+              <p class="source-note">実在するYouTube料理動画1000件から推薦</p>
+              <p class="embed-note" id="embedNote" hidden>動画再生はローカルサーバー経由で開くと安定します。</p>
+            </div>
+            <div class="decision-meter" aria-label="決定疲れ軽減指標">
+              <span>候補数</span>
+              <strong>3</strong>
+            </div>
+          </div>
+
+          <div class="summary-strip" id="summaryStrip"></div>
+          <div class="recommendations" id="recommendations"></div>
+        </section>
+      </section>
+    </main>
+
+    <template id="recipeCardTemplate">
+      <article class="recipe-card">
+        <div class="video-frame-wrap card-video-frame">
+          <button class="video-load-button" type="button" aria-label="動画を再生">
+            <img alt="">
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </button>
+          <span class="rank-badge"></span>
+        </div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="creator"></span>
+            <span class="score"></span>
+          </div>
+          <h3></h3>
+          <p class="description"></p>
+          <div class="meta-row"></div>
+          <div class="reason-box"></div>
+          <div class="card-actions">
+            <a class="youtube-link" target="_blank" rel="noreferrer">YouTubeで開く</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <div class="video-dialog" id="videoDialog" role="dialog" aria-modal="true" aria-labelledby="videoDialogTitle" hidden>
+      <div class="video-dialog-panel">
+        <div class="video-dialog-header">
+          <h2 id="videoDialogTitle"></h2>
+          <button class="icon-button" id="closeVideoDialog" type="button" aria-label="閉じる">×</button>
+        </div>
+        <div class="video-frame-wrap" id="videoFrameWrap"></div>
+      </div>
+    </div>
+
+    <script src="recipes-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Soft cooking illustration background">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff1c8"/>
+      <stop offset="0.52" stop-color="#ffd3ba"/>
+      <stop offset="1" stop-color="#ffe5a8"/>
+    </linearGradient>
+    <pattern id="dots" width="72" height="72" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="12" r="5" fill="#ffffff" opacity="0.42"/>
+      <circle cx="52" cy="42" r="4" fill="#0aa982" opacity="0.18"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+  <path d="M-70 660 C260 545 310 770 560 622 C784 490 870 620 1080 500 C1305 372 1480 420 1680 290 L1680 950 L-70 950 Z" fill="#ffb25f" opacity="0.48"/>
+  <path d="M-40 730 C240 640 420 850 690 700 C970 548 1140 700 1390 564 C1510 498 1600 500 1660 522 L1660 940 L-40 940 Z" fill="#0aa982" opacity="0.25"/>
+  <g stroke="#302521" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(1040 160) rotate(8)">
+      <rect x="0" y="110" width="310" height="150" rx="38" fill="#ffffff"/>
+      <path d="M32 110 C74 38 232 38 278 110" fill="#fff6df"/>
+      <path d="M80 125 C95 152 136 154 152 124" fill="none"/>
+      <path d="M178 125 C196 154 236 151 250 124" fill="none"/>
+      <circle cx="108" cy="76" r="18" fill="#ef5c48" stroke="none"/>
+      <circle cx="170" cy="62" r="16" fill="#0aa982" stroke="none"/>
+      <circle cx="224" cy="82" r="19" fill="#ffc73c" stroke="none"/>
+    </g>
+    <g transform="translate(118 130) rotate(-10)">
+      <path d="M50 186 C34 104 86 46 182 42 C282 38 346 96 320 188 C302 256 78 256 50 186 Z" fill="#ffffff"/>
+      <path d="M94 62 C124 18 236 18 270 62" fill="none"/>
+      <path d="M120 126 C156 104 220 104 250 126" fill="none"/>
+      <circle cx="146" cy="166" r="16" fill="#ffbc35" stroke="none"/>
+      <circle cx="214" cy="166" r="16" fill="#ff7f61" stroke="none"/>
+    </g>
+    <g transform="translate(700 68) rotate(14)">
+      <path d="M72 64 C116 12 210 18 242 72 C198 88 118 88 72 64 Z" fill="#0aa982"/>
+      <path d="M155 72 C132 128 104 166 56 202" fill="none"/>
+      <path d="M152 74 C178 128 210 162 262 196" fill="none"/>
+      <path d="M98 110 C132 98 178 98 220 112" fill="none"/>
+    </g>
+    <g transform="translate(250 490) rotate(7)">
+      <rect x="70" y="60" width="250" height="170" rx="42" fill="#fffdf5"/>
+      <path d="M112 60 C122 10 270 10 282 60" fill="none"/>
+      <path d="M120 122 L270 122" fill="none"/>
+      <path d="M140 166 L245 166" fill="none"/>
+      <circle cx="92" cy="82" r="12" fill="#0aa982" stroke="none"/>
+      <circle cx="300" cy="82" r="12" fill="#ef5c48" stroke="none"/>
+    </g>
+    <g transform="translate(840 610) rotate(-8)">
+      <path d="M0 126 C86 48 204 48 294 126 C220 204 78 204 0 126 Z" fill="#fffdf5"/>
+      <path d="M52 126 C112 92 186 92 242 126" fill="none"/>
+      <circle cx="112" cy="124" r="18" fill="#ffc73c" stroke="none"/>
+      <circle cx="178" cy="124" r="18" fill="#0aa982" stroke="none"/>
+    </g>
+  </g>
+</svg>
