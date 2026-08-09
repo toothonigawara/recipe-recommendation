@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 調理条件に基づく動画レシピ推薦システム
 
 一人暮らし大学生・若年層を想定した、動画レシピ推薦Webプロトタイプです。
@@ -126,3 +127,6 @@ python3 scripts/curate_recipe_ingredients.py
 例: 豚肉400g・2人前の場合、1人前は200gです。豚肉の標準1人前量を200gと定めているため、肉類のカテゴリスコアをそのまま使います。
 
 個数表記の食材は `data/ingredient-serving-standards.csv` の `unit_g` でg換算します。例: 玉ねぎ1個=200g、卵1個=50g。
+=======
+# recipe-recommendation
+>>>>>>> fce23052b22a7c71ff8cef2bc468597c4692f47b
