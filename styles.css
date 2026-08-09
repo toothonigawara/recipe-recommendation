@@ -298,48 +298,24 @@ legend {
 }
 
 .segmented[data-group="taste"] input[value="rich"] + span {
-  border-color: rgba(203, 45, 36, 0.32);
-  background: #fff0ed;
-  color: #9f2118;
-}
-
-.segmented[data-group="taste"] input[value="semi-rich"] + span {
-  border-color: rgba(239, 92, 72, 0.3);
-  background: #fff4f1;
-  color: #b84436;
-}
-
-.segmented[data-group="taste"] input[value="semi-light"] + span {
-  border-color: rgba(40, 169, 211, 0.3);
-  background: #edfaff;
-  color: #176579;
-}
-
-.segmented[data-group="taste"] input[value="light"] + span {
-  border-color: rgba(44, 100, 207, 0.3);
-  background: #edf3ff;
-  color: #244b9a;
-}
-
-.segmented[data-group="taste"] input[value="rich"]:checked + span {
   border-color: #b6231b;
   background: #df3429;
   color: #fff;
 }
 
-.segmented[data-group="taste"] input[value="semi-rich"]:checked + span {
+.segmented[data-group="taste"] input[value="semi-rich"] + span {
   border-color: #ef7a69;
   background: #ffb3a7;
   color: #7f241a;
 }
 
-.segmented[data-group="taste"] input[value="semi-light"]:checked + span {
+.segmented[data-group="taste"] input[value="semi-light"] + span {
   border-color: #5bbcdf;
   background: #a7e8f8;
   color: #0b5268;
 }
 
-.segmented[data-group="taste"] input[value="light"]:checked + span {
+.segmented[data-group="taste"] input[value="light"] + span {
   border-color: #2557c8;
   background: #2f6fe4;
   color: #fff;
@@ -355,6 +331,143 @@ legend {
 
 .segmented label:nth-child(4) input:checked + span {
   background: #ffb1cc;
+}
+
+.segmented[data-group="time"] input[value="easy"] + span {
+  border-color: #38a169;
+  background: #9ae6b4;
+  color: #174a2f;
+}
+
+.segmented[data-group="time"] input[value="normal"] + span {
+  border-color: #d6a100;
+  background: #ffe08a;
+  color: #5c4300;
+}
+
+.segmented[data-group="time"] input[value="slow"] + span {
+  border-color: #7c5cc4;
+  background: #d6c7ff;
+  color: #39246f;
+}
+
+.segmented[data-group="time"] input[value="easy"]:checked + span {
+  border-color: #2f855a;
+  background: #68d391;
+  color: #103820;
+}
+
+.segmented[data-group="time"] input[value="normal"]:checked + span {
+  border-color: #b8860b;
+  background: #f6c944;
+  color: #4a3500;
+}
+
+.segmented[data-group="time"] input[value="slow"]:checked + span {
+  border-color: #6342ad;
+  background: #b69cff;
+  color: #2b195e;
+}
+
+.segmented[data-group="taste"] input[value="rich"]:checked + span {
+  border-color: #8f1b15;
+  background: #c9271e;
+  color: #fff;
+}
+
+.segmented[data-group="taste"] input[value="semi-rich"]:checked + span {
+  border-color: #dc6655;
+  background: #ff9d8e;
+  color: #6f1d14;
+}
+
+.segmented[data-group="taste"] input[value="semi-light"]:checked + span {
+  border-color: #42aeda;
+  background: #87def3;
+  color: #083f51;
+}
+
+.segmented[data-group="taste"] input[value="light"]:checked + span {
+  border-color: #1e49af;
+  background: #245ecf;
+  color: #fff;
+}
+
+.condition-button.taste-rich {
+  border-color: #b6231b !important;
+  background: #df3429 !important;
+  color: #fff !important;
+}
+
+.segmented input:checked + .condition-button.taste-rich {
+  border-color: #8f1b15 !important;
+  background: #c9271e !important;
+}
+
+.condition-button.taste-semi-rich {
+  border-color: #ef7a69 !important;
+  background: #ffb3a7 !important;
+  color: #7f241a !important;
+}
+
+.segmented input:checked + .condition-button.taste-semi-rich {
+  border-color: #dc6655 !important;
+  background: #ff9d8e !important;
+}
+
+.condition-button.taste-semi-light {
+  border-color: #5bbcdf !important;
+  background: #a7e8f8 !important;
+  color: #0b5268 !important;
+}
+
+.segmented input:checked + .condition-button.taste-semi-light {
+  border-color: #42aeda !important;
+  background: #87def3 !important;
+}
+
+.condition-button.taste-light {
+  border-color: #2557c8 !important;
+  background: #2f6fe4 !important;
+  color: #fff !important;
+}
+
+.segmented input:checked + .condition-button.taste-light {
+  border-color: #1e49af !important;
+  background: #245ecf !important;
+}
+
+.condition-button.time-easy {
+  border-color: #38a169 !important;
+  background: #9ae6b4 !important;
+  color: #174a2f !important;
+}
+
+.segmented input:checked + .condition-button.time-easy {
+  border-color: #2f855a !important;
+  background: #68d391 !important;
+}
+
+.condition-button.time-normal {
+  border-color: #d6a100 !important;
+  background: #ffe08a !important;
+  color: #5c4300 !important;
+}
+
+.segmented input:checked + .condition-button.time-normal {
+  border-color: #b8860b !important;
+  background: #f6c944 !important;
+}
+
+.condition-button.time-slow {
+  border-color: #7c5cc4 !important;
+  background: #d6c7ff !important;
+  color: #39246f !important;
+}
+
+.segmented input:checked + .condition-button.time-slow {
+  border-color: #6342ad !important;
+  background: #b69cff !important;
 }
 
 .segmented span:hover {

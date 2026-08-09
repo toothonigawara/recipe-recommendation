@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>動画レシピ推薦システム</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=condition-buttons-20260809">
   </head>
   <body>
     <main class="app-shell">
@@ -41,19 +41,19 @@
               <div class="segmented four" data-group="taste">
                 <label>
                   <input type="radio" name="taste" value="rich" checked>
-                  <span>ガッツリ</span>
+                  <span class="condition-button taste-rich">ガッツリ</span>
                 </label>
                 <label>
                   <input type="radio" name="taste" value="semi-rich">
-                  <span>ややガッツリ</span>
+                  <span class="condition-button taste-semi-rich">ややガッツリ</span>
                 </label>
                 <label>
                   <input type="radio" name="taste" value="semi-light">
-                  <span>ややあっさり</span>
+                  <span class="condition-button taste-semi-light">ややあっさり</span>
                 </label>
                 <label>
                   <input type="radio" name="taste" value="light">
-                  <span>あっさり</span>
+                  <span class="condition-button taste-light">あっさり</span>
                 </label>
               </div>
             </fieldset>
@@ -63,15 +63,15 @@
               <div class="segmented three" data-group="time">
                 <label>
                   <input type="radio" name="time" value="easy" checked>
-                  <span>簡単<br><small>〜15分</small></span>
+                  <span class="condition-button time-easy">簡単<br><small>〜15分</small></span>
                 </label>
                 <label>
                   <input type="radio" name="time" value="normal">
-                  <span>普通<br><small>15〜30分</small></span>
+                  <span class="condition-button time-normal">普通<br><small>15〜30分</small></span>
                 </label>
                 <label>
                   <input type="radio" name="time" value="slow">
-                  <span>じっくり<br><small>30分〜</small></span>
+                  <span class="condition-button time-slow">じっくり<br><small>30分〜</small></span>
                 </label>
               </div>
             </fieldset>
