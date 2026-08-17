@@ -188,6 +188,15 @@ h1 {
   z-index: 2;
 }
 
+.home-workspace {
+  grid-template-columns: minmax(300px, 380px);
+  justify-content: center;
+}
+
+.result-workspace {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .control-panel,
 .result-panel {
   background: rgba(255, 255, 255, 0.98);
@@ -746,6 +755,15 @@ legend {
   overflow-wrap: anywhere;
 }
 
+.ingredient-section.soy-section .ingredient-parent,
+.ingredient-section.soy-section .ingredient-choice-grid label {
+  min-width: 150px;
+}
+
+.ingredient-section.soy-section .ingredient-choice-grid + .ingredient-parent {
+  margin-top: 12px;
+}
+
 .ingredient-actions {
   position: sticky;
   bottom: -28px;
@@ -774,6 +792,23 @@ legend {
 
 .secondary-action {
   background: linear-gradient(#ffffff, #d8f6ee);
+}
+
+.form-actions,
+.result-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.search-action {
+  min-width: 180px;
+}
+
+.result-actions .secondary-action {
+  display: inline-grid;
+  place-items: center;
+  text-decoration: none;
 }
 
 body.dialog-open {

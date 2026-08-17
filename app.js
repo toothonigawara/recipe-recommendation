@@ -281,8 +281,34 @@ const videoDialog = document.querySelector("#videoDialog");
 const closeVideoDialog = document.querySelector("#closeVideoDialog");
 const videoDialogTitle = document.querySelector("#videoDialogTitle");
 const videoFrameWrap = document.querySelector("#videoFrameWrap");
+const searchButton = document.querySelector("#searchButton");
+const changeConditionsLink = document.querySelector("#changeConditionsLink");
+
+const defaultConditions = {
+  taste: "rich",
+  time: "easy",
+  temperature: "warm",
+  ingredients: [],
+  noKnife: false,
+  noHeat: false
+};
+
+const ingredientChoiceIdsByGroup = {
+  meat: ["beef", "pork", "minced_meat", "ham", "bacon"],
+  seafood: ["aji", "squid", "sardine", "shrimp", "shellfish", "oyster", "crab", "salmon", "mackerel", "saury", "shirasu", "whitefish", "octopus", "yellowtail", "scallop", "tuna_sashimi", "canned_tuna", "mentaiko"],
+  vegetableAll: ["leafyVegetable", "rootVegetable", "cabbage", "cucumber", "komatsuna", "bok_choy", "napa_cabbage", "nira", "green_onion", "spinach", "bean_sprouts", "lettuce", "turnip", "pumpkin", "burdock", "sweet_potato", "taro", "potato", "daikon", "onion", "nagaimo", "carrot", "lotus_root", "tomato", "eggplant", "bell_pepper", "broccoli"],
+  leafyVegetable: ["cabbage", "cucumber", "komatsuna", "bok_choy", "napa_cabbage", "nira", "green_onion", "spinach", "bean_sprouts", "lettuce"],
+  rootVegetable: ["turnip", "pumpkin", "burdock", "sweet_potato", "taro", "potato", "daikon", "onion", "nagaimo", "carrot", "lotus_root"],
+  mushroom: ["enoki", "shimeji", "shiitake", "dried_shiitake", "jellyfish"],
+  egg: ["quail_egg"],
+  soy: ["tofu", "atsuage", "aburaage", "soybean", "natto", "okara"],
+  noodle: ["pasta", "udon", "soba", "noodles", "somen", "ramen", "yakisoba_noodles", "rice_noodles", "harusame"],
+  richDairy: ["cheese", "butter"]
+};
 
 function readConditions() {
+  if (!form) return readConditionsFromUrl();
+
   const formData = new FormData(form);
   return {
     taste: formData.get("taste"),
@@ -292,6 +318,57 @@ function readConditions() {
     noKnife: formData.has("noKnife"),
     noHeat: formData.has("noHeat")
   };
+}
+
+function readConditionsFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    taste: params.get("taste") || defaultConditions.taste,
+    time: params.get("time") || defaultConditions.time,
+    temperature: params.get("temperature") || defaultConditions.temperature,
+    ingredients: params.getAll("ingredients"),
+    noKnife: params.get("noKnife") === "1",
+    noHeat: params.get("noHeat") === "1"
+  };
+}
+
+function buildConditionsQuery(conditions) {
+  const params = new URLSearchParams();
+  params.set("taste", conditions.taste || defaultConditions.taste);
+  params.set("time", conditions.time || defaultConditions.time);
+  params.set("temperature", conditions.temperature || defaultConditions.temperature);
+  conditions.ingredients.forEach((item) => params.append("ingredients", item));
+  if (conditions.noKnife) params.set("noKnife", "1");
+  if (conditions.noHeat) params.set("noHeat", "1");
+  return params.toString();
+}
+
+function buildPageUrl(page, conditions) {
+  const query = buildConditionsQuery(conditions);
+  return query ? `${page}?${query}` : page;
+}
+
+function applyConditionsToForm(conditions) {
+  if (!form) return;
+
+  ["taste", "time", "temperature"].forEach((name) => {
+    const input = form.querySelector(`input[name="${name}"][value="${conditions[name]}"]`);
+    if (input) input.checked = true;
+  });
+
+  form.querySelectorAll('input[name="ingredients"]').forEach((input) => {
+    input.checked = conditions.ingredients.includes(input.value);
+    input.indeterminate = false;
+  });
+
+  const noKnife = form.querySelector('input[name="noKnife"]');
+  const noHeat = form.querySelector('input[name="noHeat"]');
+  if (noKnife) noKnife.checked = conditions.noKnife;
+  if (noHeat) noHeat.checked = conditions.noHeat;
+}
+
+function goToResults() {
+  window.location.href = buildPageUrl("results.html", readConditions());
 }
 
 function scoreRecipe(recipe, conditions) {
@@ -513,16 +590,20 @@ function getTentativeRichnessProfile(recipe) {
 }
 
 function openIngredientDialog() {
+  if (!ingredientDialog) return;
   ingredientDialog.hidden = false;
   document.body.classList.add("dialog-open");
 }
 
 function closeIngredientDialog() {
+  if (!ingredientDialog) return;
   ingredientDialog.hidden = true;
   document.body.classList.remove("dialog-open");
 }
 
 function openVideoDialog(recipe) {
+  if (!videoDialog || !videoDialogTitle || !videoFrameWrap) return;
+
   const iframe = createYoutubeIframe(recipe, true);
   if (!iframe) {
     window.open(buildYoutubeUrl(recipe), "_blank", "noopener");
@@ -538,12 +619,15 @@ function openVideoDialog(recipe) {
 }
 
 function closeVideoDialogModal() {
+  if (!videoDialog || !videoFrameWrap) return;
   videoDialog.hidden = true;
   videoFrameWrap.innerHTML = "";
   document.body.classList.remove("dialog-open");
 }
 
 function renderSelectedIngredients(conditions) {
+  if (!selectedIngredients || !ingredientCount) return;
+
   selectedIngredients.innerHTML = "";
 
   const visibleSelection = getVisibleSelectedIngredients(conditions.ingredients);
@@ -572,6 +656,8 @@ function renderSelectedIngredients(conditions) {
 }
 
 function renderSummary(conditions) {
+  if (!summaryStrip) return;
+
   const visibleIngredients = getVisibleSelectedIngredients(conditions.ingredients);
   const tags = [
     labels.taste[conditions.taste],
@@ -592,17 +678,29 @@ function renderSummary(conditions) {
 }
 
 function getCategoryGroups() {
+  if (!ingredientDialog) return Object.keys(ingredientChoiceIdsByGroup);
+
   return Array.from(ingredientDialog.querySelectorAll("[data-category-toggle]"))
     .map((input) => input.dataset.categoryToggle)
     .filter(Boolean);
 }
 
 function getCategoryItems(groupId) {
+  if (!ingredientDialog) return [];
+
   return Array.from(ingredientDialog.querySelectorAll("[data-category-item]"))
     .filter((input) => input.dataset.categoryItem.split(/\s+/).includes(groupId));
 }
 
+function getCategoryItemIds(groupId) {
+  const domItems = getCategoryItems(groupId).map((input) => input.value);
+  if (domItems.length > 0) return domItems;
+  return ingredientChoiceIdsByGroup[groupId] || [];
+}
+
 function syncCategoryToggle(groupId) {
+  if (!ingredientDialog) return;
+
   const toggle = ingredientDialog.querySelector(`[data-category-toggle="${groupId}"]`);
   const items = getCategoryItems(groupId);
   if (!toggle || items.length === 0) return;
@@ -624,8 +722,7 @@ function getVisibleSelectedIngredients(selectedIds) {
   getCategoryGroups().forEach((groupId) => {
     if (!selectedSet.has(groupId)) return;
 
-    const groupItems = getCategoryItems(groupId).filter((input) => input.name === "ingredients");
-    groupItems.forEach((input) => hiddenIds.add(input.value));
+    getCategoryItemIds(groupId).forEach((id) => hiddenIds.add(id));
 
     if (labels.ingredients[groupId]) {
       visibleIds.push(groupId);
@@ -642,6 +739,8 @@ function getVisibleSelectedIngredients(selectedIds) {
 }
 
 function renderCards(scoredRecipes) {
+  if (!recommendations || !template) return;
+
   recommendations.innerHTML = "";
 
   scoredRecipes.slice(0, 3).forEach((recipe, index) => {
@@ -711,48 +810,77 @@ function updateRecommendations() {
   renderSelectedIngredients(conditions);
   renderSummary(conditions);
   renderCards(scoredRecipes);
+
+  if (changeConditionsLink) {
+    changeConditionsLink.href = buildPageUrl("index.html", conditions);
+  }
 }
 
-form.addEventListener("change", updateRecommendations);
-ingredientDialog.addEventListener("change", (event) => {
-  if (!event.target.matches('input[type="checkbox"]')) return;
-
-  const toggleGroup = event.target.dataset.categoryToggle;
-  if (toggleGroup) {
-    getCategoryItems(toggleGroup).forEach((input) => {
-      input.checked = event.target.checked;
-    });
-    event.target.indeterminate = false;
-  }
-
-  syncAllCategoryToggles();
-});
-openIngredientSelector.addEventListener("click", openIngredientDialog);
-closeIngredientSelector.addEventListener("click", closeIngredientDialog);
-backIngredientSelector.addEventListener("click", closeIngredientDialog);
-confirmIngredientSelector.addEventListener("click", () => {
-  updateRecommendations();
-  closeIngredientDialog();
-});
-clearIngredientSelector.addEventListener("click", () => {
-  ingredientDialog.querySelectorAll('input[type="checkbox"]').forEach((input) => {
-    input.checked = false;
-    input.indeterminate = false;
+if (form) {
+  applyConditionsToForm(readConditionsFromUrl());
+  form.addEventListener("change", updateRecommendations);
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    goToResults();
   });
-  updateRecommendations();
-});
-ingredientDialog.addEventListener("click", (event) => {
-  if (event.target === ingredientDialog) closeIngredientDialog();
-});
-closeVideoDialog.addEventListener("click", closeVideoDialogModal);
-videoDialog.addEventListener("click", (event) => {
-  if (event.target === videoDialog) closeVideoDialogModal();
-});
+}
+
+if (searchButton) {
+  searchButton.addEventListener("click", (event) => {
+    event.preventDefault();
+    goToResults();
+  });
+}
+
+if (ingredientDialog) {
+  ingredientDialog.addEventListener("change", (event) => {
+    if (!event.target.matches('input[type="checkbox"]')) return;
+
+    const toggleGroup = event.target.dataset.categoryToggle;
+    if (toggleGroup) {
+      getCategoryItems(toggleGroup).forEach((input) => {
+        input.checked = event.target.checked;
+      });
+      event.target.indeterminate = false;
+    }
+
+    syncAllCategoryToggles();
+  });
+
+  ingredientDialog.addEventListener("click", (event) => {
+    if (event.target === ingredientDialog) closeIngredientDialog();
+  });
+}
+
+if (openIngredientSelector) openIngredientSelector.addEventListener("click", openIngredientDialog);
+if (closeIngredientSelector) closeIngredientSelector.addEventListener("click", closeIngredientDialog);
+if (backIngredientSelector) backIngredientSelector.addEventListener("click", closeIngredientDialog);
+if (confirmIngredientSelector) {
+  confirmIngredientSelector.addEventListener("click", () => {
+    updateRecommendations();
+    closeIngredientDialog();
+  });
+}
+if (clearIngredientSelector && ingredientDialog) {
+  clearIngredientSelector.addEventListener("click", () => {
+    ingredientDialog.querySelectorAll('input[type="checkbox"]').forEach((input) => {
+      input.checked = false;
+      input.indeterminate = false;
+    });
+    updateRecommendations();
+  });
+}
+if (closeVideoDialog) closeVideoDialog.addEventListener("click", closeVideoDialogModal);
+if (videoDialog) {
+  videoDialog.addEventListener("click", (event) => {
+    if (event.target === videoDialog) closeVideoDialogModal();
+  });
+}
 document.addEventListener("keydown", (event) => {
   if (event.key !== "Escape") return;
-  if (!videoDialog.hidden) {
+  if (videoDialog && !videoDialog.hidden) {
     closeVideoDialogModal();
-  } else if (!ingredientDialog.hidden) {
+  } else if (ingredientDialog && !ingredientDialog.hidden) {
     closeIngredientDialog();
   }
 });

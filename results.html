@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>推薦動画 | 動画レシピ推薦システム</title>
+    <link rel="stylesheet" href="styles.css?v=two-page-flow-20260817b">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="site-topbar">
+          <div class="brand-pill">RECIPE MARKET</div>
+          <a href="index.html">Conditions</a>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Cooking Video Recommender</p>
+          <h1 id="page-title">RECIPE MARKET</h1>
+          <p class="lead">
+            今日の気分に合う料理動画を、ぎゅっと3本だけ。
+          </p>
+          <div class="hero-badges" aria-label="推薦の特徴">
+            <span>1000 DATA</span>
+            <span>3 PICKS</span>
+            <span>SHORTS</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace result-workspace" aria-label="推薦結果">
+        <section class="result-panel" aria-label="推薦結果">
+          <div class="result-header">
+            <div>
+              <p class="section-kicker">Top 3</p>
+              <h2>推薦動画</h2>
+              <p class="source-note">実在するYouTube料理動画1000件から推薦</p>
+              <p class="embed-note" id="embedNote" hidden>動画再生はローカルサーバー経由で開くと安定します。</p>
+            </div>
+            <div class="decision-meter" aria-label="決定疲れ軽減指標">
+              <span>候補数</span>
+              <strong>3</strong>
+            </div>
+          </div>
+
+          <div class="summary-strip" id="summaryStrip"></div>
+          <div class="recommendations" id="recommendations"></div>
+          <div class="result-actions">
+            <a class="secondary-action" id="changeConditionsLink" href="index.html">条件を変える</a>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <template id="recipeCardTemplate">
+      <article class="recipe-card">
+        <div class="video-frame-wrap card-video-frame">
+          <button class="video-load-button" type="button" aria-label="動画を再生">
+            <img alt="">
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </button>
+          <span class="rank-badge"></span>
+        </div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="creator"></span>
+            <span class="score"></span>
+          </div>
+          <h3></h3>
+          <p class="description"></p>
+          <div class="meta-row"></div>
+          <div class="reason-box"></div>
+          <div class="card-actions">
+            <a class="youtube-link" target="_blank" rel="noreferrer">YouTubeで開く</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <div class="video-dialog" id="videoDialog" role="dialog" aria-modal="true" aria-labelledby="videoDialogTitle" hidden>
+      <div class="video-dialog-panel">
+        <div class="video-dialog-header">
+          <h2 id="videoDialogTitle"></h2>
+          <button class="icon-button" id="closeVideoDialog" type="button" aria-label="閉じる">×</button>
+        </div>
+        <div class="video-frame-wrap" id="videoFrameWrap"></div>
+      </div>
+    </div>
+
+    <script src="recipes-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
