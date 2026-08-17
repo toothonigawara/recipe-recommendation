@@ -463,8 +463,28 @@ function getSelectedIngredientProfile(selectedIds) {
   };
 }
 
+function getTrustedUrl(rawUrl, allowedHosts) {
+  try {
+    const url = new URL(rawUrl);
+    if (url.protocol !== "https:") return "";
+    if (!allowedHosts.some((host) => url.hostname === host || url.hostname.endsWith(`.${host}`))) return "";
+    return url.href;
+  } catch {
+    return "";
+  }
+}
+
+function getTrustedYoutubeUrl(rawUrl) {
+  return getTrustedUrl(rawUrl, ["youtube.com", "youtu.be"]);
+}
+
+function getTrustedThumbnailUrl(rawUrl) {
+  return getTrustedUrl(rawUrl, ["ytimg.com"]);
+}
+
 function buildYoutubeUrl(recipe) {
-  if (recipe.url) return recipe.url;
+  const trustedRecipeUrl = getTrustedYoutubeUrl(recipe.url || "");
+  if (trustedRecipeUrl) return trustedRecipeUrl;
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${recipe.creator} ${recipe.title}`)}`;
 }
 
@@ -476,7 +496,8 @@ function getYoutubeVideoId(recipe) {
 }
 
 function getYoutubeThumbnail(recipe) {
-  if (recipe.thumbnailUrl) return recipe.thumbnailUrl;
+  const trustedThumbnailUrl = getTrustedThumbnailUrl(recipe.thumbnailUrl || "");
+  if (trustedThumbnailUrl) return trustedThumbnailUrl;
   const videoId = getYoutubeVideoId(recipe);
   if (!videoId) {
     return "assets/hero-illustration.svg";
