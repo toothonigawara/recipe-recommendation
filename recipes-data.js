@@ -1,6 +1,9 @@
 const recipes = [
   {
     "title": "ご飯のおかわりが止まらない！「甘辛ごまチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
+    "platform": "youtube",
+    "externalId": "oDee3Kv78-8",
+    "videoUrl": "https://www.youtube.com/watch?v=oDee3Kv78-8",
     "videoId": "oDee3Kv78-8",
     "url": "https://www.youtube.com/watch?v=oDee3Kv78-8",
     "thumbnailUrl": "https://i.ytimg.com/vi/oDee3Kv78-8/maxresdefault.jpg",
@@ -26,6 +29,9 @@ const recipes = [
   },
   {
     "title": "ご飯がすすみまくるぞ！「鶏むね肉の甘酢マヨチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
+    "platform": "youtube",
+    "externalId": "QYbWnB1xD_4",
+    "videoUrl": "https://www.youtube.com/watch?v=QYbWnB1xD_4",
     "videoId": "QYbWnB1xD_4",
     "url": "https://www.youtube.com/watch?v=QYbWnB1xD_4",
     "thumbnailUrl": "https://i.ytimg.com/vi/QYbWnB1xD_4/maxresdefault.jpg",
@@ -59,6 +65,9 @@ const recipes = [
   },
   {
     "title": "洗い物も少ないし/生焼けの心配もない/いいとこ尽くしの【食べたらハンバーグ丼】詳しいレシピは概要欄を見てね♪#晩ごはん #丼ぶり #ハンバーグ#ひき肉 #簡単レシピ #レシピ動画 #料理動画",
+    "platform": "youtube",
+    "externalId": "-LnlkzhU5xE",
+    "videoUrl": "https://www.youtube.com/watch?v=-LnlkzhU5xE",
     "videoId": "-LnlkzhU5xE",
     "url": "https://www.youtube.com/watch?v=-LnlkzhU5xE",
     "thumbnailUrl": "https://i.ytimg.com/vi/-LnlkzhU5xE/maxresdefault.jpg",
@@ -94,6 +103,9 @@ const recipes = [
   },
   {
     "title": "夫がまた作ってと言った『ジャーマンポテト』 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "tGm-3KMBTkY",
+    "videoUrl": "https://www.youtube.com/watch?v=tGm-3KMBTkY",
     "videoId": "tGm-3KMBTkY",
     "url": "https://www.youtube.com/watch?v=tGm-3KMBTkY",
     "thumbnailUrl": "https://i.ytimg.com/vi/tGm-3KMBTkY/maxresdefault.jpg",
@@ -119,6 +131,9 @@ const recipes = [
   },
   {
     "title": "味がしみしみ！いくらでも食べられる 【こんにゃく串】 詳しいレシピは概要欄をチェック！ #料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん",
+    "platform": "youtube",
+    "externalId": "NzGN6hcD2Ow",
+    "videoUrl": "https://www.youtube.com/watch?v=NzGN6hcD2Ow",
     "videoId": "NzGN6hcD2Ow",
     "url": "https://www.youtube.com/watch?v=NzGN6hcD2Ow",
     "thumbnailUrl": "https://i.ytimg.com/vi/NzGN6hcD2Ow/maxresdefault.jpg",
@@ -144,6 +159,9 @@ const recipes = [
   },
   {
     "title": "【なすで巻くだけで白米10杯おかわりしちゃう】暑い日にこそ食べたい絶品おかずレシピ / Pork & Eggplant Rolls #shorts",
+    "platform": "youtube",
+    "externalId": "_SPj1rYrRrc",
+    "videoUrl": "https://www.youtube.com/watch?v=_SPj1rYrRrc",
     "videoId": "_SPj1rYrRrc",
     "url": "https://www.youtube.com/watch?v=_SPj1rYrRrc",
     "thumbnailUrl": "https://i.ytimg.com/vi/_SPj1rYrRrc/maxresdefault.jpg",
@@ -175,6 +193,9 @@ const recipes = [
   },
   {
     "title": "忙しい日でも簡単に作れる最強に美味しい照り照り目玉焼き",
+    "platform": "youtube",
+    "externalId": "L5pe410Yx5c",
+    "videoUrl": "https://www.youtube.com/watch?v=L5pe410Yx5c",
     "videoId": "L5pe410Yx5c",
     "url": "https://www.youtube.com/watch?v=L5pe410Yx5c",
     "thumbnailUrl": "https://i.ytimg.com/vi/L5pe410Yx5c/maxresdefault.jpg",
@@ -204,6 +225,9 @@ const recipes = [
   },
   {
     "title": "【卵液不要】10分でチーズ溢れる豚しそカツ| 包丁も使いません。",
+    "platform": "youtube",
+    "externalId": "LSbSjMdWCOc",
+    "videoUrl": "https://www.youtube.com/watch?v=LSbSjMdWCOc",
     "videoId": "LSbSjMdWCOc",
     "url": "https://www.youtube.com/watch?v=LSbSjMdWCOc",
     "thumbnailUrl": "https://i.ytimg.com/vi/LSbSjMdWCOc/maxresdefault.jpg",
@@ -236,6 +260,9 @@ const recipes = [
   },
   {
     "title": "罪悪感ゼロなのにやみつき！のり塩ささみ #簡単レシピ #cooking #料理",
+    "platform": "youtube",
+    "externalId": "w8huiYRwxkM",
+    "videoUrl": "https://www.youtube.com/watch?v=w8huiYRwxkM",
     "videoId": "w8huiYRwxkM",
     "url": "https://www.youtube.com/watch?v=w8huiYRwxkM",
     "thumbnailUrl": "https://i.ytimg.com/vi/w8huiYRwxkM/maxresdefault.jpg",
@@ -261,6 +288,9 @@ const recipes = [
   },
   {
     "title": "【インスタで1000万再生突破！蒸しキャベツと野菜のうまだれ】 #簡単レシピ#キャベツ #ヘルシーレシピ #レシピ",
+    "platform": "youtube",
+    "externalId": "QzsXY_PZrvQ",
+    "videoUrl": "https://www.youtube.com/watch?v=QzsXY_PZrvQ",
     "videoId": "QzsXY_PZrvQ",
     "url": "https://www.youtube.com/watch?v=QzsXY_PZrvQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/QzsXY_PZrvQ/maxresdefault.jpg",
@@ -286,6 +316,9 @@ const recipes = [
   },
   {
     "title": "#肉豆腐 #japanesefood #簡単レシピ #簡単料理 #自炊 #おうちごはん #cooking #豆腐",
+    "platform": "youtube",
+    "externalId": "50_nURL62nM",
+    "videoUrl": "https://www.youtube.com/watch?v=50_nURL62nM",
     "videoId": "50_nURL62nM",
     "url": "https://www.youtube.com/watch?v=50_nURL62nM",
     "thumbnailUrl": "https://i.ytimg.com/vi/50_nURL62nM/maxresdefault.jpg",
@@ -311,6 +344,9 @@ const recipes = [
   },
   {
     "title": "【肉じゃが】じゃがいもの定番料理！味付けが決まる黄金比とは",
+    "platform": "youtube",
+    "externalId": "wWQ148BjCO8",
+    "videoUrl": "https://www.youtube.com/watch?v=wWQ148BjCO8",
     "videoId": "wWQ148BjCO8",
     "url": "https://www.youtube.com/watch?v=wWQ148BjCO8",
     "thumbnailUrl": "https://i.ytimg.com/vi/wWQ148BjCO8/maxresdefault.jpg",
@@ -336,6 +372,9 @@ const recipes = [
   },
   {
     "title": "塩だれキャベツは火を通せ！#簡単レシピ #キャベツ #ガンガンの料理塾",
+    "platform": "youtube",
+    "externalId": "bkW5Ia1bkxY",
+    "videoUrl": "https://www.youtube.com/watch?v=bkW5Ia1bkxY",
     "videoId": "bkW5Ia1bkxY",
     "url": "https://www.youtube.com/watch?v=bkW5Ia1bkxY",
     "thumbnailUrl": "https://i.ytimg.com/vi/bkW5Ia1bkxY/maxresdefault.jpg",
@@ -364,6 +403,9 @@ const recipes = [
   },
   {
     "title": "【５分も要らない】シンプルが至高✨卵チャーハン #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "iuDCG6Gtkg0",
+    "videoUrl": "https://www.youtube.com/watch?v=iuDCG6Gtkg0",
     "videoId": "iuDCG6Gtkg0",
     "url": "https://www.youtube.com/watch?v=iuDCG6Gtkg0",
     "thumbnailUrl": "https://i.ytimg.com/vi/iuDCG6Gtkg0/maxresdefault.jpg",
@@ -393,6 +435,9 @@ const recipes = [
   },
   {
     "title": "絶対にこれ以上しっとりパラパラになる炒飯レシピはない！具は卵だけ",
+    "platform": "youtube",
+    "externalId": "B5MUImbN_uQ",
+    "videoUrl": "https://www.youtube.com/watch?v=B5MUImbN_uQ",
     "videoId": "B5MUImbN_uQ",
     "url": "https://www.youtube.com/watch?v=B5MUImbN_uQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/B5MUImbN_uQ/maxresdefault.jpg",
@@ -420,6 +465,9 @@ const recipes = [
   },
   {
     "title": "【簡単料理】 驚くほど旨い！ナスのチーズ焼き！おつまみにも！",
+    "platform": "youtube",
+    "externalId": "cmsDyH0HVa8",
+    "videoUrl": "https://www.youtube.com/watch?v=cmsDyH0HVa8",
     "videoId": "cmsDyH0HVa8",
     "url": "https://www.youtube.com/watch?v=cmsDyH0HVa8",
     "thumbnailUrl": "https://i.ytimg.com/vi/cmsDyH0HVa8/maxresdefault.jpg",
@@ -451,6 +499,9 @@ const recipes = [
   },
   {
     "title": "超簡単【無限大葉なす】レンジでチンして和えるだけ！暑い夏にもってこい！食欲増進！なす大量消費・常備野菜",
+    "platform": "youtube",
+    "externalId": "nMEzehxzBWU",
+    "videoUrl": "https://www.youtube.com/watch?v=nMEzehxzBWU",
     "videoId": "nMEzehxzBWU",
     "url": "https://www.youtube.com/watch?v=nMEzehxzBWU",
     "thumbnailUrl": "https://i.ytimg.com/vi/nMEzehxzBWU/maxresdefault.jpg",
@@ -478,6 +529,9 @@ const recipes = [
   },
   {
     "title": "#ハッシュドポテト#ポテト#簡単レシピ#レシピ#簡単美味しい#料理#レシピ#おうちごはん",
+    "platform": "youtube",
+    "externalId": "DL6e_7nV0HA",
+    "videoUrl": "https://www.youtube.com/watch?v=DL6e_7nV0HA",
     "videoId": "DL6e_7nV0HA",
     "url": "https://www.youtube.com/watch?v=DL6e_7nV0HA",
     "thumbnailUrl": "https://i.ytimg.com/vi/DL6e_7nV0HA/maxresdefault.jpg",
@@ -503,6 +557,9 @@ const recipes = [
   },
   {
     "title": "こんなにウマイきゅうりを知ってるかい？！#主婦 #料理 #料理動画 #ままごとキッチン #簡単レシピ #まいにちごはん #おつまみ",
+    "platform": "youtube",
+    "externalId": "EUTkzk4UOPY",
+    "videoUrl": "https://www.youtube.com/watch?v=EUTkzk4UOPY",
     "videoId": "EUTkzk4UOPY",
     "url": "https://www.youtube.com/watch?v=EUTkzk4UOPY",
     "thumbnailUrl": "https://i.ytimg.com/vi/EUTkzk4UOPY/maxresdefault.jpg",
@@ -528,6 +585,9 @@ const recipes = [
   },
   {
     "title": "玉ねぎのツナ炒め簡単で旨い！ #shorts #料理#料理動画",
+    "platform": "youtube",
+    "externalId": "_FEQDUBGGZE",
+    "videoUrl": "https://www.youtube.com/watch?v=_FEQDUBGGZE",
     "videoId": "_FEQDUBGGZE",
     "url": "https://www.youtube.com/watch?v=_FEQDUBGGZE",
     "thumbnailUrl": "https://i.ytimg.com/vi/_FEQDUBGGZE/maxresdefault.jpg",
@@ -562,6 +622,9 @@ const recipes = [
   },
   {
     "title": "また作ってって懇願される。ハマりすぎてきゅうりこのためだけに大量購入した🥒#簡単レシピ #時短節約 #料理 #きゅうり #きゅうりレシピ #shorts #youtubeshorts",
+    "platform": "youtube",
+    "externalId": "bIirGpVJiuQ",
+    "videoUrl": "https://www.youtube.com/watch?v=bIirGpVJiuQ",
     "videoId": "bIirGpVJiuQ",
     "url": "https://www.youtube.com/watch?v=bIirGpVJiuQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/bIirGpVJiuQ/maxresdefault.jpg",
@@ -587,6 +650,9 @@ const recipes = [
   },
   {
     "title": "なすを買ったら…。 レシピ・栄養価詳細は①【…】をタップ ②【説明】をタップで見られます。",
+    "platform": "youtube",
+    "externalId": "kRD6pqwvSh4",
+    "videoUrl": "https://www.youtube.com/watch?v=kRD6pqwvSh4",
     "videoId": "kRD6pqwvSh4",
     "url": "https://www.youtube.com/watch?v=kRD6pqwvSh4",
     "thumbnailUrl": "https://i.ytimg.com/vi/kRD6pqwvSh4/maxresdefault.jpg",
@@ -616,6 +682,9 @@ const recipes = [
   },
   {
     "title": "フライパンでそのまま出せてあと片付けも楽ちん！【豚バラとキャベツのフライパン蒸し】 詳しいレシピは概要欄でチェック！ #キャベツ #豚バラ#ワンパン#晩ごはん#簡単レシピ#レシピ動画 #料理動画",
+    "platform": "youtube",
+    "externalId": "UP2qvbhbuuU",
+    "videoUrl": "https://www.youtube.com/watch?v=UP2qvbhbuuU",
     "videoId": "UP2qvbhbuuU",
     "url": "https://www.youtube.com/watch?v=UP2qvbhbuuU",
     "thumbnailUrl": "https://i.ytimg.com/vi/UP2qvbhbuuU/maxresdefault.jpg",
@@ -644,6 +713,9 @@ const recipes = [
   },
   {
     "title": "助けてください！箸が止まりません「ジューシー豚こま(夢中豚こま)」詳しいレシピは概要欄を見てね♪#やみつき#豚肉 #豚肉レシピ #晩ごはん #おかず #簡単レシピ #レシピ動画 #料理動画 #料理動画",
+    "platform": "youtube",
+    "externalId": "m3tPDTtK8mg",
+    "videoUrl": "https://www.youtube.com/watch?v=m3tPDTtK8mg",
     "videoId": "m3tPDTtK8mg",
     "url": "https://www.youtube.com/watch?v=m3tPDTtK8mg",
     "thumbnailUrl": "https://i.ytimg.com/vi/m3tPDTtK8mg/maxresdefault.jpg",
@@ -675,6 +747,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！豚バラ白菜のウマいヤツ",
+    "platform": "youtube",
+    "externalId": "Tl_ebKQEuVA",
+    "videoUrl": "https://www.youtube.com/watch?v=Tl_ebKQEuVA",
     "videoId": "Tl_ebKQEuVA",
     "url": "https://www.youtube.com/watch?v=Tl_ebKQEuVA",
     "thumbnailUrl": "https://i.ytimg.com/vi/Tl_ebKQEuVA/maxresdefault.jpg",
@@ -705,6 +780,9 @@ const recipes = [
   },
   {
     "title": "【悪魔のガーリックバターソーセージ丼】",
+    "platform": "youtube",
+    "externalId": "INalXp785IY",
+    "videoUrl": "https://www.youtube.com/watch?v=INalXp785IY",
     "videoId": "INalXp785IY",
     "url": "https://www.youtube.com/watch?v=INalXp785IY",
     "thumbnailUrl": "https://i.ytimg.com/vi/INalXp785IY/maxresdefault.jpg",
@@ -738,6 +816,9 @@ const recipes = [
   },
   {
     "title": "【爆速！レンジで5分なすの煮浸し】詳細はコメント欄へ #おすすめ #簡単レシピ #時短",
+    "platform": "youtube",
+    "externalId": "MlpOJswBRsk",
+    "videoUrl": "https://www.youtube.com/watch?v=MlpOJswBRsk",
     "videoId": "MlpOJswBRsk",
     "url": "https://www.youtube.com/watch?v=MlpOJswBRsk",
     "thumbnailUrl": "https://i.ytimg.com/vi/MlpOJswBRsk/maxresdefault.jpg",
@@ -763,6 +844,9 @@ const recipes = [
   },
   {
     "title": "ごはんが一瞬で無くなるくらいうまい【鶏もも肉の旨だれジュワ焼き】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #夢中鶏もも肉",
+    "platform": "youtube",
+    "externalId": "hF3F9oDX5BY",
+    "videoUrl": "https://www.youtube.com/watch?v=hF3F9oDX5BY",
     "videoId": "hF3F9oDX5BY",
     "url": "https://www.youtube.com/watch?v=hF3F9oDX5BY",
     "thumbnailUrl": "https://i.ytimg.com/vi/hF3F9oDX5BY/maxresdefault.jpg",
@@ -794,6 +878,9 @@ const recipes = [
   },
   {
     "title": "【鶏むね肉しっとり!!甘酢みぞれ】無口の料理人夫が唸った #おすすめ #料理 #晩御飯",
+    "platform": "youtube",
+    "externalId": "rTDS3NE9e7E",
+    "videoUrl": "https://www.youtube.com/watch?v=rTDS3NE9e7E",
     "videoId": "rTDS3NE9e7E",
     "url": "https://www.youtube.com/watch?v=rTDS3NE9e7E",
     "thumbnailUrl": "https://i.ytimg.com/vi/rTDS3NE9e7E/maxresdefault.jpg",
@@ -827,6 +914,9 @@ const recipes = [
   },
   {
     "title": "パパッと美味しい！てりやきチキンの作り方 ｜ How to make Teriyaki Chicken",
+    "platform": "youtube",
+    "externalId": "CmHtn8rBk3Y",
+    "videoUrl": "https://www.youtube.com/watch?v=CmHtn8rBk3Y",
     "videoId": "CmHtn8rBk3Y",
     "url": "https://www.youtube.com/watch?v=CmHtn8rBk3Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/CmHtn8rBk3Y/maxresdefault.jpg",
@@ -866,6 +956,9 @@ const recipes = [
   },
   {
     "title": "材料２つで激ウマレシピ【豚じゃが炒め】#shorts #簡単レシピ #じゃがいも",
+    "platform": "youtube",
+    "externalId": "VyRjh3CAuV4",
+    "videoUrl": "https://www.youtube.com/watch?v=VyRjh3CAuV4",
     "videoId": "VyRjh3CAuV4",
     "url": "https://www.youtube.com/watch?v=VyRjh3CAuV4",
     "thumbnailUrl": "https://i.ytimg.com/vi/VyRjh3CAuV4/maxresdefault.jpg",
@@ -891,6 +984,9 @@ const recipes = [
   },
   {
     "title": "何回作ってもすぐ消える「無限きゅうり」詳しいレシピは概要欄をチェック！ #きゅうり #きゅうり レシピ #副菜",
+    "platform": "youtube",
+    "externalId": "H8PgbP17qYQ",
+    "videoUrl": "https://www.youtube.com/watch?v=H8PgbP17qYQ",
     "videoId": "H8PgbP17qYQ",
     "url": "https://www.youtube.com/watch?v=H8PgbP17qYQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/H8PgbP17qYQ/maxresdefault.jpg",
@@ -916,6 +1012,9 @@ const recipes = [
   },
   {
     "title": "【子供が大喜び】ポップコーンチキン！簡単すぎてリピ確定✨ #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "gr556NVfy1Y",
+    "videoUrl": "https://www.youtube.com/watch?v=gr556NVfy1Y",
     "videoId": "gr556NVfy1Y",
     "url": "https://www.youtube.com/watch?v=gr556NVfy1Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/gr556NVfy1Y/maxresdefault.jpg",
@@ -945,6 +1044,9 @@ const recipes = [
   },
   {
     "title": "オムレツ修行98回目【朝ご飯】#料理男子 #卵料理 #オムレツ #簡単レシピ #オムライス #料理 #練習",
+    "platform": "youtube",
+    "externalId": "E0VI6dnG_zs",
+    "videoUrl": "https://www.youtube.com/watch?v=E0VI6dnG_zs",
     "videoId": "E0VI6dnG_zs",
     "url": "https://www.youtube.com/watch?v=E0VI6dnG_zs",
     "thumbnailUrl": "https://i.ytimg.com/vi/E0VI6dnG_zs/maxresdefault.jpg",
@@ -972,6 +1074,9 @@ const recipes = [
   },
   {
     "title": "【旨い・安い・簡単】キャベたま焼き #ワンパンレシピ #料理動画 #cooking #shorts #簡単レシピ #卵レシピ #キャベツレシピ",
+    "platform": "youtube",
+    "externalId": "UZNWfksoKhg",
+    "videoUrl": "https://www.youtube.com/watch?v=UZNWfksoKhg",
     "videoId": "UZNWfksoKhg",
     "url": "https://www.youtube.com/watch?v=UZNWfksoKhg",
     "thumbnailUrl": "https://i.ytimg.com/vi/UZNWfksoKhg/maxresdefault.jpg",
@@ -1007,6 +1112,9 @@ const recipes = [
   },
   {
     "title": "10分煮てあとはほったらかすだけで激うまチャーシューが作れます【豚バラ肉のくるくる一口チャーシュー】詳しいレシピはアプリで料理名を検索♪ #豚バラ #チャーシュー #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "u6qZi0N1NwQ",
+    "videoUrl": "https://www.youtube.com/watch?v=u6qZi0N1NwQ",
     "videoId": "u6qZi0N1NwQ",
     "url": "https://www.youtube.com/watch?v=u6qZi0N1NwQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/u6qZi0N1NwQ/maxresdefault.jpg",
@@ -1040,6 +1148,9 @@ const recipes = [
   },
   {
     "title": "やる気1%でワンパン和風パスタ",
+    "platform": "youtube",
+    "externalId": "pGDE3cs_vAM",
+    "videoUrl": "https://www.youtube.com/watch?v=pGDE3cs_vAM",
     "videoId": "pGDE3cs_vAM",
     "url": "https://www.youtube.com/watch?v=pGDE3cs_vAM",
     "thumbnailUrl": "https://i.ytimg.com/vi/pGDE3cs_vAM/maxresdefault.jpg",
@@ -1076,6 +1187,9 @@ const recipes = [
   },
   {
     "title": "【忙しい朝に】10分フレンチトースト #ガンガンの料理塾 #簡単レシピ #フレンチトースト",
+    "platform": "youtube",
+    "externalId": "QpkjHtYJ-WA",
+    "videoUrl": "https://www.youtube.com/watch?v=QpkjHtYJ-WA",
     "videoId": "QpkjHtYJ-WA",
     "url": "https://www.youtube.com/watch?v=QpkjHtYJ-WA",
     "thumbnailUrl": "https://i.ytimg.com/vi/QpkjHtYJ-WA/maxresdefault.jpg",
@@ -1108,6 +1222,9 @@ const recipes = [
   },
   {
     "title": "ナスの煮浸しの作り方｜揚げずに簡単ヘルシー！#ナスレシピ #煮浸し 煮浸し #簡単レシピ #料理研究家ゆかり #shorts",
+    "platform": "youtube",
+    "externalId": "oFhj0v9ORAU",
+    "videoUrl": "https://www.youtube.com/watch?v=oFhj0v9ORAU",
     "videoId": "oFhj0v9ORAU",
     "url": "https://www.youtube.com/watch?v=oFhj0v9ORAU",
     "thumbnailUrl": "https://i.ytimg.com/vi/oFhj0v9ORAU/maxresdefault.jpg",
@@ -1136,6 +1253,9 @@ const recipes = [
   },
   {
     "title": "【ネットで話題！レンジで作る簡単プリン】卵・牛乳・きび砂糖これ全部体の潤いアップ #簡単レシピ #薬膳レシピ #プリン#レンチンレシピ #簡単スイーツ #簡単料理",
+    "platform": "youtube",
+    "externalId": "Vk2v0gO-P5c",
+    "videoUrl": "https://www.youtube.com/watch?v=Vk2v0gO-P5c",
     "videoId": "Vk2v0gO-P5c",
     "url": "https://www.youtube.com/watch?v=Vk2v0gO-P5c",
     "thumbnailUrl": "https://i.ytimg.com/vi/Vk2v0gO-P5c/maxresdefault.jpg",
@@ -1165,6 +1285,9 @@ const recipes = [
   },
   {
     "title": "なすの簡単レシピ！食材1つ！美味しすぎて永久保存版にしたい「なすの甘酢炒めのレシピ」 #pr #affliatelink #shorts",
+    "platform": "youtube",
+    "externalId": "MN5DEKDtqyc",
+    "videoUrl": "https://www.youtube.com/watch?v=MN5DEKDtqyc",
     "videoId": "MN5DEKDtqyc",
     "url": "https://www.youtube.com/watch?v=MN5DEKDtqyc",
     "thumbnailUrl": "https://i.ytimg.com/vi/MN5DEKDtqyc/maxresdefault.jpg",
@@ -1192,6 +1315,9 @@ const recipes = [
   },
   {
     "title": "【鰻を超えた！なすの蒲焼き風】とろうま♡メイン級のおいしさ※詳細はコメント欄へ #簡単レシピ #おすすめ #料理",
+    "platform": "youtube",
+    "externalId": "amS-q9jG7Dw",
+    "videoUrl": "https://www.youtube.com/watch?v=amS-q9jG7Dw",
     "videoId": "amS-q9jG7Dw",
     "url": "https://www.youtube.com/watch?v=amS-q9jG7Dw",
     "thumbnailUrl": "https://i.ytimg.com/vi/amS-q9jG7Dw/maxresdefault.jpg",
@@ -1217,6 +1343,9 @@ const recipes = [
   },
   {
     "title": "50円の豆腐で作ったヘルシーでお財布にやさしいテリマヨ豆腐ステーキ",
+    "platform": "youtube",
+    "externalId": "_JYNaqzpwq4",
+    "videoUrl": "https://www.youtube.com/watch?v=_JYNaqzpwq4",
     "videoId": "_JYNaqzpwq4",
     "url": "https://www.youtube.com/watch?v=_JYNaqzpwq4",
     "thumbnailUrl": "https://i.ytimg.com/vi/_JYNaqzpwq4/maxresdefault.jpg",
@@ -1248,6 +1377,9 @@ const recipes = [
   },
   {
     "title": "基本のオムライスの作り方｜おうちで簡単プロの味！昔ながらの洋食屋さんのオムライス！#オムライス #卵料理 #shorts",
+    "platform": "youtube",
+    "externalId": "AO5FQXhyjoA",
+    "videoUrl": "https://www.youtube.com/watch?v=AO5FQXhyjoA",
     "videoId": "AO5FQXhyjoA",
     "url": "https://www.youtube.com/watch?v=AO5FQXhyjoA",
     "thumbnailUrl": "https://i.ytimg.com/vi/AO5FQXhyjoA/maxresdefault.jpg",
@@ -1288,6 +1420,9 @@ const recipes = [
   },
   {
     "title": "【2ヶ月で6キロ痩せた】食べ痩せ豆腐グラタン #ダイエットレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "GBbapHXLcZc",
+    "videoUrl": "https://www.youtube.com/watch?v=GBbapHXLcZc",
     "videoId": "GBbapHXLcZc",
     "url": "https://www.youtube.com/watch?v=GBbapHXLcZc",
     "thumbnailUrl": "https://i.ytimg.com/vi/GBbapHXLcZc/maxresdefault.jpg",
@@ -1319,6 +1454,9 @@ const recipes = [
   },
   {
     "title": "【TKG】卵かけご飯#暮らしのアイデア#ライフハック#卵#簡単料理",
+    "platform": "youtube",
+    "externalId": "qh_hQeMtU54",
+    "videoUrl": "https://www.youtube.com/watch?v=qh_hQeMtU54",
     "videoId": "qh_hQeMtU54",
     "url": "https://www.youtube.com/watch?v=qh_hQeMtU54",
     "thumbnailUrl": "https://i.ytimg.com/vi/qh_hQeMtU54/maxresdefault.jpg",
@@ -1344,6 +1482,9 @@ const recipes = [
   },
   {
     "title": "5分で出来る！レンジで簡単おやつ✨パスタスナック🍝 #パスタスナック #おやつ #パスタレシピ #簡単おやつ #簡単おつまみ #おつまみレシピ #おつまみ",
+    "platform": "youtube",
+    "externalId": "atQZ_XkZghc",
+    "videoUrl": "https://www.youtube.com/watch?v=atQZ_XkZghc",
     "videoId": "atQZ_XkZghc",
     "url": "https://www.youtube.com/watch?v=atQZ_XkZghc",
     "thumbnailUrl": "https://i.ytimg.com/vi/atQZ_XkZghc/maxresdefault.jpg",
@@ -1372,6 +1513,9 @@ const recipes = [
   },
   {
     "title": "これは絶対外せない！卵ともやしだけすげぇうまい！簡単節約おつまみおかず主菜副菜レシピ",
+    "platform": "youtube",
+    "externalId": "6EId9n0ImYc",
+    "videoUrl": "https://www.youtube.com/watch?v=6EId9n0ImYc",
     "videoId": "6EId9n0ImYc",
     "url": "https://www.youtube.com/watch?v=6EId9n0ImYc",
     "thumbnailUrl": "https://i.ytimg.com/vi/6EId9n0ImYc/maxresdefault.jpg",
@@ -1415,6 +1559,9 @@ const recipes = [
   },
   {
     "title": "柔らかくなるポイントは10秒ごろ！【基本のしょうが焼き】 #生姜焼き #晩ごはん #豚肉 #おかず #レシピ動画 #簡単レシピ #料理動画",
+    "platform": "youtube",
+    "externalId": "yXArC4QIoOg",
+    "videoUrl": "https://www.youtube.com/watch?v=yXArC4QIoOg",
     "videoId": "yXArC4QIoOg",
     "url": "https://www.youtube.com/watch?v=yXArC4QIoOg",
     "thumbnailUrl": "https://i.ytimg.com/vi/yXArC4QIoOg/maxresdefault.jpg",
@@ -1442,6 +1589,9 @@ const recipes = [
   },
   {
     "title": "高タンパクなささみとブロッコリーのやみつきだれ #簡単レシピ #ダイエットレシピ #ささみ",
+    "platform": "youtube",
+    "externalId": "sjZYdlW5a3k",
+    "videoUrl": "https://www.youtube.com/watch?v=sjZYdlW5a3k",
     "videoId": "sjZYdlW5a3k",
     "url": "https://www.youtube.com/watch?v=sjZYdlW5a3k",
     "thumbnailUrl": "https://i.ytimg.com/vi/sjZYdlW5a3k/maxresdefault.jpg",
@@ -1471,6 +1621,9 @@ const recipes = [
   },
   {
     "title": "これが1番簡単にして、最高！「簡単チキン南蛮」詳しいレシピは概要欄をチェック！ #チキン南蛮",
+    "platform": "youtube",
+    "externalId": "HofPPbdy5AE",
+    "videoUrl": "https://www.youtube.com/watch?v=HofPPbdy5AE",
     "videoId": "HofPPbdy5AE",
     "url": "https://www.youtube.com/watch?v=HofPPbdy5AE",
     "thumbnailUrl": "https://i.ytimg.com/vi/HofPPbdy5AE/maxresdefault.jpg",
@@ -1508,6 +1661,9 @@ const recipes = [
   },
   {
     "title": "【激ヤセ😇ツナ＆豆腐グラタン❣️】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐",
+    "platform": "youtube",
+    "externalId": "H3M0rjYGlmc",
+    "videoUrl": "https://www.youtube.com/watch?v=H3M0rjYGlmc",
     "videoId": "H3M0rjYGlmc",
     "url": "https://www.youtube.com/watch?v=H3M0rjYGlmc",
     "thumbnailUrl": "https://i.ytimg.com/vi/H3M0rjYGlmc/maxresdefault.jpg",
@@ -1535,6 +1691,9 @@ const recipes = [
   },
   {
     "title": "【400万回再生人気レシピ】10分でできる簡単韓国家庭料理！ご飯がモリモリ進む野菜たっぷり豚プルコギの作り方／Korean-style BBQ pork with Veggies !",
+    "platform": "youtube",
+    "externalId": "ciwEYRKhPVU",
+    "videoUrl": "https://www.youtube.com/watch?v=ciwEYRKhPVU",
     "videoId": "ciwEYRKhPVU",
     "url": "https://www.youtube.com/watch?v=ciwEYRKhPVU",
     "thumbnailUrl": "https://i.ytimg.com/vi/ciwEYRKhPVU/maxresdefault.jpg",
@@ -1571,6 +1730,9 @@ const recipes = [
   },
   {
     "title": "手軽で美味しい焼きうどん🤤✨ #簡単レシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "9TMLOTevoh8",
+    "videoUrl": "https://www.youtube.com/watch?v=9TMLOTevoh8",
     "videoId": "9TMLOTevoh8",
     "url": "https://www.youtube.com/watch?v=9TMLOTevoh8",
     "thumbnailUrl": "https://i.ytimg.com/vi/9TMLOTevoh8/maxresdefault.jpg",
@@ -1596,6 +1758,9 @@ const recipes = [
   },
   {
     "title": "じゃがいもがあっという間に無くなる「はちみつバター醤油いも餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
+    "platform": "youtube",
+    "externalId": "f7pezqlSrfQ",
+    "videoUrl": "https://www.youtube.com/watch?v=f7pezqlSrfQ",
     "videoId": "f7pezqlSrfQ",
     "url": "https://www.youtube.com/watch?v=f7pezqlSrfQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/f7pezqlSrfQ/maxresdefault.jpg",
@@ -1626,6 +1791,9 @@ const recipes = [
   },
   {
     "title": "【混ぜるだけで簡単◎】絶対作ってほしい！！やみつきパスタが美味しすぎる",
+    "platform": "youtube",
+    "externalId": "Ov83dzaiA3w",
+    "videoUrl": "https://www.youtube.com/watch?v=Ov83dzaiA3w",
     "videoId": "Ov83dzaiA3w",
     "url": "https://www.youtube.com/watch?v=Ov83dzaiA3w",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ov83dzaiA3w/maxresdefault.jpg",
@@ -1662,6 +1830,9 @@ const recipes = [
   },
   {
     "title": "美味しすぎて取り合いになる【チキンのニラだれ】#料理#レシピ #簡単レシピ #鶏肉 #鶏もも肉 #夜ご飯 #つくりおき",
+    "platform": "youtube",
+    "externalId": "-lxRD8pO-KI",
+    "videoUrl": "https://www.youtube.com/watch?v=-lxRD8pO-KI",
     "videoId": "-lxRD8pO-KI",
     "url": "https://www.youtube.com/watch?v=-lxRD8pO-KI",
     "thumbnailUrl": "https://i.ytimg.com/vi/-lxRD8pO-KI/maxresdefault.jpg",
@@ -1691,6 +1862,9 @@ const recipes = [
   },
   {
     "title": "鮭を買ったら #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "Rm5DbMVOwZU",
+    "videoUrl": "https://www.youtube.com/watch?v=Rm5DbMVOwZU",
     "videoId": "Rm5DbMVOwZU",
     "url": "https://www.youtube.com/watch?v=Rm5DbMVOwZU",
     "thumbnailUrl": "https://i.ytimg.com/vi/Rm5DbMVOwZU/maxresdefault.jpg",
@@ -1719,6 +1893,9 @@ const recipes = [
   },
   {
     "title": "しっとりささみに濃い味が染み込んでご飯が止まらない「ささみの旨だれ漬け」詳しいレシピは概要欄をチェック！ #レンジ #ささみレシピ",
+    "platform": "youtube",
+    "externalId": "Y5rl69pcQ6s",
+    "videoUrl": "https://www.youtube.com/watch?v=Y5rl69pcQ6s",
     "videoId": "Y5rl69pcQ6s",
     "url": "https://www.youtube.com/watch?v=Y5rl69pcQ6s",
     "thumbnailUrl": "https://i.ytimg.com/vi/Y5rl69pcQ6s/maxresdefault.jpg",
@@ -1752,6 +1929,9 @@ const recipes = [
   },
   {
     "title": "今でもずっと箸が止まっていません🥢【こんにゃくの柚子胡椒ステーキ】詳しいレシピは概要欄をチェック！#料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん",
+    "platform": "youtube",
+    "externalId": "Ix9QY9B9VDQ",
+    "videoUrl": "https://www.youtube.com/watch?v=Ix9QY9B9VDQ",
     "videoId": "Ix9QY9B9VDQ",
     "url": "https://www.youtube.com/watch?v=Ix9QY9B9VDQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ix9QY9B9VDQ/maxresdefault.jpg",
@@ -1779,6 +1959,9 @@ const recipes = [
   },
   {
     "title": "たった6分！卵とウィンナーさえあれば作れる簡単最強おかず。ご飯がススミすぎる『卵とウィンナーの炒め物』の作り方",
+    "platform": "youtube",
+    "externalId": "18Dwyc3r5Fk",
+    "videoUrl": "https://www.youtube.com/watch?v=18Dwyc3r5Fk",
     "videoId": "18Dwyc3r5Fk",
     "url": "https://www.youtube.com/watch?v=18Dwyc3r5Fk",
     "thumbnailUrl": "https://i.ytimg.com/vi/18Dwyc3r5Fk/sddefault.jpg",
@@ -1806,6 +1989,9 @@ const recipes = [
   },
   {
     "title": "茄子チーズ焼き🧀🍆#簡単レシピ #料理 #茄子 #チーズ #cooking #夏 #ごはん #レシピ #時短レシピ #夏休み",
+    "platform": "youtube",
+    "externalId": "5F3BQvzqeX4",
+    "videoUrl": "https://www.youtube.com/watch?v=5F3BQvzqeX4",
     "videoId": "5F3BQvzqeX4",
     "url": "https://www.youtube.com/watch?v=5F3BQvzqeX4",
     "thumbnailUrl": "https://i.ytimg.com/vi/5F3BQvzqeX4/maxresdefault.jpg",
@@ -1831,6 +2017,9 @@ const recipes = [
   },
   {
     "title": "【豆腐キムチチヂミ】#shorts #cooking #ダイエット #ヘルシー #レシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "3r3yZTTVkkQ",
+    "videoUrl": "https://www.youtube.com/watch?v=3r3yZTTVkkQ",
     "videoId": "3r3yZTTVkkQ",
     "url": "https://www.youtube.com/watch?v=3r3yZTTVkkQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/3r3yZTTVkkQ/maxresdefault.jpg",
@@ -1856,6 +2045,9 @@ const recipes = [
   },
   {
     "title": "【ダイエットおやつ🔥】レンジで簡単！ポテチの作り方 #太らない #ヘルシーレシピ",
+    "platform": "youtube",
+    "externalId": "ZPua34VwMiY",
+    "videoUrl": "https://www.youtube.com/watch?v=ZPua34VwMiY",
     "videoId": "ZPua34VwMiY",
     "url": "https://www.youtube.com/watch?v=ZPua34VwMiY",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZPua34VwMiY/maxresdefault.jpg",
@@ -1883,6 +2075,9 @@ const recipes = [
   },
   {
     "title": "【これ作ってみて】豚こま丸めて焼いたら美味しすぎて悶絶。レシピはコメント欄へ📍#レシピ #japanesefood #お弁当 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "TgIlxarViz8",
+    "videoUrl": "https://www.youtube.com/watch?v=TgIlxarViz8",
     "videoId": "TgIlxarViz8",
     "url": "https://www.youtube.com/watch?v=TgIlxarViz8",
     "thumbnailUrl": "https://i.ytimg.com/vi/TgIlxarViz8/maxresdefault.jpg",
@@ -1910,6 +2105,9 @@ const recipes = [
   },
   {
     "title": "自宅で簡単、コク旨ナポリタンです！#shorts #簡単レシピ #ナポリタン",
+    "platform": "youtube",
+    "externalId": "R9w9cGAXcLA",
+    "videoUrl": "https://www.youtube.com/watch?v=R9w9cGAXcLA",
     "videoId": "R9w9cGAXcLA",
     "url": "https://www.youtube.com/watch?v=R9w9cGAXcLA",
     "thumbnailUrl": "https://i.ytimg.com/vi/R9w9cGAXcLA/maxresdefault.jpg",
@@ -1935,6 +2133,9 @@ const recipes = [
   },
   {
     "title": "【調理時間2分】最強丼の作り方！#料理 #料理動画 #自炊 #時短レシピ #簡単レシピ #ズボラ飯 #japan #cooking",
+    "platform": "youtube",
+    "externalId": "Mk7_uXvcxao",
+    "videoUrl": "https://www.youtube.com/watch?v=Mk7_uXvcxao",
     "videoId": "Mk7_uXvcxao",
     "url": "https://www.youtube.com/watch?v=Mk7_uXvcxao",
     "thumbnailUrl": "https://i.ytimg.com/vi/Mk7_uXvcxao/maxresdefault.jpg",
@@ -1960,6 +2161,9 @@ const recipes = [
   },
   {
     "title": "【茄子ピーマン玉ねぎ簡単レシピ】炒めるだけ！おつまみ副菜おかず余り物が無敵になるワンパンレシピ",
+    "platform": "youtube",
+    "externalId": "EAMM5WHC1oc",
+    "videoUrl": "https://www.youtube.com/watch?v=EAMM5WHC1oc",
     "videoId": "EAMM5WHC1oc",
     "url": "https://www.youtube.com/watch?v=EAMM5WHC1oc",
     "thumbnailUrl": "https://i.ytimg.com/vi/EAMM5WHC1oc/maxresdefault.jpg",
@@ -1997,6 +2201,9 @@ const recipes = [
   },
   {
     "title": "【世界一簡単かもしれない♡︎絶品！じゃがいもだけグラタン】 #簡単レシピ #おうちごはん #料理 #cooking",
+    "platform": "youtube",
+    "externalId": "swvPU36fi7w",
+    "videoUrl": "https://www.youtube.com/watch?v=swvPU36fi7w",
     "videoId": "swvPU36fi7w",
     "url": "https://www.youtube.com/watch?v=swvPU36fi7w",
     "thumbnailUrl": "https://i.ytimg.com/vi/swvPU36fi7w/maxresdefault.jpg",
@@ -2028,6 +2235,9 @@ const recipes = [
   },
   {
     "title": "おかわりとまらん！なすの豚バラ巻き #簡単レシピ #村上農園 #ナスレシピ #料理 #cooking",
+    "platform": "youtube",
+    "externalId": "FwpctGyGYbM",
+    "videoUrl": "https://www.youtube.com/watch?v=FwpctGyGYbM",
     "videoId": "FwpctGyGYbM",
     "url": "https://www.youtube.com/watch?v=FwpctGyGYbM",
     "thumbnailUrl": "https://i.ytimg.com/vi/FwpctGyGYbM/maxresdefault.jpg",
@@ -2057,6 +2267,9 @@ const recipes = [
   },
   {
     "title": "材料3つ！レンジで簡単「のび〜るチョコ餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
+    "platform": "youtube",
+    "externalId": "v4UDCpbzIVY",
+    "videoUrl": "https://www.youtube.com/watch?v=v4UDCpbzIVY",
     "videoId": "v4UDCpbzIVY",
     "url": "https://www.youtube.com/watch?v=v4UDCpbzIVY",
     "thumbnailUrl": "https://i.ytimg.com/vi/v4UDCpbzIVY/maxresdefault.jpg",
@@ -2084,6 +2297,9 @@ const recipes = [
   },
   {
     "title": "包丁いらないし、洗い物少ないし、しかも10分で作れた！【とろたま豚丼】詳しいレシピは概要欄を見てね♪ #豚肉 #豚こま肉 #料理 #丼 #丼飯 #簡単レシピ #レシピ #料理 #料理動画",
+    "platform": "youtube",
+    "externalId": "tlQvKqviK_I",
+    "videoUrl": "https://www.youtube.com/watch?v=tlQvKqviK_I",
     "videoId": "tlQvKqviK_I",
     "url": "https://www.youtube.com/watch?v=tlQvKqviK_I",
     "thumbnailUrl": "https://i.ytimg.com/vi/tlQvKqviK_I/maxresdefault.jpg",
@@ -2118,6 +2334,9 @@ const recipes = [
   },
   {
     "title": "クリスマスこれ良くない？⭐️我が家で大絶賛された秘密レシピ💕#簡単レシピ #じゃがいもレシピ #クリスマスレシピ #クリスマス料理 #cooking #shorts",
+    "platform": "youtube",
+    "externalId": "0PKTJbVcD90",
+    "videoUrl": "https://www.youtube.com/watch?v=0PKTJbVcD90",
     "videoId": "0PKTJbVcD90",
     "url": "https://www.youtube.com/watch?v=0PKTJbVcD90",
     "thumbnailUrl": "https://i.ytimg.com/vi/0PKTJbVcD90/maxresdefault.jpg",
@@ -2143,6 +2362,9 @@ const recipes = [
   },
   {
     "title": "【家にある調味料で作る】簡単絶品親子丼レシピ大公開！【フライパンでふわとろ食感♪】",
+    "platform": "youtube",
+    "externalId": "5d-r8rLTr00",
+    "videoUrl": "https://www.youtube.com/watch?v=5d-r8rLTr00",
     "videoId": "5d-r8rLTr00",
     "url": "https://www.youtube.com/watch?v=5d-r8rLTr00",
     "thumbnailUrl": "https://i.ytimg.com/vi/5d-r8rLTr00/maxresdefault.jpg",
@@ -2178,6 +2400,9 @@ const recipes = [
   },
   {
     "title": "【秒でなくなる】ささみのクリスピーチキン！ #時短レシピ #簡単ごはん",
+    "platform": "youtube",
+    "externalId": "g3BvUws0PSg",
+    "videoUrl": "https://www.youtube.com/watch?v=g3BvUws0PSg",
     "videoId": "g3BvUws0PSg",
     "url": "https://www.youtube.com/watch?v=g3BvUws0PSg",
     "thumbnailUrl": "https://i.ytimg.com/vi/g3BvUws0PSg/maxresdefault.jpg",
@@ -2212,6 +2437,9 @@ const recipes = [
   },
   {
     "title": "【厚揚げとピーマンのそぼろ餡 】#簡単レシピ #おうちごはん #料理 #簡単料理 #おうちごはんラバー #夜ごはん #レシピ付き #時短レシピ #夜ご飯",
+    "platform": "youtube",
+    "externalId": "v0yYVIeVeLg",
+    "videoUrl": "https://www.youtube.com/watch?v=v0yYVIeVeLg",
     "videoId": "v0yYVIeVeLg",
     "url": "https://www.youtube.com/watch?v=v0yYVIeVeLg",
     "thumbnailUrl": "https://i.ytimg.com/vi/v0yYVIeVeLg/maxresdefault.jpg",
@@ -2243,6 +2471,9 @@ const recipes = [
   },
   {
     "title": "【ペッパーランチ】の作り方 #おうちごはん #レシピ #料理 #休日 #cooking #cookingchannel",
+    "platform": "youtube",
+    "externalId": "UtBl1skNh_Q",
+    "videoUrl": "https://www.youtube.com/watch?v=UtBl1skNh_Q",
     "videoId": "UtBl1skNh_Q",
     "url": "https://www.youtube.com/watch?v=UtBl1skNh_Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/UtBl1skNh_Q/maxresdefault.jpg",
@@ -2275,6 +2506,9 @@ const recipes = [
   },
   {
     "title": "【子どもが爆食い】玉ねぎが主役のチーズガレット #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "wEU8t-VpkmY",
+    "videoUrl": "https://www.youtube.com/watch?v=wEU8t-VpkmY",
     "videoId": "wEU8t-VpkmY",
     "url": "https://www.youtube.com/watch?v=wEU8t-VpkmY",
     "thumbnailUrl": "https://i.ytimg.com/vi/wEU8t-VpkmY/maxresdefault.jpg",
@@ -2309,6 +2543,9 @@ const recipes = [
   },
   {
     "title": "失敗なしの超絶に美味しいペペロンチーノ",
+    "platform": "youtube",
+    "externalId": "1RcvYjxy5hc",
+    "videoUrl": "https://www.youtube.com/watch?v=1RcvYjxy5hc",
     "videoId": "1RcvYjxy5hc",
     "url": "https://www.youtube.com/watch?v=1RcvYjxy5hc",
     "thumbnailUrl": "https://i.ytimg.com/vi/1RcvYjxy5hc/maxresdefault.jpg",
@@ -2338,6 +2575,9 @@ const recipes = [
   },
   {
     "title": "牛乳だけで簡単おやつ",
+    "platform": "youtube",
+    "externalId": "Q8RlfFCRf9Q",
+    "videoUrl": "https://www.youtube.com/watch?v=Q8RlfFCRf9Q",
     "videoId": "Q8RlfFCRf9Q",
     "url": "https://www.youtube.com/watch?v=Q8RlfFCRf9Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/Q8RlfFCRf9Q/maxresdefault.jpg",
@@ -2363,6 +2603,9 @@ const recipes = [
   },
   {
     "title": "#天津飯#簡単レシピ#レシピ#料理#おうちごはん",
+    "platform": "youtube",
+    "externalId": "u1ojJ1w_jsM",
+    "videoUrl": "https://www.youtube.com/watch?v=u1ojJ1w_jsM",
     "videoId": "u1ojJ1w_jsM",
     "url": "https://www.youtube.com/watch?v=u1ojJ1w_jsM",
     "thumbnailUrl": "https://i.ytimg.com/vi/u1ojJ1w_jsM/maxresdefault.jpg",
@@ -2388,6 +2631,9 @@ const recipes = [
   },
   {
     "title": "材料2つ♪お餅あったらまずこれやってみて🥳#簡単レシピ #切り餅 #節約レシピ #簡単おやつ #cooking #shorts",
+    "platform": "youtube",
+    "externalId": "WVBQZEuZX2g",
+    "videoUrl": "https://www.youtube.com/watch?v=WVBQZEuZX2g",
     "videoId": "WVBQZEuZX2g",
     "url": "https://www.youtube.com/watch?v=WVBQZEuZX2g",
     "thumbnailUrl": "https://i.ytimg.com/vi/WVBQZEuZX2g/maxresdefault.jpg",
@@ -2413,6 +2659,9 @@ const recipes = [
   },
   {
     "title": "8キロ痩せた私が作る『世界一簡単な！ 鶏むねの茹で方』#ダイエット #ダイエットレシピ #鶏むね肉",
+    "platform": "youtube",
+    "externalId": "kUm-Ah1qGcg",
+    "videoUrl": "https://www.youtube.com/watch?v=kUm-Ah1qGcg",
     "videoId": "kUm-Ah1qGcg",
     "url": "https://www.youtube.com/watch?v=kUm-Ah1qGcg",
     "thumbnailUrl": "https://i.ytimg.com/vi/kUm-Ah1qGcg/maxresdefault.jpg",
@@ -2438,6 +2687,9 @@ const recipes = [
   },
   {
     "title": "無限ハッシュドポテト作りました🥔作り方はコメント欄へ#二人暮らし #同棲生活 #料理",
+    "platform": "youtube",
+    "externalId": "ziXuAu_hPeE",
+    "videoUrl": "https://www.youtube.com/watch?v=ziXuAu_hPeE",
     "videoId": "ziXuAu_hPeE",
     "url": "https://www.youtube.com/watch?v=ziXuAu_hPeE",
     "thumbnailUrl": "https://i.ytimg.com/vi/ziXuAu_hPeE/maxresdefault.jpg",
@@ -2463,6 +2715,9 @@ const recipes = [
   },
   {
     "title": "ワンパンクリームパスタ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "_GKjidJH_NE",
+    "videoUrl": "https://www.youtube.com/watch?v=_GKjidJH_NE",
     "videoId": "_GKjidJH_NE",
     "url": "https://www.youtube.com/watch?v=_GKjidJH_NE",
     "thumbnailUrl": "https://i.ytimg.com/vi/_GKjidJH_NE/maxresdefault.jpg",
@@ -2488,6 +2743,9 @@ const recipes = [
   },
   {
     "title": "【Instagram1300万再生突破‼️】ツナの韓国風簡単混ぜおにぎり #簡単料理 #簡単レシピ #おにぎり #韓国海苔",
+    "platform": "youtube",
+    "externalId": "cIo-cysP8ZM",
+    "videoUrl": "https://www.youtube.com/watch?v=cIo-cysP8ZM",
     "videoId": "cIo-cysP8ZM",
     "url": "https://www.youtube.com/watch?v=cIo-cysP8ZM",
     "thumbnailUrl": "https://i.ytimg.com/vi/cIo-cysP8ZM/maxresdefault.jpg",
@@ -2518,6 +2776,9 @@ const recipes = [
   },
   {
     "title": "簡単なのに美味しすぎる！黒こんにゃくの旨ピリ辛炒め【おつまみレシピ】",
+    "platform": "youtube",
+    "externalId": "e0HqltlFiyk",
+    "videoUrl": "https://www.youtube.com/watch?v=e0HqltlFiyk",
     "videoId": "e0HqltlFiyk",
     "url": "https://www.youtube.com/watch?v=e0HqltlFiyk",
     "thumbnailUrl": "https://i.ytimg.com/vi/e0HqltlFiyk/maxresdefault.jpg",
@@ -2545,6 +2806,9 @@ const recipes = [
   },
   {
     "title": "【ワンパンでスピード角煮】",
+    "platform": "youtube",
+    "externalId": "Vpo1fOAk1vk",
+    "videoUrl": "https://www.youtube.com/watch?v=Vpo1fOAk1vk",
     "videoId": "Vpo1fOAk1vk",
     "url": "https://www.youtube.com/watch?v=Vpo1fOAk1vk",
     "thumbnailUrl": "https://i.ytimg.com/vi/Vpo1fOAk1vk/maxresdefault.jpg",
@@ -2578,6 +2842,9 @@ const recipes = [
   },
   {
     "title": "【レンジで簡単！絶品鶏むねチャーシュー】",
+    "platform": "youtube",
+    "externalId": "nGpcRyZtHq0",
+    "videoUrl": "https://www.youtube.com/watch?v=nGpcRyZtHq0",
     "videoId": "nGpcRyZtHq0",
     "url": "https://www.youtube.com/watch?v=nGpcRyZtHq0",
     "thumbnailUrl": "https://i.ytimg.com/vi/nGpcRyZtHq0/maxresdefault.jpg",
@@ -2612,6 +2879,9 @@ const recipes = [
   },
   {
     "title": "レンチンオムライス🍳#簡単レシピ #レンチンレシピ #産後ダイエット #料理 #shorts",
+    "platform": "youtube",
+    "externalId": "nUBggQGwq-M",
+    "videoUrl": "https://www.youtube.com/watch?v=nUBggQGwq-M",
     "videoId": "nUBggQGwq-M",
     "url": "https://www.youtube.com/watch?v=nUBggQGwq-M",
     "thumbnailUrl": "https://i.ytimg.com/vi/nUBggQGwq-M/maxresdefault.jpg",
@@ -2645,6 +2915,9 @@ const recipes = [
   },
   {
     "title": "味付けはめんつゆだけ【玉たま丼】#玉ねぎ #卵レシピ #玉ねぎレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "T0Bg6GsCcBU",
+    "videoUrl": "https://www.youtube.com/watch?v=T0Bg6GsCcBU",
     "videoId": "T0Bg6GsCcBU",
     "url": "https://www.youtube.com/watch?v=T0Bg6GsCcBU",
     "thumbnailUrl": "https://i.ytimg.com/vi/T0Bg6GsCcBU/maxresdefault.jpg",
@@ -2678,6 +2951,9 @@ const recipes = [
   },
   {
     "title": "【３８０万回再生の人気レシピ】ただ焼くだけで驚くほど旨い！やみつき焼きトロなすの作り方 #shorts 【kattyanneru】",
+    "platform": "youtube",
+    "externalId": "OR9NiANwRJs",
+    "videoUrl": "https://www.youtube.com/watch?v=OR9NiANwRJs",
     "videoId": "OR9NiANwRJs",
     "url": "https://www.youtube.com/watch?v=OR9NiANwRJs",
     "thumbnailUrl": "https://i.ytimg.com/vi/OR9NiANwRJs/maxresdefault.jpg",
@@ -2707,6 +2983,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】ワンパン！ナポリタンスパゲッティの作り方🍝",
+    "platform": "youtube",
+    "externalId": "oK8WrOrxiwI",
+    "videoUrl": "https://www.youtube.com/watch?v=oK8WrOrxiwI",
     "videoId": "oK8WrOrxiwI",
     "url": "https://www.youtube.com/watch?v=oK8WrOrxiwI",
     "thumbnailUrl": "https://i.ytimg.com/vi/oK8WrOrxiwI/maxresdefault.jpg",
@@ -2740,6 +3019,9 @@ const recipes = [
   },
   {
     "title": "【健康ごはん】小松菜と油揚げの煮びたし #簡単料理 #はじめての料理 #おかずレシピ #レシピ #初心者 #簡単レシピ #夜ごはん #小松菜#健康 #おかず",
+    "platform": "youtube",
+    "externalId": "jTcGx9pB6IQ",
+    "videoUrl": "https://www.youtube.com/watch?v=jTcGx9pB6IQ",
     "videoId": "jTcGx9pB6IQ",
     "url": "https://www.youtube.com/watch?v=jTcGx9pB6IQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/jTcGx9pB6IQ/maxresdefault.jpg",
@@ -2767,6 +3049,9 @@ const recipes = [
   },
   {
     "title": "【子どもウケ抜群】パパッとロコモコ丼✨簡単すぎてリピ確定！ #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "oGOgaolkSQo",
+    "videoUrl": "https://www.youtube.com/watch?v=oGOgaolkSQo",
     "videoId": "oGOgaolkSQo",
     "url": "https://www.youtube.com/watch?v=oGOgaolkSQo",
     "thumbnailUrl": "https://i.ytimg.com/vi/oGOgaolkSQo/maxresdefault.jpg",
@@ -2804,6 +3089,9 @@ const recipes = [
   },
   {
     "title": "やる気1％で即席ミラノっぽいドリア",
+    "platform": "youtube",
+    "externalId": "Ff8K9ihIXbU",
+    "videoUrl": "https://www.youtube.com/watch?v=Ff8K9ihIXbU",
     "videoId": "Ff8K9ihIXbU",
     "url": "https://www.youtube.com/watch?v=Ff8K9ihIXbU",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ff8K9ihIXbU/maxresdefault.jpg",
@@ -2829,6 +3117,9 @@ const recipes = [
   },
   {
     "title": "おうち居酒屋でこれだしたら大喜びされて作り方めっちゃ聞かれたやつ。#簡単レシピ #料理 #節約レシピ #おつまみレシピ #おうち居酒屋 #youtubeshorts #shorts",
+    "platform": "youtube",
+    "externalId": "GH5LI_XBcFE",
+    "videoUrl": "https://www.youtube.com/watch?v=GH5LI_XBcFE",
     "videoId": "GH5LI_XBcFE",
     "url": "https://www.youtube.com/watch?v=GH5LI_XBcFE",
     "thumbnailUrl": "https://i.ytimg.com/vi/GH5LI_XBcFE/maxresdefault.jpg",
@@ -2854,6 +3145,9 @@ const recipes = [
   },
   {
     "title": "食パンでできる簡単ホットサンド #料理 #プチ知識 #ずんだもん #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "ZPf-sMu8Jss",
+    "videoUrl": "https://www.youtube.com/watch?v=ZPf-sMu8Jss",
     "videoId": "ZPf-sMu8Jss",
     "url": "https://www.youtube.com/watch?v=ZPf-sMu8Jss",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZPf-sMu8Jss/maxresdefault.jpg",
@@ -2879,6 +3173,9 @@ const recipes = [
   },
   {
     "title": "【混ぜて焼くだけ！】１０分で作れる簡単おつまみ・おかず「ニラ玉焼き」の作り方 #shorts #recipe #cooking",
+    "platform": "youtube",
+    "externalId": "XP2cz6hpgB4",
+    "videoUrl": "https://www.youtube.com/watch?v=XP2cz6hpgB4",
     "videoId": "XP2cz6hpgB4",
     "url": "https://www.youtube.com/watch?v=XP2cz6hpgB4",
     "thumbnailUrl": "https://i.ytimg.com/vi/XP2cz6hpgB4/maxresdefault.jpg",
@@ -2910,6 +3207,9 @@ const recipes = [
   },
   {
     "title": "ばり美味い時短うどんレシピ #簡単レシピ #うどん #冷凍うどん",
+    "platform": "youtube",
+    "externalId": "t6TzMJVfaXw",
+    "videoUrl": "https://www.youtube.com/watch?v=t6TzMJVfaXw",
     "videoId": "t6TzMJVfaXw",
     "url": "https://www.youtube.com/watch?v=t6TzMJVfaXw",
     "thumbnailUrl": "https://i.ytimg.com/vi/t6TzMJVfaXw/maxresdefault.jpg",
@@ -2935,6 +3235,9 @@ const recipes = [
   },
   {
     "title": "簡単10分で韓国料理！豚プルコギの作り方 #料理 #コウケンテツ #レシピ",
+    "platform": "youtube",
+    "externalId": "kd6n-8uQdWo",
+    "videoUrl": "https://www.youtube.com/watch?v=kd6n-8uQdWo",
     "videoId": "kd6n-8uQdWo",
     "url": "https://www.youtube.com/watch?v=kd6n-8uQdWo",
     "thumbnailUrl": "https://i.ytimg.com/vi/kd6n-8uQdWo/maxresdefault.jpg",
@@ -2960,6 +3263,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】最強の健康効果！漬けるだけの酢にんじん #shorts",
+    "platform": "youtube",
+    "externalId": "SYzTEBi2ujQ",
+    "videoUrl": "https://www.youtube.com/watch?v=SYzTEBi2ujQ",
     "videoId": "SYzTEBi2ujQ",
     "url": "https://www.youtube.com/watch?v=SYzTEBi2ujQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/SYzTEBi2ujQ/maxresdefault.jpg",
@@ -2988,6 +3294,9 @@ const recipes = [
   },
   {
     "title": "冷蔵庫のあまりもので✨超簡単たまご丼",
+    "platform": "youtube",
+    "externalId": "n8WBMdIKGQ0",
+    "videoUrl": "https://www.youtube.com/watch?v=n8WBMdIKGQ0",
     "videoId": "n8WBMdIKGQ0",
     "url": "https://www.youtube.com/watch?v=n8WBMdIKGQ0",
     "thumbnailUrl": "https://i.ytimg.com/vi/n8WBMdIKGQ0/maxresdefault.jpg",
@@ -3021,6 +3330,9 @@ const recipes = [
   },
   {
     "title": "食パンの好きな食べ方！ハンバーグ入ってないし全然バーガーではないんですが！（笑）食べたらなんだかハンバーガー気分になる不思議。🍔#簡単レシピ #料理 #ズボラ #食パン #おうちごはん",
+    "platform": "youtube",
+    "externalId": "PJx6CP8bVxo",
+    "videoUrl": "https://www.youtube.com/watch?v=PJx6CP8bVxo",
     "videoId": "PJx6CP8bVxo",
     "url": "https://www.youtube.com/watch?v=PJx6CP8bVxo",
     "thumbnailUrl": "https://i.ytimg.com/vi/PJx6CP8bVxo/maxresdefault.jpg",
@@ -3059,6 +3371,9 @@ const recipes = [
   },
   {
     "title": "【2ヶ月で6キロ痩せた】ヘルシーキャベツしゅうまい #ダイエットレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "1AmGoP_xiTY",
+    "videoUrl": "https://www.youtube.com/watch?v=1AmGoP_xiTY",
     "videoId": "1AmGoP_xiTY",
     "url": "https://www.youtube.com/watch?v=1AmGoP_xiTY",
     "thumbnailUrl": "https://i.ytimg.com/vi/1AmGoP_xiTY/maxresdefault.jpg",
@@ -3093,6 +3408,9 @@ const recipes = [
   },
   {
     "title": "こどもがおかわり！白身魚 #ワンパンレシピ",
+    "platform": "youtube",
+    "externalId": "PjroIMxXvis",
+    "videoUrl": "https://www.youtube.com/watch?v=PjroIMxXvis",
     "videoId": "PjroIMxXvis",
     "url": "https://www.youtube.com/watch?v=PjroIMxXvis",
     "thumbnailUrl": "https://i.ytimg.com/vi/PjroIMxXvis/maxresdefault.jpg",
@@ -3122,6 +3440,9 @@ const recipes = [
   },
   {
     "title": "【インスタ220万回再生】もやしを使ったほぼ50円飯 #レシピ動画 #レシピ #簡単レシピ #自炊 #節約 #shorts",
+    "platform": "youtube",
+    "externalId": "wcSsYxqPg6w",
+    "videoUrl": "https://www.youtube.com/watch?v=wcSsYxqPg6w",
     "videoId": "wcSsYxqPg6w",
     "url": "https://www.youtube.com/watch?v=wcSsYxqPg6w",
     "thumbnailUrl": "https://i.ytimg.com/vi/wcSsYxqPg6w/maxresdefault.jpg",
@@ -3147,6 +3468,9 @@ const recipes = [
   },
   {
     "title": "【子供が大喜び✨】のり塩ポップコーンチキン！手が止まらないおいしさ… #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "ljmvFZH6Ezs",
+    "videoUrl": "https://www.youtube.com/watch?v=ljmvFZH6Ezs",
     "videoId": "ljmvFZH6Ezs",
     "url": "https://www.youtube.com/watch?v=ljmvFZH6Ezs",
     "thumbnailUrl": "https://i.ytimg.com/vi/ljmvFZH6Ezs/maxresdefault.jpg",
@@ -3176,6 +3500,9 @@ const recipes = [
   },
   {
     "title": "【超簡単】ふわとろオムライスの作り方",
+    "platform": "youtube",
+    "externalId": "XQtZi6eDquU",
+    "videoUrl": "https://www.youtube.com/watch?v=XQtZi6eDquU",
     "videoId": "XQtZi6eDquU",
     "url": "https://www.youtube.com/watch?v=XQtZi6eDquU",
     "thumbnailUrl": "https://i.ytimg.com/vi/XQtZi6eDquU/maxresdefault.jpg",
@@ -3201,6 +3528,9 @@ const recipes = [
   },
   {
     "title": "チキンのクリーム煮",
+    "platform": "youtube",
+    "externalId": "S2inUyE9Nus",
+    "videoUrl": "https://www.youtube.com/watch?v=S2inUyE9Nus",
     "videoId": "S2inUyE9Nus",
     "url": "https://www.youtube.com/watch?v=S2inUyE9Nus",
     "thumbnailUrl": "https://i.ytimg.com/vi/S2inUyE9Nus/maxresdefault.jpg",
@@ -3241,6 +3571,9 @@ const recipes = [
   },
   {
     "title": "誰でも作れるふわトロオムレツの作り方！！最後が一番大事です#オムレツ#オムライス#料理#調理学生",
+    "platform": "youtube",
+    "externalId": "toRqcLeJkwk",
+    "videoUrl": "https://www.youtube.com/watch?v=toRqcLeJkwk",
     "videoId": "toRqcLeJkwk",
     "url": "https://www.youtube.com/watch?v=toRqcLeJkwk",
     "thumbnailUrl": "https://i.ytimg.com/vi/toRqcLeJkwk/maxresdefault.jpg",
@@ -3266,6 +3599,9 @@ const recipes = [
   },
   {
     "title": "【プロが教える】玉ねぎステーキの作り方 #shorts",
+    "platform": "youtube",
+    "externalId": "DS6ayyNCYzo",
+    "videoUrl": "https://www.youtube.com/watch?v=DS6ayyNCYzo",
     "videoId": "DS6ayyNCYzo",
     "url": "https://www.youtube.com/watch?v=DS6ayyNCYzo",
     "thumbnailUrl": "https://i.ytimg.com/vi/DS6ayyNCYzo/maxresdefault.jpg",
@@ -3293,6 +3629,9 @@ const recipes = [
   },
   {
     "title": "誰でも簡単に美味しくサバ缶が食べれちゃう😊時短おかず！おつまみ！#shorts #簡単#簡単レシピ #料理#鯖#shortscooking",
+    "platform": "youtube",
+    "externalId": "Z-XKIKd6ZJ4",
+    "videoUrl": "https://www.youtube.com/watch?v=Z-XKIKd6ZJ4",
     "videoId": "Z-XKIKd6ZJ4",
     "url": "https://www.youtube.com/watch?v=Z-XKIKd6ZJ4",
     "thumbnailUrl": "https://i.ytimg.com/vi/Z-XKIKd6ZJ4/maxresdefault.jpg",
@@ -3318,6 +3657,9 @@ const recipes = [
   },
   {
     "title": "クックパッドで人気の白菜の旨煮 #簡単レシピ #料理 #クックパッド",
+    "platform": "youtube",
+    "externalId": "betQKA5xZ14",
+    "videoUrl": "https://www.youtube.com/watch?v=betQKA5xZ14",
     "videoId": "betQKA5xZ14",
     "url": "https://www.youtube.com/watch?v=betQKA5xZ14",
     "thumbnailUrl": "https://i.ytimg.com/vi/betQKA5xZ14/maxresdefault.jpg",
@@ -3343,6 +3685,9 @@ const recipes = [
   },
   {
     "title": "【旦那に褒められた】簡単鯖レシピ！ #鯖 #鯖レシピ #サバ #簡単レシピ #簡単料理 #簡単和食 #簡単和食レシピ",
+    "platform": "youtube",
+    "externalId": "qkOrC2yj3tY",
+    "videoUrl": "https://www.youtube.com/watch?v=qkOrC2yj3tY",
     "videoId": "qkOrC2yj3tY",
     "url": "https://www.youtube.com/watch?v=qkOrC2yj3tY",
     "thumbnailUrl": "https://i.ytimg.com/vi/qkOrC2yj3tY/maxresdefault.jpg",
@@ -3375,6 +3720,9 @@ const recipes = [
   },
   {
     "title": "鶏むね肉レシピに困ったらこれ作って！！！#shorts",
+    "platform": "youtube",
+    "externalId": "jf6owLwYIIE",
+    "videoUrl": "https://www.youtube.com/watch?v=jf6owLwYIIE",
     "videoId": "jf6owLwYIIE",
     "url": "https://www.youtube.com/watch?v=jf6owLwYIIE",
     "thumbnailUrl": "https://i.ytimg.com/vi/jf6owLwYIIE/maxresdefault.jpg",
@@ -3404,6 +3752,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】サーモンタルタルの作り方 #shorts",
+    "platform": "youtube",
+    "externalId": "VOawcyhJC5c",
+    "videoUrl": "https://www.youtube.com/watch?v=VOawcyhJC5c",
     "videoId": "VOawcyhJC5c",
     "url": "https://www.youtube.com/watch?v=VOawcyhJC5c",
     "thumbnailUrl": "https://i.ytimg.com/vi/VOawcyhJC5c/maxresdefault.jpg",
@@ -3436,6 +3787,9 @@ const recipes = [
   },
   {
     "title": "【2800万回再生ポテトレシピ🥔】じゃがいもの皮の美味しさに気づいた〇〇 ※注:じゃがいもの芽や緑色になった皮にはソラニンやチャコニンという毒素が多く含まれており食中毒を引き起こす可能性があります！",
+    "platform": "youtube",
+    "externalId": "CMG6FzloNC8",
+    "videoUrl": "https://www.youtube.com/watch?v=CMG6FzloNC8",
     "videoId": "CMG6FzloNC8",
     "url": "https://www.youtube.com/watch?v=CMG6FzloNC8",
     "thumbnailUrl": "https://i.ytimg.com/vi/CMG6FzloNC8/maxresdefault.jpg",
@@ -3466,6 +3820,9 @@ const recipes = [
   },
   {
     "title": "【永久保存版】ふわとろオムライスの作り方【前編】",
+    "platform": "youtube",
+    "externalId": "xQDLT1IPfJg",
+    "videoUrl": "https://www.youtube.com/watch?v=xQDLT1IPfJg",
     "videoId": "xQDLT1IPfJg",
     "url": "https://www.youtube.com/watch?v=xQDLT1IPfJg",
     "thumbnailUrl": "https://i.ytimg.com/vi/xQDLT1IPfJg/sddefault.jpg",
@@ -3491,6 +3848,9 @@ const recipes = [
   },
   {
     "title": "レンジで超しっとり！ネギ塩チキン🐓 #簡単レシピ #鶏むね肉 #料理",
+    "platform": "youtube",
+    "externalId": "82USBkx84eM",
+    "videoUrl": "https://www.youtube.com/watch?v=82USBkx84eM",
     "videoId": "82USBkx84eM",
     "url": "https://www.youtube.com/watch?v=82USBkx84eM",
     "thumbnailUrl": "https://i.ytimg.com/vi/82USBkx84eM/maxresdefault.jpg",
@@ -3520,6 +3880,9 @@ const recipes = [
   },
   {
     "title": "少ない調味料で絶品！時短最強油うどん",
+    "platform": "youtube",
+    "externalId": "xe7pCfHAY6c",
+    "videoUrl": "https://www.youtube.com/watch?v=xe7pCfHAY6c",
     "videoId": "xe7pCfHAY6c",
     "url": "https://www.youtube.com/watch?v=xe7pCfHAY6c",
     "thumbnailUrl": "https://i.ytimg.com/vi/xe7pCfHAY6c/maxresdefault.jpg",
@@ -3553,6 +3916,9 @@ const recipes = [
   },
   {
     "title": "【たった5分で作れる◎】ちくきゅーサラダ #料理動画 #cooking #shorts #簡単レシピ #サラダレシピ #ちくわレシピ #きゅうりレシピ #卵レシピ #節約レシピ",
+    "platform": "youtube",
+    "externalId": "f_nGuuHQSwU",
+    "videoUrl": "https://www.youtube.com/watch?v=f_nGuuHQSwU",
     "videoId": "f_nGuuHQSwU",
     "url": "https://www.youtube.com/watch?v=f_nGuuHQSwU",
     "thumbnailUrl": "https://i.ytimg.com/vi/f_nGuuHQSwU/maxresdefault.jpg",
@@ -3584,6 +3950,9 @@ const recipes = [
   },
   {
     "title": "【カレーの作り方】簡単1分レシピ!大人気王道カレー!!#shorts #料理 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "vUbb0u-oUu8",
+    "videoUrl": "https://www.youtube.com/watch?v=vUbb0u-oUu8",
     "videoId": "vUbb0u-oUu8",
     "url": "https://www.youtube.com/watch?v=vUbb0u-oUu8",
     "thumbnailUrl": "https://i.ytimg.com/vi/vUbb0u-oUu8/maxresdefault.jpg",
@@ -3619,6 +3988,9 @@ const recipes = [
   },
   {
     "title": "【レンチン一撃！！】激楽オムライス #料理動画 #cooking #shorts #簡単レシピ #オムライスレシピ #オムライス #卵レシピ",
+    "platform": "youtube",
+    "externalId": "y-hEZBS7Vb8",
+    "videoUrl": "https://www.youtube.com/watch?v=y-hEZBS7Vb8",
     "videoId": "y-hEZBS7Vb8",
     "url": "https://www.youtube.com/watch?v=y-hEZBS7Vb8",
     "thumbnailUrl": "https://i.ytimg.com/vi/y-hEZBS7Vb8/maxresdefault.jpg",
@@ -3654,6 +4026,9 @@ const recipes = [
   },
   {
     "title": "お手軽！こくウマ手羽元角煮 #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "dzz3WWtx8Zs",
+    "videoUrl": "https://www.youtube.com/watch?v=dzz3WWtx8Zs",
     "videoId": "dzz3WWtx8Zs",
     "url": "https://www.youtube.com/watch?v=dzz3WWtx8Zs",
     "thumbnailUrl": "https://i.ytimg.com/vi/dzz3WWtx8Zs/maxresdefault.jpg",
@@ -3679,6 +4054,9 @@ const recipes = [
   },
   {
     "title": "作業5分！春雨サラダ🥗 #簡単レシピ #節約レシピ",
+    "platform": "youtube",
+    "externalId": "L93s1ZYw32w",
+    "videoUrl": "https://www.youtube.com/watch?v=L93s1ZYw32w",
     "videoId": "L93s1ZYw32w",
     "url": "https://www.youtube.com/watch?v=L93s1ZYw32w",
     "thumbnailUrl": "https://i.ytimg.com/vi/L93s1ZYw32w/maxresdefault.jpg",
@@ -3704,6 +4082,9 @@ const recipes = [
   },
   {
     "title": "【うすしおポテチ】レシピはコメント欄に👩🏻‍🍳🍴 𓂃⋆* #shorts",
+    "platform": "youtube",
+    "externalId": "vu2dA01wBms",
+    "videoUrl": "https://www.youtube.com/watch?v=vu2dA01wBms",
     "videoId": "vu2dA01wBms",
     "url": "https://www.youtube.com/watch?v=vu2dA01wBms",
     "thumbnailUrl": "https://i.ytimg.com/vi/vu2dA01wBms/maxresdefault.jpg",
@@ -3731,6 +4112,9 @@ const recipes = [
   },
   {
     "title": "包まない小籠包🐼 #料理 #レシピ #小籠包 #時短料理 #shorts",
+    "platform": "youtube",
+    "externalId": "5efhZwSUNaI",
+    "videoUrl": "https://www.youtube.com/watch?v=5efhZwSUNaI",
     "videoId": "5efhZwSUNaI",
     "url": "https://www.youtube.com/watch?v=5efhZwSUNaI",
     "thumbnailUrl": "https://i.ytimg.com/vi/5efhZwSUNaI/maxresdefault.jpg",
@@ -3760,6 +4144,9 @@ const recipes = [
   },
   {
     "title": "【ホットケーキミックスで♡さくふわアメリカンドッグ】#簡単レシピ #簡単おやつ #ホットケーキミックス",
+    "platform": "youtube",
+    "externalId": "ZHeWCvnJoZQ",
+    "videoUrl": "https://www.youtube.com/watch?v=ZHeWCvnJoZQ",
     "videoId": "ZHeWCvnJoZQ",
     "url": "https://www.youtube.com/watch?v=ZHeWCvnJoZQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZHeWCvnJoZQ/maxresdefault.jpg",
@@ -3790,6 +4177,9 @@ const recipes = [
   },
   {
     "title": "【料理】かんたんバカ旨山賊焼き。#簡単料理 #shorts_ #shorts",
+    "platform": "youtube",
+    "externalId": "NA6zBfepuAc",
+    "videoUrl": "https://www.youtube.com/watch?v=NA6zBfepuAc",
     "videoId": "NA6zBfepuAc",
     "url": "https://www.youtube.com/watch?v=NA6zBfepuAc",
     "thumbnailUrl": "https://i.ytimg.com/vi/NA6zBfepuAc/maxresdefault.jpg",
@@ -3820,6 +4210,9 @@ const recipes = [
   },
   {
     "title": "【簡単＆ヘルシー】もちもち＆サクサク！絶品豆腐もちレシピ",
+    "platform": "youtube",
+    "externalId": "cLxF3VpPtJQ",
+    "videoUrl": "https://www.youtube.com/watch?v=cLxF3VpPtJQ",
     "videoId": "cLxF3VpPtJQ",
     "url": "https://www.youtube.com/watch?v=cLxF3VpPtJQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/cLxF3VpPtJQ/maxresdefault.jpg",
@@ -3845,6 +4238,9 @@ const recipes = [
   },
   {
     "title": "【チャーシュー】簡単とろとろ！豚バラ肉で作る本格ラーメン屋の味！【煮豚】",
+    "platform": "youtube",
+    "externalId": "W0dpe6mSK8U",
+    "videoUrl": "https://www.youtube.com/watch?v=W0dpe6mSK8U",
     "videoId": "W0dpe6mSK8U",
     "url": "https://www.youtube.com/watch?v=W0dpe6mSK8U",
     "thumbnailUrl": "https://i.ytimg.com/vi/W0dpe6mSK8U/maxresdefault.jpg",
@@ -3872,6 +4268,9 @@ const recipes = [
   },
   {
     "title": "はんぺんのチーズ焼き#簡単レシピ#簡単料理#レシピ#おうちごはん#はんぺんレシピ",
+    "platform": "youtube",
+    "externalId": "4PPXgdHyRXQ",
+    "videoUrl": "https://www.youtube.com/watch?v=4PPXgdHyRXQ",
     "videoId": "4PPXgdHyRXQ",
     "url": "https://www.youtube.com/watch?v=4PPXgdHyRXQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/4PPXgdHyRXQ/maxresdefault.jpg",
@@ -3897,6 +4296,9 @@ const recipes = [
   },
   {
     "title": "茹でるだけ❗️簡単 チキンサラダ",
+    "platform": "youtube",
+    "externalId": "7fseh3d5Ays",
+    "videoUrl": "https://www.youtube.com/watch?v=7fseh3d5Ays",
     "videoId": "7fseh3d5Ays",
     "url": "https://www.youtube.com/watch?v=7fseh3d5Ays",
     "thumbnailUrl": "https://i.ytimg.com/vi/7fseh3d5Ays/maxresdefault.jpg",
@@ -3922,6 +4324,9 @@ const recipes = [
   },
   {
     "title": "【Instagram1900万再生💕突破】韓国風⁉︎簡単まぜまぜおにぎり🍙#簡単料理 #おにぎり #混ぜおにぎり#韓国海苔",
+    "platform": "youtube",
+    "externalId": "4OTBlIt6EBM",
+    "videoUrl": "https://www.youtube.com/watch?v=4OTBlIt6EBM",
     "videoId": "4OTBlIt6EBM",
     "url": "https://www.youtube.com/watch?v=4OTBlIt6EBM",
     "thumbnailUrl": "https://i.ytimg.com/vi/4OTBlIt6EBM/maxresdefault.jpg",
@@ -3951,6 +4356,9 @@ const recipes = [
   },
   {
     "title": "にんじんガレット #ダイエットレシピ #簡単レシピ #レシピ #野菜レシピ #cooking #レシピ #料理 #時短レシピ #にんじん #ななレシピ",
+    "platform": "youtube",
+    "externalId": "a2OPvuBLajk",
+    "videoUrl": "https://www.youtube.com/watch?v=a2OPvuBLajk",
     "videoId": "a2OPvuBLajk",
     "url": "https://www.youtube.com/watch?v=a2OPvuBLajk",
     "thumbnailUrl": "https://i.ytimg.com/vi/a2OPvuBLajk/maxresdefault.jpg",
@@ -3976,6 +4384,9 @@ const recipes = [
   },
   {
     "title": "【6月家計簿公開】節約を楽しむ一人暮らしの給料日ルーティン👩‍💼｜食材買い出しと鶏むね肉で節約ごはん🍗💞",
+    "platform": "youtube",
+    "externalId": "_-b1ttNd5ZQ",
+    "videoUrl": "https://www.youtube.com/watch?v=_-b1ttNd5ZQ",
     "videoId": "_-b1ttNd5ZQ",
     "url": "https://www.youtube.com/watch?v=_-b1ttNd5ZQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/_-b1ttNd5ZQ/maxresdefault.jpg",
@@ -4008,6 +4419,9 @@ const recipes = [
   },
   {
     "title": "平日5日間×1日3食でも食費2000円に抑える。【一人暮らしの節約生活】",
+    "platform": "youtube",
+    "externalId": "OGULLyAUPEA",
+    "videoUrl": "https://www.youtube.com/watch?v=OGULLyAUPEA",
     "videoId": "OGULLyAUPEA",
     "url": "https://www.youtube.com/watch?v=OGULLyAUPEA",
     "thumbnailUrl": "https://i.ytimg.com/vi/OGULLyAUPEA/maxresdefault.jpg",
@@ -4033,6 +4447,9 @@ const recipes = [
   },
   {
     "title": "一人暮らしの食事vlog🥞/パスタグラタンとライスコロッケを作る🍅/ビアードパパ、米粉のパンケーキ、棒棒鶏、フライドズッキーニ",
+    "platform": "youtube",
+    "externalId": "jSN-qyVl5Ng",
+    "videoUrl": "https://www.youtube.com/watch?v=jSN-qyVl5Ng",
     "videoId": "jSN-qyVl5Ng",
     "url": "https://www.youtube.com/watch?v=jSN-qyVl5Ng",
     "thumbnailUrl": "https://i.ytimg.com/vi/jSN-qyVl5Ng/maxresdefault.jpg",
@@ -4060,6 +4477,9 @@ const recipes = [
   },
   {
     "title": "バズってるやつ！悪魔のウインナー丼 簡単でとまらない！是非やってみて！簡単 手抜きご飯 おうちごはん 丼物 卵レシピ 一人暮らし自炊 ズボラ飯",
+    "platform": "youtube",
+    "externalId": "emy2tqqImOA",
+    "videoUrl": "https://www.youtube.com/watch?v=emy2tqqImOA",
     "videoId": "emy2tqqImOA",
     "url": "https://www.youtube.com/watch?v=emy2tqqImOA",
     "thumbnailUrl": "https://i.ytimg.com/vi/emy2tqqImOA/maxresdefault.jpg",
@@ -4117,6 +4537,9 @@ const recipes = [
   },
   {
     "title": "【アレンジ】結局みんなこういうの好きでしょ??🤤💭#アレンジレシピ #簡単レシピ #一人暮らし #ラーメン #生理前 #爆食 #ol",
+    "platform": "youtube",
+    "externalId": "UMH-yj8jvTc",
+    "videoUrl": "https://www.youtube.com/watch?v=UMH-yj8jvTc",
     "videoId": "UMH-yj8jvTc",
     "url": "https://www.youtube.com/watch?v=UMH-yj8jvTc",
     "thumbnailUrl": "https://i.ytimg.com/vi/UMH-yj8jvTc/maxresdefault.jpg",
@@ -4142,6 +4565,9 @@ const recipes = [
   },
   {
     "title": "【爆買いウエル活】カゴいっぱいに詰める幸せ。節約する一人暮らしの月一ルーティン🛒｜食パンストック🍞｜炊飯器肉じゃが🥩",
+    "platform": "youtube",
+    "externalId": "k0A7tcbKpl0",
+    "videoUrl": "https://www.youtube.com/watch?v=k0A7tcbKpl0",
     "videoId": "k0A7tcbKpl0",
     "url": "https://www.youtube.com/watch?v=k0A7tcbKpl0",
     "thumbnailUrl": "https://i.ytimg.com/vi/k0A7tcbKpl0/maxresdefault.jpg",
@@ -4178,6 +4604,9 @@ const recipes = [
   },
   {
     "title": "料理が楽になる冷凍ライフハック！",
+    "platform": "youtube",
+    "externalId": "oXjBqd4XiV8",
+    "videoUrl": "https://www.youtube.com/watch?v=oXjBqd4XiV8",
     "videoId": "oXjBqd4XiV8",
     "url": "https://www.youtube.com/watch?v=oXjBqd4XiV8",
     "thumbnailUrl": "https://i.ytimg.com/vi/oXjBqd4XiV8/maxresdefault.jpg",
@@ -4207,6 +4636,9 @@ const recipes = [
   },
   {
     "title": "【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕 / 鶏むね＆豚こまレシピ🐷💞",
+    "platform": "youtube",
+    "externalId": "IXy6wfk1vHQ",
+    "videoUrl": "https://www.youtube.com/watch?v=IXy6wfk1vHQ",
     "videoId": "IXy6wfk1vHQ",
     "url": "https://www.youtube.com/watch?v=IXy6wfk1vHQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/IXy6wfk1vHQ/maxresdefault.jpg",
@@ -4246,6 +4678,9 @@ const recipes = [
   },
   {
     "title": "【大正解】ニトリは一人暮らしの強い味方ですね☁️#ニトリ #購入品紹介 #一人暮らし #独身 #便利アイテム #便利グッズ #おすすめ #家電 #簡単レシピ #ズボラ飯 #ラーメン",
+    "platform": "youtube",
+    "externalId": "6_eL0dOI-sM",
+    "videoUrl": "https://www.youtube.com/watch?v=6_eL0dOI-sM",
     "videoId": "6_eL0dOI-sM",
     "url": "https://www.youtube.com/watch?v=6_eL0dOI-sM",
     "thumbnailUrl": "https://i.ytimg.com/vi/6_eL0dOI-sM/maxresdefault.jpg",
@@ -4271,6 +4706,9 @@ const recipes = [
   },
   {
     "title": "【5日間0円自炊】一人暮らし社会人の節約ごはん記録🍚｜手羽元と鶏むねレシピ🐔",
+    "platform": "youtube",
+    "externalId": "gnKBeXaFnWs",
+    "videoUrl": "https://www.youtube.com/watch?v=gnKBeXaFnWs",
     "videoId": "gnKBeXaFnWs",
     "url": "https://www.youtube.com/watch?v=gnKBeXaFnWs",
     "thumbnailUrl": "https://i.ytimg.com/vi/gnKBeXaFnWs/maxresdefault.jpg",
@@ -4307,6 +4745,9 @@ const recipes = [
   },
   {
     "title": "【うどんカルボ】何回リピしたかな…娘にもできちゃうから、一人暮らしの方にオススメ！ #つやこママ #簡単レシピ #おうちごはん #ランチ #カルボナーラ #冷凍うどん",
+    "platform": "youtube",
+    "externalId": "hJI7LAIsgrM",
+    "videoUrl": "https://www.youtube.com/watch?v=hJI7LAIsgrM",
     "videoId": "hJI7LAIsgrM",
     "url": "https://www.youtube.com/watch?v=hJI7LAIsgrM",
     "thumbnailUrl": "https://i.ytimg.com/vi/hJI7LAIsgrM/maxresdefault.jpg",
@@ -4333,6 +4774,9 @@ const recipes = [
   },
   {
     "title": "手取り18万円OLの100円レシピ⁡#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #小籠包",
+    "platform": "youtube",
+    "externalId": "VvS9AHhg4cc",
+    "videoUrl": "https://www.youtube.com/watch?v=VvS9AHhg4cc",
     "videoId": "VvS9AHhg4cc",
     "url": "https://www.youtube.com/watch?v=VvS9AHhg4cc",
     "thumbnailUrl": "https://i.ytimg.com/vi/VvS9AHhg4cc/maxresdefault.jpg",
@@ -4366,6 +4810,9 @@ const recipes = [
   },
   {
     "title": "【53kg→40kg】簡単なのにめっちゃ痩せる神レシピ👼🏻‎フライパンに放っとくだけで10分で5品完成💛#ダイエット #レシピ #Vlog #ルーティン#ワンパン",
+    "platform": "youtube",
+    "externalId": "-EGlVc8ft4g",
+    "videoUrl": "https://www.youtube.com/watch?v=-EGlVc8ft4g",
     "videoId": "-EGlVc8ft4g",
     "url": "https://www.youtube.com/watch?v=-EGlVc8ft4g",
     "thumbnailUrl": "https://i.ytimg.com/vi/-EGlVc8ft4g/maxresdefault.jpg",
@@ -4403,6 +4850,9 @@ const recipes = [
   },
   {
     "title": "【食費月1万円】節約の裏技！野菜を捨てない保存術と5日間のリアルな自炊記録🍚",
+    "platform": "youtube",
+    "externalId": "bzGXhh0LryM",
+    "videoUrl": "https://www.youtube.com/watch?v=bzGXhh0LryM",
     "videoId": "bzGXhh0LryM",
     "url": "https://www.youtube.com/watch?v=bzGXhh0LryM",
     "thumbnailUrl": "https://i.ytimg.com/vi/bzGXhh0LryM/maxresdefault.jpg",
@@ -4431,6 +4881,9 @@ const recipes = [
   },
   {
     "title": "【食費節約】あるものでやりくりする一人暮らしの自炊記録👩‍🦰🍚｜鶏むね最強レシピとアレンジ🍳 ｜すっきり片付くキッチンリセット🌿",
+    "platform": "youtube",
+    "externalId": "yMFIMRVbAg8",
+    "videoUrl": "https://www.youtube.com/watch?v=yMFIMRVbAg8",
     "videoId": "yMFIMRVbAg8",
     "url": "https://www.youtube.com/watch?v=yMFIMRVbAg8",
     "thumbnailUrl": "https://i.ytimg.com/vi/yMFIMRVbAg8/maxresdefault.jpg",
@@ -4462,6 +4915,9 @@ const recipes = [
   },
   {
     "title": "超簡単キャベツ焼きの作り方！おうちでたっぷりキャベツレシピ！",
+    "platform": "youtube",
+    "externalId": "QnPsN4tRDAI",
+    "videoUrl": "https://www.youtube.com/watch?v=QnPsN4tRDAI",
     "videoId": "QnPsN4tRDAI",
     "url": "https://www.youtube.com/watch?v=QnPsN4tRDAI",
     "thumbnailUrl": "https://i.ytimg.com/vi/QnPsN4tRDAI/maxresdefault.jpg",
@@ -4494,6 +4950,9 @@ const recipes = [
   },
   {
     "title": "【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕｜ アレンジ食パン🍞💞｜豚こま&むね肉の簡単レシピ🐷",
+    "platform": "youtube",
+    "externalId": "DSnDAks5pyU",
+    "videoUrl": "https://www.youtube.com/watch?v=DSnDAks5pyU",
     "videoId": "DSnDAks5pyU",
     "url": "https://www.youtube.com/watch?v=DSnDAks5pyU",
     "thumbnailUrl": "https://i.ytimg.com/vi/DSnDAks5pyU/maxresdefault.jpg",
@@ -4536,6 +4995,9 @@ const recipes = [
   },
   {
     "title": "究極の手抜き焼きそば。これでいいんだよ。「焼きそば焼き」 詳しいレシピは概要欄をチェック！#簡単レシピ #焼きそば #一人暮らし #節約レシピ #料理動画 #shorts",
+    "platform": "youtube",
+    "externalId": "S5FeHK8Lf20",
+    "videoUrl": "https://www.youtube.com/watch?v=S5FeHK8Lf20",
     "videoId": "S5FeHK8Lf20",
     "url": "https://www.youtube.com/watch?v=S5FeHK8Lf20",
     "thumbnailUrl": "https://i.ytimg.com/vi/S5FeHK8Lf20/maxresdefault.jpg",
@@ -4568,6 +5030,9 @@ const recipes = [
   },
   {
     "title": "【業スー】おすすめ調味料でアレンジレシピ7選",
+    "platform": "youtube",
+    "externalId": "oXdy5LtPtZ4",
+    "videoUrl": "https://www.youtube.com/watch?v=oXdy5LtPtZ4",
     "videoId": "oXdy5LtPtZ4",
     "url": "https://www.youtube.com/watch?v=oXdy5LtPtZ4",
     "thumbnailUrl": "https://i.ytimg.com/vi/oXdy5LtPtZ4/maxresdefault.jpg",
@@ -4616,6 +5081,9 @@ const recipes = [
   },
   {
     "title": "食費1～1.5万円の人ってなに食べてるの？🍚",
+    "platform": "youtube",
+    "externalId": "Rm8NDBLdTK4",
+    "videoUrl": "https://www.youtube.com/watch?v=Rm8NDBLdTK4",
     "videoId": "Rm8NDBLdTK4",
     "url": "https://www.youtube.com/watch?v=Rm8NDBLdTK4",
     "thumbnailUrl": "https://i.ytimg.com/vi/Rm8NDBLdTK4/maxresdefault.jpg",
@@ -4653,6 +5121,9 @@ const recipes = [
   },
   {
     "title": "【初】2人暮らし始めました！",
+    "platform": "youtube",
+    "externalId": "buvSGcVYQ08",
+    "videoUrl": "https://www.youtube.com/watch?v=buvSGcVYQ08",
     "videoId": "buvSGcVYQ08",
     "url": "https://www.youtube.com/watch?v=buvSGcVYQ08",
     "thumbnailUrl": "https://i.ytimg.com/vi/buvSGcVYQ08/maxresdefault.jpg",
@@ -4678,6 +5149,9 @@ const recipes = [
   },
   {
     "title": "【アラフィフ独身女】孤独の夜｜ひとりで過ごすナイトルーティン【無職】【築48年団地】",
+    "platform": "youtube",
+    "externalId": "ABHUFwm8_Qg",
+    "videoUrl": "https://www.youtube.com/watch?v=ABHUFwm8_Qg",
     "videoId": "ABHUFwm8_Qg",
     "url": "https://www.youtube.com/watch?v=ABHUFwm8_Qg",
     "thumbnailUrl": "https://i.ytimg.com/vi/ABHUFwm8_Qg/maxresdefault.jpg",
@@ -4713,6 +5187,9 @@ const recipes = [
   },
   {
     "title": "【超濃厚】どん兵衛で明太クリームうどん💭#アレンジレシピ #簡単レシピ #簡単アレンジ #アレンジ #一人暮らし #ol #うどん #カップ麺",
+    "platform": "youtube",
+    "externalId": "LxR1_5-vyR0",
+    "videoUrl": "https://www.youtube.com/watch?v=LxR1_5-vyR0",
     "videoId": "LxR1_5-vyR0",
     "url": "https://www.youtube.com/watch?v=LxR1_5-vyR0",
     "thumbnailUrl": "https://i.ytimg.com/vi/LxR1_5-vyR0/maxresdefault.jpg",
@@ -4738,6 +5215,9 @@ const recipes = [
   },
   {
     "title": "【超濃厚】残った汁にうどんを入れても美味しいよ☁️#簡単レシピ #アレンジ #アレンジレシピ #ラーメン #たらこ #味噌ラーメン #日常vlog #一人暮らし #おすすめ #独身女子",
+    "platform": "youtube",
+    "externalId": "_GkgXQ-0PwY",
+    "videoUrl": "https://www.youtube.com/watch?v=_GkgXQ-0PwY",
     "videoId": "_GkgXQ-0PwY",
     "url": "https://www.youtube.com/watch?v=_GkgXQ-0PwY",
     "thumbnailUrl": "https://i.ytimg.com/vi/_GkgXQ-0PwY/maxresdefault.jpg",
@@ -4766,6 +5246,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】レンジで簡単小籠包 #自炊 #小籠包 #料理 #レシピ #一人暮らし",
+    "platform": "youtube",
+    "externalId": "__qlofbvkdE",
+    "videoUrl": "https://www.youtube.com/watch?v=__qlofbvkdE",
     "videoId": "__qlofbvkdE",
     "url": "https://www.youtube.com/watch?v=__qlofbvkdE",
     "thumbnailUrl": "https://i.ytimg.com/vi/__qlofbvkdE/maxresdefault.jpg",
@@ -4797,6 +5280,9 @@ const recipes = [
   },
   {
     "title": "一人暮らしの貧乏飯|味玉#簡単レシピ #節約レシピ #卵料理",
+    "platform": "youtube",
+    "externalId": "COykBxqGmIQ",
+    "videoUrl": "https://www.youtube.com/watch?v=COykBxqGmIQ",
     "videoId": "COykBxqGmIQ",
     "url": "https://www.youtube.com/watch?v=COykBxqGmIQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/COykBxqGmIQ/maxresdefault.jpg",
@@ -4822,6 +5308,9 @@ const recipes = [
   },
   {
     "title": "ヘルシーだけどガッツリ食べたい！豆腐ハンバーグ🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #レンチンレシピ",
+    "platform": "youtube",
+    "externalId": "6bQKTzDHUPY",
+    "videoUrl": "https://www.youtube.com/watch?v=6bQKTzDHUPY",
     "videoId": "6bQKTzDHUPY",
     "url": "https://www.youtube.com/watch?v=6bQKTzDHUPY",
     "thumbnailUrl": "https://i.ytimg.com/vi/6bQKTzDHUPY/maxresdefault.jpg",
@@ -4847,6 +5336,9 @@ const recipes = [
   },
   {
     "title": "チキンのクリーム煮#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#クリーム煮",
+    "platform": "youtube",
+    "externalId": "IQIHh5eXd4A",
+    "videoUrl": "https://www.youtube.com/watch?v=IQIHh5eXd4A",
     "videoId": "IQIHh5eXd4A",
     "url": "https://www.youtube.com/watch?v=IQIHh5eXd4A",
     "thumbnailUrl": "https://i.ytimg.com/vi/IQIHh5eXd4A/maxresdefault.jpg",
@@ -4886,6 +5378,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】包丁いらずの豚もやし #自炊 #もやし #料理 #一人暮らし",
+    "platform": "youtube",
+    "externalId": "0J9WlxasTfk",
+    "videoUrl": "https://www.youtube.com/watch?v=0J9WlxasTfk",
     "videoId": "0J9WlxasTfk",
     "url": "https://www.youtube.com/watch?v=0J9WlxasTfk",
     "thumbnailUrl": "https://i.ytimg.com/vi/0J9WlxasTfk/maxresdefault.jpg",
@@ -4920,6 +5415,9 @@ const recipes = [
   },
   {
     "title": "老いる寂しさ一人暮らしの虚しい現実とは？",
+    "platform": "youtube",
+    "externalId": "lsC26V1EmSI",
+    "videoUrl": "https://www.youtube.com/watch?v=lsC26V1EmSI",
     "videoId": "lsC26V1EmSI",
     "url": "https://www.youtube.com/watch?v=lsC26V1EmSI",
     "thumbnailUrl": "https://i.ytimg.com/vi/lsC26V1EmSI/sddefault.jpg",
@@ -4945,6 +5443,9 @@ const recipes = [
   },
   {
     "title": "【還暦で始めた資産づくり】私の老後資金に新しい目標",
+    "platform": "youtube",
+    "externalId": "RXu1tp9CgEQ",
+    "videoUrl": "https://www.youtube.com/watch?v=RXu1tp9CgEQ",
     "videoId": "RXu1tp9CgEQ",
     "url": "https://www.youtube.com/watch?v=RXu1tp9CgEQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/RXu1tp9CgEQ/maxresdefault.jpg",
@@ -4970,6 +5471,9 @@ const recipes = [
   },
   {
     "title": "【50代女性一人暮らし】幅85cmの狭いキッチンで作る、3日間のお弁当と簡単ごはん",
+    "platform": "youtube",
+    "externalId": "0dIXnHEkjLA",
+    "videoUrl": "https://www.youtube.com/watch?v=0dIXnHEkjLA",
     "videoId": "0dIXnHEkjLA",
     "url": "https://www.youtube.com/watch?v=0dIXnHEkjLA",
     "thumbnailUrl": "https://i.ytimg.com/vi/0dIXnHEkjLA/maxresdefault.jpg",
@@ -5009,6 +5513,9 @@ const recipes = [
   },
   {
     "title": "【ダイエット飯🔥】無限豚もやし🥗#ダイエットレシピ #料理 #自炊 #簡単レシピ #ダイエット",
+    "platform": "youtube",
+    "externalId": "_jY5BdUmDD0",
+    "videoUrl": "https://www.youtube.com/watch?v=_jY5BdUmDD0",
     "videoId": "_jY5BdUmDD0",
     "url": "https://www.youtube.com/watch?v=_jY5BdUmDD0",
     "thumbnailUrl": "https://i.ytimg.com/vi/_jY5BdUmDD0/maxresdefault.jpg",
@@ -5034,6 +5541,9 @@ const recipes = [
   },
   {
     "title": "二度と鍋つゆを買わなくなる。一人前89円でバカウマい全人類救済鍋『虚無鍋』",
+    "platform": "youtube",
+    "externalId": "bG5rZqdQndM",
+    "videoUrl": "https://www.youtube.com/watch?v=bG5rZqdQndM",
     "videoId": "bG5rZqdQndM",
     "url": "https://www.youtube.com/watch?v=bG5rZqdQndM",
     "thumbnailUrl": "https://i.ytimg.com/vi/bG5rZqdQndM/sddefault.jpg",
@@ -5065,6 +5575,9 @@ const recipes = [
   },
   {
     "title": "【12キロ痩せたOL】10分弁当🍱#ズボラ弁当 #ズボラレシピ #簡単レシピ #弁当作り #ダイエットレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "ndiVqzadaeE",
+    "videoUrl": "https://www.youtube.com/watch?v=ndiVqzadaeE",
     "videoId": "ndiVqzadaeE",
     "url": "https://www.youtube.com/watch?v=ndiVqzadaeE",
     "thumbnailUrl": "https://i.ytimg.com/vi/ndiVqzadaeE/maxresdefault.jpg",
@@ -5093,6 +5606,9 @@ const recipes = [
   },
   {
     "title": "【2ch有益スレ】一人暮らし自炊民のワイにマジで健康な貧乏飯レシピ教えてw【ゆっくり解説】",
+    "platform": "youtube",
+    "externalId": "Gk8wfg9qEvI",
+    "videoUrl": "https://www.youtube.com/watch?v=Gk8wfg9qEvI",
     "videoId": "Gk8wfg9qEvI",
     "url": "https://www.youtube.com/watch?v=Gk8wfg9qEvI",
     "thumbnailUrl": "https://i.ytimg.com/vi/Gk8wfg9qEvI/maxresdefault.jpg",
@@ -5127,6 +5643,9 @@ const recipes = [
   },
   {
     "title": "食材２つだけ！高タンパク質で痩せる鶏ネギ塩炒め弁当【1食200円】",
+    "platform": "youtube",
+    "externalId": "n4NEHOew2ho",
+    "videoUrl": "https://www.youtube.com/watch?v=n4NEHOew2ho",
     "videoId": "n4NEHOew2ho",
     "url": "https://www.youtube.com/watch?v=n4NEHOew2ho",
     "thumbnailUrl": "https://i.ytimg.com/vi/n4NEHOew2ho/maxresdefault.jpg",
@@ -5152,6 +5671,9 @@ const recipes = [
   },
   {
     "title": "食費1ヶ月1万円の一人暮らしご飯【1週間分紹介】担々そうめん/レモンペッパーチキン/オクラ豚しゃぶ…etc💛",
+    "platform": "youtube",
+    "externalId": "vIKxqDGZxvk",
+    "videoUrl": "https://www.youtube.com/watch?v=vIKxqDGZxvk",
     "videoId": "vIKxqDGZxvk",
     "url": "https://www.youtube.com/watch?v=vIKxqDGZxvk",
     "thumbnailUrl": "https://i.ytimg.com/vi/vIKxqDGZxvk/maxresdefault.jpg",
@@ -5181,6 +5703,9 @@ const recipes = [
   },
   {
     "title": "57歳初めてのせいろ料理",
+    "platform": "youtube",
+    "externalId": "17bm1K-wOqM",
+    "videoUrl": "https://www.youtube.com/watch?v=17bm1K-wOqM",
     "videoId": "17bm1K-wOqM",
     "url": "https://www.youtube.com/watch?v=17bm1K-wOqM",
     "thumbnailUrl": "https://i.ytimg.com/vi/17bm1K-wOqM/maxresdefault.jpg",
@@ -5208,6 +5733,9 @@ const recipes = [
   },
   {
     "title": "レンジで1発！やる気1％オムライス",
+    "platform": "youtube",
+    "externalId": "2A7VZe37XwE",
+    "videoUrl": "https://www.youtube.com/watch?v=2A7VZe37XwE",
     "videoId": "2A7VZe37XwE",
     "url": "https://www.youtube.com/watch?v=2A7VZe37XwE",
     "thumbnailUrl": "https://i.ytimg.com/vi/2A7VZe37XwE/maxresdefault.jpg",
@@ -5239,6 +5767,9 @@ const recipes = [
   },
   {
     "title": "【一人暮らし】狭いキッチンで10品爆誕させる👩🏻‍🍳保存期間も紹介してます🫶 #一人暮らし #節約レシピ",
+    "platform": "youtube",
+    "externalId": "Zm8DNCPPmQY",
+    "videoUrl": "https://www.youtube.com/watch?v=Zm8DNCPPmQY",
     "videoId": "Zm8DNCPPmQY",
     "url": "https://www.youtube.com/watch?v=Zm8DNCPPmQY",
     "thumbnailUrl": "https://i.ytimg.com/vi/Zm8DNCPPmQY/maxresdefault.jpg",
@@ -5264,6 +5795,9 @@ const recipes = [
   },
   {
     "title": "食費1ヶ月1万円の一人暮らしごはん【1週間分紹介】 /Weekly Cooking",
+    "platform": "youtube",
+    "externalId": "Zl_MvEZIS5k",
+    "videoUrl": "https://www.youtube.com/watch?v=Zl_MvEZIS5k",
     "videoId": "Zl_MvEZIS5k",
     "url": "https://www.youtube.com/watch?v=Zl_MvEZIS5k",
     "thumbnailUrl": "https://i.ytimg.com/vi/Zl_MvEZIS5k/maxresdefault.jpg",
@@ -5289,6 +5823,9 @@ const recipes = [
   },
   {
     "title": "【 食費月一万円 】節約ごはんを楽しむ一人暮らし社会人のごはん記録 / 野菜保存法🥕 / おにぎり大量ストック🍙🧡",
+    "platform": "youtube",
+    "externalId": "yQD28fALc0s",
+    "videoUrl": "https://www.youtube.com/watch?v=yQD28fALc0s",
     "videoId": "yQD28fALc0s",
     "url": "https://www.youtube.com/watch?v=yQD28fALc0s",
     "thumbnailUrl": "https://i.ytimg.com/vi/yQD28fALc0s/maxresdefault.jpg",
@@ -5332,6 +5869,9 @@ const recipes = [
   },
   {
     "title": "\\ 炊飯器に入れるだけ / 鶏ももバター醤油ご飯 ↓↓↓ レシピの詳細はコメントから #レシピ #簡単レシピ #炊飯器レシピ",
+    "platform": "youtube",
+    "externalId": "Pd8UtlEWCfU",
+    "videoUrl": "https://www.youtube.com/watch?v=Pd8UtlEWCfU",
     "videoId": "Pd8UtlEWCfU",
     "url": "https://www.youtube.com/watch?v=Pd8UtlEWCfU",
     "thumbnailUrl": "https://i.ytimg.com/vi/Pd8UtlEWCfU/maxresdefault.jpg",
@@ -5359,6 +5899,9 @@ const recipes = [
   },
   {
     "title": "\\常備して10kg痩せた/時短味噌汁#ダイエット #ダイエットレシピ #ヘルシーレシピ",
+    "platform": "youtube",
+    "externalId": "Ys4fWugC73I",
+    "videoUrl": "https://www.youtube.com/watch?v=Ys4fWugC73I",
     "videoId": "Ys4fWugC73I",
     "url": "https://www.youtube.com/watch?v=Ys4fWugC73I",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ys4fWugC73I/maxresdefault.jpg",
@@ -5387,6 +5930,9 @@ const recipes = [
   },
   {
     "title": "【1食186円】無限豚こま南蛮弁当",
+    "platform": "youtube",
+    "externalId": "uLNFTwzW4dw",
+    "videoUrl": "https://www.youtube.com/watch?v=uLNFTwzW4dw",
     "videoId": "uLNFTwzW4dw",
     "url": "https://www.youtube.com/watch?v=uLNFTwzW4dw",
     "thumbnailUrl": "https://i.ytimg.com/vi/uLNFTwzW4dw/maxresdefault.jpg",
@@ -5412,6 +5958,9 @@ const recipes = [
   },
   {
     "title": "箸がとまらない無限鶏むね肉！！ #おつまみレシピ #簡単レシピ #主婦 #おうち居酒屋",
+    "platform": "youtube",
+    "externalId": "_Z2G1Xu1bMA",
+    "videoUrl": "https://www.youtube.com/watch?v=_Z2G1Xu1bMA",
     "videoId": "_Z2G1Xu1bMA",
     "url": "https://www.youtube.com/watch?v=_Z2G1Xu1bMA",
     "thumbnailUrl": "https://i.ytimg.com/vi/_Z2G1Xu1bMA/maxresdefault.jpg",
@@ -5437,6 +5986,9 @@ const recipes = [
   },
   {
     "title": "＼ヘルシー豆腐グラタン／ #レンジレシピ #高タンパクレシピ #簡単レシピ #一人暮らしレシピ #豆腐レシピ",
+    "platform": "youtube",
+    "externalId": "Act9XQZgEHs",
+    "videoUrl": "https://www.youtube.com/watch?v=Act9XQZgEHs",
     "videoId": "Act9XQZgEHs",
     "url": "https://www.youtube.com/watch?v=Act9XQZgEHs",
     "thumbnailUrl": "https://i.ytimg.com/vi/Act9XQZgEHs/maxresdefault.jpg",
@@ -5462,6 +6014,9 @@ const recipes = [
   },
   {
     "title": "㊗️100万再生 10分で作れる、とても美味しいチャーハン",
+    "platform": "youtube",
+    "externalId": "o6svdV4E8dw",
+    "videoUrl": "https://www.youtube.com/watch?v=o6svdV4E8dw",
     "videoId": "o6svdV4E8dw",
     "url": "https://www.youtube.com/watch?v=o6svdV4E8dw",
     "thumbnailUrl": "https://i.ytimg.com/vi/o6svdV4E8dw/maxresdefault.jpg",
@@ -5487,6 +6042,9 @@ const recipes = [
   },
   {
     "title": "【1、5、10年目】一人暮らし男の自炊あるある",
+    "platform": "youtube",
+    "externalId": "9Ib-cqHiWh8",
+    "videoUrl": "https://www.youtube.com/watch?v=9Ib-cqHiWh8",
     "videoId": "9Ib-cqHiWh8",
     "url": "https://www.youtube.com/watch?v=9Ib-cqHiWh8",
     "thumbnailUrl": "https://i.ytimg.com/vi/9Ib-cqHiWh8/maxresdefault.jpg",
@@ -5517,6 +6075,9 @@ const recipes = [
   },
   {
     "title": "【冷凍ストック5日分】豚キムチうどん",
+    "platform": "youtube",
+    "externalId": "nv07iauxTZs",
+    "videoUrl": "https://www.youtube.com/watch?v=nv07iauxTZs",
     "videoId": "nv07iauxTZs",
     "url": "https://www.youtube.com/watch?v=nv07iauxTZs",
     "thumbnailUrl": "https://i.ytimg.com/vi/nv07iauxTZs/maxresdefault.jpg",
@@ -5551,6 +6112,9 @@ const recipes = [
   },
   {
     "title": "イオン系スーパーまいばすけっとで2500円分爆買い🛒トップバリュー商品で絶対真似できるアレンジレシピも㊙️",
+    "platform": "youtube",
+    "externalId": "hLF11viS9t8",
+    "videoUrl": "https://www.youtube.com/watch?v=hLF11viS9t8",
     "videoId": "hLF11viS9t8",
     "url": "https://www.youtube.com/watch?v=hLF11viS9t8",
     "thumbnailUrl": "https://i.ytimg.com/vi/hLF11viS9t8/maxresdefault.jpg",
@@ -5576,6 +6140,9 @@ const recipes = [
   },
   {
     "title": "👛一人前60円🧊冷凍ストック【フレンチトースト】",
+    "platform": "youtube",
+    "externalId": "gYBddnXA2bU",
+    "videoUrl": "https://www.youtube.com/watch?v=gYBddnXA2bU",
     "videoId": "gYBddnXA2bU",
     "url": "https://www.youtube.com/watch?v=gYBddnXA2bU",
     "thumbnailUrl": "https://i.ytimg.com/vi/gYBddnXA2bU/maxresdefault.jpg",
@@ -5601,6 +6168,9 @@ const recipes = [
   },
   {
     "title": "カチコチ冷凍のまま作れる【激うま鶏むねチャーシュー】",
+    "platform": "youtube",
+    "externalId": "klcd3W9kg64",
+    "videoUrl": "https://www.youtube.com/watch?v=klcd3W9kg64",
     "videoId": "klcd3W9kg64",
     "url": "https://www.youtube.com/watch?v=klcd3W9kg64",
     "thumbnailUrl": "https://i.ytimg.com/vi/klcd3W9kg64/maxresdefault.jpg",
@@ -5633,6 +6203,9 @@ const recipes = [
   },
   {
     "title": "【ワンパン15分】鮭のクリーム煮 #ワンパンレシピ #ワーママ",
+    "platform": "youtube",
+    "externalId": "k5OgHdRCkvQ",
+    "videoUrl": "https://www.youtube.com/watch?v=k5OgHdRCkvQ",
     "videoId": "k5OgHdRCkvQ",
     "url": "https://www.youtube.com/watch?v=k5OgHdRCkvQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/k5OgHdRCkvQ/maxresdefault.jpg",
@@ -5675,6 +6248,9 @@ const recipes = [
   },
   {
     "title": "節約チーズケーキ🍰#節約レシピ #自炊記録 #一人暮らし",
+    "platform": "youtube",
+    "externalId": "RJ4nNpdPxQo",
+    "videoUrl": "https://www.youtube.com/watch?v=RJ4nNpdPxQo",
     "videoId": "RJ4nNpdPxQo",
     "url": "https://www.youtube.com/watch?v=RJ4nNpdPxQo",
     "thumbnailUrl": "https://i.ytimg.com/vi/RJ4nNpdPxQo/maxresdefault.jpg",
@@ -5700,6 +6276,9 @@ const recipes = [
   },
   {
     "title": "材料２つ！一人暮らしの節約ツナ缶うどん！#節約料理 #節約 #節約飯 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "lBOJ_JCbH0w",
+    "videoUrl": "https://www.youtube.com/watch?v=lBOJ_JCbH0w",
     "videoId": "lBOJ_JCbH0w",
     "url": "https://www.youtube.com/watch?v=lBOJ_JCbH0w",
     "thumbnailUrl": "https://i.ytimg.com/vi/lBOJ_JCbH0w/maxresdefault.jpg",
@@ -5727,6 +6306,9 @@ const recipes = [
   },
   {
     "title": "＼やみつきコクマヨ／ソーセージパスタ🍝 #レンジレシピ #簡単レシピ #一人暮らしレシピ #パスタレシピ #レンチンレシピ #ズボラレシピ #高タンパク質メニュー",
+    "platform": "youtube",
+    "externalId": "_3tevJRxzv8",
+    "videoUrl": "https://www.youtube.com/watch?v=_3tevJRxzv8",
     "videoId": "_3tevJRxzv8",
     "url": "https://www.youtube.com/watch?v=_3tevJRxzv8",
     "thumbnailUrl": "https://i.ytimg.com/vi/_3tevJRxzv8/maxresdefault.jpg",
@@ -5754,6 +6336,9 @@ const recipes = [
   },
   {
     "title": "親子丼レシピはこれだけでいい！究極の親子丼レシピ #簡単レシピ #親子丼",
+    "platform": "youtube",
+    "externalId": "pyuR674BEvg",
+    "videoUrl": "https://www.youtube.com/watch?v=pyuR674BEvg",
     "videoId": "pyuR674BEvg",
     "url": "https://www.youtube.com/watch?v=pyuR674BEvg",
     "thumbnailUrl": "https://i.ytimg.com/vi/pyuR674BEvg/maxresdefault.jpg",
@@ -5779,6 +6364,9 @@ const recipes = [
   },
   {
     "title": "一度に作って大量冷凍！忙しくても手間なしで野菜＆たんぱく質がとれる【一人鍋冷凍セット】基本のストックとアレンジレシピ5選",
+    "platform": "youtube",
+    "externalId": "t73GhEe2ddg",
+    "videoUrl": "https://www.youtube.com/watch?v=t73GhEe2ddg",
     "videoId": "t73GhEe2ddg",
     "url": "https://www.youtube.com/watch?v=t73GhEe2ddg",
     "thumbnailUrl": "https://i.ytimg.com/vi/t73GhEe2ddg/maxresdefault.jpg",
@@ -5821,6 +6409,9 @@ const recipes = [
   },
   {
     "title": "食費８万を辞めたら#節約主婦#簡単レシピ#貯金",
+    "platform": "youtube",
+    "externalId": "yD8bmes2pj0",
+    "videoUrl": "https://www.youtube.com/watch?v=yD8bmes2pj0",
     "videoId": "yD8bmes2pj0",
     "url": "https://www.youtube.com/watch?v=yD8bmes2pj0",
     "thumbnailUrl": "https://i.ytimg.com/vi/yD8bmes2pj0/maxresdefault.jpg",
@@ -5846,6 +6437,9 @@ const recipes = [
   },
   {
     "title": "仕事の日でも料理を楽しむ｜一人暮らし会社員の平日ごはん",
+    "platform": "youtube",
+    "externalId": "ZSYuG3WNFQA",
+    "videoUrl": "https://www.youtube.com/watch?v=ZSYuG3WNFQA",
     "videoId": "ZSYuG3WNFQA",
     "url": "https://www.youtube.com/watch?v=ZSYuG3WNFQA",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZSYuG3WNFQA/maxresdefault.jpg",
@@ -5876,6 +6470,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】炊飯器に入れるだけウインナーチャーハン！!#炊飯器レシピ",
+    "platform": "youtube",
+    "externalId": "pPto4YkvyBQ",
+    "videoUrl": "https://www.youtube.com/watch?v=pPto4YkvyBQ",
     "videoId": "pPto4YkvyBQ",
     "url": "https://www.youtube.com/watch?v=pPto4YkvyBQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/pPto4YkvyBQ/maxresdefault.jpg",
@@ -5901,6 +6498,9 @@ const recipes = [
   },
   {
     "title": "【2ch有益スレ】一人暮らしのワイにガチ簡単な料理教えてクレメンスｗ【ゆっくり解説】",
+    "platform": "youtube",
+    "externalId": "DN6mKlflhMo",
+    "videoUrl": "https://www.youtube.com/watch?v=DN6mKlflhMo",
     "videoId": "DN6mKlflhMo",
     "url": "https://www.youtube.com/watch?v=DN6mKlflhMo",
     "thumbnailUrl": "https://i.ytimg.com/vi/DN6mKlflhMo/maxresdefault.jpg",
@@ -5937,6 +6537,9 @@ const recipes = [
   },
   {
     "title": "【ズボラ飯】帰宅後4分で作る一人暮らしのやっつけ簡単料理【うどん】",
+    "platform": "youtube",
+    "externalId": "xZx1xLkI2dc",
+    "videoUrl": "https://www.youtube.com/watch?v=xZx1xLkI2dc",
     "videoId": "xZx1xLkI2dc",
     "url": "https://www.youtube.com/watch?v=xZx1xLkI2dc",
     "thumbnailUrl": "https://i.ytimg.com/vi/xZx1xLkI2dc/maxresdefault.jpg",
@@ -5962,6 +6565,9 @@ const recipes = [
   },
   {
     "title": "👛1枚80円以下！1週間分の朝ごはん☀️【冷凍トースト】",
+    "platform": "youtube",
+    "externalId": "oa9Y63nZ9wE",
+    "videoUrl": "https://www.youtube.com/watch?v=oa9Y63nZ9wE",
     "videoId": "oa9Y63nZ9wE",
     "url": "https://www.youtube.com/watch?v=oa9Y63nZ9wE",
     "thumbnailUrl": "https://i.ytimg.com/vi/oa9Y63nZ9wE/maxresdefault.jpg",
@@ -5987,6 +6593,9 @@ const recipes = [
   },
   {
     "title": "簡単カルボナーラうどん#自炊女子 #簡単料理レシピ #カルボナーラうどん #ダイエット中の食事 #ダイエット飯 #綺麗になる食事 #自炊生活 #自炊ダイエット #ヘルシーご飯",
+    "platform": "youtube",
+    "externalId": "vneiN6uLUSQ",
+    "videoUrl": "https://www.youtube.com/watch?v=vneiN6uLUSQ",
     "videoId": "vneiN6uLUSQ",
     "url": "https://www.youtube.com/watch?v=vneiN6uLUSQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/vneiN6uLUSQ/maxresdefault.jpg",
@@ -6013,6 +6622,9 @@ const recipes = [
   },
   {
     "title": "【節約】新生活お弁当始まり🌸一人暮らし社会人の節約を楽しむ自炊記録👩‍🦰⌇春キャベツレシピ🥬",
+    "platform": "youtube",
+    "externalId": "2xIbZNoKskk",
+    "videoUrl": "https://www.youtube.com/watch?v=2xIbZNoKskk",
     "videoId": "2xIbZNoKskk",
     "url": "https://www.youtube.com/watch?v=2xIbZNoKskk",
     "thumbnailUrl": "https://i.ytimg.com/vi/2xIbZNoKskk/maxresdefault.jpg",
@@ -6049,6 +6661,9 @@ const recipes = [
   },
   {
     "title": "おかずにもなる豚汁の作り方",
+    "platform": "youtube",
+    "externalId": "b-fNmdfzHl4",
+    "videoUrl": "https://www.youtube.com/watch?v=b-fNmdfzHl4",
     "videoId": "b-fNmdfzHl4",
     "url": "https://www.youtube.com/watch?v=b-fNmdfzHl4",
     "thumbnailUrl": "https://i.ytimg.com/vi/b-fNmdfzHl4/maxresdefault.jpg",
@@ -6080,6 +6695,9 @@ const recipes = [
   },
   {
     "title": "【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox",
+    "platform": "youtube",
+    "externalId": "GvyIueDy9AY",
+    "videoUrl": "https://www.youtube.com/watch?v=GvyIueDy9AY",
     "videoId": "GvyIueDy9AY",
     "url": "https://www.youtube.com/watch?v=GvyIueDy9AY",
     "thumbnailUrl": "https://i.ytimg.com/vi/GvyIueDy9AY/maxresdefault.jpg",
@@ -6109,6 +6727,9 @@ const recipes = [
   },
   {
     "title": "貧乏！具なしわさびパスタ！疲れててもお金はなるべく使いたくない🤦‍♀️#ブラック企業 #料理 #cooking #vlog #ol日常 #ルーティン #レンチンレシピ #一人暮らし",
+    "platform": "youtube",
+    "externalId": "xdpemJTKpWs",
+    "videoUrl": "https://www.youtube.com/watch?v=xdpemJTKpWs",
     "videoId": "xdpemJTKpWs",
     "url": "https://www.youtube.com/watch?v=xdpemJTKpWs",
     "thumbnailUrl": "https://i.ytimg.com/vi/xdpemJTKpWs/maxresdefault.jpg",
@@ -6134,6 +6755,9 @@ const recipes = [
   },
   {
     "title": "一人暮らしの3日間★簡単夜ご飯 #2/料理vlog / 会社員 /簡単レシピ",
+    "platform": "youtube",
+    "externalId": "-wTMJvL-nX0",
+    "videoUrl": "https://www.youtube.com/watch?v=-wTMJvL-nX0",
     "videoId": "-wTMJvL-nX0",
     "url": "https://www.youtube.com/watch?v=-wTMJvL-nX0",
     "thumbnailUrl": "https://i.ytimg.com/vi/-wTMJvL-nX0/maxresdefault.jpg",
@@ -6164,6 +6788,9 @@ const recipes = [
   },
   {
     "title": "赤から風ラーメン#簡単レシピ #節約レシピ#一人暮らし#冷凍ストック #赤から",
+    "platform": "youtube",
+    "externalId": "CXc0vA-hHh8",
+    "videoUrl": "https://www.youtube.com/watch?v=CXc0vA-hHh8",
     "videoId": "CXc0vA-hHh8",
     "url": "https://www.youtube.com/watch?v=CXc0vA-hHh8",
     "thumbnailUrl": "https://i.ytimg.com/vi/CXc0vA-hHh8/maxresdefault.jpg",
@@ -6194,6 +6821,9 @@ const recipes = [
   },
   {
     "title": "【手取り18万円上京OL】ほぼ150円弁当#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunch",
+    "platform": "youtube",
+    "externalId": "6WJFWM-8Sc4",
+    "videoUrl": "https://www.youtube.com/watch?v=6WJFWM-8Sc4",
     "videoId": "6WJFWM-8Sc4",
     "url": "https://www.youtube.com/watch?v=6WJFWM-8Sc4",
     "thumbnailUrl": "https://i.ytimg.com/vi/6WJFWM-8Sc4/maxresdefault.jpg",
@@ -6224,6 +6854,9 @@ const recipes = [
   },
   {
     "title": "熱々あんかけ焼きそば🍜#節約レシピ #やきそば #あんかけ焼きそば #一人暮らしごはん #cooking #料理#男飯 #料理男子",
+    "platform": "youtube",
+    "externalId": "zhIS6j8ex3I",
+    "videoUrl": "https://www.youtube.com/watch?v=zhIS6j8ex3I",
     "videoId": "zhIS6j8ex3I",
     "url": "https://www.youtube.com/watch?v=zhIS6j8ex3I",
     "thumbnailUrl": "https://i.ytimg.com/vi/zhIS6j8ex3I/maxresdefault.jpg",
@@ -6250,6 +6883,9 @@ const recipes = [
   },
   {
     "title": "#チーズケーキ #スイーツ #一人暮らし #料理 #自炊 #cooking #丁寧な暮らし #晩ごはん #ごはん #コーヒー #おうちごはん #vlog #簡単レシピ #イタリアン #和食 #日常",
+    "platform": "youtube",
+    "externalId": "Jy92rfwEvCg",
+    "videoUrl": "https://www.youtube.com/watch?v=Jy92rfwEvCg",
     "videoId": "Jy92rfwEvCg",
     "url": "https://www.youtube.com/watch?v=Jy92rfwEvCg",
     "thumbnailUrl": "https://i.ytimg.com/vi/Jy92rfwEvCg/maxresdefault.jpg",
@@ -6275,6 +6911,9 @@ const recipes = [
   },
   {
     "title": "豚キムチうどん#冷凍ストック #時短節約 #節約レシピ #一人暮らし#豚キムチ",
+    "platform": "youtube",
+    "externalId": "c8RusQKw94E",
+    "videoUrl": "https://www.youtube.com/watch?v=c8RusQKw94E",
     "videoId": "c8RusQKw94E",
     "url": "https://www.youtube.com/watch?v=c8RusQKw94E",
     "thumbnailUrl": "https://i.ytimg.com/vi/c8RusQKw94E/maxresdefault.jpg",
@@ -6306,6 +6945,9 @@ const recipes = [
   },
   {
     "title": "しらすぺぺたま🍝 #節約レシピ #cooking #時短節約 #japanesefood #一人暮らしごはん #パスタ #暮らしチャンネル #簡単レシピ #ぺぺたま#料理 #料理男子",
+    "platform": "youtube",
+    "externalId": "N50zTOJwf9w",
+    "videoUrl": "https://www.youtube.com/watch?v=N50zTOJwf9w",
     "videoId": "N50zTOJwf9w",
     "url": "https://www.youtube.com/watch?v=N50zTOJwf9w",
     "thumbnailUrl": "https://i.ytimg.com/vi/N50zTOJwf9w/maxresdefault.jpg",
@@ -6331,6 +6973,9 @@ const recipes = [
   },
   {
     "title": "【節約】一人暮らしのラクする大量おにぎりストック🍙 柔らかむね肉の節約おかず🍗💕",
+    "platform": "youtube",
+    "externalId": "WyLZsPgZbpE",
+    "videoUrl": "https://www.youtube.com/watch?v=WyLZsPgZbpE",
     "videoId": "WyLZsPgZbpE",
     "url": "https://www.youtube.com/watch?v=WyLZsPgZbpE",
     "thumbnailUrl": "https://i.ytimg.com/vi/WyLZsPgZbpE/maxresdefault.jpg",
@@ -6361,6 +7006,9 @@ const recipes = [
   },
   {
     "title": "【ミルフィーユ鍋の作り方】一人暮らし男の料理 / 簡単一人鍋レシピ",
+    "platform": "youtube",
+    "externalId": "Mc-VuDydg-M",
+    "videoUrl": "https://www.youtube.com/watch?v=Mc-VuDydg-M",
     "videoId": "Mc-VuDydg-M",
     "url": "https://www.youtube.com/watch?v=Mc-VuDydg-M",
     "thumbnailUrl": "https://i.ytimg.com/vi/Mc-VuDydg-M/maxresdefault.jpg",
@@ -6393,6 +7041,9 @@ const recipes = [
   },
   {
     "title": "とまとチキンパエリア🥘#節約レシピ #一人暮らしごはん #時短節約 #cooking #料理 #パエリア 📝レシピ詳細はInstagram本文に掲載しております🙇‍♂️",
+    "platform": "youtube",
+    "externalId": "alLyfoPCy2A",
+    "videoUrl": "https://www.youtube.com/watch?v=alLyfoPCy2A",
     "videoId": "alLyfoPCy2A",
     "url": "https://www.youtube.com/watch?v=alLyfoPCy2A",
     "thumbnailUrl": "https://i.ytimg.com/vi/alLyfoPCy2A/maxresdefault.jpg",
@@ -6418,6 +7069,9 @@ const recipes = [
   },
   {
     "title": "【週2000円】節約おうちごはんを楽しむ一人暮らし👩‍🦰 / 野菜長持ち保存🥕 / かさ増しスコッチエッグ🐣💞",
+    "platform": "youtube",
+    "externalId": "VqqVlMtWx7M",
+    "videoUrl": "https://www.youtube.com/watch?v=VqqVlMtWx7M",
     "videoId": "VqqVlMtWx7M",
     "url": "https://www.youtube.com/watch?v=VqqVlMtWx7M",
     "thumbnailUrl": "https://i.ytimg.com/vi/VqqVlMtWx7M/maxresdefault.jpg",
@@ -6454,6 +7108,9 @@ const recipes = [
   },
   {
     "title": "コク旨カレーうどん#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#カレーうどん",
+    "platform": "youtube",
+    "externalId": "-D62jEzIBEM",
+    "videoUrl": "https://www.youtube.com/watch?v=-D62jEzIBEM",
     "videoId": "-D62jEzIBEM",
     "url": "https://www.youtube.com/watch?v=-D62jEzIBEM",
     "thumbnailUrl": "https://i.ytimg.com/vi/-D62jEzIBEM/maxresdefault.jpg",
@@ -6488,6 +7145,9 @@ const recipes = [
   },
   {
     "title": "炊飯器に丸投げ！トマトチキンライス🍅🍚残りはおにぎりにしてお昼ご飯の節約🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #炊飯器レシピ",
+    "platform": "youtube",
+    "externalId": "2wapdVaCRdw",
+    "videoUrl": "https://www.youtube.com/watch?v=2wapdVaCRdw",
     "videoId": "2wapdVaCRdw",
     "url": "https://www.youtube.com/watch?v=2wapdVaCRdw",
     "thumbnailUrl": "https://i.ytimg.com/vi/2wapdVaCRdw/maxresdefault.jpg",
@@ -6517,6 +7177,9 @@ const recipes = [
   },
   {
     "title": "休日は贅沢にたっぷりお肉を使う！！ボロネーゼ🍝#ol日常 #料理 #cooking #自炊 #簡単レシピ #vlog #パスタ #レンチンレシピ",
+    "platform": "youtube",
+    "externalId": "DrFfaqFtTq8",
+    "videoUrl": "https://www.youtube.com/watch?v=DrFfaqFtTq8",
     "videoId": "DrFfaqFtTq8",
     "url": "https://www.youtube.com/watch?v=DrFfaqFtTq8",
     "thumbnailUrl": "https://i.ytimg.com/vi/DrFfaqFtTq8/maxresdefault.jpg",
@@ -6542,6 +7205,9 @@ const recipes = [
   },
   {
     "title": "[SUB]【料理ドラマ】『ひとりごとエプロン』第1話：一人暮らしのキッチンでつくる、簡単じゃがいもグラタン 2019クリスマスイブ公開/レシピ/音楽",
+    "platform": "youtube",
+    "externalId": "mJeRHRoOuI8",
+    "videoUrl": "https://www.youtube.com/watch?v=mJeRHRoOuI8",
     "videoId": "mJeRHRoOuI8",
     "url": "https://www.youtube.com/watch?v=mJeRHRoOuI8",
     "thumbnailUrl": "https://i.ytimg.com/vi/mJeRHRoOuI8/maxresdefault.jpg",
@@ -6569,6 +7235,9 @@ const recipes = [
   },
   {
     "title": "【16日/100日】安くておいしすぎリピ確なので、市販のカレールーには戻れない、、！#一人暮らし#自炊 #夜ご飯",
+    "platform": "youtube",
+    "externalId": "k1CE55lUvcI",
+    "videoUrl": "https://www.youtube.com/watch?v=k1CE55lUvcI",
     "videoId": "k1CE55lUvcI",
     "url": "https://www.youtube.com/watch?v=k1CE55lUvcI",
     "thumbnailUrl": "https://i.ytimg.com/vi/k1CE55lUvcI/maxresdefault.jpg",
@@ -6594,6 +7263,9 @@ const recipes = [
   },
   {
     "title": "蒙古タンメン風つけ麺🍜 #節約レシピ #cooking #時短節約 #一人暮らしごはん #暮らしチャンネル #料理 #つけ麺 #簡単レシピ #辛いラーメン",
+    "platform": "youtube",
+    "externalId": "FYsyAoOvSa8",
+    "videoUrl": "https://www.youtube.com/watch?v=FYsyAoOvSa8",
     "videoId": "FYsyAoOvSa8",
     "url": "https://www.youtube.com/watch?v=FYsyAoOvSa8",
     "thumbnailUrl": "https://i.ytimg.com/vi/FYsyAoOvSa8/maxresdefault.jpg",
@@ -6619,6 +7291,9 @@ const recipes = [
   },
   {
     "title": "和風塩昆布ツナパスタ🍝#節約レシピ #パスタ #時短節約 #一人暮らしごはん #cooking #暮らしチャンネル #料理 #簡単レシピ #ツナマヨ #塩昆布",
+    "platform": "youtube",
+    "externalId": "AvAn0DhbofA",
+    "videoUrl": "https://www.youtube.com/watch?v=AvAn0DhbofA",
     "videoId": "AvAn0DhbofA",
     "url": "https://www.youtube.com/watch?v=AvAn0DhbofA",
     "thumbnailUrl": "https://i.ytimg.com/vi/AvAn0DhbofA/maxresdefault.jpg",
@@ -6650,6 +7325,9 @@ const recipes = [
   },
   {
     "title": "【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox",
+    "platform": "youtube",
+    "externalId": "66Yxo54I88o",
+    "videoUrl": "https://www.youtube.com/watch?v=66Yxo54I88o",
     "videoId": "66Yxo54I88o",
     "url": "https://www.youtube.com/watch?v=66Yxo54I88o",
     "thumbnailUrl": "https://i.ytimg.com/vi/66Yxo54I88o/maxresdefault.jpg",
@@ -6685,6 +7363,9 @@ const recipes = [
   },
   {
     "title": "巻かないロールキャベツ🍳#節約レシピ #一人暮らしごはん #cooking #ひとり暮らし #おうちごはん #自炊 #ロールキャベツ #料理",
+    "platform": "youtube",
+    "externalId": "FDO3N12nIXg",
+    "videoUrl": "https://www.youtube.com/watch?v=FDO3N12nIXg",
     "videoId": "FDO3N12nIXg",
     "url": "https://www.youtube.com/watch?v=FDO3N12nIXg",
     "thumbnailUrl": "https://i.ytimg.com/vi/FDO3N12nIXg/maxresdefault.jpg",
@@ -6710,6 +7391,9 @@ const recipes = [
   },
   {
     "title": "【時短料理はこうやって作ります】ノーカットでお届け/楽してうまい絶品レシピ/絶対作って！豚キャベツ豆腐のくたくた煮/ちくわのカレーマヨ焼き",
+    "platform": "youtube",
+    "externalId": "sq_QJ53i6Ps",
+    "videoUrl": "https://www.youtube.com/watch?v=sq_QJ53i6Ps",
     "videoId": "sq_QJ53i6Ps",
     "url": "https://www.youtube.com/watch?v=sq_QJ53i6Ps",
     "thumbnailUrl": "https://i.ytimg.com/vi/sq_QJ53i6Ps/maxresdefault.jpg",
@@ -6743,6 +7427,9 @@ const recipes = [
   },
   {
     "title": "【簡単時短レシピ】レンジだけ！美味しいプリップリの鶏マヨの作り方 鶏肉料理",
+    "platform": "youtube",
+    "externalId": "8yhkYk7mqW8",
+    "videoUrl": "https://www.youtube.com/watch?v=8yhkYk7mqW8",
     "videoId": "8yhkYk7mqW8",
     "url": "https://www.youtube.com/watch?v=8yhkYk7mqW8",
     "thumbnailUrl": "https://i.ytimg.com/vi/8yhkYk7mqW8/maxresdefault.jpg",
@@ -6781,6 +7468,9 @@ const recipes = [
   },
   {
     "title": "油を使わない「キャベツのチーズ焼き」材料２つ！まな板・包丁を使わずカットキャベツで簡単‼時短・節約レシピ・キャベツ簡単レシピ",
+    "platform": "youtube",
+    "externalId": "BsmoJ9z2WN4",
+    "videoUrl": "https://www.youtube.com/watch?v=BsmoJ9z2WN4",
     "videoId": "BsmoJ9z2WN4",
     "url": "https://www.youtube.com/watch?v=BsmoJ9z2WN4",
     "thumbnailUrl": "https://i.ytimg.com/vi/BsmoJ9z2WN4/maxresdefault.jpg",
@@ -6808,6 +7498,9 @@ const recipes = [
   },
   {
     "title": "【150万回再生人気レシピ】レンジで簡単時短！ピリ辛タレが絶品！鶏むね肉がしっとりのよだれ鶏の作り方",
+    "platform": "youtube",
+    "externalId": "firRdk0iGCY",
+    "videoUrl": "https://www.youtube.com/watch?v=firRdk0iGCY",
     "videoId": "firRdk0iGCY",
     "url": "https://www.youtube.com/watch?v=firRdk0iGCY",
     "thumbnailUrl": "https://i.ytimg.com/vi/firRdk0iGCY/maxresdefault.jpg",
@@ -6840,6 +7533,9 @@ const recipes = [
   },
   {
     "title": "【仕事から帰宅後に作る時短レシピ】安くておいしい最強レシピ/頑張らない晩ごはん/体力なし40代母の時短料理/簡単レシピ/簡単おかず",
+    "platform": "youtube",
+    "externalId": "k-kPqW3bd-s",
+    "videoUrl": "https://www.youtube.com/watch?v=k-kPqW3bd-s",
     "videoId": "k-kPqW3bd-s",
     "url": "https://www.youtube.com/watch?v=k-kPqW3bd-s",
     "thumbnailUrl": "https://i.ytimg.com/vi/k-kPqW3bd-s/maxresdefault.jpg",
@@ -6888,6 +7584,9 @@ const recipes = [
   },
   {
     "title": "【250万回再生人気レシピ】保存版！時短中華レシピ！おうちで簡単極旨！マーボー豆腐の作り方",
+    "platform": "youtube",
+    "externalId": "50iEDfOOLQk",
+    "videoUrl": "https://www.youtube.com/watch?v=50iEDfOOLQk",
     "videoId": "50iEDfOOLQk",
     "url": "https://www.youtube.com/watch?v=50iEDfOOLQk",
     "thumbnailUrl": "https://i.ytimg.com/vi/50iEDfOOLQk/maxresdefault.jpg",
@@ -6921,6 +7620,9 @@ const recipes = [
   },
   {
     "title": "フライパン・鍋不要【トマトパスタ】洗いもの無しで楽ちん！アイラップで時短レシピ",
+    "platform": "youtube",
+    "externalId": "c01X7pkYaeE",
+    "videoUrl": "https://www.youtube.com/watch?v=c01X7pkYaeE",
     "videoId": "c01X7pkYaeE",
     "url": "https://www.youtube.com/watch?v=c01X7pkYaeE",
     "thumbnailUrl": "https://i.ytimg.com/vi/c01X7pkYaeE/maxresdefault.jpg",
@@ -6953,6 +7655,9 @@ const recipes = [
   },
   {
     "title": "鍋不要【卵サンド】洗いもの無しで楽ちん！時短レシピ",
+    "platform": "youtube",
+    "externalId": "2VXi95zG7Kc",
+    "videoUrl": "https://www.youtube.com/watch?v=2VXi95zG7Kc",
     "videoId": "2VXi95zG7Kc",
     "url": "https://www.youtube.com/watch?v=2VXi95zG7Kc",
     "thumbnailUrl": "https://i.ytimg.com/vi/2VXi95zG7Kc/maxresdefault.jpg",
@@ -6982,6 +7687,9 @@ const recipes = [
   },
   {
     "title": "30分でぱぱっと節約夜ごはん🍚 #shorts",
+    "platform": "youtube",
+    "externalId": "sVyNwag9oxU",
+    "videoUrl": "https://www.youtube.com/watch?v=sVyNwag9oxU",
     "videoId": "sVyNwag9oxU",
     "url": "https://www.youtube.com/watch?v=sVyNwag9oxU",
     "thumbnailUrl": "https://i.ytimg.com/vi/sVyNwag9oxU/maxresdefault.jpg",
@@ -7020,6 +7728,9 @@ const recipes = [
   },
   {
     "title": "【時短晩ご飯】アラフォー主婦が10分で作る４人家族の一汁三菜〜土曜日のリアル晩ごはん〜",
+    "platform": "youtube",
+    "externalId": "xwZYaz_HBz8",
+    "videoUrl": "https://www.youtube.com/watch?v=xwZYaz_HBz8",
     "videoId": "xwZYaz_HBz8",
     "url": "https://www.youtube.com/watch?v=xwZYaz_HBz8",
     "thumbnailUrl": "https://i.ytimg.com/vi/xwZYaz_HBz8/maxresdefault.jpg",
@@ -7052,6 +7763,9 @@ const recipes = [
   },
   {
     "title": "【1000万回再生】10歳から作ってるシンプルで一番大好きな卵チャーハン〈7分130円レシピ〉Fried Rice(simple ver)",
+    "platform": "youtube",
+    "externalId": "KXB4sNia2as",
+    "videoUrl": "https://www.youtube.com/watch?v=KXB4sNia2as",
     "videoId": "KXB4sNia2as",
     "url": "https://www.youtube.com/watch?v=KXB4sNia2as",
     "thumbnailUrl": "https://i.ytimg.com/vi/KXB4sNia2as/maxresdefault.jpg",
@@ -7081,6 +7795,9 @@ const recipes = [
   },
   {
     "title": "【時短レシピ10選】10分でパパッと完成！スピードメニューレシピ♪｜macaroni（マカロニ）",
+    "platform": "youtube",
+    "externalId": "qrCTLXlXQMM",
+    "videoUrl": "https://www.youtube.com/watch?v=qrCTLXlXQMM",
     "videoId": "qrCTLXlXQMM",
     "url": "https://www.youtube.com/watch?v=qrCTLXlXQMM",
     "thumbnailUrl": "https://i.ytimg.com/vi/qrCTLXlXQMM/maxresdefault.jpg",
@@ -7134,6 +7851,9 @@ const recipes = [
   },
   {
     "title": "【時短弁当】満腹ガッツリ系お弁当１週間/bento",
+    "platform": "youtube",
+    "externalId": "x1xmA7nUAbI",
+    "videoUrl": "https://www.youtube.com/watch?v=x1xmA7nUAbI",
     "videoId": "x1xmA7nUAbI",
     "url": "https://www.youtube.com/watch?v=x1xmA7nUAbI",
     "thumbnailUrl": "https://i.ytimg.com/vi/x1xmA7nUAbI/maxresdefault.jpg",
@@ -7159,6 +7879,9 @@ const recipes = [
   },
   {
     "title": "帰宅15分で作る爆速夜ごはん🌝🐴 #ふわたまチキン#簡単レシピ #自炊 #2人暮らし #2人暮らし #天皇杯",
+    "platform": "youtube",
+    "externalId": "wNCboGGIGDc",
+    "videoUrl": "https://www.youtube.com/watch?v=wNCboGGIGDc",
     "videoId": "wNCboGGIGDc",
     "url": "https://www.youtube.com/watch?v=wNCboGGIGDc",
     "thumbnailUrl": "https://i.ytimg.com/vi/wNCboGGIGDc/maxresdefault.jpg",
@@ -7184,6 +7907,9 @@ const recipes = [
   },
   {
     "title": "【ダイエットレシピ】週一以上食べてる爆速健康ワンパンご飯の作り方！【PFCバランス◎/時短/1人ご飯】",
+    "platform": "youtube",
+    "externalId": "h_IcKPmseHs",
+    "videoUrl": "https://www.youtube.com/watch?v=h_IcKPmseHs",
     "videoId": "h_IcKPmseHs",
     "url": "https://www.youtube.com/watch?v=h_IcKPmseHs",
     "thumbnailUrl": "https://i.ytimg.com/vi/h_IcKPmseHs/maxresdefault.jpg",
@@ -7221,6 +7947,9 @@ const recipes = [
   },
   {
     "title": "5児ママ〜30kg痩せた蒸し鶏のにらだれ〜",
+    "platform": "youtube",
+    "externalId": "xgDCLN5YxgU",
+    "videoUrl": "https://www.youtube.com/watch?v=xgDCLN5YxgU",
     "videoId": "xgDCLN5YxgU",
     "url": "https://www.youtube.com/watch?v=xgDCLN5YxgU",
     "thumbnailUrl": "https://i.ytimg.com/vi/xgDCLN5YxgU/maxresdefault.jpg",
@@ -7246,6 +7975,9 @@ const recipes = [
   },
   {
     "title": "【コレが正解そうめん弁当】#暮らし #料理 #裏技 #簡単 #時短 #ライフハック",
+    "platform": "youtube",
+    "externalId": "unUs-j3CXHU",
+    "videoUrl": "https://www.youtube.com/watch?v=unUs-j3CXHU",
     "videoId": "unUs-j3CXHU",
     "url": "https://www.youtube.com/watch?v=unUs-j3CXHU",
     "thumbnailUrl": "https://i.ytimg.com/vi/unUs-j3CXHU/maxresdefault.jpg",
@@ -7271,6 +8003,9 @@ const recipes = [
   },
   {
     "title": "【鬼の残業week】疲労困憊で作る超時短1週間レシピ",
+    "platform": "youtube",
+    "externalId": "E4dLJwQtGe0",
+    "videoUrl": "https://www.youtube.com/watch?v=E4dLJwQtGe0",
     "videoId": "E4dLJwQtGe0",
     "url": "https://www.youtube.com/watch?v=E4dLJwQtGe0",
     "thumbnailUrl": "https://i.ytimg.com/vi/E4dLJwQtGe0/maxresdefault.jpg",
@@ -7311,6 +8046,9 @@ const recipes = [
   },
   {
     "title": "【味&ボリューム最高♡】安くておいしい簡単レシピ/20分あれば余裕/野菜が苦手な家族が大絶賛/時短レシピしか勝たん/時短料理",
+    "platform": "youtube",
+    "externalId": "eqGBDZgJK7Y",
+    "videoUrl": "https://www.youtube.com/watch?v=eqGBDZgJK7Y",
     "videoId": "eqGBDZgJK7Y",
     "url": "https://www.youtube.com/watch?v=eqGBDZgJK7Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/eqGBDZgJK7Y/maxresdefault.jpg",
@@ -7349,6 +8087,9 @@ const recipes = [
   },
   {
     "title": "【朝ごはんに】マグカップ1つでできる！超簡単・時短レシピ 3選",
+    "platform": "youtube",
+    "externalId": "l1cLc3JWuy4",
+    "videoUrl": "https://www.youtube.com/watch?v=l1cLc3JWuy4",
     "videoId": "l1cLc3JWuy4",
     "url": "https://www.youtube.com/watch?v=l1cLc3JWuy4",
     "thumbnailUrl": "https://i.ytimg.com/vi/l1cLc3JWuy4/maxresdefault.jpg",
@@ -7376,6 +8117,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単🥟包まない小籠包 #料理 #レシピ #小籠包 #時短料理 #shorts",
+    "platform": "youtube",
+    "externalId": "BKHdBp6HH_k",
+    "videoUrl": "https://www.youtube.com/watch?v=BKHdBp6HH_k",
     "videoId": "BKHdBp6HH_k",
     "url": "https://www.youtube.com/watch?v=BKHdBp6HH_k",
     "thumbnailUrl": "https://i.ytimg.com/vi/BKHdBp6HH_k/maxresdefault.jpg",
@@ -7405,6 +8149,9 @@ const recipes = [
   },
   {
     "title": "フライパン1つ。丸めて焼くだけでやみつき！豚こま大葉チーズボール",
+    "platform": "youtube",
+    "externalId": "bFw8Z3CK2mM",
+    "videoUrl": "https://www.youtube.com/watch?v=bFw8Z3CK2mM",
     "videoId": "bFw8Z3CK2mM",
     "url": "https://www.youtube.com/watch?v=bFw8Z3CK2mM",
     "thumbnailUrl": "https://i.ytimg.com/vi/bFw8Z3CK2mM/maxresdefault.jpg",
@@ -7439,6 +8186,9 @@ const recipes = [
   },
   {
     "title": "アンチが震えるほど味の素が入った醤油ラーメンが震えるほど旨い#味の素 #ラーメン",
+    "platform": "youtube",
+    "externalId": "V0lIkh5CCcc",
+    "videoUrl": "https://www.youtube.com/watch?v=V0lIkh5CCcc",
     "videoId": "V0lIkh5CCcc",
     "url": "https://www.youtube.com/watch?v=V0lIkh5CCcc",
     "thumbnailUrl": "https://i.ytimg.com/vi/V0lIkh5CCcc/maxresdefault.jpg",
@@ -7467,6 +8217,9 @@ const recipes = [
   },
   {
     "title": "夏は絶対これ！スタミナとろたまそうめん",
+    "platform": "youtube",
+    "externalId": "9ssDFdjJwic",
+    "videoUrl": "https://www.youtube.com/watch?v=9ssDFdjJwic",
     "videoId": "9ssDFdjJwic",
     "url": "https://www.youtube.com/watch?v=9ssDFdjJwic",
     "thumbnailUrl": "https://i.ytimg.com/vi/9ssDFdjJwic/maxresdefault.jpg",
@@ -7499,6 +8252,9 @@ const recipes = [
   },
   {
     "title": "【時短・簡単】スーパーの食材で本格チリコンカンの作り方｜ピリ辛＆旨い豆×ひき肉レシピ",
+    "platform": "youtube",
+    "externalId": "XY8gMuiCbsU",
+    "videoUrl": "https://www.youtube.com/watch?v=XY8gMuiCbsU",
     "videoId": "XY8gMuiCbsU",
     "url": "https://www.youtube.com/watch?v=XY8gMuiCbsU",
     "thumbnailUrl": "https://i.ytimg.com/vi/XY8gMuiCbsU/maxresdefault.jpg",
@@ -7534,6 +8290,9 @@ const recipes = [
   },
   {
     "title": "SNSでバズった！だし巻き玉子｜#簡単レシピ #時短レシピ #料理動画 #cooking #だし巻き玉子",
+    "platform": "youtube",
+    "externalId": "7d_-4MYLTFA",
+    "videoUrl": "https://www.youtube.com/watch?v=7d_-4MYLTFA",
     "videoId": "7d_-4MYLTFA",
     "url": "https://www.youtube.com/watch?v=7d_-4MYLTFA",
     "thumbnailUrl": "https://i.ytimg.com/vi/7d_-4MYLTFA/maxresdefault.jpg",
@@ -7563,6 +8322,9 @@ const recipes = [
   },
   {
     "title": "【中華屋で働いる友達から教わった】【簡単きゅうり漬け】誰でも簡単に作れるのに超美味しい！#shorts #時短レシピ #料理",
+    "platform": "youtube",
+    "externalId": "0g7__GEzRZc",
+    "videoUrl": "https://www.youtube.com/watch?v=0g7__GEzRZc",
     "videoId": "0g7__GEzRZc",
     "url": "https://www.youtube.com/watch?v=0g7__GEzRZc",
     "thumbnailUrl": "https://i.ytimg.com/vi/0g7__GEzRZc/maxresdefault.jpg",
@@ -7590,6 +8352,9 @@ const recipes = [
   },
   {
     "title": "料理初心者でも失敗なし！簡単絶品ロコモコ丼",
+    "platform": "youtube",
+    "externalId": "0PCxr-3cbY4",
+    "videoUrl": "https://www.youtube.com/watch?v=0PCxr-3cbY4",
     "videoId": "0PCxr-3cbY4",
     "url": "https://www.youtube.com/watch?v=0PCxr-3cbY4",
     "thumbnailUrl": "https://i.ytimg.com/vi/0PCxr-3cbY4/maxresdefault.jpg",
@@ -7629,6 +8394,9 @@ const recipes = [
   },
   {
     "title": "世界一簡単な煮干しラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
+    "platform": "youtube",
+    "externalId": "UK9uEu5Oddw",
+    "videoUrl": "https://www.youtube.com/watch?v=UK9uEu5Oddw",
     "videoId": "UK9uEu5Oddw",
     "url": "https://www.youtube.com/watch?v=UK9uEu5Oddw",
     "thumbnailUrl": "https://i.ytimg.com/vi/UK9uEu5Oddw/maxresdefault.jpg",
@@ -7657,6 +8425,9 @@ const recipes = [
   },
   {
     "title": "これが一番の時短‼️オーブン同時に4品知らない人は、やってみて🤗🤍✨",
+    "platform": "youtube",
+    "externalId": "SIA1mbhXjoM",
+    "videoUrl": "https://www.youtube.com/watch?v=SIA1mbhXjoM",
     "videoId": "SIA1mbhXjoM",
     "url": "https://www.youtube.com/watch?v=SIA1mbhXjoM",
     "thumbnailUrl": "https://i.ytimg.com/vi/SIA1mbhXjoM/maxresdefault.jpg",
@@ -7701,6 +8472,9 @@ const recipes = [
   },
   {
     "title": "揚げずに完成！本気で作った究極のチキン南蛮",
+    "platform": "youtube",
+    "externalId": "YsZqyMumcY4",
+    "videoUrl": "https://www.youtube.com/watch?v=YsZqyMumcY4",
     "videoId": "YsZqyMumcY4",
     "url": "https://www.youtube.com/watch?v=YsZqyMumcY4",
     "thumbnailUrl": "https://i.ytimg.com/vi/YsZqyMumcY4/maxresdefault.jpg",
@@ -7736,6 +8510,9 @@ const recipes = [
   },
   {
     "title": "280円でできる簡単節約 辛ラーメンカルボナーラ",
+    "platform": "youtube",
+    "externalId": "BkH3o6tzvzI",
+    "videoUrl": "https://www.youtube.com/watch?v=BkH3o6tzvzI",
     "videoId": "BkH3o6tzvzI",
     "url": "https://www.youtube.com/watch?v=BkH3o6tzvzI",
     "thumbnailUrl": "https://i.ytimg.com/vi/BkH3o6tzvzI/maxresdefault.jpg",
@@ -7772,6 +8549,9 @@ const recipes = [
   },
   {
     "title": "火を使わないナスの煮浸し🍆レンジ4分！時短レシピだよ〜オススメ✌️麺つゆアレンジタレで超簡単。#なす#なすレシピ#レンジ#レンジレシピ#簡単#簡単レシピ#時短レシピ#麺つゆ#ナスの煮びたし",
+    "platform": "youtube",
+    "externalId": "J3U90T7UF54",
+    "videoUrl": "https://www.youtube.com/watch?v=J3U90T7UF54",
     "videoId": "J3U90T7UF54",
     "url": "https://www.youtube.com/watch?v=J3U90T7UF54",
     "thumbnailUrl": "https://i.ytimg.com/vi/J3U90T7UF54/maxresdefault.jpg",
@@ -7797,6 +8577,9 @@ const recipes = [
   },
   {
     "title": "やみつきダレで絶品❤️ズッキーニの重ね蒸し #料理 #レシピ #時短料理 #スッキーニ #ズッキーニレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "ML1CPn35o48",
+    "videoUrl": "https://www.youtube.com/watch?v=ML1CPn35o48",
     "videoId": "ML1CPn35o48",
     "url": "https://www.youtube.com/watch?v=ML1CPn35o48",
     "thumbnailUrl": "https://i.ytimg.com/vi/ML1CPn35o48/maxresdefault.jpg",
@@ -7824,6 +8607,9 @@ const recipes = [
   },
   {
     "title": "【魚の面倒な片付けゼロ】下味冷凍して焼くだけ！絶品鮭ごまみりん焼き🍳",
+    "platform": "youtube",
+    "externalId": "-PGICIBm09Q",
+    "videoUrl": "https://www.youtube.com/watch?v=-PGICIBm09Q",
     "videoId": "-PGICIBm09Q",
     "url": "https://www.youtube.com/watch?v=-PGICIBm09Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/-PGICIBm09Q/maxresdefault.jpg",
@@ -7850,6 +8636,9 @@ const recipes = [
   },
   {
     "title": "じゅんわりジューシー🐷なすと豚肉の重ね蒸し🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "GWaHcaUvulM",
+    "videoUrl": "https://www.youtube.com/watch?v=GWaHcaUvulM",
     "videoId": "GWaHcaUvulM",
     "url": "https://www.youtube.com/watch?v=GWaHcaUvulM",
     "thumbnailUrl": "https://i.ytimg.com/vi/GWaHcaUvulM/maxresdefault.jpg",
@@ -7878,6 +8667,9 @@ const recipes = [
   },
   {
     "title": "鰻より美味しい？とろとろなすのかば焼き🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "ztgDXS7JenI",
+    "videoUrl": "https://www.youtube.com/watch?v=ztgDXS7JenI",
     "videoId": "ztgDXS7JenI",
     "url": "https://www.youtube.com/watch?v=ztgDXS7JenI",
     "thumbnailUrl": "https://i.ytimg.com/vi/ztgDXS7JenI/maxresdefault.jpg",
@@ -7903,6 +8695,9 @@ const recipes = [
   },
   {
     "title": "これなら食べれる！【あんかけ塩雑炊】 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "o7KdHTNEAa4",
+    "videoUrl": "https://www.youtube.com/watch?v=o7KdHTNEAa4",
     "videoId": "o7KdHTNEAa4",
     "url": "https://www.youtube.com/watch?v=o7KdHTNEAa4",
     "thumbnailUrl": "https://i.ytimg.com/vi/o7KdHTNEAa4/maxresdefault.jpg",
@@ -7928,6 +8723,9 @@ const recipes = [
   },
   {
     "title": "ズッキーニとツナサラダ #レシピ #レシピ動画 #簡単レシピ #時短レシピ #節約 #節約レシピ #料理 #初心者 #簡単 #時短 #ズッキーニ #家族 #ごはん #おつまみ 詳細は関連動画へ!",
+    "platform": "youtube",
+    "externalId": "JjsqKU2eSnA",
+    "videoUrl": "https://www.youtube.com/watch?v=JjsqKU2eSnA",
     "videoId": "JjsqKU2eSnA",
     "url": "https://www.youtube.com/watch?v=JjsqKU2eSnA",
     "thumbnailUrl": "https://i.ytimg.com/vi/JjsqKU2eSnA/maxresdefault.jpg",
@@ -7953,6 +8751,9 @@ const recipes = [
   },
   {
     "title": "薬味たっぷり🍆絶品なすのたたき #料理 #レシピ #時短料理 #なす #なすレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "Wb2Aqz2AAbg",
+    "videoUrl": "https://www.youtube.com/watch?v=Wb2Aqz2AAbg",
     "videoId": "Wb2Aqz2AAbg",
     "url": "https://www.youtube.com/watch?v=Wb2Aqz2AAbg",
     "thumbnailUrl": "https://i.ytimg.com/vi/Wb2Aqz2AAbg/maxresdefault.jpg",
@@ -7979,6 +8780,9 @@ const recipes = [
   },
   {
     "title": "トマ玉カレーうどん #ズボラレシピ #炊飯器レシピ #時短レシピ #ズボラ主婦 #カレーうどん",
+    "platform": "youtube",
+    "externalId": "mCe0elU3-HY",
+    "videoUrl": "https://www.youtube.com/watch?v=mCe0elU3-HY",
     "videoId": "mCe0elU3-HY",
     "url": "https://www.youtube.com/watch?v=mCe0elU3-HY",
     "thumbnailUrl": "https://i.ytimg.com/vi/mCe0elU3-HY/maxresdefault.jpg",
@@ -8019,6 +8823,9 @@ const recipes = [
   },
   {
     "title": "【揚げないヘルシー】鶏肉なすの揚げ浸し #pr#簡単レシピ #時短 #料理 #簡単ごはん #レシピ #時短ごはん #料理動画 #時短レシピ #shorts #ヘルシー #和食 #節約レシピ #痩せる",
+    "platform": "youtube",
+    "externalId": "gfjl946iKIo",
+    "videoUrl": "https://www.youtube.com/watch?v=gfjl946iKIo",
     "videoId": "gfjl946iKIo",
     "url": "https://www.youtube.com/watch?v=gfjl946iKIo",
     "thumbnailUrl": "https://i.ytimg.com/vi/gfjl946iKIo/maxresdefault.jpg",
@@ -8046,6 +8853,9 @@ const recipes = [
   },
   {
     "title": "【レンチン✨😋】めんつゆパスタ紹介します✩.*˚ #時短レシピ#簡単レシピ#痩せメシ#時短レシピ#ダイエット#ダイエットレシピ#ダイエットメニュー#ヘルシーレシピ#レンチンレシ",
+    "platform": "youtube",
+    "externalId": "OKBgAGXN7D8",
+    "videoUrl": "https://www.youtube.com/watch?v=OKBgAGXN7D8",
     "videoId": "OKBgAGXN7D8",
     "url": "https://www.youtube.com/watch?v=OKBgAGXN7D8",
     "thumbnailUrl": "https://i.ytimg.com/vi/OKBgAGXN7D8/maxresdefault.jpg",
@@ -8071,6 +8881,9 @@ const recipes = [
   },
   {
     "title": "レンジで6分！やみつきえのき漬け #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加",
+    "platform": "youtube",
+    "externalId": "NH_84NdsTI4",
+    "videoUrl": "https://www.youtube.com/watch?v=NH_84NdsTI4",
     "videoId": "NH_84NdsTI4",
     "url": "https://www.youtube.com/watch?v=NH_84NdsTI4",
     "thumbnailUrl": "https://i.ytimg.com/vi/NH_84NdsTI4/maxresdefault.jpg",
@@ -8102,6 +8915,9 @@ const recipes = [
   },
   {
     "title": "【レンジで簡単よだれ鶏】#おすすめ #簡単レシピ #簡単美味しい #料理 #時短 #ヘルシー #おかず #ダイエット #鶏むね肉 #よだれ鶏",
+    "platform": "youtube",
+    "externalId": "DC8Uc-tT7aY",
+    "videoUrl": "https://www.youtube.com/watch?v=DC8Uc-tT7aY",
     "videoId": "DC8Uc-tT7aY",
     "url": "https://www.youtube.com/watch?v=DC8Uc-tT7aY",
     "thumbnailUrl": "https://i.ytimg.com/vi/DC8Uc-tT7aY/maxresdefault.jpg",
@@ -8127,6 +8943,9 @@ const recipes = [
   },
   {
     "title": "オムレツと言ったらコレ！『挽肉オムレツ』#15分レシピ #時短レシピ #オムレツ#ひき肉 #卵 #ガッツリ#男子飯",
+    "platform": "youtube",
+    "externalId": "U2h15WnhuQo",
+    "videoUrl": "https://www.youtube.com/watch?v=U2h15WnhuQo",
     "videoId": "U2h15WnhuQo",
     "url": "https://www.youtube.com/watch?v=U2h15WnhuQo",
     "thumbnailUrl": "https://i.ytimg.com/vi/U2h15WnhuQo/maxresdefault.jpg",
@@ -8156,6 +8975,9 @@ const recipes = [
   },
   {
     "title": "【白菜と豚しゃぶのうまだれ】 #簡単レシピ #時短節約 #おうちごはん #料理 #recipe",
+    "platform": "youtube",
+    "externalId": "W-yZ_M6fkYk",
+    "videoUrl": "https://www.youtube.com/watch?v=W-yZ_M6fkYk",
     "videoId": "W-yZ_M6fkYk",
     "url": "https://www.youtube.com/watch?v=W-yZ_M6fkYk",
     "thumbnailUrl": "https://i.ytimg.com/vi/W-yZ_M6fkYk/maxresdefault.jpg",
@@ -8181,6 +9003,9 @@ const recipes = [
   },
   {
     "title": "ポテトサラダまだ茹でてる🥔？#YouTubeshorts #レシピ #ポテトサラダ #時短 #時短レシピ #アイラップ",
+    "platform": "youtube",
+    "externalId": "9U9CBWraNhI",
+    "videoUrl": "https://www.youtube.com/watch?v=9U9CBWraNhI",
     "videoId": "9U9CBWraNhI",
     "url": "https://www.youtube.com/watch?v=9U9CBWraNhI",
     "thumbnailUrl": "https://i.ytimg.com/vi/9U9CBWraNhI/maxresdefault.jpg",
@@ -8219,6 +9044,9 @@ const recipes = [
   },
   {
     "title": "【知らないと損！時短ゆで卵 裏技】 #ライフハック #暮らし #裏技 #ゆで卵",
+    "platform": "youtube",
+    "externalId": "Zco1hcFW2DY",
+    "videoUrl": "https://www.youtube.com/watch?v=Zco1hcFW2DY",
     "videoId": "Zco1hcFW2DY",
     "url": "https://www.youtube.com/watch?v=Zco1hcFW2DY",
     "thumbnailUrl": "https://i.ytimg.com/vi/Zco1hcFW2DY/maxresdefault.jpg",
@@ -8244,6 +9072,9 @@ const recipes = [
   },
   {
     "title": "【ごはんが進む甘辛ケチャップ味】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #鶏もも肉レシピ",
+    "platform": "youtube",
+    "externalId": "7M95LpYo3-g",
+    "videoUrl": "https://www.youtube.com/watch?v=7M95LpYo3-g",
     "videoId": "7M95LpYo3-g",
     "url": "https://www.youtube.com/watch?v=7M95LpYo3-g",
     "thumbnailUrl": "https://i.ytimg.com/vi/7M95LpYo3-g/maxresdefault.jpg",
@@ -8269,6 +9100,9 @@ const recipes = [
   },
   {
     "title": "鮭のムニエル🐟 #二人暮らし #簡単レシピ #節約レシピ #時短節約 #料理 #暮らしチャンネル #家計管理 #自炊 #今日の晩ごはん #おうちごはん #料理動画 #cooking #鮭",
+    "platform": "youtube",
+    "externalId": "oPngIkJdvG4",
+    "videoUrl": "https://www.youtube.com/watch?v=oPngIkJdvG4",
     "videoId": "oPngIkJdvG4",
     "url": "https://www.youtube.com/watch?v=oPngIkJdvG4",
     "thumbnailUrl": "https://i.ytimg.com/vi/oPngIkJdvG4/maxresdefault.jpg",
@@ -8294,6 +9128,9 @@ const recipes = [
   },
   {
     "title": "丸めない！簡単スイートポテト🍠 #簡単レシピ #時短レシピ #さつまいも #ダイエットレシピ #無添加",
+    "platform": "youtube",
+    "externalId": "iDJPqM0vfrk",
+    "videoUrl": "https://www.youtube.com/watch?v=iDJPqM0vfrk",
     "videoId": "iDJPqM0vfrk",
     "url": "https://www.youtube.com/watch?v=iDJPqM0vfrk",
     "thumbnailUrl": "https://i.ytimg.com/vi/iDJPqM0vfrk/maxresdefault.jpg",
@@ -8326,6 +9163,9 @@ const recipes = [
   },
   {
     "title": "時短でできる春雨スープレシピを大公開！",
+    "platform": "youtube",
+    "externalId": "Yjr1sXYfkSw",
+    "videoUrl": "https://www.youtube.com/watch?v=Yjr1sXYfkSw",
     "videoId": "Yjr1sXYfkSw",
     "url": "https://www.youtube.com/watch?v=Yjr1sXYfkSw",
     "thumbnailUrl": "https://i.ytimg.com/vi/Yjr1sXYfkSw/maxresdefault.jpg",
@@ -8370,6 +9210,9 @@ const recipes = [
   },
   {
     "title": "レシピはこちら🙌＼ ワンパンロコモコ丼 ／#ワンパンレシピ #ロコモコ丼 #簡単晩ごはん #時短ごはん #共働きごはん #おうちごはん #ひき肉レシピ #フライパンひとつ #おつまみ",
+    "platform": "youtube",
+    "externalId": "c5MVOnYDWrA",
+    "videoUrl": "https://www.youtube.com/watch?v=c5MVOnYDWrA",
     "videoId": "c5MVOnYDWrA",
     "url": "https://www.youtube.com/watch?v=c5MVOnYDWrA",
     "thumbnailUrl": "https://i.ytimg.com/vi/c5MVOnYDWrA/maxresdefault.jpg",
@@ -8409,6 +9252,9 @@ const recipes = [
   },
   {
     "title": "【時短レシピ】豚薄切り肉でルーロー飯風の作り方 #shorts",
+    "platform": "youtube",
+    "externalId": "d2Q4cw6y-Fk",
+    "videoUrl": "https://www.youtube.com/watch?v=d2Q4cw6y-Fk",
     "videoId": "d2Q4cw6y-Fk",
     "url": "https://www.youtube.com/watch?v=d2Q4cw6y-Fk",
     "thumbnailUrl": "https://i.ytimg.com/vi/d2Q4cw6y-Fk/maxresdefault.jpg",
@@ -8442,6 +9288,9 @@ const recipes = [
   },
   {
     "title": "レシピはこちら🙌#チーズカツ #揚げないレシピ #簡単カツ #豚ロースレシピ #お弁当おかず #時短レシピ #節約ごはん #おうちごはん #作ってみたくなるレシピ #ご飯がすすむ #おつまみレシピ",
+    "platform": "youtube",
+    "externalId": "esGrnYG8WCM",
+    "videoUrl": "https://www.youtube.com/watch?v=esGrnYG8WCM",
     "videoId": "esGrnYG8WCM",
     "url": "https://www.youtube.com/watch?v=esGrnYG8WCM",
     "thumbnailUrl": "https://i.ytimg.com/vi/esGrnYG8WCM/maxresdefault.jpg",
@@ -8472,6 +9321,9 @@ const recipes = [
   },
   {
     "title": "レンジでじゅわとろ無限ナス #簡単副菜 #時短レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "U89fKFuw4bs",
+    "videoUrl": "https://www.youtube.com/watch?v=U89fKFuw4bs",
     "videoId": "U89fKFuw4bs",
     "url": "https://www.youtube.com/watch?v=U89fKFuw4bs",
     "thumbnailUrl": "https://i.ytimg.com/vi/U89fKFuw4bs/maxresdefault.jpg",
@@ -8497,6 +9349,9 @@ const recipes = [
   },
   {
     "title": "秒うま！梅しそおにぎり #簡単レシピ #おにぎり #時短レシピ #無添加 #朝ごはん #朝食",
+    "platform": "youtube",
+    "externalId": "5Hqmbr_Tyd8",
+    "videoUrl": "https://www.youtube.com/watch?v=5Hqmbr_Tyd8",
     "videoId": "5Hqmbr_Tyd8",
     "url": "https://www.youtube.com/watch?v=5Hqmbr_Tyd8",
     "thumbnailUrl": "https://i.ytimg.com/vi/5Hqmbr_Tyd8/maxresdefault.jpg",
@@ -8526,6 +9381,9 @@ const recipes = [
   },
   {
     "title": "材料少なめ【ツナパスタ】時短で済ませたい日におすすめ！節約レシピ",
+    "platform": "youtube",
+    "externalId": "7r5mg8OIzG4",
+    "videoUrl": "https://www.youtube.com/watch?v=7r5mg8OIzG4",
     "videoId": "7r5mg8OIzG4",
     "url": "https://www.youtube.com/watch?v=7r5mg8OIzG4",
     "thumbnailUrl": "https://i.ytimg.com/vi/7r5mg8OIzG4/maxresdefault.jpg",
@@ -8560,6 +9418,9 @@ const recipes = [
   },
   {
     "title": "【カリカリえのき】#ワーママごはん #簡単レシピ #簡単おかず #時短レシピ #えのき",
+    "platform": "youtube",
+    "externalId": "MeOInYZO538",
+    "videoUrl": "https://www.youtube.com/watch?v=MeOInYZO538",
     "videoId": "MeOInYZO538",
     "url": "https://www.youtube.com/watch?v=MeOInYZO538",
     "thumbnailUrl": "https://i.ytimg.com/vi/MeOInYZO538/maxresdefault.jpg",
@@ -8585,6 +9446,9 @@ const recipes = [
   },
   {
     "title": "4児ママ〜鶏もも簡単レシピ〜",
+    "platform": "youtube",
+    "externalId": "tW_K3R-vXGQ",
+    "videoUrl": "https://www.youtube.com/watch?v=tW_K3R-vXGQ",
     "videoId": "tW_K3R-vXGQ",
     "url": "https://www.youtube.com/watch?v=tW_K3R-vXGQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/tW_K3R-vXGQ/maxresdefault.jpg",
@@ -8610,6 +9474,9 @@ const recipes = [
   },
   {
     "title": "爆速ワンパン餃子 #時短レシピ#簡単レシピ #飯テロ #cooking",
+    "platform": "youtube",
+    "externalId": "Cv2ov5Yz9_E",
+    "videoUrl": "https://www.youtube.com/watch?v=Cv2ov5Yz9_E",
     "videoId": "Cv2ov5Yz9_E",
     "url": "https://www.youtube.com/watch?v=Cv2ov5Yz9_E",
     "thumbnailUrl": "https://i.ytimg.com/vi/Cv2ov5Yz9_E/maxresdefault.jpg",
@@ -8635,6 +9502,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！虚無塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
+    "platform": "youtube",
+    "externalId": "aw8Z3a7mHCo",
+    "videoUrl": "https://www.youtube.com/watch?v=aw8Z3a7mHCo",
     "videoId": "aw8Z3a7mHCo",
     "url": "https://www.youtube.com/watch?v=aw8Z3a7mHCo",
     "thumbnailUrl": "https://i.ytimg.com/vi/aw8Z3a7mHCo/maxresdefault.jpg",
@@ -8660,6 +9530,9 @@ const recipes = [
   },
   {
     "title": "超カンタン！激ウマ回鍋肉！#中華料理 #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "qDB2tM9rHRQ",
+    "videoUrl": "https://www.youtube.com/watch?v=qDB2tM9rHRQ",
     "videoId": "qDB2tM9rHRQ",
     "url": "https://www.youtube.com/watch?v=qDB2tM9rHRQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/qDB2tM9rHRQ/maxresdefault.jpg",
@@ -8688,6 +9561,9 @@ const recipes = [
   },
   {
     "title": "レンジで3分！チョコテリーヌ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加",
+    "platform": "youtube",
+    "externalId": "DgaWBSWre3U",
+    "videoUrl": "https://www.youtube.com/watch?v=DgaWBSWre3U",
     "videoId": "DgaWBSWre3U",
     "url": "https://www.youtube.com/watch?v=DgaWBSWre3U",
     "thumbnailUrl": "https://i.ytimg.com/vi/DgaWBSWre3U/maxresdefault.jpg",
@@ -8717,6 +9593,9 @@ const recipes = [
   },
   {
     "title": "『パン・オ・ショコラ』おうちで作る時短レシピ",
+    "platform": "youtube",
+    "externalId": "DuAujlENoSY",
+    "videoUrl": "https://www.youtube.com/watch?v=DuAujlENoSY",
     "videoId": "DuAujlENoSY",
     "url": "https://www.youtube.com/watch?v=DuAujlENoSY",
     "thumbnailUrl": "https://i.ytimg.com/vi/DuAujlENoSY/maxresdefault.jpg",
@@ -8742,6 +9621,9 @@ const recipes = [
   },
   {
     "title": "🍙おにぎりランチケースの使い方✨＃お弁当＃おにぎり＃時短レシピ",
+    "platform": "youtube",
+    "externalId": "6FvhAL3rjIo",
+    "videoUrl": "https://www.youtube.com/watch?v=6FvhAL3rjIo",
     "videoId": "6FvhAL3rjIo",
     "url": "https://www.youtube.com/watch?v=6FvhAL3rjIo",
     "thumbnailUrl": "https://i.ytimg.com/vi/6FvhAL3rjIo/maxresdefault.jpg",
@@ -8767,6 +9649,9 @@ const recipes = [
   },
   {
     "title": "SNS総再生866万の油そば！#料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "HDZm4ayyvRc",
+    "videoUrl": "https://www.youtube.com/watch?v=HDZm4ayyvRc",
     "videoId": "HDZm4ayyvRc",
     "url": "https://www.youtube.com/watch?v=HDZm4ayyvRc",
     "thumbnailUrl": "https://i.ytimg.com/vi/HDZm4ayyvRc/maxresdefault.jpg",
@@ -8796,6 +9681,9 @@ const recipes = [
   },
   {
     "title": "料理人の父ちゃんが作る！簡単！チンジャオロース #時短レシピ #簡単レシピ #青椒肉絲 #中華料理",
+    "platform": "youtube",
+    "externalId": "7QO6ZaN7sWo",
+    "videoUrl": "https://www.youtube.com/watch?v=7QO6ZaN7sWo",
     "videoId": "7QO6ZaN7sWo",
     "url": "https://www.youtube.com/watch?v=7QO6ZaN7sWo",
     "thumbnailUrl": "https://i.ytimg.com/vi/7QO6ZaN7sWo/maxresdefault.jpg",
@@ -8825,6 +9713,9 @@ const recipes = [
   },
   {
     "title": "『韓国チャプチェ』#15分レシピ #時短レシピ #韓国料理#チャプチェ #牛肉 #春雨#男子飯",
+    "platform": "youtube",
+    "externalId": "LKWc4hCgUEk",
+    "videoUrl": "https://www.youtube.com/watch?v=LKWc4hCgUEk",
     "videoId": "LKWc4hCgUEk",
     "url": "https://www.youtube.com/watch?v=LKWc4hCgUEk",
     "thumbnailUrl": "https://i.ytimg.com/vi/LKWc4hCgUEk/maxresdefault.jpg",
@@ -8852,6 +9743,9 @@ const recipes = [
   },
   {
     "title": "和えるだけ！もずくキムチ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加",
+    "platform": "youtube",
+    "externalId": "5pr-zPvs-qM",
+    "videoUrl": "https://www.youtube.com/watch?v=5pr-zPvs-qM",
     "videoId": "5pr-zPvs-qM",
     "url": "https://www.youtube.com/watch?v=5pr-zPvs-qM",
     "thumbnailUrl": "https://i.ytimg.com/vi/5pr-zPvs-qM/maxresdefault.jpg",
@@ -8883,6 +9777,9 @@ const recipes = [
   },
   {
     "title": "【ズッキーニのミートチーズ焼き】#簡単レシピ#ワンパンレシピ #時短レシピ#節約レシピ#レシピ",
+    "platform": "youtube",
+    "externalId": "avVuDCgdLAg",
+    "videoUrl": "https://www.youtube.com/watch?v=avVuDCgdLAg",
     "videoId": "avVuDCgdLAg",
     "url": "https://www.youtube.com/watch?v=avVuDCgdLAg",
     "thumbnailUrl": "https://i.ytimg.com/vi/avVuDCgdLAg/maxresdefault.jpg",
@@ -8908,6 +9805,9 @@ const recipes = [
   },
   {
     "title": "きゅうりの明太子和え🥒 #料理 #レシピ #時短料理 #きゅうり #きゅうりレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "12KCEmH0biM",
+    "videoUrl": "https://www.youtube.com/watch?v=12KCEmH0biM",
     "videoId": "12KCEmH0biM",
     "url": "https://www.youtube.com/watch?v=12KCEmH0biM",
     "thumbnailUrl": "https://i.ytimg.com/vi/12KCEmH0biM/maxresdefault.jpg",
@@ -8933,6 +9833,9 @@ const recipes = [
   },
   {
     "title": "ブロッコリー茹でちゃダメ！ #youtubeshorts #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "H_MthNY1WTE",
+    "videoUrl": "https://www.youtube.com/watch?v=H_MthNY1WTE",
     "videoId": "H_MthNY1WTE",
     "url": "https://www.youtube.com/watch?v=H_MthNY1WTE",
     "thumbnailUrl": "https://i.ytimg.com/vi/H_MthNY1WTE/maxresdefault.jpg",
@@ -8960,6 +9863,9 @@ const recipes = [
   },
   {
     "title": "レンジでカンタン！！絶品カルボナーラ！ #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "dGt4C8TJod8",
+    "videoUrl": "https://www.youtube.com/watch?v=dGt4C8TJod8",
     "videoId": "dGt4C8TJod8",
     "url": "https://www.youtube.com/watch?v=dGt4C8TJod8",
     "thumbnailUrl": "https://i.ytimg.com/vi/dGt4C8TJod8/maxresdefault.jpg",
@@ -8989,6 +9895,9 @@ const recipes = [
   },
   {
     "title": "ワンオペ金曜日の超時短ごはん🍝ナポリうどんありですか？#るいちゃんねる #簡単レシピ #簡単料理 #時短レシピ #時短節約 #2歳",
+    "platform": "youtube",
+    "externalId": "kJF1cluEG_c",
+    "videoUrl": "https://www.youtube.com/watch?v=kJF1cluEG_c",
     "videoId": "kJF1cluEG_c",
     "url": "https://www.youtube.com/watch?v=kJF1cluEG_c",
     "thumbnailUrl": "https://i.ytimg.com/vi/kJF1cluEG_c/maxresdefault.jpg",
@@ -9014,6 +9923,9 @@ const recipes = [
   },
   {
     "title": "【材料ふたつで半熟たまカツ】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #卵レシピ",
+    "platform": "youtube",
+    "externalId": "6_AbLF6bwKI",
+    "videoUrl": "https://www.youtube.com/watch?v=6_AbLF6bwKI",
     "videoId": "6_AbLF6bwKI",
     "url": "https://www.youtube.com/watch?v=6_AbLF6bwKI",
     "thumbnailUrl": "https://i.ytimg.com/vi/6_AbLF6bwKI/maxresdefault.jpg",
@@ -9039,6 +9951,9 @@ const recipes = [
   },
   {
     "title": "簡単！節約！旨い！！豚バラのさっぱり蒸し煮✨ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "2Vbe_XYqODM",
+    "videoUrl": "https://www.youtube.com/watch?v=2Vbe_XYqODM",
     "videoId": "2Vbe_XYqODM",
     "url": "https://www.youtube.com/watch?v=2Vbe_XYqODM",
     "thumbnailUrl": "https://i.ytimg.com/vi/2Vbe_XYqODM/maxresdefault.jpg",
@@ -9064,6 +9979,9 @@ const recipes = [
   },
   {
     "title": "10分でできるコスパ鍋🍲 #簡単レシピ #時短レシピ #節約レシピ #鍋レシピ #鍋 #小松菜レシピ #春雨レシピ #きのこレシピ",
+    "platform": "youtube",
+    "externalId": "2oVD60mBpSk",
+    "videoUrl": "https://www.youtube.com/watch?v=2oVD60mBpSk",
     "videoId": "2oVD60mBpSk",
     "url": "https://www.youtube.com/watch?v=2oVD60mBpSk",
     "thumbnailUrl": "https://i.ytimg.com/vi/2oVD60mBpSk/maxresdefault.jpg",
@@ -9091,6 +10009,9 @@ const recipes = [
   },
   {
     "title": "もっちゅりん風🍩もちもちドーナツ #料理 #レシピ #時短料理 #もっちゅりん #ホットケーキミックス #shorts",
+    "platform": "youtube",
+    "externalId": "aHulidj9AAY",
+    "videoUrl": "https://www.youtube.com/watch?v=aHulidj9AAY",
     "videoId": "aHulidj9AAY",
     "url": "https://www.youtube.com/watch?v=aHulidj9AAY",
     "thumbnailUrl": "https://i.ytimg.com/vi/aHulidj9AAY/maxresdefault.jpg",
@@ -9118,6 +10039,9 @@ const recipes = [
   },
   {
     "title": "レッドホット風チキン #ズボラレシピ #時短レシピ #炊飯器レシピ #ズボラ主婦 #ケンタッキー",
+    "platform": "youtube",
+    "externalId": "wF8CXUJw5ko",
+    "videoUrl": "https://www.youtube.com/watch?v=wF8CXUJw5ko",
     "videoId": "wF8CXUJw5ko",
     "url": "https://www.youtube.com/watch?v=wF8CXUJw5ko",
     "thumbnailUrl": "https://i.ytimg.com/vi/wF8CXUJw5ko/maxresdefault.jpg",
@@ -9149,6 +10073,9 @@ const recipes = [
   },
   {
     "title": "大根おろしの豚しゃぶサラダ #レシピ#簡単レシピ#時短レシピ #同棲ご飯#お昼ご飯#夜ごはん#豚しゃぶ#サラダ#大根おろし#トマト",
+    "platform": "youtube",
+    "externalId": "NSN8wlZqv34",
+    "videoUrl": "https://www.youtube.com/watch?v=NSN8wlZqv34",
     "videoId": "NSN8wlZqv34",
     "url": "https://www.youtube.com/watch?v=NSN8wlZqv34",
     "thumbnailUrl": "https://i.ytimg.com/vi/NSN8wlZqv34/maxresdefault.jpg",
@@ -9180,6 +10107,9 @@ const recipes = [
   },
   {
     "title": "レシピはこちら🙌#肉じゃがリメイク #スコップコロッケ #簡単レシピ #時短レシピ #リメイクレシピ #家庭料理 #ズボラ飯 #夜ご飯#余りもの活用 #美味しい #コロッケアレンジ #おつまみレシピ",
+    "platform": "youtube",
+    "externalId": "1oeik1yaIIk",
+    "videoUrl": "https://www.youtube.com/watch?v=1oeik1yaIIk",
     "videoId": "1oeik1yaIIk",
     "url": "https://www.youtube.com/watch?v=1oeik1yaIIk",
     "thumbnailUrl": "https://i.ytimg.com/vi/1oeik1yaIIk/maxresdefault.jpg",
@@ -9209,6 +10139,9 @@ const recipes = [
   },
   {
     "title": "【カレー余り】 とろ〜り絶品カレーパン #残り #時短レシピ #幼児食 #カレー #カレーパン #朝ごはん #食パン #おやつ #トモニテ #shorts",
+    "platform": "youtube",
+    "externalId": "JRuHDeKRk44",
+    "videoUrl": "https://www.youtube.com/watch?v=JRuHDeKRk44",
     "videoId": "JRuHDeKRk44",
     "url": "https://www.youtube.com/watch?v=JRuHDeKRk44",
     "thumbnailUrl": "https://i.ytimg.com/vi/JRuHDeKRk44/maxresdefault.jpg",
@@ -9242,6 +10175,9 @@ const recipes = [
   },
   {
     "title": "地味ご飯の時に助かるラディッシュ菜飯 #時短レシピ #夏レシピ #主婦 #簡単料理 #ライフハック #料理 #知ってて得する #豆知識 #shorts #ラディッシュ #菜飯 #混ぜご飯",
+    "platform": "youtube",
+    "externalId": "TqlBj2j-jSc",
+    "videoUrl": "https://www.youtube.com/watch?v=TqlBj2j-jSc",
     "videoId": "TqlBj2j-jSc",
     "url": "https://www.youtube.com/watch?v=TqlBj2j-jSc",
     "thumbnailUrl": "https://i.ytimg.com/vi/TqlBj2j-jSc/maxresdefault.jpg",
@@ -9268,6 +10204,9 @@ const recipes = [
   },
   {
     "title": "ブリトー #簡単レシピ #冷凍ストック #時短レシピ #冷凍ストック #cooking",
+    "platform": "youtube",
+    "externalId": "P5PSaam7He4",
+    "videoUrl": "https://www.youtube.com/watch?v=P5PSaam7He4",
     "videoId": "P5PSaam7He4",
     "url": "https://www.youtube.com/watch?v=P5PSaam7He4",
     "thumbnailUrl": "https://i.ytimg.com/vi/P5PSaam7He4/sddefault.jpg",
@@ -9297,6 +10236,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！味の素だしの醤油ラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
+    "platform": "youtube",
+    "externalId": "u5kuoCI0qk4",
+    "videoUrl": "https://www.youtube.com/watch?v=u5kuoCI0qk4",
     "videoId": "u5kuoCI0qk4",
     "url": "https://www.youtube.com/watch?v=u5kuoCI0qk4",
     "thumbnailUrl": "https://i.ytimg.com/vi/u5kuoCI0qk4/maxresdefault.jpg",
@@ -9322,6 +10264,9 @@ const recipes = [
   },
   {
     "title": "溶かすだけで食べられる絶品冷凍パスタ弁当 #パスタ #暮らしチャンネル #冷凍ストック #cooking #料理 #時短レシピ #簡単レシピ #pasta #food #自炊 #おうちごはん #時短",
+    "platform": "youtube",
+    "externalId": "ByAhnn2gPA4",
+    "videoUrl": "https://www.youtube.com/watch?v=ByAhnn2gPA4",
     "videoId": "ByAhnn2gPA4",
     "url": "https://www.youtube.com/watch?v=ByAhnn2gPA4",
     "thumbnailUrl": "https://i.ytimg.com/vi/ByAhnn2gPA4/maxresdefault.jpg",
@@ -9349,6 +10294,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】納豆パリパリ焼き #おつまみ #簡単レシピ #簡単 #簡単料理 #時短 #時短レシピ #時短料理 #節約 #節約レシピ #自炊 #料理 #料理動画 #チーズ #一人暮らし #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "9ioFNszKXGc",
+    "videoUrl": "https://www.youtube.com/watch?v=9ioFNszKXGc",
     "videoId": "9ioFNszKXGc",
     "url": "https://www.youtube.com/watch?v=9ioFNszKXGc",
     "thumbnailUrl": "https://i.ytimg.com/vi/9ioFNszKXGc/maxresdefault.jpg",
@@ -9374,6 +10322,9 @@ const recipes = [
   },
   {
     "title": "【時短料理】焼き鳥缶で作れる激うま『親子丼』 #料理 #時短レシピ #親子丼 #せりちゃん食堂",
+    "platform": "youtube",
+    "externalId": "O5Aat4KoQy4",
+    "videoUrl": "https://www.youtube.com/watch?v=O5Aat4KoQy4",
     "videoId": "O5Aat4KoQy4",
     "url": "https://www.youtube.com/watch?v=O5Aat4KoQy4",
     "thumbnailUrl": "https://i.ytimg.com/vi/O5Aat4KoQy4/maxresdefault.jpg",
@@ -9409,6 +10360,9 @@ const recipes = [
   },
   {
     "title": "絶品！塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
+    "platform": "youtube",
+    "externalId": "7Nuv6esgxSM",
+    "videoUrl": "https://www.youtube.com/watch?v=7Nuv6esgxSM",
     "videoId": "7Nuv6esgxSM",
     "url": "https://www.youtube.com/watch?v=7Nuv6esgxSM",
     "thumbnailUrl": "https://i.ytimg.com/vi/7Nuv6esgxSM/maxresdefault.jpg",
@@ -9434,6 +10388,9 @@ const recipes = [
   },
   {
     "title": "絶品！90秒で作れる油そば #ラーメン",
+    "platform": "youtube",
+    "externalId": "LjZRVYmB5Gc",
+    "videoUrl": "https://www.youtube.com/watch?v=LjZRVYmB5Gc",
     "videoId": "LjZRVYmB5Gc",
     "url": "https://www.youtube.com/watch?v=LjZRVYmB5Gc",
     "thumbnailUrl": "https://i.ytimg.com/vi/LjZRVYmB5Gc/maxresdefault.jpg",
@@ -9463,6 +10420,9 @@ const recipes = [
   },
   {
     "title": "【誰でも簡単】ドケチ主婦が月４万円で暮らすために実践する「食費節約術７選」｜節約レシピ紹介/節約生活/５人家族",
+    "platform": "youtube",
+    "externalId": "_1ZkqakvXeA",
+    "videoUrl": "https://www.youtube.com/watch?v=_1ZkqakvXeA",
     "videoId": "_1ZkqakvXeA",
     "url": "https://www.youtube.com/watch?v=_1ZkqakvXeA",
     "thumbnailUrl": "https://i.ytimg.com/vi/_1ZkqakvXeA/maxresdefault.jpg",
@@ -9505,6 +10465,9 @@ const recipes = [
   },
   {
     "title": "お酢でさっぱり【夏野菜の焼き浸し】めんつゆで簡単絶品！生姜の風味に夏野菜の甘みが病みつき！節約おかず",
+    "platform": "youtube",
+    "externalId": "gvjG8zhhgrQ",
+    "videoUrl": "https://www.youtube.com/watch?v=gvjG8zhhgrQ",
     "videoId": "gvjG8zhhgrQ",
     "url": "https://www.youtube.com/watch?v=gvjG8zhhgrQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/gvjG8zhhgrQ/maxresdefault.jpg",
@@ -9537,6 +10500,9 @@ const recipes = [
   },
   {
     "title": "100万回再生人気レシピ【卵・油・パン粉不使用】家族に大人気！混ぜて焼くだけの節約もやしバーグ【節約レシピ】【もやしレシピ】【肉もやし】",
+    "platform": "youtube",
+    "externalId": "cTzJsrPknog",
+    "videoUrl": "https://www.youtube.com/watch?v=cTzJsrPknog",
     "videoId": "cTzJsrPknog",
     "url": "https://www.youtube.com/watch?v=cTzJsrPknog",
     "thumbnailUrl": "https://i.ytimg.com/vi/cTzJsrPknog/maxresdefault.jpg",
@@ -9568,6 +10534,9 @@ const recipes = [
   },
   {
     "title": "【節約レシピ】豆腐の照り焼き",
+    "platform": "youtube",
+    "externalId": "pp_5OLQKsD8",
+    "videoUrl": "https://www.youtube.com/watch?v=pp_5OLQKsD8",
     "videoId": "pp_5OLQKsD8",
     "url": "https://www.youtube.com/watch?v=pp_5OLQKsD8",
     "thumbnailUrl": "https://i.ytimg.com/vi/pp_5OLQKsD8/maxresdefault.jpg",
@@ -9596,6 +10565,9 @@ const recipes = [
   },
   {
     "title": "【80円で完成‼️もやし焼き】 #ダイエットレシピ #簡単レシピ #節約レシピ",
+    "platform": "youtube",
+    "externalId": "ONyMYOSRysA",
+    "videoUrl": "https://www.youtube.com/watch?v=ONyMYOSRysA",
     "videoId": "ONyMYOSRysA",
     "url": "https://www.youtube.com/watch?v=ONyMYOSRysA",
     "thumbnailUrl": "https://i.ytimg.com/vi/ONyMYOSRysA/maxresdefault.jpg",
@@ -9621,6 +10593,9 @@ const recipes = [
   },
   {
     "title": "「玉ねぎ豆腐焼き」とろ～と甘い玉ねぎとフワフワ豆腐！節約レシピ・ダイエットレシピ",
+    "platform": "youtube",
+    "externalId": "SujJWiXsm0Y",
+    "videoUrl": "https://www.youtube.com/watch?v=SujJWiXsm0Y",
     "videoId": "SujJWiXsm0Y",
     "url": "https://www.youtube.com/watch?v=SujJWiXsm0Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/SujJWiXsm0Y/maxresdefault.jpg",
@@ -9650,6 +10625,9 @@ const recipes = [
   },
   {
     "title": "1000万再生超えたの。もやし史上1番バズったといっても過言ではないレシピです。#簡単レシピ #節約レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "6-WItDF2giI",
+    "videoUrl": "https://www.youtube.com/watch?v=6-WItDF2giI",
     "videoId": "6-WItDF2giI",
     "url": "https://www.youtube.com/watch?v=6-WItDF2giI",
     "thumbnailUrl": "https://i.ytimg.com/vi/6-WItDF2giI/maxresdefault.jpg",
@@ -9675,6 +10653,9 @@ const recipes = [
   },
   {
     "title": "100円節約ズボラ飯ライフハック！ #ライフハック #暮らし #料理 #レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "ZWmUo8ggZG0",
+    "videoUrl": "https://www.youtube.com/watch?v=ZWmUo8ggZG0",
     "videoId": "ZWmUo8ggZG0",
     "url": "https://www.youtube.com/watch?v=ZWmUo8ggZG0",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZWmUo8ggZG0/maxresdefault.jpg",
@@ -9700,6 +10681,9 @@ const recipes = [
   },
   {
     "title": "食べだしたらとまらない『カリッカリえのき』 #簡単レシピ #節約レシピ #おつまみレシピ",
+    "platform": "youtube",
+    "externalId": "SeYu_w3cb9A",
+    "videoUrl": "https://www.youtube.com/watch?v=SeYu_w3cb9A",
     "videoId": "SeYu_w3cb9A",
     "url": "https://www.youtube.com/watch?v=SeYu_w3cb9A",
     "thumbnailUrl": "https://i.ytimg.com/vi/SeYu_w3cb9A/maxresdefault.jpg",
@@ -9730,6 +10714,9 @@ const recipes = [
   },
   {
     "title": "【簡単節約レシピ👛✨】1個132円ビッグマック風タコス",
+    "platform": "youtube",
+    "externalId": "-H2pj4oLBlg",
+    "videoUrl": "https://www.youtube.com/watch?v=-H2pj4oLBlg",
     "videoId": "-H2pj4oLBlg",
     "url": "https://www.youtube.com/watch?v=-H2pj4oLBlg",
     "thumbnailUrl": "https://i.ytimg.com/vi/-H2pj4oLBlg/maxresdefault.jpg",
@@ -9755,6 +10742,9 @@ const recipes = [
   },
   {
     "title": "たった125円！たった7分！究極の節約飯の『すき焼き丼』が悶絶級に旨いっ！",
+    "platform": "youtube",
+    "externalId": "hkpA_NetwFo",
+    "videoUrl": "https://www.youtube.com/watch?v=hkpA_NetwFo",
     "videoId": "hkpA_NetwFo",
     "url": "https://www.youtube.com/watch?v=hkpA_NetwFo",
     "thumbnailUrl": "https://i.ytimg.com/vi/hkpA_NetwFo/maxresdefault.jpg",
@@ -9786,6 +10776,9 @@ const recipes = [
   },
   {
     "title": "【10分で完成‼️ささみシソチーズ🧀】 #ダイエットレシピ #簡単レシピ #節約レシピ # #ダイエット",
+    "platform": "youtube",
+    "externalId": "I_M0VPcDINE",
+    "videoUrl": "https://www.youtube.com/watch?v=I_M0VPcDINE",
     "videoId": "I_M0VPcDINE",
     "url": "https://www.youtube.com/watch?v=I_M0VPcDINE",
     "thumbnailUrl": "https://i.ytimg.com/vi/I_M0VPcDINE/maxresdefault.jpg",
@@ -9813,6 +10806,9 @@ const recipes = [
   },
   {
     "title": "25歳会社員が204円で作る簡単節約チキンラーメンカルボナーラ",
+    "platform": "youtube",
+    "externalId": "c8O87RIVWuA",
+    "videoUrl": "https://www.youtube.com/watch?v=c8O87RIVWuA",
     "videoId": "c8O87RIVWuA",
     "url": "https://www.youtube.com/watch?v=c8O87RIVWuA",
     "thumbnailUrl": "https://i.ytimg.com/vi/c8O87RIVWuA/maxresdefault.jpg",
@@ -9848,6 +10844,9 @@ const recipes = [
   },
   {
     "title": "ねぎ豚あんかけ塩うどん🔥 #簡単レシピ #節約レシピ",
+    "platform": "youtube",
+    "externalId": "LnSEHnOUDQo",
+    "videoUrl": "https://www.youtube.com/watch?v=LnSEHnOUDQo",
     "videoId": "LnSEHnOUDQo",
     "url": "https://www.youtube.com/watch?v=LnSEHnOUDQo",
     "thumbnailUrl": "https://i.ytimg.com/vi/LnSEHnOUDQo/maxresdefault.jpg",
@@ -9875,6 +10874,9 @@ const recipes = [
   },
   {
     "title": "【エビを超えた！天才的に旨い鶏マヨ】#料理 #料理動画 #food #おすすめ",
+    "platform": "youtube",
+    "externalId": "LmVxlUnBYZM",
+    "videoUrl": "https://www.youtube.com/watch?v=LmVxlUnBYZM",
     "videoId": "LmVxlUnBYZM",
     "url": "https://www.youtube.com/watch?v=LmVxlUnBYZM",
     "thumbnailUrl": "https://i.ytimg.com/vi/LmVxlUnBYZM/maxresdefault.jpg",
@@ -9902,6 +10904,9 @@ const recipes = [
   },
   {
     "title": "【ダイエット×節約レシピ】ピリ辛×まろやかの最強タッグ！『濃厚キムチ春雨スープ』",
+    "platform": "youtube",
+    "externalId": "0Y6NnBHcc9w",
+    "videoUrl": "https://www.youtube.com/watch?v=0Y6NnBHcc9w",
     "videoId": "0Y6NnBHcc9w",
     "url": "https://www.youtube.com/watch?v=0Y6NnBHcc9w",
     "thumbnailUrl": "https://i.ytimg.com/vi/0Y6NnBHcc9w/maxresdefault.jpg",
@@ -9933,6 +10938,9 @@ const recipes = [
   },
   {
     "title": "【150万回再生人気レシピ】簡単！節約おかずレシピ10選",
+    "platform": "youtube",
+    "externalId": "zrLoT5kmtGk",
+    "videoUrl": "https://www.youtube.com/watch?v=zrLoT5kmtGk",
     "videoId": "zrLoT5kmtGk",
     "url": "https://www.youtube.com/watch?v=zrLoT5kmtGk",
     "thumbnailUrl": "https://i.ytimg.com/vi/zrLoT5kmtGk/maxresdefault.jpg",
@@ -9972,6 +10980,9 @@ const recipes = [
   },
   {
     "title": "【生活費公開】５人家族・節約一家が「１週間１万円生活」に挑戦した結果（食費・日用品・レジャー費）｜節約生活/食費見直し/貯金/節約レシピ",
+    "platform": "youtube",
+    "externalId": "ynuohKvikZk",
+    "videoUrl": "https://www.youtube.com/watch?v=ynuohKvikZk",
     "videoId": "ynuohKvikZk",
     "url": "https://www.youtube.com/watch?v=ynuohKvikZk",
     "thumbnailUrl": "https://i.ytimg.com/vi/ynuohKvikZk/maxresdefault.jpg",
@@ -10028,6 +11039,9 @@ const recipes = [
   },
   {
     "title": "お金も洗い物も節約レシピ！えのき歯ごたえあってお腹いっぱいなる😉#料理 #cooking #vlog #ol日常 #自炊 #ブラック企業",
+    "platform": "youtube",
+    "externalId": "VXDj5x_j7VI",
+    "videoUrl": "https://www.youtube.com/watch?v=VXDj5x_j7VI",
     "videoId": "VXDj5x_j7VI",
     "url": "https://www.youtube.com/watch?v=VXDj5x_j7VI",
     "thumbnailUrl": "https://i.ytimg.com/vi/VXDj5x_j7VI/maxresdefault.jpg",
@@ -10053,6 +11067,9 @@ const recipes = [
   },
   {
     "title": "【ほうれん草と半熟卵のおかかマヨサラダ】#簡単レシピ #おうちごはん #時短節約 #節約レシピ",
+    "platform": "youtube",
+    "externalId": "dfS9HXWwcXM",
+    "videoUrl": "https://www.youtube.com/watch?v=dfS9HXWwcXM",
     "videoId": "dfS9HXWwcXM",
     "url": "https://www.youtube.com/watch?v=dfS9HXWwcXM",
     "thumbnailUrl": "https://i.ytimg.com/vi/dfS9HXWwcXM/maxresdefault.jpg",
@@ -10082,6 +11099,9 @@ const recipes = [
   },
   {
     "title": "【節約レシピ】厚揚げ大葉チーズ",
+    "platform": "youtube",
+    "externalId": "N8pYxmyx4cE",
+    "videoUrl": "https://www.youtube.com/watch?v=N8pYxmyx4cE",
     "videoId": "N8pYxmyx4cE",
     "url": "https://www.youtube.com/watch?v=N8pYxmyx4cE",
     "thumbnailUrl": "https://i.ytimg.com/vi/N8pYxmyx4cE/maxresdefault.jpg",
@@ -10109,6 +11129,9 @@ const recipes = [
   },
   {
     "title": "なんじゃこりゃ。美味すぎやねん。 #パスタレシピ #節約レシピ",
+    "platform": "youtube",
+    "externalId": "VZ2K7_d2Jq8",
+    "videoUrl": "https://www.youtube.com/watch?v=VZ2K7_d2Jq8",
     "videoId": "VZ2K7_d2Jq8",
     "url": "https://www.youtube.com/watch?v=VZ2K7_d2Jq8",
     "thumbnailUrl": "https://i.ytimg.com/vi/VZ2K7_d2Jq8/maxresdefault.jpg",
@@ -10134,6 +11157,9 @@ const recipes = [
   },
   {
     "title": "【DAY85】究極の節約丼🍚 #shorts #節約 #節約レシピ",
+    "platform": "youtube",
+    "externalId": "5w2EJNu_7Pw",
+    "videoUrl": "https://www.youtube.com/watch?v=5w2EJNu_7Pw",
     "videoId": "5w2EJNu_7Pw",
     "url": "https://www.youtube.com/watch?v=5w2EJNu_7Pw",
     "thumbnailUrl": "https://i.ytimg.com/vi/5w2EJNu_7Pw/maxresdefault.jpg",
@@ -10159,6 +11185,9 @@ const recipes = [
   },
   {
     "title": "【節約レシピ】50円でパスタランチ🍝💕 #節約 #節約レシピ #パスタ",
+    "platform": "youtube",
+    "externalId": "7Zm7CCKEPQ8",
+    "videoUrl": "https://www.youtube.com/watch?v=7Zm7CCKEPQ8",
     "videoId": "7Zm7CCKEPQ8",
     "url": "https://www.youtube.com/watch?v=7Zm7CCKEPQ8",
     "thumbnailUrl": "https://i.ytimg.com/vi/7Zm7CCKEPQ8/maxresdefault.jpg",
@@ -10184,6 +11213,9 @@ const recipes = [
   },
   {
     "title": "【節約ごはん】年明け…食費を抑える！ 街で聞いたらレシピ続々…『気になる！』",
+    "platform": "youtube",
+    "externalId": "zMTkRGQbp_s",
+    "videoUrl": "https://www.youtube.com/watch?v=zMTkRGQbp_s",
     "videoId": "zMTkRGQbp_s",
     "url": "https://www.youtube.com/watch?v=zMTkRGQbp_s",
     "thumbnailUrl": "https://i.ytimg.com/vi/zMTkRGQbp_s/maxresdefault.jpg",
@@ -10211,6 +11243,9 @@ const recipes = [
   },
   {
     "title": "【たっぷりキャベツで節約・簡単！】１個１８円で驚くほど旨い／豚キャベツつくねの作り方 #recipe #cooking #料理",
+    "platform": "youtube",
+    "externalId": "-dVay8yTtbU",
+    "videoUrl": "https://www.youtube.com/watch?v=-dVay8yTtbU",
     "videoId": "-dVay8yTtbU",
     "url": "https://www.youtube.com/watch?v=-dVay8yTtbU",
     "thumbnailUrl": "https://i.ytimg.com/vi/-dVay8yTtbU/maxresdefault.jpg",
@@ -10242,6 +11277,9 @@ const recipes = [
   },
   {
     "title": "マジでこの一皿だけで夕飯が成立してしまう節約飯【もやしと春雨のバカウマ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #節約レシピ",
+    "platform": "youtube",
+    "externalId": "ehLlg104KJE",
+    "videoUrl": "https://www.youtube.com/watch?v=ehLlg104KJE",
     "videoId": "ehLlg104KJE",
     "url": "https://www.youtube.com/watch?v=ehLlg104KJE",
     "thumbnailUrl": "https://i.ytimg.com/vi/ehLlg104KJE/maxresdefault.jpg",
@@ -10271,6 +11309,9 @@ const recipes = [
   },
   {
     "title": "【ヘルシー朝ごはんはこう作る！】#節約レシピ #節約 #料理 #簡単レシピ #自炊 #朝ごはん",
+    "platform": "youtube",
+    "externalId": "tzYetAj2e3U",
+    "videoUrl": "https://www.youtube.com/watch?v=tzYetAj2e3U",
     "videoId": "tzYetAj2e3U",
     "url": "https://www.youtube.com/watch?v=tzYetAj2e3U",
     "thumbnailUrl": "https://i.ytimg.com/vi/tzYetAj2e3U/maxresdefault.jpg",
@@ -10306,6 +11347,9 @@ const recipes = [
   },
   {
     "title": "洗い物少ない！【甘辛だれの油いらず唐揚げ】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #からあげ #唐揚げ",
+    "platform": "youtube",
+    "externalId": "7UnbT5Vf98M",
+    "videoUrl": "https://www.youtube.com/watch?v=7UnbT5Vf98M",
     "videoId": "7UnbT5Vf98M",
     "url": "https://www.youtube.com/watch?v=7UnbT5Vf98M",
     "thumbnailUrl": "https://i.ytimg.com/vi/7UnbT5Vf98M/maxresdefault.jpg",
@@ -10333,6 +11377,9 @@ const recipes = [
   },
   {
     "title": "280円で作るパックご飯オムライスが美味すぎた🎠#節約レシピ#料理#オムライス",
+    "platform": "youtube",
+    "externalId": "CB7n9LcsgS4",
+    "videoUrl": "https://www.youtube.com/watch?v=CB7n9LcsgS4",
     "videoId": "CB7n9LcsgS4",
     "url": "https://www.youtube.com/watch?v=CB7n9LcsgS4",
     "thumbnailUrl": "https://i.ytimg.com/vi/CB7n9LcsgS4/maxresdefault.jpg",
@@ -10358,6 +11405,9 @@ const recipes = [
   },
   {
     "title": "【節約レシピ】夫大絶賛の簡単節約丼🍚🍳 #shorts #節約 #節約レシピ",
+    "platform": "youtube",
+    "externalId": "sT2jr0x5Gyo",
+    "videoUrl": "https://www.youtube.com/watch?v=sT2jr0x5Gyo",
     "videoId": "sT2jr0x5Gyo",
     "url": "https://www.youtube.com/watch?v=sT2jr0x5Gyo",
     "thumbnailUrl": "https://i.ytimg.com/vi/sT2jr0x5Gyo/maxresdefault.jpg",
@@ -10383,6 +11433,9 @@ const recipes = [
   },
   {
     "title": "【1食194円】てりたまチキン弁当",
+    "platform": "youtube",
+    "externalId": "i9lfuADT1mA",
+    "videoUrl": "https://www.youtube.com/watch?v=i9lfuADT1mA",
     "videoId": "i9lfuADT1mA",
     "url": "https://www.youtube.com/watch?v=i9lfuADT1mA",
     "thumbnailUrl": "https://i.ytimg.com/vi/i9lfuADT1mA/maxresdefault.jpg",
@@ -10408,6 +11461,9 @@ const recipes = [
   },
   {
     "title": "25歳会社員が150円で作る簡単節約ワンパン辛ラーメンカルボナーラ",
+    "platform": "youtube",
+    "externalId": "OBAwlXMYiJc",
+    "videoUrl": "https://www.youtube.com/watch?v=OBAwlXMYiJc",
     "videoId": "OBAwlXMYiJc",
     "url": "https://www.youtube.com/watch?v=OBAwlXMYiJc",
     "thumbnailUrl": "https://i.ytimg.com/vi/OBAwlXMYiJc/maxresdefault.jpg",
@@ -10443,6 +11499,9 @@ const recipes = [
   },
   {
     "title": "なんかこれめっちゃバズったんだけど、、、そう言う時に限って玉ねぎの皮ちゃんと剥けてなくて叩かれまくったレシピ😱 #簡単レシピ #節約レシピ #ダイエット #shorts",
+    "platform": "youtube",
+    "externalId": "-FGctGMR3so",
+    "videoUrl": "https://www.youtube.com/watch?v=-FGctGMR3so",
     "videoId": "-FGctGMR3so",
     "url": "https://www.youtube.com/watch?v=-FGctGMR3so",
     "thumbnailUrl": "https://i.ytimg.com/vi/-FGctGMR3so/maxresdefault.jpg",
@@ -10470,6 +11529,9 @@ const recipes = [
   },
   {
     "title": "おうちでおっとっと作ってみない？#簡単レシピ #時短節約 #節約レシピ #料理 #餃子の皮 #youtubeshorts #shorts",
+    "platform": "youtube",
+    "externalId": "gFc2n14t5sw",
+    "videoUrl": "https://www.youtube.com/watch?v=gFc2n14t5sw",
     "videoId": "gFc2n14t5sw",
     "url": "https://www.youtube.com/watch?v=gFc2n14t5sw",
     "thumbnailUrl": "https://i.ytimg.com/vi/gFc2n14t5sw/maxresdefault.jpg",
@@ -10495,6 +11557,9 @@ const recipes = [
   },
   {
     "title": "トマトにんにく辛パスタ🌶️ #節約レシピ #cooking #時短節約 #一人暮らしごはん #japanesefood #暮らしチャンネル #パスタ #今日の晩ごはん #簡単レシピ #トマトパスタ",
+    "platform": "youtube",
+    "externalId": "xudQBJVt45k",
+    "videoUrl": "https://www.youtube.com/watch?v=xudQBJVt45k",
     "videoId": "xudQBJVt45k",
     "url": "https://www.youtube.com/watch?v=xudQBJVt45k",
     "thumbnailUrl": "https://i.ytimg.com/vi/xudQBJVt45k/maxresdefault.jpg",
@@ -10524,6 +11589,9 @@ const recipes = [
   },
   {
     "title": "\\むくみ解消!!パクパクちくきゅうサラダ/#shorts#料理#cooking#節約レシピ#ズボラ",
+    "platform": "youtube",
+    "externalId": "nzOFj2-kH68",
+    "videoUrl": "https://www.youtube.com/watch?v=nzOFj2-kH68",
     "videoId": "nzOFj2-kH68",
     "url": "https://www.youtube.com/watch?v=nzOFj2-kH68",
     "thumbnailUrl": "https://i.ytimg.com/vi/nzOFj2-kH68/maxresdefault.jpg",
@@ -10551,6 +11619,9 @@ const recipes = [
   },
   {
     "title": "1食190円チキンマカロニグラタン弁当#shorts#簡単レシピ#節約レシピ",
+    "platform": "youtube",
+    "externalId": "PWhyYoay-L8",
+    "videoUrl": "https://www.youtube.com/watch?v=PWhyYoay-L8",
     "videoId": "PWhyYoay-L8",
     "url": "https://www.youtube.com/watch?v=PWhyYoay-L8",
     "thumbnailUrl": "https://i.ytimg.com/vi/PWhyYoay-L8/maxresdefault.jpg",
@@ -10588,6 +11659,9 @@ const recipes = [
   },
   {
     "title": "究極のやみつき無限きゅうり",
+    "platform": "youtube",
+    "externalId": "o-txnOqg9OI",
+    "videoUrl": "https://www.youtube.com/watch?v=o-txnOqg9OI",
     "videoId": "o-txnOqg9OI",
     "url": "https://www.youtube.com/watch?v=o-txnOqg9OI",
     "thumbnailUrl": "https://i.ytimg.com/vi/o-txnOqg9OI/maxresdefault.jpg",
@@ -10616,6 +11690,9 @@ const recipes = [
   },
   {
     "title": "【超簡単！】究極の節約アイスの作り方！#shorts",
+    "platform": "youtube",
+    "externalId": "I2MN3Sn9HQc",
+    "videoUrl": "https://www.youtube.com/watch?v=I2MN3Sn9HQc",
     "videoId": "I2MN3Sn9HQc",
     "url": "https://www.youtube.com/watch?v=I2MN3Sn9HQc",
     "thumbnailUrl": "https://i.ytimg.com/vi/I2MN3Sn9HQc/maxresdefault.jpg",
@@ -10645,6 +11722,9 @@ const recipes = [
   },
   {
     "title": "【給食再現レシピ】#給食レシピ#再現レシピ#高野豆腐#簡単レシピ#節約レシピ",
+    "platform": "youtube",
+    "externalId": "ycbfIVMFZnY",
+    "videoUrl": "https://www.youtube.com/watch?v=ycbfIVMFZnY",
     "videoId": "ycbfIVMFZnY",
     "url": "https://www.youtube.com/watch?v=ycbfIVMFZnY",
     "thumbnailUrl": "https://i.ytimg.com/vi/ycbfIVMFZnY/maxresdefault.jpg",
@@ -10670,6 +11750,9 @@ const recipes = [
   },
   {
     "title": "主材料２つで簡単！節約！「豆腐の海苔巻き」 詳しいレシピは概要欄をチェック！#簡単レシピ",
+    "platform": "youtube",
+    "externalId": "drzcg4guv9c",
+    "videoUrl": "https://www.youtube.com/watch?v=drzcg4guv9c",
     "videoId": "drzcg4guv9c",
     "url": "https://www.youtube.com/watch?v=drzcg4guv9c",
     "thumbnailUrl": "https://i.ytimg.com/vi/drzcg4guv9c/maxresdefault.jpg",
@@ -10695,6 +11778,9 @@ const recipes = [
   },
   {
     "title": "もやしとひき肉だけ！究極の節約ズボラレシピ✨ #簡単レシピ #節約レシピ #晩御飯レシピ",
+    "platform": "youtube",
+    "externalId": "mUTlktys3Zk",
+    "videoUrl": "https://www.youtube.com/watch?v=mUTlktys3Zk",
     "videoId": "mUTlktys3Zk",
     "url": "https://www.youtube.com/watch?v=mUTlktys3Zk",
     "thumbnailUrl": "https://i.ytimg.com/vi/mUTlktys3Zk/maxresdefault.jpg",
@@ -10722,6 +11808,9 @@ const recipes = [
   },
   {
     "title": "【2ch有益スレ】ガチ一人暮らし自炊勢の最強食費節約術をまてめて挙げてけw【ゆっくり解説】",
+    "platform": "youtube",
+    "externalId": "-hh1p01-vuY",
+    "videoUrl": "https://www.youtube.com/watch?v=-hh1p01-vuY",
     "videoId": "-hh1p01-vuY",
     "url": "https://www.youtube.com/watch?v=-hh1p01-vuY",
     "thumbnailUrl": "https://i.ytimg.com/vi/-hh1p01-vuY/maxresdefault.jpg",
@@ -10761,6 +11850,9 @@ const recipes = [
   },
   {
     "title": "【混ぜて焼くだけ】節約もダイエットも出来て超旨い！外カリッ中もちっ『やみつき野菜チヂミ』#shorts #低糖質レシピ #ロカボダイエット #痩せるレピ #bento #節約レシピ",
+    "platform": "youtube",
+    "externalId": "G7ZeoGaQ2KM",
+    "videoUrl": "https://www.youtube.com/watch?v=G7ZeoGaQ2KM",
     "videoId": "G7ZeoGaQ2KM",
     "url": "https://www.youtube.com/watch?v=G7ZeoGaQ2KM",
     "thumbnailUrl": "https://i.ytimg.com/vi/G7ZeoGaQ2KM/maxresdefault.jpg",
@@ -10798,6 +11890,9 @@ const recipes = [
   },
   {
     "title": "【キムチーズ豆腐グラタン🥄✨】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐",
+    "platform": "youtube",
+    "externalId": "mPO720KoRJ0",
+    "videoUrl": "https://www.youtube.com/watch?v=mPO720KoRJ0",
     "videoId": "mPO720KoRJ0",
     "url": "https://www.youtube.com/watch?v=mPO720KoRJ0",
     "thumbnailUrl": "https://i.ytimg.com/vi/mPO720KoRJ0/maxresdefault.jpg",
@@ -10825,6 +11920,9 @@ const recipes = [
   },
   {
     "title": "【時短・節約！もう茹でん激うまゆで卵】#ゆで卵レシピ #時短レシピ #節約レシピ #ズボラ飯 #家事ハック #暮らしの知恵 #ズボラ主婦 #便利ワザ #料理の裏ワザ #キッチンハック",
+    "platform": "youtube",
+    "externalId": "r74Bfjk8mYg",
+    "videoUrl": "https://www.youtube.com/watch?v=r74Bfjk8mYg",
     "videoId": "r74Bfjk8mYg",
     "url": "https://www.youtube.com/watch?v=r74Bfjk8mYg",
     "thumbnailUrl": "https://i.ytimg.com/vi/r74Bfjk8mYg/maxresdefault.jpg",
@@ -10850,6 +11948,9 @@ const recipes = [
   },
   {
     "title": "カリッモチッ！すげえ旨い！簡単厚揚げのおつまみ。話題のレシピ",
+    "platform": "youtube",
+    "externalId": "HWnzejMnlO0",
+    "videoUrl": "https://www.youtube.com/watch?v=HWnzejMnlO0",
     "videoId": "HWnzejMnlO0",
     "url": "https://www.youtube.com/watch?v=HWnzejMnlO0",
     "thumbnailUrl": "https://i.ytimg.com/vi/HWnzejMnlO0/maxresdefault.jpg",
@@ -10880,6 +11981,9 @@ const recipes = [
   },
   {
     "title": "妻が24時間豆腐生活に挑戦！ #アレンジレシピ #節約レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "P529fAlCCjA",
+    "videoUrl": "https://www.youtube.com/watch?v=P529fAlCCjA",
     "videoId": "P529fAlCCjA",
     "url": "https://www.youtube.com/watch?v=P529fAlCCjA",
     "thumbnailUrl": "https://i.ytimg.com/vi/P529fAlCCjA/maxresdefault.jpg",
@@ -10905,6 +12009,9 @@ const recipes = [
   },
   {
     "title": "【節約レシピ】4人家族平日5日間の晩ごはんレシピ！1食約100円の激安料理/平日1週間分の晩ご飯紹介",
+    "platform": "youtube",
+    "externalId": "V3-vEVA4DFM",
+    "videoUrl": "https://www.youtube.com/watch?v=V3-vEVA4DFM",
     "videoId": "V3-vEVA4DFM",
     "url": "https://www.youtube.com/watch?v=V3-vEVA4DFM",
     "thumbnailUrl": "https://i.ytimg.com/vi/V3-vEVA4DFM/maxresdefault.jpg",
@@ -10953,6 +12060,9 @@ const recipes = [
   },
   {
     "title": "失敗しない◎ロールキャベツの作り方☺️🥬 #節約レシピ #料理",
+    "platform": "youtube",
+    "externalId": "tb58ORnAUL0",
+    "videoUrl": "https://www.youtube.com/watch?v=tb58ORnAUL0",
     "videoId": "tb58ORnAUL0",
     "url": "https://www.youtube.com/watch?v=tb58ORnAUL0",
     "thumbnailUrl": "https://i.ytimg.com/vi/tb58ORnAUL0/maxresdefault.jpg",
@@ -10978,6 +12088,9 @@ const recipes = [
   },
   {
     "title": "▶︎10分でできるコスパ鍋🍲 #鍋レシピ #鍋 #もやし料理 #もやしレシピ #もやし #白菜レシピ #白菜 #簡単レシピ #節約レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "CG63Zco_k6M",
+    "videoUrl": "https://www.youtube.com/watch?v=CG63Zco_k6M",
     "videoId": "CG63Zco_k6M",
     "url": "https://www.youtube.com/watch?v=CG63Zco_k6M",
     "thumbnailUrl": "https://i.ytimg.com/vi/CG63Zco_k6M/maxresdefault.jpg",
@@ -11004,6 +12117,9 @@ const recipes = [
   },
   {
     "title": "【1日333円】31歳で資産7000万円貯めた最強食費節約ルーティン【レシピ有り】",
+    "platform": "youtube",
+    "externalId": "AQr0Acx_Ask",
+    "videoUrl": "https://www.youtube.com/watch?v=AQr0Acx_Ask",
     "videoId": "AQr0Acx_Ask",
     "url": "https://www.youtube.com/watch?v=AQr0Acx_Ask",
     "thumbnailUrl": "https://i.ytimg.com/vi/AQr0Acx_Ask/maxresdefault.jpg",
@@ -11029,6 +12145,9 @@ const recipes = [
   },
   {
     "title": "5分でできる◎やみつき無限ピーマン！#料理動画 #簡単レシピ #節約レシピ #お弁当 #副菜 #無限ピーマン #やみつきレシピ",
+    "platform": "youtube",
+    "externalId": "tYaK24wxZjk",
+    "videoUrl": "https://www.youtube.com/watch?v=tYaK24wxZjk",
     "videoId": "tYaK24wxZjk",
     "url": "https://www.youtube.com/watch?v=tYaK24wxZjk",
     "thumbnailUrl": "https://i.ytimg.com/vi/tYaK24wxZjk/maxresdefault.jpg",
@@ -11054,6 +12173,9 @@ const recipes = [
   },
   {
     "title": "節約食材で！ボリュームたっぷり「厚揚げ南蛮」 #材料と作り方は概要欄 #厚揚げ #厚揚げレシピ #節約 #節約レシピ #レシピ #料理 #フーディストノート #フーディスト",
+    "platform": "youtube",
+    "externalId": "sHvKlltB34w",
+    "videoUrl": "https://www.youtube.com/watch?v=sHvKlltB34w",
     "videoId": "sHvKlltB34w",
     "url": "https://www.youtube.com/watch?v=sHvKlltB34w",
     "thumbnailUrl": "https://i.ytimg.com/vi/sHvKlltB34w/maxresdefault.jpg",
@@ -11087,6 +12209,9 @@ const recipes = [
   },
   {
     "title": "【小麦不使用‼️納豆豆腐チヂミ‼️】 #ダイエットレシピ #簡単レシピ #節約レシピ",
+    "platform": "youtube",
+    "externalId": "Jq22B1GXxG4",
+    "videoUrl": "https://www.youtube.com/watch?v=Jq22B1GXxG4",
     "videoId": "Jq22B1GXxG4",
     "url": "https://www.youtube.com/watch?v=Jq22B1GXxG4",
     "thumbnailUrl": "https://i.ytimg.com/vi/Jq22B1GXxG4/maxresdefault.jpg",
@@ -11112,6 +12237,9 @@ const recipes = [
   },
   {
     "title": "【節約飯】これ一生もののレシピです。もやしと挽き肉だけで激安肉もやし作ります #リュウジ #節約 #料理",
+    "platform": "youtube",
+    "externalId": "uZ9AMAyvyqU",
+    "videoUrl": "https://www.youtube.com/watch?v=uZ9AMAyvyqU",
     "videoId": "uZ9AMAyvyqU",
     "url": "https://www.youtube.com/watch?v=uZ9AMAyvyqU",
     "thumbnailUrl": "https://i.ytimg.com/vi/uZ9AMAyvyqU/maxresdefault.jpg",
@@ -11141,6 +12269,9 @@ const recipes = [
   },
   {
     "title": "262円でできる簡単節約 ディアボラ風チキン",
+    "platform": "youtube",
+    "externalId": "xUyuwg1s9-Y",
+    "videoUrl": "https://www.youtube.com/watch?v=xUyuwg1s9-Y",
     "videoId": "xUyuwg1s9-Y",
     "url": "https://www.youtube.com/watch?v=xUyuwg1s9-Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/xUyuwg1s9-Y/maxresdefault.jpg",
@@ -11175,6 +12306,9 @@ const recipes = [
   },
   {
     "title": "25歳会社員が41円で作る簡単節約ワンパン暗殺者のパスタ",
+    "platform": "youtube",
+    "externalId": "4TpR8GccO-I",
+    "videoUrl": "https://www.youtube.com/watch?v=4TpR8GccO-I",
     "videoId": "4TpR8GccO-I",
     "url": "https://www.youtube.com/watch?v=4TpR8GccO-I",
     "thumbnailUrl": "https://i.ytimg.com/vi/4TpR8GccO-I/maxresdefault.jpg",
@@ -11204,6 +12338,9 @@ const recipes = [
   },
   {
     "title": "【10分以内】もやしが主役になる！節約レシピ9選｜安いのに大満足おかず",
+    "platform": "youtube",
+    "externalId": "irY4G83BHlU",
+    "videoUrl": "https://www.youtube.com/watch?v=irY4G83BHlU",
     "videoId": "irY4G83BHlU",
     "url": "https://www.youtube.com/watch?v=irY4G83BHlU",
     "thumbnailUrl": "https://i.ytimg.com/vi/irY4G83BHlU/maxresdefault.jpg",
@@ -11248,6 +12385,9 @@ const recipes = [
   },
   {
     "title": "【食費節約術】食費1ヶ月2万円代/4人家族の夜ご飯5選！ルーティン主婦【業務スーパー】",
+    "platform": "youtube",
+    "externalId": "FSmRRnLQFyI",
+    "videoUrl": "https://www.youtube.com/watch?v=FSmRRnLQFyI",
     "videoId": "FSmRRnLQFyI",
     "url": "https://www.youtube.com/watch?v=FSmRRnLQFyI",
     "thumbnailUrl": "https://i.ytimg.com/vi/FSmRRnLQFyI/maxresdefault.jpg",
@@ -11277,6 +12417,9 @@ const recipes = [
   },
   {
     "title": "【１人暮らし節約生活】平日１週間１０００円以下、仕事終わり晩ご飯",
+    "platform": "youtube",
+    "externalId": "A2bGrnD7s1o",
+    "videoUrl": "https://www.youtube.com/watch?v=A2bGrnD7s1o",
     "videoId": "A2bGrnD7s1o",
     "url": "https://www.youtube.com/watch?v=A2bGrnD7s1o",
     "thumbnailUrl": "https://i.ytimg.com/vi/A2bGrnD7s1o/maxresdefault.jpg",
@@ -11306,6 +12449,9 @@ const recipes = [
   },
   {
     "title": "【簡単節約レシピ】3食5日節約ご飯/食費27000円でやりくりする節約主婦が冷蔵庫にある物で１週間節約レシピを公開！節約生活/節約ルーティン",
+    "platform": "youtube",
+    "externalId": "NdY7pNYfy6U",
+    "videoUrl": "https://www.youtube.com/watch?v=NdY7pNYfy6U",
     "videoId": "NdY7pNYfy6U",
     "url": "https://www.youtube.com/watch?v=NdY7pNYfy6U",
     "thumbnailUrl": "https://i.ytimg.com/vi/NdY7pNYfy6U/maxresdefault.jpg",
@@ -11331,6 +12477,9 @@ const recipes = [
   },
   {
     "title": "【自炊入門】これ以上簡単で旨い料理はないと思う節約神レシピ３選",
+    "platform": "youtube",
+    "externalId": "QuwrDDaHUZs",
+    "videoUrl": "https://www.youtube.com/watch?v=QuwrDDaHUZs",
     "videoId": "QuwrDDaHUZs",
     "url": "https://www.youtube.com/watch?v=QuwrDDaHUZs",
     "thumbnailUrl": "https://i.ytimg.com/vi/QuwrDDaHUZs/maxresdefault.jpg",
@@ -11356,6 +12505,9 @@ const recipes = [
   },
   {
     "title": "豚こまで簡単！カレー風味のポークケチャップ🐷✨ #豚こまレシピ #節約",
+    "platform": "youtube",
+    "externalId": "ju2yD2PnBoo",
+    "videoUrl": "https://www.youtube.com/watch?v=ju2yD2PnBoo",
     "videoId": "ju2yD2PnBoo",
     "url": "https://www.youtube.com/watch?v=ju2yD2PnBoo",
     "thumbnailUrl": "https://i.ytimg.com/vi/ju2yD2PnBoo/maxresdefault.jpg",
@@ -11381,6 +12533,9 @@ const recipes = [
   },
   {
     "title": "【節約主婦の本気】予算４,０００円で家族が喜ぶ「５日間の晩ごはん作り」に挑戦した結果｜食費節約/節約レシピ/料理/５人家族",
+    "platform": "youtube",
+    "externalId": "djX5O9HUHjA",
+    "videoUrl": "https://www.youtube.com/watch?v=djX5O9HUHjA",
     "videoId": "djX5O9HUHjA",
     "url": "https://www.youtube.com/watch?v=djX5O9HUHjA",
     "thumbnailUrl": "https://i.ytimg.com/vi/djX5O9HUHjA/maxresdefault.jpg",
@@ -11435,6 +12590,9 @@ const recipes = [
   },
   {
     "title": "【一瞬でなくなる 無限ちくきゅう】#きゅうりレシピ#ちくわレシピ#節約レシピ#簡単レシピ#時短レシピ#火を使わない",
+    "platform": "youtube",
+    "externalId": "wV8S-nFOeyc",
+    "videoUrl": "https://www.youtube.com/watch?v=wV8S-nFOeyc",
     "videoId": "wV8S-nFOeyc",
     "url": "https://www.youtube.com/watch?v=wV8S-nFOeyc",
     "thumbnailUrl": "https://i.ytimg.com/vi/wV8S-nFOeyc/maxresdefault.jpg",
@@ -11460,6 +12618,9 @@ const recipes = [
   },
   {
     "title": "1食200円カオマンガイ風弁当#shorts#簡単レシピ#節約レシピ",
+    "platform": "youtube",
+    "externalId": "HhOOHR_nTbc",
+    "videoUrl": "https://www.youtube.com/watch?v=HhOOHR_nTbc",
     "videoId": "HhOOHR_nTbc",
     "url": "https://www.youtube.com/watch?v=HhOOHR_nTbc",
     "thumbnailUrl": "https://i.ytimg.com/vi/HhOOHR_nTbc/maxresdefault.jpg",
@@ -11492,6 +12653,9 @@ const recipes = [
   },
   {
     "title": "豚こま唐揚げ｜丸めて簡単！少ない油で作れる柔らかジューシーな節約おかず【料理研究家ゆかり】#豚肉レシピ #からあげ #shorts",
+    "platform": "youtube",
+    "externalId": "afYCGdvgoRQ",
+    "videoUrl": "https://www.youtube.com/watch?v=afYCGdvgoRQ",
     "videoId": "afYCGdvgoRQ",
     "url": "https://www.youtube.com/watch?v=afYCGdvgoRQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/afYCGdvgoRQ/maxresdefault.jpg",
@@ -11519,6 +12683,9 @@ const recipes = [
   },
   {
     "title": "【ゆっくり料理】スタミナMAX夜食 味噌ダレにんにく炒飯【節約レシピ】",
+    "platform": "youtube",
+    "externalId": "0EAFg00cYAI",
+    "videoUrl": "https://www.youtube.com/watch?v=0EAFg00cYAI",
     "videoId": "0EAFg00cYAI",
     "url": "https://www.youtube.com/watch?v=0EAFg00cYAI",
     "thumbnailUrl": "https://i.ytimg.com/vi/0EAFg00cYAI/sddefault.jpg",
@@ -11550,6 +12717,9 @@ const recipes = [
   },
   {
     "title": "材料キャベツと豚バラのみ！時短簡単節約レシピ🍚ご飯が進む『キャベツ豚バラの塩ダレ』🥬",
+    "platform": "youtube",
+    "externalId": "PBK9PMVtsrM",
+    "videoUrl": "https://www.youtube.com/watch?v=PBK9PMVtsrM",
     "videoId": "PBK9PMVtsrM",
     "url": "https://www.youtube.com/watch?v=PBK9PMVtsrM",
     "thumbnailUrl": "https://i.ytimg.com/vi/PBK9PMVtsrM/sddefault.jpg",
@@ -11577,6 +12747,9 @@ const recipes = [
   },
   {
     "title": "1人前150円で出来るそうめんの最強レシピ知ってる？そうめんそうめんレシピ節約レシピ料理",
+    "platform": "youtube",
+    "externalId": "_TlU0THKU0M",
+    "videoUrl": "https://www.youtube.com/watch?v=_TlU0THKU0M",
     "videoId": "_TlU0THKU0M",
     "url": "https://www.youtube.com/watch?v=_TlU0THKU0M",
     "thumbnailUrl": "https://i.ytimg.com/vi/_TlU0THKU0M/maxresdefault.jpg",
@@ -11602,6 +12775,9 @@ const recipes = [
   },
   {
     "title": "卵・砂糖・生クリーム不使用【材料3つ】【濃厚牛乳アイス】レンジで簡単！混ぜてチンして凍らすだけ♪市販のアイスもう買えない",
+    "platform": "youtube",
+    "externalId": "0Etkofu1WzU",
+    "videoUrl": "https://www.youtube.com/watch?v=0Etkofu1WzU",
     "videoId": "0Etkofu1WzU",
     "url": "https://www.youtube.com/watch?v=0Etkofu1WzU",
     "thumbnailUrl": "https://i.ytimg.com/vi/0Etkofu1WzU/maxresdefault.jpg",
@@ -11631,6 +12807,9 @@ const recipes = [
   },
   {
     "title": "材料3つ！混ぜて凍らせるだけ【ヨーグルトアイス】ヨーグルトの水切りなし！簡単に作れて美味しい♪",
+    "platform": "youtube",
+    "externalId": "pMgfSA-R40w",
+    "videoUrl": "https://www.youtube.com/watch?v=pMgfSA-R40w",
     "videoId": "pMgfSA-R40w",
     "url": "https://www.youtube.com/watch?v=pMgfSA-R40w",
     "thumbnailUrl": "https://i.ytimg.com/vi/pMgfSA-R40w/maxresdefault.jpg",
@@ -11656,6 +12835,9 @@ const recipes = [
   },
   {
     "title": "【パックそのまま】【簡単豆乳プリン】誰でも簡単に作れて超美味しくプルプルに仕上がる！#時短レシピ #料理 #時短レシピ",
+    "platform": "youtube",
+    "externalId": "IDra0-JsqOU",
+    "videoUrl": "https://www.youtube.com/watch?v=IDra0-JsqOU",
     "videoId": "IDra0-JsqOU",
     "url": "https://www.youtube.com/watch?v=IDra0-JsqOU",
     "thumbnailUrl": "https://i.ytimg.com/vi/IDra0-JsqOU/maxresdefault.jpg",
@@ -11681,6 +12863,9 @@ const recipes = [
   },
   {
     "title": "ムダなし！手間なし！【簡単レシピ、節約レシピ】えのき茸サバ缶卵とじ！時短、ワンパン",
+    "platform": "youtube",
+    "externalId": "goB5-0JdiSU",
+    "videoUrl": "https://www.youtube.com/watch?v=goB5-0JdiSU",
     "videoId": "goB5-0JdiSU",
     "url": "https://www.youtube.com/watch?v=goB5-0JdiSU",
     "thumbnailUrl": "https://i.ytimg.com/vi/goB5-0JdiSU/maxresdefault.jpg",
@@ -11714,6 +12899,9 @@ const recipes = [
   },
   {
     "title": "【1食100円】お金がない日はこれ一択 【混ぜてレンチン】100円で作れる幸せドリア ずぼら主婦のずぼらレシピ",
+    "platform": "youtube",
+    "externalId": "63pLemVxKFo",
+    "videoUrl": "https://www.youtube.com/watch?v=63pLemVxKFo",
     "videoId": "63pLemVxKFo",
     "url": "https://www.youtube.com/watch?v=63pLemVxKFo",
     "thumbnailUrl": "https://i.ytimg.com/vi/63pLemVxKFo/maxresdefault.jpg",
@@ -11742,6 +12930,9 @@ const recipes = [
   },
   {
     "title": "【節約弁当】3品で150円なのに大満足！大葉ハムちくわ天弁当",
+    "platform": "youtube",
+    "externalId": "6S1DSqrIT5k",
+    "videoUrl": "https://www.youtube.com/watch?v=6S1DSqrIT5k",
     "videoId": "6S1DSqrIT5k",
     "url": "https://www.youtube.com/watch?v=6S1DSqrIT5k",
     "thumbnailUrl": "https://i.ytimg.com/vi/6S1DSqrIT5k/maxresdefault.jpg",
@@ -11775,6 +12966,9 @@ const recipes = [
   },
   {
     "title": "1人分300円節約ごはんNO.2 #節約レシピ #節約ごはん #300円ごはん #1人分ごはん #パスタレシピ #麻婆ナス #なすレシピ #食費節約 #簡単ごはん #琴音の節約でも楽しく暮らす",
+    "platform": "youtube",
+    "externalId": "YcloLUVqRMM",
+    "videoUrl": "https://www.youtube.com/watch?v=YcloLUVqRMM",
     "videoId": "YcloLUVqRMM",
     "url": "https://www.youtube.com/watch?v=YcloLUVqRMM",
     "thumbnailUrl": "https://i.ytimg.com/vi/YcloLUVqRMM/maxresdefault.jpg",
@@ -11802,6 +12996,9 @@ const recipes = [
   },
   {
     "title": "【食費節約】業務スーパー購入品で作る１週間6,000円生活‼️ワンオペもう飽きた…#晩ご飯#簡単夜ご飯",
+    "platform": "youtube",
+    "externalId": "xkpbISfsdMg",
+    "videoUrl": "https://www.youtube.com/watch?v=xkpbISfsdMg",
     "videoId": "xkpbISfsdMg",
     "url": "https://www.youtube.com/watch?v=xkpbISfsdMg",
     "thumbnailUrl": "https://i.ytimg.com/vi/xkpbISfsdMg/maxresdefault.jpg",
@@ -11829,6 +13026,9 @@ const recipes = [
   },
   {
     "title": "時短料理で乗り切る平日５日間のお弁当とお昼ごはん記録//新しいお弁当箱が失敗だった！？/vol.76",
+    "platform": "youtube",
+    "externalId": "vPkb3KgE5Kc",
+    "videoUrl": "https://www.youtube.com/watch?v=vPkb3KgE5Kc",
     "videoId": "vPkb3KgE5Kc",
     "url": "https://www.youtube.com/watch?v=vPkb3KgE5Kc",
     "thumbnailUrl": "https://i.ytimg.com/vi/vPkb3KgE5Kc/sddefault.jpg",
@@ -11864,6 +13064,9 @@ const recipes = [
   },
   {
     "title": "【時短♪節約♪】食べたら止まらない♪ちくわの大葉チーズ巻きwithブラックペッパー♪",
+    "platform": "youtube",
+    "externalId": "-wwoxMWkuQ4",
+    "videoUrl": "https://www.youtube.com/watch?v=-wwoxMWkuQ4",
     "videoId": "-wwoxMWkuQ4",
     "url": "https://www.youtube.com/watch?v=-wwoxMWkuQ4",
     "thumbnailUrl": "https://i.ytimg.com/vi/-wwoxMWkuQ4/maxresdefault.jpg",
@@ -11891,6 +13094,9 @@ const recipes = [
   },
   {
     "title": "市販のタレなしで作る🍳簡単回鍋肉 #料理 #時短節約 #簡単ご飯 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "WV2pH5sV1aY",
+    "videoUrl": "https://www.youtube.com/watch?v=WV2pH5sV1aY",
     "videoId": "WV2pH5sV1aY",
     "url": "https://www.youtube.com/watch?v=WV2pH5sV1aY",
     "thumbnailUrl": "https://i.ytimg.com/vi/WV2pH5sV1aY/maxresdefault.jpg",
@@ -11924,6 +13130,9 @@ const recipes = [
   },
   {
     "title": "手取り11万29歳の貧困ごはん #貧困ごはん #節約レシピ #節約 #節約飯 #男飯",
+    "platform": "youtube",
+    "externalId": "EWBYtBzyiZg",
+    "videoUrl": "https://www.youtube.com/watch?v=EWBYtBzyiZg",
     "videoId": "EWBYtBzyiZg",
     "url": "https://www.youtube.com/watch?v=EWBYtBzyiZg",
     "thumbnailUrl": "https://i.ytimg.com/vi/EWBYtBzyiZg/maxresdefault.jpg",
@@ -11952,6 +13161,9 @@ const recipes = [
   },
   {
     "title": "190円で作ったこんちくしょーが美味すぎた🎠",
+    "platform": "youtube",
+    "externalId": "0tWjgr1qtq0",
+    "videoUrl": "https://www.youtube.com/watch?v=0tWjgr1qtq0",
     "videoId": "0tWjgr1qtq0",
     "url": "https://www.youtube.com/watch?v=0tWjgr1qtq0",
     "thumbnailUrl": "https://i.ytimg.com/vi/0tWjgr1qtq0/maxresdefault.jpg",
@@ -11983,6 +13195,9 @@ const recipes = [
   },
   {
     "title": "\\1本70円/パリパリチョコバナナ #shorts #チョコバナナ #アイス",
+    "platform": "youtube",
+    "externalId": "_jbg6bL7j50",
+    "videoUrl": "https://www.youtube.com/watch?v=_jbg6bL7j50",
     "videoId": "_jbg6bL7j50",
     "url": "https://www.youtube.com/watch?v=_jbg6bL7j50",
     "thumbnailUrl": "https://i.ytimg.com/vi/_jbg6bL7j50/maxresdefault.jpg",
@@ -12008,6 +13223,9 @@ const recipes = [
   },
   {
     "title": "もっち豆腐もやし #ダイエットレシピ #混ぜて焼くだけ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "QH4K2yXwPJM",
+    "videoUrl": "https://www.youtube.com/watch?v=QH4K2yXwPJM",
     "videoId": "QH4K2yXwPJM",
     "url": "https://www.youtube.com/watch?v=QH4K2yXwPJM",
     "thumbnailUrl": "https://i.ytimg.com/vi/QH4K2yXwPJM/maxresdefault.jpg",
@@ -12041,6 +13259,9 @@ const recipes = [
   },
   {
     "title": "【節約弁当】ちくわ全部これにして！味見が止まらなくなる大葉チーズのちくわカレー唐揚げ",
+    "platform": "youtube",
+    "externalId": "npcxywFfHZ4",
+    "videoUrl": "https://www.youtube.com/watch?v=npcxywFfHZ4",
     "videoId": "npcxywFfHZ4",
     "url": "https://www.youtube.com/watch?v=npcxywFfHZ4",
     "thumbnailUrl": "https://i.ytimg.com/vi/npcxywFfHZ4/maxresdefault.jpg",
@@ -12077,6 +13298,9 @@ const recipes = [
   },
   {
     "title": "【タラと塩昆布のやみつき和風パスタ🐟✨】 #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "xoJ5VTF_KdI",
+    "videoUrl": "https://www.youtube.com/watch?v=xoJ5VTF_KdI",
     "videoId": "xoJ5VTF_KdI",
     "url": "https://www.youtube.com/watch?v=xoJ5VTF_KdI",
     "thumbnailUrl": "https://i.ytimg.com/vi/xoJ5VTF_KdI/maxresdefault.jpg",
@@ -12111,6 +13335,9 @@ const recipes = [
   },
   {
     "title": "⭐️簡単で体に優しい節約レシピ⭐️ 沢山、投稿していきます ぜひ作ってみてください😊 @taka_recipe 借金2000万、元うつ、61歳が作る 🍋「塩レモンチキンパエリア」",
+    "platform": "youtube",
+    "externalId": "FuuLktqnVvQ",
+    "videoUrl": "https://www.youtube.com/watch?v=FuuLktqnVvQ",
     "videoId": "FuuLktqnVvQ",
     "url": "https://www.youtube.com/watch?v=FuuLktqnVvQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/FuuLktqnVvQ/maxresdefault.jpg",
@@ -12136,6 +13363,9 @@ const recipes = [
   },
   {
     "title": "オクラ大量消費！焼くだけ簡単絶品副菜",
+    "platform": "youtube",
+    "externalId": "UT89ysFT7RU",
+    "videoUrl": "https://www.youtube.com/watch?v=UT89ysFT7RU",
     "videoId": "UT89ysFT7RU",
     "url": "https://www.youtube.com/watch?v=UT89ysFT7RU",
     "thumbnailUrl": "https://i.ytimg.com/vi/UT89ysFT7RU/maxresdefault.jpg",
@@ -12161,6 +13391,9 @@ const recipes = [
   },
   {
     "title": "胸肉とブロッコリーのレモンペッパー焼き🍋 #時短節約 #簡単レシピ #repi",
+    "platform": "youtube",
+    "externalId": "0ZXVY_UXEm0",
+    "videoUrl": "https://www.youtube.com/watch?v=0ZXVY_UXEm0",
     "videoId": "0ZXVY_UXEm0",
     "url": "https://www.youtube.com/watch?v=0ZXVY_UXEm0",
     "thumbnailUrl": "https://i.ytimg.com/vi/0ZXVY_UXEm0/maxresdefault.jpg",
@@ -12186,6 +13419,9 @@ const recipes = [
   },
   {
     "title": "夕食にぴったりの「簡単・美味しいおかず」レシピを5つ紹介します。#簡単レシピ #時短レシピ #夕食レシピ #晩ごはん #おかずレシピ #節約レシピ #料理 #家庭料理 #鶏もも肉 #豚バラ #なす",
+    "platform": "youtube",
+    "externalId": "bMxxKpg6EA8",
+    "videoUrl": "https://www.youtube.com/watch?v=bMxxKpg6EA8",
     "videoId": "bMxxKpg6EA8",
     "url": "https://www.youtube.com/watch?v=bMxxKpg6EA8",
     "thumbnailUrl": "https://i.ytimg.com/vi/bMxxKpg6EA8/maxresdefault.jpg",
@@ -12219,6 +13455,9 @@ const recipes = [
   },
   {
     "title": "\\きゅうりの1本漬け/#shorts #冷凍ストック #きゅうり",
+    "platform": "youtube",
+    "externalId": "mvRDzHa-iO0",
+    "videoUrl": "https://www.youtube.com/watch?v=mvRDzHa-iO0",
     "videoId": "mvRDzHa-iO0",
     "url": "https://www.youtube.com/watch?v=mvRDzHa-iO0",
     "thumbnailUrl": "https://i.ytimg.com/vi/mvRDzHa-iO0/maxresdefault.jpg",
@@ -12244,6 +13483,9 @@ const recipes = [
   },
   {
     "title": "【もう揚げなくていい！】ノンフライヤーでパリパリすぎて感動級「五目中華春巻き」の作り方 #料理 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "NijSMmOkWQc",
+    "videoUrl": "https://www.youtube.com/watch?v=NijSMmOkWQc",
     "videoId": "NijSMmOkWQc",
     "url": "https://www.youtube.com/watch?v=NijSMmOkWQc",
     "thumbnailUrl": "https://i.ytimg.com/vi/NijSMmOkWQc/maxresdefault.jpg",
@@ -12279,6 +13521,9 @@ const recipes = [
   },
   {
     "title": "30歳独身の節約飯｜豆腐チヂミ #豆腐レシピ #節約レシピ #簡単レシピ #一人暮らしごはん #料理動画",
+    "platform": "youtube",
+    "externalId": "KczX7KhGR-E",
+    "videoUrl": "https://www.youtube.com/watch?v=KczX7KhGR-E",
     "videoId": "KczX7KhGR-E",
     "url": "https://www.youtube.com/watch?v=KczX7KhGR-E",
     "thumbnailUrl": "https://i.ytimg.com/vi/KczX7KhGR-E/maxresdefault.jpg",
@@ -12304,6 +13549,9 @@ const recipes = [
   },
   {
     "title": "ミニトマトでさっぱり！ズッキーニの味噌バター炒め【簡単・節約】#ズッキーニ #ミニトマト #ベーコン #味噌バター #簡単レシピ #節約レシピ #家庭料理 #時短レシピ #おうちごはん #年金生活",
+    "platform": "youtube",
+    "externalId": "PlozdSW-tVc",
+    "videoUrl": "https://www.youtube.com/watch?v=PlozdSW-tVc",
     "videoId": "PlozdSW-tVc",
     "url": "https://www.youtube.com/watch?v=PlozdSW-tVc",
     "thumbnailUrl": "https://i.ytimg.com/vi/PlozdSW-tVc/maxresdefault.jpg",
@@ -12335,6 +13583,9 @@ const recipes = [
   },
   {
     "title": "26歳会社員が24円で作る簡単節約レンチン爆速パスタ🍝",
+    "platform": "youtube",
+    "externalId": "zZJEmkwmcFE",
+    "videoUrl": "https://www.youtube.com/watch?v=zZJEmkwmcFE",
     "videoId": "zZJEmkwmcFE",
     "url": "https://www.youtube.com/watch?v=zZJEmkwmcFE",
     "thumbnailUrl": "https://i.ytimg.com/vi/zZJEmkwmcFE/maxresdefault.jpg",
@@ -12360,6 +13611,9 @@ const recipes = [
   },
   {
     "title": "4ヶ月で15kg痩せた私が今でも食べてる痩せレシピ🩷 #ダイエット #簡単レシピ #ダイエットレシピ #パスタ #節約 #節約レシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "QTW5hqsu0oM",
+    "videoUrl": "https://www.youtube.com/watch?v=QTW5hqsu0oM",
     "videoId": "QTW5hqsu0oM",
     "url": "https://www.youtube.com/watch?v=QTW5hqsu0oM",
     "thumbnailUrl": "https://i.ytimg.com/vi/QTW5hqsu0oM/maxresdefault.jpg",
@@ -12385,6 +13639,9 @@ const recipes = [
   },
   {
     "title": "大根おろしとツナのポン酢パスタ🐟❄️ #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ #グルメ",
+    "platform": "youtube",
+    "externalId": "IBgNpXMPg5U",
+    "videoUrl": "https://www.youtube.com/watch?v=IBgNpXMPg5U",
     "videoId": "IBgNpXMPg5U",
     "url": "https://www.youtube.com/watch?v=IBgNpXMPg5U",
     "thumbnailUrl": "https://i.ytimg.com/vi/IBgNpXMPg5U/maxresdefault.jpg",
@@ -12416,6 +13673,9 @@ const recipes = [
   },
   {
     "title": "1杯88円でつくる野菜スープ",
+    "platform": "youtube",
+    "externalId": "TvaSEbpka6E",
+    "videoUrl": "https://www.youtube.com/watch?v=TvaSEbpka6E",
     "videoId": "TvaSEbpka6E",
     "url": "https://www.youtube.com/watch?v=TvaSEbpka6E",
     "thumbnailUrl": "https://i.ytimg.com/vi/TvaSEbpka6E/maxresdefault.jpg",
@@ -12448,6 +13708,9 @@ const recipes = [
   },
   {
     "title": "【ヤンニョム豚こま】100万円貯める冷凍節約弁当#冷凍弁当 #冷凍節約 #節約弁当 #節約レシピ#ヤンニョムチキン#ヤンニョム豚こま",
+    "platform": "youtube",
+    "externalId": "Dkcm1DSq2lw",
+    "videoUrl": "https://www.youtube.com/watch?v=Dkcm1DSq2lw",
     "videoId": "Dkcm1DSq2lw",
     "url": "https://www.youtube.com/watch?v=Dkcm1DSq2lw",
     "thumbnailUrl": "https://i.ytimg.com/vi/Dkcm1DSq2lw/maxresdefault.jpg",
@@ -12481,6 +13744,9 @@ const recipes = [
   },
   {
     "title": "【無理せず節約】2人前約500円|晩ごはん記録|食費月3万円😎毎日が楽しくなる節約飯",
+    "platform": "youtube",
+    "externalId": "5ZBnSKMnHr4",
+    "videoUrl": "https://www.youtube.com/watch?v=5ZBnSKMnHr4",
     "videoId": "5ZBnSKMnHr4",
     "url": "https://www.youtube.com/watch?v=5ZBnSKMnHr4",
     "thumbnailUrl": "https://i.ytimg.com/vi/5ZBnSKMnHr4/maxresdefault.jpg",
@@ -12506,6 +13772,9 @@ const recipes = [
   },
   {
     "title": "レンジでキムチチゲ #節約レシピ #簡単レシピ #時短節約 #料理 #今日の晩ごはん #おうちごはん #1食300円以下冷凍ストック #時短レシピ #まいにちごはん #cooking #料理動画",
+    "platform": "youtube",
+    "externalId": "uNrGGtrjgKY",
+    "videoUrl": "https://www.youtube.com/watch?v=uNrGGtrjgKY",
     "videoId": "uNrGGtrjgKY",
     "url": "https://www.youtube.com/watch?v=uNrGGtrjgKY",
     "thumbnailUrl": "https://i.ytimg.com/vi/uNrGGtrjgKY/maxresdefault.jpg",
@@ -12540,6 +13809,9 @@ const recipes = [
   },
   {
     "title": "【レンジ5分】爆速‼️レンチンでなすの煮浸し🍆簡単＆節約レシピ♪疲れた日もこれなら作れる☺️",
+    "platform": "youtube",
+    "externalId": "5ak5BG-IhyE",
+    "videoUrl": "https://www.youtube.com/watch?v=5ak5BG-IhyE",
     "videoId": "5ak5BG-IhyE",
     "url": "https://www.youtube.com/watch?v=5ak5BG-IhyE",
     "thumbnailUrl": "https://i.ytimg.com/vi/5ak5BG-IhyE/maxresdefault.jpg",
@@ -12567,6 +13839,9 @@ const recipes = [
   },
   {
     "title": "なす＋トマト＋豚肉で作る、おうちバルサミコ炒め #なすレシピ #節約レシピ #常備菜 #バルサミコ代用 #パパ看護師",
+    "platform": "youtube",
+    "externalId": "Omv0R-Rd1JM",
+    "videoUrl": "https://www.youtube.com/watch?v=Omv0R-Rd1JM",
     "videoId": "Omv0R-Rd1JM",
     "url": "https://www.youtube.com/watch?v=Omv0R-Rd1JM",
     "thumbnailUrl": "https://i.ytimg.com/vi/Omv0R-Rd1JM/maxresdefault.jpg",
@@ -12599,6 +13874,9 @@ const recipes = [
   },
   {
     "title": "ナスが驚くほど美味しくなる。味染み・時短・節約、全部叶う最強テク！簡単レシピ3選。麻婆ナス/なすポン酢/トマトパスタ",
+    "platform": "youtube",
+    "externalId": "9E9UycQLZlA",
+    "videoUrl": "https://www.youtube.com/watch?v=9E9UycQLZlA",
     "videoId": "9E9UycQLZlA",
     "url": "https://www.youtube.com/watch?v=9E9UycQLZlA",
     "thumbnailUrl": "https://i.ytimg.com/vi/9E9UycQLZlA/maxresdefault.jpg",
@@ -12638,6 +13916,9 @@ const recipes = [
   },
   {
     "title": "お好み焼き風ネギもやし #ダイエットレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "nWrUlrvn7n0",
+    "videoUrl": "https://www.youtube.com/watch?v=nWrUlrvn7n0",
     "videoId": "nWrUlrvn7n0",
     "url": "https://www.youtube.com/watch?v=nWrUlrvn7n0",
     "thumbnailUrl": "https://i.ytimg.com/vi/nWrUlrvn7n0/maxresdefault.jpg",
@@ -12668,6 +13949,9 @@ const recipes = [
   },
   {
     "title": "たった5分。卵、ウィンナー、チーズがあれば世界1簡単で旨いズボラ丼ができます『超絶悶絶丼』",
+    "platform": "youtube",
+    "externalId": "mVqOj55ezdI",
+    "videoUrl": "https://www.youtube.com/watch?v=mVqOj55ezdI",
     "videoId": "mVqOj55ezdI",
     "url": "https://www.youtube.com/watch?v=mVqOj55ezdI",
     "thumbnailUrl": "https://i.ytimg.com/vi/mVqOj55ezdI/maxresdefault.jpg",
@@ -12700,6 +13984,9 @@ const recipes = [
   },
   {
     "title": "10分で吉野家風牛丼を作ってみよう！！／みきママ",
+    "platform": "youtube",
+    "externalId": "19Qgsv6Zn9c",
+    "videoUrl": "https://www.youtube.com/watch?v=19Qgsv6Zn9c",
     "videoId": "19Qgsv6Zn9c",
     "url": "https://www.youtube.com/watch?v=19Qgsv6Zn9c",
     "thumbnailUrl": "https://i.ytimg.com/vi/19Qgsv6Zn9c/maxresdefault.jpg",
@@ -12732,6 +14019,9 @@ const recipes = [
   },
   {
     "title": "あまりにも完成度が高いので絶対試してほしい。15分で名店の味【完全再現 吉野家風豚丼】",
+    "platform": "youtube",
+    "externalId": "EZlBM3s_PVU",
+    "videoUrl": "https://www.youtube.com/watch?v=EZlBM3s_PVU",
     "videoId": "EZlBM3s_PVU",
     "url": "https://www.youtube.com/watch?v=EZlBM3s_PVU",
     "thumbnailUrl": "https://i.ytimg.com/vi/EZlBM3s_PVU/sddefault.jpg",
@@ -12766,6 +14056,9 @@ const recipes = [
   },
   {
     "title": "【「めんつゆ」で作る！】親子丼",
+    "platform": "youtube",
+    "externalId": "tKN7GIfLIt4",
+    "videoUrl": "https://www.youtube.com/watch?v=tKN7GIfLIt4",
     "videoId": "tKN7GIfLIt4",
     "url": "https://www.youtube.com/watch?v=tKN7GIfLIt4",
     "thumbnailUrl": "https://i.ytimg.com/vi/tKN7GIfLIt4/maxresdefault.jpg",
@@ -12799,6 +14092,9 @@ const recipes = [
   },
   {
     "title": "【再現】吉野家の牛丼の再現!!テレビでも紹介された大絶賛レシピ。",
+    "platform": "youtube",
+    "externalId": "r2JXTDz7Qf8",
+    "videoUrl": "https://www.youtube.com/watch?v=r2JXTDz7Qf8",
     "videoId": "r2JXTDz7Qf8",
     "url": "https://www.youtube.com/watch?v=r2JXTDz7Qf8",
     "thumbnailUrl": "https://i.ytimg.com/vi/r2JXTDz7Qf8/maxresdefault.jpg",
@@ -12831,6 +14127,9 @@ const recipes = [
   },
   {
     "title": "親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】",
+    "platform": "youtube",
+    "externalId": "TZ3HXRrWMd0",
+    "videoUrl": "https://www.youtube.com/watch?v=TZ3HXRrWMd0",
     "videoId": "TZ3HXRrWMd0",
     "url": "https://www.youtube.com/watch?v=TZ3HXRrWMd0",
     "thumbnailUrl": "https://i.ytimg.com/vi/TZ3HXRrWMd0/maxresdefault.jpg",
@@ -12862,6 +14161,9 @@ const recipes = [
   },
   {
     "title": "これ、ガチで本家よりうめえかもしれません。一度食べたら忘れられない【至高のすたみな丼】",
+    "platform": "youtube",
+    "externalId": "JC_9CWW2HA8",
+    "videoUrl": "https://www.youtube.com/watch?v=JC_9CWW2HA8",
     "videoId": "JC_9CWW2HA8",
     "url": "https://www.youtube.com/watch?v=JC_9CWW2HA8",
     "thumbnailUrl": "https://i.ytimg.com/vi/JC_9CWW2HA8/sddefault.jpg",
@@ -12897,6 +14199,9 @@ const recipes = [
   },
   {
     "title": "こんなうめえご飯食べたことねえぞ丼",
+    "platform": "youtube",
+    "externalId": "80CNwSIffzE",
+    "videoUrl": "https://www.youtube.com/watch?v=80CNwSIffzE",
     "videoId": "80CNwSIffzE",
     "url": "https://www.youtube.com/watch?v=80CNwSIffzE",
     "thumbnailUrl": "https://i.ytimg.com/vi/80CNwSIffzE/maxresdefault.jpg",
@@ -12937,6 +14242,9 @@ const recipes = [
   },
   {
     "title": "もう、焼くだけの豚丼にサヨナラ。料理研究家が導く豚丼の最適解、最高傑作豚丼",
+    "platform": "youtube",
+    "externalId": "bkN_GmU67B8",
+    "videoUrl": "https://www.youtube.com/watch?v=bkN_GmU67B8",
     "videoId": "bkN_GmU67B8",
     "url": "https://www.youtube.com/watch?v=bkN_GmU67B8",
     "thumbnailUrl": "https://i.ytimg.com/vi/bkN_GmU67B8/maxresdefault.jpg",
@@ -12968,6 +14276,9 @@ const recipes = [
   },
   {
     "title": "【これだけは教えたくない！】最強の味噌だれニンニクホルモン丼の作り方",
+    "platform": "youtube",
+    "externalId": "RIAw_mlbhDY",
+    "videoUrl": "https://www.youtube.com/watch?v=RIAw_mlbhDY",
     "videoId": "RIAw_mlbhDY",
     "url": "https://www.youtube.com/watch?v=RIAw_mlbhDY",
     "thumbnailUrl": "https://i.ytimg.com/vi/RIAw_mlbhDY/maxresdefault.jpg",
@@ -12995,6 +14306,9 @@ const recipes = [
   },
   {
     "title": "親子丼（めんつゆで本格）の簡単な作り方【美味しいホットクックレシピ】阪下千恵",
+    "platform": "youtube",
+    "externalId": "V7EPiux9xRg",
+    "videoUrl": "https://www.youtube.com/watch?v=V7EPiux9xRg",
     "videoId": "V7EPiux9xRg",
     "url": "https://www.youtube.com/watch?v=V7EPiux9xRg",
     "thumbnailUrl": "https://i.ytimg.com/vi/V7EPiux9xRg/maxresdefault.jpg",
@@ -13031,6 +14345,9 @@ const recipes = [
   },
   {
     "title": "焼肉屋さんでも絶対知らない。本当に美味しい「焼き」が決め手の至高のビビンバ",
+    "platform": "youtube",
+    "externalId": "9f83eJ1X7Bo",
+    "videoUrl": "https://www.youtube.com/watch?v=9f83eJ1X7Bo",
     "videoId": "9f83eJ1X7Bo",
     "url": "https://www.youtube.com/watch?v=9f83eJ1X7Bo",
     "thumbnailUrl": "https://i.ytimg.com/vi/9f83eJ1X7Bo/sddefault.jpg",
@@ -13069,6 +14386,9 @@ const recipes = [
   },
   {
     "title": "【たった三分で出来る】この丼でズボラ飯の概念が変わる。合法生ユッケ丼",
+    "platform": "youtube",
+    "externalId": "ROSategkG8Q",
+    "videoUrl": "https://www.youtube.com/watch?v=ROSategkG8Q",
     "videoId": "ROSategkG8Q",
     "url": "https://www.youtube.com/watch?v=ROSategkG8Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/ROSategkG8Q/sddefault.jpg",
@@ -13104,6 +14424,9 @@ const recipes = [
   },
   {
     "title": "10秒で作れる！ネギマグロ丼のタレ🍣 #shots #おうちごはん",
+    "platform": "youtube",
+    "externalId": "pbVCTmXO7kA",
+    "videoUrl": "https://www.youtube.com/watch?v=pbVCTmXO7kA",
     "videoId": "pbVCTmXO7kA",
     "url": "https://www.youtube.com/watch?v=pbVCTmXO7kA",
     "thumbnailUrl": "https://i.ytimg.com/vi/pbVCTmXO7kA/maxresdefault.jpg",
@@ -13136,6 +14459,9 @@ const recipes = [
   },
   {
     "title": "【ご飯系レシピNo.1】オートミール・キャメロン・ディアス丼",
+    "platform": "youtube",
+    "externalId": "SmeG5uQ16cY",
+    "videoUrl": "https://www.youtube.com/watch?v=SmeG5uQ16cY",
     "videoId": "SmeG5uQ16cY",
     "url": "https://www.youtube.com/watch?v=SmeG5uQ16cY",
     "thumbnailUrl": "https://i.ytimg.com/vi/SmeG5uQ16cY/maxresdefault.jpg",
@@ -13172,6 +14498,9 @@ const recipes = [
   },
   {
     "title": "背徳のとろたまチーズソーセージ丼",
+    "platform": "youtube",
+    "externalId": "VF3VQ9Dseco",
+    "videoUrl": "https://www.youtube.com/watch?v=VF3VQ9Dseco",
     "videoId": "VF3VQ9Dseco",
     "url": "https://www.youtube.com/watch?v=VF3VQ9Dseco",
     "thumbnailUrl": "https://i.ytimg.com/vi/VF3VQ9Dseco/maxresdefault.jpg",
@@ -13206,6 +14535,9 @@ const recipes = [
   },
   {
     "title": "やる気1％で目玉焼きソーセージ丼",
+    "platform": "youtube",
+    "externalId": "QekjegJMcHE",
+    "videoUrl": "https://www.youtube.com/watch?v=QekjegJMcHE",
     "videoId": "QekjegJMcHE",
     "url": "https://www.youtube.com/watch?v=QekjegJMcHE",
     "thumbnailUrl": "https://i.ytimg.com/vi/QekjegJMcHE/maxresdefault.jpg",
@@ -13237,6 +14569,9 @@ const recipes = [
   },
   {
     "title": "【ごはん作りたくないときに！】ツナたま丼！#ツナ #卵 #丼",
+    "platform": "youtube",
+    "externalId": "PntCV8mV9oM",
+    "videoUrl": "https://www.youtube.com/watch?v=PntCV8mV9oM",
     "videoId": "PntCV8mV9oM",
     "url": "https://www.youtube.com/watch?v=PntCV8mV9oM",
     "thumbnailUrl": "https://i.ytimg.com/vi/PntCV8mV9oM/maxresdefault.jpg",
@@ -13266,6 +14601,9 @@ const recipes = [
   },
   {
     "title": "スーパーのトンカツで作るカツ丼の作り方 #イチカツ #レシピ #料理動画 #カツ丼",
+    "platform": "youtube",
+    "externalId": "8wTPkv7lXds",
+    "videoUrl": "https://www.youtube.com/watch?v=8wTPkv7lXds",
     "videoId": "8wTPkv7lXds",
     "url": "https://www.youtube.com/watch?v=8wTPkv7lXds",
     "thumbnailUrl": "https://i.ytimg.com/vi/8wTPkv7lXds/maxresdefault.jpg",
@@ -13291,6 +14629,9 @@ const recipes = [
   },
   {
     "title": "【5分で挑戦】アボカドとマグロのユッケ丼の作り方｜21時の自分めし vol.31【火を使わない】",
+    "platform": "youtube",
+    "externalId": "p5M212MO7gI",
+    "videoUrl": "https://www.youtube.com/watch?v=p5M212MO7gI",
     "videoId": "p5M212MO7gI",
     "url": "https://www.youtube.com/watch?v=p5M212MO7gI",
     "thumbnailUrl": "https://i.ytimg.com/vi/p5M212MO7gI/maxresdefault.jpg",
@@ -13322,6 +14663,9 @@ const recipes = [
   },
   {
     "title": "やる気1%でごろごろサーモンユッケ丼",
+    "platform": "youtube",
+    "externalId": "dkVB6gkTZhc",
+    "videoUrl": "https://www.youtube.com/watch?v=dkVB6gkTZhc",
     "videoId": "dkVB6gkTZhc",
     "url": "https://www.youtube.com/watch?v=dkVB6gkTZhc",
     "thumbnailUrl": "https://i.ytimg.com/vi/dkVB6gkTZhc/maxresdefault.jpg",
@@ -13352,6 +14696,9 @@ const recipes = [
   },
   {
     "title": "【吉野家風】基本の豚丼 #shorts #豚丼 #豚肉レシピ",
+    "platform": "youtube",
+    "externalId": "tfliFl_vK9k",
+    "videoUrl": "https://www.youtube.com/watch?v=tfliFl_vK9k",
     "videoId": "tfliFl_vK9k",
     "url": "https://www.youtube.com/watch?v=tfliFl_vK9k",
     "thumbnailUrl": "https://i.ytimg.com/vi/tfliFl_vK9k/maxresdefault.jpg",
@@ -13384,6 +14731,9 @@ const recipes = [
   },
   {
     "title": "これを食べネバ夏終われない【無限オクラ】詳しいレシピはアプリで料理名を検索♪#オクラ #やみつき #塩昆布 #夏野菜 #丼 #晩御飯 #レシピ#簡単レシピ #レシピ動画 #料理動画",
+    "platform": "youtube",
+    "externalId": "fX48Os_ohFk",
+    "videoUrl": "https://www.youtube.com/watch?v=fX48Os_ohFk",
     "videoId": "fX48Os_ohFk",
     "url": "https://www.youtube.com/watch?v=fX48Os_ohFk",
     "thumbnailUrl": "https://i.ytimg.com/vi/fX48Os_ohFk/maxresdefault.jpg",
@@ -13411,6 +14761,9 @@ const recipes = [
   },
   {
     "title": "無限に米が溶けるヤバいたまご料理が爆誕しました",
+    "platform": "youtube",
+    "externalId": "w5fzI-LirpM",
+    "videoUrl": "https://www.youtube.com/watch?v=w5fzI-LirpM",
     "videoId": "w5fzI-LirpM",
     "url": "https://www.youtube.com/watch?v=w5fzI-LirpM",
     "thumbnailUrl": "https://i.ytimg.com/vi/w5fzI-LirpM/maxresdefault.jpg",
@@ -13456,6 +14809,9 @@ const recipes = [
   },
   {
     "title": "絶対にハマる超絶品てりたまチキン丼",
+    "platform": "youtube",
+    "externalId": "s4xKK5OHI2E",
+    "videoUrl": "https://www.youtube.com/watch?v=s4xKK5OHI2E",
     "videoId": "s4xKK5OHI2E",
     "url": "https://www.youtube.com/watch?v=s4xKK5OHI2E",
     "thumbnailUrl": "https://i.ytimg.com/vi/s4xKK5OHI2E/maxresdefault.jpg",
@@ -13491,6 +14847,9 @@ const recipes = [
   },
   {
     "title": "【スタミナ丼】甘辛で美味しいプロの料理人の作り方",
+    "platform": "youtube",
+    "externalId": "ge059ZJhfbQ",
+    "videoUrl": "https://www.youtube.com/watch?v=ge059ZJhfbQ",
     "videoId": "ge059ZJhfbQ",
     "url": "https://www.youtube.com/watch?v=ge059ZJhfbQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/ge059ZJhfbQ/maxresdefault.jpg",
@@ -13525,6 +14884,9 @@ const recipes = [
   },
   {
     "title": "料理研究家、渾身の必殺ズボラ飯【わさびバターコンビーフ丼】",
+    "platform": "youtube",
+    "externalId": "LVAEAPBwJa8",
+    "videoUrl": "https://www.youtube.com/watch?v=LVAEAPBwJa8",
     "videoId": "LVAEAPBwJa8",
     "url": "https://www.youtube.com/watch?v=LVAEAPBwJa8",
     "thumbnailUrl": "https://i.ytimg.com/vi/LVAEAPBwJa8/maxresdefault.jpg",
@@ -13558,6 +14920,9 @@ const recipes = [
   },
   {
     "title": "【すき家】3分で誰でもカンタンに作れるとりそぼろ丼教えます【完全再現】",
+    "platform": "youtube",
+    "externalId": "Kgcq_dk8h98",
+    "videoUrl": "https://www.youtube.com/watch?v=Kgcq_dk8h98",
     "videoId": "Kgcq_dk8h98",
     "url": "https://www.youtube.com/watch?v=Kgcq_dk8h98",
     "thumbnailUrl": "https://i.ytimg.com/vi/Kgcq_dk8h98/maxresdefault.jpg",
@@ -13591,6 +14956,9 @@ const recipes = [
   },
   {
     "title": "背徳の照りマヨサーモン丼",
+    "platform": "youtube",
+    "externalId": "vQpb9fP2ShE",
+    "videoUrl": "https://www.youtube.com/watch?v=vQpb9fP2ShE",
     "videoId": "vQpb9fP2ShE",
     "url": "https://www.youtube.com/watch?v=vQpb9fP2ShE",
     "thumbnailUrl": "https://i.ytimg.com/vi/vQpb9fP2ShE/maxresdefault.jpg",
@@ -13627,6 +14995,9 @@ const recipes = [
   },
   {
     "title": "マジでフライパンで最高にウマくて香ばしい『ケバブ』丼が食えちゃいます！【魔法のケバブライス】",
+    "platform": "youtube",
+    "externalId": "wTjzrGoW0qM",
+    "videoUrl": "https://www.youtube.com/watch?v=wTjzrGoW0qM",
     "videoId": "wTjzrGoW0qM",
     "url": "https://www.youtube.com/watch?v=wTjzrGoW0qM",
     "thumbnailUrl": "https://i.ytimg.com/vi/wTjzrGoW0qM/sddefault.jpg",
@@ -13661,6 +15032,9 @@ const recipes = [
   },
   {
     "title": "お財布の味方💸【厚揚げの生姜焼き丼】詳しいレシピはアプリで料理名を検索♪ #厚揚げ #丼レシピ #丼 #節約レシピ #揚げ玉 #節約 #めんつゆ #料理動画 #レシピ動画 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "gJ3OzMYWNJw",
+    "videoUrl": "https://www.youtube.com/watch?v=gJ3OzMYWNJw",
     "videoId": "gJ3OzMYWNJw",
     "url": "https://www.youtube.com/watch?v=gJ3OzMYWNJw",
     "thumbnailUrl": "https://i.ytimg.com/vi/gJ3OzMYWNJw/maxresdefault.jpg",
@@ -13692,6 +15066,9 @@ const recipes = [
   },
   {
     "title": "【ホットクックで簡単！】絶対に失敗しない牛丼の作り方｜レシピ",
+    "platform": "youtube",
+    "externalId": "397XQX8bYJQ",
+    "videoUrl": "https://www.youtube.com/watch?v=397XQX8bYJQ",
     "videoId": "397XQX8bYJQ",
     "url": "https://www.youtube.com/watch?v=397XQX8bYJQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/397XQX8bYJQ/maxresdefault.jpg",
@@ -13717,6 +15094,9 @@ const recipes = [
   },
   {
     "title": "スーパーのサーモンが合法的に100倍美味しくなる究極の漬けダレ教えます #shorts",
+    "platform": "youtube",
+    "externalId": "SqKS3l3-iJA",
+    "videoUrl": "https://www.youtube.com/watch?v=SqKS3l3-iJA",
     "videoId": "SqKS3l3-iJA",
     "url": "https://www.youtube.com/watch?v=SqKS3l3-iJA",
     "thumbnailUrl": "https://i.ytimg.com/vi/SqKS3l3-iJA/maxresdefault.jpg",
@@ -13743,6 +15123,9 @@ const recipes = [
   },
   {
     "title": "【一食100円】マジでこれうなぎ屋さんキレんだろ丼#shorts #リュウジ #うなぎ #うな丼 #レシピ #料理 #バズレシピ",
+    "platform": "youtube",
+    "externalId": "rHtNwUI6LUg",
+    "videoUrl": "https://www.youtube.com/watch?v=rHtNwUI6LUg",
     "videoId": "rHtNwUI6LUg",
     "url": "https://www.youtube.com/watch?v=rHtNwUI6LUg",
     "thumbnailUrl": "https://i.ytimg.com/vi/rHtNwUI6LUg/maxresdefault.jpg",
@@ -13775,6 +15158,9 @@ const recipes = [
   },
   {
     "title": "ラーメンショップ再現『ネギ丼』作り方。【レシピ】【おうち麺】【飯テロ】",
+    "platform": "youtube",
+    "externalId": "y5llwVQwN3s",
+    "videoUrl": "https://www.youtube.com/watch?v=y5llwVQwN3s",
     "videoId": "y5llwVQwN3s",
     "url": "https://www.youtube.com/watch?v=y5llwVQwN3s",
     "thumbnailUrl": "https://i.ytimg.com/vi/y5llwVQwN3s/sddefault.jpg",
@@ -13812,6 +15198,9 @@ const recipes = [
   },
   {
     "title": "【ウインナー丼】焼肉屋が作る禁断のレシピがうますぎる #shorts",
+    "platform": "youtube",
+    "externalId": "WaQMvydBYzI",
+    "videoUrl": "https://www.youtube.com/watch?v=WaQMvydBYzI",
     "videoId": "WaQMvydBYzI",
     "url": "https://www.youtube.com/watch?v=WaQMvydBYzI",
     "thumbnailUrl": "https://i.ytimg.com/vi/WaQMvydBYzI/maxresdefault.jpg",
@@ -13837,6 +15226,9 @@ const recipes = [
   },
   {
     "title": "【完全再現】吉野家潰す気か牛丼",
+    "platform": "youtube",
+    "externalId": "HSDRA6MrwmA",
+    "videoUrl": "https://www.youtube.com/watch?v=HSDRA6MrwmA",
     "videoId": "HSDRA6MrwmA",
     "url": "https://www.youtube.com/watch?v=HSDRA6MrwmA",
     "thumbnailUrl": "https://i.ytimg.com/vi/HSDRA6MrwmA/maxresdefault.jpg",
@@ -13877,6 +15269,9 @@ const recipes = [
   },
   {
     "title": "吉野家の牛丼完全再現への道",
+    "platform": "youtube",
+    "externalId": "Q2SerDlo1YA",
+    "videoUrl": "https://www.youtube.com/watch?v=Q2SerDlo1YA",
     "videoId": "Q2SerDlo1YA",
     "url": "https://www.youtube.com/watch?v=Q2SerDlo1YA",
     "thumbnailUrl": "https://i.ytimg.com/vi/Q2SerDlo1YA/maxresdefault.jpg",
@@ -13904,6 +15299,9 @@ const recipes = [
   },
   {
     "title": "究極のワンパンレシピ！目玉焼きチーズミンチ",
+    "platform": "youtube",
+    "externalId": "oBzlc1MKa1w",
+    "videoUrl": "https://www.youtube.com/watch?v=oBzlc1MKa1w",
     "videoId": "oBzlc1MKa1w",
     "url": "https://www.youtube.com/watch?v=oBzlc1MKa1w",
     "thumbnailUrl": "https://i.ytimg.com/vi/oBzlc1MKa1w/maxresdefault.jpg",
@@ -13937,6 +15335,9 @@ const recipes = [
   },
   {
     "title": "給食で大人気のもずく丼ってどんな味？",
+    "platform": "youtube",
+    "externalId": "Uah1fQTqB0A",
+    "videoUrl": "https://www.youtube.com/watch?v=Uah1fQTqB0A",
     "videoId": "Uah1fQTqB0A",
     "url": "https://www.youtube.com/watch?v=Uah1fQTqB0A",
     "thumbnailUrl": "https://i.ytimg.com/vi/Uah1fQTqB0A/maxresdefault.jpg",
@@ -13975,6 +15376,9 @@ const recipes = [
   },
   {
     "title": "【ご飯に合いすぎるｗｗ】すた丼を再現してみた！",
+    "platform": "youtube",
+    "externalId": "PBglt6NhX_E",
+    "videoUrl": "https://www.youtube.com/watch?v=PBglt6NhX_E",
     "videoId": "PBglt6NhX_E",
     "url": "https://www.youtube.com/watch?v=PBglt6NhX_E",
     "thumbnailUrl": "https://i.ytimg.com/vi/PBglt6NhX_E/maxresdefault.jpg",
@@ -14000,6 +15404,9 @@ const recipes = [
   },
   {
     "title": "【男飯】本当に美味しいマルチョウのシロコロホルモン丼の作り方",
+    "platform": "youtube",
+    "externalId": "hetH4NUoDQc",
+    "videoUrl": "https://www.youtube.com/watch?v=hetH4NUoDQc",
     "videoId": "hetH4NUoDQc",
     "url": "https://www.youtube.com/watch?v=hetH4NUoDQc",
     "thumbnailUrl": "https://i.ytimg.com/vi/hetH4NUoDQc/maxresdefault.jpg",
@@ -14029,6 +15436,9 @@ const recipes = [
   },
   {
     "title": "懐かしの給食！ビビンバの作り方",
+    "platform": "youtube",
+    "externalId": "1lpo050lXy4",
+    "videoUrl": "https://www.youtube.com/watch?v=1lpo050lXy4",
     "videoId": "1lpo050lXy4",
     "url": "https://www.youtube.com/watch?v=1lpo050lXy4",
     "thumbnailUrl": "https://i.ytimg.com/vi/1lpo050lXy4/maxresdefault.jpg",
@@ -14063,6 +15473,9 @@ const recipes = [
   },
   {
     "title": "【悪魔のチーズメルトソーセージ丼】",
+    "platform": "youtube",
+    "externalId": "C_SNyKS4xl4",
+    "videoUrl": "https://www.youtube.com/watch?v=C_SNyKS4xl4",
     "videoId": "C_SNyKS4xl4",
     "url": "https://www.youtube.com/watch?v=C_SNyKS4xl4",
     "thumbnailUrl": "https://i.ytimg.com/vi/C_SNyKS4xl4/maxresdefault.jpg",
@@ -14095,6 +15508,9 @@ const recipes = [
   },
   {
     "title": "やみつき納豆ごはんの作り方【ミツカン公式】",
+    "platform": "youtube",
+    "externalId": "kS3GSa1L-L0",
+    "videoUrl": "https://www.youtube.com/watch?v=kS3GSa1L-L0",
     "videoId": "kS3GSa1L-L0",
     "url": "https://www.youtube.com/watch?v=kS3GSa1L-L0",
     "thumbnailUrl": "https://i.ytimg.com/vi/kS3GSa1L-L0/maxresdefault.jpg",
@@ -14122,6 +15538,9 @@ const recipes = [
   },
   {
     "title": "とまらない味わい！最強ガーリックバター豚丼",
+    "platform": "youtube",
+    "externalId": "V25jsOnEs1U",
+    "videoUrl": "https://www.youtube.com/watch?v=V25jsOnEs1U",
     "videoId": "V25jsOnEs1U",
     "url": "https://www.youtube.com/watch?v=V25jsOnEs1U",
     "thumbnailUrl": "https://i.ytimg.com/vi/V25jsOnEs1U/maxresdefault.jpg",
@@ -14157,6 +15576,9 @@ const recipes = [
   },
   {
     "title": "スーパーの値引きされたトンカツで絶品ズボラカツ丼",
+    "platform": "youtube",
+    "externalId": "y3orqlR3f4o",
+    "videoUrl": "https://www.youtube.com/watch?v=y3orqlR3f4o",
     "videoId": "y3orqlR3f4o",
     "url": "https://www.youtube.com/watch?v=y3orqlR3f4o",
     "thumbnailUrl": "https://i.ytimg.com/vi/y3orqlR3f4o/maxresdefault.jpg",
@@ -14190,6 +15612,9 @@ const recipes = [
   },
   {
     "title": "㊗️150万再生 10分で作れて旨すぎる牛丼",
+    "platform": "youtube",
+    "externalId": "di6M_tovENc",
+    "videoUrl": "https://www.youtube.com/watch?v=di6M_tovENc",
     "videoId": "di6M_tovENc",
     "url": "https://www.youtube.com/watch?v=di6M_tovENc",
     "thumbnailUrl": "https://i.ytimg.com/vi/di6M_tovENc/maxresdefault.jpg",
@@ -14215,6 +15640,9 @@ const recipes = [
   },
   {
     "title": "煮込んだ分だけ美味すぎる豚こましぐれ煮丼",
+    "platform": "youtube",
+    "externalId": "QpT2CS2aUt0",
+    "videoUrl": "https://www.youtube.com/watch?v=QpT2CS2aUt0",
     "videoId": "QpT2CS2aUt0",
     "url": "https://www.youtube.com/watch?v=QpT2CS2aUt0",
     "thumbnailUrl": "https://i.ytimg.com/vi/QpT2CS2aUt0/maxresdefault.jpg",
@@ -14249,6 +15677,9 @@ const recipes = [
   },
   {
     "title": "背徳のチーズソーセージタッカルビ丼",
+    "platform": "youtube",
+    "externalId": "auUXkW3N-KA",
+    "videoUrl": "https://www.youtube.com/watch?v=auUXkW3N-KA",
     "videoId": "auUXkW3N-KA",
     "url": "https://www.youtube.com/watch?v=auUXkW3N-KA",
     "thumbnailUrl": "https://i.ytimg.com/vi/auUXkW3N-KA/maxresdefault.jpg",
@@ -14280,6 +15711,9 @@ const recipes = [
   },
   {
     "title": "ウィンナーと卵さえあればできる最強に旨いウィンナー丼",
+    "platform": "youtube",
+    "externalId": "u2jz_E55P8Y",
+    "videoUrl": "https://www.youtube.com/watch?v=u2jz_E55P8Y",
     "videoId": "u2jz_E55P8Y",
     "url": "https://www.youtube.com/watch?v=u2jz_E55P8Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/u2jz_E55P8Y/maxresdefault.jpg",
@@ -14311,6 +15745,9 @@ const recipes = [
   },
   {
     "title": "1番美味しい親子丼の作り方はこれ！🐥 #簡単レシピ #料理 #cooking",
+    "platform": "youtube",
+    "externalId": "rzZk1zZOluY",
+    "videoUrl": "https://www.youtube.com/watch?v=rzZk1zZOluY",
     "videoId": "rzZk1zZOluY",
     "url": "https://www.youtube.com/watch?v=rzZk1zZOluY",
     "thumbnailUrl": "https://i.ytimg.com/vi/rzZk1zZOluY/maxresdefault.jpg",
@@ -14336,6 +15773,9 @@ const recipes = [
   },
   {
     "title": "【ネギトロ】もう市販品に戻れない！サクから作るふわふわネギトロ丼！",
+    "platform": "youtube",
+    "externalId": "1IeQEyJxXeY",
+    "videoUrl": "https://www.youtube.com/watch?v=1IeQEyJxXeY",
     "videoId": "1IeQEyJxXeY",
     "url": "https://www.youtube.com/watch?v=1IeQEyJxXeY",
     "thumbnailUrl": "https://i.ytimg.com/vi/1IeQEyJxXeY/maxresdefault.jpg",
@@ -14363,6 +15803,9 @@ const recipes = [
   },
   {
     "title": "食材は卵だけ。3分で絶望してしまうほどウマい『究極のたまご丼』の作り方",
+    "platform": "youtube",
+    "externalId": "W1LSRydYpgE",
+    "videoUrl": "https://www.youtube.com/watch?v=W1LSRydYpgE",
     "videoId": "W1LSRydYpgE",
     "url": "https://www.youtube.com/watch?v=W1LSRydYpgE",
     "thumbnailUrl": "https://i.ytimg.com/vi/W1LSRydYpgE/maxresdefault.jpg",
@@ -14393,6 +15836,9 @@ const recipes = [
   },
   {
     "title": "なす味噌丼🧑🏻‍🍳🍆#簡単レシピ #給食 #茄子 #丼 #幼児食 #shorts",
+    "platform": "youtube",
+    "externalId": "9BAa_E8b2vU",
+    "videoUrl": "https://www.youtube.com/watch?v=9BAa_E8b2vU",
     "videoId": "9BAa_E8b2vU",
     "url": "https://www.youtube.com/watch?v=9BAa_E8b2vU",
     "thumbnailUrl": "https://i.ytimg.com/vi/9BAa_E8b2vU/maxresdefault.jpg",
@@ -14427,6 +15873,9 @@ const recipes = [
   },
   {
     "title": "プロのアドバイス満載！絶品中華丼レシピ｜クラシル #shorts",
+    "platform": "youtube",
+    "externalId": "VmX2T8jMrgw",
+    "videoUrl": "https://www.youtube.com/watch?v=VmX2T8jMrgw",
     "videoId": "VmX2T8jMrgw",
     "url": "https://www.youtube.com/watch?v=VmX2T8jMrgw",
     "thumbnailUrl": "https://i.ytimg.com/vi/VmX2T8jMrgw/maxresdefault.jpg",
@@ -14452,6 +15901,9 @@ const recipes = [
   },
   {
     "title": "Pork Bowl 甘辛豚丼の作り方 #pork #豚丼 #shorts",
+    "platform": "youtube",
+    "externalId": "l4hevn3vEEU",
+    "videoUrl": "https://www.youtube.com/watch?v=l4hevn3vEEU",
     "videoId": "l4hevn3vEEU",
     "url": "https://www.youtube.com/watch?v=l4hevn3vEEU",
     "thumbnailUrl": "https://i.ytimg.com/vi/l4hevn3vEEU/maxresdefault.jpg",
@@ -14490,6 +15942,9 @@ const recipes = [
   },
   {
     "title": "かつ丼 卵とじ 専用鍋不要フライパンでOK コツをしっかり説明簡単レシピ カツ丼の作り方",
+    "platform": "youtube",
+    "externalId": "7MZrDXzQpMI",
+    "videoUrl": "https://www.youtube.com/watch?v=7MZrDXzQpMI",
     "videoId": "7MZrDXzQpMI",
     "url": "https://www.youtube.com/watch?v=7MZrDXzQpMI",
     "thumbnailUrl": "https://i.ytimg.com/vi/7MZrDXzQpMI/sddefault.jpg",
@@ -14525,6 +15980,9 @@ const recipes = [
   },
   {
     "title": "【200万回再生人気レシピ】材料3つでお店の味に！牛肉がトロットロやわらか！超王道牛丼の作り方",
+    "platform": "youtube",
+    "externalId": "KZotqeFbr5s",
+    "videoUrl": "https://www.youtube.com/watch?v=KZotqeFbr5s",
     "videoId": "KZotqeFbr5s",
     "url": "https://www.youtube.com/watch?v=KZotqeFbr5s",
     "thumbnailUrl": "https://i.ytimg.com/vi/KZotqeFbr5s/maxresdefault.jpg",
@@ -14558,6 +16016,9 @@ const recipes = [
   },
   {
     "title": "卵は3つをのっけ丼",
+    "platform": "youtube",
+    "externalId": "_79ETqvuc_I",
+    "videoUrl": "https://www.youtube.com/watch?v=_79ETqvuc_I",
     "videoId": "_79ETqvuc_I",
     "url": "https://www.youtube.com/watch?v=_79ETqvuc_I",
     "thumbnailUrl": "https://i.ytimg.com/vi/_79ETqvuc_I/maxresdefault.jpg",
@@ -14585,6 +16046,9 @@ const recipes = [
   },
   {
     "title": "究極のたまご丼はこれ",
+    "platform": "youtube",
+    "externalId": "u6MZFPo6kpQ",
+    "videoUrl": "https://www.youtube.com/watch?v=u6MZFPo6kpQ",
     "videoId": "u6MZFPo6kpQ",
     "url": "https://www.youtube.com/watch?v=u6MZFPo6kpQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/u6MZFPo6kpQ/maxresdefault.jpg",
@@ -14612,6 +16076,9 @@ const recipes = [
   },
   {
     "title": "飯テロにも程がある🤤「夢中豚バラ」詳しいレシピは概要欄でチェック！ #豚バラ #豚バラ 豚バラレシピ #豚肉",
+    "platform": "youtube",
+    "externalId": "ZlTyXY83Ww0",
+    "videoUrl": "https://www.youtube.com/watch?v=ZlTyXY83Ww0",
     "videoId": "ZlTyXY83Ww0",
     "url": "https://www.youtube.com/watch?v=ZlTyXY83Ww0",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZlTyXY83Ww0/maxresdefault.jpg",
@@ -14643,6 +16110,9 @@ const recipes = [
   },
   {
     "title": "簡単玉子丼の作り方！",
+    "platform": "youtube",
+    "externalId": "fRGJjmbw1SE",
+    "videoUrl": "https://www.youtube.com/watch?v=fRGJjmbw1SE",
     "videoId": "fRGJjmbw1SE",
     "url": "https://www.youtube.com/watch?v=fRGJjmbw1SE",
     "thumbnailUrl": "https://i.ytimg.com/vi/fRGJjmbw1SE/hqdefault.jpg",
@@ -14677,6 +16147,9 @@ const recipes = [
   },
   {
     "title": "悪魔のてりたまソーセージ丼",
+    "platform": "youtube",
+    "externalId": "N35aiYfJWes",
+    "videoUrl": "https://www.youtube.com/watch?v=N35aiYfJWes",
     "videoId": "N35aiYfJWes",
     "url": "https://www.youtube.com/watch?v=N35aiYfJWes",
     "thumbnailUrl": "https://i.ytimg.com/vi/N35aiYfJWes/maxresdefault.jpg",
@@ -14708,6 +16181,9 @@ const recipes = [
   },
   {
     "title": "フライパン一発で3色そぼろ丼🍚✨ #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "2sqyZhgGIWY",
+    "videoUrl": "https://www.youtube.com/watch?v=2sqyZhgGIWY",
     "videoId": "2sqyZhgGIWY",
     "url": "https://www.youtube.com/watch?v=2sqyZhgGIWY",
     "thumbnailUrl": "https://i.ytimg.com/vi/2sqyZhgGIWY/maxresdefault.jpg",
@@ -14733,6 +16209,9 @@ const recipes = [
   },
   {
     "title": "【胃袋を掴む】ふわとろ親子丼 #おうちごはん #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "RSjX616xPkM",
+    "videoUrl": "https://www.youtube.com/watch?v=RSjX616xPkM",
     "videoId": "RSjX616xPkM",
     "url": "https://www.youtube.com/watch?v=RSjX616xPkM",
     "thumbnailUrl": "https://i.ytimg.com/vi/RSjX616xPkM/maxresdefault.jpg",
@@ -14758,6 +16237,9 @@ const recipes = [
   },
   {
     "title": "卵とチーズで作るヤバすぎる玉子丼#卵 #簡単レシピ #丼",
+    "platform": "youtube",
+    "externalId": "iUJGnDtqHl0",
+    "videoUrl": "https://www.youtube.com/watch?v=iUJGnDtqHl0",
     "videoId": "iUJGnDtqHl0",
     "url": "https://www.youtube.com/watch?v=iUJGnDtqHl0",
     "thumbnailUrl": "https://i.ytimg.com/vi/iUJGnDtqHl0/maxresdefault.jpg",
@@ -14787,6 +16269,9 @@ const recipes = [
   },
   {
     "title": "【究極のユッケだれTKG】",
+    "platform": "youtube",
+    "externalId": "fM_jTRBoR0U",
+    "videoUrl": "https://www.youtube.com/watch?v=fM_jTRBoR0U",
     "videoId": "fM_jTRBoR0U",
     "url": "https://www.youtube.com/watch?v=fM_jTRBoR0U",
     "thumbnailUrl": "https://i.ytimg.com/vi/fM_jTRBoR0U/maxresdefault.jpg",
@@ -14812,6 +16297,9 @@ const recipes = [
   },
   {
     "title": "牛丼の作り方｜おうちで簡単にお店の味！ちょっと一手間で激ウマに仕上がる絶品牛丼レシピ！旨味たっぷりで最後の一口まで大満足！-How to make【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "u3_dLqrWRuE",
+    "videoUrl": "https://www.youtube.com/watch?v=u3_dLqrWRuE",
     "videoId": "u3_dLqrWRuE",
     "url": "https://www.youtube.com/watch?v=u3_dLqrWRuE",
     "thumbnailUrl": "https://i.ytimg.com/vi/u3_dLqrWRuE/maxresdefault.jpg",
@@ -14850,6 +16338,9 @@ const recipes = [
   },
   {
     "title": "洗い物も少ないし、生焼けの心配もない「食べたらハンバーグ丼」 詳しいレシピは概要欄をチェック！ #ハンバーグ #丼レシピ #昼ごはん",
+    "platform": "youtube",
+    "externalId": "WEh1wMBq7rE",
+    "videoUrl": "https://www.youtube.com/watch?v=WEh1wMBq7rE",
     "videoId": "WEh1wMBq7rE",
     "url": "https://www.youtube.com/watch?v=WEh1wMBq7rE",
     "thumbnailUrl": "https://i.ytimg.com/vi/WEh1wMBq7rE/maxresdefault.jpg",
@@ -14883,6 +16374,9 @@ const recipes = [
   },
   {
     "title": "【㊗️500万回再生‼️】【牛丼ってここまで変わる？荏原シェフの技で普通の肉でもプロの味に】｜#クラシル #shorts",
+    "platform": "youtube",
+    "externalId": "4d-Z3-BOW0U",
+    "videoUrl": "https://www.youtube.com/watch?v=4d-Z3-BOW0U",
     "videoId": "4d-Z3-BOW0U",
     "url": "https://www.youtube.com/watch?v=4d-Z3-BOW0U",
     "thumbnailUrl": "https://i.ytimg.com/vi/4d-Z3-BOW0U/maxresdefault.jpg",
@@ -14912,6 +16406,9 @@ const recipes = [
   },
   {
     "title": "子供ウケ抜群【だしあん卵丼】🍳 #たまごレシピ #たまご料理 #卵レシピ #卵料理 #丼レシピ",
+    "platform": "youtube",
+    "externalId": "QEZJpYiT7CI",
+    "videoUrl": "https://www.youtube.com/watch?v=QEZJpYiT7CI",
     "videoId": "QEZJpYiT7CI",
     "url": "https://www.youtube.com/watch?v=QEZJpYiT7CI",
     "thumbnailUrl": "https://i.ytimg.com/vi/QEZJpYiT7CI/maxresdefault.jpg",
@@ -14943,6 +16440,9 @@ const recipes = [
   },
   {
     "title": "うちの三姉妹で取り合いになった絶品ロコモコ丼",
+    "platform": "youtube",
+    "externalId": "2AbioKh5Sd8",
+    "videoUrl": "https://www.youtube.com/watch?v=2AbioKh5Sd8",
     "videoId": "2AbioKh5Sd8",
     "url": "https://www.youtube.com/watch?v=2AbioKh5Sd8",
     "thumbnailUrl": "https://i.ytimg.com/vi/2AbioKh5Sd8/maxresdefault.jpg",
@@ -14978,6 +16478,9 @@ const recipes = [
   },
   {
     "title": "子供が大好きな給食の豚キムチ丼を作ってみた！",
+    "platform": "youtube",
+    "externalId": "f7e6EvyVY_M",
+    "videoUrl": "https://www.youtube.com/watch?v=f7e6EvyVY_M",
     "videoId": "f7e6EvyVY_M",
     "url": "https://www.youtube.com/watch?v=f7e6EvyVY_M",
     "thumbnailUrl": "https://i.ytimg.com/vi/f7e6EvyVY_M/maxresdefault.jpg",
@@ -15015,6 +16518,9 @@ const recipes = [
   },
   {
     "title": "簡単すぎ・・・え、今から作ろうかな【ポン酢豚丼】#どんぶり#丼 #豚肉 #豚こま肉 #玉ねぎ #ポン酢 #簡単レシピ #レシピ動画",
+    "platform": "youtube",
+    "externalId": "v012YMWZxnQ",
+    "videoUrl": "https://www.youtube.com/watch?v=v012YMWZxnQ",
     "videoId": "v012YMWZxnQ",
     "url": "https://www.youtube.com/watch?v=v012YMWZxnQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/v012YMWZxnQ/maxresdefault.jpg",
@@ -15047,6 +16553,9 @@ const recipes = [
   },
   {
     "title": "胃袋掴む！鶏の照りたま丼【ふわとろ半熟卵と照り焼きチキン】",
+    "platform": "youtube",
+    "externalId": "uwSdRWstL14",
+    "videoUrl": "https://www.youtube.com/watch?v=uwSdRWstL14",
     "videoId": "uwSdRWstL14",
     "url": "https://www.youtube.com/watch?v=uwSdRWstL14",
     "thumbnailUrl": "https://i.ytimg.com/vi/uwSdRWstL14/maxresdefault.jpg",
@@ -15076,6 +16585,9 @@ const recipes = [
   },
   {
     "title": "今度から親子丼これでもいいかも【とろとろ親子丼】詳しいレシピは概要欄をチェック！#親子丼 #ひき肉 #鶏肉 #昼ごはん #ワンパン #晩ごはん#簡単レシピ #レシピ動画 #料理動画",
+    "platform": "youtube",
+    "externalId": "WvI-Pb5XxNs",
+    "videoUrl": "https://www.youtube.com/watch?v=WvI-Pb5XxNs",
     "videoId": "WvI-Pb5XxNs",
     "url": "https://www.youtube.com/watch?v=WvI-Pb5XxNs",
     "thumbnailUrl": "https://i.ytimg.com/vi/WvI-Pb5XxNs/maxresdefault.jpg",
@@ -15113,6 +16625,9 @@ const recipes = [
   },
   {
     "title": "究極の親子丼の作り方☆卵が半熟とろとろ濃厚！お肉も柔らかジューシー！おうちでも簡単にお店のように美味しく作るコツをご紹介します♪-How to make Oyakodon-【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "bjFKhfW4aVg",
+    "videoUrl": "https://www.youtube.com/watch?v=bjFKhfW4aVg",
     "videoId": "bjFKhfW4aVg",
     "url": "https://www.youtube.com/watch?v=bjFKhfW4aVg",
     "thumbnailUrl": "https://i.ytimg.com/vi/bjFKhfW4aVg/maxresdefault.jpg",
@@ -15147,6 +16662,9 @@ const recipes = [
   },
   {
     "title": "焼肉屋超え🍳豚バラネギ塩丼",
+    "platform": "youtube",
+    "externalId": "DynqwIPe8dI",
+    "videoUrl": "https://www.youtube.com/watch?v=DynqwIPe8dI",
     "videoId": "DynqwIPe8dI",
     "url": "https://www.youtube.com/watch?v=DynqwIPe8dI",
     "thumbnailUrl": "https://i.ytimg.com/vi/DynqwIPe8dI/maxresdefault.jpg",
@@ -15180,6 +16698,9 @@ const recipes = [
   },
   {
     "title": "ご飯泥棒！ささみユッケ風丼が美味しすぎた🤤🍚 #簡単レシピ #自炊",
+    "platform": "youtube",
+    "externalId": "a5yZhOVqle8",
+    "videoUrl": "https://www.youtube.com/watch?v=a5yZhOVqle8",
     "videoId": "a5yZhOVqle8",
     "url": "https://www.youtube.com/watch?v=a5yZhOVqle8",
     "thumbnailUrl": "https://i.ytimg.com/vi/a5yZhOVqle8/maxresdefault.jpg",
@@ -15207,6 +16728,9 @@ const recipes = [
   },
   {
     "title": "ちくわで最高に旨すぎる丼作れます",
+    "platform": "youtube",
+    "externalId": "PfOVD47JN4w",
+    "videoUrl": "https://www.youtube.com/watch?v=PfOVD47JN4w",
     "videoId": "PfOVD47JN4w",
     "url": "https://www.youtube.com/watch?v=PfOVD47JN4w",
     "thumbnailUrl": "https://i.ytimg.com/vi/PfOVD47JN4w/maxresdefault.jpg",
@@ -15234,6 +16758,9 @@ const recipes = [
   },
   {
     "title": "【野永シェフの特製・他人丼レシピ】｜#クラシル #shorts",
+    "platform": "youtube",
+    "externalId": "B0Uzvr92B44",
+    "videoUrl": "https://www.youtube.com/watch?v=B0Uzvr92B44",
     "videoId": "B0Uzvr92B44",
     "url": "https://www.youtube.com/watch?v=B0Uzvr92B44",
     "thumbnailUrl": "https://i.ytimg.com/vi/B0Uzvr92B44/maxresdefault.jpg",
@@ -15259,6 +16786,9 @@ const recipes = [
   },
   {
     "title": "某有名チェーン店の牛丼を再現してみた【笠野家の牛丼】",
+    "platform": "youtube",
+    "externalId": "TgBD15J7zmk",
+    "videoUrl": "https://www.youtube.com/watch?v=TgBD15J7zmk",
     "videoId": "TgBD15J7zmk",
     "url": "https://www.youtube.com/watch?v=TgBD15J7zmk",
     "thumbnailUrl": "https://i.ytimg.com/vi/TgBD15J7zmk/maxresdefault.jpg",
@@ -15296,6 +16826,9 @@ const recipes = [
   },
   {
     "title": "牛と卵の他人丼《牛とじ丼》#shorts #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "WjT-30BO39A",
+    "videoUrl": "https://www.youtube.com/watch?v=WjT-30BO39A",
     "videoId": "WjT-30BO39A",
     "url": "https://www.youtube.com/watch?v=WjT-30BO39A",
     "thumbnailUrl": "https://i.ytimg.com/vi/WjT-30BO39A/maxresdefault.jpg",
@@ -15323,6 +16856,9 @@ const recipes = [
   },
   {
     "title": "『技術は不要』ちょっとずつ余った野菜達こそ最高の食材です。家庭で作る中華丼の作り方",
+    "platform": "youtube",
+    "externalId": "B9MiMjR-iR0",
+    "videoUrl": "https://www.youtube.com/watch?v=B9MiMjR-iR0",
     "videoId": "B9MiMjR-iR0",
     "url": "https://www.youtube.com/watch?v=B9MiMjR-iR0",
     "thumbnailUrl": "https://i.ytimg.com/vi/B9MiMjR-iR0/maxresdefault.jpg",
@@ -15362,6 +16898,9 @@ const recipes = [
   },
   {
     "title": "料理人歴23年、今までこの作り方知らなかったのが悔しいです",
+    "platform": "youtube",
+    "externalId": "nLllKqYdQ9c",
+    "videoUrl": "https://www.youtube.com/watch?v=nLllKqYdQ9c",
     "videoId": "nLllKqYdQ9c",
     "url": "https://www.youtube.com/watch?v=nLllKqYdQ9c",
     "thumbnailUrl": "https://i.ytimg.com/vi/nLllKqYdQ9c/maxresdefault.jpg",
@@ -15391,6 +16930,9 @@ const recipes = [
   },
   {
     "title": "鶏肉なしでこの美味しさ!【玉ねぎと卵だけ!のたまご丼】の作り方/王道の甘じょっばい味がいい♪",
+    "platform": "youtube",
+    "externalId": "bUrAt9QylSs",
+    "videoUrl": "https://www.youtube.com/watch?v=bUrAt9QylSs",
     "videoId": "bUrAt9QylSs",
     "url": "https://www.youtube.com/watch?v=bUrAt9QylSs",
     "thumbnailUrl": "https://i.ytimg.com/vi/bUrAt9QylSs/maxresdefault.jpg",
@@ -15426,6 +16968,9 @@ const recipes = [
   },
   {
     "title": "答えは0:07秒あたりを見てね【卵だけあんかけ丼】丁寧に工程を見たい人はアプリで検索♪#卵 #たまご #丼 #丼飯 #あんかけ #中華料理 #天津飯 #簡単レシピ #レシピ動画 #料理動画",
+    "platform": "youtube",
+    "externalId": "1hiR6Wsb2E0",
+    "videoUrl": "https://www.youtube.com/watch?v=1hiR6Wsb2E0",
     "videoId": "1hiR6Wsb2E0",
     "url": "https://www.youtube.com/watch?v=1hiR6Wsb2E0",
     "thumbnailUrl": "https://i.ytimg.com/vi/1hiR6Wsb2E0/maxresdefault.jpg",
@@ -15459,6 +17004,9 @@ const recipes = [
   },
   {
     "title": "【ルウ1個で1人前】どんぶり革命！カレー親子丼が旨すぎる！",
+    "platform": "youtube",
+    "externalId": "fNTVaTGj3ag",
+    "videoUrl": "https://www.youtube.com/watch?v=fNTVaTGj3ag",
     "videoId": "fNTVaTGj3ag",
     "url": "https://www.youtube.com/watch?v=fNTVaTGj3ag",
     "thumbnailUrl": "https://i.ytimg.com/vi/fNTVaTGj3ag/maxresdefault.jpg",
@@ -15494,6 +17042,9 @@ const recipes = [
   },
   {
     "title": "全人類好きな味✨ネギ塩豚丼🍚♡（レシピはコメント欄に🫶）",
+    "platform": "youtube",
+    "externalId": "sFdWqSj36qU",
+    "videoUrl": "https://www.youtube.com/watch?v=sFdWqSj36qU",
     "videoId": "sFdWqSj36qU",
     "url": "https://www.youtube.com/watch?v=sFdWqSj36qU",
     "thumbnailUrl": "https://i.ytimg.com/vi/sFdWqSj36qU/maxresdefault.jpg",
@@ -15521,6 +17072,9 @@ const recipes = [
   },
   {
     "title": "【再現！】「すた丼」お店調理のポイントをご家庭で再現する作り方 #shorts",
+    "platform": "youtube",
+    "externalId": "jipO-Sr-mgQ",
+    "videoUrl": "https://www.youtube.com/watch?v=jipO-Sr-mgQ",
     "videoId": "jipO-Sr-mgQ",
     "url": "https://www.youtube.com/watch?v=jipO-Sr-mgQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/jipO-Sr-mgQ/maxresdefault.jpg",
@@ -15554,6 +17108,9 @@ const recipes = [
   },
   {
     "title": "【うなぎよりウマい】なすの蒲焼き丼 #レシピ動画 #簡単レシピ #なす #なすレシピ #うなぎ #丼",
+    "platform": "youtube",
+    "externalId": "8DWt9k4IW7A",
+    "videoUrl": "https://www.youtube.com/watch?v=8DWt9k4IW7A",
     "videoId": "8DWt9k4IW7A",
     "url": "https://www.youtube.com/watch?v=8DWt9k4IW7A",
     "thumbnailUrl": "https://i.ytimg.com/vi/8DWt9k4IW7A/maxresdefault.jpg",
@@ -15584,6 +17141,9 @@ const recipes = [
   },
   {
     "title": "【サーモンとアボカドで究極のポキ丼】",
+    "platform": "youtube",
+    "externalId": "H957XuaZ-Xk",
+    "videoUrl": "https://www.youtube.com/watch?v=H957XuaZ-Xk",
     "videoId": "H957XuaZ-Xk",
     "url": "https://www.youtube.com/watch?v=H957XuaZ-Xk",
     "thumbnailUrl": "https://i.ytimg.com/vi/H957XuaZ-Xk/maxresdefault.jpg",
@@ -15616,6 +17176,9 @@ const recipes = [
   },
   {
     "title": "家庭で本場の味を再現！笠原流【豚丼】の作り方",
+    "platform": "youtube",
+    "externalId": "O4l3byCyEzY",
+    "videoUrl": "https://www.youtube.com/watch?v=O4l3byCyEzY",
     "videoId": "O4l3byCyEzY",
     "url": "https://www.youtube.com/watch?v=O4l3byCyEzY",
     "thumbnailUrl": "https://i.ytimg.com/vi/O4l3byCyEzY/maxresdefault.jpg",
@@ -15652,6 +17215,9 @@ const recipes = [
   },
   {
     "title": "【みんな大好き】板前が教える、親子丼の作り方！※分量はコメント欄に！#shorts",
+    "platform": "youtube",
+    "externalId": "fnZfyb5exyQ",
+    "videoUrl": "https://www.youtube.com/watch?v=fnZfyb5exyQ",
     "videoId": "fnZfyb5exyQ",
     "url": "https://www.youtube.com/watch?v=fnZfyb5exyQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/fnZfyb5exyQ/maxresdefault.jpg",
@@ -15685,6 +17251,9 @@ const recipes = [
   },
   {
     "title": "作ってみて！海鮮丼 #shorts",
+    "platform": "youtube",
+    "externalId": "hinEV2pGPVQ",
+    "videoUrl": "https://www.youtube.com/watch?v=hinEV2pGPVQ",
     "videoId": "hinEV2pGPVQ",
     "url": "https://www.youtube.com/watch?v=hinEV2pGPVQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/hinEV2pGPVQ/maxresdefault.jpg",
@@ -15710,6 +17279,9 @@ const recipes = [
   },
   {
     "title": "【100万回再生人気レシピ】薄切り肉で簡単＆柔らか！直球勝負のレシピ！豚丼の作り方",
+    "platform": "youtube",
+    "externalId": "6cHxq7gXisI",
+    "videoUrl": "https://www.youtube.com/watch?v=6cHxq7gXisI",
     "videoId": "6cHxq7gXisI",
     "url": "https://www.youtube.com/watch?v=6cHxq7gXisI",
     "thumbnailUrl": "https://i.ytimg.com/vi/6cHxq7gXisI/maxresdefault.jpg",
@@ -15741,6 +17313,9 @@ const recipes = [
   },
   {
     "title": "厚揚げ豚挽き丼🧑🏻‍🍳#shorts #簡単レシピ#料理",
+    "platform": "youtube",
+    "externalId": "YvpG-0TUwZg",
+    "videoUrl": "https://www.youtube.com/watch?v=YvpG-0TUwZg",
     "videoId": "YvpG-0TUwZg",
     "url": "https://www.youtube.com/watch?v=YvpG-0TUwZg",
     "thumbnailUrl": "https://i.ytimg.com/vi/YvpG-0TUwZg/maxresdefault.jpg",
@@ -15772,6 +17347,9 @@ const recipes = [
   },
   {
     "title": "最高においしい牛丼の作り方/ How to make the most delicious gyudon",
+    "platform": "youtube",
+    "externalId": "UZeUikY2U8Q",
+    "videoUrl": "https://www.youtube.com/watch?v=UZeUikY2U8Q",
     "videoId": "UZeUikY2U8Q",
     "url": "https://www.youtube.com/watch?v=UZeUikY2U8Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/UZeUikY2U8Q/maxresdefault.jpg",
@@ -15799,6 +17377,9 @@ const recipes = [
   },
   {
     "title": "10分で完成【ワンパンビビンバ丼】 #レシピ",
+    "platform": "youtube",
+    "externalId": "edBSLjYj1Xk",
+    "videoUrl": "https://www.youtube.com/watch?v=edBSLjYj1Xk",
     "videoId": "edBSLjYj1Xk",
     "url": "https://www.youtube.com/watch?v=edBSLjYj1Xk",
     "thumbnailUrl": "https://i.ytimg.com/vi/edBSLjYj1Xk/maxresdefault.jpg",
@@ -15824,6 +17405,9 @@ const recipes = [
   },
   {
     "title": "脳がバグる😱じゃがりこを粉々にして、うなぎの蒲焼作ってみたらリアルすぎた！#Shorts #お菓子 #DIY #じゃがりこ",
+    "platform": "youtube",
+    "externalId": "FHwmQTShcmM",
+    "videoUrl": "https://www.youtube.com/watch?v=FHwmQTShcmM",
     "videoId": "FHwmQTShcmM",
     "url": "https://www.youtube.com/watch?v=FHwmQTShcmM",
     "thumbnailUrl": "https://i.ytimg.com/vi/FHwmQTShcmM/maxresdefault.jpg",
@@ -15849,6 +17433,9 @@ const recipes = [
   },
   {
     "title": "※再掲※正直レビュー!! 「ワンパンロコモコ丼」 #簡単レシピ #ワンパン #ロコモコ #ハンバーグ #おつまみ",
+    "platform": "youtube",
+    "externalId": "G51tdgYrth4",
+    "videoUrl": "https://www.youtube.com/watch?v=G51tdgYrth4",
     "videoId": "G51tdgYrth4",
     "url": "https://www.youtube.com/watch?v=G51tdgYrth4",
     "thumbnailUrl": "https://i.ytimg.com/vi/G51tdgYrth4/maxresdefault.jpg",
@@ -15887,6 +17474,9 @@ const recipes = [
   },
   {
     "title": "一度で作るそぼろ丼",
+    "platform": "youtube",
+    "externalId": "3XI5FZcsa8A",
+    "videoUrl": "https://www.youtube.com/watch?v=3XI5FZcsa8A",
     "videoId": "3XI5FZcsa8A",
     "url": "https://www.youtube.com/watch?v=3XI5FZcsa8A",
     "thumbnailUrl": "https://i.ytimg.com/vi/3XI5FZcsa8A/maxresdefault.jpg",
@@ -15912,6 +17502,9 @@ const recipes = [
   },
   {
     "title": "豚こまで節約！簡単豚丼 #簡単レシピ #時短節約 #shorts",
+    "platform": "youtube",
+    "externalId": "dRlJUFQKl0U",
+    "videoUrl": "https://www.youtube.com/watch?v=dRlJUFQKl0U",
     "videoId": "dRlJUFQKl0U",
     "url": "https://www.youtube.com/watch?v=dRlJUFQKl0U",
     "thumbnailUrl": "https://i.ytimg.com/vi/dRlJUFQKl0U/maxresdefault.jpg",
@@ -15946,6 +17539,9 @@ const recipes = [
   },
   {
     "title": "絶品照り焼き丼🧑🏻‍🍳🐓#簡単レシピ #照り焼き #給食 #shorts",
+    "platform": "youtube",
+    "externalId": "2LMT3DYSQaw",
+    "videoUrl": "https://www.youtube.com/watch?v=2LMT3DYSQaw",
     "videoId": "2LMT3DYSQaw",
     "url": "https://www.youtube.com/watch?v=2LMT3DYSQaw",
     "thumbnailUrl": "https://i.ytimg.com/vi/2LMT3DYSQaw/maxresdefault.jpg",
@@ -15977,6 +17573,9 @@ const recipes = [
   },
   {
     "title": "完全再現！すき家の牛丼＃簡単レシピ＃牛丼#shorts",
+    "platform": "youtube",
+    "externalId": "CLqjRGWDJik",
+    "videoUrl": "https://www.youtube.com/watch?v=CLqjRGWDJik",
     "videoId": "CLqjRGWDJik",
     "url": "https://www.youtube.com/watch?v=CLqjRGWDJik",
     "thumbnailUrl": "https://i.ytimg.com/vi/CLqjRGWDJik/maxresdefault.jpg",
@@ -16012,6 +17611,9 @@ const recipes = [
   },
   {
     "title": "わずか8分でこの美味しさ【帯広豚丼】",
+    "platform": "youtube",
+    "externalId": "jLX3DFXN0HE",
+    "videoUrl": "https://www.youtube.com/watch?v=jLX3DFXN0HE",
     "videoId": "jLX3DFXN0HE",
     "url": "https://www.youtube.com/watch?v=jLX3DFXN0HE",
     "thumbnailUrl": "https://i.ytimg.com/vi/jLX3DFXN0HE/maxresdefault.jpg",
@@ -16042,6 +17644,9 @@ const recipes = [
   },
   {
     "title": "卵だけ！絶品とろふわあんかけ丼 簡単 節約 ワンパンレシピ おうちごはん たまご料理",
+    "platform": "youtube",
+    "externalId": "R9jbv-PFcus",
+    "videoUrl": "https://www.youtube.com/watch?v=R9jbv-PFcus",
     "videoId": "R9jbv-PFcus",
     "url": "https://www.youtube.com/watch?v=R9jbv-PFcus",
     "thumbnailUrl": "https://i.ytimg.com/vi/R9jbv-PFcus/maxresdefault.jpg",
@@ -16086,6 +17691,9 @@ const recipes = [
   },
   {
     "title": "イケメンダイエットマグロポキ丼の作り方 #ダイエット #ダイエットレシピ #shorts",
+    "platform": "youtube",
+    "externalId": "K5d2wHRnCpk",
+    "videoUrl": "https://www.youtube.com/watch?v=K5d2wHRnCpk",
     "videoId": "K5d2wHRnCpk",
     "url": "https://www.youtube.com/watch?v=K5d2wHRnCpk",
     "thumbnailUrl": "https://i.ytimg.com/vi/K5d2wHRnCpk/maxresdefault.jpg",
@@ -16113,6 +17721,9 @@ const recipes = [
   },
   {
     "title": "にんにくも生姜も使わないからこそウマい!!スーパーの肉で至高を越えたシン・豚丼作ります#shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "ZpgbQn-C3cQ",
+    "videoUrl": "https://www.youtube.com/watch?v=ZpgbQn-C3cQ",
     "videoId": "ZpgbQn-C3cQ",
     "url": "https://www.youtube.com/watch?v=ZpgbQn-C3cQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZpgbQn-C3cQ/maxresdefault.jpg",
@@ -16143,6 +17754,9 @@ const recipes = [
   },
   {
     "title": "夫の大好物『ネギ塩豚丼』 #簡単レシピ #料理",
+    "platform": "youtube",
+    "externalId": "UTjViLyA4V0",
+    "videoUrl": "https://www.youtube.com/watch?v=UTjViLyA4V0",
     "videoId": "UTjViLyA4V0",
     "url": "https://www.youtube.com/watch?v=UTjViLyA4V0",
     "thumbnailUrl": "https://i.ytimg.com/vi/UTjViLyA4V0/maxresdefault.jpg",
@@ -16170,6 +17784,9 @@ const recipes = [
   },
   {
     "title": "【カニカマで作るカニ玉丼】10分で完成するふわとろ絶品丼！節約にもおすすめ♪",
+    "platform": "youtube",
+    "externalId": "KsyQwRFUTQM",
+    "videoUrl": "https://www.youtube.com/watch?v=KsyQwRFUTQM",
     "videoId": "KsyQwRFUTQM",
     "url": "https://www.youtube.com/watch?v=KsyQwRFUTQM",
     "thumbnailUrl": "https://i.ytimg.com/vi/KsyQwRFUTQM/maxresdefault.jpg",
@@ -16203,6 +17820,9 @@ const recipes = [
   },
   {
     "title": "【悪魔の甘辛ダレ】帯広風豚丼、ヤバすぎた【1週間白米が止まらないおかず生活】",
+    "platform": "youtube",
+    "externalId": "cpdrlO7UV70",
+    "videoUrl": "https://www.youtube.com/watch?v=cpdrlO7UV70",
     "videoId": "cpdrlO7UV70",
     "url": "https://www.youtube.com/watch?v=cpdrlO7UV70",
     "thumbnailUrl": "https://i.ytimg.com/vi/cpdrlO7UV70/maxresdefault.jpg",
@@ -16237,6 +17857,9 @@ const recipes = [
   },
   {
     "title": "【豚こまと卵の簡単レシピ】10分で絶品どんぶり！お箸とまらん♪",
+    "platform": "youtube",
+    "externalId": "l0k5Mrkgq2Q",
+    "videoUrl": "https://www.youtube.com/watch?v=l0k5Mrkgq2Q",
     "videoId": "l0k5Mrkgq2Q",
     "url": "https://www.youtube.com/watch?v=l0k5Mrkgq2Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/l0k5Mrkgq2Q/maxresdefault.jpg",
@@ -16268,6 +17891,9 @@ const recipes = [
   },
   {
     "title": "悪魔のてりたまベーコン丼",
+    "platform": "youtube",
+    "externalId": "1TGzuBboYXE",
+    "videoUrl": "https://www.youtube.com/watch?v=1TGzuBboYXE",
     "videoId": "1TGzuBboYXE",
     "url": "https://www.youtube.com/watch?v=1TGzuBboYXE",
     "thumbnailUrl": "https://i.ytimg.com/vi/1TGzuBboYXE/maxresdefault.jpg",
@@ -16299,6 +17925,9 @@ const recipes = [
   },
   {
     "title": "フライパン1つで完結！爆速そぼろ丼",
+    "platform": "youtube",
+    "externalId": "LpySaQfR-TM",
+    "videoUrl": "https://www.youtube.com/watch?v=LpySaQfR-TM",
     "videoId": "LpySaQfR-TM",
     "url": "https://www.youtube.com/watch?v=LpySaQfR-TM",
     "thumbnailUrl": "https://i.ytimg.com/vi/LpySaQfR-TM/maxresdefault.jpg",
@@ -16330,6 +17959,9 @@ const recipes = [
   },
   {
     "title": "我慢しない鶏むねユッケ丼 #彼ごはん#彼ご飯#自炊#簡単レシピ#ヘルシーレシピ#ダイエットレシピ#太らないレシピ#鶏むねユッケ#どんぶり#鶏むねレシピ#高タンパクレシピ#筋肉レシピ#レンチンレシピ",
+    "platform": "youtube",
+    "externalId": "d_org5K7DT0",
+    "videoUrl": "https://www.youtube.com/watch?v=d_org5K7DT0",
     "videoId": "d_org5K7DT0",
     "url": "https://www.youtube.com/watch?v=d_org5K7DT0",
     "thumbnailUrl": "https://i.ytimg.com/vi/d_org5K7DT0/maxresdefault.jpg",
@@ -16357,6 +17989,9 @@ const recipes = [
   },
   {
     "title": "おうちで再現！ 伝説のすた丼の作り方",
+    "platform": "youtube",
+    "externalId": "MFJXZAxqOik",
+    "videoUrl": "https://www.youtube.com/watch?v=MFJXZAxqOik",
     "videoId": "MFJXZAxqOik",
     "url": "https://www.youtube.com/watch?v=MFJXZAxqOik",
     "thumbnailUrl": "https://i.ytimg.com/vi/MFJXZAxqOik/hqdefault.jpg",
@@ -16392,6 +18027,9 @@ const recipes = [
   },
   {
     "title": "美味しい豚丼３００円【万能のただならぬタレを是非】小間肉でも極旨です おに豚丼。",
+    "platform": "youtube",
+    "externalId": "k8cgRiN4j-4",
+    "videoUrl": "https://www.youtube.com/watch?v=k8cgRiN4j-4",
     "videoId": "k8cgRiN4j-4",
     "url": "https://www.youtube.com/watch?v=k8cgRiN4j-4",
     "thumbnailUrl": "https://i.ytimg.com/vi/k8cgRiN4j-4/maxresdefault.jpg",
@@ -16424,6 +18062,9 @@ const recipes = [
   },
   {
     "title": "この金額で出来る一番うめえ料理これだと思う。死ぬほどバズったドケチレシピ【お金渋り丼】 #リュウジ #料理 #shorts",
+    "platform": "youtube",
+    "externalId": "iPshdzeTiRI",
+    "videoUrl": "https://www.youtube.com/watch?v=iPshdzeTiRI",
     "videoId": "iPshdzeTiRI",
     "url": "https://www.youtube.com/watch?v=iPshdzeTiRI",
     "thumbnailUrl": "https://i.ytimg.com/vi/iPshdzeTiRI/maxresdefault.jpg",
@@ -16451,6 +18092,9 @@ const recipes = [
   },
   {
     "title": "野菜もりもり食べれちゃう！そぼろ丼の作り方✨ #おうちごはん #shots",
+    "platform": "youtube",
+    "externalId": "6bIZdZkSEmY",
+    "videoUrl": "https://www.youtube.com/watch?v=6bIZdZkSEmY",
     "videoId": "6bIZdZkSEmY",
     "url": "https://www.youtube.com/watch?v=6bIZdZkSEmY",
     "thumbnailUrl": "https://i.ytimg.com/vi/6bIZdZkSEmY/maxresdefault.jpg",
@@ -16485,6 +18129,9 @@ const recipes = [
   },
   {
     "title": "【2ヶ月で6キロ痩せた】腸活めかぶ丼 #ダイエットレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "IqB9sqVygec",
+    "videoUrl": "https://www.youtube.com/watch?v=IqB9sqVygec",
     "videoId": "IqB9sqVygec",
     "url": "https://www.youtube.com/watch?v=IqB9sqVygec",
     "thumbnailUrl": "https://i.ytimg.com/vi/IqB9sqVygec/maxresdefault.jpg",
@@ -16516,6 +18163,9 @@ const recipes = [
   },
   {
     "title": "【どんなお肉でも絶対美味しくなる牛丼】",
+    "platform": "youtube",
+    "externalId": "XCplJeWH5gg",
+    "videoUrl": "https://www.youtube.com/watch?v=XCplJeWH5gg",
     "videoId": "XCplJeWH5gg",
     "url": "https://www.youtube.com/watch?v=XCplJeWH5gg",
     "thumbnailUrl": "https://i.ytimg.com/vi/XCplJeWH5gg/maxresdefault.jpg",
@@ -16543,6 +18193,9 @@ const recipes = [
   },
   {
     "title": "15分で出来る！牛肉と小松菜のふわ玉丼🤤✨ #簡単レシピ #料理",
+    "platform": "youtube",
+    "externalId": "951aMKh0T08",
+    "videoUrl": "https://www.youtube.com/watch?v=951aMKh0T08",
     "videoId": "951aMKh0T08",
     "url": "https://www.youtube.com/watch?v=951aMKh0T08",
     "thumbnailUrl": "https://i.ytimg.com/vi/951aMKh0T08/maxresdefault.jpg",
@@ -16572,6 +18225,9 @@ const recipes = [
   },
   {
     "title": "【白だしで簡単‼︎ふわとろ🥚鶏むね肉の親子丼🐓】#shoerts #簡単レシピ #時短節約 #料理#親子丼",
+    "platform": "youtube",
+    "externalId": "CrKbdD3z3KQ",
+    "videoUrl": "https://www.youtube.com/watch?v=CrKbdD3z3KQ",
     "videoId": "CrKbdD3z3KQ",
     "url": "https://www.youtube.com/watch?v=CrKbdD3z3KQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/CrKbdD3z3KQ/maxresdefault.jpg",
@@ -16607,6 +18263,9 @@ const recipes = [
   },
   {
     "title": "シャリアピンステーキ丼の美味しい作り方#shorts",
+    "platform": "youtube",
+    "externalId": "_rxQKv4RI0g",
+    "videoUrl": "https://www.youtube.com/watch?v=_rxQKv4RI0g",
     "videoId": "_rxQKv4RI0g",
     "url": "https://www.youtube.com/watch?v=_rxQKv4RI0g",
     "thumbnailUrl": "https://i.ytimg.com/vi/_rxQKv4RI0g/maxresdefault.jpg",
@@ -16632,6 +18291,9 @@ const recipes = [
   },
   {
     "title": "ウィンナーと卵さえあれば作れる超最強おかず。ご飯無限です",
+    "platform": "youtube",
+    "externalId": "Xktr0gbHbK0",
+    "videoUrl": "https://www.youtube.com/watch?v=Xktr0gbHbK0",
     "videoId": "Xktr0gbHbK0",
     "url": "https://www.youtube.com/watch?v=Xktr0gbHbK0",
     "thumbnailUrl": "https://i.ytimg.com/vi/Xktr0gbHbK0/maxresdefault.jpg",
@@ -16659,6 +18321,9 @@ const recipes = [
   },
   {
     "title": "ビビンバ丼 #幼児食 #簡単レシピ #野菜嫌い #料理 #自炊",
+    "platform": "youtube",
+    "externalId": "BkLNDAKkXIs",
+    "videoUrl": "https://www.youtube.com/watch?v=BkLNDAKkXIs",
     "videoId": "BkLNDAKkXIs",
     "url": "https://www.youtube.com/watch?v=BkLNDAKkXIs",
     "thumbnailUrl": "https://i.ytimg.com/vi/BkLNDAKkXIs/maxresdefault.jpg",
@@ -16691,6 +18356,9 @@ const recipes = [
   },
   {
     "title": "正直、これしか出さない定食屋さんがあっても通うレベルでウマい。米泥棒、無限豚バラ #リュウジ #料理 #バズレシピ #レシピ #レシピ動画 #料理動画 #豚バラ",
+    "platform": "youtube",
+    "externalId": "LpdGn4pL4T8",
+    "videoUrl": "https://www.youtube.com/watch?v=LpdGn4pL4T8",
     "videoId": "LpdGn4pL4T8",
     "url": "https://www.youtube.com/watch?v=LpdGn4pL4T8",
     "thumbnailUrl": "https://i.ytimg.com/vi/LpdGn4pL4T8/maxresdefault.jpg",
@@ -16720,6 +18388,9 @@ const recipes = [
   },
   {
     "title": "めちゃ美味しいカツ丼のタレ作り方！一人前分量～！ #shorts #簡単レシピ #カツ丼タレ",
+    "platform": "youtube",
+    "externalId": "yeTlYD8jmmE",
+    "videoUrl": "https://www.youtube.com/watch?v=yeTlYD8jmmE",
     "videoId": "yeTlYD8jmmE",
     "url": "https://www.youtube.com/watch?v=yeTlYD8jmmE",
     "thumbnailUrl": "https://i.ytimg.com/vi/yeTlYD8jmmE/maxresdefault.jpg",
@@ -16745,6 +18416,9 @@ const recipes = [
   },
   {
     "title": "ひき肉が100倍旨くなる！至高の肉味噌たまご丼 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "iInKm-j7yc0",
+    "videoUrl": "https://www.youtube.com/watch?v=iInKm-j7yc0",
     "videoId": "iInKm-j7yc0",
     "url": "https://www.youtube.com/watch?v=iInKm-j7yc0",
     "thumbnailUrl": "https://i.ytimg.com/vi/iInKm-j7yc0/maxresdefault.jpg",
@@ -16776,6 +18450,9 @@ const recipes = [
   },
   {
     "title": "材料3つだけで超簡単&激うま！ジューシー油揚げにふわとろ卵！あぶたま丼の作り方",
+    "platform": "youtube",
+    "externalId": "P3tzLsw4B1w",
+    "videoUrl": "https://www.youtube.com/watch?v=P3tzLsw4B1w",
     "videoId": "P3tzLsw4B1w",
     "url": "https://www.youtube.com/watch?v=P3tzLsw4B1w",
     "thumbnailUrl": "https://i.ytimg.com/vi/P3tzLsw4B1w/maxresdefault.jpg",
@@ -16808,6 +18485,9 @@ const recipes = [
   },
   {
     "title": "10分で激うま！焼き鳥丼 #簡単レシピ #今日の晩ごはん #ワーママご飯 #ワンパンレシピ #おうちごはん #時短レシピ #こどもごはん #焼き鳥 #鶏肉レシピ",
+    "platform": "youtube",
+    "externalId": "OWFmmA1Fa-w",
+    "videoUrl": "https://www.youtube.com/watch?v=OWFmmA1Fa-w",
     "videoId": "OWFmmA1Fa-w",
     "url": "https://www.youtube.com/watch?v=OWFmmA1Fa-w",
     "thumbnailUrl": "https://i.ytimg.com/vi/OWFmmA1Fa-w/maxresdefault.jpg",
@@ -16841,6 +18521,9 @@ const recipes = [
   },
   {
     "title": "絶品中華丼🧑🏻‍🍳#簡単レシピ #中華丼 #給食 #shorts",
+    "platform": "youtube",
+    "externalId": "mO-9aQFdABI",
+    "videoUrl": "https://www.youtube.com/watch?v=mO-9aQFdABI",
     "videoId": "mO-9aQFdABI",
     "url": "https://www.youtube.com/watch?v=mO-9aQFdABI",
     "thumbnailUrl": "https://i.ytimg.com/vi/mO-9aQFdABI/maxresdefault.jpg",
@@ -16879,6 +18562,9 @@ const recipes = [
   },
   {
     "title": "海鮮丼は青魚が旨い #shorts #海鮮丼 #sashimi",
+    "platform": "youtube",
+    "externalId": "8EEXmB8rK7k",
+    "videoUrl": "https://www.youtube.com/watch?v=8EEXmB8rK7k",
     "videoId": "8EEXmB8rK7k",
     "url": "https://www.youtube.com/watch?v=8EEXmB8rK7k",
     "thumbnailUrl": "https://i.ytimg.com/vi/8EEXmB8rK7k/maxresdefault.jpg",
@@ -16906,6 +18592,9 @@ const recipes = [
   },
   {
     "title": "ニラとひき肉のスタミナ丼 #簡単レシピ #時短節約 #料理 #whatieatinaday #まいにちごはん",
+    "platform": "youtube",
+    "externalId": "DmNmsrZqh64",
+    "videoUrl": "https://www.youtube.com/watch?v=DmNmsrZqh64",
     "videoId": "DmNmsrZqh64",
     "url": "https://www.youtube.com/watch?v=DmNmsrZqh64",
     "thumbnailUrl": "https://i.ytimg.com/vi/DmNmsrZqh64/maxresdefault.jpg",
@@ -16935,6 +18624,9 @@ const recipes = [
   },
   {
     "title": "卵あれば誰でも簡単にできるクソうまい北海道北見市のソウルフード",
+    "platform": "youtube",
+    "externalId": "tto3vJjqfps",
+    "videoUrl": "https://www.youtube.com/watch?v=tto3vJjqfps",
     "videoId": "tto3vJjqfps",
     "url": "https://www.youtube.com/watch?v=tto3vJjqfps",
     "thumbnailUrl": "https://i.ytimg.com/vi/tto3vJjqfps/maxresdefault.jpg",
@@ -16962,6 +18654,9 @@ const recipes = [
   },
   {
     "title": "これが88円で食えるのヤバいだろ…安い油揚げが牛丼並みにウマくなる【虚無ごはん5】 #shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "FNmjTjVSSUI",
+    "videoUrl": "https://www.youtube.com/watch?v=FNmjTjVSSUI",
     "videoId": "FNmjTjVSSUI",
     "url": "https://www.youtube.com/watch?v=FNmjTjVSSUI",
     "thumbnailUrl": "https://i.ytimg.com/vi/FNmjTjVSSUI/maxresdefault.jpg",
@@ -16991,6 +18686,9 @@ const recipes = [
   },
   {
     "title": "和風ステーキ丼の作り方#shorts",
+    "platform": "youtube",
+    "externalId": "SN3enmkudCI",
+    "videoUrl": "https://www.youtube.com/watch?v=SN3enmkudCI",
     "videoId": "SN3enmkudCI",
     "url": "https://www.youtube.com/watch?v=SN3enmkudCI",
     "thumbnailUrl": "https://i.ytimg.com/vi/SN3enmkudCI/maxresdefault.jpg",
@@ -17016,6 +18714,9 @@ const recipes = [
   },
   {
     "title": "【笠原シェフを訪ね、賛否両論へ】桝谷が愛した“親子丼”ふわふわになる裏技満載！【この味一生忘れない】Oyakodon",
+    "platform": "youtube",
+    "externalId": "v9O_1gsRHU4",
+    "videoUrl": "https://www.youtube.com/watch?v=v9O_1gsRHU4",
     "videoId": "v9O_1gsRHU4",
     "url": "https://www.youtube.com/watch?v=v9O_1gsRHU4",
     "thumbnailUrl": "https://i.ytimg.com/vi/v9O_1gsRHU4/maxresdefault.jpg",
@@ -17047,6 +18748,9 @@ const recipes = [
   },
   {
     "title": "『インスタ800万再生突破』ぷるぷるムネ肉ユッケ丼#簡単レシピ #むね肉 #レシピ",
+    "platform": "youtube",
+    "externalId": "jctLEuydvao",
+    "videoUrl": "https://www.youtube.com/watch?v=jctLEuydvao",
     "videoId": "jctLEuydvao",
     "url": "https://www.youtube.com/watch?v=jctLEuydvao",
     "thumbnailUrl": "https://i.ytimg.com/vi/jctLEuydvao/maxresdefault.jpg",
@@ -17072,6 +18776,9 @@ const recipes = [
   },
   {
     "title": "【出汁は使わない。親子丼の旨味を最大にするには鶏肉の下処理が肝心】｜#クラシル #shorts",
+    "platform": "youtube",
+    "externalId": "Fiv_3pfqRJo",
+    "videoUrl": "https://www.youtube.com/watch?v=Fiv_3pfqRJo",
     "videoId": "Fiv_3pfqRJo",
     "url": "https://www.youtube.com/watch?v=Fiv_3pfqRJo",
     "thumbnailUrl": "https://i.ytimg.com/vi/Fiv_3pfqRJo/maxresdefault.jpg",
@@ -17099,6 +18806,9 @@ const recipes = [
   },
   {
     "title": "【部活終わりこれあったら大喜び】ニラ豚ミンチ丼 #料理 #マッチョ #元カレ #簡単レシピ #暮らしチャンネル #cooking",
+    "platform": "youtube",
+    "externalId": "oreYAqWOPFI",
+    "videoUrl": "https://www.youtube.com/watch?v=oreYAqWOPFI",
     "videoId": "oreYAqWOPFI",
     "url": "https://www.youtube.com/watch?v=oreYAqWOPFI",
     "thumbnailUrl": "https://i.ytimg.com/vi/oreYAqWOPFI/maxresdefault.jpg",
@@ -17130,6 +18840,9 @@ const recipes = [
   },
   {
     "title": "どのお店にも絶対負けないほどガチで旨い【極トンテキ】",
+    "platform": "youtube",
+    "externalId": "krtygrktFHM",
+    "videoUrl": "https://www.youtube.com/watch?v=krtygrktFHM",
     "videoId": "krtygrktFHM",
     "url": "https://www.youtube.com/watch?v=krtygrktFHM",
     "thumbnailUrl": "https://i.ytimg.com/vi/krtygrktFHM/maxresdefault.jpg",
@@ -17162,6 +18875,9 @@ const recipes = [
   },
   {
     "title": "それカツにすんのかよ。肉無しでも笑えるほど美味しい【貧乏人のカツ丼】が安いのに旨すぎる#shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "6BVMyQLBsN4",
+    "videoUrl": "https://www.youtube.com/watch?v=6BVMyQLBsN4",
     "videoId": "6BVMyQLBsN4",
     "url": "https://www.youtube.com/watch?v=6BVMyQLBsN4",
     "thumbnailUrl": "https://i.ytimg.com/vi/6BVMyQLBsN4/maxresdefault.jpg",
@@ -17189,6 +18905,9 @@ const recipes = [
   },
   {
     "title": "牛丼をそのまま煮るのは大損！安い肉が劇的にトロトロになる元店員の秘密の下準備。 #牛丼の作り方 #おすすめ #裏技 #暮らしの知恵 #主婦の知恵",
+    "platform": "youtube",
+    "externalId": "RmnpWkWnyk8",
+    "videoUrl": "https://www.youtube.com/watch?v=RmnpWkWnyk8",
     "videoId": "RmnpWkWnyk8",
     "url": "https://www.youtube.com/watch?v=RmnpWkWnyk8",
     "thumbnailUrl": "https://i.ytimg.com/vi/RmnpWkWnyk8/maxresdefault.jpg",
@@ -17214,6 +18933,9 @@ const recipes = [
   },
   {
     "title": "結局これが1番うまい…チキンとほうれん草のクリームパスタが美味すぎて溺れたい！#パスタ #時短レシピ #クリームパスタ",
+    "platform": "youtube",
+    "externalId": "m-kPlNRypeE",
+    "videoUrl": "https://www.youtube.com/watch?v=m-kPlNRypeE",
     "videoId": "m-kPlNRypeE",
     "url": "https://www.youtube.com/watch?v=m-kPlNRypeE",
     "thumbnailUrl": "https://i.ytimg.com/vi/m-kPlNRypeE/maxresdefault.jpg",
@@ -17243,6 +18965,9 @@ const recipes = [
   },
   {
     "title": "【至高のパスタ】ミニトマトで作る！あっさりトマトパスタ #パスタレシピ #パスタ",
+    "platform": "youtube",
+    "externalId": "n3QC5g4FeX8",
+    "videoUrl": "https://www.youtube.com/watch?v=n3QC5g4FeX8",
     "videoId": "n3QC5g4FeX8",
     "url": "https://www.youtube.com/watch?v=n3QC5g4FeX8",
     "thumbnailUrl": "https://i.ytimg.com/vi/n3QC5g4FeX8/maxresdefault.jpg",
@@ -17274,6 +18999,9 @@ const recipes = [
   },
   {
     "title": "僕が10代から作ってる本当に美味しいペペロンチーノのレシピはこちらです。【悪魔のペペロンチーノ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #パスタ",
+    "platform": "youtube",
+    "externalId": "Aj5t5nUu61w",
+    "videoUrl": "https://www.youtube.com/watch?v=Aj5t5nUu61w",
     "videoId": "Aj5t5nUu61w",
     "url": "https://www.youtube.com/watch?v=Aj5t5nUu61w",
     "thumbnailUrl": "https://i.ytimg.com/vi/Aj5t5nUu61w/maxresdefault.jpg",
@@ -17301,6 +19029,9 @@ const recipes = [
   },
   {
     "title": "これが1番うまい…濃厚バター醤油パスタがあっさりなのに猛烈に美味しい！ #パスタ #時短レシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "McTrXHDX81k",
+    "videoUrl": "https://www.youtube.com/watch?v=McTrXHDX81k",
     "videoId": "McTrXHDX81k",
     "url": "https://www.youtube.com/watch?v=McTrXHDX81k",
     "thumbnailUrl": "https://i.ytimg.com/vi/McTrXHDX81k/maxresdefault.jpg",
@@ -17334,6 +19065,9 @@ const recipes = [
   },
   {
     "title": "【白だしだけで作るパスタ】小松菜の和風パスタ #レシピ動画 #簡単レシピ #料理 #レシピ #パスタ",
+    "platform": "youtube",
+    "externalId": "EW40qfxgsho",
+    "videoUrl": "https://www.youtube.com/watch?v=EW40qfxgsho",
     "videoId": "EW40qfxgsho",
     "url": "https://www.youtube.com/watch?v=EW40qfxgsho",
     "thumbnailUrl": "https://i.ytimg.com/vi/EW40qfxgsho/maxresdefault.jpg",
@@ -17370,6 +19104,9 @@ const recipes = [
   },
   {
     "title": "【15分で作れる】ほぼお店の味！最高に美味しいナポリタンが完成。#パスタ #簡単レシピ #時短レシピ #料理",
+    "platform": "youtube",
+    "externalId": "5nzS6Gc4O40",
+    "videoUrl": "https://www.youtube.com/watch?v=5nzS6Gc4O40",
     "videoId": "5nzS6Gc4O40",
     "url": "https://www.youtube.com/watch?v=5nzS6Gc4O40",
     "thumbnailUrl": "https://i.ytimg.com/vi/5nzS6Gc4O40/maxresdefault.jpg",
@@ -17395,6 +19132,9 @@ const recipes = [
   },
   {
     "title": "大人気のパスタを再現してみました🍝 #レシピ #カプリチョーザ",
+    "platform": "youtube",
+    "externalId": "SVSlHAjImdY",
+    "videoUrl": "https://www.youtube.com/watch?v=SVSlHAjImdY",
     "videoId": "SVSlHAjImdY",
     "url": "https://www.youtube.com/watch?v=SVSlHAjImdY",
     "thumbnailUrl": "https://i.ytimg.com/vi/SVSlHAjImdY/maxresdefault.jpg",
@@ -17420,6 +19160,9 @@ const recipes = [
   },
   {
     "title": "生クリーム？小麦粉？ルー？全部いらねえのにお店の味、信じられない【虚無チーズパスタ】#shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "yrAKZZsXc_w",
+    "videoUrl": "https://www.youtube.com/watch?v=yrAKZZsXc_w",
     "videoId": "yrAKZZsXc_w",
     "url": "https://www.youtube.com/watch?v=yrAKZZsXc_w",
     "thumbnailUrl": "https://i.ytimg.com/vi/yrAKZZsXc_w/maxresdefault.jpg",
@@ -17451,6 +19194,9 @@ const recipes = [
   },
   {
     "title": "5分で簡単！最強納豆パスタ〜🍝 #簡単レシピ #料理 #パスタ",
+    "platform": "youtube",
+    "externalId": "bMTSe5DNBLU",
+    "videoUrl": "https://www.youtube.com/watch?v=bMTSe5DNBLU",
     "videoId": "bMTSe5DNBLU",
     "url": "https://www.youtube.com/watch?v=bMTSe5DNBLU",
     "thumbnailUrl": "https://i.ytimg.com/vi/bMTSe5DNBLU/maxresdefault.jpg",
@@ -17476,6 +19222,9 @@ const recipes = [
   },
   {
     "title": "【10分で作れる】大盛りで食べたくなる和風ツナパスタ！#簡単レシピ #パスタ",
+    "platform": "youtube",
+    "externalId": "KCnw8BVW3hQ",
+    "videoUrl": "https://www.youtube.com/watch?v=KCnw8BVW3hQ",
     "videoId": "KCnw8BVW3hQ",
     "url": "https://www.youtube.com/watch?v=KCnw8BVW3hQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/KCnw8BVW3hQ/maxresdefault.jpg",
@@ -17503,6 +19252,9 @@ const recipes = [
   },
   {
     "title": "【ワンパン15分】このキノコパスタ最上級に美味しい！#パスタ #簡単レシピ #料理 #時短レシピ #パスタ",
+    "platform": "youtube",
+    "externalId": "vtbNNttBGzY",
+    "videoUrl": "https://www.youtube.com/watch?v=vtbNNttBGzY",
     "videoId": "vtbNNttBGzY",
     "url": "https://www.youtube.com/watch?v=vtbNNttBGzY",
     "thumbnailUrl": "https://i.ytimg.com/vi/vtbNNttBGzY/maxresdefault.jpg",
@@ -17528,6 +19280,9 @@ const recipes = [
   },
   {
     "title": "旨辛トマトパスタ！基本の【アラビアータ🇮🇹】#shorts",
+    "platform": "youtube",
+    "externalId": "deVNLrZ01g4",
+    "videoUrl": "https://www.youtube.com/watch?v=deVNLrZ01g4",
     "videoId": "deVNLrZ01g4",
     "url": "https://www.youtube.com/watch?v=deVNLrZ01g4",
     "thumbnailUrl": "https://i.ytimg.com/vi/deVNLrZ01g4/maxresdefault.jpg",
@@ -17559,6 +19314,9 @@ const recipes = [
   },
   {
     "title": "総再生400万回越え！ガーリックバターの和風【きのこパスタ】",
+    "platform": "youtube",
+    "externalId": "hDbz3m0yWkw",
+    "videoUrl": "https://www.youtube.com/watch?v=hDbz3m0yWkw",
     "videoId": "hDbz3m0yWkw",
     "url": "https://www.youtube.com/watch?v=hDbz3m0yWkw",
     "thumbnailUrl": "https://i.ytimg.com/vi/hDbz3m0yWkw/maxresdefault.jpg",
@@ -17588,6 +19346,9 @@ const recipes = [
   },
   {
     "title": "やる気1％で極上のワンパンカルボナーラ",
+    "platform": "youtube",
+    "externalId": "SZPHZ8pmyr0",
+    "videoUrl": "https://www.youtube.com/watch?v=SZPHZ8pmyr0",
     "videoId": "SZPHZ8pmyr0",
     "url": "https://www.youtube.com/watch?v=SZPHZ8pmyr0",
     "thumbnailUrl": "https://i.ytimg.com/vi/SZPHZ8pmyr0/maxresdefault.jpg",
@@ -17622,6 +19383,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！濃厚チーズパスタ",
+    "platform": "youtube",
+    "externalId": "f3ziYO2Diqk",
+    "videoUrl": "https://www.youtube.com/watch?v=f3ziYO2Diqk",
     "videoId": "f3ziYO2Diqk",
     "url": "https://www.youtube.com/watch?v=f3ziYO2Diqk",
     "thumbnailUrl": "https://i.ytimg.com/vi/f3ziYO2Diqk/maxresdefault.jpg",
@@ -17653,6 +19417,9 @@ const recipes = [
   },
   {
     "title": "イタリアで作るペペロンチーノがシンプルの極み！#ペペロンチーノ #パスタ #レシピ",
+    "platform": "youtube",
+    "externalId": "tF7cFllj7FQ",
+    "videoUrl": "https://www.youtube.com/watch?v=tF7cFllj7FQ",
     "videoId": "tF7cFllj7FQ",
     "url": "https://www.youtube.com/watch?v=tF7cFllj7FQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/tF7cFllj7FQ/sddefault.jpg",
@@ -17680,6 +19447,9 @@ const recipes = [
   },
   {
     "title": "1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】",
+    "platform": "youtube",
+    "externalId": "TWe1jMtLmzY",
+    "videoUrl": "https://www.youtube.com/watch?v=TWe1jMtLmzY",
     "videoId": "TWe1jMtLmzY",
     "url": "https://www.youtube.com/watch?v=TWe1jMtLmzY",
     "thumbnailUrl": "https://i.ytimg.com/vi/TWe1jMtLmzY/hqdefault.jpg",
@@ -17713,6 +19483,9 @@ const recipes = [
   },
   {
     "title": "【冷凍シーフードミックスで作る】絶品シーフードパスタの作り方！解凍要らず！",
+    "platform": "youtube",
+    "externalId": "UWfAZNLGt0g",
+    "videoUrl": "https://www.youtube.com/watch?v=UWfAZNLGt0g",
     "videoId": "UWfAZNLGt0g",
     "url": "https://www.youtube.com/watch?v=UWfAZNLGt0g",
     "thumbnailUrl": "https://i.ytimg.com/vi/UWfAZNLGt0g/maxresdefault.jpg",
@@ -17740,6 +19513,9 @@ const recipes = [
   },
   {
     "title": "和風きのこパスタの作り方｜フライパン1つで簡単！きのこの旨みたっぷりで風味豊かな和風パスタ！忙しい日にピッタリ！-How to make Mushroom Pasta-【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "U_9KrBg1lMs",
+    "videoUrl": "https://www.youtube.com/watch?v=U_9KrBg1lMs",
     "videoId": "U_9KrBg1lMs",
     "url": "https://www.youtube.com/watch?v=U_9KrBg1lMs",
     "thumbnailUrl": "https://i.ytimg.com/vi/U_9KrBg1lMs/maxresdefault.jpg",
@@ -17780,6 +19556,9 @@ const recipes = [
   },
   {
     "title": "調味料2つで完成する究極に美味しい和風パスタ",
+    "platform": "youtube",
+    "externalId": "OQvk8GM4fBE",
+    "videoUrl": "https://www.youtube.com/watch?v=OQvk8GM4fBE",
     "videoId": "OQvk8GM4fBE",
     "url": "https://www.youtube.com/watch?v=OQvk8GM4fBE",
     "thumbnailUrl": "https://i.ytimg.com/vi/OQvk8GM4fBE/maxresdefault.jpg",
@@ -17812,6 +19591,9 @@ const recipes = [
   },
   {
     "title": "超簡単で激ウマなパスタレシピ３選🍝 #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "CIp-SsRUsQ8",
+    "videoUrl": "https://www.youtube.com/watch?v=CIp-SsRUsQ8",
     "videoId": "CIp-SsRUsQ8",
     "url": "https://www.youtube.com/watch?v=CIp-SsRUsQ8",
     "thumbnailUrl": "https://i.ytimg.com/vi/CIp-SsRUsQ8/maxresdefault.jpg",
@@ -17837,6 +19619,9 @@ const recipes = [
   },
   {
     "title": "本場イタリアの失敗なしの【カルボナーラ】コツは水！#カルボナーラ #パスタ #レシピ",
+    "platform": "youtube",
+    "externalId": "pYCq8uNLAwM",
+    "videoUrl": "https://www.youtube.com/watch?v=pYCq8uNLAwM",
     "videoId": "pYCq8uNLAwM",
     "url": "https://www.youtube.com/watch?v=pYCq8uNLAwM",
     "thumbnailUrl": "https://i.ytimg.com/vi/pYCq8uNLAwM/maxresdefault.jpg",
@@ -17864,6 +19649,9 @@ const recipes = [
   },
   {
     "title": "【激ウマパスタレシピ3選🍝】2025年上期に作ったパスタの中から特に美味しかったものを紹介します！ #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "0gD0fzOOJtI",
+    "videoUrl": "https://www.youtube.com/watch?v=0gD0fzOOJtI",
     "videoId": "0gD0fzOOJtI",
     "url": "https://www.youtube.com/watch?v=0gD0fzOOJtI",
     "thumbnailUrl": "https://i.ytimg.com/vi/0gD0fzOOJtI/maxresdefault.jpg",
@@ -17889,6 +19677,9 @@ const recipes = [
   },
   {
     "title": "1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】 #リュウジ #料理 #パスタ",
+    "platform": "youtube",
+    "externalId": "j8RGWROicl4",
+    "videoUrl": "https://www.youtube.com/watch?v=j8RGWROicl4",
     "videoId": "j8RGWROicl4",
     "url": "https://www.youtube.com/watch?v=j8RGWROicl4",
     "thumbnailUrl": "https://i.ytimg.com/vi/j8RGWROicl4/maxresdefault.jpg",
@@ -17918,6 +19709,9 @@ const recipes = [
   },
   {
     "title": "【貧乏人のパスタ】YouTubeで人気の簡単パスタ #shorts",
+    "platform": "youtube",
+    "externalId": "Pn1yF9ASc54",
+    "videoUrl": "https://www.youtube.com/watch?v=Pn1yF9ASc54",
     "videoId": "Pn1yF9ASc54",
     "url": "https://www.youtube.com/watch?v=Pn1yF9ASc54",
     "thumbnailUrl": "https://i.ytimg.com/vi/Pn1yF9ASc54/maxresdefault.jpg",
@@ -17951,6 +19745,9 @@ const recipes = [
   },
   {
     "title": "【ワンパン10分で作れる◎】海老トマトクリームパスタ #料理動画 #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #パスタレシピ",
+    "platform": "youtube",
+    "externalId": "89o7Dpd9cWA",
+    "videoUrl": "https://www.youtube.com/watch?v=89o7Dpd9cWA",
     "videoId": "89o7Dpd9cWA",
     "url": "https://www.youtube.com/watch?v=89o7Dpd9cWA",
     "thumbnailUrl": "https://i.ytimg.com/vi/89o7Dpd9cWA/maxresdefault.jpg",
@@ -17985,6 +19782,9 @@ const recipes = [
   },
   {
     "title": "フライパン１つで作れるありえないほど美味しいパスタの作り方",
+    "platform": "youtube",
+    "externalId": "FuWkGfcPgn4",
+    "videoUrl": "https://www.youtube.com/watch?v=FuWkGfcPgn4",
     "videoId": "FuWkGfcPgn4",
     "url": "https://www.youtube.com/watch?v=FuWkGfcPgn4",
     "thumbnailUrl": "https://i.ytimg.com/vi/FuWkGfcPgn4/maxresdefault.jpg",
@@ -18010,6 +19810,9 @@ const recipes = [
   },
   {
     "title": "大葉20枚使った絶対おいしいパスタ【どっさり青じそパスタ】 #大葉 #青じそ #パスタ #スパゲティ #大葉レシピ",
+    "platform": "youtube",
+    "externalId": "tYKYi2fFYqM",
+    "videoUrl": "https://www.youtube.com/watch?v=tYKYi2fFYqM",
     "videoId": "tYKYi2fFYqM",
     "url": "https://www.youtube.com/watch?v=tYKYi2fFYqM",
     "thumbnailUrl": "https://i.ytimg.com/vi/tYKYi2fFYqM/maxresdefault.jpg",
@@ -18040,6 +19843,9 @@ const recipes = [
   },
   {
     "title": "革命｜味噌×ペペロンチーノ【みそロンチーノ】#shorts",
+    "platform": "youtube",
+    "externalId": "XMLtlccLUqc",
+    "videoUrl": "https://www.youtube.com/watch?v=XMLtlccLUqc",
     "videoId": "XMLtlccLUqc",
     "url": "https://www.youtube.com/watch?v=XMLtlccLUqc",
     "thumbnailUrl": "https://i.ytimg.com/vi/XMLtlccLUqc/maxresdefault.jpg",
@@ -18067,6 +19873,9 @@ const recipes = [
   },
   {
     "title": "本場推奨🇮🇹【暗殺者のパスタ】36cmの鉄フライパンで作る！#shorts",
+    "platform": "youtube",
+    "externalId": "e4vTddzINWI",
+    "videoUrl": "https://www.youtube.com/watch?v=e4vTddzINWI",
     "videoId": "e4vTddzINWI",
     "url": "https://www.youtube.com/watch?v=e4vTddzINWI",
     "thumbnailUrl": "https://i.ytimg.com/vi/e4vTddzINWI/maxresdefault.jpg",
@@ -18094,6 +19903,9 @@ const recipes = [
   },
   {
     "title": "【簡単10分】貧乏パスタ｜一気に大盛作るコツ！#shorts",
+    "platform": "youtube",
+    "externalId": "cgj2ppzs-TA",
+    "videoUrl": "https://www.youtube.com/watch?v=cgj2ppzs-TA",
     "videoId": "cgj2ppzs-TA",
     "url": "https://www.youtube.com/watch?v=cgj2ppzs-TA",
     "thumbnailUrl": "https://i.ytimg.com/vi/cgj2ppzs-TA/maxresdefault.jpg",
@@ -18125,6 +19937,9 @@ const recipes = [
   },
   {
     "title": "【ペペロンチーノ】誰でも1発で乳化できる作り方",
+    "platform": "youtube",
+    "externalId": "32u3j47-XiA",
+    "videoUrl": "https://www.youtube.com/watch?v=32u3j47-XiA",
     "videoId": "32u3j47-XiA",
     "url": "https://www.youtube.com/watch?v=32u3j47-XiA",
     "thumbnailUrl": "https://i.ytimg.com/vi/32u3j47-XiA/maxresdefault.jpg",
@@ -18152,6 +19967,9 @@ const recipes = [
   },
   {
     "title": "こんなに旨いのにまだ日本では全く知られてない無名にして最高の【不遇のパスタ】#shorts #リュウジ #レシピ",
+    "platform": "youtube",
+    "externalId": "gBwB_7avAmo",
+    "videoUrl": "https://www.youtube.com/watch?v=gBwB_7avAmo",
     "videoId": "gBwB_7avAmo",
     "url": "https://www.youtube.com/watch?v=gBwB_7avAmo",
     "thumbnailUrl": "https://i.ytimg.com/vi/gBwB_7avAmo/maxresdefault.jpg",
@@ -18179,6 +19997,9 @@ const recipes = [
   },
   {
     "title": "ワンパンで和風明太クリームパスタ",
+    "platform": "youtube",
+    "externalId": "sij4jBxslfE",
+    "videoUrl": "https://www.youtube.com/watch?v=sij4jBxslfE",
     "videoId": "sij4jBxslfE",
     "url": "https://www.youtube.com/watch?v=sij4jBxslfE",
     "thumbnailUrl": "https://i.ytimg.com/vi/sij4jBxslfE/maxresdefault.jpg",
@@ -18209,6 +20030,9 @@ const recipes = [
   },
   {
     "title": "悶絶パスタ🍝",
+    "platform": "youtube",
+    "externalId": "LMoce11XFuM",
+    "videoUrl": "https://www.youtube.com/watch?v=LMoce11XFuM",
     "videoId": "LMoce11XFuM",
     "url": "https://www.youtube.com/watch?v=LMoce11XFuM",
     "thumbnailUrl": "https://i.ytimg.com/vi/LMoce11XFuM/maxresdefault.jpg",
@@ -18234,6 +20058,9 @@ const recipes = [
   },
   {
     "title": "パスタは折らずに作りました🍝【ワンパンツナトマトパスタ】詳しいレシピは概要欄をチェック！#パスタ#ワンパン #ワンパンパスタ#ツナ#トマトパスタ #スパゲティ #料理動画 #レシピ動画 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "8xLifbLi3XY",
+    "videoUrl": "https://www.youtube.com/watch?v=8xLifbLi3XY",
     "videoId": "8xLifbLi3XY",
     "url": "https://www.youtube.com/watch?v=8xLifbLi3XY",
     "thumbnailUrl": "https://i.ytimg.com/vi/8xLifbLi3XY/maxresdefault.jpg",
@@ -18266,6 +20093,9 @@ const recipes = [
   },
   {
     "title": "無条件に美味しい【ガーリックバター醤油のパスタ】#shorts",
+    "platform": "youtube",
+    "externalId": "HDe_3PULafE",
+    "videoUrl": "https://www.youtube.com/watch?v=HDe_3PULafE",
     "videoId": "HDe_3PULafE",
     "url": "https://www.youtube.com/watch?v=HDe_3PULafE",
     "thumbnailUrl": "https://i.ytimg.com/vi/HDe_3PULafE/maxresdefault.jpg",
@@ -18301,6 +20131,9 @@ const recipes = [
   },
   {
     "title": "フライパン１つでぜっっったいに失敗しない本格カルボナーラ",
+    "platform": "youtube",
+    "externalId": "AN7bvnTvq7U",
+    "videoUrl": "https://www.youtube.com/watch?v=AN7bvnTvq7U",
     "videoId": "AN7bvnTvq7U",
     "url": "https://www.youtube.com/watch?v=AN7bvnTvq7U",
     "thumbnailUrl": "https://i.ytimg.com/vi/AN7bvnTvq7U/maxresdefault.jpg",
@@ -18326,6 +20159,9 @@ const recipes = [
   },
   {
     "title": "いや、美味すぎるって！ただ和えるだけパスタ。",
+    "platform": "youtube",
+    "externalId": "w4UZhwDqBrY",
+    "videoUrl": "https://www.youtube.com/watch?v=w4UZhwDqBrY",
     "videoId": "w4UZhwDqBrY",
     "url": "https://www.youtube.com/watch?v=w4UZhwDqBrY",
     "thumbnailUrl": "https://i.ytimg.com/vi/w4UZhwDqBrY/maxresdefault.jpg",
@@ -18351,6 +20187,9 @@ const recipes = [
   },
   {
     "title": "たぶん一番美味しい、しかも簡単、明太子パスタ｜クラシル｜#shorts",
+    "platform": "youtube",
+    "externalId": "XL9rdp6u888",
+    "videoUrl": "https://www.youtube.com/watch?v=XL9rdp6u888",
     "videoId": "XL9rdp6u888",
     "url": "https://www.youtube.com/watch?v=XL9rdp6u888",
     "thumbnailUrl": "https://i.ytimg.com/vi/XL9rdp6u888/maxresdefault.jpg",
@@ -18376,6 +20215,9 @@ const recipes = [
   },
   {
     "title": "イタリアではこうする！｜一番美味しいトマトパスタの作り方#shorts",
+    "platform": "youtube",
+    "externalId": "pb2P_atmtzM",
+    "videoUrl": "https://www.youtube.com/watch?v=pb2P_atmtzM",
     "videoId": "pb2P_atmtzM",
     "url": "https://www.youtube.com/watch?v=pb2P_atmtzM",
     "thumbnailUrl": "https://i.ytimg.com/vi/pb2P_atmtzM/maxresdefault.jpg",
@@ -18405,6 +20247,9 @@ const recipes = [
   },
   {
     "title": "思い出の喫茶店の味【たらこスパゲッティ】",
+    "platform": "youtube",
+    "externalId": "wq82wx3zRdo",
+    "videoUrl": "https://www.youtube.com/watch?v=wq82wx3zRdo",
     "videoId": "wq82wx3zRdo",
     "url": "https://www.youtube.com/watch?v=wq82wx3zRdo",
     "thumbnailUrl": "https://i.ytimg.com/vi/wq82wx3zRdo/maxresdefault.jpg",
@@ -18432,6 +20277,9 @@ const recipes = [
   },
   {
     "title": "【革命的な冷製パスタ】超簡単な冷やし坦々風パスタが美味すぎるので紹介します。 #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "1RSHrQ-wx6s",
+    "videoUrl": "https://www.youtube.com/watch?v=1RSHrQ-wx6s",
     "videoId": "1RSHrQ-wx6s",
     "url": "https://www.youtube.com/watch?v=1RSHrQ-wx6s",
     "thumbnailUrl": "https://i.ytimg.com/vi/1RSHrQ-wx6s/maxresdefault.jpg",
@@ -18457,6 +20305,9 @@ const recipes = [
   },
   {
     "title": "マヨで食うパスタがうますぎた。",
+    "platform": "youtube",
+    "externalId": "sSGwmBNKIDY",
+    "videoUrl": "https://www.youtube.com/watch?v=sSGwmBNKIDY",
     "videoId": "sSGwmBNKIDY",
     "url": "https://www.youtube.com/watch?v=sSGwmBNKIDY",
     "thumbnailUrl": "https://i.ytimg.com/vi/sSGwmBNKIDY/maxresdefault.jpg",
@@ -18488,6 +20339,9 @@ const recipes = [
   },
   {
     "title": "『幸せのパスタ』がフライパン１つでできて世界1旨い件",
+    "platform": "youtube",
+    "externalId": "mlYeH4KfaZg",
+    "videoUrl": "https://www.youtube.com/watch?v=mlYeH4KfaZg",
     "videoId": "mlYeH4KfaZg",
     "url": "https://www.youtube.com/watch?v=mlYeH4KfaZg",
     "thumbnailUrl": "https://i.ytimg.com/vi/mlYeH4KfaZg/maxresdefault.jpg",
@@ -18521,6 +20375,9 @@ const recipes = [
   },
   {
     "title": "【ラーメン二郎パスタ】イタリアンシェフがたどり着いた！#shorts",
+    "platform": "youtube",
+    "externalId": "LJ37EFlGCs4",
+    "videoUrl": "https://www.youtube.com/watch?v=LJ37EFlGCs4",
     "videoId": "LJ37EFlGCs4",
     "url": "https://www.youtube.com/watch?v=LJ37EFlGCs4",
     "thumbnailUrl": "https://i.ytimg.com/vi/LJ37EFlGCs4/maxresdefault.jpg",
@@ -18552,6 +20409,9 @@ const recipes = [
   },
   {
     "title": "トマトのペペロンチーノ【トマト缶】で作る絶品パスタ！#shorts",
+    "platform": "youtube",
+    "externalId": "kmyo4QmAw_I",
+    "videoUrl": "https://www.youtube.com/watch?v=kmyo4QmAw_I",
     "videoId": "kmyo4QmAw_I",
     "url": "https://www.youtube.com/watch?v=kmyo4QmAw_I",
     "thumbnailUrl": "https://i.ytimg.com/vi/kmyo4QmAw_I/maxresdefault.jpg",
@@ -18583,6 +20443,9 @@ const recipes = [
   },
   {
     "title": "やる気1%で背徳の塩こんぶバターパスタ",
+    "platform": "youtube",
+    "externalId": "jh5FVe-DUgM",
+    "videoUrl": "https://www.youtube.com/watch?v=jh5FVe-DUgM",
     "videoId": "jh5FVe-DUgM",
     "url": "https://www.youtube.com/watch?v=jh5FVe-DUgM",
     "thumbnailUrl": "https://i.ytimg.com/vi/jh5FVe-DUgM/maxresdefault.jpg",
@@ -18614,6 +20477,9 @@ const recipes = [
   },
   {
     "title": "レンジでできる人生最高に美味しい明太子パスタ",
+    "platform": "youtube",
+    "externalId": "5h7b6yxUaBs",
+    "videoUrl": "https://www.youtube.com/watch?v=5h7b6yxUaBs",
     "videoId": "5h7b6yxUaBs",
     "url": "https://www.youtube.com/watch?v=5h7b6yxUaBs",
     "thumbnailUrl": "https://i.ytimg.com/vi/5h7b6yxUaBs/maxresdefault.jpg",
@@ -18644,6 +20510,9 @@ const recipes = [
   },
   {
     "title": "【ワンパンパスタレシピ10選】別ゆでいらず！フライパン1つで完成♪｜macaroni（マカロニ）",
+    "platform": "youtube",
+    "externalId": "chVVovfcUvY",
+    "videoUrl": "https://www.youtube.com/watch?v=chVVovfcUvY",
     "videoId": "chVVovfcUvY",
     "url": "https://www.youtube.com/watch?v=chVVovfcUvY",
     "thumbnailUrl": "https://i.ytimg.com/vi/chVVovfcUvY/maxresdefault.jpg",
@@ -18690,6 +20559,9 @@ const recipes = [
   },
   {
     "title": "【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい #リュウジ #料理 #shorts",
+    "platform": "youtube",
+    "externalId": "_iAn2wKW_Xw",
+    "videoUrl": "https://www.youtube.com/watch?v=_iAn2wKW_Xw",
     "videoId": "_iAn2wKW_Xw",
     "url": "https://www.youtube.com/watch?v=_iAn2wKW_Xw",
     "thumbnailUrl": "https://i.ytimg.com/vi/_iAn2wKW_Xw/maxresdefault.jpg",
@@ -18717,6 +20589,9 @@ const recipes = [
   },
   {
     "title": "【覚えて損なし】豚肉ときのこで作る「うちの和風パスタ」 #料理#パスタ#スパゲッティ",
+    "platform": "youtube",
+    "externalId": "UugKaxbX0as",
+    "videoUrl": "https://www.youtube.com/watch?v=UugKaxbX0as",
     "videoId": "UugKaxbX0as",
     "url": "https://www.youtube.com/watch?v=UugKaxbX0as",
     "thumbnailUrl": "https://i.ytimg.com/vi/UugKaxbX0as/maxresdefault.jpg",
@@ -18755,6 +20630,9 @@ const recipes = [
   },
   {
     "title": "【節約・ダイエットレシピ】たったの170円で作れる『和風旨みパスタ』",
+    "platform": "youtube",
+    "externalId": "OTKgnkJiquE",
+    "videoUrl": "https://www.youtube.com/watch?v=OTKgnkJiquE",
     "videoId": "OTKgnkJiquE",
     "url": "https://www.youtube.com/watch?v=OTKgnkJiquE",
     "thumbnailUrl": "https://i.ytimg.com/vi/OTKgnkJiquE/maxresdefault.jpg",
@@ -18790,6 +20668,9 @@ const recipes = [
   },
   {
     "title": "レンジ1発で満腹！和風スープパスタ #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "NI0vz0uqVHs",
+    "videoUrl": "https://www.youtube.com/watch?v=NI0vz0uqVHs",
     "videoId": "NI0vz0uqVHs",
     "url": "https://www.youtube.com/watch?v=NI0vz0uqVHs",
     "thumbnailUrl": "https://i.ytimg.com/vi/NI0vz0uqVHs/maxresdefault.jpg",
@@ -18815,6 +20696,9 @@ const recipes = [
   },
   {
     "title": "ワンパン＆包丁なし！ケチャップツナパスタ ｜ How To Make Ketchup Tuna Pasta",
+    "platform": "youtube",
+    "externalId": "1qtBLmqaA5Q",
+    "videoUrl": "https://www.youtube.com/watch?v=1qtBLmqaA5Q",
     "videoId": "1qtBLmqaA5Q",
     "url": "https://www.youtube.com/watch?v=1qtBLmqaA5Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/1qtBLmqaA5Q/maxresdefault.jpg",
@@ -18847,6 +20731,9 @@ const recipes = [
   },
   {
     "title": "【時短レシピ】トマトとたっぷり魚介のお家パスタが旨すぎて幸！#簡単レシピ #パスタ #料理",
+    "platform": "youtube",
+    "externalId": "LznN3nffVKM",
+    "videoUrl": "https://www.youtube.com/watch?v=LznN3nffVKM",
     "videoId": "LznN3nffVKM",
     "url": "https://www.youtube.com/watch?v=LznN3nffVKM",
     "thumbnailUrl": "https://i.ytimg.com/vi/LznN3nffVKM/maxresdefault.jpg",
@@ -18878,6 +20765,9 @@ const recipes = [
   },
   {
     "title": "革命！｜イタリア人に教わった【トマトクリームパスタ】トマトペーストで簡単パスタ#shorts",
+    "platform": "youtube",
+    "externalId": "vVa25bd9Kfw",
+    "videoUrl": "https://www.youtube.com/watch?v=vVa25bd9Kfw",
     "videoId": "vVa25bd9Kfw",
     "url": "https://www.youtube.com/watch?v=vVa25bd9Kfw",
     "thumbnailUrl": "https://i.ytimg.com/vi/vVa25bd9Kfw/maxresdefault.jpg",
@@ -18908,6 +20798,9 @@ const recipes = [
   },
   {
     "title": "お皿１つで完璧な味わい！レンジで楽チンペペロンチーノ",
+    "platform": "youtube",
+    "externalId": "6Pvu0r-gezg",
+    "videoUrl": "https://www.youtube.com/watch?v=6Pvu0r-gezg",
     "videoId": "6Pvu0r-gezg",
     "url": "https://www.youtube.com/watch?v=6Pvu0r-gezg",
     "thumbnailUrl": "https://i.ytimg.com/vi/6Pvu0r-gezg/maxresdefault.jpg",
@@ -18939,6 +20832,9 @@ const recipes = [
   },
   {
     "title": "あの有名店の絶望的にウマい究極のパスタを再現しました。【絶望のパスタ】#shorts #リュウジ #パスタ",
+    "platform": "youtube",
+    "externalId": "-bZKIcKwgRg",
+    "videoUrl": "https://www.youtube.com/watch?v=-bZKIcKwgRg",
     "videoId": "-bZKIcKwgRg",
     "url": "https://www.youtube.com/watch?v=-bZKIcKwgRg",
     "thumbnailUrl": "https://i.ytimg.com/vi/-bZKIcKwgRg/maxresdefault.jpg",
@@ -18966,6 +20862,9 @@ const recipes = [
   },
   {
     "title": "超さっぱり『冷しゃぶ冷製パスタ』 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "A_ZBtawoCSI",
+    "videoUrl": "https://www.youtube.com/watch?v=A_ZBtawoCSI",
     "videoId": "A_ZBtawoCSI",
     "url": "https://www.youtube.com/watch?v=A_ZBtawoCSI",
     "thumbnailUrl": "https://i.ytimg.com/vi/A_ZBtawoCSI/maxresdefault.jpg",
@@ -18993,6 +20892,9 @@ const recipes = [
   },
   {
     "title": "ワンパンでねぎ塩ツナパスタ",
+    "platform": "youtube",
+    "externalId": "xs7B61-xN9k",
+    "videoUrl": "https://www.youtube.com/watch?v=xs7B61-xN9k",
     "videoId": "xs7B61-xN9k",
     "url": "https://www.youtube.com/watch?v=xs7B61-xN9k",
     "thumbnailUrl": "https://i.ytimg.com/vi/xs7B61-xN9k/maxresdefault.jpg",
@@ -19025,6 +20927,9 @@ const recipes = [
   },
   {
     "title": "冷製パスタの概念変わるぞこれ...【冷製トマト缶パスタ】#shorts #リュウジ #トマト #缶詰 #パスタ #冷製パスタ #レシピ #料理",
+    "platform": "youtube",
+    "externalId": "WUz8hNgDhjc",
+    "videoUrl": "https://www.youtube.com/watch?v=WUz8hNgDhjc",
     "videoId": "WUz8hNgDhjc",
     "url": "https://www.youtube.com/watch?v=WUz8hNgDhjc",
     "thumbnailUrl": "https://i.ytimg.com/vi/WUz8hNgDhjc/maxresdefault.jpg",
@@ -19060,6 +20965,9 @@ const recipes = [
   },
   {
     "title": "ワンパンでソーセージペペロンチーノ",
+    "platform": "youtube",
+    "externalId": "eN9i4lQDUYI",
+    "videoUrl": "https://www.youtube.com/watch?v=eN9i4lQDUYI",
     "videoId": "eN9i4lQDUYI",
     "url": "https://www.youtube.com/watch?v=eN9i4lQDUYI",
     "thumbnailUrl": "https://i.ytimg.com/vi/eN9i4lQDUYI/maxresdefault.jpg",
@@ -19091,6 +20999,9 @@ const recipes = [
   },
   {
     "title": "ナポリタンを自宅で簡単に美味しく作るためのコツを伝授",
+    "platform": "youtube",
+    "externalId": "sz7CSP70His",
+    "videoUrl": "https://www.youtube.com/watch?v=sz7CSP70His",
     "videoId": "sz7CSP70His",
     "url": "https://www.youtube.com/watch?v=sz7CSP70His",
     "thumbnailUrl": "https://i.ytimg.com/vi/sz7CSP70His/maxresdefault.jpg",
@@ -19122,6 +21033,9 @@ const recipes = [
   },
   {
     "title": "400万再生越え！パスタを美味しく冷凍する方法 #簡単レシピ #料理 #ライフハック #時短レシピ #レシピ #主婦の知恵 #パスタ #パスタレシピ #ぱすた #shorts いい#知ってて得する",
+    "platform": "youtube",
+    "externalId": "8u87B__il7g",
+    "videoUrl": "https://www.youtube.com/watch?v=8u87B__il7g",
     "videoId": "8u87B__il7g",
     "url": "https://www.youtube.com/watch?v=8u87B__il7g",
     "thumbnailUrl": "https://i.ytimg.com/vi/8u87B__il7g/maxresdefault.jpg",
@@ -19149,6 +21063,9 @@ const recipes = [
   },
   {
     "title": "イタリア人に教わった【アラビアータ】トマトペーストでお手軽｜賄いパスタ#shorts",
+    "platform": "youtube",
+    "externalId": "gpgkx2XgNtE",
+    "videoUrl": "https://www.youtube.com/watch?v=gpgkx2XgNtE",
     "videoId": "gpgkx2XgNtE",
     "url": "https://www.youtube.com/watch?v=gpgkx2XgNtE",
     "thumbnailUrl": "https://i.ytimg.com/vi/gpgkx2XgNtE/maxresdefault.jpg",
@@ -19181,6 +21098,9 @@ const recipes = [
   },
   {
     "title": "これまじでカルボナーラ越えました。目玉焼き作ってパスタに乗せる目玉焼きパスタが廃人レベルにウマい #リュウジ #ベーコン #目玉焼き #ベーコンエッグ #パスタ #レシピ #料理 #バズレシピ",
+    "platform": "youtube",
+    "externalId": "dHRQYrVNz5U",
+    "videoUrl": "https://www.youtube.com/watch?v=dHRQYrVNz5U",
     "videoId": "dHRQYrVNz5U",
     "url": "https://www.youtube.com/watch?v=dHRQYrVNz5U",
     "thumbnailUrl": "https://i.ytimg.com/vi/dHRQYrVNz5U/maxresdefault.jpg",
@@ -19221,6 +21141,9 @@ const recipes = [
   },
   {
     "title": "キャベツとツナの和風パスタのレシピ",
+    "platform": "youtube",
+    "externalId": "7IPPo3PbeQw",
+    "videoUrl": "https://www.youtube.com/watch?v=7IPPo3PbeQw",
     "videoId": "7IPPo3PbeQw",
     "url": "https://www.youtube.com/watch?v=7IPPo3PbeQw",
     "thumbnailUrl": "https://i.ytimg.com/vi/7IPPo3PbeQw/maxresdefault.jpg",
@@ -19253,6 +21176,9 @@ const recipes = [
   },
   {
     "title": "【秘密を解き明かす】ボウルパスタの真骨頂なめらか明太子パスタ【アロマフレスカ・原田慎次】｜クラシル #シェフのレシピ帖",
+    "platform": "youtube",
+    "externalId": "you66Sn4S78",
+    "videoUrl": "https://www.youtube.com/watch?v=you66Sn4S78",
     "videoId": "you66Sn4S78",
     "url": "https://www.youtube.com/watch?v=you66Sn4S78",
     "thumbnailUrl": "https://i.ytimg.com/vi/you66Sn4S78/maxresdefault.jpg",
@@ -19278,6 +21204,9 @@ const recipes = [
   },
   {
     "title": "フライパン１つで完成！和風明太マヨパスタ",
+    "platform": "youtube",
+    "externalId": "ovXQm55k78w",
+    "videoUrl": "https://www.youtube.com/watch?v=ovXQm55k78w",
     "videoId": "ovXQm55k78w",
     "url": "https://www.youtube.com/watch?v=ovXQm55k78w",
     "thumbnailUrl": "https://i.ytimg.com/vi/ovXQm55k78w/maxresdefault.jpg",
@@ -19310,6 +21239,9 @@ const recipes = [
   },
   {
     "title": "「ほんだし®︎」ってじつはパスタとも相性抜群なの知ってた？？",
+    "platform": "youtube",
+    "externalId": "i6kwFKN1dGQ",
+    "videoUrl": "https://www.youtube.com/watch?v=i6kwFKN1dGQ",
     "videoId": "i6kwFKN1dGQ",
     "url": "https://www.youtube.com/watch?v=i6kwFKN1dGQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/i6kwFKN1dGQ/maxresdefault.jpg",
@@ -19343,6 +21275,9 @@ const recipes = [
   },
   {
     "title": "思わず悶絶してしまうほどガチで旨い『和風パスタ』を食べたことはありますか？",
+    "platform": "youtube",
+    "externalId": "iabPdt_5KTg",
+    "videoUrl": "https://www.youtube.com/watch?v=iabPdt_5KTg",
     "videoId": "iabPdt_5KTg",
     "url": "https://www.youtube.com/watch?v=iabPdt_5KTg",
     "thumbnailUrl": "https://i.ytimg.com/vi/iabPdt_5KTg/maxresdefault.jpg",
@@ -19379,6 +21314,9 @@ const recipes = [
   },
   {
     "title": "【店級のパスタが食べい人必見】激うまボロネーゼ #マッチョ #料理 #元カレ #筋肉番付 #暮らしチャンネル #パスタ #簡単 #cooking #飯テロ",
+    "platform": "youtube",
+    "externalId": "GgdS1NeuLqg",
+    "videoUrl": "https://www.youtube.com/watch?v=GgdS1NeuLqg",
     "videoId": "GgdS1NeuLqg",
     "url": "https://www.youtube.com/watch?v=GgdS1NeuLqg",
     "thumbnailUrl": "https://i.ytimg.com/vi/GgdS1NeuLqg/maxresdefault.jpg",
@@ -19404,6 +21342,9 @@ const recipes = [
   },
   {
     "title": "【レンチン1回】にんにく醤油パスタ🍝#shots",
+    "platform": "youtube",
+    "externalId": "3JUEchExWqg",
+    "videoUrl": "https://www.youtube.com/watch?v=3JUEchExWqg",
     "videoId": "3JUEchExWqg",
     "url": "https://www.youtube.com/watch?v=3JUEchExWqg",
     "thumbnailUrl": "https://i.ytimg.com/vi/3JUEchExWqg/maxresdefault.jpg",
@@ -19431,6 +21372,9 @@ const recipes = [
   },
   {
     "title": "洗い物ほぼないと言っても過言ではない【鮭丸ごとクリームパスタ】詳しいレシピは概要欄をチェック！#鮭#サーモン#パスタ#スパゲッティ#クリームパスタ#簡単レシピ#ほうれん草#ワンパンレシピ#レシピ動画",
+    "platform": "youtube",
+    "externalId": "8eYKZxygpeE",
+    "videoUrl": "https://www.youtube.com/watch?v=8eYKZxygpeE",
     "videoId": "8eYKZxygpeE",
     "url": "https://www.youtube.com/watch?v=8eYKZxygpeE",
     "thumbnailUrl": "https://i.ytimg.com/vi/8eYKZxygpeE/maxresdefault.jpg",
@@ -19464,6 +21408,9 @@ const recipes = [
   },
   {
     "title": "【茹でて混ぜるだけ】明太子パスタならこれ。 #パスタ",
+    "platform": "youtube",
+    "externalId": "KEjv-2C732I",
+    "videoUrl": "https://www.youtube.com/watch?v=KEjv-2C732I",
     "videoId": "KEjv-2C732I",
     "url": "https://www.youtube.com/watch?v=KEjv-2C732I",
     "thumbnailUrl": "https://i.ytimg.com/vi/KEjv-2C732I/maxresdefault.jpg",
@@ -19494,6 +21441,9 @@ const recipes = [
   },
   {
     "title": "2026年6月8日",
+    "platform": "youtube",
+    "externalId": "wLykAqAabJY",
+    "videoUrl": "https://www.youtube.com/watch?v=wLykAqAabJY",
     "videoId": "wLykAqAabJY",
     "url": "https://www.youtube.com/watch?v=wLykAqAabJY",
     "thumbnailUrl": "https://i.ytimg.com/vi/wLykAqAabJY/maxresdefault.jpg",
@@ -19531,6 +21481,9 @@ const recipes = [
   },
   {
     "title": "【ミルクパスタ】牛乳で作るクリームパスタの作り方 #料理 #レシピ",
+    "platform": "youtube",
+    "externalId": "BZUx2H2axQ4",
+    "videoUrl": "https://www.youtube.com/watch?v=BZUx2H2axQ4",
     "videoId": "BZUx2H2axQ4",
     "url": "https://www.youtube.com/watch?v=BZUx2H2axQ4",
     "thumbnailUrl": "https://i.ytimg.com/vi/BZUx2H2axQ4/maxresdefault.jpg",
@@ -19558,6 +21511,9 @@ const recipes = [
   },
   {
     "title": "元高級ホテル料理人が教える、滑らかぁ〜な明太子パスタの作り方!!",
+    "platform": "youtube",
+    "externalId": "4PxTkO2g5ec",
+    "videoUrl": "https://www.youtube.com/watch?v=4PxTkO2g5ec",
     "videoId": "4PxTkO2g5ec",
     "url": "https://www.youtube.com/watch?v=4PxTkO2g5ec",
     "thumbnailUrl": "https://i.ytimg.com/vi/4PxTkO2g5ec/maxresdefault.jpg",
@@ -19589,6 +21545,9 @@ const recipes = [
   },
   {
     "title": "一口で「作って良かった」と必ず思わせてみせます。料理研究家が人生を懸けた【至高のトマトソースパスタ 】",
+    "platform": "youtube",
+    "externalId": "bSt6QSa2QKs",
+    "videoUrl": "https://www.youtube.com/watch?v=bSt6QSa2QKs",
     "videoId": "bSt6QSa2QKs",
     "url": "https://www.youtube.com/watch?v=bSt6QSa2QKs",
     "thumbnailUrl": "https://i.ytimg.com/vi/bSt6QSa2QKs/sddefault.jpg",
@@ -19621,6 +21580,9 @@ const recipes = [
   },
   {
     "title": "【絶品パスタ３選】ツナを使った最高に旨いパスタレシピ #パスタ #レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "q3YqTW6zpK8",
+    "videoUrl": "https://www.youtube.com/watch?v=q3YqTW6zpK8",
     "videoId": "q3YqTW6zpK8",
     "url": "https://www.youtube.com/watch?v=q3YqTW6zpK8",
     "thumbnailUrl": "https://i.ytimg.com/vi/q3YqTW6zpK8/maxresdefault.jpg",
@@ -19658,6 +21620,9 @@ const recipes = [
   },
   {
     "title": "1食150円、33歳限界OLのトマトクリームパスタ弁当#shorts#簡単レシピ#パスタ",
+    "platform": "youtube",
+    "externalId": "fKiWxN4S2v0",
+    "videoUrl": "https://www.youtube.com/watch?v=fKiWxN4S2v0",
     "videoId": "fKiWxN4S2v0",
     "url": "https://www.youtube.com/watch?v=fKiWxN4S2v0",
     "thumbnailUrl": "https://i.ytimg.com/vi/fKiWxN4S2v0/maxresdefault.jpg",
@@ -19695,6 +21660,9 @@ const recipes = [
   },
   {
     "title": "包丁も火も使いません【レンチントマトクリームパスタ】詳しくはDELISH KITCHENアプリでレシピ名を検索♪ #簡単レシピ #レンジ #パスタ #レンジ調理",
+    "platform": "youtube",
+    "externalId": "YKDNIM2_No0",
+    "videoUrl": "https://www.youtube.com/watch?v=YKDNIM2_No0",
     "videoId": "YKDNIM2_No0",
     "url": "https://www.youtube.com/watch?v=YKDNIM2_No0",
     "thumbnailUrl": "https://i.ytimg.com/vi/YKDNIM2_No0/maxresdefault.jpg",
@@ -19730,6 +21698,9 @@ const recipes = [
   },
   {
     "title": "忙しい人必見！簡単お手軽！10分で作れる和風ツナパスタのレシピ #shorts #recipe #パスタ",
+    "platform": "youtube",
+    "externalId": "8DiJwRhTqPw",
+    "videoUrl": "https://www.youtube.com/watch?v=8DiJwRhTqPw",
     "videoId": "8DiJwRhTqPw",
     "url": "https://www.youtube.com/watch?v=8DiJwRhTqPw",
     "thumbnailUrl": "https://i.ytimg.com/vi/8DiJwRhTqPw/maxresdefault.jpg",
@@ -19760,6 +21731,9 @@ const recipes = [
   },
   {
     "title": "視聴者に聞いた貧乏パスタTOP3",
+    "platform": "youtube",
+    "externalId": "I5A_0TS304o",
+    "videoUrl": "https://www.youtube.com/watch?v=I5A_0TS304o",
     "videoId": "I5A_0TS304o",
     "url": "https://www.youtube.com/watch?v=I5A_0TS304o",
     "thumbnailUrl": "https://i.ytimg.com/vi/I5A_0TS304o/maxresdefault.jpg",
@@ -19785,6 +21759,9 @@ const recipes = [
   },
   {
     "title": "リュウジとかいうYouTuberより断然旨いペペロンチーノの作り方",
+    "platform": "youtube",
+    "externalId": "KaITLIvBOVM",
+    "videoUrl": "https://www.youtube.com/watch?v=KaITLIvBOVM",
     "videoId": "KaITLIvBOVM",
     "url": "https://www.youtube.com/watch?v=KaITLIvBOVM",
     "thumbnailUrl": "https://i.ytimg.com/vi/KaITLIvBOVM/maxresdefault.jpg",
@@ -19819,6 +21796,9 @@ const recipes = [
   },
   {
     "title": "世界最小のパスタ！チュニジア料理をW杯戦の前に喰らい尽くす！【ワールドカップ】",
+    "platform": "youtube",
+    "externalId": "LzekfOY-w80",
+    "videoUrl": "https://www.youtube.com/watch?v=LzekfOY-w80",
     "videoId": "LzekfOY-w80",
     "url": "https://www.youtube.com/watch?v=LzekfOY-w80",
     "thumbnailUrl": "https://i.ytimg.com/vi/LzekfOY-w80/maxresdefault.jpg",
@@ -19844,6 +21824,9 @@ const recipes = [
   },
   {
     "title": "【ひき肉のパスタ】どうしても紹介したい美味しいパスタです！ #パスタ #レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "k7hE1cSF5kI",
+    "videoUrl": "https://www.youtube.com/watch?v=k7hE1cSF5kI",
     "videoId": "k7hE1cSF5kI",
     "url": "https://www.youtube.com/watch?v=k7hE1cSF5kI",
     "thumbnailUrl": "https://i.ytimg.com/vi/k7hE1cSF5kI/maxresdefault.jpg",
@@ -19871,6 +21854,9 @@ const recipes = [
   },
   {
     "title": "革命｜トマトペーストで作る秒速【クリームパスタ】ショート動画で1000万再生のリピ確定パスタ！",
+    "platform": "youtube",
+    "externalId": "NVe3_SdgRpc",
+    "videoUrl": "https://www.youtube.com/watch?v=NVe3_SdgRpc",
     "videoId": "NVe3_SdgRpc",
     "url": "https://www.youtube.com/watch?v=NVe3_SdgRpc",
     "thumbnailUrl": "https://i.ytimg.com/vi/NVe3_SdgRpc/maxresdefault.jpg",
@@ -19903,6 +21889,9 @@ const recipes = [
   },
   {
     "title": "超簡単【レンチンパスタ】白だしを混ぜてチンするだけですぐ食べられる♪市販のパスタもう買えない",
+    "platform": "youtube",
+    "externalId": "TxjW2BdLhaE",
+    "videoUrl": "https://www.youtube.com/watch?v=TxjW2BdLhaE",
     "videoId": "TxjW2BdLhaE",
     "url": "https://www.youtube.com/watch?v=TxjW2BdLhaE",
     "thumbnailUrl": "https://i.ytimg.com/vi/TxjW2BdLhaE/maxresdefault.jpg",
@@ -19934,6 +21923,9 @@ const recipes = [
   },
   {
     "title": "某チェーン店さん本当にごめんなさいパスタ#shorts #リュウジ #カプリチョーザ #再現 #レシピ #パスタ #料理",
+    "platform": "youtube",
+    "externalId": "1-U-XOMgVQM",
+    "videoUrl": "https://www.youtube.com/watch?v=1-U-XOMgVQM",
     "videoId": "1-U-XOMgVQM",
     "url": "https://www.youtube.com/watch?v=1-U-XOMgVQM",
     "thumbnailUrl": "https://i.ytimg.com/vi/1-U-XOMgVQM/maxresdefault.jpg",
@@ -19967,6 +21959,9 @@ const recipes = [
   },
   {
     "title": "240万回再生された ”松茸の味お吸いもの” だけで味が完璧に決まる悶絶パスタの作り方",
+    "platform": "youtube",
+    "externalId": "wP1LHJKZxws",
+    "videoUrl": "https://www.youtube.com/watch?v=wP1LHJKZxws",
     "videoId": "wP1LHJKZxws",
     "url": "https://www.youtube.com/watch?v=wP1LHJKZxws",
     "thumbnailUrl": "https://i.ytimg.com/vi/wP1LHJKZxws/sddefault.jpg",
@@ -19992,6 +21987,9 @@ const recipes = [
   },
   {
     "title": "【極みパスタ】海老の旨みをふんだんに使った最強ペペロンチーノです。 #パスタ #レシピ #簡単レシピ #レシピ動画 #ワンパンパスタ #shorts",
+    "platform": "youtube",
+    "externalId": "0fNI-jzG4bM",
+    "videoUrl": "https://www.youtube.com/watch?v=0fNI-jzG4bM",
     "videoId": "0fNI-jzG4bM",
     "url": "https://www.youtube.com/watch?v=0fNI-jzG4bM",
     "thumbnailUrl": "https://i.ytimg.com/vi/0fNI-jzG4bM/maxresdefault.jpg",
@@ -20019,6 +22017,9 @@ const recipes = [
   },
   {
     "title": "イタリアンシェフが教える想像を超えるパスタ「ミントとチーズのスパゲッティー」【イタリアンプロ養成講座 vol.197】",
+    "platform": "youtube",
+    "externalId": "9NJSd8dtwQY",
+    "videoUrl": "https://www.youtube.com/watch?v=9NJSd8dtwQY",
     "videoId": "9NJSd8dtwQY",
     "url": "https://www.youtube.com/watch?v=9NJSd8dtwQY",
     "thumbnailUrl": "https://i.ytimg.com/vi/9NJSd8dtwQY/maxresdefault.jpg",
@@ -20054,6 +22055,9 @@ const recipes = [
   },
   {
     "title": "SNSで鬼バズってる料理長のレベルが違いすぎる",
+    "platform": "youtube",
+    "externalId": "zza-L1Nx2N8",
+    "videoUrl": "https://www.youtube.com/watch?v=zza-L1Nx2N8",
     "videoId": "zza-L1Nx2N8",
     "url": "https://www.youtube.com/watch?v=zza-L1Nx2N8",
     "thumbnailUrl": "https://i.ytimg.com/vi/zza-L1Nx2N8/maxresdefault.jpg",
@@ -20090,6 +22094,9 @@ const recipes = [
   },
   {
     "title": "【シンプルこそ至高】ミニトマトのパスタが超簡単でお店レベルの旨さでした。 #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "kVB8NhYyo_w",
+    "videoUrl": "https://www.youtube.com/watch?v=kVB8NhYyo_w",
     "videoId": "kVB8NhYyo_w",
     "url": "https://www.youtube.com/watch?v=kVB8NhYyo_w",
     "thumbnailUrl": "https://i.ytimg.com/vi/kVB8NhYyo_w/maxresdefault.jpg",
@@ -20117,6 +22124,9 @@ const recipes = [
   },
   {
     "title": "これ以上のナポリタンを僕は知らない…【至高のナポリタン】『Japanese style pasta Napolitana』",
+    "platform": "youtube",
+    "externalId": "uCbg_uS9aEU",
+    "videoUrl": "https://www.youtube.com/watch?v=uCbg_uS9aEU",
     "videoId": "uCbg_uS9aEU",
     "url": "https://www.youtube.com/watch?v=uCbg_uS9aEU",
     "thumbnailUrl": "https://i.ytimg.com/vi/uCbg_uS9aEU/maxresdefault.jpg",
@@ -20152,6 +22162,9 @@ const recipes = [
   },
   {
     "title": "【ワンパン15分】トマトクリームパスタはコレだ！ #パスタ",
+    "platform": "youtube",
+    "externalId": "tZSxZmS7EQk",
+    "videoUrl": "https://www.youtube.com/watch?v=tZSxZmS7EQk",
     "videoId": "tZSxZmS7EQk",
     "url": "https://www.youtube.com/watch?v=tZSxZmS7EQk",
     "thumbnailUrl": "https://i.ytimg.com/vi/tZSxZmS7EQk/maxresdefault.jpg",
@@ -20186,6 +22199,9 @@ const recipes = [
   },
   {
     "title": "どハマりパスタ",
+    "platform": "youtube",
+    "externalId": "LARQt5TZ5Nc",
+    "videoUrl": "https://www.youtube.com/watch?v=LARQt5TZ5Nc",
     "videoId": "LARQt5TZ5Nc",
     "url": "https://www.youtube.com/watch?v=LARQt5TZ5Nc",
     "thumbnailUrl": "https://i.ytimg.com/vi/LARQt5TZ5Nc/maxresdefault.jpg",
@@ -20211,6 +22227,9 @@ const recipes = [
   },
   {
     "title": "【10分で完成】簡単すぎる絶品パスタレシピ10選🍝忙しい日の神ごはん！節約×時短×大満足！",
+    "platform": "youtube",
+    "externalId": "DgPJ5utYQFM",
+    "videoUrl": "https://www.youtube.com/watch?v=DgPJ5utYQFM",
     "videoId": "DgPJ5utYQFM",
     "url": "https://www.youtube.com/watch?v=DgPJ5utYQFM",
     "thumbnailUrl": "https://i.ytimg.com/vi/DgPJ5utYQFM/maxresdefault.jpg",
@@ -20257,6 +22276,9 @@ const recipes = [
   },
   {
     "title": "【ワンパン10分で作れる◎】ミートソースパスタ #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #ワンパンレシピ #パスタレシピ",
+    "platform": "youtube",
+    "externalId": "4Pu1_D40Ojg",
+    "videoUrl": "https://www.youtube.com/watch?v=4Pu1_D40Ojg",
     "videoId": "4Pu1_D40Ojg",
     "url": "https://www.youtube.com/watch?v=4Pu1_D40Ojg",
     "thumbnailUrl": "https://i.ytimg.com/vi/4Pu1_D40Ojg/maxresdefault.jpg",
@@ -20293,6 +22315,9 @@ const recipes = [
   },
   {
     "title": "【試作100回以上！極上カルボナーラ】",
+    "platform": "youtube",
+    "externalId": "MOL2RvhEFBc",
+    "videoUrl": "https://www.youtube.com/watch?v=MOL2RvhEFBc",
     "videoId": "MOL2RvhEFBc",
     "url": "https://www.youtube.com/watch?v=MOL2RvhEFBc",
     "thumbnailUrl": "https://i.ytimg.com/vi/MOL2RvhEFBc/maxresdefault.jpg",
@@ -20327,6 +22352,9 @@ const recipes = [
   },
   {
     "title": "海老クリームパスタの作り方｜フライパン1つで簡単！生クリームなしでも濃厚に仕上がる失敗しないクリームパスタレシピ【パスタレシピ・ワンパンレシピ・フライパンレシピ・簡単レシピ】【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "2Db0ypbOIIM",
+    "videoUrl": "https://www.youtube.com/watch?v=2Db0ypbOIIM",
     "videoId": "2Db0ypbOIIM",
     "url": "https://www.youtube.com/watch?v=2Db0ypbOIIM",
     "thumbnailUrl": "https://i.ytimg.com/vi/2Db0ypbOIIM/maxresdefault.jpg",
@@ -20367,6 +22395,9 @@ const recipes = [
   },
   {
     "title": "明日、スーパーから｢パスタ｣が消えます。驚愕のミートソース",
+    "platform": "youtube",
+    "externalId": "nfKgV2XJ_Ic",
+    "videoUrl": "https://www.youtube.com/watch?v=nfKgV2XJ_Ic",
     "videoId": "nfKgV2XJ_Ic",
     "url": "https://www.youtube.com/watch?v=nfKgV2XJ_Ic",
     "thumbnailUrl": "https://i.ytimg.com/vi/nfKgV2XJ_Ic/maxresdefault.jpg",
@@ -20406,6 +22437,9 @@ const recipes = [
   },
   {
     "title": "【和風パスタ】箸で食べる和風ガーリックきのこパスタ❗️秋にピッタリのパスタです❗️#パスタ#和風#ベーコン#きのこレシピ#料理#簡単レシピ#cooking",
+    "platform": "youtube",
+    "externalId": "xlii-zg7DDc",
+    "videoUrl": "https://www.youtube.com/watch?v=xlii-zg7DDc",
     "videoId": "xlii-zg7DDc",
     "url": "https://www.youtube.com/watch?v=xlii-zg7DDc",
     "thumbnailUrl": "https://i.ytimg.com/vi/xlii-zg7DDc/sddefault.jpg",
@@ -20441,6 +22475,9 @@ const recipes = [
   },
   {
     "title": "【ひき肉のパスタ】どうしても紹介したい美味しいレシピです🍝😋 #パスタ #レシピ #簡単レシピ #料理 #shorts",
+    "platform": "youtube",
+    "externalId": "XOYSaAmE5RY",
+    "videoUrl": "https://www.youtube.com/watch?v=XOYSaAmE5RY",
     "videoId": "XOYSaAmE5RY",
     "url": "https://www.youtube.com/watch?v=XOYSaAmE5RY",
     "thumbnailUrl": "https://i.ytimg.com/vi/XOYSaAmE5RY/maxresdefault.jpg",
@@ -20468,6 +22505,9 @@ const recipes = [
   },
   {
     "title": "家にある材料で簡単お手軽パスタ！旨みたっぷり！ツナトマトパスタの作り方",
+    "platform": "youtube",
+    "externalId": "XQ7SIM5aFbA",
+    "videoUrl": "https://www.youtube.com/watch?v=XQ7SIM5aFbA",
     "videoId": "XQ7SIM5aFbA",
     "url": "https://www.youtube.com/watch?v=XQ7SIM5aFbA",
     "thumbnailUrl": "https://i.ytimg.com/vi/XQ7SIM5aFbA/maxresdefault.jpg",
@@ -20503,6 +22543,9 @@ const recipes = [
   },
   {
     "title": "【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい",
+    "platform": "youtube",
+    "externalId": "8y10r6Ts0k8",
+    "videoUrl": "https://www.youtube.com/watch?v=8y10r6Ts0k8",
     "videoId": "8y10r6Ts0k8",
     "url": "https://www.youtube.com/watch?v=8y10r6Ts0k8",
     "thumbnailUrl": "https://i.ytimg.com/vi/8y10r6Ts0k8/maxresdefault.jpg",
@@ -20538,6 +22581,9 @@ const recipes = [
   },
   {
     "title": "【衝撃的な旨さ】ガリバタチキンパスタ🍝 #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "yqgj2XXA0WY",
+    "videoUrl": "https://www.youtube.com/watch?v=yqgj2XXA0WY",
     "videoId": "yqgj2XXA0WY",
     "url": "https://www.youtube.com/watch?v=yqgj2XXA0WY",
     "thumbnailUrl": "https://i.ytimg.com/vi/yqgj2XXA0WY/maxresdefault.jpg",
@@ -20565,6 +22611,9 @@ const recipes = [
   },
   {
     "title": "【悶絶級の旨さ🍝】海老と大葉のクリームパスタがお店の味超えてます。 #パスタ #レシピ #料理 #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "y-0OvO_nGIk",
+    "videoUrl": "https://www.youtube.com/watch?v=y-0OvO_nGIk",
     "videoId": "y-0OvO_nGIk",
     "url": "https://www.youtube.com/watch?v=y-0OvO_nGIk",
     "thumbnailUrl": "https://i.ytimg.com/vi/y-0OvO_nGIk/maxresdefault.jpg",
@@ -20592,6 +22641,9 @@ const recipes = [
   },
   {
     "title": "【限界シリーズ】ガチまかないはこれ！包丁不要のマヨ醤油パスタ",
+    "platform": "youtube",
+    "externalId": "k5v0xq40lqE",
+    "videoUrl": "https://www.youtube.com/watch?v=k5v0xq40lqE",
     "videoId": "k5v0xq40lqE",
     "url": "https://www.youtube.com/watch?v=k5v0xq40lqE",
     "thumbnailUrl": "https://i.ytimg.com/vi/k5v0xq40lqE/maxresdefault.jpg",
@@ -20621,6 +22673,9 @@ const recipes = [
   },
   {
     "title": "レンジで大満足パスタの作り方【ミツカン公式】",
+    "platform": "youtube",
+    "externalId": "mvBfj7qSKxM",
+    "videoUrl": "https://www.youtube.com/watch?v=mvBfj7qSKxM",
     "videoId": "mvBfj7qSKxM",
     "url": "https://www.youtube.com/watch?v=mvBfj7qSKxM",
     "thumbnailUrl": "https://i.ytimg.com/vi/mvBfj7qSKxM/maxresdefault.jpg",
@@ -20648,6 +22703,9 @@ const recipes = [
   },
   {
     "title": "買い出し不要！超シンプルなズボラ和風パスタ",
+    "platform": "youtube",
+    "externalId": "9czV-6UbJmQ",
+    "videoUrl": "https://www.youtube.com/watch?v=9czV-6UbJmQ",
     "videoId": "9czV-6UbJmQ",
     "url": "https://www.youtube.com/watch?v=9czV-6UbJmQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/9czV-6UbJmQ/maxresdefault.jpg",
@@ -20681,6 +22739,9 @@ const recipes = [
   },
   {
     "title": "簡単なのにおいしすぎる！【ワンパンたらこクリームパスタ】詳しいレシピはアプリで料理名を検索♪ #たらこパスタ #たらこ #パスタ #スパゲティ #ワンパン #フライパンひとつ",
+    "platform": "youtube",
+    "externalId": "kkoO8rmAI6Y",
+    "videoUrl": "https://www.youtube.com/watch?v=kkoO8rmAI6Y",
     "videoId": "kkoO8rmAI6Y",
     "url": "https://www.youtube.com/watch?v=kkoO8rmAI6Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/kkoO8rmAI6Y/maxresdefault.jpg",
@@ -20714,6 +22775,9 @@ const recipes = [
   },
   {
     "title": "たことミニトマトの出汁を吸ったパスタがお店級に美味いです。 #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "8yX-agKXZcI",
+    "videoUrl": "https://www.youtube.com/watch?v=8yX-agKXZcI",
     "videoId": "8yX-agKXZcI",
     "url": "https://www.youtube.com/watch?v=8yX-agKXZcI",
     "thumbnailUrl": "https://i.ytimg.com/vi/8yX-agKXZcI/maxresdefault.jpg",
@@ -20743,6 +22807,9 @@ const recipes = [
   },
   {
     "title": "【400万回再生】もう終わりです。カルボナーラをこの方法で作ったら、もうコレでいいやってなる【 料理レシピ 】",
+    "platform": "youtube",
+    "externalId": "GffgVEa7s-o",
+    "videoUrl": "https://www.youtube.com/watch?v=GffgVEa7s-o",
     "videoId": "GffgVEa7s-o",
     "url": "https://www.youtube.com/watch?v=GffgVEa7s-o",
     "thumbnailUrl": "https://i.ytimg.com/vi/GffgVEa7s-o/maxresdefault.jpg",
@@ -20780,6 +22847,9 @@ const recipes = [
   },
   {
     "title": "簡単パスタレシピ！しらすパスタの作り方 #料理 #パスタ #shorts",
+    "platform": "youtube",
+    "externalId": "X9FkFE1ajtM",
+    "videoUrl": "https://www.youtube.com/watch?v=X9FkFE1ajtM",
     "videoId": "X9FkFE1ajtM",
     "url": "https://www.youtube.com/watch?v=X9FkFE1ajtM",
     "thumbnailUrl": "https://i.ytimg.com/vi/X9FkFE1ajtM/maxresdefault.jpg",
@@ -20805,6 +22875,9 @@ const recipes = [
   },
   {
     "title": "衝撃｜ズッキーニのパスタ【ペペロンチーノ】が美味しすぎた…#shorts",
+    "platform": "youtube",
+    "externalId": "roEkm8hiiuM",
+    "videoUrl": "https://www.youtube.com/watch?v=roEkm8hiiuM",
     "videoId": "roEkm8hiiuM",
     "url": "https://www.youtube.com/watch?v=roEkm8hiiuM",
     "thumbnailUrl": "https://i.ytimg.com/vi/roEkm8hiiuM/maxresdefault.jpg",
@@ -20832,6 +22905,9 @@ const recipes = [
   },
   {
     "title": "イタリア人シェフに直接教わった｜暗殺者のパスタ【決定版】結局どうなの？おこげパスタ！",
+    "platform": "youtube",
+    "externalId": "2GI1wP_D_P0",
+    "videoUrl": "https://www.youtube.com/watch?v=2GI1wP_D_P0",
     "videoId": "2GI1wP_D_P0",
     "url": "https://www.youtube.com/watch?v=2GI1wP_D_P0",
     "thumbnailUrl": "https://i.ytimg.com/vi/2GI1wP_D_P0/maxresdefault.jpg",
@@ -20864,6 +22940,9 @@ const recipes = [
   },
   {
     "title": "梅もずくとオクラの冷製パスタ",
+    "platform": "youtube",
+    "externalId": "FGmPV6MRFA0",
+    "videoUrl": "https://www.youtube.com/watch?v=FGmPV6MRFA0",
     "videoId": "FGmPV6MRFA0",
     "url": "https://www.youtube.com/watch?v=FGmPV6MRFA0",
     "thumbnailUrl": "https://i.ytimg.com/vi/FGmPV6MRFA0/maxresdefault.jpg",
@@ -20893,6 +22972,9 @@ const recipes = [
   },
   {
     "title": "イタリア料理を極める第一歩｜キャベツとアンチョビの【ペペロンチーノ】簡単だけど大満足の一皿！",
+    "platform": "youtube",
+    "externalId": "wWwYCsVX7xQ",
+    "videoUrl": "https://www.youtube.com/watch?v=wWwYCsVX7xQ",
     "videoId": "wWwYCsVX7xQ",
     "url": "https://www.youtube.com/watch?v=wWwYCsVX7xQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/wWwYCsVX7xQ/maxresdefault.jpg",
@@ -20923,6 +23005,9 @@ const recipes = [
   },
   {
     "title": "プロが教えるナポリタン #ナポリタン #パスタ #スパゲティ #料理人 #レシピ #作り方",
+    "platform": "youtube",
+    "externalId": "LiWWggxrKgg",
+    "videoUrl": "https://www.youtube.com/watch?v=LiWWggxrKgg",
     "videoId": "LiWWggxrKgg",
     "url": "https://www.youtube.com/watch?v=LiWWggxrKgg",
     "thumbnailUrl": "https://i.ytimg.com/vi/LiWWggxrKgg/maxresdefault.jpg",
@@ -20948,6 +23033,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】フライパン一つで完成！カルボナーラ #shorts",
+    "platform": "youtube",
+    "externalId": "sCSd31meCwE",
+    "videoUrl": "https://www.youtube.com/watch?v=sCSd31meCwE",
     "videoId": "sCSd31meCwE",
     "url": "https://www.youtube.com/watch?v=sCSd31meCwE",
     "thumbnailUrl": "https://i.ytimg.com/vi/sCSd31meCwE/maxresdefault.jpg",
@@ -20982,6 +23070,9 @@ const recipes = [
   },
   {
     "title": "衝撃の【トマトパスタ】｜イタリアの三ツ星シェフに教わったパスタを《完全再現》",
+    "platform": "youtube",
+    "externalId": "zLAXvGJ817o",
+    "videoUrl": "https://www.youtube.com/watch?v=zLAXvGJ817o",
     "videoId": "zLAXvGJ817o",
     "url": "https://www.youtube.com/watch?v=zLAXvGJ817o",
     "thumbnailUrl": "https://i.ytimg.com/vi/zLAXvGJ817o/maxresdefault.jpg",
@@ -21014,6 +23105,9 @@ const recipes = [
   },
   {
     "title": "イタリア人に教わった【ペペロンチーノ】トマトの旨味で完成された最高パスタ！#shorts",
+    "platform": "youtube",
+    "externalId": "IS5LxCQGlQQ",
+    "videoUrl": "https://www.youtube.com/watch?v=IS5LxCQGlQQ",
     "videoId": "IS5LxCQGlQQ",
     "url": "https://www.youtube.com/watch?v=IS5LxCQGlQQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/IS5LxCQGlQQ/maxresdefault.jpg",
@@ -21045,6 +23139,9 @@ const recipes = [
   },
   {
     "title": "ウインナーとパスタで簡単にできる美味しい料理！ #簡単レシピ #プチ知識 #ずんだもん #料理",
+    "platform": "youtube",
+    "externalId": "Bkt-nBfdh38",
+    "videoUrl": "https://www.youtube.com/watch?v=Bkt-nBfdh38",
     "videoId": "Bkt-nBfdh38",
     "url": "https://www.youtube.com/watch?v=Bkt-nBfdh38",
     "thumbnailUrl": "https://i.ytimg.com/vi/Bkt-nBfdh38/maxresdefault.jpg",
@@ -21070,6 +23167,9 @@ const recipes = [
   },
   {
     "title": "【しらすの旨辛ペペロンチーノ】シェフの即席パスタ#shorts",
+    "platform": "youtube",
+    "externalId": "v4AMLnaiqR0",
+    "videoUrl": "https://www.youtube.com/watch?v=v4AMLnaiqR0",
     "videoId": "v4AMLnaiqR0",
     "url": "https://www.youtube.com/watch?v=v4AMLnaiqR0",
     "thumbnailUrl": "https://i.ytimg.com/vi/v4AMLnaiqR0/maxresdefault.jpg",
@@ -21095,6 +23195,9 @@ const recipes = [
   },
   {
     "title": "ガーリック醤油が最高！【ナスのパスタ】#shorts",
+    "platform": "youtube",
+    "externalId": "9eqCKWFZAmY",
+    "videoUrl": "https://www.youtube.com/watch?v=9eqCKWFZAmY",
     "videoId": "9eqCKWFZAmY",
     "url": "https://www.youtube.com/watch?v=9eqCKWFZAmY",
     "thumbnailUrl": "https://i.ytimg.com/vi/9eqCKWFZAmY/maxresdefault.jpg",
@@ -21128,6 +23231,9 @@ const recipes = [
   },
   {
     "title": "【100万回人気レシピ！】うま味たっぷりパスタ！お店の味に！和風きのこスパゲティの作り方",
+    "platform": "youtube",
+    "externalId": "4K9oLcspsAY",
+    "videoUrl": "https://www.youtube.com/watch?v=4K9oLcspsAY",
     "videoId": "4K9oLcspsAY",
     "url": "https://www.youtube.com/watch?v=4K9oLcspsAY",
     "thumbnailUrl": "https://i.ytimg.com/vi/4K9oLcspsAY/maxresdefault.jpg",
@@ -21162,6 +23268,9 @@ const recipes = [
   },
   {
     "title": "海苔と牛乳の組み合わせ、なしだと思った？ 【海苔クリームパスタ】 #パスタ #海苔 #クリームパスタ #簡単レシピ #料理 #おうちごはん",
+    "platform": "youtube",
+    "externalId": "VqPciWTJXVY",
+    "videoUrl": "https://www.youtube.com/watch?v=VqPciWTJXVY",
     "videoId": "VqPciWTJXVY",
     "url": "https://www.youtube.com/watch?v=VqPciWTJXVY",
     "thumbnailUrl": "https://i.ytimg.com/vi/VqPciWTJXVY/maxresdefault.jpg",
@@ -21191,6 +23300,9 @@ const recipes = [
   },
   {
     "title": "【明太子カルボナーラ】濃厚で美味すぎるパスタが超簡単にできちゃいます。 #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "wN8XfQ4f-VY",
+    "videoUrl": "https://www.youtube.com/watch?v=wN8XfQ4f-VY",
     "videoId": "wN8XfQ4f-VY",
     "url": "https://www.youtube.com/watch?v=wN8XfQ4f-VY",
     "thumbnailUrl": "https://i.ytimg.com/vi/wN8XfQ4f-VY/maxresdefault.jpg",
@@ -21216,6 +23328,9 @@ const recipes = [
   },
   {
     "title": "五右衛門風！明太クリームパスタ作ってみた🤤🍝 #料理 #簡単レシピ #パスタ",
+    "platform": "youtube",
+    "externalId": "bLWwgapILKU",
+    "videoUrl": "https://www.youtube.com/watch?v=bLWwgapILKU",
     "videoId": "bLWwgapILKU",
     "url": "https://www.youtube.com/watch?v=bLWwgapILKU",
     "thumbnailUrl": "https://i.ytimg.com/vi/bLWwgapILKU/maxresdefault.jpg",
@@ -21241,6 +23356,9 @@ const recipes = [
   },
   {
     "title": "フランス人にバター醤油パスタ作ったらww",
+    "platform": "youtube",
+    "externalId": "SaNLF88CZbE",
+    "videoUrl": "https://www.youtube.com/watch?v=SaNLF88CZbE",
     "videoId": "SaNLF88CZbE",
     "url": "https://www.youtube.com/watch?v=SaNLF88CZbE",
     "thumbnailUrl": "https://i.ytimg.com/vi/SaNLF88CZbE/maxresdefault.jpg",
@@ -21270,6 +23388,9 @@ const recipes = [
   },
   {
     "title": "【激ウマ和風パスタ】最高に旨いシンプルな和風パスタを紹介します！ #パスタ #レシピ #簡単レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "jHHTea5D98M",
+    "videoUrl": "https://www.youtube.com/watch?v=jHHTea5D98M",
     "videoId": "jHHTea5D98M",
     "url": "https://www.youtube.com/watch?v=jHHTea5D98M",
     "thumbnailUrl": "https://i.ytimg.com/vi/jHHTea5D98M/maxresdefault.jpg",
@@ -21295,6 +23416,9 @@ const recipes = [
   },
   {
     "title": "イタリアで作るボンゴレロッソが衝撃のうまさ！#パスタ #ボンゴレ #レシピ",
+    "platform": "youtube",
+    "externalId": "PiLd0xDfw_Y",
+    "videoUrl": "https://www.youtube.com/watch?v=PiLd0xDfw_Y",
     "videoId": "PiLd0xDfw_Y",
     "url": "https://www.youtube.com/watch?v=PiLd0xDfw_Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/PiLd0xDfw_Y/maxresdefault.jpg",
@@ -21322,6 +23446,9 @@ const recipes = [
   },
   {
     "title": "思い立ったらすぐ作れる！ケチャップで簡単コク旨！おうちナポリタンの作り方",
+    "platform": "youtube",
+    "externalId": "66nPAvqtNtw",
+    "videoUrl": "https://www.youtube.com/watch?v=66nPAvqtNtw",
     "videoId": "66nPAvqtNtw",
     "url": "https://www.youtube.com/watch?v=66nPAvqtNtw",
     "thumbnailUrl": "https://i.ytimg.com/vi/66nPAvqtNtw/maxresdefault.jpg",
@@ -21361,6 +23488,9 @@ const recipes = [
   },
   {
     "title": "リアル・イカスミパスタ #shorts #pastarecipe",
+    "platform": "youtube",
+    "externalId": "WtYKXdKE0HA",
+    "videoUrl": "https://www.youtube.com/watch?v=WtYKXdKE0HA",
     "videoId": "WtYKXdKE0HA",
     "url": "https://www.youtube.com/watch?v=WtYKXdKE0HA",
     "thumbnailUrl": "https://i.ytimg.com/vi/WtYKXdKE0HA/maxresdefault.jpg",
@@ -21386,6 +23516,9 @@ const recipes = [
   },
   {
     "title": "スーパーフード舞茸の紹介とパスタのレシピ、その効能と#パスタ #レシピ #pasta",
+    "platform": "youtube",
+    "externalId": "HFmJoVKbdkM",
+    "videoUrl": "https://www.youtube.com/watch?v=HFmJoVKbdkM",
     "videoId": "HFmJoVKbdkM",
     "url": "https://www.youtube.com/watch?v=HFmJoVKbdkM",
     "thumbnailUrl": "https://i.ytimg.com/vi/HFmJoVKbdkM/maxresdefault.jpg",
@@ -21411,6 +23544,9 @@ const recipes = [
   },
   {
     "title": "バジルあったら作ってみて【バジルのパスタ】 #recipe #簡単レシピ #パスタ #料理 #おうちごはん #パスタレシピ #バジル #レシピ #レシピ動画 #shorts",
+    "platform": "youtube",
+    "externalId": "sqwy8_OEfwQ",
+    "videoUrl": "https://www.youtube.com/watch?v=sqwy8_OEfwQ",
     "videoId": "sqwy8_OEfwQ",
     "url": "https://www.youtube.com/watch?v=sqwy8_OEfwQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/sqwy8_OEfwQ/maxresdefault.jpg",
@@ -21442,6 +23578,9 @@ const recipes = [
   },
   {
     "title": "【100万回再生人気レシピ！】お店のパスタに！シンプルだけど最高に美味しい！コウケンテツ渾身のペペロンチーノの作り方",
+    "platform": "youtube",
+    "externalId": "rcXWA-lbS5Q",
+    "videoUrl": "https://www.youtube.com/watch?v=rcXWA-lbS5Q",
     "videoId": "rcXWA-lbS5Q",
     "url": "https://www.youtube.com/watch?v=rcXWA-lbS5Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/rcXWA-lbS5Q/maxresdefault.jpg",
@@ -21473,6 +23612,9 @@ const recipes = [
   },
   {
     "title": "イタリア人に教わった漁師風パスタ【ペスカトーラ】#shorts",
+    "platform": "youtube",
+    "externalId": "EZq8IOEdquc",
+    "videoUrl": "https://www.youtube.com/watch?v=EZq8IOEdquc",
     "videoId": "EZq8IOEdquc",
     "url": "https://www.youtube.com/watch?v=EZq8IOEdquc",
     "thumbnailUrl": "https://i.ytimg.com/vi/EZq8IOEdquc/maxresdefault.jpg",
@@ -21506,6 +23648,9 @@ const recipes = [
   },
   {
     "title": "きのこパスタ｜めんつゆガーリック！【ペペロンチーノ】 #パスタ",
+    "platform": "youtube",
+    "externalId": "ZLN13KhLskQ",
+    "videoUrl": "https://www.youtube.com/watch?v=ZLN13KhLskQ",
     "videoId": "ZLN13KhLskQ",
     "url": "https://www.youtube.com/watch?v=ZLN13KhLskQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZLN13KhLskQ/maxresdefault.jpg",
@@ -21536,6 +23681,9 @@ const recipes = [
   },
   {
     "title": "フライパンひとつで簡単！ケチャたまパスタ！ フルはチャンネルから！#料理 #おうちごはん #簡単レシピ #料理動画 #食テロ #gofood #パスタ #Shorts",
+    "platform": "youtube",
+    "externalId": "c6b_PxkuxsE",
+    "videoUrl": "https://www.youtube.com/watch?v=c6b_PxkuxsE",
     "videoId": "c6b_PxkuxsE",
     "url": "https://www.youtube.com/watch?v=c6b_PxkuxsE",
     "thumbnailUrl": "https://i.ytimg.com/vi/c6b_PxkuxsE/maxresdefault.jpg",
@@ -21561,6 +23709,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単❗クリームパスタ #shorts",
+    "platform": "youtube",
+    "externalId": "RTWfdp-SFMI",
+    "videoUrl": "https://www.youtube.com/watch?v=RTWfdp-SFMI",
     "videoId": "RTWfdp-SFMI",
     "url": "https://www.youtube.com/watch?v=RTWfdp-SFMI",
     "thumbnailUrl": "https://i.ytimg.com/vi/RTWfdp-SFMI/maxresdefault.jpg",
@@ -21591,6 +23742,9 @@ const recipes = [
   },
   {
     "title": "トマトパスタの作り方｜フライパン1つで簡単☆ワンパンレシピ！濃厚で旨い！手軽な材料で作れるやみつきトマトパスタです！-How to make Tomato Pasta-【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "OMbjEzyTZU0",
+    "videoUrl": "https://www.youtube.com/watch?v=OMbjEzyTZU0",
     "videoId": "OMbjEzyTZU0",
     "url": "https://www.youtube.com/watch?v=OMbjEzyTZU0",
     "thumbnailUrl": "https://i.ytimg.com/vi/OMbjEzyTZU0/maxresdefault.jpg",
@@ -21628,6 +23782,9 @@ const recipes = [
   },
   {
     "title": "シチリア風【辛口カルボナーラ】まさかのうまい！公邸料理人のパスタレシピ#パスタ #カルボナーラ #料理",
+    "platform": "youtube",
+    "externalId": "IWb-6epCBtg",
+    "videoUrl": "https://www.youtube.com/watch?v=IWb-6epCBtg",
     "videoId": "IWb-6epCBtg",
     "url": "https://www.youtube.com/watch?v=IWb-6epCBtg",
     "thumbnailUrl": "https://i.ytimg.com/vi/IWb-6epCBtg/maxresdefault.jpg",
@@ -21655,6 +23812,9 @@ const recipes = [
   },
   {
     "title": "夏こそ食べたいシチリアのパスタ【アッラ ノルマ】公邸料理人のパスタレシピ#パスタ #トマトスパゲティ#料理",
+    "platform": "youtube",
+    "externalId": "WiV5HtAVlRU",
+    "videoUrl": "https://www.youtube.com/watch?v=WiV5HtAVlRU",
     "videoId": "WiV5HtAVlRU",
     "url": "https://www.youtube.com/watch?v=WiV5HtAVlRU",
     "thumbnailUrl": "https://i.ytimg.com/vi/WiV5HtAVlRU/maxresdefault.jpg",
@@ -21682,6 +23842,9 @@ const recipes = [
   },
   {
     "title": "イタリア親父が効率厨のパスタ料理を見た結果",
+    "platform": "youtube",
+    "externalId": "AG66nlV4Lio",
+    "videoUrl": "https://www.youtube.com/watch?v=AG66nlV4Lio",
     "videoId": "AG66nlV4Lio",
     "url": "https://www.youtube.com/watch?v=AG66nlV4Lio",
     "thumbnailUrl": "https://i.ytimg.com/vi/AG66nlV4Lio/maxresdefault.jpg",
@@ -21707,6 +23870,9 @@ const recipes = [
   },
   {
     "title": "喫茶店で食べた思い出の味！笠原流【昭和のナポリタン】",
+    "platform": "youtube",
+    "externalId": "TKclm3XDHA0",
+    "videoUrl": "https://www.youtube.com/watch?v=TKclm3XDHA0",
     "videoId": "TKclm3XDHA0",
     "url": "https://www.youtube.com/watch?v=TKclm3XDHA0",
     "thumbnailUrl": "https://i.ytimg.com/vi/TKclm3XDHA0/maxresdefault.jpg",
@@ -21743,6 +23909,9 @@ const recipes = [
   },
   {
     "title": "世界チャンピオンのフレッシュトマト🍅パスタ！｜クラシル #shorts",
+    "platform": "youtube",
+    "externalId": "REWxx-VLR1c",
+    "videoUrl": "https://www.youtube.com/watch?v=REWxx-VLR1c",
     "videoId": "REWxx-VLR1c",
     "url": "https://www.youtube.com/watch?v=REWxx-VLR1c",
     "thumbnailUrl": "https://i.ytimg.com/vi/REWxx-VLR1c/maxresdefault.jpg",
@@ -21770,6 +23939,9 @@ const recipes = [
   },
   {
     "title": "【調味料2つ】レンチンパスタ🍝#簡単レシピ #pasta",
+    "platform": "youtube",
+    "externalId": "ncdv3oT-krE",
+    "videoUrl": "https://www.youtube.com/watch?v=ncdv3oT-krE",
     "videoId": "ncdv3oT-krE",
     "url": "https://www.youtube.com/watch?v=ncdv3oT-krE",
     "thumbnailUrl": "https://i.ytimg.com/vi/ncdv3oT-krE/maxresdefault.jpg",
@@ -21795,6 +23967,9 @@ const recipes = [
   },
   {
     "title": "【明太子の冷製パスタレシピ】冷たい明太子パスタが美味しすぎる！ #パスタレシピ #明太子パスタ #冷製パスタ",
+    "platform": "youtube",
+    "externalId": "ZpBTenmmQRE",
+    "videoUrl": "https://www.youtube.com/watch?v=ZpBTenmmQRE",
     "videoId": "ZpBTenmmQRE",
     "url": "https://www.youtube.com/watch?v=ZpBTenmmQRE",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZpBTenmmQRE/maxresdefault.jpg",
@@ -21829,6 +24004,9 @@ const recipes = [
   },
   {
     "title": "イタリア人から教わった🐙【ペペロンチーノ】シンプルパスタ#shorts",
+    "platform": "youtube",
+    "externalId": "Ph1hSZ_gBzo",
+    "videoUrl": "https://www.youtube.com/watch?v=Ph1hSZ_gBzo",
     "videoId": "Ph1hSZ_gBzo",
     "url": "https://www.youtube.com/watch?v=Ph1hSZ_gBzo",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ph1hSZ_gBzo/maxresdefault.jpg",
@@ -21858,6 +24036,9 @@ const recipes = [
   },
   {
     "title": "イタリア人に教わったパスタ【カッチョエペペ】#shorts",
+    "platform": "youtube",
+    "externalId": "XQpES5L6sbQ",
+    "videoUrl": "https://www.youtube.com/watch?v=XQpES5L6sbQ",
     "videoId": "XQpES5L6sbQ",
     "url": "https://www.youtube.com/watch?v=XQpES5L6sbQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/XQpES5L6sbQ/maxresdefault.jpg",
@@ -21885,6 +24066,9 @@ const recipes = [
   },
   {
     "title": "お店で食べるような［クリームパスタ］をご家庭でも簡単に作れるようにレシピにしてみました。",
+    "platform": "youtube",
+    "externalId": "MphLsTnVg78",
+    "videoUrl": "https://www.youtube.com/watch?v=MphLsTnVg78",
     "videoId": "MphLsTnVg78",
     "url": "https://www.youtube.com/watch?v=MphLsTnVg78",
     "thumbnailUrl": "https://i.ytimg.com/vi/MphLsTnVg78/maxresdefault.jpg",
@@ -21922,6 +24106,9 @@ const recipes = [
   },
   {
     "title": "もうミートソース買わない！ぶち込むだけで簡単おいしいボロネーゼペンネ",
+    "platform": "youtube",
+    "externalId": "3eSAkb-NUvE",
+    "videoUrl": "https://www.youtube.com/watch?v=3eSAkb-NUvE",
     "videoId": "3eSAkb-NUvE",
     "url": "https://www.youtube.com/watch?v=3eSAkb-NUvE",
     "thumbnailUrl": "https://i.ytimg.com/vi/3eSAkb-NUvE/maxresdefault.jpg",
@@ -21951,6 +24138,9 @@ const recipes = [
   },
   {
     "title": "うめえ！！ボールごとくれ！！と叫ばれるほど旨い、塩が決め手の【至高を越えたスパサラ】#shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "Nz79UMbUCAo",
+    "videoUrl": "https://www.youtube.com/watch?v=Nz79UMbUCAo",
     "videoId": "Nz79UMbUCAo",
     "url": "https://www.youtube.com/watch?v=Nz79UMbUCAo",
     "thumbnailUrl": "https://i.ytimg.com/vi/Nz79UMbUCAo/maxresdefault.jpg",
@@ -21978,6 +24168,9 @@ const recipes = [
   },
   {
     "title": "【旨みと香りが最高のパスタ】ベーコンと大葉のジェノベーゼ #パスタ #レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "jXjlF99IqsU",
+    "videoUrl": "https://www.youtube.com/watch?v=jXjlF99IqsU",
     "videoId": "jXjlF99IqsU",
     "url": "https://www.youtube.com/watch?v=jXjlF99IqsU",
     "thumbnailUrl": "https://i.ytimg.com/vi/jXjlF99IqsU/maxresdefault.jpg",
@@ -22012,6 +24205,9 @@ const recipes = [
   },
   {
     "title": "こんな美味い牡蠣のパスタがあるのかと言われたペペロンチーノのレシピ#shorts",
+    "platform": "youtube",
+    "externalId": "SbCdFZAudVg",
+    "videoUrl": "https://www.youtube.com/watch?v=SbCdFZAudVg",
     "videoId": "SbCdFZAudVg",
     "url": "https://www.youtube.com/watch?v=SbCdFZAudVg",
     "thumbnailUrl": "https://i.ytimg.com/vi/SbCdFZAudVg/maxresdefault.jpg",
@@ -22037,6 +24233,9 @@ const recipes = [
   },
   {
     "title": "本場イタリアの野良パスタが虜になるうまさ #パスタ #レシピ #公邸料理人",
+    "platform": "youtube",
+    "externalId": "GHQRjlrUdGE",
+    "videoUrl": "https://www.youtube.com/watch?v=GHQRjlrUdGE",
     "videoId": "GHQRjlrUdGE",
     "url": "https://www.youtube.com/watch?v=GHQRjlrUdGE",
     "thumbnailUrl": "https://i.ytimg.com/vi/GHQRjlrUdGE/maxresdefault.jpg",
@@ -22071,6 +24270,9 @@ const recipes = [
   },
   {
     "title": "イタリア人に教わった【肉パスタ】ボロネーゼだけじゃないラグーソース#shorts",
+    "platform": "youtube",
+    "externalId": "NTCL2-CnaxA",
+    "videoUrl": "https://www.youtube.com/watch?v=NTCL2-CnaxA",
     "videoId": "NTCL2-CnaxA",
     "url": "https://www.youtube.com/watch?v=NTCL2-CnaxA",
     "thumbnailUrl": "https://i.ytimg.com/vi/NTCL2-CnaxA/maxresdefault.jpg",
@@ -22105,6 +24307,9 @@ const recipes = [
   },
   {
     "title": "ペペロンチーノの美味しい作り方。#shorts",
+    "platform": "youtube",
+    "externalId": "FL1kLYyEtdY",
+    "videoUrl": "https://www.youtube.com/watch?v=FL1kLYyEtdY",
     "videoId": "FL1kLYyEtdY",
     "url": "https://www.youtube.com/watch?v=FL1kLYyEtdY",
     "thumbnailUrl": "https://i.ytimg.com/vi/FL1kLYyEtdY/maxresdefault.jpg",
@@ -22130,6 +24335,9 @@ const recipes = [
   },
   {
     "title": "和えるだけ和風たらこパスタ⌇パスタの熱で和えるのがおいしさのポイント #料理 #簡単レシピ #管理栄養士 #パスタ #たらこ",
+    "platform": "youtube",
+    "externalId": "sA5ifX0ECEA",
+    "videoUrl": "https://www.youtube.com/watch?v=sA5ifX0ECEA",
     "videoId": "sA5ifX0ECEA",
     "url": "https://www.youtube.com/watch?v=sA5ifX0ECEA",
     "thumbnailUrl": "https://i.ytimg.com/vi/sA5ifX0ECEA/maxresdefault.jpg",
@@ -22157,6 +24365,9 @@ const recipes = [
   },
   {
     "title": "過去にこれほど旨い冷凍うどんの食べ方があっただろうか。究極の油うどん",
+    "platform": "youtube",
+    "externalId": "qib1DsXHa4A",
+    "videoUrl": "https://www.youtube.com/watch?v=qib1DsXHa4A",
     "videoId": "qib1DsXHa4A",
     "url": "https://www.youtube.com/watch?v=qib1DsXHa4A",
     "thumbnailUrl": "https://i.ytimg.com/vi/qib1DsXHa4A/maxresdefault.jpg",
@@ -22193,6 +24404,9 @@ const recipes = [
   },
   {
     "title": "身体が温まる！ふわふわ卵のあんかけうどん🥢 #簡単レシピ #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "0cNcqncofzk",
+    "videoUrl": "https://www.youtube.com/watch?v=0cNcqncofzk",
     "videoId": "0cNcqncofzk",
     "url": "https://www.youtube.com/watch?v=0cNcqncofzk",
     "thumbnailUrl": "https://i.ytimg.com/vi/0cNcqncofzk/maxresdefault.jpg",
@@ -22226,6 +24440,9 @@ const recipes = [
   },
   {
     "title": "レンジ１発でこんなに旨いなんて【極み油うどん】詳しいレシピは概要欄をチェック！#うどん #冷凍うどん #焼きうどん",
+    "platform": "youtube",
+    "externalId": "hThxfZPR08Y",
+    "videoUrl": "https://www.youtube.com/watch?v=hThxfZPR08Y",
     "videoId": "hThxfZPR08Y",
     "url": "https://www.youtube.com/watch?v=hThxfZPR08Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/hThxfZPR08Y/maxresdefault.jpg",
@@ -22259,6 +24476,9 @@ const recipes = [
   },
   {
     "title": "【やる気1％で卵かけ鶏がらだしうどん】",
+    "platform": "youtube",
+    "externalId": "hu27OO0lZUc",
+    "videoUrl": "https://www.youtube.com/watch?v=hu27OO0lZUc",
     "videoId": "hu27OO0lZUc",
     "url": "https://www.youtube.com/watch?v=hu27OO0lZUc",
     "thumbnailUrl": "https://i.ytimg.com/vi/hu27OO0lZUc/maxresdefault.jpg",
@@ -22290,6 +24510,9 @@ const recipes = [
   },
   {
     "title": "ホッと温まる。ズボラ式肉うどん🥢 #簡単レシピ #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "kIOPftu4SIs",
+    "videoUrl": "https://www.youtube.com/watch?v=kIOPftu4SIs",
     "videoId": "kIOPftu4SIs",
     "url": "https://www.youtube.com/watch?v=kIOPftu4SIs",
     "thumbnailUrl": "https://i.ytimg.com/vi/kIOPftu4SIs/maxresdefault.jpg",
@@ -22319,6 +24542,9 @@ const recipes = [
   },
   {
     "title": "【冷やしうどんレシピ10選】暑い日に食べたい！さっぱり簡単うどんアレンジ",
+    "platform": "youtube",
+    "externalId": "rJrqt7on9Cw",
+    "videoUrl": "https://www.youtube.com/watch?v=rJrqt7on9Cw",
     "videoId": "rJrqt7on9Cw",
     "url": "https://www.youtube.com/watch?v=rJrqt7on9Cw",
     "thumbnailUrl": "https://i.ytimg.com/vi/rJrqt7on9Cw/maxresdefault.jpg",
@@ -22367,6 +24593,9 @@ const recipes = [
   },
   {
     "title": "やる気1％でウマ塩うどん",
+    "platform": "youtube",
+    "externalId": "L_5QO1gf_NY",
+    "videoUrl": "https://www.youtube.com/watch?v=L_5QO1gf_NY",
     "videoId": "L_5QO1gf_NY",
     "url": "https://www.youtube.com/watch?v=L_5QO1gf_NY",
     "thumbnailUrl": "https://i.ytimg.com/vi/L_5QO1gf_NY/maxresdefault.jpg",
@@ -22398,6 +24627,9 @@ const recipes = [
   },
   {
     "title": "この世で1番うまい冷凍うどんの食べ方はこれ。",
+    "platform": "youtube",
+    "externalId": "lyC8pZLn-p8",
+    "videoUrl": "https://www.youtube.com/watch?v=lyC8pZLn-p8",
     "videoId": "lyC8pZLn-p8",
     "url": "https://www.youtube.com/watch?v=lyC8pZLn-p8",
     "thumbnailUrl": "https://i.ytimg.com/vi/lyC8pZLn-p8/maxresdefault.jpg",
@@ -22431,6 +24663,9 @@ const recipes = [
   },
   {
     "title": "やる気1%で作れちゃうめんつゆ鶏がら冷やしうどん",
+    "platform": "youtube",
+    "externalId": "R23bMl2Sdc0",
+    "videoUrl": "https://www.youtube.com/watch?v=R23bMl2Sdc0",
     "videoId": "R23bMl2Sdc0",
     "url": "https://www.youtube.com/watch?v=R23bMl2Sdc0",
     "thumbnailUrl": "https://i.ytimg.com/vi/R23bMl2Sdc0/maxresdefault.jpg",
@@ -22463,6 +24698,9 @@ const recipes = [
   },
   {
     "title": "泣くほど旨い『冷やしぶっかけ肉うどん』",
+    "platform": "youtube",
+    "externalId": "CGZKcTLBJn0",
+    "videoUrl": "https://www.youtube.com/watch?v=CGZKcTLBJn0",
     "videoId": "CGZKcTLBJn0",
     "url": "https://www.youtube.com/watch?v=CGZKcTLBJn0",
     "thumbnailUrl": "https://i.ytimg.com/vi/CGZKcTLBJn0/maxresdefault.jpg",
@@ -22494,6 +24732,9 @@ const recipes = [
   },
   {
     "title": "【究極の卵黄ユッケうどん】",
+    "platform": "youtube",
+    "externalId": "_pwQnmRafLA",
+    "videoUrl": "https://www.youtube.com/watch?v=_pwQnmRafLA",
     "videoId": "_pwQnmRafLA",
     "url": "https://www.youtube.com/watch?v=_pwQnmRafLA",
     "thumbnailUrl": "https://i.ytimg.com/vi/_pwQnmRafLA/maxresdefault.jpg",
@@ -22523,6 +24764,9 @@ const recipes = [
   },
   {
     "title": "これだけは絶対覚えてた方が良い！やみつき混ぜうどんの作り方！",
+    "platform": "youtube",
+    "externalId": "eV-IkFKfqBY",
+    "videoUrl": "https://www.youtube.com/watch?v=eV-IkFKfqBY",
     "videoId": "eV-IkFKfqBY",
     "url": "https://www.youtube.com/watch?v=eV-IkFKfqBY",
     "thumbnailUrl": "https://i.ytimg.com/vi/eV-IkFKfqBY/maxresdefault.jpg",
@@ -22550,6 +24794,9 @@ const recipes = [
   },
   {
     "title": "お皿ひとつでできる絶品ズボラ飯！ヤンニョムチーズうどん",
+    "platform": "youtube",
+    "externalId": "NaP7unX8qYo",
+    "videoUrl": "https://www.youtube.com/watch?v=NaP7unX8qYo",
     "videoId": "NaP7unX8qYo",
     "url": "https://www.youtube.com/watch?v=NaP7unX8qYo",
     "thumbnailUrl": "https://i.ytimg.com/vi/NaP7unX8qYo/maxresdefault.jpg",
@@ -22585,6 +24832,9 @@ const recipes = [
   },
   {
     "title": "とろとろ餡と生姜でほっかほか！卵とじうどん ｜ How To Make Egg-drop Udon",
+    "platform": "youtube",
+    "externalId": "dYnJIaFrLe8",
+    "videoUrl": "https://www.youtube.com/watch?v=dYnJIaFrLe8",
     "videoId": "dYnJIaFrLe8",
     "url": "https://www.youtube.com/watch?v=dYnJIaFrLe8",
     "thumbnailUrl": "https://i.ytimg.com/vi/dYnJIaFrLe8/maxresdefault.jpg",
@@ -22630,6 +24880,9 @@ const recipes = [
   },
   {
     "title": "300万回再生された○🐢再現レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "O9Im7jqMRBc",
+    "videoUrl": "https://www.youtube.com/watch?v=O9Im7jqMRBc",
     "videoId": "O9Im7jqMRBc",
     "url": "https://www.youtube.com/watch?v=O9Im7jqMRBc",
     "thumbnailUrl": "https://i.ytimg.com/vi/O9Im7jqMRBc/maxresdefault.jpg",
@@ -22655,6 +24908,9 @@ const recipes = [
   },
   {
     "title": "肉うどん",
+    "platform": "youtube",
+    "externalId": "dKssykCeITs",
+    "videoUrl": "https://www.youtube.com/watch?v=dKssykCeITs",
     "videoId": "dKssykCeITs",
     "url": "https://www.youtube.com/watch?v=dKssykCeITs",
     "thumbnailUrl": "https://i.ytimg.com/vi/dKssykCeITs/maxresdefault.jpg",
@@ -22685,6 +24941,9 @@ const recipes = [
   },
   {
     "title": "【㊗️800万回再生‼️】お店が出来ちゃう？とろっとろのカレーうどん ｜クラシル #Shorts",
+    "platform": "youtube",
+    "externalId": "erkhdgoEUNg",
+    "videoUrl": "https://www.youtube.com/watch?v=erkhdgoEUNg",
     "videoId": "erkhdgoEUNg",
     "url": "https://www.youtube.com/watch?v=erkhdgoEUNg",
     "thumbnailUrl": "https://i.ytimg.com/vi/erkhdgoEUNg/maxresdefault.jpg",
@@ -22710,6 +24969,9 @@ const recipes = [
   },
   {
     "title": "【レンジで簡単！スタミナつけうどん】",
+    "platform": "youtube",
+    "externalId": "4jO08yz9xmQ",
+    "videoUrl": "https://www.youtube.com/watch?v=4jO08yz9xmQ",
     "videoId": "4jO08yz9xmQ",
     "url": "https://www.youtube.com/watch?v=4jO08yz9xmQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/4jO08yz9xmQ/maxresdefault.jpg",
@@ -22741,6 +25003,9 @@ const recipes = [
   },
   {
     "title": "夏にピッタリピリ辛レシピ！冷やしラー油ぶっかけうどん",
+    "platform": "youtube",
+    "externalId": "VdPwgOY66y4",
+    "videoUrl": "https://www.youtube.com/watch?v=VdPwgOY66y4",
     "videoId": "VdPwgOY66y4",
     "url": "https://www.youtube.com/watch?v=VdPwgOY66y4",
     "thumbnailUrl": "https://i.ytimg.com/vi/VdPwgOY66y4/maxresdefault.jpg",
@@ -22768,6 +25033,9 @@ const recipes = [
   },
   {
     "title": "【こういうのでいいんだよ】金欠で疲れたそこのあなたに食べてほしい。心と体に染み渡るうどんレシピ教えます！",
+    "platform": "youtube",
+    "externalId": "aRVQqB6dquY",
+    "videoUrl": "https://www.youtube.com/watch?v=aRVQqB6dquY",
     "videoId": "aRVQqB6dquY",
     "url": "https://www.youtube.com/watch?v=aRVQqB6dquY",
     "thumbnailUrl": "https://i.ytimg.com/vi/aRVQqB6dquY/maxresdefault.jpg",
@@ -22801,6 +25069,9 @@ const recipes = [
   },
   {
     "title": "汁まで飲み干しちゃう。簡単すぎる梅だしうどん🥢",
+    "platform": "youtube",
+    "externalId": "6HU97Fo4wTM",
+    "videoUrl": "https://www.youtube.com/watch?v=6HU97Fo4wTM",
     "videoId": "6HU97Fo4wTM",
     "url": "https://www.youtube.com/watch?v=6HU97Fo4wTM",
     "thumbnailUrl": "https://i.ytimg.com/vi/6HU97Fo4wTM/maxresdefault.jpg",
@@ -22828,6 +25099,9 @@ const recipes = [
   },
   {
     "title": "疲れた日でも超簡単に作れる究極のキムチ釜玉うどん",
+    "platform": "youtube",
+    "externalId": "dnoOLvGweUE",
+    "videoUrl": "https://www.youtube.com/watch?v=dnoOLvGweUE",
     "videoId": "dnoOLvGweUE",
     "url": "https://www.youtube.com/watch?v=dnoOLvGweUE",
     "thumbnailUrl": "https://i.ytimg.com/vi/dnoOLvGweUE/maxresdefault.jpg",
@@ -22861,6 +25135,9 @@ const recipes = [
   },
   {
     "title": "やる気1％でスタミナまぜうどん",
+    "platform": "youtube",
+    "externalId": "cyGZEKtYIgY",
+    "videoUrl": "https://www.youtube.com/watch?v=cyGZEKtYIgY",
     "videoId": "cyGZEKtYIgY",
     "url": "https://www.youtube.com/watch?v=cyGZEKtYIgY",
     "thumbnailUrl": "https://i.ytimg.com/vi/cyGZEKtYIgY/maxresdefault.jpg",
@@ -22892,6 +25169,9 @@ const recipes = [
   },
   {
     "title": "やる気1%で濃厚ネギだれつけうどん",
+    "platform": "youtube",
+    "externalId": "XbkfJ7jICjg",
+    "videoUrl": "https://www.youtube.com/watch?v=XbkfJ7jICjg",
     "videoId": "XbkfJ7jICjg",
     "url": "https://www.youtube.com/watch?v=XbkfJ7jICjg",
     "thumbnailUrl": "https://i.ytimg.com/vi/XbkfJ7jICjg/maxresdefault.jpg",
@@ -22925,6 +25205,9 @@ const recipes = [
   },
   {
     "title": "さっぱりおいしい！冷やしぶっかけうどん",
+    "platform": "youtube",
+    "externalId": "kkH9ymDO03g",
+    "videoUrl": "https://www.youtube.com/watch?v=kkH9ymDO03g",
     "videoId": "kkH9ymDO03g",
     "url": "https://www.youtube.com/watch?v=kkH9ymDO03g",
     "thumbnailUrl": "https://i.ytimg.com/vi/kkH9ymDO03g/maxresdefault.jpg",
@@ -22958,6 +25241,9 @@ const recipes = [
   },
   {
     "title": "手打ちうどんの作り方 前編【讃岐うどん】",
+    "platform": "youtube",
+    "externalId": "67TYGc6Dd_g",
+    "videoUrl": "https://www.youtube.com/watch?v=67TYGc6Dd_g",
     "videoId": "67TYGc6Dd_g",
     "url": "https://www.youtube.com/watch?v=67TYGc6Dd_g",
     "thumbnailUrl": "https://i.ytimg.com/vi/67TYGc6Dd_g/maxresdefault.jpg",
@@ -22991,6 +25277,9 @@ const recipes = [
   },
   {
     "title": "すげぇ旨いカレーうどんの作り方簡単ワンパンレシピ！ ライフハック",
+    "platform": "youtube",
+    "externalId": "Yf2g5pcnzMc",
+    "videoUrl": "https://www.youtube.com/watch?v=Yf2g5pcnzMc",
     "videoId": "Yf2g5pcnzMc",
     "url": "https://www.youtube.com/watch?v=Yf2g5pcnzMc",
     "thumbnailUrl": "https://i.ytimg.com/vi/Yf2g5pcnzMc/maxresdefault.jpg",
@@ -23035,6 +25324,9 @@ const recipes = [
   },
   {
     "title": "茹でて混ぜるだけ！速攻で食べれるのに最高に美味しい！【うどん】永谷園松茸のお吸い物で釜揚げにしたら最高。食べた後のお楽しみも嬉しい。",
+    "platform": "youtube",
+    "externalId": "w-I-0Xs8ArI",
+    "videoUrl": "https://www.youtube.com/watch?v=w-I-0Xs8ArI",
     "videoId": "w-I-0Xs8ArI",
     "url": "https://www.youtube.com/watch?v=w-I-0Xs8ArI",
     "thumbnailUrl": "https://i.ytimg.com/vi/w-I-0Xs8ArI/maxresdefault.jpg",
@@ -23066,6 +25358,9 @@ const recipes = [
   },
   {
     "title": "5分で完成！明太子クリームうどん🌶️ #簡単レシピ #美味しい",
+    "platform": "youtube",
+    "externalId": "H_XqNjmFWCQ",
+    "videoUrl": "https://www.youtube.com/watch?v=H_XqNjmFWCQ",
     "videoId": "H_XqNjmFWCQ",
     "url": "https://www.youtube.com/watch?v=H_XqNjmFWCQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/H_XqNjmFWCQ/maxresdefault.jpg",
@@ -23099,6 +25394,9 @@ const recipes = [
   },
   {
     "title": "簡単釜玉納豆うどん #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "EUZ-UeRCkrY",
+    "videoUrl": "https://www.youtube.com/watch?v=EUZ-UeRCkrY",
     "videoId": "EUZ-UeRCkrY",
     "url": "https://www.youtube.com/watch?v=EUZ-UeRCkrY",
     "thumbnailUrl": "https://i.ytimg.com/vi/EUZ-UeRCkrY/maxresdefault.jpg",
@@ -23124,6 +25422,9 @@ const recipes = [
   },
   {
     "title": "やる気1％でキムチーズ釜玉うどん",
+    "platform": "youtube",
+    "externalId": "aVuigqIVTfQ",
+    "videoUrl": "https://www.youtube.com/watch?v=aVuigqIVTfQ",
     "videoId": "aVuigqIVTfQ",
     "url": "https://www.youtube.com/watch?v=aVuigqIVTfQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/aVuigqIVTfQ/maxresdefault.jpg",
@@ -23158,6 +25459,9 @@ const recipes = [
   },
   {
     "title": "レンチンで楽ちんレシピ！豚キムチーズうどん",
+    "platform": "youtube",
+    "externalId": "eCSxiq5xhjI",
+    "videoUrl": "https://www.youtube.com/watch?v=eCSxiq5xhjI",
     "videoId": "eCSxiq5xhjI",
     "url": "https://www.youtube.com/watch?v=eCSxiq5xhjI",
     "thumbnailUrl": "https://i.ytimg.com/vi/eCSxiq5xhjI/maxresdefault.jpg",
@@ -23193,6 +25497,9 @@ const recipes = [
   },
   {
     "title": "電子レンジだけ【冷凍うどんアレンジ】キムチとツナで超絶品🔥業務スーパーレシピ！",
+    "platform": "youtube",
+    "externalId": "RfdTsbT63CY",
+    "videoUrl": "https://www.youtube.com/watch?v=RfdTsbT63CY",
     "videoId": "RfdTsbT63CY",
     "url": "https://www.youtube.com/watch?v=RfdTsbT63CY",
     "thumbnailUrl": "https://i.ytimg.com/vi/RfdTsbT63CY/maxresdefault.jpg",
@@ -23220,6 +25527,9 @@ const recipes = [
   },
   {
     "title": "野菜たっぷり！うまみ豚白菜うどん #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "itHXGeJk170",
+    "videoUrl": "https://www.youtube.com/watch?v=itHXGeJk170",
     "videoId": "itHXGeJk170",
     "url": "https://www.youtube.com/watch?v=itHXGeJk170",
     "thumbnailUrl": "https://i.ytimg.com/vi/itHXGeJk170/maxresdefault.jpg",
@@ -23247,6 +25557,9 @@ const recipes = [
   },
   {
     "title": "夫が大絶賛した豆乳坦々うどん #簡単レシピ #料理 #夫婦ごはん",
+    "platform": "youtube",
+    "externalId": "WwoP1NGb-W0",
+    "videoUrl": "https://www.youtube.com/watch?v=WwoP1NGb-W0",
     "videoId": "WwoP1NGb-W0",
     "url": "https://www.youtube.com/watch?v=WwoP1NGb-W0",
     "thumbnailUrl": "https://i.ytimg.com/vi/WwoP1NGb-W0/maxresdefault.jpg",
@@ -23272,6 +25585,9 @@ const recipes = [
   },
   {
     "title": "混ぜるだけで絶品レシピ！冷やしビビンうどん",
+    "platform": "youtube",
+    "externalId": "qp3IhCUm8TY",
+    "videoUrl": "https://www.youtube.com/watch?v=qp3IhCUm8TY",
     "videoId": "qp3IhCUm8TY",
     "url": "https://www.youtube.com/watch?v=qp3IhCUm8TY",
     "thumbnailUrl": "https://i.ytimg.com/vi/qp3IhCUm8TY/maxresdefault.jpg",
@@ -23305,6 +25621,9 @@ const recipes = [
   },
   {
     "title": "レンジで1発！生クリーム不要のクリームうどん🥹 #shots #おうちごはん",
+    "platform": "youtube",
+    "externalId": "USJFBFqSLoc",
+    "videoUrl": "https://www.youtube.com/watch?v=USJFBFqSLoc",
     "videoId": "USJFBFqSLoc",
     "url": "https://www.youtube.com/watch?v=USJFBFqSLoc",
     "thumbnailUrl": "https://i.ytimg.com/vi/USJFBFqSLoc/maxresdefault.jpg",
@@ -23338,6 +25657,9 @@ const recipes = [
   },
   {
     "title": "やる気1%でごまつゆつけうどん",
+    "platform": "youtube",
+    "externalId": "Bu9lDkEfINA",
+    "videoUrl": "https://www.youtube.com/watch?v=Bu9lDkEfINA",
     "videoId": "Bu9lDkEfINA",
     "url": "https://www.youtube.com/watch?v=Bu9lDkEfINA",
     "thumbnailUrl": "https://i.ytimg.com/vi/Bu9lDkEfINA/maxresdefault.jpg",
@@ -23369,6 +25691,9 @@ const recipes = [
   },
   {
     "title": "【やる気1％で作れる！鶏がら醤油うどん】",
+    "platform": "youtube",
+    "externalId": "QjvdUGEBXm8",
+    "videoUrl": "https://www.youtube.com/watch?v=QjvdUGEBXm8",
     "videoId": "QjvdUGEBXm8",
     "url": "https://www.youtube.com/watch?v=QjvdUGEBXm8",
     "thumbnailUrl": "https://i.ytimg.com/vi/QjvdUGEBXm8/hqdefault.jpg",
@@ -23398,6 +25723,9 @@ const recipes = [
   },
   {
     "title": "これは絶対覚えた方がいい。家でこんなにウマい出汁とお揚げが作れます【至高のきつねうどん】 #料理 #バズレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "LJuqp4e38Eg",
+    "videoUrl": "https://www.youtube.com/watch?v=LJuqp4e38Eg",
     "videoId": "LJuqp4e38Eg",
     "url": "https://www.youtube.com/watch?v=LJuqp4e38Eg",
     "thumbnailUrl": "https://i.ytimg.com/vi/LJuqp4e38Eg/maxresdefault.jpg",
@@ -23427,6 +25755,9 @@ const recipes = [
   },
   {
     "title": "簡単すぎる。肉カレーうどん🥢",
+    "platform": "youtube",
+    "externalId": "PvVSP4tJigk",
+    "videoUrl": "https://www.youtube.com/watch?v=PvVSP4tJigk",
     "videoId": "PvVSP4tJigk",
     "url": "https://www.youtube.com/watch?v=PvVSP4tJigk",
     "thumbnailUrl": "https://i.ytimg.com/vi/PvVSP4tJigk/maxresdefault.jpg",
@@ -23460,6 +25791,9 @@ const recipes = [
   },
   {
     "title": "限界olのためのうどんレシピ😪ごまドレッシング万能すぎる👊 #ブラック企業 #ol日常 #退勤後 #cooking #自炊 #vlog #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "06UVZUsa90w",
+    "videoUrl": "https://www.youtube.com/watch?v=06UVZUsa90w",
     "videoId": "06UVZUsa90w",
     "url": "https://www.youtube.com/watch?v=06UVZUsa90w",
     "thumbnailUrl": "https://i.ytimg.com/vi/06UVZUsa90w/maxresdefault.jpg",
@@ -23485,6 +25819,9 @@ const recipes = [
   },
   {
     "title": "やる気1%で作れる鶏ガラ醤油釜玉うどん",
+    "platform": "youtube",
+    "externalId": "HAUWk1Paxmk",
+    "videoUrl": "https://www.youtube.com/watch?v=HAUWk1Paxmk",
     "videoId": "HAUWk1Paxmk",
     "url": "https://www.youtube.com/watch?v=HAUWk1Paxmk",
     "thumbnailUrl": "https://i.ytimg.com/vi/HAUWk1Paxmk/maxresdefault.jpg",
@@ -23516,6 +25853,9 @@ const recipes = [
   },
   {
     "title": "肉うどんの作り方！ガッツリいける！おうちで簡単お店の味☆旨みたっぷり甘辛肉うどんです♪お肉も柔らかで食べ応え抜群！-How to make Meat Noodles-【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "bUshNQMBpis",
+    "videoUrl": "https://www.youtube.com/watch?v=bUshNQMBpis",
     "videoId": "bUshNQMBpis",
     "url": "https://www.youtube.com/watch?v=bUshNQMBpis",
     "thumbnailUrl": "https://i.ytimg.com/vi/bUshNQMBpis/maxresdefault.jpg",
@@ -23551,6 +25891,9 @@ const recipes = [
   },
   {
     "title": "夏野菜たっぷり！簡単サラダうどん",
+    "platform": "youtube",
+    "externalId": "v3T8egJ6iCk",
+    "videoUrl": "https://www.youtube.com/watch?v=v3T8egJ6iCk",
     "videoId": "v3T8egJ6iCk",
     "url": "https://www.youtube.com/watch?v=v3T8egJ6iCk",
     "thumbnailUrl": "https://i.ytimg.com/vi/v3T8egJ6iCk/maxresdefault.jpg",
@@ -23576,6 +25919,9 @@ const recipes = [
   },
   {
     "title": "簡単で減塩！給食うどんレシピ大公開",
+    "platform": "youtube",
+    "externalId": "9tgAv1xex5I",
+    "videoUrl": "https://www.youtube.com/watch?v=9tgAv1xex5I",
     "videoId": "9tgAv1xex5I",
     "url": "https://www.youtube.com/watch?v=9tgAv1xex5I",
     "thumbnailUrl": "https://i.ytimg.com/vi/9tgAv1xex5I/maxresdefault.jpg",
@@ -23611,6 +25957,9 @@ const recipes = [
   },
   {
     "title": "鬼リピ決定の逸材レシピ！ビビンラー油うどん",
+    "platform": "youtube",
+    "externalId": "vUHOij1TOe4",
+    "videoUrl": "https://www.youtube.com/watch?v=vUHOij1TOe4",
     "videoId": "vUHOij1TOe4",
     "url": "https://www.youtube.com/watch?v=vUHOij1TOe4",
     "thumbnailUrl": "https://i.ytimg.com/vi/vUHOij1TOe4/maxresdefault.jpg",
@@ -23642,6 +25991,9 @@ const recipes = [
   },
   {
     "title": "箸が止まらない！ラー油でピリ辛油うどん！",
+    "platform": "youtube",
+    "externalId": "bhZhOenIdi4",
+    "videoUrl": "https://www.youtube.com/watch?v=bhZhOenIdi4",
     "videoId": "bhZhOenIdi4",
     "url": "https://www.youtube.com/watch?v=bhZhOenIdi4",
     "thumbnailUrl": "https://i.ytimg.com/vi/bhZhOenIdi4/maxresdefault.jpg",
@@ -23674,6 +26026,9 @@ const recipes = [
   },
   {
     "title": "【やる気1％でたれポン酢まぜうどん】",
+    "platform": "youtube",
+    "externalId": "Y2VBSaq9nTo",
+    "videoUrl": "https://www.youtube.com/watch?v=Y2VBSaq9nTo",
     "videoId": "Y2VBSaq9nTo",
     "url": "https://www.youtube.com/watch?v=Y2VBSaq9nTo",
     "thumbnailUrl": "https://i.ytimg.com/vi/Y2VBSaq9nTo/maxresdefault.jpg",
@@ -23705,6 +26060,9 @@ const recipes = [
   },
   {
     "title": "作業5分で！明太釜玉うどん🥢 #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "jrVkkUA6Hlk",
+    "videoUrl": "https://www.youtube.com/watch?v=jrVkkUA6Hlk",
     "videoId": "jrVkkUA6Hlk",
     "url": "https://www.youtube.com/watch?v=jrVkkUA6Hlk",
     "thumbnailUrl": "https://i.ytimg.com/vi/jrVkkUA6Hlk/maxresdefault.jpg",
@@ -23730,6 +26088,9 @@ const recipes = [
   },
   {
     "title": "仕事終わりでもレンジで簡単に美味しく出来る！カルボうどん🐣 #カルボナーラうどん #冷凍うどん #うどん #簡単レシピ #レンジで簡単",
+    "platform": "youtube",
+    "externalId": "-RdCjDJhaAk",
+    "videoUrl": "https://www.youtube.com/watch?v=-RdCjDJhaAk",
     "videoId": "-RdCjDJhaAk",
     "url": "https://www.youtube.com/watch?v=-RdCjDJhaAk",
     "thumbnailUrl": "https://i.ytimg.com/vi/-RdCjDJhaAk/maxresdefault.jpg",
@@ -23756,6 +26117,9 @@ const recipes = [
   },
   {
     "title": "たまらない美味さ！ネギ豚つけうどん",
+    "platform": "youtube",
+    "externalId": "OH0kO3wRF1U",
+    "videoUrl": "https://www.youtube.com/watch?v=OH0kO3wRF1U",
     "videoId": "OH0kO3wRF1U",
     "url": "https://www.youtube.com/watch?v=OH0kO3wRF1U",
     "thumbnailUrl": "https://i.ytimg.com/vi/OH0kO3wRF1U/maxresdefault.jpg",
@@ -23787,6 +26151,9 @@ const recipes = [
   },
   {
     "title": "たったこれだけ。いつもの具材でうどんはここまで旨くなる『かきたまうどん』",
+    "platform": "youtube",
+    "externalId": "6yNNV9lduiA",
+    "videoUrl": "https://www.youtube.com/watch?v=6yNNV9lduiA",
     "videoId": "6yNNV9lduiA",
     "url": "https://www.youtube.com/watch?v=6yNNV9lduiA",
     "thumbnailUrl": "https://i.ytimg.com/vi/6yNNV9lduiA/maxresdefault.jpg",
@@ -23825,6 +26192,9 @@ const recipes = [
   },
   {
     "title": "【プロ直伝】 人気うどん屋さんから教わった【手打ちうどん】の作り方を公開します",
+    "platform": "youtube",
+    "externalId": "FapN3xuNc6c",
+    "videoUrl": "https://www.youtube.com/watch?v=FapN3xuNc6c",
     "videoId": "FapN3xuNc6c",
     "url": "https://www.youtube.com/watch?v=FapN3xuNc6c",
     "thumbnailUrl": "https://i.ytimg.com/vi/FapN3xuNc6c/maxresdefault.jpg",
@@ -23856,6 +26226,9 @@ const recipes = [
   },
   {
     "title": "一瞬で完成！バター釜玉油うどん",
+    "platform": "youtube",
+    "externalId": "LIiIU9Pj9qI",
+    "videoUrl": "https://www.youtube.com/watch?v=LIiIU9Pj9qI",
     "videoId": "LIiIU9Pj9qI",
     "url": "https://www.youtube.com/watch?v=LIiIU9Pj9qI",
     "thumbnailUrl": "https://i.ytimg.com/vi/LIiIU9Pj9qI/maxresdefault.jpg",
@@ -23891,6 +26264,9 @@ const recipes = [
   },
   {
     "title": "超簡単‼️めんつゆごま油うどんの作り方◥█̆̈◤࿉∥ #うどん #レシピ #時短 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "3NJDt9zwPH0",
+    "videoUrl": "https://www.youtube.com/watch?v=3NJDt9zwPH0",
     "videoId": "3NJDt9zwPH0",
     "url": "https://www.youtube.com/watch?v=3NJDt9zwPH0",
     "thumbnailUrl": "https://i.ytimg.com/vi/3NJDt9zwPH0/maxresdefault.jpg",
@@ -23916,6 +26292,9 @@ const recipes = [
   },
   {
     "title": "【丸亀にあったらみんな注文するよ？】豚バラ茄子つけうどん #料理 #マッチョ #元カレ #cooking #簡単レシピ #クッキング",
+    "platform": "youtube",
+    "externalId": "Z-EHKV0zbwE",
+    "videoUrl": "https://www.youtube.com/watch?v=Z-EHKV0zbwE",
     "videoId": "Z-EHKV0zbwE",
     "url": "https://www.youtube.com/watch?v=Z-EHKV0zbwE",
     "thumbnailUrl": "https://i.ytimg.com/vi/Z-EHKV0zbwE/maxresdefault.jpg",
@@ -23941,6 +26320,9 @@ const recipes = [
   },
   {
     "title": "簡単かきたまうどんの作り方 #shorts #簡単レシピ #おうちごはん #うどん #料理 #cooking #japanesefood",
+    "platform": "youtube",
+    "externalId": "uaHg1Xo153E",
+    "videoUrl": "https://www.youtube.com/watch?v=uaHg1Xo153E",
     "videoId": "uaHg1Xo153E",
     "url": "https://www.youtube.com/watch?v=uaHg1Xo153E",
     "thumbnailUrl": "https://i.ytimg.com/vi/uaHg1Xo153E/maxresdefault.jpg",
@@ -23966,6 +26348,9 @@ const recipes = [
   },
   {
     "title": "寒い日に栄養満点ごはん！鶏ねぎ塩うどん #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "fzTt7nc6mAo",
+    "videoUrl": "https://www.youtube.com/watch?v=fzTt7nc6mAo",
     "videoId": "fzTt7nc6mAo",
     "url": "https://www.youtube.com/watch?v=fzTt7nc6mAo",
     "thumbnailUrl": "https://i.ytimg.com/vi/fzTt7nc6mAo/maxresdefault.jpg",
@@ -23993,6 +26378,9 @@ const recipes = [
   },
   {
     "title": "🍲5分で作れる！絶品豚塩うどん🐷 #簡単レシピ #うどん",
+    "platform": "youtube",
+    "externalId": "GlT0LJKNFwU",
+    "videoUrl": "https://www.youtube.com/watch?v=GlT0LJKNFwU",
     "videoId": "GlT0LJKNFwU",
     "url": "https://www.youtube.com/watch?v=GlT0LJKNFwU",
     "thumbnailUrl": "https://i.ytimg.com/vi/GlT0LJKNFwU/maxresdefault.jpg",
@@ -24024,6 +26412,9 @@ const recipes = [
   },
   {
     "title": "レンジのみで作れて男子受け抜群。1人ご飯にもちょうどよいからうどんあったらこれやって！#簡単レシピ #時短節約 #節約レシピ #うどんレシピ #とんこつラーメン #youtubeshorts",
+    "platform": "youtube",
+    "externalId": "2VsP5kqjYj0",
+    "videoUrl": "https://www.youtube.com/watch?v=2VsP5kqjYj0",
     "videoId": "2VsP5kqjYj0",
     "url": "https://www.youtube.com/watch?v=2VsP5kqjYj0",
     "thumbnailUrl": "https://i.ytimg.com/vi/2VsP5kqjYj0/maxresdefault.jpg",
@@ -24052,6 +26443,9 @@ const recipes = [
   },
   {
     "title": "焼きうどんを極上にするひと手間のコツ",
+    "platform": "youtube",
+    "externalId": "5CLo8-Flpbw",
+    "videoUrl": "https://www.youtube.com/watch?v=5CLo8-Flpbw",
     "videoId": "5CLo8-Flpbw",
     "url": "https://www.youtube.com/watch?v=5CLo8-Flpbw",
     "thumbnailUrl": "https://i.ytimg.com/vi/5CLo8-Flpbw/maxresdefault.jpg",
@@ -24077,6 +26471,9 @@ const recipes = [
   },
   {
     "title": "冷凍うどんがあったら、、 #shots",
+    "platform": "youtube",
+    "externalId": "Uveq-lQJZdo",
+    "videoUrl": "https://www.youtube.com/watch?v=Uveq-lQJZdo",
     "videoId": "Uveq-lQJZdo",
     "url": "https://www.youtube.com/watch?v=Uveq-lQJZdo",
     "thumbnailUrl": "https://i.ytimg.com/vi/Uveq-lQJZdo/maxresdefault.jpg",
@@ -24110,6 +26507,9 @@ const recipes = [
   },
   {
     "title": "【肉うどん】困った時に！一瞬で作れて絶品な肉うどんの黄金比！",
+    "platform": "youtube",
+    "externalId": "VN7w10udjWw",
+    "videoUrl": "https://www.youtube.com/watch?v=VN7w10udjWw",
     "videoId": "VN7w10udjWw",
     "url": "https://www.youtube.com/watch?v=VN7w10udjWw",
     "thumbnailUrl": "https://i.ytimg.com/vi/VN7w10udjWw/maxresdefault.jpg",
@@ -24135,6 +26535,9 @@ const recipes = [
   },
   {
     "title": "【プロの簡単レシピ】最高に美味しいうどん出汁！冷凍うどんでも美味しくなる作り方",
+    "platform": "youtube",
+    "externalId": "q8shUBBb1fA",
+    "videoUrl": "https://www.youtube.com/watch?v=q8shUBBb1fA",
     "videoId": "q8shUBBb1fA",
     "url": "https://www.youtube.com/watch?v=q8shUBBb1fA",
     "thumbnailUrl": "https://i.ytimg.com/vi/q8shUBBb1fA/maxresdefault.jpg",
@@ -24160,6 +26563,9 @@ const recipes = [
   },
   {
     "title": "絶品カレーうどん#簡単レシピ#レシピ#おうちごはん#カレーうどん#うどんレシピ#料理",
+    "platform": "youtube",
+    "externalId": "si9JP-tisXg",
+    "videoUrl": "https://www.youtube.com/watch?v=si9JP-tisXg",
     "videoId": "si9JP-tisXg",
     "url": "https://www.youtube.com/watch?v=si9JP-tisXg",
     "thumbnailUrl": "https://i.ytimg.com/vi/si9JP-tisXg/maxresdefault.jpg",
@@ -24193,6 +26599,9 @@ const recipes = [
   },
   {
     "title": "【冷凍うどん】電子レンジだけで作れるズボラかけうどん #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "PqEFi1mj0zk",
+    "videoUrl": "https://www.youtube.com/watch?v=PqEFi1mj0zk",
     "videoId": "PqEFi1mj0zk",
     "url": "https://www.youtube.com/watch?v=PqEFi1mj0zk",
     "thumbnailUrl": "https://i.ytimg.com/vi/PqEFi1mj0zk/maxresdefault.jpg",
@@ -24218,6 +26627,9 @@ const recipes = [
   },
   {
     "title": "簡単すぎる…絶品鶏塩うどん🥢",
+    "platform": "youtube",
+    "externalId": "UDwZtqNXZQo",
+    "videoUrl": "https://www.youtube.com/watch?v=UDwZtqNXZQo",
     "videoId": "UDwZtqNXZQo",
     "url": "https://www.youtube.com/watch?v=UDwZtqNXZQo",
     "thumbnailUrl": "https://i.ytimg.com/vi/UDwZtqNXZQo/maxresdefault.jpg",
@@ -24249,6 +26661,9 @@ const recipes = [
   },
   {
     "title": "冷凍うどんはこうやって食らえ。",
+    "platform": "youtube",
+    "externalId": "96fpE3tabmI",
+    "videoUrl": "https://www.youtube.com/watch?v=96fpE3tabmI",
     "videoId": "96fpE3tabmI",
     "url": "https://www.youtube.com/watch?v=96fpE3tabmI",
     "thumbnailUrl": "https://i.ytimg.com/vi/96fpE3tabmI/maxresdefault.jpg",
@@ -24280,6 +26695,9 @@ const recipes = [
   },
   {
     "title": "手打ちうどんの作り方 後編【讃岐うどん】",
+    "platform": "youtube",
+    "externalId": "pjkFBErF5l8",
+    "videoUrl": "https://www.youtube.com/watch?v=pjkFBErF5l8",
     "videoId": "pjkFBErF5l8",
     "url": "https://www.youtube.com/watch?v=pjkFBErF5l8",
     "thumbnailUrl": "https://i.ytimg.com/vi/pjkFBErF5l8/maxresdefault.jpg",
@@ -24313,6 +26731,9 @@ const recipes = [
   },
   {
     "title": "爆速！濃厚！！【ピリ辛胡麻うどん】 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "R1RM-BPqMtk",
+    "videoUrl": "https://www.youtube.com/watch?v=R1RM-BPqMtk",
     "videoId": "R1RM-BPqMtk",
     "url": "https://www.youtube.com/watch?v=R1RM-BPqMtk",
     "thumbnailUrl": "https://i.ytimg.com/vi/R1RM-BPqMtk/maxresdefault.jpg",
@@ -24338,6 +26759,9 @@ const recipes = [
   },
   {
     "title": "疲れた日でも作れる。爆速ツナ塩うどん🥢 #簡単レシピ #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "fcRmQGL5Qe4",
+    "videoUrl": "https://www.youtube.com/watch?v=fcRmQGL5Qe4",
     "videoId": "fcRmQGL5Qe4",
     "url": "https://www.youtube.com/watch?v=fcRmQGL5Qe4",
     "thumbnailUrl": "https://i.ytimg.com/vi/fcRmQGL5Qe4/maxresdefault.jpg",
@@ -24369,6 +26793,9 @@ const recipes = [
   },
   {
     "title": "とろける卵かけチーズうどん🧀#簡単レシピ #うどん #時短レシピ #お手軽レシピ #レンジで簡単 #チーズ #冷凍うどん",
+    "platform": "youtube",
+    "externalId": "i7l-4LPMd-4",
+    "videoUrl": "https://www.youtube.com/watch?v=i7l-4LPMd-4",
     "videoId": "i7l-4LPMd-4",
     "url": "https://www.youtube.com/watch?v=i7l-4LPMd-4",
     "thumbnailUrl": "https://i.ytimg.com/vi/i7l-4LPMd-4/maxresdefault.jpg",
@@ -24398,6 +26825,9 @@ const recipes = [
   },
   {
     "title": "本日の‼️てぬきお昼ごはん🤭バター釜玉うどん",
+    "platform": "youtube",
+    "externalId": "o-KvgCX2OA0",
+    "videoUrl": "https://www.youtube.com/watch?v=o-KvgCX2OA0",
     "videoId": "o-KvgCX2OA0",
     "url": "https://www.youtube.com/watch?v=o-KvgCX2OA0",
     "thumbnailUrl": "https://i.ytimg.com/vi/o-KvgCX2OA0/maxresdefault.jpg",
@@ -24431,6 +26861,9 @@ const recipes = [
   },
   {
     "title": "フライパンや鍋で1発でできるズボラ飯！ネギ塩豚バラうどん",
+    "platform": "youtube",
+    "externalId": "icUa8QvAXqI",
+    "videoUrl": "https://www.youtube.com/watch?v=icUa8QvAXqI",
     "videoId": "icUa8QvAXqI",
     "url": "https://www.youtube.com/watch?v=icUa8QvAXqI",
     "thumbnailUrl": "https://i.ytimg.com/vi/icUa8QvAXqI/maxresdefault.jpg",
@@ -24462,6 +26895,9 @@ const recipes = [
   },
   {
     "title": "やる気1%でピリ辛まぜうどん",
+    "platform": "youtube",
+    "externalId": "pEcyz3X5-Wg",
+    "videoUrl": "https://www.youtube.com/watch?v=pEcyz3X5-Wg",
     "videoId": "pEcyz3X5-Wg",
     "url": "https://www.youtube.com/watch?v=pEcyz3X5-Wg",
     "thumbnailUrl": "https://i.ytimg.com/vi/pEcyz3X5-Wg/maxresdefault.jpg",
@@ -24493,6 +26929,9 @@ const recipes = [
   },
   {
     "title": "柚子胡椒香るトマト冷やしうどん：レシピは概要欄に",
+    "platform": "youtube",
+    "externalId": "ZuNExW22x_E",
+    "videoUrl": "https://www.youtube.com/watch?v=ZuNExW22x_E",
     "videoId": "ZuNExW22x_E",
     "url": "https://www.youtube.com/watch?v=ZuNExW22x_E",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZuNExW22x_E/maxresdefault.jpg",
@@ -24520,6 +26959,9 @@ const recipes = [
   },
   {
     "title": "レンジで一発！明太マヨうどん",
+    "platform": "youtube",
+    "externalId": "jpmqsMLfP0s",
+    "videoUrl": "https://www.youtube.com/watch?v=jpmqsMLfP0s",
     "videoId": "jpmqsMLfP0s",
     "url": "https://www.youtube.com/watch?v=jpmqsMLfP0s",
     "thumbnailUrl": "https://i.ytimg.com/vi/jpmqsMLfP0s/maxresdefault.jpg",
@@ -24551,6 +26993,9 @@ const recipes = [
   },
   {
     "title": "簡単で本格味！プロの卵とじあんかけうどんの作り方【絶品】",
+    "platform": "youtube",
+    "externalId": "yxrctg9fe4g",
+    "videoUrl": "https://www.youtube.com/watch?v=yxrctg9fe4g",
     "videoId": "yxrctg9fe4g",
     "url": "https://www.youtube.com/watch?v=yxrctg9fe4g",
     "thumbnailUrl": "https://i.ytimg.com/vi/yxrctg9fe4g/maxresdefault.jpg",
@@ -24582,6 +27027,9 @@ const recipes = [
   },
   {
     "title": "うどん茹でるな！！驚愕の方法で作るヤバい冷やしうどん #リュウジ #料理 #shorts",
+    "platform": "youtube",
+    "externalId": "BXOqmSIBxEI",
+    "videoUrl": "https://www.youtube.com/watch?v=BXOqmSIBxEI",
     "videoId": "BXOqmSIBxEI",
     "url": "https://www.youtube.com/watch?v=BXOqmSIBxEI",
     "thumbnailUrl": "https://i.ytimg.com/vi/BXOqmSIBxEI/maxresdefault.jpg",
@@ -24609,6 +27057,9 @@ const recipes = [
   },
   {
     "title": "プロが教える最高に美味しい肉うどんの作り方【簡単レシピ】",
+    "platform": "youtube",
+    "externalId": "ClRMR1aSloE",
+    "videoUrl": "https://www.youtube.com/watch?v=ClRMR1aSloE",
     "videoId": "ClRMR1aSloE",
     "url": "https://www.youtube.com/watch?v=ClRMR1aSloE",
     "thumbnailUrl": "https://i.ytimg.com/vi/ClRMR1aSloE/maxresdefault.jpg",
@@ -24641,6 +27092,9 @@ const recipes = [
   },
   {
     "title": "小麦粉と水で作る 手打ちうどん",
+    "platform": "youtube",
+    "externalId": "_uGyrwkUx6Y",
+    "videoUrl": "https://www.youtube.com/watch?v=_uGyrwkUx6Y",
     "videoId": "_uGyrwkUx6Y",
     "url": "https://www.youtube.com/watch?v=_uGyrwkUx6Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/_uGyrwkUx6Y/maxresdefault.jpg",
@@ -24668,6 +27122,9 @@ const recipes = [
   },
   {
     "title": "これ公開するかマジ悩んだ。あまりにも罪深いウマさの【必殺ズボラうどん】の作り方#shorts #リュウジ #うどん",
+    "platform": "youtube",
+    "externalId": "DQuUk2rAdOE",
+    "videoUrl": "https://www.youtube.com/watch?v=DQuUk2rAdOE",
     "videoId": "DQuUk2rAdOE",
     "url": "https://www.youtube.com/watch?v=DQuUk2rAdOE",
     "thumbnailUrl": "https://i.ytimg.com/vi/DQuUk2rAdOE/maxresdefault.jpg",
@@ -24695,6 +27152,9 @@ const recipes = [
   },
   {
     "title": "いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】#shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "yeCNDrByoXM",
+    "videoUrl": "https://www.youtube.com/watch?v=yeCNDrByoXM",
     "videoId": "yeCNDrByoXM",
     "url": "https://www.youtube.com/watch?v=yeCNDrByoXM",
     "thumbnailUrl": "https://i.ytimg.com/vi/yeCNDrByoXM/maxresdefault.jpg",
@@ -24723,6 +27183,9 @@ const recipes = [
   },
   {
     "title": "いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】",
+    "platform": "youtube",
+    "externalId": "PHA_9YugW0k",
+    "videoUrl": "https://www.youtube.com/watch?v=PHA_9YugW0k",
     "videoId": "PHA_9YugW0k",
     "url": "https://www.youtube.com/watch?v=PHA_9YugW0k",
     "thumbnailUrl": "https://i.ytimg.com/vi/PHA_9YugW0k/maxresdefault.jpg",
@@ -24761,6 +27224,9 @@ const recipes = [
   },
   {
     "title": "【手間1分】朝からいける簡単とんこつ風うどんが旨すぎた！#簡単レシピ #冷凍うどん #時短",
+    "platform": "youtube",
+    "externalId": "rG5wM6QoC2k",
+    "videoUrl": "https://www.youtube.com/watch?v=rG5wM6QoC2k",
     "videoId": "rG5wM6QoC2k",
     "url": "https://www.youtube.com/watch?v=rG5wM6QoC2k",
     "thumbnailUrl": "https://i.ytimg.com/vi/rG5wM6QoC2k/maxresdefault.jpg",
@@ -24786,6 +27252,9 @@ const recipes = [
   },
   {
     "title": "さっぱりと食べられる！肉おろしぶっかけうどん！ #簡単レシピ #うどん",
+    "platform": "youtube",
+    "externalId": "T3rJX2IrzVA",
+    "videoUrl": "https://www.youtube.com/watch?v=T3rJX2IrzVA",
     "videoId": "T3rJX2IrzVA",
     "url": "https://www.youtube.com/watch?v=T3rJX2IrzVA",
     "thumbnailUrl": "https://i.ytimg.com/vi/T3rJX2IrzVA/maxresdefault.jpg",
@@ -24819,6 +27288,9 @@ const recipes = [
   },
   {
     "title": "やる気1%でヤンニョムうどん",
+    "platform": "youtube",
+    "externalId": "3wwWI6gaGmk",
+    "videoUrl": "https://www.youtube.com/watch?v=3wwWI6gaGmk",
     "videoId": "3wwWI6gaGmk",
     "url": "https://www.youtube.com/watch?v=3wwWI6gaGmk",
     "thumbnailUrl": "https://i.ytimg.com/vi/3wwWI6gaGmk/maxresdefault.jpg",
@@ -24846,6 +27318,9 @@ const recipes = [
   },
   {
     "title": "間違いなく絶品！一品鶏だしねぎ塩つけうどん",
+    "platform": "youtube",
+    "externalId": "9r7Rs8hFDlA",
+    "videoUrl": "https://www.youtube.com/watch?v=9r7Rs8hFDlA",
     "videoId": "9r7Rs8hFDlA",
     "url": "https://www.youtube.com/watch?v=9r7Rs8hFDlA",
     "thumbnailUrl": "https://i.ytimg.com/vi/9r7Rs8hFDlA/maxresdefault.jpg",
@@ -24880,6 +27355,9 @@ const recipes = [
   },
   {
     "title": "レンジで1発！明太バタークリームうどん",
+    "platform": "youtube",
+    "externalId": "rw5DM-aYkPs",
+    "videoUrl": "https://www.youtube.com/watch?v=rw5DM-aYkPs",
     "videoId": "rw5DM-aYkPs",
     "url": "https://www.youtube.com/watch?v=rw5DM-aYkPs",
     "thumbnailUrl": "https://i.ytimg.com/vi/rw5DM-aYkPs/maxresdefault.jpg",
@@ -24913,6 +27391,9 @@ const recipes = [
   },
   {
     "title": "かすうどんを作ろう #shorts",
+    "platform": "youtube",
+    "externalId": "Y04Yuhpkeuw",
+    "videoUrl": "https://www.youtube.com/watch?v=Y04Yuhpkeuw",
     "videoId": "Y04Yuhpkeuw",
     "url": "https://www.youtube.com/watch?v=Y04Yuhpkeuw",
     "thumbnailUrl": "https://i.ytimg.com/vi/Y04Yuhpkeuw/maxresdefault.jpg",
@@ -24938,6 +27419,9 @@ const recipes = [
   },
   {
     "title": "鶏煮込みうどん〜鶏肉と白菜の旨味スープが身体に沁みわたる",
+    "platform": "youtube",
+    "externalId": "r84BdAE39TM",
+    "videoUrl": "https://www.youtube.com/watch?v=r84BdAE39TM",
     "videoId": "r84BdAE39TM",
     "url": "https://www.youtube.com/watch?v=r84BdAE39TM",
     "thumbnailUrl": "https://i.ytimg.com/vi/r84BdAE39TM/maxresdefault.jpg",
@@ -24970,6 +27454,9 @@ const recipes = [
   },
   {
     "title": "簡単すぎる。絶品肉つけうどん🥢 #簡単レシピ #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "a9J1ap9E0ec",
+    "videoUrl": "https://www.youtube.com/watch?v=a9J1ap9E0ec",
     "videoId": "a9J1ap9E0ec",
     "url": "https://www.youtube.com/watch?v=a9J1ap9E0ec",
     "thumbnailUrl": "https://i.ytimg.com/vi/a9J1ap9E0ec/maxresdefault.jpg",
@@ -24999,6 +27486,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！トマトチーズうどん🍅🍃 #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "p5kxP6c4WCw",
+    "videoUrl": "https://www.youtube.com/watch?v=p5kxP6c4WCw",
     "videoId": "p5kxP6c4WCw",
     "url": "https://www.youtube.com/watch?v=p5kxP6c4WCw",
     "thumbnailUrl": "https://i.ytimg.com/vi/p5kxP6c4WCw/maxresdefault.jpg",
@@ -25028,6 +27518,9 @@ const recipes = [
   },
   {
     "title": "寒い冬に最適！！忙しい日に助かる！簡単ふわとろ卵とじうどんの作り方 #料理 #うどん #shorts",
+    "platform": "youtube",
+    "externalId": "Hh5C-M4OYTk",
+    "videoUrl": "https://www.youtube.com/watch?v=Hh5C-M4OYTk",
     "videoId": "Hh5C-M4OYTk",
     "url": "https://www.youtube.com/watch?v=Hh5C-M4OYTk",
     "thumbnailUrl": "https://i.ytimg.com/vi/Hh5C-M4OYTk/maxresdefault.jpg",
@@ -25057,6 +27550,9 @@ const recipes = [
   },
   {
     "title": "やる気1%でツナマヨカルボうどん",
+    "platform": "youtube",
+    "externalId": "nIT_XFPGQy0",
+    "videoUrl": "https://www.youtube.com/watch?v=nIT_XFPGQy0",
     "videoId": "nIT_XFPGQy0",
     "url": "https://www.youtube.com/watch?v=nIT_XFPGQy0",
     "thumbnailUrl": "https://i.ytimg.com/vi/nIT_XFPGQy0/maxresdefault.jpg",
@@ -25092,6 +27588,9 @@ const recipes = [
   },
   {
     "title": "【スタミナキムチまぜうどん】",
+    "platform": "youtube",
+    "externalId": "EldKc5FATYI",
+    "videoUrl": "https://www.youtube.com/watch?v=EldKc5FATYI",
     "videoId": "EldKc5FATYI",
     "url": "https://www.youtube.com/watch?v=EldKc5FATYI",
     "thumbnailUrl": "https://i.ytimg.com/vi/EldKc5FATYI/maxresdefault.jpg",
@@ -25121,6 +27620,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！梅しらすうどん🌸 #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "cxCRoGvsDOY",
+    "videoUrl": "https://www.youtube.com/watch?v=cxCRoGvsDOY",
     "videoId": "cxCRoGvsDOY",
     "url": "https://www.youtube.com/watch?v=cxCRoGvsDOY",
     "thumbnailUrl": "https://i.ytimg.com/vi/cxCRoGvsDOY/maxresdefault.jpg",
@@ -25146,6 +27648,9 @@ const recipes = [
   },
   {
     "title": "真夏のざるうどん #shorts",
+    "platform": "youtube",
+    "externalId": "4vaspWLzzEs",
+    "videoUrl": "https://www.youtube.com/watch?v=4vaspWLzzEs",
     "videoId": "4vaspWLzzEs",
     "url": "https://www.youtube.com/watch?v=4vaspWLzzEs",
     "thumbnailUrl": "https://i.ytimg.com/vi/4vaspWLzzEs/maxresdefault.jpg",
@@ -25173,6 +27678,9 @@ const recipes = [
   },
   {
     "title": "体温まる。とろとろ焦がしネギうどん🥢 #簡単レシピ #うどん",
+    "platform": "youtube",
+    "externalId": "9zBDIEI4JCI",
+    "videoUrl": "https://www.youtube.com/watch?v=9zBDIEI4JCI",
     "videoId": "9zBDIEI4JCI",
     "url": "https://www.youtube.com/watch?v=9zBDIEI4JCI",
     "thumbnailUrl": "https://i.ytimg.com/vi/9zBDIEI4JCI/maxresdefault.jpg",
@@ -25200,6 +27708,9 @@ const recipes = [
   },
   {
     "title": "冷凍うどんで作る！笠原流【豆乳担々うどん】",
+    "platform": "youtube",
+    "externalId": "UBUYRq9Bx7s",
+    "videoUrl": "https://www.youtube.com/watch?v=UBUYRq9Bx7s",
     "videoId": "UBUYRq9Bx7s",
     "url": "https://www.youtube.com/watch?v=UBUYRq9Bx7s",
     "thumbnailUrl": "https://i.ytimg.com/vi/UBUYRq9Bx7s/maxresdefault.jpg",
@@ -25226,6 +27737,9 @@ const recipes = [
   },
   {
     "title": "【電子レンジで簡単！】カレーうどんのレシピ、作り方#shorts #簡単レシピ #初心者 #料理 #おうちごはん #電子レンジ#うどん#カレー",
+    "platform": "youtube",
+    "externalId": "2evUN3WV9TA",
+    "videoUrl": "https://www.youtube.com/watch?v=2evUN3WV9TA",
     "videoId": "2evUN3WV9TA",
     "url": "https://www.youtube.com/watch?v=2evUN3WV9TA",
     "thumbnailUrl": "https://i.ytimg.com/vi/2evUN3WV9TA/maxresdefault.jpg",
@@ -25257,6 +27771,9 @@ const recipes = [
   },
   {
     "title": "カレーうどんの美味しい作り方#shorts",
+    "platform": "youtube",
+    "externalId": "QQfu_guh2ao",
+    "videoUrl": "https://www.youtube.com/watch?v=QQfu_guh2ao",
     "videoId": "QQfu_guh2ao",
     "url": "https://www.youtube.com/watch?v=QQfu_guh2ao",
     "thumbnailUrl": "https://i.ytimg.com/vi/QQfu_guh2ao/maxresdefault.jpg",
@@ -25282,6 +27799,9 @@ const recipes = [
   },
   {
     "title": "暑い日にぴったり！豚バラ冷しゃぶうどん",
+    "platform": "youtube",
+    "externalId": "zrZ4XnQqm-Q",
+    "videoUrl": "https://www.youtube.com/watch?v=zrZ4XnQqm-Q",
     "videoId": "zrZ4XnQqm-Q",
     "url": "https://www.youtube.com/watch?v=zrZ4XnQqm-Q",
     "thumbnailUrl": "https://i.ytimg.com/vi/zrZ4XnQqm-Q/maxresdefault.jpg",
@@ -25313,6 +27833,9 @@ const recipes = [
   },
   {
     "title": "1食180円汁なし坦々うどん弁当#shorts#簡単レシピ#節約レシピ",
+    "platform": "youtube",
+    "externalId": "vmM5UbStNYs",
+    "videoUrl": "https://www.youtube.com/watch?v=vmM5UbStNYs",
     "videoId": "vmM5UbStNYs",
     "url": "https://www.youtube.com/watch?v=vmM5UbStNYs",
     "thumbnailUrl": "https://i.ytimg.com/vi/vmM5UbStNYs/maxresdefault.jpg",
@@ -25349,6 +27872,9 @@ const recipes = [
   },
   {
     "title": "豚コマと冷凍うどんで作れる肉うどんで家族が笑顔に！！",
+    "platform": "youtube",
+    "externalId": "IbDojrGgm48",
+    "videoUrl": "https://www.youtube.com/watch?v=IbDojrGgm48",
     "videoId": "IbDojrGgm48",
     "url": "https://www.youtube.com/watch?v=IbDojrGgm48",
     "thumbnailUrl": "https://i.ytimg.com/vi/IbDojrGgm48/maxresdefault.jpg",
@@ -25380,6 +27906,9 @@ const recipes = [
   },
   {
     "title": "絶品！讃岐うどんスープの作り方。いりこ出汁がたまらん！簡単で美味しいレシピ公開。#簡単レシピ #讃岐うどんスープ#shorts",
+    "platform": "youtube",
+    "externalId": "ovf28kJJR6s",
+    "videoUrl": "https://www.youtube.com/watch?v=ovf28kJJR6s",
     "videoId": "ovf28kJJR6s",
     "url": "https://www.youtube.com/watch?v=ovf28kJJR6s",
     "thumbnailUrl": "https://i.ytimg.com/vi/ovf28kJJR6s/maxresdefault.jpg",
@@ -25410,6 +27939,9 @@ const recipes = [
   },
   {
     "title": "レンジで爆速！焼肉のタレとチーズで最強ビビンバうどん",
+    "platform": "youtube",
+    "externalId": "d08zZonL43k",
+    "videoUrl": "https://www.youtube.com/watch?v=d08zZonL43k",
     "videoId": "d08zZonL43k",
     "url": "https://www.youtube.com/watch?v=d08zZonL43k",
     "thumbnailUrl": "https://i.ytimg.com/vi/d08zZonL43k/maxresdefault.jpg",
@@ -25442,6 +27974,9 @@ const recipes = [
   },
   {
     "title": "【簡単節約】仕事終わりでも作れる冷凍うどんのレシピ📍レシピはコメント欄へ#簡単レシピ #japanesefood",
+    "platform": "youtube",
+    "externalId": "k7dIrpBbubI",
+    "videoUrl": "https://www.youtube.com/watch?v=k7dIrpBbubI",
     "videoId": "k7dIrpBbubI",
     "url": "https://www.youtube.com/watch?v=k7dIrpBbubI",
     "thumbnailUrl": "https://i.ytimg.com/vi/k7dIrpBbubI/maxresdefault.jpg",
@@ -25467,6 +28002,9 @@ const recipes = [
   },
   {
     "title": "豚肉で簡単コク旨！ボリューム満点！ねぎ肉うどんの作り方",
+    "platform": "youtube",
+    "externalId": "FVxKm_zb8J0",
+    "videoUrl": "https://www.youtube.com/watch?v=FVxKm_zb8J0",
     "videoId": "FVxKm_zb8J0",
     "url": "https://www.youtube.com/watch?v=FVxKm_zb8J0",
     "thumbnailUrl": "https://i.ytimg.com/vi/FVxKm_zb8J0/maxresdefault.jpg",
@@ -25499,6 +28037,9 @@ const recipes = [
   },
   {
     "title": "【超簡単】美味しいうどんだしの作り方！ #shorts #簡単レシピ #うどん",
+    "platform": "youtube",
+    "externalId": "03D0rn_kR-U",
+    "videoUrl": "https://www.youtube.com/watch?v=03D0rn_kR-U",
     "videoId": "03D0rn_kR-U",
     "url": "https://www.youtube.com/watch?v=03D0rn_kR-U",
     "thumbnailUrl": "https://i.ytimg.com/vi/03D0rn_kR-U/maxresdefault.jpg",
@@ -25524,6 +28065,9 @@ const recipes = [
   },
   {
     "title": "【コスパ◎】5分で完成、麻辣湯うどんレシピ。 #簡単レシピ #麻辣湯 #おうちごはん #節約レシピ #時短レシピ #料理動画",
+    "platform": "youtube",
+    "externalId": "PY8CJt4aZtg",
+    "videoUrl": "https://www.youtube.com/watch?v=PY8CJt4aZtg",
     "videoId": "PY8CJt4aZtg",
     "url": "https://www.youtube.com/watch?v=PY8CJt4aZtg",
     "thumbnailUrl": "https://i.ytimg.com/vi/PY8CJt4aZtg/maxresdefault.jpg",
@@ -25549,6 +28093,9 @@ const recipes = [
   },
   {
     "title": "爆速油うどん#うどん#油そば#料理#簡単レシピ#shorts",
+    "platform": "youtube",
+    "externalId": "0KrNwlOc9SE",
+    "videoUrl": "https://www.youtube.com/watch?v=0KrNwlOc9SE",
     "videoId": "0KrNwlOc9SE",
     "url": "https://www.youtube.com/watch?v=0KrNwlOc9SE",
     "thumbnailUrl": "https://i.ytimg.com/vi/0KrNwlOc9SE/maxresdefault.jpg",
@@ -25579,6 +28126,9 @@ const recipes = [
   },
   {
     "title": "【15分で作れる】冷凍うどんで作る本格担々麺！#時短レシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "00eP62JhcHo",
+    "videoUrl": "https://www.youtube.com/watch?v=00eP62JhcHo",
     "videoId": "00eP62JhcHo",
     "url": "https://www.youtube.com/watch?v=00eP62JhcHo",
     "thumbnailUrl": "https://i.ytimg.com/vi/00eP62JhcHo/maxresdefault.jpg",
@@ -25614,6 +28164,9 @@ const recipes = [
   },
   {
     "title": "【たった100円】金無きゃこれくってろうどん#PR #JOYL",
+    "platform": "youtube",
+    "externalId": "gHqqKlakmSk",
+    "videoUrl": "https://www.youtube.com/watch?v=gHqqKlakmSk",
     "videoId": "gHqqKlakmSk",
     "url": "https://www.youtube.com/watch?v=gHqqKlakmSk",
     "thumbnailUrl": "https://i.ytimg.com/vi/gHqqKlakmSk/maxresdefault.jpg",
@@ -25652,6 +28205,9 @@ const recipes = [
   },
   {
     "title": "【リピ確】5分で作れる油そば！悪魔的に旨い…#簡単レシピ #冷凍うどん #油そば",
+    "platform": "youtube",
+    "externalId": "H8HgegPJbEE",
+    "videoUrl": "https://www.youtube.com/watch?v=H8HgegPJbEE",
     "videoId": "H8HgegPJbEE",
     "url": "https://www.youtube.com/watch?v=H8HgegPJbEE",
     "thumbnailUrl": "https://i.ytimg.com/vi/H8HgegPJbEE/maxresdefault.jpg",
@@ -25678,6 +28234,9 @@ const recipes = [
   },
   {
     "title": "たった5分。卵さえあればできる限界玉子うどん",
+    "platform": "youtube",
+    "externalId": "01TC24goHbU",
+    "videoUrl": "https://www.youtube.com/watch?v=01TC24goHbU",
     "videoId": "01TC24goHbU",
     "url": "https://www.youtube.com/watch?v=01TC24goHbU",
     "thumbnailUrl": "https://i.ytimg.com/vi/01TC24goHbU/maxresdefault.jpg",
@@ -25705,6 +28264,9 @@ const recipes = [
   },
   {
     "title": "簡単すぎてリピしちゃう！ずぼらカレーうどん🥢 #簡単レシピ #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "05H39ZpZu80",
+    "videoUrl": "https://www.youtube.com/watch?v=05H39ZpZu80",
     "videoId": "05H39ZpZu80",
     "url": "https://www.youtube.com/watch?v=05H39ZpZu80",
     "thumbnailUrl": "https://i.ytimg.com/vi/05H39ZpZu80/maxresdefault.jpg",
@@ -25738,6 +28300,9 @@ const recipes = [
   },
   {
     "title": "簡単絶品レシピ！たらこバターうどん",
+    "platform": "youtube",
+    "externalId": "fO3LxlCsccs",
+    "videoUrl": "https://www.youtube.com/watch?v=fO3LxlCsccs",
     "videoId": "fO3LxlCsccs",
     "url": "https://www.youtube.com/watch?v=fO3LxlCsccs",
     "thumbnailUrl": "https://i.ytimg.com/vi/fO3LxlCsccs/maxresdefault.jpg",
@@ -25767,6 +28332,9 @@ const recipes = [
   },
   {
     "title": "\\9割の人が知らない/痩せるうどんの食べ方#簡単レシピ #ダイエットレシピ #痩せる料理",
+    "platform": "youtube",
+    "externalId": "3YBnezHuJIA",
+    "videoUrl": "https://www.youtube.com/watch?v=3YBnezHuJIA",
     "videoId": "3YBnezHuJIA",
     "url": "https://www.youtube.com/watch?v=3YBnezHuJIA",
     "thumbnailUrl": "https://i.ytimg.com/vi/3YBnezHuJIA/maxresdefault.jpg",
@@ -25798,6 +28366,9 @@ const recipes = [
   },
   {
     "title": "鶏うどん #晩御飯 #うどん #鶏肉 #麺 #レシピ #meal #chicken",
+    "platform": "youtube",
+    "externalId": "S_f7_1a0G_c",
+    "videoUrl": "https://www.youtube.com/watch?v=S_f7_1a0G_c",
     "videoId": "S_f7_1a0G_c",
     "url": "https://www.youtube.com/watch?v=S_f7_1a0G_c",
     "thumbnailUrl": "https://i.ytimg.com/vi/S_f7_1a0G_c/maxresdefault.jpg",
@@ -25825,6 +28396,9 @@ const recipes = [
   },
   {
     "title": "豚肉と玉ねぎのうどん#簡単レシピ#レシピ#うどん#簡単料理#料理",
+    "platform": "youtube",
+    "externalId": "9u-cnryG3VU",
+    "videoUrl": "https://www.youtube.com/watch?v=9u-cnryG3VU",
     "videoId": "9u-cnryG3VU",
     "url": "https://www.youtube.com/watch?v=9u-cnryG3VU",
     "thumbnailUrl": "https://i.ytimg.com/vi/9u-cnryG3VU/maxresdefault.jpg",
@@ -25859,6 +28433,9 @@ const recipes = [
   },
   {
     "title": "カレー南蛮うどん・讃【ASMR】 #shorts",
+    "platform": "youtube",
+    "externalId": "R-Waj5VJe_U",
+    "videoUrl": "https://www.youtube.com/watch?v=R-Waj5VJe_U",
     "videoId": "R-Waj5VJe_U",
     "url": "https://www.youtube.com/watch?v=R-Waj5VJe_U",
     "thumbnailUrl": "https://i.ytimg.com/vi/R-Waj5VJe_U/maxresdefault.jpg",
@@ -25884,6 +28461,9 @@ const recipes = [
   },
   {
     "title": "絶品カレーうどんの作り方！手軽な材料でうどん屋さんの味！箸が止まらなくなる旨さです！上手に作るコツをご紹介！-How to make Curry Udon-【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "GkZglARh6ps",
+    "videoUrl": "https://www.youtube.com/watch?v=GkZglARh6ps",
     "videoId": "GkZglARh6ps",
     "url": "https://www.youtube.com/watch?v=GkZglARh6ps",
     "thumbnailUrl": "https://i.ytimg.com/vi/GkZglARh6ps/maxresdefault.jpg",
@@ -25926,6 +28506,9 @@ const recipes = [
   },
   {
     "title": "からだ温まる。とろたまカレーうどん🥢 #簡単レシピ #ズボラ飯",
+    "platform": "youtube",
+    "externalId": "plInORe7uDE",
+    "videoUrl": "https://www.youtube.com/watch?v=plInORe7uDE",
     "videoId": "plInORe7uDE",
     "url": "https://www.youtube.com/watch?v=plInORe7uDE",
     "thumbnailUrl": "https://i.ytimg.com/vi/plInORe7uDE/maxresdefault.jpg",
@@ -25957,6 +28540,9 @@ const recipes = [
   },
   {
     "title": "カレーうどん",
+    "platform": "youtube",
+    "externalId": "5cnl6w7f2BU",
+    "videoUrl": "https://www.youtube.com/watch?v=5cnl6w7f2BU",
     "videoId": "5cnl6w7f2BU",
     "url": "https://www.youtube.com/watch?v=5cnl6w7f2BU",
     "thumbnailUrl": "https://i.ytimg.com/vi/5cnl6w7f2BU/maxresdefault.jpg",
@@ -25996,6 +28582,9 @@ const recipes = [
   },
   {
     "title": "丸亀製麺が激怒した冷やしうどん【バトルキッチン.340（2024.3.30)】毛もじゃお兄さん『 Wの悲劇～Woman 』を歌うの巻",
+    "platform": "youtube",
+    "externalId": "BLCR07Zl_-U",
+    "videoUrl": "https://www.youtube.com/watch?v=BLCR07Zl_-U",
     "videoId": "BLCR07Zl_-U",
     "url": "https://www.youtube.com/watch?v=BLCR07Zl_-U",
     "thumbnailUrl": "https://i.ytimg.com/vi/BLCR07Zl_-U/maxresdefault.jpg",
@@ -26025,6 +28614,9 @@ const recipes = [
   },
   {
     "title": "プチットうどんの便利さをみんなに伝えたい🥺✨#プチットうどん#お弁当作り#お弁当#food#lunch#料理",
+    "platform": "youtube",
+    "externalId": "qP-xaa-CUSI",
+    "videoUrl": "https://www.youtube.com/watch?v=qP-xaa-CUSI",
     "videoId": "qP-xaa-CUSI",
     "url": "https://www.youtube.com/watch?v=qP-xaa-CUSI",
     "thumbnailUrl": "https://i.ytimg.com/vi/qP-xaa-CUSI/maxresdefault.jpg",
@@ -26050,6 +28642,9 @@ const recipes = [
   },
   {
     "title": "美味しい組み合わせ！鶏の照り焼き温玉うどん ｜ How To Make Chicken's Teriyaki Hot spring egg Udon",
+    "platform": "youtube",
+    "externalId": "yGyj-Z8HGb4",
+    "videoUrl": "https://www.youtube.com/watch?v=yGyj-Z8HGb4",
     "videoId": "yGyj-Z8HGb4",
     "url": "https://www.youtube.com/watch?v=yGyj-Z8HGb4",
     "thumbnailUrl": "https://i.ytimg.com/vi/yGyj-Z8HGb4/maxresdefault.jpg",
@@ -26081,6 +28676,9 @@ const recipes = [
   },
   {
     "title": "忙しいあなたに朗報！超簡単「手抜き皿うどん」レシピ🍜 今日は忙しい日におすすめの、手抜きで簡単に作れる皿うどんのレシピをご紹介します。最低限の材料と手間で、おいしい皿うどんが楽しめますよ。",
+    "platform": "youtube",
+    "externalId": "1oH7TT5nkIw",
+    "videoUrl": "https://www.youtube.com/watch?v=1oH7TT5nkIw",
     "videoId": "1oH7TT5nkIw",
     "url": "https://www.youtube.com/watch?v=1oH7TT5nkIw",
     "thumbnailUrl": "https://i.ytimg.com/vi/1oH7TT5nkIw/maxresdefault.jpg",
@@ -26115,6 +28713,9 @@ const recipes = [
   },
   {
     "title": "レンジだけで簡単！冷やし坦々うどん",
+    "platform": "youtube",
+    "externalId": "9UITKfdWgxs",
+    "videoUrl": "https://www.youtube.com/watch?v=9UITKfdWgxs",
     "videoId": "9UITKfdWgxs",
     "url": "https://www.youtube.com/watch?v=9UITKfdWgxs",
     "thumbnailUrl": "https://i.ytimg.com/vi/9UITKfdWgxs/maxresdefault.jpg",
@@ -26147,6 +28748,9 @@ const recipes = [
   },
   {
     "title": "爆速バター醤油うどん#うどん#バター#醤油#料理#shorts",
+    "platform": "youtube",
+    "externalId": "XJSL7TU0fjU",
+    "videoUrl": "https://www.youtube.com/watch?v=XJSL7TU0fjU",
     "videoId": "XJSL7TU0fjU",
     "url": "https://www.youtube.com/watch?v=XJSL7TU0fjU",
     "thumbnailUrl": "https://i.ytimg.com/vi/XJSL7TU0fjU/maxresdefault.jpg",
@@ -26174,6 +28778,9 @@ const recipes = [
   },
   {
     "title": "[町中華]元ラーメン屋が作る坦々うどん#ラーメン#shorts",
+    "platform": "youtube",
+    "externalId": "GIMYieI6bTQ",
+    "videoUrl": "https://www.youtube.com/watch?v=GIMYieI6bTQ",
     "videoId": "GIMYieI6bTQ",
     "url": "https://www.youtube.com/watch?v=GIMYieI6bTQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/GIMYieI6bTQ/sddefault.jpg",
@@ -26208,6 +28815,9 @@ const recipes = [
   },
   {
     "title": "断言しますがこれが世界で一番旨いうどんの食べ方です。#shorts #リュウジ #山形 #納豆 #うどん #ひっぱりうどん #レシピ #料理",
+    "platform": "youtube",
+    "externalId": "CcExSBD2JWY",
+    "videoUrl": "https://www.youtube.com/watch?v=CcExSBD2JWY",
     "videoId": "CcExSBD2JWY",
     "url": "https://www.youtube.com/watch?v=CcExSBD2JWY",
     "thumbnailUrl": "https://i.ytimg.com/vi/CcExSBD2JWY/maxresdefault.jpg",
@@ -26245,6 +28855,9 @@ const recipes = [
   },
   {
     "title": "【プロ直伝】 お家で簡単！本格【手打ちうどん】の作り方 初心者でも失敗しないうどんの打ち方 安い粉でも美味しいうどんが作れます！",
+    "platform": "youtube",
+    "externalId": "-p5M9HlVaaw",
+    "videoUrl": "https://www.youtube.com/watch?v=-p5M9HlVaaw",
     "videoId": "-p5M9HlVaaw",
     "url": "https://www.youtube.com/watch?v=-p5M9HlVaaw",
     "thumbnailUrl": "https://i.ytimg.com/vi/-p5M9HlVaaw/sddefault.jpg",
@@ -26274,6 +28887,9 @@ const recipes = [
   },
   {
     "title": "懐かしの昭和の味！笠原流【焼きうどん】の作り方",
+    "platform": "youtube",
+    "externalId": "bCeYSaFAXOA",
+    "videoUrl": "https://www.youtube.com/watch?v=bCeYSaFAXOA",
     "videoId": "bCeYSaFAXOA",
     "url": "https://www.youtube.com/watch?v=bCeYSaFAXOA",
     "thumbnailUrl": "https://i.ytimg.com/vi/bCeYSaFAXOA/maxresdefault.jpg",
@@ -26313,6 +28929,9 @@ const recipes = [
   },
   {
     "title": "【白菜と卵だけで驚くほど旨い！】とろたま白菜うどんの作り方 #shorts 【kattyanneru】",
+    "platform": "youtube",
+    "externalId": "WFpo53hHnAw",
+    "videoUrl": "https://www.youtube.com/watch?v=WFpo53hHnAw",
     "videoId": "WFpo53hHnAw",
     "url": "https://www.youtube.com/watch?v=WFpo53hHnAw",
     "thumbnailUrl": "https://i.ytimg.com/vi/WFpo53hHnAw/maxresdefault.jpg",
@@ -26345,6 +28964,9 @@ const recipes = [
   },
   {
     "title": "簡単に作れる！明太釜玉うどん ｜ How To Make Mentaiko egg udon",
+    "platform": "youtube",
+    "externalId": "MQqR4lnQiuw",
+    "videoUrl": "https://www.youtube.com/watch?v=MQqR4lnQiuw",
     "videoId": "MQqR4lnQiuw",
     "url": "https://www.youtube.com/watch?v=MQqR4lnQiuw",
     "thumbnailUrl": "https://i.ytimg.com/vi/MQqR4lnQiuw/maxresdefault.jpg",
@@ -26379,6 +29001,9 @@ const recipes = [
   },
   {
     "title": "お財布にやさしい！超絶品豚こま肉うどん",
+    "platform": "youtube",
+    "externalId": "cb0JuJm_jw4",
+    "videoUrl": "https://www.youtube.com/watch?v=cb0JuJm_jw4",
     "videoId": "cb0JuJm_jw4",
     "url": "https://www.youtube.com/watch?v=cb0JuJm_jw4",
     "thumbnailUrl": "https://i.ytimg.com/vi/cb0JuJm_jw4/maxresdefault.jpg",
@@ -26413,6 +29038,9 @@ const recipes = [
   },
   {
     "title": "〜丸亀超えた明太クリームうどん〜#簡単レシピ #料理 #おうちご飯 #自炊 #shorts",
+    "platform": "youtube",
+    "externalId": "09SVwnTsD74",
+    "videoUrl": "https://www.youtube.com/watch?v=09SVwnTsD74",
     "videoId": "09SVwnTsD74",
     "url": "https://www.youtube.com/watch?v=09SVwnTsD74",
     "thumbnailUrl": "https://i.ytimg.com/vi/09SVwnTsD74/maxresdefault.jpg",
@@ -26444,6 +29072,9 @@ const recipes = [
   },
   {
     "title": "うま塩豚白菜うどん🥬❤️‍🔥 #簡単レシピ #時短レシピ",
+    "platform": "youtube",
+    "externalId": "SBGWWUeMOJk",
+    "videoUrl": "https://www.youtube.com/watch?v=SBGWWUeMOJk",
     "videoId": "SBGWWUeMOJk",
     "url": "https://www.youtube.com/watch?v=SBGWWUeMOJk",
     "thumbnailUrl": "https://i.ytimg.com/vi/SBGWWUeMOJk/maxresdefault.jpg",
@@ -26471,6 +29102,9 @@ const recipes = [
   },
   {
     "title": "リピート確定の逸材レシピ！めんたいチーズ釜玉うどん",
+    "platform": "youtube",
+    "externalId": "dTznypMhNcM",
+    "videoUrl": "https://www.youtube.com/watch?v=dTznypMhNcM",
     "videoId": "dTznypMhNcM",
     "url": "https://www.youtube.com/watch?v=dTznypMhNcM",
     "thumbnailUrl": "https://i.ytimg.com/vi/dTznypMhNcM/maxresdefault.jpg",
@@ -26504,6 +29138,9 @@ const recipes = [
   },
   {
     "title": "スープジャーで冷たいうどん弁当#同棲ご飯 #簡単レシピ #毎日弁当 #同棲弁当",
+    "platform": "youtube",
+    "externalId": "zBdJncNEKGg",
+    "videoUrl": "https://www.youtube.com/watch?v=zBdJncNEKGg",
     "videoId": "zBdJncNEKGg",
     "url": "https://www.youtube.com/watch?v=zBdJncNEKGg",
     "thumbnailUrl": "https://i.ytimg.com/vi/zBdJncNEKGg/maxresdefault.jpg",
@@ -26529,6 +29166,9 @@ const recipes = [
   },
   {
     "title": "おいしいうどんの作り方【こむぎ粉くらぶ｜日清製粉グループ】",
+    "platform": "youtube",
+    "externalId": "qJYpaRnwTfk",
+    "videoUrl": "https://www.youtube.com/watch?v=qJYpaRnwTfk",
     "videoId": "qJYpaRnwTfk",
     "url": "https://www.youtube.com/watch?v=qJYpaRnwTfk",
     "thumbnailUrl": "https://i.ytimg.com/vi/qJYpaRnwTfk/maxresdefault.jpg",
@@ -26554,6 +29194,9 @@ const recipes = [
   },
   {
     "title": "【永久保存版】3分あればうどん屋さん並みに美味しいうどんつゆが作れます『爆速かけうどん』の作り方",
+    "platform": "youtube",
+    "externalId": "Bc3ZAs9Zp3k",
+    "videoUrl": "https://www.youtube.com/watch?v=Bc3ZAs9Zp3k",
     "videoId": "Bc3ZAs9Zp3k",
     "url": "https://www.youtube.com/watch?v=Bc3ZAs9Zp3k",
     "thumbnailUrl": "https://i.ytimg.com/vi/Bc3ZAs9Zp3k/maxresdefault.jpg",
@@ -26581,6 +29224,9 @@ const recipes = [
   },
   {
     "title": "レンチン４分で絶品わかめうどん🍲🥢レシピはコメント欄に✍️",
+    "platform": "youtube",
+    "externalId": "raxms1fjEg0",
+    "videoUrl": "https://www.youtube.com/watch?v=raxms1fjEg0",
     "videoId": "raxms1fjEg0",
     "url": "https://www.youtube.com/watch?v=raxms1fjEg0",
     "thumbnailUrl": "https://i.ytimg.com/vi/raxms1fjEg0/maxresdefault.jpg",
@@ -26608,6 +29254,9 @@ const recipes = [
   },
   {
     "title": "簡単なのに本格的！冷凍うどんで作る【豆乳担々うどん】",
+    "platform": "youtube",
+    "externalId": "ZFpXwg_SKAQ",
+    "videoUrl": "https://www.youtube.com/watch?v=ZFpXwg_SKAQ",
     "videoId": "ZFpXwg_SKAQ",
     "url": "https://www.youtube.com/watch?v=ZFpXwg_SKAQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZFpXwg_SKAQ/maxresdefault.jpg",
@@ -26644,6 +29293,9 @@ const recipes = [
   },
   {
     "title": "節約オタクが教える貧乏うどんTOP3",
+    "platform": "youtube",
+    "externalId": "3pGYa9q3I6E",
+    "videoUrl": "https://www.youtube.com/watch?v=3pGYa9q3I6E",
     "videoId": "3pGYa9q3I6E",
     "url": "https://www.youtube.com/watch?v=3pGYa9q3I6E",
     "thumbnailUrl": "https://i.ytimg.com/vi/3pGYa9q3I6E/maxresdefault.jpg",
@@ -26669,6 +29321,9 @@ const recipes = [
   },
   {
     "title": "ちゃんぽんうどん #幼児食 #簡単レシピ #まいにちごはん #野菜嫌い #料理 #偏食 #おうちごはん",
+    "platform": "youtube",
+    "externalId": "rjEy5iCx8XM",
+    "videoUrl": "https://www.youtube.com/watch?v=rjEy5iCx8XM",
     "videoId": "rjEy5iCx8XM",
     "url": "https://www.youtube.com/watch?v=rjEy5iCx8XM",
     "thumbnailUrl": "https://i.ytimg.com/vi/rjEy5iCx8XM/maxresdefault.jpg",
@@ -26707,6 +29362,9 @@ const recipes = [
   },
   {
     "title": "【レシピ】明太クリームうどんの作り方 #簡単レシピ #cooking #料理 #おうちごはん #ランチ #晩御飯",
+    "platform": "youtube",
+    "externalId": "Jr_9dU9Ybbg",
+    "videoUrl": "https://www.youtube.com/watch?v=Jr_9dU9Ybbg",
     "videoId": "Jr_9dU9Ybbg",
     "url": "https://www.youtube.com/watch?v=Jr_9dU9Ybbg",
     "thumbnailUrl": "https://i.ytimg.com/vi/Jr_9dU9Ybbg/maxresdefault.jpg",
@@ -26732,6 +29390,9 @@ const recipes = [
   },
   {
     "title": "【30分で手打ちうどん】むしゃくしゃしてやった。今は反省してるしとにかくおいしかった('∇')【おうちごはんvlog】#shorts",
+    "platform": "youtube",
+    "externalId": "ZA9A4C-ng0k",
+    "videoUrl": "https://www.youtube.com/watch?v=ZA9A4C-ng0k",
     "videoId": "ZA9A4C-ng0k",
     "url": "https://www.youtube.com/watch?v=ZA9A4C-ng0k",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZA9A4C-ng0k/hqdefault.jpg",
@@ -26757,6 +29418,9 @@ const recipes = [
   },
   {
     "title": "ばり美味い冷凍うどんレシピ",
+    "platform": "youtube",
+    "externalId": "ChPautrjRxM",
+    "videoUrl": "https://www.youtube.com/watch?v=ChPautrjRxM",
     "videoId": "ChPautrjRxM",
     "url": "https://www.youtube.com/watch?v=ChPautrjRxM",
     "thumbnailUrl": "https://i.ytimg.com/vi/ChPautrjRxM/maxresdefault.jpg",
@@ -26782,6 +29446,9 @@ const recipes = [
   },
   {
     "title": "つるとん○ん越えました。生クリームを使わない超濃厚明太クリームうどんの作り方#shorts",
+    "platform": "youtube",
+    "externalId": "ryZluQ2V2nw",
+    "videoUrl": "https://www.youtube.com/watch?v=ryZluQ2V2nw",
     "videoId": "ryZluQ2V2nw",
     "url": "https://www.youtube.com/watch?v=ryZluQ2V2nw",
     "thumbnailUrl": "https://i.ytimg.com/vi/ryZluQ2V2nw/maxresdefault.jpg",
@@ -26809,6 +29476,9 @@ const recipes = [
   },
   {
     "title": "【簡単昼食】釜玉バター醤油うどんの作り方 #shorts",
+    "platform": "youtube",
+    "externalId": "OIdMOLqRoAs",
+    "videoUrl": "https://www.youtube.com/watch?v=OIdMOLqRoAs",
     "videoId": "OIdMOLqRoAs",
     "url": "https://www.youtube.com/watch?v=OIdMOLqRoAs",
     "thumbnailUrl": "https://i.ytimg.com/vi/OIdMOLqRoAs/hqdefault.jpg",
@@ -26840,6 +29510,9 @@ const recipes = [
   },
   {
     "title": "寒い日はコレなんです。麻婆うどん🥢 #ズボラ飯 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "LiIJsQjqV9Y",
+    "videoUrl": "https://www.youtube.com/watch?v=LiIJsQjqV9Y",
     "videoId": "LiIJsQjqV9Y",
     "url": "https://www.youtube.com/watch?v=LiIJsQjqV9Y",
     "thumbnailUrl": "https://i.ytimg.com/vi/LiIJsQjqV9Y/maxresdefault.jpg",
@@ -26867,6 +29540,9 @@ const recipes = [
   },
   {
     "title": "貧乏人の贅沢な『うどん』【バトルキッチン494（2025.2.28)】",
+    "platform": "youtube",
+    "externalId": "SL3z3WjMwlI",
+    "videoUrl": "https://www.youtube.com/watch?v=SL3z3WjMwlI",
     "videoId": "SL3z3WjMwlI",
     "url": "https://www.youtube.com/watch?v=SL3z3WjMwlI",
     "thumbnailUrl": "https://i.ytimg.com/vi/SL3z3WjMwlI/sddefault.jpg",
@@ -26898,6 +29574,9 @@ const recipes = [
   },
   {
     "title": "超絶品！鶏ガラ醤油うどん",
+    "platform": "youtube",
+    "externalId": "WUW8xgSb6vs",
+    "videoUrl": "https://www.youtube.com/watch?v=WUW8xgSb6vs",
     "videoId": "WUW8xgSb6vs",
     "url": "https://www.youtube.com/watch?v=WUW8xgSb6vs",
     "thumbnailUrl": "https://i.ytimg.com/vi/WUW8xgSb6vs/maxresdefault.jpg",
@@ -26929,6 +29608,9 @@ const recipes = [
   },
   {
     "title": "これ食べたことない人は損してる #味噌煮込みうどん #簡単レシピ #うどんレシピ",
+    "platform": "youtube",
+    "externalId": "PEaYvoPMDjI",
+    "videoUrl": "https://www.youtube.com/watch?v=PEaYvoPMDjI",
     "videoId": "PEaYvoPMDjI",
     "url": "https://www.youtube.com/watch?v=PEaYvoPMDjI",
     "thumbnailUrl": "https://i.ytimg.com/vi/PEaYvoPMDjI/maxresdefault.jpg",
@@ -26956,6 +29638,9 @@ const recipes = [
   },
   {
     "title": "3分でうどん屋さんの『かけうどん』が作れます",
+    "platform": "youtube",
+    "externalId": "yTjDiaF8iOs",
+    "videoUrl": "https://www.youtube.com/watch?v=yTjDiaF8iOs",
     "videoId": "yTjDiaF8iOs",
     "url": "https://www.youtube.com/watch?v=yTjDiaF8iOs",
     "thumbnailUrl": "https://i.ytimg.com/vi/yTjDiaF8iOs/maxresdefault.jpg",
@@ -26983,6 +29668,9 @@ const recipes = [
   },
   {
     "title": "出汁パックでつくる！お手軽素うどんのレシピ｜やすまるだし｜簡単｜#shorts",
+    "platform": "youtube",
+    "externalId": "Ci3Rt_An_NI",
+    "videoUrl": "https://www.youtube.com/watch?v=Ci3Rt_An_NI",
     "videoId": "Ci3Rt_An_NI",
     "url": "https://www.youtube.com/watch?v=Ci3Rt_An_NI",
     "thumbnailUrl": "https://i.ytimg.com/vi/Ci3Rt_An_NI/maxresdefault.jpg",
@@ -27008,6 +29696,9 @@ const recipes = [
   },
   {
     "title": "やみつきになるモチモチ食感！フライドうどん ｜ How To Make Fried Japanese Wheat Noodle",
+    "platform": "youtube",
+    "externalId": "P4AAXcpLPoY",
+    "videoUrl": "https://www.youtube.com/watch?v=P4AAXcpLPoY",
     "videoId": "P4AAXcpLPoY",
     "url": "https://www.youtube.com/watch?v=P4AAXcpLPoY",
     "thumbnailUrl": "https://i.ytimg.com/vi/P4AAXcpLPoY/maxresdefault.jpg",
@@ -27051,6 +29742,9 @@ const recipes = [
   },
   {
     "title": "焼きうどんの作り方！パパッと簡単！冷凍うどんがモッチモチになる方法をご紹介！手軽な調味料だけで、激旨な焼きうどんに仕上がりに。-How to make Fried Udon-【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "lZL7VJq2Ta4",
+    "videoUrl": "https://www.youtube.com/watch?v=lZL7VJq2Ta4",
     "videoId": "lZL7VJq2Ta4",
     "url": "https://www.youtube.com/watch?v=lZL7VJq2Ta4",
     "thumbnailUrl": "https://i.ytimg.com/vi/lZL7VJq2Ta4/maxresdefault.jpg",
@@ -27091,6 +29785,9 @@ const recipes = [
   },
   {
     "title": "夫婦で大好きな『豚肉ネギのつけうどん』 #簡単レシピ #料理",
+    "platform": "youtube",
+    "externalId": "LfjNOlWnKs8",
+    "videoUrl": "https://www.youtube.com/watch?v=LfjNOlWnKs8",
     "videoId": "LfjNOlWnKs8",
     "url": "https://www.youtube.com/watch?v=LfjNOlWnKs8",
     "thumbnailUrl": "https://i.ytimg.com/vi/LfjNOlWnKs8/maxresdefault.jpg",
@@ -27120,6 +29817,9 @@ const recipes = [
   },
   {
     "title": "【味噌煮込みうどん】濃い味がやみつき！自宅で簡単な名古屋名物の作り方！！",
+    "platform": "youtube",
+    "externalId": "6NAIxSK6fqE",
+    "videoUrl": "https://www.youtube.com/watch?v=6NAIxSK6fqE",
     "videoId": "6NAIxSK6fqE",
     "url": "https://www.youtube.com/watch?v=6NAIxSK6fqE",
     "thumbnailUrl": "https://i.ytimg.com/vi/6NAIxSK6fqE/maxresdefault.jpg",
@@ -27145,6 +29845,9 @@ const recipes = [
   },
   {
     "title": "上司の説教を忘れるくらい美味しすぎたズボラごま味噌うどん✨#料理 #vlog #ブラック企業 #cooking #ol日常 #ビタフィット #バイタス",
+    "platform": "youtube",
+    "externalId": "CII6c1hRcIk",
+    "videoUrl": "https://www.youtube.com/watch?v=CII6c1hRcIk",
     "videoId": "CII6c1hRcIk",
     "url": "https://www.youtube.com/watch?v=CII6c1hRcIk",
     "thumbnailUrl": "https://i.ytimg.com/vi/CII6c1hRcIk/maxresdefault.jpg",
@@ -27170,6 +29873,9 @@ const recipes = [
   },
   {
     "title": "肉味噌うどん🧑🏻‍🍳🤍#簡単レシピ #給食 #うどん #幼児食 #shorts",
+    "platform": "youtube",
+    "externalId": "t4P9-oaDxuc",
+    "videoUrl": "https://www.youtube.com/watch?v=t4P9-oaDxuc",
     "videoId": "t4P9-oaDxuc",
     "url": "https://www.youtube.com/watch?v=t4P9-oaDxuc",
     "thumbnailUrl": "https://i.ytimg.com/vi/t4P9-oaDxuc/maxresdefault.jpg",
@@ -27209,6 +29915,9 @@ const recipes = [
   },
   {
     "title": "冷たいのにコクうま！究極の冷しゃぶうどんがマジで止まらん！",
+    "platform": "youtube",
+    "externalId": "yyk948nJ-nM",
+    "videoUrl": "https://www.youtube.com/watch?v=yyk948nJ-nM",
     "videoId": "yyk948nJ-nM",
     "url": "https://www.youtube.com/watch?v=yyk948nJ-nM",
     "thumbnailUrl": "https://i.ytimg.com/vi/yyk948nJ-nM/maxresdefault.jpg",
@@ -27240,6 +29949,9 @@ const recipes = [
   },
   {
     "title": "うどんの美味しい作り方。",
+    "platform": "youtube",
+    "externalId": "humfL17sX2k",
+    "videoUrl": "https://www.youtube.com/watch?v=humfL17sX2k",
     "videoId": "humfL17sX2k",
     "url": "https://www.youtube.com/watch?v=humfL17sX2k",
     "thumbnailUrl": "https://i.ytimg.com/vi/humfL17sX2k/maxresdefault.jpg",
@@ -27265,6 +29977,9 @@ const recipes = [
   },
   {
     "title": "【濃厚たらこクリームうどん】の作り方 #おうちごはん #レシピ #料理 #cooking #cookingchannel",
+    "platform": "youtube",
+    "externalId": "zCH97pA0KJo",
+    "videoUrl": "https://www.youtube.com/watch?v=zCH97pA0KJo",
     "videoId": "zCH97pA0KJo",
     "url": "https://www.youtube.com/watch?v=zCH97pA0KJo",
     "thumbnailUrl": "https://i.ytimg.com/vi/zCH97pA0KJo/maxresdefault.jpg",
@@ -27300,6 +30015,9 @@ const recipes = [
   },
   {
     "title": "3人家族の爆食夜ごはん🍚今日も簡単✨冷凍うどんで「エビとトマトのクリームうどん🦐🍅」フライパンに材料入れるだけで完成！#るいちゃんねる #もぐもぐタイム #料理 #簡単レシピ #うどんレシピ",
+    "platform": "youtube",
+    "externalId": "eLVn1Hu1kKk",
+    "videoUrl": "https://www.youtube.com/watch?v=eLVn1Hu1kKk",
     "videoId": "eLVn1Hu1kKk",
     "url": "https://www.youtube.com/watch?v=eLVn1Hu1kKk",
     "thumbnailUrl": "https://i.ytimg.com/vi/eLVn1Hu1kKk/maxresdefault.jpg",
@@ -27329,6 +30047,9 @@ const recipes = [
   },
   {
     "title": "【簡単うどん】生姜で温まる卵とじうどん＃うどんレシピ＃卵とじうどん＃生姜＃shorts",
+    "platform": "youtube",
+    "externalId": "xIFjFVNOoqc",
+    "videoUrl": "https://www.youtube.com/watch?v=xIFjFVNOoqc",
     "videoId": "xIFjFVNOoqc",
     "url": "https://www.youtube.com/watch?v=xIFjFVNOoqc",
     "thumbnailUrl": "https://i.ytimg.com/vi/xIFjFVNOoqc/maxresdefault.jpg",
@@ -27358,6 +30079,9 @@ const recipes = [
   },
   {
     "title": "レンジで超絶品！豚バラ肉うどん",
+    "platform": "youtube",
+    "externalId": "f8yJuF_4CB4",
+    "videoUrl": "https://www.youtube.com/watch?v=f8yJuF_4CB4",
     "videoId": "f8yJuF_4CB4",
     "url": "https://www.youtube.com/watch?v=f8yJuF_4CB4",
     "thumbnailUrl": "https://i.ytimg.com/vi/f8yJuF_4CB4/maxresdefault.jpg",
@@ -27389,6 +30113,9 @@ const recipes = [
   },
   {
     "title": "【たった40円】お金がガチで無い時でも5分で超幸せになれる『限界玉子うどん』の作り方",
+    "platform": "youtube",
+    "externalId": "ZXjSDuxmMos",
+    "videoUrl": "https://www.youtube.com/watch?v=ZXjSDuxmMos",
     "videoId": "ZXjSDuxmMos",
     "url": "https://www.youtube.com/watch?v=ZXjSDuxmMos",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZXjSDuxmMos/maxresdefault.jpg",
@@ -27416,6 +30143,9 @@ const recipes = [
   },
   {
     "title": "ふわトロかき玉うどん(レシピはコメント欄🪄)",
+    "platform": "youtube",
+    "externalId": "DtGB2W5_UUs",
+    "videoUrl": "https://www.youtube.com/watch?v=DtGB2W5_UUs",
     "videoId": "DtGB2W5_UUs",
     "url": "https://www.youtube.com/watch?v=DtGB2W5_UUs",
     "thumbnailUrl": "https://i.ytimg.com/vi/DtGB2W5_UUs/maxresdefault.jpg",
@@ -27441,6 +30171,9 @@ const recipes = [
   },
   {
     "title": "【二日酔いなったらこれ作れ！】卵とじうどん #マッチョ #料理 #元カレ #筋肉番付 #cooking #暮らしチャンネル #飯テロ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "eyDN7IrBZxM",
+    "videoUrl": "https://www.youtube.com/watch?v=eyDN7IrBZxM",
     "videoId": "eyDN7IrBZxM",
     "url": "https://www.youtube.com/watch?v=eyDN7IrBZxM",
     "thumbnailUrl": "https://i.ytimg.com/vi/eyDN7IrBZxM/maxresdefault.jpg",
@@ -27468,6 +30201,9 @@ const recipes = [
   },
   {
     "title": "これ以外のうどんのことを忘れてしまうほどウマいです。肉うどんの価値観が変わる【至高の肉うどん】",
+    "platform": "youtube",
+    "externalId": "mVLS1yfV_qI",
+    "videoUrl": "https://www.youtube.com/watch?v=mVLS1yfV_qI",
     "videoId": "mVLS1yfV_qI",
     "url": "https://www.youtube.com/watch?v=mVLS1yfV_qI",
     "thumbnailUrl": "https://i.ytimg.com/vi/mVLS1yfV_qI/sddefault.jpg",
@@ -27499,6 +30235,9 @@ const recipes = [
   },
   {
     "title": "冷凍うどんで簡単！豚バラ焼きうどんの作り方",
+    "platform": "youtube",
+    "externalId": "6tOPiYgv7dI",
+    "videoUrl": "https://www.youtube.com/watch?v=6tOPiYgv7dI",
     "videoId": "6tOPiYgv7dI",
     "url": "https://www.youtube.com/watch?v=6tOPiYgv7dI",
     "thumbnailUrl": "https://i.ytimg.com/vi/6tOPiYgv7dI/maxresdefault.jpg",
@@ -27534,6 +30273,9 @@ const recipes = [
   },
   {
     "title": "2歳児の爆食お昼ごはん！今日も爆速で娘の大好物作ってみたよ👧🏻💕#もぐもぐタイム #るいちゃんねる #簡単レシピ #簡単料理 #カルボナーラ #うどんレシピ",
+    "platform": "youtube",
+    "externalId": "yLR-oItq550",
+    "videoUrl": "https://www.youtube.com/watch?v=yLR-oItq550",
     "videoId": "yLR-oItq550",
     "url": "https://www.youtube.com/watch?v=yLR-oItq550",
     "thumbnailUrl": "https://i.ytimg.com/vi/yLR-oItq550/maxresdefault.jpg",
@@ -27560,6 +30302,9 @@ const recipes = [
   },
   {
     "title": "年明けうどんに！牛すきうどん #簡単レシピ #胃袋泥棒レシピ",
+    "platform": "youtube",
+    "externalId": "pEC8VZrDbgE",
+    "videoUrl": "https://www.youtube.com/watch?v=pEC8VZrDbgE",
     "videoId": "pEC8VZrDbgE",
     "url": "https://www.youtube.com/watch?v=pEC8VZrDbgE",
     "thumbnailUrl": "https://i.ytimg.com/vi/pEC8VZrDbgE/maxresdefault.jpg",
@@ -27585,6 +30330,9 @@ const recipes = [
   },
   {
     "title": "5分。冷凍うどんの1番ウマい食べ方",
+    "platform": "youtube",
+    "externalId": "kvNrysvMYJY",
+    "videoUrl": "https://www.youtube.com/watch?v=kvNrysvMYJY",
     "videoId": "kvNrysvMYJY",
     "url": "https://www.youtube.com/watch?v=kvNrysvMYJY",
     "thumbnailUrl": "https://i.ytimg.com/vi/kvNrysvMYJY/maxresdefault.jpg",
@@ -27610,6 +30358,9 @@ const recipes = [
   },
   {
     "title": "釜玉そうめんレシピ〜食で夏を早く感じすぎている気がする🔥真夏、生きられるのかな、、🫠 #ブラック企業 #料理 #cooking #vlog #自炊 #そうめんアレンジ",
+    "platform": "youtube",
+    "externalId": "aIFvma3yBwI",
+    "videoUrl": "https://www.youtube.com/watch?v=aIFvma3yBwI",
     "videoId": "aIFvma3yBwI",
     "url": "https://www.youtube.com/watch?v=aIFvma3yBwI",
     "thumbnailUrl": "https://i.ytimg.com/vi/aIFvma3yBwI/maxresdefault.jpg",
@@ -27635,6 +30386,9 @@ const recipes = [
   },
   {
     "title": "【しょうゆが決め手！極上のサバ缶アレンジうどんのレシピ】｜#クラシル #shorts",
+    "platform": "youtube",
+    "externalId": "ufiNBBzSvrI",
+    "videoUrl": "https://www.youtube.com/watch?v=ufiNBBzSvrI",
     "videoId": "ufiNBBzSvrI",
     "url": "https://www.youtube.com/watch?v=ufiNBBzSvrI",
     "thumbnailUrl": "https://i.ytimg.com/vi/ufiNBBzSvrI/maxresdefault.jpg",
@@ -27667,6 +30421,9 @@ const recipes = [
   },
   {
     "title": "料理人歴23年、今までこの作り方知らなかったのが悔しいです",
+    "platform": "youtube",
+    "externalId": "nP3Bf4FS9CE",
+    "videoUrl": "https://www.youtube.com/watch?v=nP3Bf4FS9CE",
     "videoId": "nP3Bf4FS9CE",
     "url": "https://www.youtube.com/watch?v=nP3Bf4FS9CE",
     "thumbnailUrl": "https://i.ytimg.com/vi/nP3Bf4FS9CE/maxresdefault.jpg",
@@ -27698,6 +30455,9 @@ const recipes = [
   },
   {
     "title": "これはすげぇえ！！火も包丁も使わない激旨焼きうどんの作り方 簡単レシピ ライフハック 裏ワザ",
+    "platform": "youtube",
+    "externalId": "ATy5cPML-W8",
+    "videoUrl": "https://www.youtube.com/watch?v=ATy5cPML-W8",
     "videoId": "ATy5cPML-W8",
     "url": "https://www.youtube.com/watch?v=ATy5cPML-W8",
     "thumbnailUrl": "https://i.ytimg.com/vi/ATy5cPML-W8/maxresdefault.jpg",
@@ -27723,6 +30483,9 @@ const recipes = [
   },
   {
     "title": "［レンチン旨辛ビビンうどん］#うどん#ビビンうどん#レンチンレシピ#簡単レシピ#料理#自炊#高校生#うどんレシピ#旨辛レシピ#韓国料理#韓国風",
+    "platform": "youtube",
+    "externalId": "uGTJWZuvfdQ",
+    "videoUrl": "https://www.youtube.com/watch?v=uGTJWZuvfdQ",
     "videoId": "uGTJWZuvfdQ",
     "url": "https://www.youtube.com/watch?v=uGTJWZuvfdQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/uGTJWZuvfdQ/maxresdefault.jpg",
@@ -27748,6 +30511,9 @@ const recipes = [
   },
   {
     "title": "【天才的に旨い♡鶏肉となすのオイスターいため】ご飯がすすむ！※詳細はコメント欄へ #簡単レシピ #おすすめ #なす",
+    "platform": "youtube",
+    "externalId": "VFA_4Xt-aSo",
+    "videoUrl": "https://www.youtube.com/watch?v=VFA_4Xt-aSo",
     "videoId": "VFA_4Xt-aSo",
     "url": "https://www.youtube.com/watch?v=VFA_4Xt-aSo",
     "thumbnailUrl": "https://i.ytimg.com/vi/VFA_4Xt-aSo/maxresdefault.jpg",
@@ -27775,6 +30541,9 @@ const recipes = [
   },
   {
     "title": "【肉味噌】かけるだけで食欲倍増！弁当や晩飯に使える万能肉味噌！",
+    "platform": "youtube",
+    "externalId": "DG3qKpJZLkU",
+    "videoUrl": "https://www.youtube.com/watch?v=DG3qKpJZLkU",
     "videoId": "DG3qKpJZLkU",
     "url": "https://www.youtube.com/watch?v=DG3qKpJZLkU",
     "thumbnailUrl": "https://i.ytimg.com/vi/DG3qKpJZLkU/maxresdefault.jpg",
@@ -27800,6 +30569,9 @@ const recipes = [
   },
   {
     "title": "スーパーのお肉を美味しく焼く方法【プロの技】豚肉ステーキ#shorts",
+    "platform": "youtube",
+    "externalId": "ruMoMWOhL3k",
+    "videoUrl": "https://www.youtube.com/watch?v=ruMoMWOhL3k",
     "videoId": "ruMoMWOhL3k",
     "url": "https://www.youtube.com/watch?v=ruMoMWOhL3k",
     "thumbnailUrl": "https://i.ytimg.com/vi/ruMoMWOhL3k/maxresdefault.jpg",
@@ -27825,6 +30597,9 @@ const recipes = [
   },
   {
     "title": "豚肉とキャベツで作るご飯が進みすぎる最強おかず",
+    "platform": "youtube",
+    "externalId": "K3iww9jFigc",
+    "videoUrl": "https://www.youtube.com/watch?v=K3iww9jFigc",
     "videoId": "K3iww9jFigc",
     "url": "https://www.youtube.com/watch?v=K3iww9jFigc",
     "thumbnailUrl": "https://i.ytimg.com/vi/K3iww9jFigc/maxresdefault.jpg",
@@ -27854,6 +30629,9 @@ const recipes = [
   },
   {
     "title": "切らないし混ぜないしもうこれでいい 【パックのままズボラ焼き】詳しいレシピは概要欄を見てね♪ #ひき肉 #ひき肉レシピ #ズボラ飯 #ハンバーグ #レシピ動画 #簡単レシピ #料理動画 #晩ごはん",
+    "platform": "youtube",
+    "externalId": "6WX8U-avQjE",
+    "videoUrl": "https://www.youtube.com/watch?v=6WX8U-avQjE",
     "videoId": "6WX8U-avQjE",
     "url": "https://www.youtube.com/watch?v=6WX8U-avQjE",
     "thumbnailUrl": "https://i.ytimg.com/vi/6WX8U-avQjE/maxresdefault.jpg",
@@ -27883,6 +30661,9 @@ const recipes = [
   },
   {
     "title": "0:28の脂を取るシーンは見ごたえあるよね 【定番豚の角煮】詳しいレシピは概要欄を見てね♪#豚バラ#豚の角煮#角煮 #角煮レシピ #簡単レシピ#晩ごはん#レシピ動画 #料理動画 #デリッシュキッチン",
+    "platform": "youtube",
+    "externalId": "Y-3aecirfig",
+    "videoUrl": "https://www.youtube.com/watch?v=Y-3aecirfig",
     "videoId": "Y-3aecirfig",
     "url": "https://www.youtube.com/watch?v=Y-3aecirfig",
     "thumbnailUrl": "https://i.ytimg.com/vi/Y-3aecirfig/maxresdefault.jpg",
@@ -27916,6 +30697,9 @@ const recipes = [
   },
   {
     "title": "これやばい…タレが最高の太らない鶏胸焼鳥丼！#鶏胸肉 #簡単レシピ #料理 #short",
+    "platform": "youtube",
+    "externalId": "8gSGVRIypVo",
+    "videoUrl": "https://www.youtube.com/watch?v=8gSGVRIypVo",
     "videoId": "8gSGVRIypVo",
     "url": "https://www.youtube.com/watch?v=8gSGVRIypVo",
     "thumbnailUrl": "https://i.ytimg.com/vi/8gSGVRIypVo/maxresdefault.jpg",
@@ -27947,6 +30731,9 @@ const recipes = [
   },
   {
     "title": "ナスと大葉の肉巻き｜巻いて焼くだけで簡単！ジューシーなナスと大葉の香りが美味しい豚肉おかずレシピ！お弁当にもおすすめ【なすレシピ・大葉レシピ・豚肉レシピ・簡単レシピ・おかず】【料理研究家ゆかり】",
+    "platform": "youtube",
+    "externalId": "h45ocpjpI74",
+    "videoUrl": "https://www.youtube.com/watch?v=h45ocpjpI74",
     "videoId": "h45ocpjpI74",
     "url": "https://www.youtube.com/watch?v=h45ocpjpI74",
     "thumbnailUrl": "https://i.ytimg.com/vi/h45ocpjpI74/maxresdefault.jpg",
@@ -27981,6 +30768,9 @@ const recipes = [
   },
   {
     "title": "スーパーで買った激安豚肉を極上ステーキに！豚肉ステーキの焼き方",
+    "platform": "youtube",
+    "externalId": "3WfynaWMdVc",
+    "videoUrl": "https://www.youtube.com/watch?v=3WfynaWMdVc",
     "videoId": "3WfynaWMdVc",
     "url": "https://www.youtube.com/watch?v=3WfynaWMdVc",
     "thumbnailUrl": "https://i.ytimg.com/vi/3WfynaWMdVc/maxresdefault.jpg",
@@ -28009,6 +30799,9 @@ const recipes = [
   },
   {
     "title": "柔らかさっぱりヘルシー！鶏むね肉の南蛮漬けの作り方 #料理 #鶏むね #shorts",
+    "platform": "youtube",
+    "externalId": "Wve9UOfzIm0",
+    "videoUrl": "https://www.youtube.com/watch?v=Wve9UOfzIm0",
     "videoId": "Wve9UOfzIm0",
     "url": "https://www.youtube.com/watch?v=Wve9UOfzIm0",
     "thumbnailUrl": "https://i.ytimg.com/vi/Wve9UOfzIm0/maxresdefault.jpg",
@@ -28034,6 +30827,9 @@ const recipes = [
   },
   {
     "title": "冷蔵庫で５日保存な常備菜【しっとり ゆで鶏】",
+    "platform": "youtube",
+    "externalId": "vfHe4iSRJAA",
+    "videoUrl": "https://www.youtube.com/watch?v=vfHe4iSRJAA",
     "videoId": "vfHe4iSRJAA",
     "url": "https://www.youtube.com/watch?v=vfHe4iSRJAA",
     "thumbnailUrl": "https://i.ytimg.com/vi/vfHe4iSRJAA/maxresdefault.jpg",
@@ -28059,6 +30855,9 @@ const recipes = [
   },
   {
     "title": "鶏よりおいしい😳ヤンニョム豚こま🧀（レシピはコメント欄に✨）",
+    "platform": "youtube",
+    "externalId": "Scn-ZqcscHY",
+    "videoUrl": "https://www.youtube.com/watch?v=Scn-ZqcscHY",
     "videoId": "Scn-ZqcscHY",
     "url": "https://www.youtube.com/watch?v=Scn-ZqcscHY",
     "thumbnailUrl": "https://i.ytimg.com/vi/Scn-ZqcscHY/maxresdefault.jpg",
@@ -28084,6 +30883,9 @@ const recipes = [
   },
   {
     "title": "簡単なのに絶品ローストポーク",
+    "platform": "youtube",
+    "externalId": "YJo8d9FD3Uo",
+    "videoUrl": "https://www.youtube.com/watch?v=YJo8d9FD3Uo",
     "videoId": "YJo8d9FD3Uo",
     "url": "https://www.youtube.com/watch?v=YJo8d9FD3Uo",
     "thumbnailUrl": "https://i.ytimg.com/vi/YJo8d9FD3Uo/maxresdefault.jpg",
@@ -28115,6 +30917,9 @@ const recipes = [
   },
   {
     "title": "ご飯が無限に進む！大分名物【にら豚】",
+    "platform": "youtube",
+    "externalId": "-d1qtJA1pNU",
+    "videoUrl": "https://www.youtube.com/watch?v=-d1qtJA1pNU",
     "videoId": "-d1qtJA1pNU",
     "url": "https://www.youtube.com/watch?v=-d1qtJA1pNU",
     "thumbnailUrl": "https://i.ytimg.com/vi/-d1qtJA1pNU/maxresdefault.jpg",
@@ -28140,6 +30945,9 @@ const recipes = [
   },
   {
     "title": "安い鶏むね肉を無限に食える方法を発見しました「エンドレス鶏むね肉」が旨すぎる#shorts #リュウジ #料理",
+    "platform": "youtube",
+    "externalId": "qqtXuKdnTCA",
+    "videoUrl": "https://www.youtube.com/watch?v=qqtXuKdnTCA",
     "videoId": "qqtXuKdnTCA",
     "url": "https://www.youtube.com/watch?v=qqtXuKdnTCA",
     "thumbnailUrl": "https://i.ytimg.com/vi/qqtXuKdnTCA/maxresdefault.jpg",
@@ -28171,6 +30979,9 @@ const recipes = [
   },
   {
     "title": "確実に1番美味しい豚丼の作り方。正直お店超えてます。",
+    "platform": "youtube",
+    "externalId": "_7rtEu2HGJE",
+    "videoUrl": "https://www.youtube.com/watch?v=_7rtEu2HGJE",
     "videoId": "_7rtEu2HGJE",
     "url": "https://www.youtube.com/watch?v=_7rtEu2HGJE",
     "thumbnailUrl": "https://i.ytimg.com/vi/_7rtEu2HGJE/maxresdefault.jpg",
@@ -28196,6 +31007,9 @@ const recipes = [
   },
   {
     "title": "鶏むね肉買ったら…。 #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "EMP2tb7AAgs",
+    "videoUrl": "https://www.youtube.com/watch?v=EMP2tb7AAgs",
     "videoId": "EMP2tb7AAgs",
     "url": "https://www.youtube.com/watch?v=EMP2tb7AAgs",
     "thumbnailUrl": "https://i.ytimg.com/vi/EMP2tb7AAgs/maxresdefault.jpg",
@@ -28223,6 +31037,9 @@ const recipes = [
   },
   {
     "title": "レンジで簡単！やみつき無限漬け 【麻薬鶏】丁寧に工程を見たい人はアプリで【旨だれ漬け鶏むね肉】と検索♪ #鶏肉 #鶏むね肉 #やみつき #麻薬たまご #レシピ動画 #料理動画 #shorts",
+    "platform": "youtube",
+    "externalId": "M5TQTDXwKhg",
+    "videoUrl": "https://www.youtube.com/watch?v=M5TQTDXwKhg",
     "videoId": "M5TQTDXwKhg",
     "url": "https://www.youtube.com/watch?v=M5TQTDXwKhg",
     "thumbnailUrl": "https://i.ytimg.com/vi/M5TQTDXwKhg/maxresdefault.jpg",
@@ -28259,6 +31076,9 @@ const recipes = [
   },
   {
     "title": "ワンパンで作る カリッじゅわ〜やみつきチキン",
+    "platform": "youtube",
+    "externalId": "ZXr7rYsL3nA",
+    "videoUrl": "https://www.youtube.com/watch?v=ZXr7rYsL3nA",
     "videoId": "ZXr7rYsL3nA",
     "url": "https://www.youtube.com/watch?v=ZXr7rYsL3nA",
     "thumbnailUrl": "https://i.ytimg.com/vi/ZXr7rYsL3nA/maxresdefault.jpg",
@@ -28284,6 +31104,9 @@ const recipes = [
   },
   {
     "title": "材料1つ【鶏むね肉焼き】ただ焼くだけ！安い鶏むね肉が柔らかジューシーに！ボリュームも満点！！節約おかず・おつまみ",
+    "platform": "youtube",
+    "externalId": "JYlEj6OLl5w",
+    "videoUrl": "https://www.youtube.com/watch?v=JYlEj6OLl5w",
     "videoId": "JYlEj6OLl5w",
     "url": "https://www.youtube.com/watch?v=JYlEj6OLl5w",
     "thumbnailUrl": "https://i.ytimg.com/vi/JYlEj6OLl5w/maxresdefault.jpg",
@@ -28311,6 +31134,9 @@ const recipes = [
   },
   {
     "title": "ベーコンの焼き方#料理 #飯テロ #cooking",
+    "platform": "youtube",
+    "externalId": "TU7nvJano-k",
+    "videoUrl": "https://www.youtube.com/watch?v=TU7nvJano-k",
     "videoId": "TU7nvJano-k",
     "url": "https://www.youtube.com/watch?v=TU7nvJano-k",
     "thumbnailUrl": "https://i.ytimg.com/vi/TU7nvJano-k/maxresdefault.jpg",
@@ -28336,6 +31162,9 @@ const recipes = [
   },
   {
     "title": "安い！早い！うまい！豚こま南蛮✨（レシピはコメント欄に🫶）",
+    "platform": "youtube",
+    "externalId": "mD-lKoLJxqw",
+    "videoUrl": "https://www.youtube.com/watch?v=mD-lKoLJxqw",
     "videoId": "mD-lKoLJxqw",
     "url": "https://www.youtube.com/watch?v=mD-lKoLJxqw",
     "thumbnailUrl": "https://i.ytimg.com/vi/mD-lKoLJxqw/maxresdefault.jpg",
@@ -28361,6 +31190,9 @@ const recipes = [
   },
   {
     "title": "肉汁に溺れるガチで1番美味しい鶏胸肉の食べ方",
+    "platform": "youtube",
+    "externalId": "WhNtDLLD06c",
+    "videoUrl": "https://www.youtube.com/watch?v=WhNtDLLD06c",
     "videoId": "WhNtDLLD06c",
     "url": "https://www.youtube.com/watch?v=WhNtDLLD06c",
     "thumbnailUrl": "https://i.ytimg.com/vi/WhNtDLLD06c/maxresdefault.jpg",
@@ -28388,6 +31220,9 @@ const recipes = [
   },
   {
     "title": "㊗️80万再生 基本の照り焼き鶏肉の作り方",
+    "platform": "youtube",
+    "externalId": "T7uG9tuRyQQ",
+    "videoUrl": "https://www.youtube.com/watch?v=T7uG9tuRyQQ",
     "videoId": "T7uG9tuRyQQ",
     "url": "https://www.youtube.com/watch?v=T7uG9tuRyQQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/T7uG9tuRyQQ/maxresdefault.jpg",
@@ -28413,6 +31248,9 @@ const recipes = [
   },
   {
     "title": "もう買わない🎄クリスマスはサクサク激うまのこれ作って🍗#簡単レシピ #クリスマスレシピ #鶏むね肉 #ヘルシーレシピ #フライドチキン #cooking #shorts",
+    "platform": "youtube",
+    "externalId": "aSkUxjfaG9g",
+    "videoUrl": "https://www.youtube.com/watch?v=aSkUxjfaG9g",
     "videoId": "aSkUxjfaG9g",
     "url": "https://www.youtube.com/watch?v=aSkUxjfaG9g",
     "thumbnailUrl": "https://i.ytimg.com/vi/aSkUxjfaG9g/maxresdefault.jpg",
@@ -28438,6 +31276,9 @@ const recipes = [
   },
   {
     "title": "鶏胸肉を毎日1枚以上食べる料理家が辿り着いた、もはやとろける最高の鶏胸チャーシュー",
+    "platform": "youtube",
+    "externalId": "4s9NlCSthGo",
+    "videoUrl": "https://www.youtube.com/watch?v=4s9NlCSthGo",
     "videoId": "4s9NlCSthGo",
     "url": "https://www.youtube.com/watch?v=4s9NlCSthGo",
     "thumbnailUrl": "https://i.ytimg.com/vi/4s9NlCSthGo/maxresdefault.jpg",
@@ -28468,6 +31309,9 @@ const recipes = [
   },
   {
     "title": "毎日鶏胸肉を1.5枚食べる料理家がガチで旨すぎる鶏胸肉レシピを紹介",
+    "platform": "youtube",
+    "externalId": "XRSlFzVmBMg",
+    "videoUrl": "https://www.youtube.com/watch?v=XRSlFzVmBMg",
     "videoId": "XRSlFzVmBMg",
     "url": "https://www.youtube.com/watch?v=XRSlFzVmBMg",
     "thumbnailUrl": "https://i.ytimg.com/vi/XRSlFzVmBMg/maxresdefault.jpg",
@@ -28493,6 +31337,9 @@ const recipes = [
   },
   {
     "title": "ひき肉とピーマン炒めるだけ【ピーマン肉味噌】 詳しいレシピは概要欄をチェック！ #料理 #レシピ動画 #レシピ #簡単レシピ #晩ごはん",
+    "platform": "youtube",
+    "externalId": "SOr7jGxqLw4",
+    "videoUrl": "https://www.youtube.com/watch?v=SOr7jGxqLw4",
     "videoId": "SOr7jGxqLw4",
     "url": "https://www.youtube.com/watch?v=SOr7jGxqLw4",
     "thumbnailUrl": "https://i.ytimg.com/vi/SOr7jGxqLw4/maxresdefault.jpg",
@@ -28522,6 +31369,9 @@ const recipes = [
   },
   {
     "title": "しっとり鶏むね肉のチキン南蛮レシピ #鶏むね肉レシピ #チキン南蛮",
+    "platform": "youtube",
+    "externalId": "GA2qMjpvKus",
+    "videoUrl": "https://www.youtube.com/watch?v=GA2qMjpvKus",
     "videoId": "GA2qMjpvKus",
     "url": "https://www.youtube.com/watch?v=GA2qMjpvKus",
     "thumbnailUrl": "https://i.ytimg.com/vi/GA2qMjpvKus/maxresdefault.jpg",
@@ -28547,6 +31397,9 @@ const recipes = [
   },
   {
     "title": "洗い物少ない！【油要らず唐揚げ】詳しいレシピは概要欄を見てね♪#唐揚げ#鶏もも肉 #鶏肉 #鶏肉レシピ #からあげ #鶏肉#おかず #晩ご飯 #おうちごはん #レシピ動画 #簡単レシピ #ワンパン",
+    "platform": "youtube",
+    "externalId": "RT7HuwgEYZA",
+    "videoUrl": "https://www.youtube.com/watch?v=RT7HuwgEYZA",
     "videoId": "RT7HuwgEYZA",
     "url": "https://www.youtube.com/watch?v=RT7HuwgEYZA",
     "thumbnailUrl": "https://i.ytimg.com/vi/RT7HuwgEYZA/maxresdefault.jpg",
@@ -28574,6 +31427,9 @@ const recipes = [
   },
   {
     "title": "【肉野菜炒め】一生役立つ家庭料理の作り方#shorts #料理 #cooking",
+    "platform": "youtube",
+    "externalId": "b60tx4lSSQ8",
+    "videoUrl": "https://www.youtube.com/watch?v=b60tx4lSSQ8",
     "videoId": "b60tx4lSSQ8",
     "url": "https://www.youtube.com/watch?v=b60tx4lSSQ8",
     "thumbnailUrl": "https://i.ytimg.com/vi/b60tx4lSSQ8/maxresdefault.jpg",
@@ -28607,6 +31463,9 @@ const recipes = [
   },
   {
     "title": "シェフが教える豚肉の火入れ術【総再生1000万回超え】#shorts",
+    "platform": "youtube",
+    "externalId": "mwaHpHX7S-8",
+    "videoUrl": "https://www.youtube.com/watch?v=mwaHpHX7S-8",
     "videoId": "mwaHpHX7S-8",
     "url": "https://www.youtube.com/watch?v=mwaHpHX7S-8",
     "thumbnailUrl": "https://i.ytimg.com/vi/mwaHpHX7S-8/maxresdefault.jpg",
@@ -28632,6 +31491,9 @@ const recipes = [
   },
   {
     "title": "甘辛シャキシャキでお箸が止まらない🤤【千切りキャベツ肉巻き】 #肉巻き #豚バラ #カットキャベツ #キャベツ#簡単レシピ #レシピ動画",
+    "platform": "youtube",
+    "externalId": "vb6GR9JgWbo",
+    "videoUrl": "https://www.youtube.com/watch?v=vb6GR9JgWbo",
     "videoId": "vb6GR9JgWbo",
     "url": "https://www.youtube.com/watch?v=vb6GR9JgWbo",
     "thumbnailUrl": "https://i.ytimg.com/vi/vb6GR9JgWbo/maxresdefault.jpg",
@@ -28661,6 +31523,9 @@ const recipes = [
   },
   {
     "title": "作っても作っても足りない甘辛チキンスティック #鶏むね肉 #ワンパンレシピ",
+    "platform": "youtube",
+    "externalId": "2wiy2uoCizE",
+    "videoUrl": "https://www.youtube.com/watch?v=2wiy2uoCizE",
     "videoId": "2wiy2uoCizE",
     "url": "https://www.youtube.com/watch?v=2wiy2uoCizE",
     "thumbnailUrl": "https://i.ytimg.com/vi/2wiy2uoCizE/maxresdefault.jpg",
@@ -28688,6 +31553,9 @@ const recipes = [
   },
   {
     "title": "お弁当にも！【冷凍ストック】肉巻きピーマン#冷凍 #冷凍ストック #簡単レシピ #料理 #料理動画 #今日の晩ごはん #cooking #お弁当 #お弁当おかず #ピーマンレシピ #ピーマン",
+    "platform": "youtube",
+    "externalId": "7aowgWBxXG8",
+    "videoUrl": "https://www.youtube.com/watch?v=7aowgWBxXG8",
     "videoId": "7aowgWBxXG8",
     "url": "https://www.youtube.com/watch?v=7aowgWBxXG8",
     "thumbnailUrl": "https://i.ytimg.com/vi/7aowgWBxXG8/maxresdefault.jpg",
@@ -28719,6 +31587,9 @@ const recipes = [
   },
   {
     "title": "【時短メイン】鶏肉とたまねぎの醤油マヨ炒め #つくおき #レシピ #時短 #簡単",
+    "platform": "youtube",
+    "externalId": "X7rNBonm_Ls",
+    "videoUrl": "https://www.youtube.com/watch?v=X7rNBonm_Ls",
     "videoId": "X7rNBonm_Ls",
     "url": "https://www.youtube.com/watch?v=X7rNBonm_Ls",
     "thumbnailUrl": "https://i.ytimg.com/vi/X7rNBonm_Ls/maxresdefault.jpg",
@@ -28748,6 +31619,9 @@ const recipes = [
   },
   {
     "title": "5児ママ〜椎茸の肉詰め〜",
+    "platform": "youtube",
+    "externalId": "FsJDlp9WnRY",
+    "videoUrl": "https://www.youtube.com/watch?v=FsJDlp9WnRY",
     "videoId": "FsJDlp9WnRY",
     "url": "https://www.youtube.com/watch?v=FsJDlp9WnRY",
     "thumbnailUrl": "https://i.ytimg.com/vi/FsJDlp9WnRY/maxresdefault.jpg",
@@ -28773,6 +31647,9 @@ const recipes = [
   },
   {
     "title": "胸肉と卵があるなら絶対作ってみて欲しい #料理 #レシピ #food",
+    "platform": "youtube",
+    "externalId": "957-ikJYPmw",
+    "videoUrl": "https://www.youtube.com/watch?v=957-ikJYPmw",
     "videoId": "957-ikJYPmw",
     "url": "https://www.youtube.com/watch?v=957-ikJYPmw",
     "thumbnailUrl": "https://i.ytimg.com/vi/957-ikJYPmw/maxresdefault.jpg",
@@ -28798,6 +31675,9 @@ const recipes = [
   },
   {
     "title": "焼いてかけるだけの失敗なし柔らかジューシー生姜焼き",
+    "platform": "youtube",
+    "externalId": "XJcohBkmnq8",
+    "videoUrl": "https://www.youtube.com/watch?v=XJcohBkmnq8",
     "videoId": "XJcohBkmnq8",
     "url": "https://www.youtube.com/watch?v=XJcohBkmnq8",
     "thumbnailUrl": "https://i.ytimg.com/vi/XJcohBkmnq8/maxresdefault.jpg",
@@ -28827,6 +31707,9 @@ const recipes = [
   },
   {
     "title": "たっぷりキャベツと豚の蒸し煮🤤",
+    "platform": "youtube",
+    "externalId": "Kj--dlrSk_g",
+    "videoUrl": "https://www.youtube.com/watch?v=Kj--dlrSk_g",
     "videoId": "Kj--dlrSk_g",
     "url": "https://www.youtube.com/watch?v=Kj--dlrSk_g",
     "thumbnailUrl": "https://i.ytimg.com/vi/Kj--dlrSk_g/maxresdefault.jpg",
@@ -28852,6 +31735,9 @@ const recipes = [
   },
   {
     "title": "【挽き肉余ったらコレ作ろ！】秘伝の肉味噌#料理 #簡単レシピ #cooking",
+    "platform": "youtube",
+    "externalId": "pnq1FYpaLCo",
+    "videoUrl": "https://www.youtube.com/watch?v=pnq1FYpaLCo",
     "videoId": "pnq1FYpaLCo",
     "url": "https://www.youtube.com/watch?v=pnq1FYpaLCo",
     "thumbnailUrl": "https://i.ytimg.com/vi/pnq1FYpaLCo/maxresdefault.jpg",
@@ -28879,6 +31765,9 @@ const recipes = [
   },
   {
     "title": "悪魔的だけど太らない！トマトチーズエッグチキン #鶏胸肉 #簡単レシピ #料理 #cooking #shorts",
+    "platform": "youtube",
+    "externalId": "LMODVws_0k8",
+    "videoUrl": "https://www.youtube.com/watch?v=LMODVws_0k8",
     "videoId": "LMODVws_0k8",
     "url": "https://www.youtube.com/watch?v=LMODVws_0k8",
     "thumbnailUrl": "https://i.ytimg.com/vi/LMODVws_0k8/maxresdefault.jpg",
@@ -28912,6 +31801,9 @@ const recipes = [
   },
   {
     "title": "たった10分！卵と豚肉だけで無限にご飯が進む最強おかず",
+    "platform": "youtube",
+    "externalId": "Su6T3wXnM_4",
+    "videoUrl": "https://www.youtube.com/watch?v=Su6T3wXnM_4",
     "videoId": "Su6T3wXnM_4",
     "url": "https://www.youtube.com/watch?v=Su6T3wXnM_4",
     "thumbnailUrl": "https://i.ytimg.com/vi/Su6T3wXnM_4/maxresdefault.jpg",
@@ -28943,6 +31835,9 @@ const recipes = [
   },
   {
     "title": "家にある調味料でできる！「トンテキ」詳しいレシピは概要欄をチェック！ #トンテキ #ステーキ",
+    "platform": "youtube",
+    "externalId": "3v0g2C1J3L8",
+    "videoUrl": "https://www.youtube.com/watch?v=3v0g2C1J3L8",
     "videoId": "3v0g2C1J3L8",
     "url": "https://www.youtube.com/watch?v=3v0g2C1J3L8",
     "thumbnailUrl": "https://i.ytimg.com/vi/3v0g2C1J3L8/maxresdefault.jpg",
@@ -28979,6 +31874,9 @@ const recipes = [
   },
   {
     "title": "超しっとり🤤簡単絶品ローストビーフの作り方✨ #クリスマスレシピ #ローストビーフ #ローストビーフレシピ #簡単レシピ",
+    "platform": "youtube",
+    "externalId": "mrU9UqwCuLI",
+    "videoUrl": "https://www.youtube.com/watch?v=mrU9UqwCuLI",
     "videoId": "mrU9UqwCuLI",
     "url": "https://www.youtube.com/watch?v=mrU9UqwCuLI",
     "thumbnailUrl": "https://i.ytimg.com/vi/mrU9UqwCuLI/maxresdefault.jpg",
@@ -29004,6 +31902,9 @@ const recipes = [
   },
   {
     "title": "ご飯おかわり必須。「豚ばらピーマンの甘辛炒め」 #材料と作り方は概要欄 #豚肉 #豚肉レシピ #豚バラ #豚バラレシピ #ピーマン #ピーマンレシピ #料理 #フーディストノート #フーディスト",
+    "platform": "youtube",
+    "externalId": "rJZmEngROhI",
+    "videoUrl": "https://www.youtube.com/watch?v=rJZmEngROhI",
     "videoId": "rJZmEngROhI",
     "url": "https://www.youtube.com/watch?v=rJZmEngROhI",
     "thumbnailUrl": "https://i.ytimg.com/vi/rJZmEngROhI/maxresdefault.jpg",
@@ -29035,6 +31936,9 @@ const recipes = [
   },
   {
     "title": "【実は簡単】美味しいローストビーフの作り方",
+    "platform": "youtube",
+    "externalId": "EPFAdpfAUuM",
+    "videoUrl": "https://www.youtube.com/watch?v=EPFAdpfAUuM",
     "videoId": "EPFAdpfAUuM",
     "url": "https://www.youtube.com/watch?v=EPFAdpfAUuM",
     "thumbnailUrl": "https://i.ytimg.com/vi/EPFAdpfAUuM/maxresdefault.jpg",
@@ -29060,6 +31964,9 @@ const recipes = [
   },
   {
     "title": "ほぼ放置！確実に世界 1ジューシーで肉汁溢れる鶏胸肉の焼き方",
+    "platform": "youtube",
+    "externalId": "KZi4wuYsOdk",
+    "videoUrl": "https://www.youtube.com/watch?v=KZi4wuYsOdk",
     "videoId": "KZi4wuYsOdk",
     "url": "https://www.youtube.com/watch?v=KZi4wuYsOdk",
     "thumbnailUrl": "https://i.ytimg.com/vi/KZi4wuYsOdk/maxresdefault.jpg",
@@ -29088,6 +31995,9 @@ const recipes = [
   },
   {
     "title": "悪魔の肉巻き厚揚げ",
+    "platform": "youtube",
+    "externalId": "PLeD6WbTb4w",
+    "videoUrl": "https://www.youtube.com/watch?v=PLeD6WbTb4w",
     "videoId": "PLeD6WbTb4w",
     "url": "https://www.youtube.com/watch?v=PLeD6WbTb4w",
     "thumbnailUrl": "https://i.ytimg.com/vi/PLeD6WbTb4w/maxresdefault.jpg",
@@ -29119,6 +32029,9 @@ const recipes = [
   },
   {
     "title": "【家族が爆食べ】とろたま豚丼！簡単すぎてリピ確定 #簡単レシピ #cooking",
+    "platform": "youtube",
+    "externalId": "jGqq1IOsing",
+    "videoUrl": "https://www.youtube.com/watch?v=jGqq1IOsing",
     "videoId": "jGqq1IOsing",
     "url": "https://www.youtube.com/watch?v=jGqq1IOsing",
     "thumbnailUrl": "https://i.ytimg.com/vi/jGqq1IOsing/maxresdefault.jpg",
@@ -29151,6 +32064,9 @@ const recipes = [
   },
   {
     "title": "え？簡単かもって思わせるので見てください。【ザクザク油淋鶏】",
+    "platform": "youtube",
+    "externalId": "3GQbGc1m-zg",
+    "videoUrl": "https://www.youtube.com/watch?v=3GQbGc1m-zg",
     "videoId": "3GQbGc1m-zg",
     "url": "https://www.youtube.com/watch?v=3GQbGc1m-zg",
     "thumbnailUrl": "https://i.ytimg.com/vi/3GQbGc1m-zg/hqdefault.jpg",
@@ -29184,6 +32100,9 @@ const recipes = [
   },
   {
     "title": "レシピはこちら🙌#ワンパン#おうちごはん#彼ごはん#レシピ#夕飯#楽うま#晩御飯#重ね煮#簡単レシピ#おかずレシピ#おつまみレシピ#簡単レシピ#豚肉レシピ #簡単ごはん #ダイエットレシピ",
+    "platform": "youtube",
+    "externalId": "P5mGC79dWeI",
+    "videoUrl": "https://www.youtube.com/watch?v=P5mGC79dWeI",
     "videoId": "P5mGC79dWeI",
     "url": "https://www.youtube.com/watch?v=P5mGC79dWeI",
     "thumbnailUrl": "https://i.ytimg.com/vi/P5mGC79dWeI/maxresdefault.jpg",
@@ -29220,6 +32139,9 @@ const recipes = [
   },
   {
     "title": "万能ダレで作る！みそマスポーク #簡単レシピ #今日の晩ごはん #ワーママご飯 #料理 #ワンパンレシピ #おうちごはん #こどもごはん #万能ソース #豚ロース #万能調味料",
+    "platform": "youtube",
+    "externalId": "0VZzwIDmlv4",
+    "videoUrl": "https://www.youtube.com/watch?v=0VZzwIDmlv4",
     "videoId": "0VZzwIDmlv4",
     "url": "https://www.youtube.com/watch?v=0VZzwIDmlv4",
     "thumbnailUrl": "https://i.ytimg.com/vi/0VZzwIDmlv4/maxresdefault.jpg",
@@ -29255,6 +32177,9 @@ const recipes = [
   },
   {
     "title": "これは完全にチャーシューやん(笑)",
+    "platform": "youtube",
+    "externalId": "u7Z4pm4RArE",
+    "videoUrl": "https://www.youtube.com/watch?v=u7Z4pm4RArE",
     "videoId": "u7Z4pm4RArE",
     "url": "https://www.youtube.com/watch?v=u7Z4pm4RArE",
     "thumbnailUrl": "https://i.ytimg.com/vi/u7Z4pm4RArE/maxresdefault.jpg",
@@ -29288,6 +32213,9 @@ const recipes = [
   },
   {
     "title": "「まるでお店で食べるやつ！」鬼リピしまくりの【鶏むね肉の甘辛チキン】胃袋余裕で掴めます",
+    "platform": "youtube",
+    "externalId": "Le-XUUF98nw",
+    "videoUrl": "https://www.youtube.com/watch?v=Le-XUUF98nw",
     "videoId": "Le-XUUF98nw",
     "url": "https://www.youtube.com/watch?v=Le-XUUF98nw",
     "thumbnailUrl": "https://i.ytimg.com/vi/Le-XUUF98nw/maxresdefault.jpg",
@@ -29317,6 +32245,9 @@ const recipes = [
   },
   {
     "title": "【豚肉と玉ねぎの簡単レシピ】ごはんが無限にススム！合わせだれで炒めるだけ",
+    "platform": "youtube",
+    "externalId": "osMypdJM-Zg",
+    "videoUrl": "https://www.youtube.com/watch?v=osMypdJM-Zg",
     "videoId": "osMypdJM-Zg",
     "url": "https://www.youtube.com/watch?v=osMypdJM-Zg",
     "thumbnailUrl": "https://i.ytimg.com/vi/osMypdJM-Zg/maxresdefault.jpg",
@@ -29349,6 +32280,9 @@ const recipes = [
   },
   {
     "title": "箸が止まらない美味さ！究極の焼肉豚バラ丼",
+    "platform": "youtube",
+    "externalId": "-iNfdbx7VXk",
+    "videoUrl": "https://www.youtube.com/watch?v=-iNfdbx7VXk",
     "videoId": "-iNfdbx7VXk",
     "url": "https://www.youtube.com/watch?v=-iNfdbx7VXk",
     "thumbnailUrl": "https://i.ytimg.com/vi/-iNfdbx7VXk/maxresdefault.jpg",
@@ -29382,6 +32316,9 @@ const recipes = [
   },
   {
     "title": "【カリカリ豚こまの甘酢ごま和え】#豚こま肉 #簡単レシピ #時短レシピ #節約レシピ #recipe",
+    "platform": "youtube",
+    "externalId": "1fLwFRTjBQQ",
+    "videoUrl": "https://www.youtube.com/watch?v=1fLwFRTjBQQ",
     "videoId": "1fLwFRTjBQQ",
     "url": "https://www.youtube.com/watch?v=1fLwFRTjBQQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/1fLwFRTjBQQ/maxresdefault.jpg",
@@ -29407,6 +32344,9 @@ const recipes = [
   },
   {
     "title": "ピーマンのチーズ肉巻き🫑#ピーマン #簡単レシピ #料理 #おうちごはん #自炊 #cooking #チーズ #ごはん #時短レシピ #おいしい",
+    "platform": "youtube",
+    "externalId": "NWGQXifJx-o",
+    "videoUrl": "https://www.youtube.com/watch?v=NWGQXifJx-o",
     "videoId": "NWGQXifJx-o",
     "url": "https://www.youtube.com/watch?v=NWGQXifJx-o",
     "thumbnailUrl": "https://i.ytimg.com/vi/NWGQXifJx-o/maxresdefault.jpg",
@@ -29434,6 +32374,9 @@ const recipes = [
   },
   {
     "title": "夫の大好物！ガーリックステーキライス☺️🧄 #簡単レシピ #おうちごはん #自炊 #cooking",
+    "platform": "youtube",
+    "externalId": "GSSfceTqtYo",
+    "videoUrl": "https://www.youtube.com/watch?v=GSSfceTqtYo",
     "videoId": "GSSfceTqtYo",
     "url": "https://www.youtube.com/watch?v=GSSfceTqtYo",
     "thumbnailUrl": "https://i.ytimg.com/vi/GSSfceTqtYo/maxresdefault.jpg",
@@ -29461,6 +32404,9 @@ const recipes = [
   },
   {
     "title": "豚バラ大根の作り方｜定番の人気おかず！味がしみしみ♪フライパンで簡単！#豚バラ大根 #おかき おかず #shorts",
+    "platform": "youtube",
+    "externalId": "PQvX5xbQgSk",
+    "videoUrl": "https://www.youtube.com/watch?v=PQvX5xbQgSk",
     "videoId": "PQvX5xbQgSk",
     "url": "https://www.youtube.com/watch?v=PQvX5xbQgSk",
     "thumbnailUrl": "https://i.ytimg.com/vi/PQvX5xbQgSk/maxresdefault.jpg",
@@ -29491,6 +32437,9 @@ const recipes = [
   },
   {
     "title": "こんなのうまいに決まってる【豚キムチーズ肉巻き】詳しいレシピはアプリで料理名を検索♪#キムチ #豚キムチ#肉巻き #料理動画 #レシピ動画 #簡単レシピ #豚肉レシピ #豚バラ",
+    "platform": "youtube",
+    "externalId": "qoPSikyPWEc",
+    "videoUrl": "https://www.youtube.com/watch?v=qoPSikyPWEc",
     "videoId": "qoPSikyPWEc",
     "url": "https://www.youtube.com/watch?v=qoPSikyPWEc",
     "thumbnailUrl": "https://i.ytimg.com/vi/qoPSikyPWEc/maxresdefault.jpg",
@@ -29518,6 +32467,9 @@ const recipes = [
   },
   {
     "title": "豚こまと玉ねぎ｜もはや週一では足りない。結局コレが一番",
+    "platform": "youtube",
+    "externalId": "npRs3t06EhM",
+    "videoUrl": "https://www.youtube.com/watch?v=npRs3t06EhM",
     "videoId": "npRs3t06EhM",
     "url": "https://www.youtube.com/watch?v=npRs3t06EhM",
     "thumbnailUrl": "https://i.ytimg.com/vi/npRs3t06EhM/maxresdefault.jpg",
@@ -29550,6 +32502,9 @@ const recipes = [
   },
   {
     "title": "料理初心者さんでも作れる！漬けて焼くだけ柔らかガーリックチキン🧄 #shots #おうちごはん #food",
+    "platform": "youtube",
+    "externalId": "8uCNndnDKg4",
+    "videoUrl": "https://www.youtube.com/watch?v=8uCNndnDKg4",
     "videoId": "8uCNndnDKg4",
     "url": "https://www.youtube.com/watch?v=8uCNndnDKg4",
     "thumbnailUrl": "https://i.ytimg.com/vi/8uCNndnDKg4/maxresdefault.jpg",
@@ -29581,6 +32536,9 @@ const recipes = [
   },
   {
     "title": "鶏むねと小松菜のチーズ焼き #ワンパンレシピ #鶏むね肉レシピ #小松菜レシピ",
+    "platform": "youtube",
+    "externalId": "2GxjPBtCSGo",
+    "videoUrl": "https://www.youtube.com/watch?v=2GxjPBtCSGo",
     "videoId": "2GxjPBtCSGo",
     "url": "https://www.youtube.com/watch?v=2GxjPBtCSGo",
     "thumbnailUrl": "https://i.ytimg.com/vi/2GxjPBtCSGo/maxresdefault.jpg",
@@ -29615,6 +32573,9 @@ const recipes = [
   },
   {
     "title": "『仕事帰りでもパッと作れる』甘さと食感が絶妙の【肉豆腐】一生使える基本のレシピです。",
+    "platform": "youtube",
+    "externalId": "vNRUBLpnDK8",
+    "videoUrl": "https://www.youtube.com/watch?v=vNRUBLpnDK8",
     "videoId": "vNRUBLpnDK8",
     "url": "https://www.youtube.com/watch?v=vNRUBLpnDK8",
     "thumbnailUrl": "https://i.ytimg.com/vi/vNRUBLpnDK8/maxresdefault.jpg",
@@ -29651,6 +32612,9 @@ const recipes = [
   },
   {
     "title": "【豚こまステーキ】肉屋がハマった。これ本当に豚こま？",
+    "platform": "youtube",
+    "externalId": "V17idOSAsno",
+    "videoUrl": "https://www.youtube.com/watch?v=V17idOSAsno",
     "videoId": "V17idOSAsno",
     "url": "https://www.youtube.com/watch?v=V17idOSAsno",
     "thumbnailUrl": "https://i.ytimg.com/vi/V17idOSAsno/maxresdefault.jpg",
@@ -29681,6 +32645,9 @@ const recipes = [
   },
   {
     "title": "【ボリューム満点！がっつり肉レシピ7選】簡単なのにまるでお店！メインおかずに食べて大満足♡",
+    "platform": "youtube",
+    "externalId": "S8nhMhGUzKE",
+    "videoUrl": "https://www.youtube.com/watch?v=S8nhMhGUzKE",
     "videoId": "S8nhMhGUzKE",
     "url": "https://www.youtube.com/watch?v=S8nhMhGUzKE",
     "thumbnailUrl": "https://i.ytimg.com/vi/S8nhMhGUzKE/maxresdefault.jpg",
@@ -29716,6 +32683,9 @@ const recipes = [
   },
   {
     "title": "ひき肉ステーキやってみた#肉 #時短レシピ #料理",
+    "platform": "youtube",
+    "externalId": "xg3eLJOsJrw",
+    "videoUrl": "https://www.youtube.com/watch?v=xg3eLJOsJrw",
     "videoId": "xg3eLJOsJrw",
     "url": "https://www.youtube.com/watch?v=xg3eLJOsJrw",
     "thumbnailUrl": "https://i.ytimg.com/vi/xg3eLJOsJrw/maxresdefault.jpg",
@@ -29741,6 +32711,9 @@ const recipes = [
   },
   {
     "title": "ワンパン10分で🍳絶品豚カルビマヨ",
+    "platform": "youtube",
+    "externalId": "0xihd4nQ6Zw",
+    "videoUrl": "https://www.youtube.com/watch?v=0xihd4nQ6Zw",
     "videoId": "0xihd4nQ6Zw",
     "url": "https://www.youtube.com/watch?v=0xihd4nQ6Zw",
     "thumbnailUrl": "https://i.ytimg.com/vi/0xihd4nQ6Zw/maxresdefault.jpg",
@@ -29774,6 +32747,9 @@ const recipes = [
   },
   {
     "title": "元高級ホテル料理人が教える、最高峰しょうが焼きの作り方!!",
+    "platform": "youtube",
+    "externalId": "NoR0aLxT3WI",
+    "videoUrl": "https://www.youtube.com/watch?v=NoR0aLxT3WI",
     "videoId": "NoR0aLxT3WI",
     "url": "https://www.youtube.com/watch?v=NoR0aLxT3WI",
     "thumbnailUrl": "https://i.ytimg.com/vi/NoR0aLxT3WI/maxresdefault.jpg",
@@ -29807,6 +32783,9 @@ const recipes = [
   },
   {
     "title": "煮込み10分だけなのに…味しみがレベチ🥹豚しゃぶ肉豆腐✨",
+    "platform": "youtube",
+    "externalId": "H_R3Ny8xK2M",
+    "videoUrl": "https://www.youtube.com/watch?v=H_R3Ny8xK2M",
     "videoId": "H_R3Ny8xK2M",
     "url": "https://www.youtube.com/watch?v=H_R3Ny8xK2M",
     "thumbnailUrl": "https://i.ytimg.com/vi/H_R3Ny8xK2M/maxresdefault.jpg",
@@ -29838,6 +32817,9 @@ const recipes = [
   },
   {
     "title": "フライパンにそのままポン！そのまんま焼き♪",
+    "platform": "youtube",
+    "externalId": "ivt1l1QeN-w",
+    "videoUrl": "https://www.youtube.com/watch?v=ivt1l1QeN-w",
     "videoId": "ivt1l1QeN-w",
     "url": "https://www.youtube.com/watch?v=ivt1l1QeN-w",
     "thumbnailUrl": "https://i.ytimg.com/vi/ivt1l1QeN-w/maxresdefault.jpg",
@@ -29868,6 +32850,9 @@ const recipes = [
   },
   {
     "title": "30kg痩せた男が食べている鶏むね紫蘇ポンの作り方を紹介したいと思います！#shorts #short",
+    "platform": "youtube",
+    "externalId": "yYnP1ekbo-s",
+    "videoUrl": "https://www.youtube.com/watch?v=yYnP1ekbo-s",
     "videoId": "yYnP1ekbo-s",
     "url": "https://www.youtube.com/watch?v=yYnP1ekbo-s",
     "thumbnailUrl": "https://i.ytimg.com/vi/yYnP1ekbo-s/maxresdefault.jpg",
@@ -29893,6 +32878,9 @@ const recipes = [
   },
   {
     "title": "7分。豚肉とキャベツだけでご飯が無限に進む『ご飯泥棒炒め』",
+    "platform": "youtube",
+    "externalId": "P98QxIzuwsY",
+    "videoUrl": "https://www.youtube.com/watch?v=P98QxIzuwsY",
     "videoId": "P98QxIzuwsY",
     "url": "https://www.youtube.com/watch?v=P98QxIzuwsY",
     "thumbnailUrl": "https://i.ytimg.com/vi/P98QxIzuwsY/maxresdefault.jpg",
@@ -29922,6 +32910,9 @@ const recipes = [
   },
   {
     "title": "食材1つ【3分焼くだけ】“唐揚げよりご飯とビールがすすむ！”と何度も褒められた『ヤバい鶏むね』食費節約 ／ おかず ／ おつまみ ／ ダイエット ／ 高タンパク、低糖質 ／ 旨辛",
+    "platform": "youtube",
+    "externalId": "GBLTKd8GhcE",
+    "videoUrl": "https://www.youtube.com/watch?v=GBLTKd8GhcE",
     "videoId": "GBLTKd8GhcE",
     "url": "https://www.youtube.com/watch?v=GBLTKd8GhcE",
     "thumbnailUrl": "https://i.ytimg.com/vi/GBLTKd8GhcE/maxresdefault.jpg",
@@ -29953,6 +32944,9 @@ const recipes = [
   },
   {
     "title": "へとへとでも作れる ワンパンひとくちチーズカツ",
+    "platform": "youtube",
+    "externalId": "hH5K-E1VgbQ",
+    "videoUrl": "https://www.youtube.com/watch?v=hH5K-E1VgbQ",
     "videoId": "hH5K-E1VgbQ",
     "url": "https://www.youtube.com/watch?v=hH5K-E1VgbQ",
     "thumbnailUrl": "https://i.ytimg.com/vi/hH5K-E1VgbQ/maxresdefault.jpg",
@@ -29978,6 +32972,9 @@ const recipes = [
   },
   {
     "title": "【150万回再生人気レシピ】たった10分煮るだけでぷるぷる&驚きの味しみ！肉豆腐の作り方",
+    "platform": "youtube",
+    "externalId": "iCd2o5FGwl0",
+    "videoUrl": "https://www.youtube.com/watch?v=iCd2o5FGwl0",
     "videoId": "iCd2o5FGwl0",
     "url": "https://www.youtube.com/watch?v=iCd2o5FGwl0",
     "thumbnailUrl": "https://i.ytimg.com/vi/iCd2o5FGwl0/maxresdefault.jpg",
@@ -30010,6 +33007,9 @@ const recipes = [
   },
   {
     "title": "【簡単レシピ】子供も食べられる！ヤンニョムチキン #shorts",
+    "platform": "youtube",
+    "externalId": "j-4jh7nyMUI",
+    "videoUrl": "https://www.youtube.com/watch?v=j-4jh7nyMUI",
     "videoId": "j-4jh7nyMUI",
     "url": "https://www.youtube.com/watch?v=j-4jh7nyMUI",
     "thumbnailUrl": "https://i.ytimg.com/vi/j-4jh7nyMUI/maxresdefault.jpg",

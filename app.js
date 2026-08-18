@@ -283,6 +283,7 @@ const videoDialogTitle = document.querySelector("#videoDialogTitle");
 const videoFrameWrap = document.querySelector("#videoFrameWrap");
 const searchButton = document.querySelector("#searchButton");
 const changeConditionsLink = document.querySelector("#changeConditionsLink");
+const brandHomeLink = document.querySelector("#brandHomeLink");
 
 const defaultConditions = {
   taste: "rich",
@@ -478,19 +479,33 @@ function getTrustedYoutubeUrl(rawUrl) {
   return getTrustedUrl(rawUrl, ["youtube.com", "youtu.be"]);
 }
 
+function getTrustedVideoUrl(rawUrl) {
+  return getTrustedUrl(rawUrl, ["youtube.com", "youtu.be", "instagram.com", "tiktok.com", "vt.tiktok.com"]);
+}
+
 function getTrustedThumbnailUrl(rawUrl) {
   return getTrustedUrl(rawUrl, ["ytimg.com"]);
 }
 
-function buildYoutubeUrl(recipe) {
-  const trustedRecipeUrl = getTrustedYoutubeUrl(recipe.url || "");
+function getVideoPlatform(recipe) {
+  return String(recipe.platform || "youtube").toLowerCase();
+}
+
+function buildVideoUrl(recipe) {
+  const trustedRecipeUrl = getTrustedVideoUrl(recipe.videoUrl || recipe.url || "");
   if (trustedRecipeUrl) return trustedRecipeUrl;
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(`${recipe.creator} ${recipe.title}`)}`;
 }
 
+function buildYoutubeUrl(recipe) {
+  return buildVideoUrl(recipe);
+}
+
 function getYoutubeVideoId(recipe) {
+  if (getVideoPlatform(recipe) !== "youtube") return "";
+  if (recipe.externalId) return recipe.externalId;
   if (recipe.videoId) return recipe.videoId;
-  const source = recipe.url || "";
+  const source = recipe.videoUrl || recipe.url || "";
   const match = source.match(/(?:shorts\/|youtu\.be\/|v=)([A-Za-z0-9_-]{11})/);
   return match ? match[1] : "";
 }
@@ -536,7 +551,7 @@ function createYoutubeIframe(recipe, autoplay = false) {
 function loadVideoIntoFrame(videoFrame, loadButton, recipe) {
   const iframe = createYoutubeIframe(recipe, true);
   if (!iframe) {
-    window.open(buildYoutubeUrl(recipe), "_blank", "noopener");
+    window.open(buildVideoUrl(recipe), "_blank", "noopener");
     return;
   }
 
@@ -627,7 +642,7 @@ function openVideoDialog(recipe) {
 
   const iframe = createYoutubeIframe(recipe, true);
   if (!iframe) {
-    window.open(buildYoutubeUrl(recipe), "_blank", "noopener");
+    window.open(buildVideoUrl(recipe), "_blank", "noopener");
     return;
   }
 
@@ -778,7 +793,7 @@ function renderCards(scoredRecipes) {
     const metaRow = card.querySelector(".meta-row");
     const reasonBox = card.querySelector(".reason-box");
     const youtubeLink = card.querySelector(".youtube-link");
-    const youtubeUrl = buildYoutubeUrl(recipe);
+    const videoUrl = buildVideoUrl(recipe);
 
     article.style.setProperty("--rank", index + 1);
     image.src = getYoutubeThumbnail(recipe);
@@ -817,7 +832,8 @@ function renderCards(scoredRecipes) {
       : "条件に合いやすい候補です。";
     reasonBox.textContent = `${reasonText} 食材カテゴリ: ${getIngredientTasteProfile(recipe).categories.join("・")}`;
 
-    youtubeLink.href = youtubeUrl;
+    youtubeLink.href = videoUrl;
+    youtubeLink.textContent = getVideoPlatform(recipe) === "youtube" ? "YouTubeで開く" : "動画を開く";
     recommendations.appendChild(card);
   });
 }
@@ -832,9 +848,9 @@ function updateRecommendations() {
   renderSummary(conditions);
   renderCards(scoredRecipes);
 
-  if (changeConditionsLink) {
-    changeConditionsLink.href = buildPageUrl("index.html", conditions);
-  }
+  [changeConditionsLink, brandHomeLink].forEach((link) => {
+    if (link) link.href = buildPageUrl("index.html", conditions);
+  });
 }
 
 if (form) {

@@ -130,6 +130,9 @@ def build_record(search_item: dict, detail_item: dict | None = None) -> dict[str
     )
 
     return {
+        "platform": "youtube",
+        "external_id": video_id,
+        "video_url": f"https://www.youtube.com/watch?v={video_id}",
         "video_id": video_id,
         "url": f"https://www.youtube.com/watch?v={video_id}",
         "title": snippet.get("title") or "",

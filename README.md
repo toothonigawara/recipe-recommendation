@@ -54,6 +54,14 @@ YouTube Data APIで収集した実在する料理動画1000件を推薦対象に
 
 CSVにはYouTube埋め込み用の `video_id` 列を持たせています。
 
+外部動画サービスを将来追加できるよう、動画ソースは次の共通列でも管理します。
+
+- `platform`: `youtube`、`instagram`、`tiktok` などのサービス名
+- `external_id`: 各サービス側の動画ID
+- `video_url`: 各サービスの動画URL
+
+既存の `video_id`、`動画URL`、`url` はYouTube互換用として残しています。
+
 ## 1000件データ作成の流れ
 
 YouTube Data APIのキーを環境変数に設定してから実行します。

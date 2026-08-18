@@ -256,7 +256,17 @@ def raw_ingredient_text(tags: list[str]) -> str:
     return "、".join(LABELS.get(tag, tag) for tag in tags)
 
 
+def platform(record: dict) -> str:
+    return clean(record.get("platform")) or "youtube"
+
+
+def external_id(record: dict) -> str:
+    return clean(record.get("external_id")) or clean(record.get("video_id"))
+
+
 def video_url(record: dict) -> str:
+    if record.get("video_url"):
+        return record["video_url"]
     if record.get("url"):
         return record["url"]
     return f"https://www.youtube.com/watch?v={record.get('video_id', '')}"
@@ -296,6 +306,9 @@ def build_rows(records: list[dict], limit: int | None = None) -> list[dict[str, 
         rows.append(
             {
                 "メニュー": title,
+                "platform": platform(record),
+                "external_id": external_id(record),
+                "video_url": video_url(record),
                 "video_id": video_id,
                 "動画URL": video_url(record),
                 "投稿者": clean(record.get("channel") or record.get("creator")),
@@ -346,6 +359,9 @@ def write_js(path: Path, rows: list[dict[str, str]]) -> None:
         recipes.append(
             {
                 "title": row["メニュー"],
+                "platform": row.get("platform", "youtube"),
+                "externalId": row.get("external_id", row["video_id"]),
+                "videoUrl": row.get("video_url", row["動画URL"]),
                 "videoId": row["video_id"],
                 "url": row["動画URL"],
                 "thumbnailUrl": row.get("thumbnail_url", ""),
