@@ -286,9 +286,9 @@ const changeConditionsLink = document.querySelector("#changeConditionsLink");
 const brandHomeLink = document.querySelector("#brandHomeLink");
 
 const defaultConditions = {
-  taste: "rich",
-  time: "easy",
-  temperature: "warm",
+  taste: "",
+  time: "",
+  temperature: "",
   ingredients: [],
   noKnife: false,
   noHeat: false
@@ -312,9 +312,9 @@ function readConditions() {
 
   const formData = new FormData(form);
   return {
-    taste: formData.get("taste"),
-    time: formData.get("time"),
-    temperature: formData.get("temperature"),
+    taste: formData.get("taste") || "",
+    time: formData.get("time") || "",
+    temperature: formData.get("temperature") || "",
     ingredients: formData.getAll("ingredients"),
     noKnife: formData.has("noKnife"),
     noHeat: formData.has("noHeat")
@@ -324,9 +324,9 @@ function readConditions() {
 function readConditionsFromUrl() {
   const params = new URLSearchParams(window.location.search);
   return {
-    taste: params.get("taste") || defaultConditions.taste,
-    time: params.get("time") || defaultConditions.time,
-    temperature: params.get("temperature") || defaultConditions.temperature,
+    taste: params.get("taste") || "",
+    time: params.get("time") || "",
+    temperature: params.get("temperature") || "",
     ingredients: params.getAll("ingredients"),
     noKnife: params.get("noKnife") === "1",
     noHeat: params.get("noHeat") === "1"
@@ -335,9 +335,9 @@ function readConditionsFromUrl() {
 
 function buildConditionsQuery(conditions) {
   const params = new URLSearchParams();
-  params.set("taste", conditions.taste || defaultConditions.taste);
-  params.set("time", conditions.time || defaultConditions.time);
-  params.set("temperature", conditions.temperature || defaultConditions.temperature);
+  if (conditions.taste) params.set("taste", conditions.taste);
+  if (conditions.time) params.set("time", conditions.time);
+  if (conditions.temperature) params.set("temperature", conditions.temperature);
   conditions.ingredients.forEach((item) => params.append("ingredients", item));
   if (conditions.noKnife) params.set("noKnife", "1");
   if (conditions.noHeat) params.set("noHeat", "1");
@@ -353,6 +353,9 @@ function applyConditionsToForm(conditions) {
   if (!form) return;
 
   ["taste", "time", "temperature"].forEach((name) => {
+    form.querySelectorAll(`input[name="${name}"]`).forEach((input) => {
+      input.checked = false;
+    });
     const input = form.querySelector(`input[name="${name}"][value="${conditions[name]}"]`);
     if (input) input.checked = true;
   });
@@ -372,23 +375,52 @@ function goToResults() {
   window.location.href = buildPageUrl("results.html", readConditions());
 }
 
+function hasActiveConditions(conditions) {
+  return Boolean(
+    conditions.taste ||
+    conditions.time ||
+    conditions.temperature ||
+    conditions.noKnife ||
+    conditions.noHeat ||
+    conditions.ingredients.length > 0
+  );
+}
+
+function getRandomRecommendations(recipeList) {
+  const shuffled = recipeList.slice();
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+
+  return shuffled.map((recipe) => ({
+    ...recipe,
+    score: 0,
+    reasons: ["条件なしでランダムに選びました"]
+  }));
+}
+
 function scoreRecipe(recipe, conditions) {
   let score = 0;
   const reasons = [];
 
   const richnessProfile = getTentativeRichnessProfile(recipe);
-  const tasteScore = Math.max(
-    0,
-    28 - Math.abs(preferredIngredientTasteScore[conditions.taste] - richnessProfile.score) * 4
-  );
-  score += tasteScore;
-  if (tasteScore >= 18) reasons.push(`味の傾向が「${labels.taste[conditions.taste]}」に近い`);
+  if (conditions.taste && preferredIngredientTasteScore[conditions.taste]) {
+    const tasteScore = Math.max(
+      0,
+      28 - Math.abs(preferredIngredientTasteScore[conditions.taste] - richnessProfile.score) * 4
+    );
+    score += tasteScore;
+    if (tasteScore >= 18) reasons.push(`味の傾向が「${labels.taste[conditions.taste]}」に近い`);
+  }
 
-  const timeScore = Math.max(0, 22 - timeDistance[conditions.time][recipe.time] * 9);
-  score += timeScore;
-  if (timeScore >= 13) reasons.push(`調理時間が「${labels.time[conditions.time]}」に合う`);
+  if (conditions.time && timeDistance[conditions.time]) {
+    const timeScore = Math.max(0, 22 - timeDistance[conditions.time][recipe.time] * 9);
+    score += timeScore;
+    if (timeScore >= 13) reasons.push(`調理時間が「${labels.time[conditions.time]}」に合う`);
+  }
 
-  if (recipe.temperature === conditions.temperature) {
+  if (conditions.temperature && recipe.temperature === conditions.temperature) {
     score += 16;
     reasons.push(`${labels.temperature[conditions.temperature]}料理として作りやすい`);
   }
@@ -696,11 +728,11 @@ function renderSummary(conditions) {
 
   const visibleIngredients = getVisibleSelectedIngredients(conditions.ingredients);
   const tags = [
-    labels.taste[conditions.taste],
-    labels.time[conditions.time],
-    labels.temperature[conditions.temperature],
-    ...visibleIngredients.map((item) => labels.ingredients[item])
-  ];
+    conditions.taste ? labels.taste[conditions.taste] : "",
+    conditions.time ? labels.time[conditions.time] : "",
+    conditions.temperature ? labels.temperature[conditions.temperature] : "",
+    ...visibleIngredients.map((item) => labels.ingredients[item] || item)
+  ].filter(Boolean);
 
   if (conditions.noKnife) tags.push("包丁なし");
   if (conditions.noHeat) tags.push("火なし");
@@ -840,13 +872,15 @@ function renderCards(scoredRecipes) {
 
 function updateRecommendations() {
   const conditions = readConditions();
-  const scoredRecipes = recipes
-    .map((recipe) => scoreRecipe(recipe, conditions))
-    .sort((a, b) => b.score - a.score);
+  const recommendedRecipes = hasActiveConditions(conditions)
+    ? recipes
+        .map((recipe) => scoreRecipe(recipe, conditions))
+        .sort((a, b) => b.score - a.score)
+    : getRandomRecommendations(recipes);
 
   renderSelectedIngredients(conditions);
   renderSummary(conditions);
-  renderCards(scoredRecipes);
+  renderCards(recommendedRecipes);
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
     if (link) link.href = buildPageUrl("index.html", conditions);
@@ -855,6 +889,10 @@ function updateRecommendations() {
 
 if (form) {
   applyConditionsToForm(readConditionsFromUrl());
+  window.addEventListener("pageshow", () => {
+    applyConditionsToForm(readConditionsFromUrl());
+    updateRecommendations();
+  });
   form.addEventListener("change", updateRecommendations);
   form.addEventListener("submit", (event) => {
     event.preventDefault();

@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>動画レシピ推薦システム</title>
-    <link rel="stylesheet" href="styles.css?v=brand-home-link-20260818">
+    <title>動画レシピ提案サイト</title>
+    <link rel="stylesheet" href="styles.css?v=unselected-conditions-20260818">
   </head>
   <body>
     <main class="app-shell">
@@ -35,12 +35,12 @@
             <h2>今の条件</h2>
           </div>
 
-          <form id="recommendForm">
+          <form id="recommendForm" autocomplete="off">
             <fieldset>
               <legend>味</legend>
               <div class="segmented four" data-group="taste">
                 <label>
-                  <input type="radio" name="taste" value="rich" checked>
+                  <input type="radio" name="taste" value="rich">
                   <span class="condition-button taste-rich">ガッツリ</span>
                 </label>
                 <label>
@@ -62,7 +62,7 @@
               <legend>調理時間</legend>
               <div class="segmented three" data-group="time">
                 <label>
-                  <input type="radio" name="time" value="easy" checked>
+                  <input type="radio" name="time" value="easy">
                   <span class="condition-button time-easy">簡単<br><small>〜15分</small></span>
                 </label>
                 <label>
@@ -80,7 +80,7 @@
               <legend>温度</legend>
               <div class="segmented two" data-group="temperature">
                 <label>
-                  <input type="radio" name="temperature" value="warm" checked>
+                  <input type="radio" name="temperature" value="warm">
                   <span>温かい</span>
                 </label>
                 <label>
@@ -294,7 +294,7 @@
       </section>
     </main>
 
-    <script src="recipes-data.js"></script>
-    <script src="app.js"></script>
+    <script src="recipes-data.js?v=unselected-conditions-20260820"></script>
+    <script src="app.js?v=unselected-conditions-20260820"></script>
   </body>
 </html>
