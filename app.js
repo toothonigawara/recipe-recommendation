@@ -333,6 +333,23 @@ function readConditionsFromUrl() {
   };
 }
 
+function isReloadNavigation() {
+  const [navigation] = performance.getEntriesByType ? performance.getEntriesByType("navigation") : [];
+  if (navigation) return navigation.type === "reload";
+  return performance.navigation && performance.navigation.type === 1;
+}
+
+function clearConditionUrl() {
+  if (!window.location.search) return;
+  window.history.replaceState({}, "", `${window.location.pathname}${window.location.hash}`);
+}
+
+function readInitialFormConditions() {
+  if (!isReloadNavigation()) return readConditionsFromUrl();
+  clearConditionUrl();
+  return defaultConditions;
+}
+
 function buildConditionsQuery(conditions) {
   const params = new URLSearchParams();
   if (conditions.taste) params.set("taste", conditions.taste);
@@ -888,7 +905,7 @@ function updateRecommendations() {
 }
 
 if (form) {
-  applyConditionsToForm(readConditionsFromUrl());
+  applyConditionsToForm(readInitialFormConditions());
   window.addEventListener("pageshow", () => {
     applyConditionsToForm(readConditionsFromUrl());
     updateRecommendations();
