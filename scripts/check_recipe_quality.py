@@ -37,6 +37,19 @@ TAG_TITLE_HINTS = {
     "rice_noodles": ("ビーフン", "フォー"),
 }
 
+P0_TITLE_TAG_CONFLICTS = [
+    {
+        "title_includes": ("卵液不要", "卵不要", "卵なし", "卵不使用", "卵を使わない"),
+        "forbidden_tags": {"egg"},
+        "message": "title says egg is not used but egg tag is present",
+    },
+    {
+        "title_includes": ("親子丼",),
+        "forbidden_tags": {"whitefish"},
+        "message": "oyakodon should not include whitefish unless manually confirmed",
+    },
+]
+
 
 def read_rows(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8-sig") as csv_file:
@@ -96,6 +109,22 @@ def check_suspicious_tags(rows: list[dict[str, str]]) -> list[str]:
     return warnings
 
 
+def check_p0_title_tag_conflicts(rows: list[dict[str, str]]) -> list[str]:
+    warnings = []
+    for index, row in enumerate(rows, 2):
+        title = row.get("メニュー") or ""
+        tags = split_tags(row.get("詳細食材タグ") or "")
+        for rule in P0_TITLE_TAG_CONFLICTS:
+            if not any(word in title for word in rule["title_includes"]):
+                continue
+            found = tags & rule["forbidden_tags"]
+            if found:
+                warnings.append(
+                    f"P0 L{index} {title}: {rule['message']} ({', '.join(sorted(found))})"
+                )
+    return warnings
+
+
 def check_distribution(rows: list[dict[str, str]]) -> list[str]:
     warnings = []
     category_counts = Counter()
@@ -119,6 +148,7 @@ def run_checks(path: Path) -> list[str]:
     if rows:
         warnings.extend(check_duplicates(rows))
         warnings.extend(check_empty_fields(rows))
+        warnings.extend(check_p0_title_tag_conflicts(rows))
         warnings.extend(check_suspicious_tags(rows))
         warnings.extend(check_distribution(rows))
     return warnings

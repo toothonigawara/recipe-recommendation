@@ -1,0 +1,3 @@
+video_id,title,video_url,exact_ingredients,time,temperature,uses_knife,uses_heat,richness,oil,effort,reviewer,reviewed_at,review_status,source,notes
+LSbSjMdWCOc,【卵液不要】10分でチーズ溢れる豚しそカツ| 包丁も使いません。,https://www.youtube.com/watch?v=LSbSjMdWCOc,"pork,cheese,mayonnaise",easy,warm,false,true,,5,3,Codex,2026-08-23,confirmed,title/manual,"卵液不要なのでeggを除外。料理名が豚しそカツなのでchickenを除外。しそは現在のタグ辞書に未定義。"
+5d-r8rLTr00,【家にある調味料で作る】簡単絶品親子丼レシピ大公開！【フライパンでふわとろ食感♪】,https://www.youtube.com/watch?v=5d-r8rLTr00,"chicken,egg,rice,green_onion,onion",easy,warm,true,true,,2,1,Codex,2026-08-23,confirmed,title/manual,"親子丼にwhitefishが混入していたため除外。一般的な親子丼構成に合わせて補正。"

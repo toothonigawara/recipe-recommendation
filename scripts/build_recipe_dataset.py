@@ -92,7 +92,7 @@ TAG_KEYWORDS = [
     ("salmon", ["鮭", "サーモン"]),
     ("mackerel", ["さば", "サバ", "鯖"]),
     ("yellowtail", ["ブリ", "鰤", "ぶり大根"]),
-    ("whitefish", ["白身魚", "たら", "鱈"]),
+    ("whitefish", ["白身魚", "タラ", "たらの", "鱈"]),
     ("aji", ["アジフライ", "アジの", "アジを", "鯵"]),
     ("shrimp", ["えび", "エビ", "海老"]),
     ("shellfish", ["あさり", "貝", "クラム", "ボンゴレ"]),
@@ -153,6 +153,9 @@ TAG_KEYWORDS = [
 
 EXCLUDED_TITLE_WORDS = ("まとめ", "ランキング", "献立", "作り置き", "総集編", "ライブ", "切り抜き")
 TITLE_ONLY_TAGS = {"rice", "soba", "bread"}
+NEGATED_TAG_PATTERNS = {
+    "egg": ("卵液不要", "卵不要", "卵なし", "卵不使用", "卵を使わない"),
+}
 
 
 def clean(value: str | None) -> str:
@@ -168,7 +171,16 @@ def extract_tags(*texts: str) -> list[str]:
         source = title if tag in TITLE_ONLY_TAGS else joined
         if any(keyword in source for keyword in keywords):
             tags.append(tag)
+    tags = [
+        tag
+        for tag in tags
+        if not any(pattern in joined for pattern in NEGATED_TAG_PATTERNS.get(tag, ()))
+    ]
     return list(dict.fromkeys(tags))
+
+
+def parse_tags(value: str | None) -> list[str]:
+    return [tag.strip() for tag in (value or "").split(",") if tag.strip()]
 
 
 def infer_time(title: str, description: str) -> str:
@@ -279,9 +291,49 @@ def load_records(path: Path) -> list[dict]:
         return list(csv.DictReader(csv_file))
 
 
-def build_rows(records: list[dict], limit: int | None = None) -> list[dict[str, str]]:
+def load_master_facts(path: Path | None) -> dict[str, dict[str, str]]:
+    if not path or not path.exists():
+        return {}
+
+    with path.open(newline="", encoding="utf-8-sig") as csv_file:
+        rows = list(csv.DictReader(csv_file))
+
+    facts = {}
+    for row in rows:
+        if clean(row.get("review_status")) != "confirmed":
+            continue
+        video_id = clean(row.get("video_id"))
+        exact_ingredients = parse_tags(row.get("exact_ingredients"))
+        if video_id and exact_ingredients:
+            facts[video_id] = row
+    return facts
+
+
+def choose_value(override: dict[str, str] | None, key: str, fallback: str) -> str:
+    if not override:
+        return fallback
+    return clean(override.get(key)) or fallback
+
+
+def choose_bool(override: dict[str, str] | None, key: str, fallback: bool) -> bool:
+    if not override:
+        return fallback
+    value = clean(override.get(key)).lower()
+    if value == "true":
+        return True
+    if value == "false":
+        return False
+    return fallback
+
+
+def build_rows(
+    records: list[dict],
+    limit: int | None = None,
+    master_facts: dict[str, dict[str, str]] | None = None,
+) -> list[dict[str, str]]:
     rows = []
     seen_ids = set()
+    master_facts = master_facts or {}
     for record in records:
         video_id = record.get("video_id") or ""
         title = clean(record.get("title"))
@@ -291,17 +343,26 @@ def build_rows(records: list[dict], limit: int | None = None) -> list[dict[str, 
         if any(word in title for word in EXCLUDED_TITLE_WORDS):
             continue
 
+        override = master_facts.get(video_id)
         tags = extract_tags(title, description)
+        fact_status = "estimated"
+        fact_source = "youtube_api_inferred"
+        if override:
+            tags = parse_tags(override.get("exact_ingredients"))
+            fact_status = "confirmed"
+            fact_source = choose_value(override, "source", "manual")
         if not tags:
             continue
 
         seen_ids.add(video_id)
         categories = generate_ingredient_categories(",".join(tags))
-        time_level = infer_time(title, description)
-        temperature = infer_temperature(title)
-        oil = infer_oil(title, tags)
-        effort = infer_effort(title, tags)
+        time_level = choose_value(override, "time", infer_time(title, description))
+        temperature = choose_value(override, "temperature", infer_temperature(title))
+        oil = int(float(choose_value(override, "oil", str(infer_oil(title, tags)))))
+        effort = int(float(choose_value(override, "effort", str(infer_effort(title, tags)))))
         dishes = infer_dishes(title, effort)
+        knife = choose_bool(override, "uses_knife", infer_knife(tags))
+        heat = choose_bool(override, "uses_heat", infer_heat(title, temperature))
 
         rows.append(
             {
@@ -322,9 +383,11 @@ def build_rows(records: list[dict], limit: int | None = None) -> list[dict[str, 
                 "temperature": temperature,
                 "effort": str(effort),
                 "dishes": str(dishes),
-                "knife": str(infer_knife(tags)).lower(),
-                "heat": str(infer_heat(title, temperature)).lower(),
+                "knife": str(knife).lower(),
+                "heat": str(heat).lower(),
                 "thumbnail_url": clean(record.get("thumbnail_url")),
+                "fact_status": fact_status,
+                "fact_source": fact_source,
             }
         )
         if limit and len(rows) >= limit:
@@ -379,7 +442,13 @@ def write_js(path: Path, rows: list[dict[str, str]]) -> None:
                 "heat": to_bool(row["heat"]),
                 "detailedIngredients": [tag for tag in row["詳細食材タグ"].split(",") if tag],
                 "rawIngredients": row["食材"],
-                "description": f"{row['投稿者']}の実在動画。{row['食材']}を使う「{row['メニュー']}」のレシピです。",
+                "ingredientStatus": row.get("fact_status", "estimated"),
+                "ingredientSource": row.get("fact_source", "youtube_api_inferred"),
+                "description": (
+                    f"{row['投稿者']}の実在動画。{row['食材']}を使う「{row['メニュー']}」のレシピです。"
+                    if row.get("fact_status") == "confirmed"
+                    else f"{row['投稿者']}の実在動画。食材候補: {row['食材']}。「{row['メニュー']}」のレシピです。"
+                ),
             }
         )
     path.write_text("const recipes = " + json.dumps(recipes, ensure_ascii=False, indent=2) + ";\n", encoding="utf-8")
@@ -391,6 +460,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--csv-output", default="data/1000件料理レシピ.csv")
     parser.add_argument("--json-output", default="data/1000_recipes_scored.json")
     parser.add_argument("--js-output", default="recipes-data.js")
+    parser.add_argument("--master-data", default="data/recipes-master.csv")
     parser.add_argument("--limit", type=int, default=1000)
     return parser
 
@@ -398,7 +468,7 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> None:
     args = build_parser().parse_args()
     records = load_records(Path(args.input))
-    rows = build_rows(records, args.limit)
+    rows = build_rows(records, args.limit, load_master_facts(Path(args.master_data)))
     if not rows:
         raise RuntimeError("No recipe rows were built.")
     write_csv(Path(args.csv_output), rows)

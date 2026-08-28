@@ -90,7 +90,6 @@ const labels = {
     lettuce: "レタス",
     lotus_root: "レンコン",
     egg: "卵",
-    quail_egg: "うずら卵",
     tofu: "豆腐",
     atsuage: "厚揚げ",
     aburaage: "油揚げ",
@@ -168,7 +167,7 @@ const ingredientTasteCategories = [
     id: "egg",
     label: "卵",
     score: 5,
-    tags: ["egg", "quail_egg"]
+    tags: ["egg"]
   },
   {
     id: "noodle",
@@ -301,7 +300,6 @@ const ingredientChoiceIdsByGroup = {
   leafyVegetable: ["cabbage", "cucumber", "komatsuna", "bok_choy", "napa_cabbage", "nira", "green_onion", "spinach", "bean_sprouts", "lettuce"],
   rootVegetable: ["turnip", "pumpkin", "burdock", "sweet_potato", "taro", "potato", "daikon", "onion", "nagaimo", "carrot", "lotus_root"],
   mushroom: ["enoki", "shimeji", "shiitake", "dried_shiitake", "jellyfish"],
-  egg: ["quail_egg"],
   soy: ["tofu", "atsuage", "aburaage", "soybean", "natto", "okara"],
   noodle: ["pasta", "udon", "soba", "noodles", "somen", "ramen", "yakisoba_noodles", "rice_noodles", "harusame"],
   richDairy: ["cheese", "butter"]

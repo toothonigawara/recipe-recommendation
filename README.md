@@ -48,6 +48,8 @@ YouTube Data APIで収集した実在する料理動画1000件を推薦対象に
 - 1000件収集スクリプト: `scripts/collect_youtube_api_recipes.py`
 - 1000件生成スクリプト: `scripts/build_recipe_dataset.py`
 - 品質チェックスクリプト: `scripts/check_recipe_quality.py`
+- 人手確認済みデータ台帳: `data/recipes-master.csv`
+- 100件監査サンプル作成スクリプト: `scripts/create_recipe_audit_sample.py`
 - 旧100件再生成スクリプト: `scripts/collect_recipe_candidates.py`, `scripts/fetch_video_details.py`, `scripts/build_100_recipe_data.py`
 
 推薦カードのサムネイルまたは「サイト内で見る」を押すと、YouTube動画を埋め込み表示します。「YouTubeで開く」から元動画にも移動できます。
@@ -88,20 +90,53 @@ python3 scripts/collect_youtube_api_recipes.py --target-count 1000
 ```bash
 python3 scripts/build_recipe_dataset.py \
   --input data/youtube_api_recipes.json \
+  --master-data data/recipes-master.csv \
   --csv-output data/1000件料理レシピ.csv \
   --json-output data/1000_recipes_scored.json \
   --js-output recipes-data.js
 ```
 
+`data/recipes-master.csv` に `review_status=confirmed` の行がある場合は、YouTube説明文からの自動抽出よりも台帳の `exact_ingredients`、調理時間、包丁、火などを優先します。未確認データは `fact_status=estimated` として出力し、確認済みデータと区別します。
+
 4. 品質チェック
 
 ```bash
-python3 scripts/check_recipe_quality.py data/1000件料理レシピ.csv
+python3 scripts/check_recipe_quality.py data/1000件料理レシピ.csv --fail-on-warning
 ```
+
+「卵液不要なのに卵タグが入る」「親子丼に白身魚タグが混入する」など、推薦説明に直結する不整合はP0として検出します。
 
 5. 推薦カードにYouTube埋め込み
 
 `recipes-data.js` が更新されていれば、`index.html` を開くだけで推薦カードから埋め込み再生できます。
+
+## データ修正・監査フロー
+
+修正期間中に公開用データへ戻れるよう、現在のバックアップを `data/backups/20260823/` に置いています。
+
+- `data/backups/20260823/recipes-data.js`
+- `data/backups/20260823/recipes-extra.js`
+
+料理データと推薦説明が不整合な場合は、まず `data/recipes-master.csv` に確認済みの正解データを追加します。
+
+主な列:
+
+- `video_id`: YouTube動画ID
+- `exact_ingredients`: 正しい食材タグ。カンマ区切り
+- `time`, `temperature`, `uses_knife`, `uses_heat`: 確認済みの調理条件
+- `reviewer`, `reviewed_at`, `review_status`: 確認者、確認日、確認状態
+- `source`, `notes`: 根拠とメモ
+
+100件を層化抽出して人手確認する場合は、次を実行します。
+
+```bash
+python3 scripts/create_recipe_audit_sample.py \
+  --input data/1000件料理レシピ.csv \
+  --output data/recipe-audit-sample.csv \
+  --count 100
+```
+
+確認済みの修正を反映するときは、必ず `build_recipe_dataset.py` で再生成してから `check_recipe_quality.py --fail-on-warning` を通します。
 
 ## スコア列の追加
 

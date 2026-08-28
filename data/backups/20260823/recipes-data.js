@@ -25,9 +25,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "低空飛行キッチンの実在動画。食材候補: 鶏肉。「ご飯のおかわりが止まらない！「甘辛ごまチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
+    "description": "低空飛行キッチンの実在動画。鶏肉を使う「ご飯のおかわりが止まらない！「甘辛ごまチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
   },
   {
     "title": "ご飯がすすみまくるぞ！「鶏むね肉の甘酢マヨチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
@@ -44,6 +42,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -56,14 +55,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "green_onion",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、ネギ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "低空飛行キッチンの実在動画。食材候補: 鶏肉、ネギ、にんにく、マヨネーズ。「ご飯がすすみまくるぞ！「鶏むね肉の甘酢マヨチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ネギ、にんにく、マヨネーズ",
+    "description": "低空飛行キッチンの実在動画。鶏肉、白身魚、ネギ、にんにく、マヨネーズを使う「ご飯がすすみまくるぞ！「鶏むね肉の甘酢マヨチキン」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
   },
   {
     "title": "洗い物も少ないし/生焼けの心配もない/いいとこ尽くしの【食べたらハンバーグ丼】詳しいレシピは概要欄を見てね♪#晩ごはん #丼ぶり #ハンバーグ#ひき肉 #簡単レシピ #レシピ動画 #料理動画",
@@ -80,6 +78,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -93,15 +92,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 挽肉、卵、ご飯・米、ネギ、玉ねぎ。「洗い物も少ないし/生焼けの心配もない/いいとこ尽くしの【食べたらハンバーグ丼】詳しいレシピは概要欄を見てね♪#晩ごはん #丼ぶり #ハンバーグ#ひき肉 #簡単レシピ #レシピ動画 #料理動画」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "デリッシュキッチンの実在動画。挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「洗い物も少ないし/生焼けの心配もない/いいとこ尽くしの【食べたらハンバーグ丼】詳しいレシピは概要欄を見てね♪#晩ごはん #丼ぶり #ハンバーグ#ひき肉 #簡単レシピ #レシピ動画 #料理動画」のレシピです。"
   },
   {
     "title": "夫がまた作ってと言った『ジャーマンポテト』 #簡単レシピ",
@@ -129,9 +127,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。食材候補: じゃが芋。「夫がまた作ってと言った『ジャーマンポテト』 #簡単レシピ」のレシピです。"
+    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。じゃが芋を使う「夫がまた作ってと言った『ジャーマンポテト』 #簡単レシピ」のレシピです。"
   },
   {
     "title": "味がしみしみ！いくらでも食べられる 【こんにゃく串】 詳しいレシピは概要欄をチェック！ #料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん",
@@ -159,9 +155,7 @@ const recipes = [
       "konnyaku"
     ],
     "rawIngredients": "こんにゃく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: こんにゃく。「味がしみしみ！いくらでも食べられる 【こんにゃく串】 詳しいレシピは概要欄をチェック！ #料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。こんにゃくを使う「味がしみしみ！いくらでも食べられる 【こんにゃく串】 詳しいレシピは概要欄をチェック！ #料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん」のレシピです。"
   },
   {
     "title": "【なすで巻くだけで白米10杯おかわりしちゃう】暑い日にこそ食べたい絶品おかずレシピ / Pork & Eggplant Rolls #shorts",
@@ -178,6 +172,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜"
     ],
@@ -189,13 +184,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "eggplant"
     ],
-    "rawIngredients": "豚肉、ご飯・米、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Tasty Japanの実在動画。食材候補: 豚肉、ご飯・米、なす。「【なすで巻くだけで白米10杯おかわりしちゃう】暑い日にこそ食べたい絶品おかずレシピ / Pork & Eggplant Rolls #shorts」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、なす",
+    "description": "Tasty Japanの実在動画。豚肉、白身魚、ご飯・米、なすを使う「【なすで巻くだけで白米10杯おかわりしちゃう】暑い日にこそ食べたい絶品おかずレシピ / Pork & Eggplant Rolls #shorts」のレシピです。"
   },
   {
     "title": "忙しい日でも簡単に作れる最強に美味しい照り照り目玉焼き",
@@ -212,6 +206,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵"
     ],
     "oil": 4,
@@ -222,12 +217,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg"
     ],
-    "rawIngredients": "ベーコン、卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: ベーコン、卵。「忙しい日でも簡単に作れる最強に美味しい照り照り目玉焼き」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。ベーコン、白身魚、卵を使う「忙しい日でも簡単に作れる最強に美味しい照り照り目玉焼き」のレシピです。"
   },
   {
     "title": "【卵液不要】10分でチーズ溢れる豚しそカツ| 包丁も使いません。",
@@ -244,23 +238,25 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "鶏肉",
+      "卵",
       "チーズ・バター・マヨ系"
     ],
     "oil": 5,
     "effort": 3,
     "dishes": 2,
     "steps": 4,
-    "knife": false,
+    "knife": true,
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "chicken",
+      "egg",
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、チーズ、マヨネーズ",
-    "ingredientStatus": "confirmed",
-    "ingredientSource": "title/manual",
-    "description": "簡単レシピ🤍東京OLむむちゃんの実在動画。豚肉、チーズ、マヨネーズを使う「【卵液不要】10分でチーズ溢れる豚しそカツ| 包丁も使いません。」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、卵、チーズ、マヨネーズ",
+    "description": "簡単レシピ🤍東京OLむむちゃんの実在動画。豚肉、鶏肉、卵、チーズ、マヨネーズを使う「【卵液不要】10分でチーズ溢れる豚しそカツ| 包丁も使いません。」のレシピです。"
   },
   {
     "title": "罪悪感ゼロなのにやみつき！のり塩ささみ #簡単レシピ #cooking #料理",
@@ -288,9 +284,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あも | 元給食の先生のおうちごはんの実在動画。食材候補: 鶏肉。「罪悪感ゼロなのにやみつき！のり塩ささみ #簡単レシピ #cooking #料理」のレシピです。"
+    "description": "あも | 元給食の先生のおうちごはんの実在動画。鶏肉を使う「罪悪感ゼロなのにやみつき！のり塩ささみ #簡単レシピ #cooking #料理」のレシピです。"
   },
   {
     "title": "【インスタで1000万再生突破！蒸しキャベツと野菜のうまだれ】 #簡単レシピ#キャベツ #ヘルシーレシピ #レシピ",
@@ -318,9 +312,7 @@ const recipes = [
       "cabbage"
     ],
     "rawIngredients": "キャベツ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DOKINの実在動画。食材候補: キャベツ。「【インスタで1000万再生突破！蒸しキャベツと野菜のうまだれ】 #簡単レシピ#キャベツ #ヘルシーレシピ #レシピ」のレシピです。"
+    "description": "DOKINの実在動画。キャベツを使う「【インスタで1000万再生突破！蒸しキャベツと野菜のうまだれ】 #簡単レシピ#キャベツ #ヘルシーレシピ #レシピ」のレシピです。"
   },
   {
     "title": "#肉豆腐 #japanesefood #簡単レシピ #簡単料理 #自炊 #おうちごはん #cooking #豆腐",
@@ -348,9 +340,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うんうんの実在動画。食材候補: 豆腐。「#肉豆腐 #japanesefood #簡単レシピ #簡単料理 #自炊 #おうちごはん #cooking #豆腐」のレシピです。"
+    "description": "うんうんの実在動画。豆腐を使う「#肉豆腐 #japanesefood #簡単レシピ #簡単料理 #自炊 #おうちごはん #cooking #豆腐」のレシピです。"
   },
   {
     "title": "【肉じゃが】じゃがいもの定番料理！味付けが決まる黄金比とは",
@@ -378,9 +368,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オリーブオイルをひとまわし / オリひとの実在動画。食材候補: じゃが芋。「【肉じゃが】じゃがいもの定番料理！味付けが決まる黄金比とは」のレシピです。"
+    "description": "オリーブオイルをひとまわし / オリひとの実在動画。じゃが芋を使う「【肉じゃが】じゃがいもの定番料理！味付けが決まる黄金比とは」のレシピです。"
   },
   {
     "title": "塩だれキャベツは火を通せ！#簡単レシピ #キャベツ #ガンガンの料理塾",
@@ -411,9 +399,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "キャベツ、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ガンガンの料理塾の実在動画。食材候補: キャベツ、ネギ、玉ねぎ。「塩だれキャベツは火を通せ！#簡単レシピ #キャベツ #ガンガンの料理塾」のレシピです。"
+    "description": "ガンガンの料理塾の実在動画。キャベツ、ネギ、玉ねぎを使う「塩だれキャベツは火を通せ！#簡単レシピ #キャベツ #ガンガンの料理塾」のレシピです。"
   },
   {
     "title": "【５分も要らない】シンプルが至高✨卵チャーハン #簡単レシピ #時短レシピ",
@@ -429,6 +415,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米"
     ],
@@ -439,13 +426,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: 卵、ご飯・米。「【５分も要らない】シンプルが至高✨卵チャーハン #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米",
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。白身魚、卵、ご飯・米を使う「【５分も要らない】シンプルが至高✨卵チャーハン #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "絶対にこれ以上しっとりパラパラになる炒飯レシピはない！具は卵だけ",
@@ -475,9 +461,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、ご飯・米。「絶対にこれ以上しっとりパラパラになる炒飯レシピはない！具は卵だけ」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、ご飯・米を使う「絶対にこれ以上しっとりパラパラになる炒飯レシピはない！具は卵だけ」のレシピです。"
   },
   {
     "title": "【簡単料理】 驚くほど旨い！ナスのチーズ焼き！おつまみにも！",
@@ -489,10 +473,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/cmsDyH0HVa8/maxresdefault.jpg",
     "creator": "マミケン簡単クッキングチャンネル",
     "style": "YouTube Data API収集",
-    "taste": "rich",
+    "taste": "semi-rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
@@ -503,15 +488,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "cucumber",
       "eggplant",
       "kombu",
       "cheese"
     ],
-    "rawIngredients": "きゅうり、なす、昆布、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マミケン簡単クッキングチャンネルの実在動画。食材候補: きゅうり、なす、昆布、チーズ。「【簡単料理】 驚くほど旨い！ナスのチーズ焼き！おつまみにも！」のレシピです。"
+    "rawIngredients": "白身魚、きゅうり、なす、昆布、チーズ",
+    "description": "マミケン簡単クッキングチャンネルの実在動画。白身魚、きゅうり、なす、昆布、チーズを使う「【簡単料理】 驚くほど旨い！ナスのチーズ焼き！おつまみにも！」のレシピです。"
   },
   {
     "title": "超簡単【無限大葉なす】レンジでチンして和えるだけ！暑い夏にもってこい！食欲増進！なす大量消費・常備野菜",
@@ -541,9 +525,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "なす、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: なす、ショウガ。「超簡単【無限大葉なす】レンジでチンして和えるだけ！暑い夏にもってこい！食欲増進！なす大量消費・常備野菜」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。なす、ショウガを使う「超簡単【無限大葉なす】レンジでチンして和えるだけ！暑い夏にもってこい！食欲増進！なす大量消費・常備野菜」のレシピです。"
   },
   {
     "title": "#ハッシュドポテト#ポテト#簡単レシピ#レシピ#簡単美味しい#料理#レシピ#おうちごはん",
@@ -571,9 +553,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まゆみの愛情キッチンの実在動画。食材候補: じゃが芋。「#ハッシュドポテト#ポテト#簡単レシピ#レシピ#簡単美味しい#料理#レシピ#おうちごはん」のレシピです。"
+    "description": "まゆみの愛情キッチンの実在動画。じゃが芋を使う「#ハッシュドポテト#ポテト#簡単レシピ#レシピ#簡単美味しい#料理#レシピ#おうちごはん」のレシピです。"
   },
   {
     "title": "こんなにウマイきゅうりを知ってるかい？！#主婦 #料理 #料理動画 #ままごとキッチン #簡単レシピ #まいにちごはん #おつまみ",
@@ -601,9 +581,7 @@ const recipes = [
       "cucumber"
     ],
     "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いそじま夫婦のお酒と料理チャンネルの実在動画。食材候補: きゅうり。「こんなにウマイきゅうりを知ってるかい？！#主婦 #料理 #料理動画 #ままごとキッチン #簡単レシピ #まいにちごはん #おつまみ」のレシピです。"
+    "description": "いそじま夫婦のお酒と料理チャンネルの実在動画。きゅうりを使う「こんなにウマイきゅうりを知ってるかい？！#主婦 #料理 #料理動画 #ままごとキッチン #簡単レシピ #まいにちごはん #おつまみ」のレシピです。"
   },
   {
     "title": "玉ねぎのツナ炒め簡単で旨い！ #shorts #料理#料理動画",
@@ -625,12 +603,13 @@ const recipes = [
       "根菜"
     ],
     "oil": 3,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "egg",
       "green_onion",
@@ -638,10 +617,8 @@ const recipes = [
       "daikon",
       "burdock"
     ],
-    "rawIngredients": "ツナ、卵、ネギ、玉ねぎ、大根、ごぼう",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "シングルマザーおかん料理『毎日節約レシピ』の実在動画。食材候補: ツナ、卵、ネギ、玉ねぎ、大根、ごぼう。「玉ねぎのツナ炒め簡単で旨い！ #shorts #料理#料理動画」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、卵、ネギ、玉ねぎ、大根、ごぼう",
+    "description": "シングルマザーおかん料理『毎日節約レシピ』の実在動画。白身魚、ツナ、卵、ネギ、玉ねぎ、大根、ごぼうを使う「玉ねぎのツナ炒め簡単で旨い！ #shorts #料理#料理動画」のレシピです。"
   },
   {
     "title": "また作ってって懇願される。ハマりすぎてきゅうりこのためだけに大量購入した🥒#簡単レシピ #時短節約 #料理 #きゅうり #きゅうりレシピ #shorts #youtubeshorts",
@@ -669,9 +646,7 @@ const recipes = [
       "cucumber"
     ],
     "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yuchiの実在動画。食材候補: きゅうり。「また作ってって懇願される。ハマりすぎてきゅうりこのためだけに大量購入した🥒#簡単レシピ #時短節約 #料理 #きゅうり #きゅうりレシピ #shorts #youtubeshorts」のレシピです。"
+    "description": "yuchiの実在動画。きゅうりを使う「また作ってって懇願される。ハマりすぎてきゅうりこのためだけに大量購入した🥒#簡単レシピ #時短節約 #料理 #きゅうり #きゅうりレシピ #shorts #youtubeshorts」のレシピです。"
   },
   {
     "title": "なすを買ったら…。 レシピ・栄養価詳細は①【…】をタップ ②【説明】をタップで見られます。",
@@ -687,6 +662,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -697,13 +673,12 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "eggplant",
       "ginger"
     ],
-    "rawIngredients": "なす、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さくらい ゆか【管理栄養士】の実在動画。食材候補: なす、ショウガ。「なすを買ったら…。 レシピ・栄養価詳細は①【…】をタップ ②【説明】をタップで見られます。」のレシピです。"
+    "rawIngredients": "白身魚、なす、ショウガ",
+    "description": "さくらい ゆか【管理栄養士】の実在動画。白身魚、なす、ショウガを使う「なすを買ったら…。 レシピ・栄養価詳細は①【…】をタップ ②【説明】をタップで見られます。」のレシピです。"
   },
   {
     "title": "フライパンでそのまま出せてあと片付けも楽ちん！【豚バラとキャベツのフライパン蒸し】 詳しいレシピは概要欄でチェック！ #キャベツ #豚バラ#ワンパン#晩ごはん#簡単レシピ#レシピ動画 #料理動画",
@@ -715,7 +690,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/UP2qvbhbuuU/maxresdefault.jpg",
     "creator": "デリッシュキッチン",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
@@ -734,9 +709,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、キャベツ、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、キャベツ、ネギ。「フライパンでそのまま出せてあと片付けも楽ちん！【豚バラとキャベツのフライパン蒸し】 詳しいレシピは概要欄でチェック！ #キャベツ #豚バラ#ワンパン#晩ごはん#簡単レシピ#レシピ動画 #料理動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、キャベツ、ネギを使う「フライパンでそのまま出せてあと片付けも楽ちん！【豚バラとキャベツのフライパン蒸し】 詳しいレシピは概要欄でチェック！ #キャベツ #豚バラ#ワンパン#晩ごはん#簡単レシピ#レシピ動画 #料理動画」のレシピです。"
   },
   {
     "title": "助けてください！箸が止まりません「ジューシー豚こま(夢中豚こま)」詳しいレシピは概要欄を見てね♪#やみつき#豚肉 #豚肉レシピ #晩ごはん #おかず #簡単レシピ #レシピ動画 #料理動画 #料理動画",
@@ -770,9 +743,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、ネギ、玉ねぎ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、ネギ、玉ねぎ、ショウガ、にんにく。「助けてください！箸が止まりません「ジューシー豚こま(夢中豚こま)」詳しいレシピは概要欄を見てね♪#やみつき#豚肉 #豚肉レシピ #晩ごはん #おかず #簡単レシピ #レシピ動画 #料理動画 #料理動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、ネギ、玉ねぎ、ショウガ、にんにくを使う「助けてください！箸が止まりません「ジューシー豚こま(夢中豚こま)」詳しいレシピは概要欄を見てね♪#やみつき#豚肉 #豚肉レシピ #晩ごはん #おかず #簡単レシピ #レシピ動画 #料理動画 #料理動画」のレシピです。"
   },
   {
     "title": "レンジで簡単！豚バラ白菜のウマいヤツ",
@@ -789,6 +760,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -799,13 +771,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "napa_cabbage",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、napa_cabbage、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 豚肉、napa_cabbage、ネギ。「レンジで簡単！豚バラ白菜のウマいヤツ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、napa_cabbage、ネギ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。豚肉、白身魚、napa_cabbage、ネギを使う「レンジで簡単！豚バラ白菜のウマいヤツ」のレシピです。"
   },
   {
     "title": "【悪魔のガーリックバターソーセージ丼】",
@@ -821,6 +792,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "根菜",
@@ -833,15 +805,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "卵、ご飯・米、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、ご飯・米、にんにく、バター。「【悪魔のガーリックバターソーセージ丼】」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、にんにく、バター",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、ご飯・米、にんにく、バターを使う「【悪魔のガーリックバターソーセージ丼】」のレシピです。"
   },
   {
     "title": "【爆速！レンジで5分なすの煮浸し】詳細はコメント欄へ #おすすめ #簡単レシピ #時短",
@@ -869,9 +840,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: なす。「【爆速！レンジで5分なすの煮浸し】詳細はコメント欄へ #おすすめ #簡単レシピ #時短」のレシピです。"
+    "description": "まいのごはん。の実在動画。なすを使う「【爆速！レンジで5分なすの煮浸し】詳細はコメント欄へ #おすすめ #簡単レシピ #時短」のレシピです。"
   },
   {
     "title": "ごはんが一瞬で無くなるくらいうまい【鶏もも肉の旨だれジュワ焼き】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #夢中鶏もも肉",
@@ -883,11 +852,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/hF3F9oDX5BY/maxresdefault.jpg",
     "creator": "デリッシュキッチン",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -899,13 +869,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、ネギ、にんにく。「ごはんが一瞬で無くなるくらいうまい【鶏もも肉の旨だれジュワ焼き】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #夢中鶏もも肉」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ネギ、にんにく",
+    "description": "デリッシュキッチンの実在動画。鶏肉、白身魚、ネギ、にんにくを使う「ごはんが一瞬で無くなるくらいうまい【鶏もも肉の旨だれジュワ焼き】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #夢中鶏もも肉」のレシピです。"
   },
   {
     "title": "【鶏むね肉しっとり!!甘酢みぞれ】無口の料理人夫が唸った #おすすめ #料理 #晩御飯",
@@ -922,6 +891,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -934,14 +904,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "rice_noodles",
       "green_onion",
       "daikon"
     ],
-    "rawIngredients": "鶏肉、ビーフン・フォー、ネギ、大根",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: 鶏肉、ビーフン・フォー、ネギ、大根。「【鶏むね肉しっとり!!甘酢みぞれ】無口の料理人夫が唸った #おすすめ #料理 #晩御飯」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ビーフン・フォー、ネギ、大根",
+    "description": "まいのごはん。の実在動画。鶏肉、白身魚、ビーフン・フォー、ネギ、大根を使う「【鶏むね肉しっとり!!甘酢みぞれ】無口の料理人夫が唸った #おすすめ #料理 #晩御飯」のレシピです。"
   },
   {
     "title": "パパッと美味しい！てりやきチキンの作り方 ｜ How to make Teriyaki Chicken",
@@ -974,6 +943,7 @@ const recipes = [
       "pork",
       "chicken",
       "salmon",
+      "whitefish",
       "cabbage",
       "spinach",
       "konnyaku",
@@ -981,10 +951,8 @@ const recipes = [
       "butter",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、鶏肉、サケ、キャベツ、ほうれん草、こんにゃく、チーズ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、鶏肉、サケ、キャベツ、ほうれん草、こんにゃく、チーズ、バター、マヨネーズ。「パパッと美味しい！てりやきチキンの作り方 ｜ How to make Teriyaki Chicken」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、サケ、白身魚、キャベツ、ほうれん草、こんにゃく、チーズ、バター、マヨネーズ",
+    "description": "デリッシュキッチンの実在動画。豚肉、鶏肉、サケ、白身魚、キャベツ、ほうれん草、こんにゃく、チーズ、バター、マヨネーズを使う「パパッと美味しい！てりやきチキンの作り方 ｜ How to make Teriyaki Chicken」のレシピです。"
   },
   {
     "title": "材料２つで激ウマレシピ【豚じゃが炒め】#shorts #簡単レシピ #じゃがいも",
@@ -1012,9 +980,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パパっとdishの実在動画。食材候補: じゃが芋。「材料２つで激ウマレシピ【豚じゃが炒め】#shorts #簡単レシピ #じゃがいも」のレシピです。"
+    "description": "パパっとdishの実在動画。じゃが芋を使う「材料２つで激ウマレシピ【豚じゃが炒め】#shorts #簡単レシピ #じゃがいも」のレシピです。"
   },
   {
     "title": "何回作ってもすぐ消える「無限きゅうり」詳しいレシピは概要欄をチェック！ #きゅうり #きゅうり レシピ #副菜",
@@ -1042,9 +1008,7 @@ const recipes = [
       "cucumber"
     ],
     "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: きゅうり。「何回作ってもすぐ消える「無限きゅうり」詳しいレシピは概要欄をチェック！ #きゅうり #きゅうり レシピ #副菜」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。きゅうりを使う「何回作ってもすぐ消える「無限きゅうり」詳しいレシピは概要欄をチェック！ #きゅうり #きゅうり レシピ #副菜」のレシピです。"
   },
   {
     "title": "【子供が大喜び】ポップコーンチキン！簡単すぎてリピ確定✨ #簡単レシピ #時短レシピ",
@@ -1076,9 +1040,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、コーン缶、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: 鶏肉、コーン缶、マヨネーズ。「【子供が大喜び】ポップコーンチキン！簡単すぎてリピ確定✨ #簡単レシピ #時短レシピ」のレシピです。"
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。鶏肉、コーン缶、マヨネーズを使う「【子供が大喜び】ポップコーンチキン！簡単すぎてリピ確定✨ #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "オムレツ修行98回目【朝ご飯】#料理男子 #卵料理 #オムレツ #簡単レシピ #オムライス #料理 #練習",
@@ -1108,9 +1070,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "TAKATAKE 髙田家の実在動画。食材候補: 卵、ご飯・米。「オムレツ修行98回目【朝ご飯】#料理男子 #卵料理 #オムレツ #簡単レシピ #オムライス #料理 #練習」のレシピです。"
+    "description": "TAKATAKE 髙田家の実在動画。卵、ご飯・米を使う「オムレツ修行98回目【朝ご飯】#料理男子 #卵料理 #オムレツ #簡単レシピ #オムライス #料理 #練習」のレシピです。"
   },
   {
     "title": "【旨い・安い・簡単】キャベたま焼き #ワンパンレシピ #料理動画 #cooking #shorts #簡単レシピ #卵レシピ #キャベツレシピ",
@@ -1127,28 +1087,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "ham",
+      "whitefish",
       "egg",
       "cabbage",
       "green_onion",
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "ハム、卵、キャベツ、ネギ、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: ハム、卵、キャベツ、ネギ、チーズ、マヨネーズ。「【旨い・安い・簡単】キャベたま焼き #ワンパンレシピ #料理動画 #cooking #shorts #簡単レシピ #卵レシピ #キャベツレシピ」のレシピです。"
+    "rawIngredients": "ハム、白身魚、卵、キャベツ、ネギ、チーズ、マヨネーズ",
+    "description": "ラクうま料理ちゃんねるの実在動画。ハム、白身魚、卵、キャベツ、ネギ、チーズ、マヨネーズを使う「【旨い・安い・簡単】キャベたま焼き #ワンパンレシピ #料理動画 #cooking #shorts #簡単レシピ #卵レシピ #キャベツレシピ」のレシピです。"
   },
   {
     "title": "10分煮てあとはほったらかすだけで激うまチャーシューが作れます【豚バラ肉のくるくる一口チャーシュー】詳しいレシピはアプリで料理名を検索♪ #豚バラ #チャーシュー #簡単レシピ",
@@ -1165,6 +1125,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜"
@@ -1177,14 +1138,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、卵、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、卵、ネギ、にんにく。「10分煮てあとはほったらかすだけで激うまチャーシューが作れます【豚バラ肉のくるくる一口チャーシュー】詳しいレシピはアプリで料理名を検索♪ #豚バラ #チャーシュー #簡単レシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ネギ、にんにく",
+    "description": "デリッシュキッチンの実在動画。豚肉、白身魚、卵、ネギ、にんにくを使う「10分煮てあとはほったらかすだけで激うまチャーシューが作れます【豚バラ肉のくるくる一口チャーシュー】詳しいレシピはアプリで料理名を検索♪ #豚バラ #チャーシュー #簡単レシピ」のレシピです。"
   },
   {
     "title": "やる気1%でワンパン和風パスタ",
@@ -1208,12 +1168,13 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "egg",
       "pasta",
@@ -1221,10 +1182,8 @@ const recipes = [
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "ツナ、卵、パスタ、ネギ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ツナ、卵、パスタ、ネギ、にんにく、マヨネーズ。「やる気1%でワンパン和風パスタ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、卵、パスタ、ネギ、にんにく、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、ツナ、卵、パスタ、ネギ、にんにく、マヨネーズを使う「やる気1%でワンパン和風パスタ」のレシピです。"
   },
   {
     "title": "【忙しい朝に】10分フレンチトースト #ガンガンの料理塾 #簡単レシピ #フレンチトースト",
@@ -1259,9 +1218,7 @@ const recipes = [
       "bread"
     ],
     "rawIngredients": "卵、ビーフン・フォー、バター、牛乳、パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ガンガンの料理塾の実在動画。食材候補: 卵、ビーフン・フォー、バター、牛乳、パン。「【忙しい朝に】10分フレンチトースト #ガンガンの料理塾 #簡単レシピ #フレンチトースト」のレシピです。"
+    "description": "ガンガンの料理塾の実在動画。卵、ビーフン・フォー、バター、牛乳、パンを使う「【忙しい朝に】10分フレンチトースト #ガンガンの料理塾 #簡単レシピ #フレンチトースト」のレシピです。"
   },
   {
     "title": "ナスの煮浸しの作り方｜揚げずに簡単ヘルシー！#ナスレシピ #煮浸し 煮浸し #簡単レシピ #料理研究家ゆかり #shorts",
@@ -1292,9 +1249,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "ネギ、なす、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: ネギ、なす、ショウガ。「ナスの煮浸しの作り方｜揚げずに簡単ヘルシー！#ナスレシピ #煮浸し 煮浸し #簡単レシピ #料理研究家ゆかり #shorts」のレシピです。"
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。ネギ、なす、ショウガを使う「ナスの煮浸しの作り方｜揚げずに簡単ヘルシー！#ナスレシピ #煮浸し 煮浸し #簡単レシピ #料理研究家ゆかり #shorts」のレシピです。"
   },
   {
     "title": "【ネットで話題！レンジで作る簡単プリン】卵・牛乳・きび砂糖これ全部体の潤いアップ #簡単レシピ #薬膳レシピ #プリン#レンチンレシピ #簡単スイーツ #簡単料理",
@@ -1310,6 +1265,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "チーズ・バター・マヨ系"
     ],
@@ -1320,13 +1276,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "milk"
     ],
-    "rawIngredients": "卵、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "体が喜ぶ簡単料理チャンネルの実在動画。食材候補: 卵、牛乳。「【ネットで話題！レンジで作る簡単プリン】卵・牛乳・きび砂糖これ全部体の潤いアップ #簡単レシピ #薬膳レシピ #プリン#レンチンレシピ #簡単スイーツ #簡単料理」のレシピです。"
+    "rawIngredients": "白身魚、卵、牛乳",
+    "description": "体が喜ぶ簡単料理チャンネルの実在動画。白身魚、卵、牛乳を使う「【ネットで話題！レンジで作る簡単プリン】卵・牛乳・きび砂糖これ全部体の潤いアップ #簡単レシピ #薬膳レシピ #プリン#レンチンレシピ #簡単スイーツ #簡単料理」のレシピです。"
   },
   {
     "title": "なすの簡単レシピ！食材1つ！美味しすぎて永久保存版にしたい「なすの甘酢炒めのレシピ」 #pr #affliatelink #shorts",
@@ -1342,6 +1297,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "葉物野菜"
     ],
     "oil": 3,
@@ -1351,12 +1307,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "eggplant"
     ],
-    "rawIngredients": "なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理家 川久景子【旬を楽しむ和ごはん】の実在動画。食材候補: なす。「なすの簡単レシピ！食材1つ！美味しすぎて永久保存版にしたい「なすの甘酢炒めのレシピ」 #pr #affliatelink #shorts」のレシピです。"
+    "rawIngredients": "白身魚、なす",
+    "description": "料理家 川久景子【旬を楽しむ和ごはん】の実在動画。白身魚、なすを使う「なすの簡単レシピ！食材1つ！美味しすぎて永久保存版にしたい「なすの甘酢炒めのレシピ」 #pr #affliatelink #shorts」のレシピです。"
   },
   {
     "title": "【鰻を超えた！なすの蒲焼き風】とろうま♡メイン級のおいしさ※詳細はコメント欄へ #簡単レシピ #おすすめ #料理",
@@ -1384,9 +1339,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: なす。「【鰻を超えた！なすの蒲焼き風】とろうま♡メイン級のおいしさ※詳細はコメント欄へ #簡単レシピ #おすすめ #料理」のレシピです。"
+    "description": "まいのごはん。の実在動画。なすを使う「【鰻を超えた！なすの蒲焼き風】とろうま♡メイン級のおいしさ※詳細はコメント欄へ #簡単レシピ #おすすめ #料理」のレシピです。"
   },
   {
     "title": "50円の豆腐で作ったヘルシーでお財布にやさしいテリマヨ豆腐ステーキ",
@@ -1402,6 +1355,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -1413,14 +1367,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "green_onion",
       "mayonnaise"
     ],
-    "rawIngredients": "豆腐、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豆腐、ネギ、マヨネーズ。「50円の豆腐で作ったヘルシーでお財布にやさしいテリマヨ豆腐ステーキ」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、ネギ、マヨネーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、豆腐、ネギ、マヨネーズを使う「50円の豆腐で作ったヘルシーでお財布にやさしいテリマヨ豆腐ステーキ」のレシピです。"
   },
   {
     "title": "基本のオムライスの作り方｜おうちで簡単プロの味！昔ながらの洋食屋さんのオムライス！#オムライス #卵料理 #shorts",
@@ -1437,6 +1390,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -1452,6 +1406,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
@@ -1460,10 +1415,8 @@ const recipes = [
       "butter",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ、しめじ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ、しめじ、バター、マヨネーズ。「基本のオムライスの作り方｜おうちで簡単プロの味！昔ながらの洋食屋さんのオムライス！#オムライス #卵料理 #shorts」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、しめじ、バター、マヨネーズ",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、しめじ、バター、マヨネーズを使う「基本のオムライスの作り方｜おうちで簡単プロの味！昔ながらの洋食屋さんのオムライス！#オムライス #卵料理 #shorts」のレシピです。"
   },
   {
     "title": "【2ヶ月で6キロ痩せた】食べ痩せ豆腐グラタン #ダイエットレシピ #簡単レシピ",
@@ -1497,9 +1450,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "えび、豆腐、卵、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うちこ【ダイエットレシピ】の実在動画。食材候補: えび、豆腐、卵、チーズ。「【2ヶ月で6キロ痩せた】食べ痩せ豆腐グラタン #ダイエットレシピ #簡単レシピ」のレシピです。"
+    "description": "うちこ【ダイエットレシピ】の実在動画。えび、豆腐、卵、チーズを使う「【2ヶ月で6キロ痩せた】食べ痩せ豆腐グラタン #ダイエットレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【TKG】卵かけご飯#暮らしのアイデア#ライフハック#卵#簡単料理",
@@ -1511,7 +1462,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/qh_hQeMtU54/maxresdefault.jpg",
     "creator": "あいこ⌇ラクラク家事の裏ワザ集",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -1527,9 +1478,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あいこ⌇ラクラク家事の裏ワザ集の実在動画。食材候補: 卵。「【TKG】卵かけご飯#暮らしのアイデア#ライフハック#卵#簡単料理」のレシピです。"
+    "description": "あいこ⌇ラクラク家事の裏ワザ集の実在動画。卵を使う「【TKG】卵かけご飯#暮らしのアイデア#ライフハック#卵#簡単料理」のレシピです。"
   },
   {
     "title": "5分で出来る！レンジで簡単おやつ✨パスタスナック🍝 #パスタスナック #おやつ #パスタレシピ #簡単おやつ #簡単おつまみ #おつまみレシピ #おつまみ",
@@ -1560,9 +1509,7 @@ const recipes = [
       "curry_roux"
     ],
     "rawIngredients": "パスタ、チーズ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "コタキッチンKotaKitchenの実在動画。食材候補: パスタ、チーズ、カレールゥ。「5分で出来る！レンジで簡単おやつ✨パスタスナック🍝 #パスタスナック #おやつ #パスタレシピ #簡単おやつ #簡単おつまみ #おつまみレシピ #おつまみ」のレシピです。"
+    "description": "コタキッチンKotaKitchenの実在動画。パスタ、チーズ、カレールゥを使う「5分で出来る！レンジで簡単おやつ✨パスタスナック🍝 #パスタスナック #おやつ #パスタレシピ #簡単おやつ #簡単おつまみ #おつまみレシピ #おつまみ」のレシピです。"
   },
   {
     "title": "これは絶対外せない！卵ともやしだけすげぇうまい！簡単節約おつまみおかず主菜副菜レシピ",
@@ -1608,9 +1555,7 @@ const recipes = [
       "pumpkin"
     ],
     "rawIngredients": "鶏肉、豆腐、卵、キャベツ、napa_cabbage、ほうれん草、小松菜、ネギ、もやし、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: 鶏肉、豆腐、卵、キャベツ、napa_cabbage、ほうれん草、小松菜、ネギ、もやし、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ。「これは絶対外せない！卵ともやしだけすげぇうまい！簡単節約おつまみおかず主菜副菜レシピ」のレシピです。"
+    "description": "ちゃらりんこクックの実在動画。鶏肉、豆腐、卵、キャベツ、napa_cabbage、ほうれん草、小松菜、ネギ、もやし、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃを使う「これは絶対外せない！卵ともやしだけすげぇうまい！簡単節約おつまみおかず主菜副菜レシピ」のレシピです。"
   },
   {
     "title": "柔らかくなるポイントは10秒ごろ！【基本のしょうが焼き】 #生姜焼き #晩ごはん #豚肉 #おかず #レシピ動画 #簡単レシピ #料理動画",
@@ -1640,9 +1585,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、ショウガ。「柔らかくなるポイントは10秒ごろ！【基本のしょうが焼き】 #生姜焼き #晩ごはん #豚肉 #おかず #レシピ動画 #簡単レシピ #料理動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、ショウガを使う「柔らかくなるポイントは10秒ごろ！【基本のしょうが焼き】 #生姜焼き #晩ごはん #豚肉 #おかず #レシピ動画 #簡単レシピ #料理動画」のレシピです。"
   },
   {
     "title": "高タンパクなささみとブロッコリーのやみつきだれ #簡単レシピ #ダイエットレシピ #ささみ",
@@ -1674,9 +1617,7 @@ const recipes = [
       "broccoli"
     ],
     "rawIngredients": "鶏肉、卵、ブロッコリー",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kiyo Balance Kitchenの実在動画。食材候補: 鶏肉、卵、ブロッコリー。「高タンパクなささみとブロッコリーのやみつきだれ #簡単レシピ #ダイエットレシピ #ささみ」のレシピです。"
+    "description": "Kiyo Balance Kitchenの実在動画。鶏肉、卵、ブロッコリーを使う「高タンパクなささみとブロッコリーのやみつきだれ #簡単レシピ #ダイエットレシピ #ささみ」のレシピです。"
   },
   {
     "title": "これが1番簡単にして、最高！「簡単チキン南蛮」詳しいレシピは概要欄をチェック！ #チキン南蛮",
@@ -1716,9 +1657,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "鶏肉、卵、ビーフン・フォー、ネギ、玉ねぎ、マヨネーズ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、卵、ビーフン・フォー、ネギ、玉ねぎ、マヨネーズ、小麦粉。「これが1番簡単にして、最高！「簡単チキン南蛮」詳しいレシピは概要欄をチェック！ #チキン南蛮」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、卵、ビーフン・フォー、ネギ、玉ねぎ、マヨネーズ、小麦粉を使う「これが1番簡単にして、最高！「簡単チキン南蛮」詳しいレシピは概要欄をチェック！ #チキン南蛮」のレシピです。"
   },
   {
     "title": "【激ヤセ😇ツナ＆豆腐グラタン❣️】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐",
@@ -1748,9 +1687,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "ツナ、豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ほのか🍽ラク痩せ飯の実在動画。食材候補: ツナ、豆腐。「【激ヤセ😇ツナ＆豆腐グラタン❣️】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐」のレシピです。"
+    "description": "ほのか🍽ラク痩せ飯の実在動画。ツナ、豆腐を使う「【激ヤセ😇ツナ＆豆腐グラタン❣️】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐」のレシピです。"
   },
   {
     "title": "【400万回再生人気レシピ】10分でできる簡単韓国家庭料理！ご飯がモリモリ進む野菜たっぷり豚プルコギの作り方／Korean-style BBQ pork with Veggies !",
@@ -1767,6 +1704,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -1778,6 +1716,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "nira",
       "green_onion",
       "lettuce",
@@ -1786,10 +1725,8 @@ const recipes = [
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、にら、ネギ、レタス、玉ねぎ、にんじん、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 豚肉、にら、ネギ、レタス、玉ねぎ、にんじん、ショウガ、にんにく。「【400万回再生人気レシピ】10分でできる簡単韓国家庭料理！ご飯がモリモリ進む野菜たっぷり豚プルコギの作り方／Korean-style BBQ pork with Veggies !」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、にら、ネギ、レタス、玉ねぎ、にんじん、ショウガ、にんにく",
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。豚肉、白身魚、にら、ネギ、レタス、玉ねぎ、にんじん、ショウガ、にんにくを使う「【400万回再生人気レシピ】10分でできる簡単韓国家庭料理！ご飯がモリモリ進む野菜たっぷり豚プルコギの作り方／Korean-style BBQ pork with Veggies !」のレシピです。"
   },
   {
     "title": "手軽で美味しい焼きうどん🤤✨ #簡単レシピ #簡単レシピ",
@@ -1817,9 +1754,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: うどん。「手軽で美味しい焼きうどん🤤✨ #簡単レシピ #簡単レシピ」のレシピです。"
+    "description": "Hideka cookingの実在動画。うどんを使う「手軽で美味しい焼きうどん🤤✨ #簡単レシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "じゃがいもがあっという間に無くなる「はちみつバター醤油いも餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
@@ -1835,6 +1770,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -1845,14 +1781,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "potato",
       "butter",
       "milk"
     ],
-    "rawIngredients": "じゃが芋、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "低空飛行キッチンの実在動画。食材候補: じゃが芋、バター、牛乳。「じゃがいもがあっという間に無くなる「はちみつバター醤油いも餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
+    "rawIngredients": "白身魚、じゃが芋、バター、牛乳",
+    "description": "低空飛行キッチンの実在動画。白身魚、じゃが芋、バター、牛乳を使う「じゃがいもがあっという間に無くなる「はちみつバター醤油いも餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
   },
   {
     "title": "【混ぜるだけで簡単◎】絶対作ってほしい！！やみつきパスタが美味しすぎる",
@@ -1868,6 +1803,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -1875,12 +1811,13 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "pasta",
       "green_onion",
@@ -1888,10 +1825,8 @@ const recipes = [
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、パスタ、ネギ、昆布、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: 卵、パスタ、ネギ、昆布、にんにく、マヨネーズ。「【混ぜるだけで簡単◎】絶対作ってほしい！！やみつきパスタが美味しすぎる」のレシピです。"
+    "rawIngredients": "白身魚、卵、パスタ、ネギ、昆布、にんにく、マヨネーズ",
+    "description": "ラクうま料理ちゃんねるの実在動画。白身魚、卵、パスタ、ネギ、昆布、にんにく、マヨネーズを使う「【混ぜるだけで簡単◎】絶対作ってほしい！！やみつきパスタが美味しすぎる」のレシピです。"
   },
   {
     "title": "美味しすぎて取り合いになる【チキンのニラだれ】#料理#レシピ #簡単レシピ #鶏肉 #鶏もも肉 #夜ご飯 #つくりおき",
@@ -1908,6 +1843,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -1918,12 +1854,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "nira"
     ],
-    "rawIngredients": "鶏肉、にら",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Aya(つくあや)の実在動画。食材候補: 鶏肉、にら。「美味しすぎて取り合いになる【チキンのニラだれ】#料理#レシピ #簡単レシピ #鶏肉 #鶏もも肉 #夜ご飯 #つくりおき」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にら",
+    "description": "Aya(つくあや)の実在動画。鶏肉、白身魚、にらを使う「美味しすぎて取り合いになる【チキンのニラだれ】#料理#レシピ #簡単レシピ #鶏肉 #鶏もも肉 #夜ご飯 #つくりおき」のレシピです。"
   },
   {
     "title": "鮭を買ったら #簡単レシピ",
@@ -1950,12 +1885,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "butter"
     ],
-    "rawIngredients": "サケ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さくらい ゆか【管理栄養士】の実在動画。食材候補: サケ、バター。「鮭を買ったら #簡単レシピ」のレシピです。"
+    "rawIngredients": "サケ、白身魚、バター",
+    "description": "さくらい ゆか【管理栄養士】の実在動画。サケ、白身魚、バターを使う「鮭を買ったら #簡単レシピ」のレシピです。"
   },
   {
     "title": "しっとりささみに濃い味が染み込んでご飯が止まらない「ささみの旨だれ漬け」詳しいレシピは概要欄をチェック！ #レンジ #ささみレシピ",
@@ -1991,9 +1925,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "鶏肉、豆腐、ビーフン・フォー、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、豆腐、ビーフン・フォー、ネギ、にんにく。「しっとりささみに濃い味が染み込んでご飯が止まらない「ささみの旨だれ漬け」詳しいレシピは概要欄をチェック！ #レンジ #ささみレシピ」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、豆腐、ビーフン・フォー、ネギ、にんにくを使う「しっとりささみに濃い味が染み込んでご飯が止まらない「ささみの旨だれ漬け」詳しいレシピは概要欄をチェック！ #レンジ #ささみレシピ」のレシピです。"
   },
   {
     "title": "今でもずっと箸が止まっていません🥢【こんにゃくの柚子胡椒ステーキ】詳しいレシピは概要欄をチェック！#料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん",
@@ -2023,9 +1955,7 @@ const recipes = [
       "konnyaku"
     ],
     "rawIngredients": "ネギ、こんにゃく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: ネギ、こんにゃく。「今でもずっと箸が止まっていません🥢【こんにゃくの柚子胡椒ステーキ】詳しいレシピは概要欄をチェック！#料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。ネギ、こんにゃくを使う「今でもずっと箸が止まっていません🥢【こんにゃくの柚子胡椒ステーキ】詳しいレシピは概要欄をチェック！#料理 #おつまみ #簡単レシピ #こんにゃく #おうちごはん」のレシピです。"
   },
   {
     "title": "たった6分！卵とウィンナーさえあれば作れる簡単最強おかず。ご飯がススミすぎる『卵とウィンナーの炒め物』の作り方",
@@ -2055,9 +1985,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、マヨネーズ。「たった6分！卵とウィンナーさえあれば作れる簡単最強おかず。ご飯がススミすぎる『卵とウィンナーの炒め物』の作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、マヨネーズを使う「たった6分！卵とウィンナーさえあれば作れる簡単最強おかず。ご飯がススミすぎる『卵とウィンナーの炒め物』の作り方」のレシピです。"
   },
   {
     "title": "茄子チーズ焼き🧀🍆#簡単レシピ #料理 #茄子 #チーズ #cooking #夏 #ごはん #レシピ #時短レシピ #夏休み",
@@ -2085,9 +2013,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りな おうちでごちそう:ワンパンレシピの実在動画。食材候補: チーズ。「茄子チーズ焼き🧀🍆#簡単レシピ #料理 #茄子 #チーズ #cooking #夏 #ごはん #レシピ #時短レシピ #夏休み」のレシピです。"
+    "description": "りな おうちでごちそう:ワンパンレシピの実在動画。チーズを使う「茄子チーズ焼き🧀🍆#簡単レシピ #料理 #茄子 #チーズ #cooking #夏 #ごはん #レシピ #時短レシピ #夏休み」のレシピです。"
   },
   {
     "title": "【豆腐キムチチヂミ】#shorts #cooking #ダイエット #ヘルシー #レシピ #簡単レシピ",
@@ -2115,9 +2041,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆき【15kg痩せたダイエットレシピ】の実在動画。食材候補: 豆腐。「【豆腐キムチチヂミ】#shorts #cooking #ダイエット #ヘルシー #レシピ #簡単レシピ」のレシピです。"
+    "description": "ゆき【15kg痩せたダイエットレシピ】の実在動画。豆腐を使う「【豆腐キムチチヂミ】#shorts #cooking #ダイエット #ヘルシー #レシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【ダイエットおやつ🔥】レンジで簡単！ポテチの作り方 #太らない #ヘルシーレシピ",
@@ -2147,9 +2071,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "じゃが芋、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiro🐏健康レシピの実在動画。食材候補: じゃが芋、チーズ。「【ダイエットおやつ🔥】レンジで簡単！ポテチの作り方 #太らない #ヘルシーレシピ」のレシピです。"
+    "description": "shiro🐏健康レシピの実在動画。じゃが芋、チーズを使う「【ダイエットおやつ🔥】レンジで簡単！ポテチの作り方 #太らない #ヘルシーレシピ」のレシピです。"
   },
   {
     "title": "【これ作ってみて】豚こま丸めて焼いたら美味しすぎて悶絶。レシピはコメント欄へ📍#レシピ #japanesefood #お弁当 #簡単レシピ",
@@ -2165,7 +2087,8 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
-      "肉類"
+      "肉類",
+      "魚介"
     ],
     "oil": 2,
     "effort": 3,
@@ -2174,12 +2097,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
-      "pork"
+      "pork",
+      "whitefish"
     ],
-    "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: 豚肉。「【これ作ってみて】豚こま丸めて焼いたら美味しすぎて悶絶。レシピはコメント欄へ📍#レシピ #japanesefood #お弁当 #簡単レシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚",
+    "description": "まみ(mami) ラクうまごはんの実在動画。豚肉、白身魚を使う「【これ作ってみて】豚こま丸めて焼いたら美味しすぎて悶絶。レシピはコメント欄へ📍#レシピ #japanesefood #お弁当 #簡単レシピ」のレシピです。"
   },
   {
     "title": "自宅で簡単、コク旨ナポリタンです！#shorts #簡単レシピ #ナポリタン",
@@ -2207,9 +2129,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パパっとdishの実在動画。食材候補: パスタ。「自宅で簡単、コク旨ナポリタンです！#shorts #簡単レシピ #ナポリタン」のレシピです。"
+    "description": "パパっとdishの実在動画。パスタを使う「自宅で簡単、コク旨ナポリタンです！#shorts #簡単レシピ #ナポリタン」のレシピです。"
   },
   {
     "title": "【調理時間2分】最強丼の作り方！#料理 #料理動画 #自炊 #時短レシピ #簡単レシピ #ズボラ飯 #japan #cooking",
@@ -2237,9 +2157,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だんぼ【簡単飯を作る限界サラリーマン】の実在動画。食材候補: ご飯・米。「【調理時間2分】最強丼の作り方！#料理 #料理動画 #自炊 #時短レシピ #簡単レシピ #ズボラ飯 #japan #cooking」のレシピです。"
+    "description": "だんぼ【簡単飯を作る限界サラリーマン】の実在動画。ご飯・米を使う「【調理時間2分】最強丼の作り方！#料理 #料理動画 #自炊 #時短レシピ #簡単レシピ #ズボラ飯 #japan #cooking」のレシピです。"
   },
   {
     "title": "【茄子ピーマン玉ねぎ簡単レシピ】炒めるだけ！おつまみ副菜おかず余り物が無敵になるワンパンレシピ",
@@ -2279,9 +2197,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "鶏肉、中華麺、キャベツ、きゅうり、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: 鶏肉、中華麺、キャベツ、きゅうり、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎ。「【茄子ピーマン玉ねぎ簡単レシピ】炒めるだけ！おつまみ副菜おかず余り物が無敵になるワンパンレシピ」のレシピです。"
+    "description": "ちゃらりんこクックの実在動画。鶏肉、中華麺、キャベツ、きゅうり、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎを使う「【茄子ピーマン玉ねぎ簡単レシピ】炒めるだけ！おつまみ副菜おかず余り物が無敵になるワンパンレシピ」のレシピです。"
   },
   {
     "title": "【世界一簡単かもしれない♡︎絶品！じゃがいもだけグラタン】 #簡単レシピ #おうちごはん #料理 #cooking",
@@ -2297,6 +2213,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -2307,15 +2224,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "potato",
       "cheese",
       "butter",
       "milk"
     ],
-    "rawIngredients": "じゃが芋、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DOKINの実在動画。食材候補: じゃが芋、チーズ、バター、牛乳。「【世界一簡単かもしれない♡︎絶品！じゃがいもだけグラタン】 #簡単レシピ #おうちごはん #料理 #cooking」のレシピです。"
+    "rawIngredients": "白身魚、じゃが芋、チーズ、バター、牛乳",
+    "description": "DOKINの実在動画。白身魚、じゃが芋、チーズ、バター、牛乳を使う「【世界一簡単かもしれない♡︎絶品！じゃがいもだけグラタン】 #簡単レシピ #おうちごはん #料理 #cooking」のレシピです。"
   },
   {
     "title": "おかわりとまらん！なすの豚バラ巻き #簡単レシピ #村上農園 #ナスレシピ #料理 #cooking",
@@ -2332,6 +2248,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -2342,12 +2259,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "eggplant"
     ],
-    "rawIngredients": "豚肉、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "村上農園ユーチューバー部の実在動画。食材候補: 豚肉、なす。「おかわりとまらん！なすの豚バラ巻き #簡単レシピ #村上農園 #ナスレシピ #料理 #cooking」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、なす",
+    "description": "村上農園ユーチューバー部の実在動画。豚肉、白身魚、なすを使う「おかわりとまらん！なすの豚バラ巻き #簡単レシピ #村上農園 #ナスレシピ #料理 #cooking」のレシピです。"
   },
   {
     "title": "材料3つ！レンジで簡単「のび〜るチョコ餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ",
@@ -2359,10 +2275,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/v4UDCpbzIVY/maxresdefault.jpg",
     "creator": "低空飛行キッチン",
     "style": "YouTube Data API収集",
-    "taste": "rich",
+    "taste": "semi-rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "チーズ・バター・マヨ系"
     ],
     "oil": 2,
@@ -2372,12 +2289,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "milk"
     ],
-    "rawIngredients": "牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "低空飛行キッチンの実在動画。食材候補: 牛乳。「材料3つ！レンジで簡単「のび〜るチョコ餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
+    "rawIngredients": "白身魚、牛乳",
+    "description": "低空飛行キッチンの実在動画。白身魚、牛乳を使う「材料3つ！レンジで簡単「のび〜るチョコ餅」#shorts #food #recipe #簡単料理 #簡単レシピ #料理 #レシピ」のレシピです。"
   },
   {
     "title": "包丁いらないし、洗い物少ないし、しかも10分で作れた！【とろたま豚丼】詳しいレシピは概要欄を見てね♪ #豚肉 #豚こま肉 #料理 #丼 #丼飯 #簡単レシピ #レシピ #料理 #料理動画",
@@ -2414,9 +2330,7 @@ const recipes = [
       "shimeji"
     ],
     "rawIngredients": "豚肉、卵、ご飯・米、にら、ネギ、しめじ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、卵、ご飯・米、にら、ネギ、しめじ。「包丁いらないし、洗い物少ないし、しかも10分で作れた！【とろたま豚丼】詳しいレシピは概要欄を見てね♪ #豚肉 #豚こま肉 #料理 #丼 #丼飯 #簡単レシピ #レシピ #料理 #料理動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、卵、ご飯・米、にら、ネギ、しめじを使う「包丁いらないし、洗い物少ないし、しかも10分で作れた！【とろたま豚丼】詳しいレシピは概要欄を見てね♪ #豚肉 #豚こま肉 #料理 #丼 #丼飯 #簡単レシピ #レシピ #料理 #料理動画」のレシピです。"
   },
   {
     "title": "クリスマスこれ良くない？⭐️我が家で大絶賛された秘密レシピ💕#簡単レシピ #じゃがいもレシピ #クリスマスレシピ #クリスマス料理 #cooking #shorts",
@@ -2444,9 +2358,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yuchiの実在動画。食材候補: じゃが芋。「クリスマスこれ良くない？⭐️我が家で大絶賛された秘密レシピ💕#簡単レシピ #じゃがいもレシピ #クリスマスレシピ #クリスマス料理 #cooking #shorts」のレシピです。"
+    "description": "yuchiの実在動画。じゃが芋を使う「クリスマスこれ良くない？⭐️我が家で大絶賛された秘密レシピ💕#簡単レシピ #じゃがいもレシピ #クリスマスレシピ #クリスマス料理 #cooking #shorts」のレシピです。"
   },
   {
     "title": "【家にある調味料で作る】簡単絶品親子丼レシピ大公開！【フライパンでふわとろ食感♪】",
@@ -2458,17 +2370,18 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/5d-r8rLTr00/maxresdefault.jpg",
     "creator": "デリッシュキッチン",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
       "根菜"
     ],
-    "oil": 2,
+    "oil": 5,
     "effort": 1,
     "dishes": 1,
     "steps": 2,
@@ -2476,15 +2389,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "confirmed",
-    "ingredientSource": "title/manual",
-    "description": "デリッシュキッチンの実在動画。鶏肉、卵、ご飯・米、ネギ、玉ねぎを使う「【家にある調味料で作る】簡単絶品親子丼レシピ大公開！【フライパンでふわとろ食感♪】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "デリッシュキッチンの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「【家にある調味料で作る】簡単絶品親子丼レシピ大公開！【フライパンでふわとろ食感♪】」のレシピです。"
   },
   {
     "title": "【秒でなくなる】ささみのクリスピーチキン！ #時短レシピ #簡単ごはん",
@@ -2501,6 +2413,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系",
       "米"
@@ -2513,15 +2426,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "garlic",
       "mayonnaise",
       "flour",
       "curry_roux"
     ],
-    "rawIngredients": "鶏肉、にんにく、マヨネーズ、小麦粉、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: 鶏肉、にんにく、マヨネーズ、小麦粉、カレールゥ。「【秒でなくなる】ささみのクリスピーチキン！ #時短レシピ #簡単ごはん」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にんにく、マヨネーズ、小麦粉、カレールゥ",
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。鶏肉、白身魚、にんにく、マヨネーズ、小麦粉、カレールゥを使う「【秒でなくなる】ささみのクリスピーチキン！ #時短レシピ #簡単ごはん」のレシピです。"
   },
   {
     "title": "【厚揚げとピーマンのそぼろ餡 】#簡単レシピ #おうちごはん #料理 #簡単料理 #おうちごはんラバー #夜ごはん #レシピ付き #時短レシピ #夜ご飯",
@@ -2538,6 +2450,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜"
     ],
@@ -2549,13 +2462,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "atsuage",
       "bell_pepper"
     ],
-    "rawIngredients": "挽肉、厚揚げ、ピーマン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Aya(つくあや)の実在動画。食材候補: 挽肉、厚揚げ、ピーマン。「【厚揚げとピーマンのそぼろ餡 】#簡単レシピ #おうちごはん #料理 #簡単料理 #おうちごはんラバー #夜ごはん #レシピ付き #時短レシピ #夜ご飯」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、厚揚げ、ピーマン",
+    "description": "Aya(つくあや)の実在動画。挽肉、白身魚、厚揚げ、ピーマンを使う「【厚揚げとピーマンのそぼろ餡 】#簡単レシピ #おうちごはん #料理 #簡単料理 #おうちごはんラバー #夜ごはん #レシピ付き #時短レシピ #夜ご飯」のレシピです。"
   },
   {
     "title": "【ペッパーランチ】の作り方 #おうちごはん #レシピ #料理 #休日 #cooking #cookingchannel",
@@ -2571,6 +2483,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -2582,15 +2495,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "green_onion",
       "corn",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "ネギ、コーン缶、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "「まおごはん」の実在動画。食材候補: ネギ、コーン缶、にんにく、バター。「【ペッパーランチ】の作り方 #おうちごはん #レシピ #料理 #休日 #cooking #cookingchannel」のレシピです。"
+    "rawIngredients": "白身魚、ネギ、コーン缶、にんにく、バター",
+    "description": "「まおごはん」の実在動画。白身魚、ネギ、コーン缶、にんにく、バターを使う「【ペッパーランチ】の作り方 #おうちごはん #レシピ #料理 #休日 #cooking #cookingchannel」のレシピです。"
   },
   {
     "title": "【子どもが爆食い】玉ねぎが主役のチーズガレット #簡単レシピ #時短レシピ",
@@ -2620,15 +2532,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "canned_tuna",
       "green_onion",
       "onion",
       "cheese"
     ],
-    "rawIngredients": "ベーコン、ツナ、ネギ、玉ねぎ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: ベーコン、ツナ、ネギ、玉ねぎ、チーズ。「【子どもが爆食い】玉ねぎが主役のチーズガレット #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、ツナ、ネギ、玉ねぎ、チーズ",
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。ベーコン、白身魚、ツナ、ネギ、玉ねぎ、チーズを使う「【子どもが爆食い】玉ねぎが主役のチーズガレット #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "失敗なしの超絶に美味しいペペロンチーノ",
@@ -2644,6 +2555,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜"
     ],
@@ -2654,13 +2566,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "garlic"
     ],
-    "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: パスタ、にんにく。「失敗なしの超絶に美味しいペペロンチーノ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、パスタ、にんにくを使う「失敗なしの超絶に美味しいペペロンチーノ」のレシピです。"
   },
   {
     "title": "牛乳だけで簡単おやつ",
@@ -2688,9 +2599,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マイドンの飯物語の実在動画。食材候補: 牛乳。「牛乳だけで簡単おやつ」のレシピです。"
+    "description": "マイドンの飯物語の実在動画。牛乳を使う「牛乳だけで簡単おやつ」のレシピです。"
   },
   {
     "title": "#天津飯#簡単レシピ#レシピ#料理#おうちごはん",
@@ -2702,7 +2611,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/u1ojJ1w_jsM/maxresdefault.jpg",
     "creator": "まゆみの愛情キッチン",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -2718,9 +2627,35 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まゆみの愛情キッチンの実在動画。食材候補: 卵。「#天津飯#簡単レシピ#レシピ#料理#おうちごはん」のレシピです。"
+    "description": "まゆみの愛情キッチンの実在動画。卵を使う「#天津飯#簡単レシピ#レシピ#料理#おうちごはん」のレシピです。"
+  },
+  {
+    "title": "材料2つ♪お餅あったらまずこれやってみて🥳#簡単レシピ #切り餅 #節約レシピ #簡単おやつ #cooking #shorts",
+    "platform": "youtube",
+    "externalId": "WVBQZEuZX2g",
+    "videoUrl": "https://www.youtube.com/watch?v=WVBQZEuZX2g",
+    "videoId": "WVBQZEuZX2g",
+    "url": "https://www.youtube.com/watch?v=WVBQZEuZX2g",
+    "thumbnailUrl": "https://i.ytimg.com/vi/WVBQZEuZX2g/maxresdefault.jpg",
+    "creator": "yuchi",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "yuchiの実在動画。白身魚を使う「材料2つ♪お餅あったらまずこれやってみて🥳#簡単レシピ #切り餅 #節約レシピ #簡単おやつ #cooking #shorts」のレシピです。"
   },
   {
     "title": "8キロ痩せた私が作る『世界一簡単な！ 鶏むねの茹で方』#ダイエット #ダイエットレシピ #鶏むね肉",
@@ -2732,7 +2667,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/kUm-Ah1qGcg/maxresdefault.jpg",
     "creator": "チピオキ",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -2748,9 +2683,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "チピオキの実在動画。食材候補: 鶏肉。「8キロ痩せた私が作る『世界一簡単な！ 鶏むねの茹で方』#ダイエット #ダイエットレシピ #鶏むね肉」のレシピです。"
+    "description": "チピオキの実在動画。鶏肉を使う「8キロ痩せた私が作る『世界一簡単な！ 鶏むねの茹で方』#ダイエット #ダイエットレシピ #鶏むね肉」のレシピです。"
   },
   {
     "title": "無限ハッシュドポテト作りました🥔作り方はコメント欄へ#二人暮らし #同棲生活 #料理",
@@ -2778,9 +2711,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "よへ 僕がいい旦那になるまでの実在動画。食材候補: じゃが芋。「無限ハッシュドポテト作りました🥔作り方はコメント欄へ#二人暮らし #同棲生活 #料理」のレシピです。"
+    "description": "よへ 僕がいい旦那になるまでの実在動画。じゃが芋を使う「無限ハッシュドポテト作りました🥔作り方はコメント欄へ#二人暮らし #同棲生活 #料理」のレシピです。"
   },
   {
     "title": "ワンパンクリームパスタ #簡単レシピ",
@@ -2808,9 +2739,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "わか︴夫の胃袋掴む楽うまごはんの実在動画。食材候補: パスタ。「ワンパンクリームパスタ #簡単レシピ」のレシピです。"
+    "description": "わか︴夫の胃袋掴む楽うまごはんの実在動画。パスタを使う「ワンパンクリームパスタ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【Instagram1300万再生突破‼️】ツナの韓国風簡単混ぜおにぎり #簡単料理 #簡単レシピ #おにぎり #韓国海苔",
@@ -2837,14 +2766,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "ツナ、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あつメシ×あさとファミリーの実在動画。食材候補: ツナ、ご飯・米、ネギ。「【Instagram1300万再生突破‼️】ツナの韓国風簡単混ぜおにぎり #簡単料理 #簡単レシピ #おにぎり #韓国海苔」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、ご飯・米、ネギ",
+    "description": "あつメシ×あさとファミリーの実在動画。白身魚、ツナ、ご飯・米、ネギを使う「【Instagram1300万再生突破‼️】ツナの韓国風簡単混ぜおにぎり #簡単料理 #簡単レシピ #おにぎり #韓国海苔」のレシピです。"
   },
   {
     "title": "簡単なのに美味しすぎる！黒こんにゃくの旨ピリ辛炒め【おつまみレシピ】",
@@ -2874,9 +2802,7 @@ const recipes = [
       "konnyaku"
     ],
     "rawIngredients": "昆布、こんにゃく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理人マサのおつまみ道場の実在動画。食材候補: 昆布、こんにゃく。「簡単なのに美味しすぎる！黒こんにゃくの旨ピリ辛炒め【おつまみレシピ】」のレシピです。"
+    "description": "料理人マサのおつまみ道場の実在動画。昆布、こんにゃくを使う「簡単なのに美味しすぎる！黒こんにゃくの旨ピリ辛炒め【おつまみレシピ】」のレシピです。"
   },
   {
     "title": "【ワンパンでスピード角煮】",
@@ -2888,11 +2814,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/Vpo1fOAk1vk/maxresdefault.jpg",
     "creator": "まるみキッチン【簡単レシピ】",
     "style": "YouTube Data API収集",
-    "taste": "semi-light",
+    "taste": "light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "根菜"
@@ -2905,14 +2832,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "rice_noodles",
       "ginger"
     ],
-    "rawIngredients": "豚肉、卵、ビーフン・フォー、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 豚肉、卵、ビーフン・フォー、ショウガ。「【ワンパンでスピード角煮】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ビーフン・フォー、ショウガ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。豚肉、白身魚、卵、ビーフン・フォー、ショウガを使う「【ワンパンでスピード角煮】」のレシピです。"
   },
   {
     "title": "【レンジで簡単！絶品鶏むねチャーシュー】",
@@ -2929,6 +2855,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -2941,15 +2868,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "ginger",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、ショウガ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 鶏肉、卵、ショウガ、にんにく、マヨネーズ。「【レンジで簡単！絶品鶏むねチャーシュー】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ショウガ、にんにく、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。鶏肉、白身魚、卵、ショウガ、にんにく、マヨネーズを使う「【レンジで簡単！絶品鶏むねチャーシュー】」のレシピです。"
   },
   {
     "title": "レンチンオムライス🍳#簡単レシピ #レンチンレシピ #産後ダイエット #料理 #shorts",
@@ -2977,16 +2903,15 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "egg",
       "rice",
       "cheese",
       "milk"
     ],
-    "rawIngredients": "ツナ、卵、ご飯・米、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なお⌇ 8ヶ月で-14kg痩せた時短レシピ🥣の実在動画。食材候補: ツナ、卵、ご飯・米、チーズ、牛乳。「レンチンオムライス🍳#簡単レシピ #レンチンレシピ #産後ダイエット #料理 #shorts」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、卵、ご飯・米、チーズ、牛乳",
+    "description": "なお⌇ 8ヶ月で-14kg痩せた時短レシピ🥣の実在動画。白身魚、ツナ、卵、ご飯・米、チーズ、牛乳を使う「レンチンオムライス🍳#簡単レシピ #レンチンレシピ #産後ダイエット #料理 #shorts」のレシピです。"
   },
   {
     "title": "味付けはめんつゆだけ【玉たま丼】#玉ねぎ #卵レシピ #玉ねぎレシピ #簡単レシピ",
@@ -3002,6 +2927,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -3014,15 +2940,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 卵、ご飯・米、ネギ、玉ねぎ。「味付けはめんつゆだけ【玉たま丼】#玉ねぎ #卵レシピ #玉ねぎレシピ #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "デリッシュキッチンの実在動画。白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「味付けはめんつゆだけ【玉たま丼】#玉ねぎ #卵レシピ #玉ねぎレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【３８０万回再生の人気レシピ】ただ焼くだけで驚くほど旨い！やみつき焼きトロなすの作り方 #shorts 【kattyanneru】",
@@ -3054,9 +2979,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、なす、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "kattyanneru/かっちゃんねるの実在動画。食材候補: 卵、なす、にんにく。「【３８０万回再生の人気レシピ】ただ焼くだけで驚くほど旨い！やみつき焼きトロなすの作り方 #shorts 【kattyanneru】」のレシピです。"
+    "description": "kattyanneru/かっちゃんねるの実在動画。卵、なす、にんにくを使う「【３８０万回再生の人気レシピ】ただ焼くだけで驚くほど旨い！やみつき焼きトロなすの作り方 #shorts 【kattyanneru】」のレシピです。"
   },
   {
     "title": "【簡単レシピ】ワンパン！ナポリタンスパゲッティの作り方🍝",
@@ -3092,9 +3015,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "パスタ、ネギ、ピーマン、玉ねぎ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: パスタ、ネギ、ピーマン、玉ねぎ、にんにく、バター。「【簡単レシピ】ワンパン！ナポリタンスパゲッティの作り方🍝」のレシピです。"
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。パスタ、ネギ、ピーマン、玉ねぎ、にんにく、バターを使う「【簡単レシピ】ワンパン！ナポリタンスパゲッティの作り方🍝」のレシピです。"
   },
   {
     "title": "【健康ごはん】小松菜と油揚げの煮びたし #簡単料理 #はじめての料理 #おかずレシピ #レシピ #初心者 #簡単レシピ #夜ごはん #小松菜#健康 #おかず",
@@ -3124,9 +3045,7 @@ const recipes = [
       "komatsuna"
     ],
     "rawIngredients": "油揚げ、小松菜",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "看護師くみ【健康ごはん】の実在動画。食材候補: 油揚げ、小松菜。「【健康ごはん】小松菜と油揚げの煮びたし #簡単料理 #はじめての料理 #おかずレシピ #レシピ #初心者 #簡単レシピ #夜ごはん #小松菜#健康 #おかず」のレシピです。"
+    "description": "看護師くみ【健康ごはん】の実在動画。油揚げ、小松菜を使う「【健康ごはん】小松菜と油揚げの煮びたし #簡単料理 #はじめての料理 #おかずレシピ #レシピ #初心者 #簡単レシピ #夜ごはん #小松菜#健康 #おかず」のレシピです。"
   },
   {
     "title": "【子どもウケ抜群】パパッとロコモコ丼✨簡単すぎてリピ確定！ #簡単レシピ #時短レシピ",
@@ -3143,6 +3062,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -3150,23 +3070,22 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion",
       "cheese"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、ネギ、玉ねぎ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: 挽肉、卵、ご飯・米、ネギ、玉ねぎ、チーズ。「【子どもウケ抜群】パパッとロコモコ丼✨簡単すぎてリピ確定！ #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、チーズ",
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、チーズを使う「【子どもウケ抜群】パパッとロコモコ丼✨簡単すぎてリピ確定！ #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "やる気1％で即席ミラノっぽいドリア",
@@ -3194,9 +3113,35 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: チーズ。「やる気1％で即席ミラノっぽいドリア」のレシピです。"
+    "description": "まるみキッチン【簡単レシピ】の実在動画。チーズを使う「やる気1％で即席ミラノっぽいドリア」のレシピです。"
+  },
+  {
+    "title": "おうち居酒屋でこれだしたら大喜びされて作り方めっちゃ聞かれたやつ。#簡単レシピ #料理 #節約レシピ #おつまみレシピ #おうち居酒屋 #youtubeshorts #shorts",
+    "platform": "youtube",
+    "externalId": "GH5LI_XBcFE",
+    "videoUrl": "https://www.youtube.com/watch?v=GH5LI_XBcFE",
+    "videoId": "GH5LI_XBcFE",
+    "url": "https://www.youtube.com/watch?v=GH5LI_XBcFE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/GH5LI_XBcFE/maxresdefault.jpg",
+    "creator": "yuchi",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "yuchiの実在動画。白身魚を使う「おうち居酒屋でこれだしたら大喜びされて作り方めっちゃ聞かれたやつ。#簡単レシピ #料理 #節約レシピ #おつまみレシピ #おうち居酒屋 #youtubeshorts #shorts」のレシピです。"
   },
   {
     "title": "食パンでできる簡単ホットサンド #料理 #プチ知識 #ずんだもん #簡単レシピ",
@@ -3224,9 +3169,7 @@ const recipes = [
       "bread"
     ],
     "rawIngredients": "パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ひろか | 誰でもできるライフハック術の実在動画。食材候補: パン。「食パンでできる簡単ホットサンド #料理 #プチ知識 #ずんだもん #簡単レシピ」のレシピです。"
+    "description": "ひろか | 誰でもできるライフハック術の実在動画。パンを使う「食パンでできる簡単ホットサンド #料理 #プチ知識 #ずんだもん #簡単レシピ」のレシピです。"
   },
   {
     "title": "【混ぜて焼くだけ！】１０分で作れる簡単おつまみ・おかず「ニラ玉焼き」の作り方 #shorts #recipe #cooking",
@@ -3260,9 +3203,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "豆腐、卵、にら、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "kattyanneru/かっちゃんねるの実在動画。食材候補: 豆腐、卵、にら、小麦粉。「【混ぜて焼くだけ！】１０分で作れる簡単おつまみ・おかず「ニラ玉焼き」の作り方 #shorts #recipe #cooking」のレシピです。"
+    "description": "kattyanneru/かっちゃんねるの実在動画。豆腐、卵、にら、小麦粉を使う「【混ぜて焼くだけ！】１０分で作れる簡単おつまみ・おかず「ニラ玉焼き」の作り方 #shorts #recipe #cooking」のレシピです。"
   },
   {
     "title": "ばり美味い時短うどんレシピ #簡単レシピ #うどん #冷凍うどん",
@@ -3290,9 +3231,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: うどん。「ばり美味い時短うどんレシピ #簡単レシピ #うどん #冷凍うどん」のレシピです。"
+    "description": "深夜食堂の実在動画。うどんを使う「ばり美味い時短うどんレシピ #簡単レシピ #うどん #冷凍うどん」のレシピです。"
   },
   {
     "title": "簡単10分で韓国料理！豚プルコギの作り方 #料理 #コウケンテツ #レシピ",
@@ -3320,9 +3259,7 @@ const recipes = [
       "lettuce"
     ],
     "rawIngredients": "レタス",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: レタス。「簡単10分で韓国料理！豚プルコギの作り方 #料理 #コウケンテツ #レシピ」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。レタスを使う「簡単10分で韓国料理！豚プルコギの作り方 #料理 #コウケンテツ #レシピ」のレシピです。"
   },
   {
     "title": "【簡単レシピ】最強の健康効果！漬けるだけの酢にんじん #shorts",
@@ -3353,9 +3290,7 @@ const recipes = [
       "carrot"
     ],
     "rawIngredients": "キャベツ、レタス、にんじん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【料理研究家 水野あき】3児のママの時短レシピの実在動画。食材候補: キャベツ、レタス、にんじん。「【簡単レシピ】最強の健康効果！漬けるだけの酢にんじん #shorts」のレシピです。"
+    "description": "【料理研究家 水野あき】3児のママの時短レシピの実在動画。キャベツ、レタス、にんじんを使う「【簡単レシピ】最強の健康効果！漬けるだけの酢にんじん #shorts」のレシピです。"
   },
   {
     "title": "冷蔵庫のあまりもので✨超簡単たまご丼",
@@ -3391,9 +3326,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、ご飯・米、ネギ、玉ねぎ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆっこ⌇調理師ママのラクうまごはんの実在動画。食材候補: 卵、ご飯・米、ネギ、玉ねぎ、マヨネーズ。「冷蔵庫のあまりもので✨超簡単たまご丼」のレシピです。"
+    "description": "ゆっこ⌇調理師ママのラクうまごはんの実在動画。卵、ご飯・米、ネギ、玉ねぎ、マヨネーズを使う「冷蔵庫のあまりもので✨超簡単たまご丼」のレシピです。"
   },
   {
     "title": "食パンの好きな食べ方！ハンバーグ入ってないし全然バーガーではないんですが！（笑）食べたらなんだかハンバーガー気分になる不思議。🍔#簡単レシピ #料理 #ズボラ #食パン #おうちごはん",
@@ -3410,6 +3343,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "チーズ・バター・マヨ系",
@@ -3423,6 +3357,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "ham",
+      "whitefish",
       "egg",
       "lettuce",
       "tomato",
@@ -3431,10 +3366,8 @@ const recipes = [
       "mayonnaise",
       "bread"
     ],
-    "rawIngredients": "ハム、卵、レタス、トマト、チーズ、バター、マヨネーズ、パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "倉嶋里菜の実在動画。食材候補: ハム、卵、レタス、トマト、チーズ、バター、マヨネーズ、パン。「食パンの好きな食べ方！ハンバーグ入ってないし全然バーガーではないんですが！（笑）食べたらなんだかハンバーガー気分になる不思議。🍔#簡単レシピ #料理 #ズボラ #食パン #おうちごはん」のレシピです。"
+    "rawIngredients": "ハム、白身魚、卵、レタス、トマト、チーズ、バター、マヨネーズ、パン",
+    "description": "倉嶋里菜の実在動画。ハム、白身魚、卵、レタス、トマト、チーズ、バター、マヨネーズ、パンを使う「食パンの好きな食べ方！ハンバーグ入ってないし全然バーガーではないんですが！（笑）食べたらなんだかハンバーガー気分になる不思議。🍔#簡単レシピ #料理 #ズボラ #食パン #おうちごはん」のレシピです。"
   },
   {
     "title": "【2ヶ月で6キロ痩せた】ヘルシーキャベツしゅうまい #ダイエットレシピ #簡単レシピ",
@@ -3451,27 +3384,27 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "cabbage",
       "green_onion",
       "onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "挽肉、キャベツ、ネギ、玉ねぎ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うちこ【ダイエットレシピ】の実在動画。食材候補: 挽肉、キャベツ、ネギ、玉ねぎ、ショウガ、にんにく。「【2ヶ月で6キロ痩せた】ヘルシーキャベツしゅうまい #ダイエットレシピ #簡単レシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、キャベツ、ネギ、玉ねぎ、ショウガ、にんにく",
+    "description": "うちこ【ダイエットレシピ】の実在動画。挽肉、白身魚、キャベツ、ネギ、玉ねぎ、ショウガ、にんにくを使う「【2ヶ月で6キロ痩せた】ヘルシーキャベツしゅうまい #ダイエットレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "こどもがおかわり！白身魚 #ワンパンレシピ",
@@ -3503,9 +3436,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "白身魚、マヨネーズ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さくらい ゆか【管理栄養士】の実在動画。食材候補: 白身魚、マヨネーズ、小麦粉。「こどもがおかわり！白身魚 #ワンパンレシピ」のレシピです。"
+    "description": "さくらい ゆか【管理栄養士】の実在動画。白身魚、マヨネーズ、小麦粉を使う「こどもがおかわり！白身魚 #ワンパンレシピ」のレシピです。"
   },
   {
     "title": "【インスタ220万回再生】もやしを使ったほぼ50円飯 #レシピ動画 #レシピ #簡単レシピ #自炊 #節約 #shorts",
@@ -3533,9 +3464,7 @@ const recipes = [
       "bean_sprouts"
     ],
     "rawIngredients": "もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "のんびり暮らしチャンネルの実在動画。食材候補: もやし。「【インスタ220万回再生】もやしを使ったほぼ50円飯 #レシピ動画 #レシピ #簡単レシピ #自炊 #節約 #shorts」のレシピです。"
+    "description": "のんびり暮らしチャンネルの実在動画。もやしを使う「【インスタ220万回再生】もやしを使ったほぼ50円飯 #レシピ動画 #レシピ #簡単レシピ #自炊 #節約 #shorts」のレシピです。"
   },
   {
     "title": "【子供が大喜び✨】のり塩ポップコーンチキン！手が止まらないおいしさ… #簡単レシピ #時短レシピ",
@@ -3567,9 +3496,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、コーン缶、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: 鶏肉、コーン缶、マヨネーズ。「【子供が大喜び✨】のり塩ポップコーンチキン！手が止まらないおいしさ… #簡単レシピ #時短レシピ」のレシピです。"
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。鶏肉、コーン缶、マヨネーズを使う「【子供が大喜び✨】のり塩ポップコーンチキン！手が止まらないおいしさ… #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "【超簡単】ふわとろオムライスの作り方",
@@ -3597,9 +3524,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オムライス兄さん Omurice Boy🇯🇵の実在動画。食材候補: ご飯・米。「【超簡単】ふわとろオムライスの作り方」のレシピです。"
+    "description": "オムライス兄さん Omurice Boy🇯🇵の実在動画。ご飯・米を使う「【超簡単】ふわとろオムライスの作り方」のレシピです。"
   },
   {
     "title": "チキンのクリーム煮",
@@ -3616,6 +3541,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜",
       "きのこ",
@@ -3630,6 +3556,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "spinach",
       "green_onion",
       "onion",
@@ -3639,10 +3566,8 @@ const recipes = [
       "milk",
       "flour"
     ],
-    "rawIngredients": "鶏肉、ほうれん草、ネギ、玉ねぎ、しめじ、にんにく、チーズ、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん泥棒レシピの実在動画。食材候補: 鶏肉、ほうれん草、ネギ、玉ねぎ、しめじ、にんにく、チーズ、牛乳、小麦粉。「チキンのクリーム煮」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ほうれん草、ネギ、玉ねぎ、しめじ、にんにく、チーズ、牛乳、小麦粉",
+    "description": "まいのごはん泥棒レシピの実在動画。鶏肉、白身魚、ほうれん草、ネギ、玉ねぎ、しめじ、にんにく、チーズ、牛乳、小麦粉を使う「チキンのクリーム煮」のレシピです。"
   },
   {
     "title": "誰でも作れるふわトロオムレツの作り方！！最後が一番大事です#オムレツ#オムライス#料理#調理学生",
@@ -3670,9 +3595,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オムライスのダイの実在動画。食材候補: ご飯・米。「誰でも作れるふわトロオムレツの作り方！！最後が一番大事です#オムレツ#オムライス#料理#調理学生」のレシピです。"
+    "description": "オムライスのダイの実在動画。ご飯・米を使う「誰でも作れるふわトロオムレツの作り方！！最後が一番大事です#オムレツ#オムライス#料理#調理学生」のレシピです。"
   },
   {
     "title": "【プロが教える】玉ねぎステーキの作り方 #shorts",
@@ -3702,9 +3625,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "フリーランス料理人の簡単レシピの実在動画。食材候補: ネギ、玉ねぎ。「【プロが教える】玉ねぎステーキの作り方 #shorts」のレシピです。"
+    "description": "フリーランス料理人の簡単レシピの実在動画。ネギ、玉ねぎを使う「【プロが教える】玉ねぎステーキの作り方 #shorts」のレシピです。"
   },
   {
     "title": "誰でも簡単に美味しくサバ缶が食べれちゃう😊時短おかず！おつまみ！#shorts #簡単#簡単レシピ #料理#鯖#shortscooking",
@@ -3732,9 +3653,7 @@ const recipes = [
       "mackerel"
     ],
     "rawIngredients": "サバ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "適当さんのクッキングの実在動画。食材候補: サバ。「誰でも簡単に美味しくサバ缶が食べれちゃう😊時短おかず！おつまみ！#shorts #簡単#簡単レシピ #料理#鯖#shortscooking」のレシピです。"
+    "description": "適当さんのクッキングの実在動画。サバを使う「誰でも簡単に美味しくサバ缶が食べれちゃう😊時短おかず！おつまみ！#shorts #簡単#簡単レシピ #料理#鯖#shortscooking」のレシピです。"
   },
   {
     "title": "クックパッドで人気の白菜の旨煮 #簡単レシピ #料理 #クックパッド",
@@ -3762,9 +3681,7 @@ const recipes = [
       "napa_cabbage"
     ],
     "rawIngredients": "napa_cabbage",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パパシェフ! 〜誉めらレシピ帳〜の実在動画。食材候補: napa_cabbage。「クックパッドで人気の白菜の旨煮 #簡単レシピ #料理 #クックパッド」のレシピです。"
+    "description": "パパシェフ! 〜誉めらレシピ帳〜の実在動画。napa_cabbageを使う「クックパッドで人気の白菜の旨煮 #簡単レシピ #料理 #クックパッド」のレシピです。"
   },
   {
     "title": "【旦那に褒められた】簡単鯖レシピ！ #鯖 #鯖レシピ #サバ #簡単レシピ #簡単料理 #簡単和食 #簡単和食レシピ",
@@ -3793,14 +3710,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "mackerel",
+      "whitefish",
       "green_onion",
       "daikon",
       "mayonnaise"
     ],
-    "rawIngredients": "サバ、ネギ、大根、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "レイ【3児ママのリアルすぎる日常】の実在動画。食材候補: サバ、ネギ、大根、マヨネーズ。「【旦那に褒められた】簡単鯖レシピ！ #鯖 #鯖レシピ #サバ #簡単レシピ #簡単料理 #簡単和食 #簡単和食レシピ」のレシピです。"
+    "rawIngredients": "サバ、白身魚、ネギ、大根、マヨネーズ",
+    "description": "レイ【3児ママのリアルすぎる日常】の実在動画。サバ、白身魚、ネギ、大根、マヨネーズを使う「【旦那に褒められた】簡単鯖レシピ！ #鯖 #鯖レシピ #サバ #簡単レシピ #簡単料理 #簡単和食 #簡単和食レシピ」のレシピです。"
   },
   {
     "title": "鶏むね肉レシピに困ったらこれ作って！！！#shorts",
@@ -3817,6 +3733,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜"
     ],
     "oil": 2,
@@ -3827,12 +3744,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "ginger"
     ],
-    "rawIngredients": "鶏肉、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "はるあんの実在動画。食材候補: 鶏肉、ショウガ。「鶏むね肉レシピに困ったらこれ作って！！！#shorts」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ショウガ",
+    "description": "はるあんの実在動画。鶏肉、白身魚、ショウガを使う「鶏むね肉レシピに困ったらこれ作って！！！#shorts」のレシピです。"
   },
   {
     "title": "【簡単レシピ】サーモンタルタルの作り方 #shorts",
@@ -3861,14 +3777,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "green_onion",
       "onion",
       "mayonnaise"
     ],
-    "rawIngredients": "サケ、ネギ、玉ねぎ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まりとかずのごほうびスイーツの実在動画。食材候補: サケ、ネギ、玉ねぎ、マヨネーズ。「【簡単レシピ】サーモンタルタルの作り方 #shorts」のレシピです。"
+    "rawIngredients": "サケ、白身魚、ネギ、玉ねぎ、マヨネーズ",
+    "description": "まりとかずのごほうびスイーツの実在動画。サケ、白身魚、ネギ、玉ねぎ、マヨネーズを使う「【簡単レシピ】サーモンタルタルの作り方 #shorts」のレシピです。"
   },
   {
     "title": "【2800万回再生ポテトレシピ🥔】じゃがいもの皮の美味しさに気づいた〇〇 ※注:じゃがいもの芽や緑色になった皮にはソラニンやチャコニンという毒素が多く含まれており食中毒を引き起こす可能性があります！",
@@ -3884,6 +3799,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -3894,14 +3810,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "potato",
       "onion",
       "cheese"
     ],
-    "rawIngredients": "じゃが芋、玉ねぎ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ポテトのタカタク🥔の実在動画。食材候補: じゃが芋、玉ねぎ、チーズ。「【2800万回再生ポテトレシピ🥔】じゃがいもの皮の美味しさに気づいた〇〇 ※注:じゃがいもの芽や緑色になった皮にはソラニンやチャコニンという毒素が多く含まれており食中毒を引き起こす可能性があります！」のレシピです。"
+    "rawIngredients": "白身魚、じゃが芋、玉ねぎ、チーズ",
+    "description": "ポテトのタカタク🥔の実在動画。白身魚、じゃが芋、玉ねぎ、チーズを使う「【2800万回再生ポテトレシピ🥔】じゃがいもの皮の美味しさに気づいた〇〇 ※注:じゃがいもの芽や緑色になった皮にはソラニンやチャコニンという毒素が多く含まれており食中毒を引き起こす可能性があります！」のレシピです。"
   },
   {
     "title": "【永久保存版】ふわとろオムライスの作り方【前編】",
@@ -3929,9 +3844,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オムライス兄さん Omurice Boy🇯🇵の実在動画。食材候補: ご飯・米。「【永久保存版】ふわとろオムライスの作り方【前編】」のレシピです。"
+    "description": "オムライス兄さん Omurice Boy🇯🇵の実在動画。ご飯・米を使う「【永久保存版】ふわとろオムライスの作り方【前編】」のレシピです。"
   },
   {
     "title": "レンジで超しっとり！ネギ塩チキン🐓 #簡単レシピ #鶏むね肉 #料理",
@@ -3948,6 +3861,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -3958,12 +3872,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "鶏むねマッスルの実在動画。食材候補: 鶏肉、ネギ。「レンジで超しっとり！ネギ塩チキン🐓 #簡単レシピ #鶏むね肉 #料理」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ネギ",
+    "description": "鶏むねマッスルの実在動画。鶏肉、白身魚、ネギを使う「レンジで超しっとり！ネギ塩チキン🐓 #簡単レシピ #鶏むね肉 #料理」のレシピです。"
   },
   {
     "title": "少ない調味料で絶品！時短最強油うどん",
@@ -3979,6 +3892,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -3991,15 +3905,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「少ない調味料で絶品！時短最強油うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、うどん、ネギ、にんにくを使う「少ない調味料で絶品！時短最強油うどん」のレシピです。"
   },
   {
     "title": "【たった5分で作れる◎】ちくきゅーサラダ #料理動画 #cooking #shorts #簡単レシピ #サラダレシピ #ちくわレシピ #きゅうりレシピ #卵レシピ #節約レシピ",
@@ -4015,6 +3928,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "卵",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -4026,14 +3940,13 @@ const recipes = [
     "knife": true,
     "heat": false,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "cucumber",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、きゅうり、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: 卵、きゅうり、マヨネーズ。「【たった5分で作れる◎】ちくきゅーサラダ #料理動画 #cooking #shorts #簡単レシピ #サラダレシピ #ちくわレシピ #きゅうりレシピ #卵レシピ #節約レシピ」のレシピです。"
+    "rawIngredients": "白身魚、卵、きゅうり、マヨネーズ",
+    "description": "ラクうま料理ちゃんねるの実在動画。白身魚、卵、きゅうり、マヨネーズを使う「【たった5分で作れる◎】ちくきゅーサラダ #料理動画 #cooking #shorts #簡単レシピ #サラダレシピ #ちくわレシピ #きゅうりレシピ #卵レシピ #節約レシピ」のレシピです。"
   },
   {
     "title": "【カレーの作り方】簡単1分レシピ!大人気王道カレー!!#shorts #料理 #簡単レシピ",
@@ -4050,28 +3963,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "green_onion",
       "potato",
       "onion",
       "carrot",
       "curry_roux"
     ],
-    "rawIngredients": "豚肉、ネギ、じゃが芋、玉ねぎ、にんじん、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "muuのおうちごはんの実在動画。食材候補: 豚肉、ネギ、じゃが芋、玉ねぎ、にんじん、カレールゥ。「【カレーの作り方】簡単1分レシピ!大人気王道カレー!!#shorts #料理 #簡単レシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ネギ、じゃが芋、玉ねぎ、にんじん、カレールゥ",
+    "description": "muuのおうちごはんの実在動画。豚肉、白身魚、ネギ、じゃが芋、玉ねぎ、にんじん、カレールゥを使う「【カレーの作り方】簡単1分レシピ!大人気王道カレー!!#shorts #料理 #簡単レシピ」のレシピです。"
   },
   {
     "title": "【レンチン一撃！！】激楽オムライス #料理動画 #cooking #shorts #簡単レシピ #オムライスレシピ #オムライス #卵レシピ",
@@ -4088,28 +4001,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "cheese",
       "butter",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、チーズ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: 鶏肉、卵、ご飯・米、チーズ、バター、マヨネーズ。「【レンチン一撃！！】激楽オムライス #料理動画 #cooking #shorts #簡単レシピ #オムライスレシピ #オムライス #卵レシピ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、チーズ、バター、マヨネーズ",
+    "description": "ラクうま料理ちゃんねるの実在動画。鶏肉、白身魚、卵、ご飯・米、チーズ、バター、マヨネーズを使う「【レンチン一撃！！】激楽オムライス #料理動画 #cooking #shorts #簡単レシピ #オムライスレシピ #オムライス #卵レシピ」のレシピです。"
   },
   {
     "title": "お手軽！こくウマ手羽元角煮 #簡単レシピ #胃袋泥棒レシピ",
@@ -4121,7 +4034,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/dzz3WWtx8Zs/maxresdefault.jpg",
     "creator": "maki | 今日の時短レシピ",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -4137,9 +4050,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: 鶏肉。「お手軽！こくウマ手羽元角煮 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。鶏肉を使う「お手軽！こくウマ手羽元角煮 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "作業5分！春雨サラダ🥗 #簡単レシピ #節約レシピ",
@@ -4167,9 +4078,7 @@ const recipes = [
       "harusame"
     ],
     "rawIngredients": "春雨",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: 春雨。「作業5分！春雨サラダ🥗 #簡単レシピ #節約レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。春雨を使う「作業5分！春雨サラダ🥗 #簡単レシピ #節約レシピ」のレシピです。"
   },
   {
     "title": "【うすしおポテチ】レシピはコメント欄に👩🏻‍🍳🍴 𓂃⋆* #shorts",
@@ -4185,6 +4094,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "根菜"
     ],
     "oil": 2,
@@ -4194,12 +4104,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "potato"
     ],
-    "rawIngredients": "じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "簡単ヘルシー食堂 / めいりりの実在動画。食材候補: じゃが芋。「【うすしおポテチ】レシピはコメント欄に👩🏻‍🍳🍴 𓂃⋆* #shorts」のレシピです。"
+    "rawIngredients": "白身魚、じゃが芋",
+    "description": "簡単ヘルシー食堂 / めいりりの実在動画。白身魚、じゃが芋を使う「【うすしおポテチ】レシピはコメント欄に👩🏻‍🍳🍴 𓂃⋆* #shorts」のレシピです。"
   },
   {
     "title": "包まない小籠包🐼 #料理 #レシピ #小籠包 #時短料理 #shorts",
@@ -4231,9 +4140,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "挽肉、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: 挽肉、ネギ、ショウガ。「包まない小籠包🐼 #料理 #レシピ #小籠包 #時短料理 #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。挽肉、ネギ、ショウガを使う「包まない小籠包🐼 #料理 #レシピ #小籠包 #時短料理 #shorts」のレシピです。"
   },
   {
     "title": "【ホットケーキミックスで♡さくふわアメリカンドッグ】#簡単レシピ #簡単おやつ #ホットケーキミックス",
@@ -4249,6 +4156,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "チーズ・バター・マヨ系"
     ],
@@ -4259,14 +4167,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "mayonnaise",
       "milk"
     ],
-    "rawIngredients": "卵、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: 卵、マヨネーズ、牛乳。「【ホットケーキミックスで♡さくふわアメリカンドッグ】#簡単レシピ #簡単おやつ #ホットケーキミックス」のレシピです。"
+    "rawIngredients": "白身魚、卵、マヨネーズ、牛乳",
+    "description": "まいのごはん。の実在動画。白身魚、卵、マヨネーズ、牛乳を使う「【ホットケーキミックスで♡さくふわアメリカンドッグ】#簡単レシピ #簡単おやつ #ホットケーキミックス」のレシピです。"
   },
   {
     "title": "【料理】かんたんバカ旨山賊焼き。#簡単料理 #shorts_ #shorts",
@@ -4283,6 +4190,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜"
     ],
     "oil": 3,
@@ -4293,13 +4201,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "きまま.Kimama ch★.の実在動画。食材候補: 鶏肉、ショウガ、にんにく。「【料理】かんたんバカ旨山賊焼き。#簡単料理 #shorts_ #shorts」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ショウガ、にんにく",
+    "description": "きまま.Kimama ch★.の実在動画。鶏肉、白身魚、ショウガ、にんにくを使う「【料理】かんたんバカ旨山賊焼き。#簡単料理 #shorts_ #shorts」のレシピです。"
   },
   {
     "title": "【簡単＆ヘルシー】もちもち＆サクサク！絶品豆腐もちレシピ",
@@ -4327,9 +4234,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "エイジ料理ノートの実在動画。食材候補: 豆腐。「【簡単＆ヘルシー】もちもち＆サクサク！絶品豆腐もちレシピ」のレシピです。"
+    "description": "エイジ料理ノートの実在動画。豆腐を使う「【簡単＆ヘルシー】もちもち＆サクサク！絶品豆腐もちレシピ」のレシピです。"
   },
   {
     "title": "【チャーシュー】簡単とろとろ！豚バラ肉で作る本格ラーメン屋の味！【煮豚】",
@@ -4359,9 +4264,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "豚肉、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オリーブオイルをひとまわし / オリひとの実在動画。食材候補: 豚肉、ラーメン。「【チャーシュー】簡単とろとろ！豚バラ肉で作る本格ラーメン屋の味！【煮豚】」のレシピです。"
+    "description": "オリーブオイルをひとまわし / オリひとの実在動画。豚肉、ラーメンを使う「【チャーシュー】簡単とろとろ！豚バラ肉で作る本格ラーメン屋の味！【煮豚】」のレシピです。"
   },
   {
     "title": "はんぺんのチーズ焼き#簡単レシピ#簡単料理#レシピ#おうちごはん#はんぺんレシピ",
@@ -4389,9 +4292,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まゆみの愛情キッチンの実在動画。食材候補: チーズ。「はんぺんのチーズ焼き#簡単レシピ#簡単料理#レシピ#おうちごはん#はんぺんレシピ」のレシピです。"
+    "description": "まゆみの愛情キッチンの実在動画。チーズを使う「はんぺんのチーズ焼き#簡単レシピ#簡単料理#レシピ#おうちごはん#はんぺんレシピ」のレシピです。"
   },
   {
     "title": "茹でるだけ❗️簡単 チキンサラダ",
@@ -4403,7 +4304,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/7fseh3d5Ays/maxresdefault.jpg",
     "creator": "よつばの事情",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
@@ -4419,9 +4320,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "よつばの事情の実在動画。食材候補: 鶏肉。「茹でるだけ❗️簡単 チキンサラダ」のレシピです。"
+    "description": "よつばの事情の実在動画。鶏肉を使う「茹でるだけ❗️簡単 チキンサラダ」のレシピです。"
   },
   {
     "title": "【Instagram1900万再生💕突破】韓国風⁉︎簡単まぜまぜおにぎり🍙#簡単料理 #おにぎり #混ぜおにぎり#韓国海苔",
@@ -4437,6 +4336,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "葉物野菜"
     ],
@@ -4447,13 +4347,12 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あつメシ×あさとファミリーの実在動画。食材候補: ご飯・米、ネギ。「【Instagram1900万再生💕突破】韓国風⁉︎簡単まぜまぜおにぎり🍙#簡単料理 #おにぎり #混ぜおにぎり#韓国海苔」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、ネギ",
+    "description": "あつメシ×あさとファミリーの実在動画。白身魚、ご飯・米、ネギを使う「【Instagram1900万再生💕突破】韓国風⁉︎簡単まぜまぜおにぎり🍙#簡単料理 #おにぎり #混ぜおにぎり#韓国海苔」のレシピです。"
   },
   {
     "title": "にんじんガレット #ダイエットレシピ #簡単レシピ #レシピ #野菜レシピ #cooking #レシピ #料理 #時短レシピ #にんじん #ななレシピ",
@@ -4481,9 +4380,7 @@ const recipes = [
       "carrot"
     ],
     "rawIngredients": "にんじん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なな 農家が作る野菜でかんたん瘦せレシピの実在動画。食材候補: にんじん。「にんじんガレット #ダイエットレシピ #簡単レシピ #レシピ #野菜レシピ #cooking #レシピ #料理 #時短レシピ #にんじん #ななレシピ」のレシピです。"
+    "description": "なな 農家が作る野菜でかんたん瘦せレシピの実在動画。にんじんを使う「にんじんガレット #ダイエットレシピ #簡単レシピ #レシピ #野菜レシピ #cooking #レシピ #料理 #時短レシピ #にんじん #ななレシピ」のレシピです。"
   },
   {
     "title": "【6月家計簿公開】節約を楽しむ一人暮らしの給料日ルーティン👩‍💼｜食材買い出しと鶏むね肉で節約ごはん🍗💞",
@@ -4512,14 +4409,13 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "mackerel",
+      "whitefish",
       "octopus",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、サバ、たこ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 鶏肉、サバ、たこ、ショウガ、にんにく。「【6月家計簿公開】節約を楽しむ一人暮らしの給料日ルーティン👩‍💼｜食材買い出しと鶏むね肉で節約ごはん🍗💞」のレシピです。"
+    "rawIngredients": "鶏肉、サバ、白身魚、たこ、ショウガ、にんにく",
+    "description": "shiroのくらしの実在動画。鶏肉、サバ、白身魚、たこ、ショウガ、にんにくを使う「【6月家計簿公開】節約を楽しむ一人暮らしの給料日ルーティン👩‍💼｜食材買い出しと鶏むね肉で節約ごはん🍗💞」のレシピです。"
   },
   {
     "title": "平日5日間×1日3食でも食費2000円に抑える。【一人暮らしの節約生活】",
@@ -4531,7 +4427,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/OGULLyAUPEA/maxresdefault.jpg",
     "creator": "節約自炊リーマンよね",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -4547,9 +4443,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "節約自炊リーマンよねの実在動画。食材候補: 卵。「平日5日間×1日3食でも食費2000円に抑える。【一人暮らしの節約生活】」のレシピです。"
+    "description": "節約自炊リーマンよねの実在動画。卵を使う「平日5日間×1日3食でも食費2000円に抑える。【一人暮らしの節約生活】」のレシピです。"
   },
   {
     "title": "一人暮らしの食事vlog🥞/パスタグラタンとライスコロッケを作る🍅/ビアードパパ、米粉のパンケーキ、棒棒鶏、フライドズッキーニ",
@@ -4579,9 +4473,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "ご飯・米、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hachi ハチと食生活の実在動画。食材候補: ご飯・米、パスタ。「一人暮らしの食事vlog🥞/パスタグラタンとライスコロッケを作る🍅/ビアードパパ、米粉のパンケーキ、棒棒鶏、フライドズッキーニ」のレシピです。"
+    "description": "Hachi ハチと食生活の実在動画。ご飯・米、パスタを使う「一人暮らしの食事vlog🥞/パスタグラタンとライスコロッケを作る🍅/ビアードパパ、米粉のパンケーキ、棒棒鶏、フライドズッキーニ」のレシピです。"
   },
   {
     "title": "バズってるやつ！悪魔のウインナー丼 簡単でとまらない！是非やってみて！簡単 手抜きご飯 おうちごはん 丼物 卵レシピ 一人暮らし自炊 ズボラ飯",
@@ -4593,7 +4485,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/emy2tqqImOA/maxresdefault.jpg",
     "creator": "ちゃらりんこクック",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
@@ -4615,6 +4507,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "shrimp",
       "atsuage",
       "aburaage",
@@ -4639,10 +4532,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "鶏肉、えび、厚揚げ、油揚げ、卵、ご飯・米、うどん、中華麺、ラーメン、パスタ、キャベツ、きゅうり、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎ、かぼちゃ、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: 鶏肉、えび、厚揚げ、油揚げ、卵、ご飯・米、うどん、中華麺、ラーメン、パスタ、キャベツ、きゅうり、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎ、かぼちゃ、にんにく、チーズ、バター。「バズってるやつ！悪魔のウインナー丼 簡単でとまらない！是非やってみて！簡単 手抜きご飯 おうちごはん 丼物 卵レシピ 一人暮らし自炊 ズボラ飯」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、えび、厚揚げ、油揚げ、卵、ご飯・米、うどん、中華麺、ラーメン、パスタ、キャベツ、きゅうり、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎ、かぼちゃ、にんにく、チーズ、バター",
+    "description": "ちゃらりんこクックの実在動画。鶏肉、白身魚、えび、厚揚げ、油揚げ、卵、ご飯・米、うどん、中華麺、ラーメン、パスタ、キャベツ、きゅうり、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ゴーヤ、玉ねぎ、かぼちゃ、にんにく、チーズ、バターを使う「バズってるやつ！悪魔のウインナー丼 簡単でとまらない！是非やってみて！簡単 手抜きご飯 おうちごはん 丼物 卵レシピ 一人暮らし自炊 ズボラ飯」のレシピです。"
   },
   {
     "title": "【アレンジ】結局みんなこういうの好きでしょ??🤤💭#アレンジレシピ #簡単レシピ #一人暮らし #ラーメン #生理前 #爆食 #ol",
@@ -4670,9 +4561,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。食材候補: ラーメン。「【アレンジ】結局みんなこういうの好きでしょ??🤤💭#アレンジレシピ #簡単レシピ #一人暮らし #ラーメン #生理前 #爆食 #ol」のレシピです。"
+    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。ラーメンを使う「【アレンジ】結局みんなこういうの好きでしょ??🤤💭#アレンジレシピ #簡単レシピ #一人暮らし #ラーメン #生理前 #爆食 #ol」のレシピです。"
   },
   {
     "title": "【爆買いウエル活】カゴいっぱいに詰める幸せ。節約する一人暮らしの月一ルーティン🛒｜食パンストック🍞｜炊飯器肉じゃが🥩",
@@ -4689,6 +4578,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜",
       "米"
@@ -4701,6 +4591,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "green_onion",
       "potato",
       "onion",
@@ -4708,10 +4599,8 @@ const recipes = [
       "konnyaku",
       "bread"
     ],
-    "rawIngredients": "豚肉、ネギ、じゃが芋、玉ねぎ、にんじん、こんにゃく、パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 豚肉、ネギ、じゃが芋、玉ねぎ、にんじん、こんにゃく、パン。「【爆買いウエル活】カゴいっぱいに詰める幸せ。節約する一人暮らしの月一ルーティン🛒｜食パンストック🍞｜炊飯器肉じゃが🥩」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ネギ、じゃが芋、玉ねぎ、にんじん、こんにゃく、パン",
+    "description": "shiroのくらしの実在動画。豚肉、白身魚、ネギ、じゃが芋、玉ねぎ、にんじん、こんにゃく、パンを使う「【爆買いウエル活】カゴいっぱいに詰める幸せ。節約する一人暮らしの月一ルーティン🛒｜食パンストック🍞｜炊飯器肉じゃが🥩」のレシピです。"
   },
   {
     "title": "料理が楽になる冷凍ライフハック！",
@@ -4727,6 +4616,7 @@ const recipes = [
     "time": "normal",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
@@ -4737,13 +4627,12 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "green_onion",
       "cheese"
     ],
-    "rawIngredients": "ネギ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "よう│明日から使えるライフハック術の実在動画。食材候補: ネギ、チーズ。「料理が楽になる冷凍ライフハック！」のレシピです。"
+    "rawIngredients": "白身魚、ネギ、チーズ",
+    "description": "よう│明日から使えるライフハック術の実在動画。白身魚、ネギ、チーズを使う「料理が楽になる冷凍ライフハック！」のレシピです。"
   },
   {
     "title": "【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕 / 鶏むね＆豚こまレシピ🐷💞",
@@ -4761,6 +4650,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "葉物野菜",
@@ -4776,16 +4666,15 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "atsuage",
       "egg",
       "spinach",
       "ginger",
       "cheese"
     ],
-    "rawIngredients": "豚肉、鶏肉、厚揚げ、卵、ほうれん草、ショウガ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 豚肉、鶏肉、厚揚げ、卵、ほうれん草、ショウガ、チーズ。「【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕 / 鶏むね＆豚こまレシピ🐷💞」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、厚揚げ、卵、ほうれん草、ショウガ、チーズ",
+    "description": "shiroのくらしの実在動画。豚肉、鶏肉、白身魚、厚揚げ、卵、ほうれん草、ショウガ、チーズを使う「【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕 / 鶏むね＆豚こまレシピ🐷💞」のレシピです。"
   },
   {
     "title": "【大正解】ニトリは一人暮らしの強い味方ですね☁️#ニトリ #購入品紹介 #一人暮らし #独身 #便利アイテム #便利グッズ #おすすめ #家電 #簡単レシピ #ズボラ飯 #ラーメン",
@@ -4813,9 +4702,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。食材候補: ラーメン。「【大正解】ニトリは一人暮らしの強い味方ですね☁️#ニトリ #購入品紹介 #一人暮らし #独身 #便利アイテム #便利グッズ #おすすめ #家電 #簡単レシピ #ズボラ飯 #ラーメン」のレシピです。"
+    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。ラーメンを使う「【大正解】ニトリは一人暮らしの強い味方ですね☁️#ニトリ #購入品紹介 #一人暮らし #独身 #便利アイテム #便利グッズ #おすすめ #家電 #簡単レシピ #ズボラ飯 #ラーメン」のレシピです。"
   },
   {
     "title": "【5日間0円自炊】一人暮らし社会人の節約ごはん記録🍚｜手羽元と鶏むねレシピ🐔",
@@ -4832,29 +4719,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "spinach",
       "komatsuna",
       "daikon",
       "milk"
     ],
-    "rawIngredients": "鶏肉、卵、ほうれん草、小松菜、大根、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 鶏肉、卵、ほうれん草、小松菜、大根、牛乳。「【5日間0円自炊】一人暮らし社会人の節約ごはん記録🍚｜手羽元と鶏むねレシピ🐔」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ほうれん草、小松菜、大根、牛乳",
+    "description": "shiroのくらしの実在動画。鶏肉、白身魚、卵、ほうれん草、小松菜、大根、牛乳を使う「【5日間0円自炊】一人暮らし社会人の節約ごはん記録🍚｜手羽元と鶏むねレシピ🐔」のレシピです。"
   },
   {
     "title": "【うどんカルボ】何回リピしたかな…娘にもできちゃうから、一人暮らしの方にオススメ！ #つやこママ #簡単レシピ #おうちごはん #ランチ #カルボナーラ #冷凍うどん",
@@ -4883,9 +4770,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "うどん、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "つやこママの実在動画。食材候補: うどん、パスタ。「【うどんカルボ】何回リピしたかな…娘にもできちゃうから、一人暮らしの方にオススメ！ #つやこママ #簡単レシピ #おうちごはん #ランチ #カルボナーラ #冷凍うどん」のレシピです。"
+    "description": "つやこママの実在動画。うどん、パスタを使う「【うどんカルボ】何回リピしたかな…娘にもできちゃうから、一人暮らしの方にオススメ！ #つやこママ #簡単レシピ #おうちごはん #ランチ #カルボナーラ #冷凍うどん」のレシピです。"
   },
   {
     "title": "手取り18万円OLの100円レシピ⁡#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #小籠包",
@@ -4921,9 +4806,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "挽肉、豆腐、ネギ、玉ねぎ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みぃ | 手取り19万円上京OLの実在動画。食材候補: 挽肉、豆腐、ネギ、玉ねぎ、ショウガ、にんにく。「手取り18万円OLの100円レシピ⁡#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #小籠包」のレシピです。"
+    "description": "みぃ | 手取り19万円上京OLの実在動画。挽肉、豆腐、ネギ、玉ねぎ、ショウガ、にんにくを使う「手取り18万円OLの100円レシピ⁡#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #小籠包」のレシピです。"
   },
   {
     "title": "【53kg→40kg】簡単なのにめっちゃ痩せる神レシピ👼🏻‎フライパンに放っとくだけで10分で5品完成💛#ダイエット #レシピ #Vlog #ルーティン#ワンパン",
@@ -4939,6 +4822,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜",
@@ -4951,6 +4835,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "komatsuna",
       "bean_sprouts",
@@ -4960,10 +4845,8 @@ const recipes = [
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "卵、小松菜、もやし、にんじん、大根、しめじ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "33ちゃんの実在動画。食材候補: 卵、小松菜、もやし、にんじん、大根、しめじ、ショウガ、にんにく。「【53kg→40kg】簡単なのにめっちゃ痩せる神レシピ👼🏻‎フライパンに放っとくだけで10分で5品完成💛#ダイエット #レシピ #Vlog #ルーティン#ワンパン」のレシピです。"
+    "rawIngredients": "白身魚、卵、小松菜、もやし、にんじん、大根、しめじ、ショウガ、にんにく",
+    "description": "33ちゃんの実在動画。白身魚、卵、小松菜、もやし、にんじん、大根、しめじ、ショウガ、にんにくを使う「【53kg→40kg】簡単なのにめっちゃ痩せる神レシピ👼🏻‎フライパンに放っとくだけで10分で5品完成💛#ダイエット #レシピ #Vlog #ルーティン#ワンパン」のレシピです。"
   },
   {
     "title": "【食費月1万円】節約の裏技！野菜を捨てない保存術と5日間のリアルな自炊記録🍚",
@@ -4994,9 +4877,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "豚肉、ネギ、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 豚肉、ネギ、なす。「【食費月1万円】節約の裏技！野菜を捨てない保存術と5日間のリアルな自炊記録🍚」のレシピです。"
+    "description": "shiroのくらしの実在動画。豚肉、ネギ、なすを使う「【食費月1万円】節約の裏技！野菜を捨てない保存術と5日間のリアルな自炊記録🍚」のレシピです。"
   },
   {
     "title": "【食費節約】あるものでやりくりする一人暮らしの自炊記録👩‍🦰🍚｜鶏むね最強レシピとアレンジ🍳 ｜すっきり片付くキッチンリセット🌿",
@@ -5013,6 +4894,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "チーズ・バター・マヨ系"
     ],
@@ -5024,13 +4906,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "tofu",
       "cheese"
     ],
-    "rawIngredients": "鶏肉、豆腐、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 鶏肉、豆腐、チーズ。「【食費節約】あるものでやりくりする一人暮らしの自炊記録👩‍🦰🍚｜鶏むね最強レシピとアレンジ🍳 ｜すっきり片付くキッチンリセット🌿」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、豆腐、チーズ",
+    "description": "shiroのくらしの実在動画。鶏肉、白身魚、豆腐、チーズを使う「【食費節約】あるものでやりくりする一人暮らしの自炊記録👩‍🦰🍚｜鶏むね最強レシピとアレンジ🍳 ｜すっきり片付くキッチンリセット🌿」のレシピです。"
   },
   {
     "title": "超簡単キャベツ焼きの作り方！おうちでたっぷりキャベツレシピ！",
@@ -5065,9 +4946,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "卵、キャベツ、ネギ、マヨネーズ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Myマイごはんの実在動画。食材候補: 卵、キャベツ、ネギ、マヨネーズ、小麦粉。「超簡単キャベツ焼きの作り方！おうちでたっぷりキャベツレシピ！」のレシピです。"
+    "description": "Myマイごはんの実在動画。卵、キャベツ、ネギ、マヨネーズ、小麦粉を使う「超簡単キャベツ焼きの作り方！おうちでたっぷりキャベツレシピ！」のレシピです。"
   },
   {
     "title": "【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕｜ アレンジ食パン🍞💞｜豚こま&むね肉の簡単レシピ🐷",
@@ -5085,6 +4964,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "根菜",
@@ -5100,6 +4980,7 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "tofu",
       "aburaage",
       "egg",
@@ -5109,10 +4990,8 @@ const recipes = [
       "butter",
       "bread"
     ],
-    "rawIngredients": "豚肉、鶏肉、豆腐、油揚げ、卵、にんじん、ショウガ、にんにく、バター、パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 豚肉、鶏肉、豆腐、油揚げ、卵、にんじん、ショウガ、にんにく、バター、パン。「【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕｜ アレンジ食パン🍞💞｜豚こま&むね肉の簡単レシピ🐷」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、豆腐、油揚げ、卵、にんじん、ショウガ、にんにく、バター、パン",
+    "description": "shiroのくらしの実在動画。豚肉、鶏肉、白身魚、豆腐、油揚げ、卵、にんじん、ショウガ、にんにく、バター、パンを使う「【節約のコツ】一人暮らし社会人の自炊記録🍚｜野菜長持ち保存🥕｜ アレンジ食パン🍞💞｜豚こま&むね肉の簡単レシピ🐷」のレシピです。"
   },
   {
     "title": "究極の手抜き焼きそば。これでいいんだよ。「焼きそば焼き」 詳しいレシピは概要欄をチェック！#簡単レシピ #焼きそば #一人暮らし #節約レシピ #料理動画 #shorts",
@@ -5147,9 +5026,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、そば、中華麺、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 卵、そば、中華麺、ネギ、マヨネーズ。「究極の手抜き焼きそば。これでいいんだよ。「焼きそば焼き」 詳しいレシピは概要欄をチェック！#簡単レシピ #焼きそば #一人暮らし #節約レシピ #料理動画 #shorts」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。卵、そば、中華麺、ネギ、マヨネーズを使う「究極の手抜き焼きそば。これでいいんだよ。「焼きそば焼き」 詳しいレシピは概要欄をチェック！#簡単レシピ #焼きそば #一人暮らし #節約レシピ #料理動画 #shorts」のレシピです。"
   },
   {
     "title": "【業スー】おすすめ調味料でアレンジレシピ7選",
@@ -5186,6 +5063,7 @@ const recipes = [
       "chicken",
       "minced_meat",
       "mackerel",
+      "whitefish",
       "tofu",
       "atsuage",
       "egg",
@@ -5198,10 +5076,8 @@ const recipes = [
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、鶏肉、挽肉、サバ、豆腐、厚揚げ、卵、ビーフン・フォー、パスタ、ネギ、ブロッコリー、玉ねぎ、にんにく、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: 豚肉、鶏肉、挽肉、サバ、豆腐、厚揚げ、卵、ビーフン・フォー、パスタ、ネギ、ブロッコリー、玉ねぎ、にんにく、チーズ、マヨネーズ。「【業スー】おすすめ調味料でアレンジレシピ7選」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、挽肉、サバ、白身魚、豆腐、厚揚げ、卵、ビーフン・フォー、パスタ、ネギ、ブロッコリー、玉ねぎ、にんにく、チーズ、マヨネーズ",
+    "description": "りんのおうちごはんの実在動画。豚肉、鶏肉、挽肉、サバ、白身魚、豆腐、厚揚げ、卵、ビーフン・フォー、パスタ、ネギ、ブロッコリー、玉ねぎ、にんにく、チーズ、マヨネーズを使う「【業スー】おすすめ調味料でアレンジレシピ7選」のレシピです。"
   },
   {
     "title": "食費1～1.5万円の人ってなに食べてるの？🍚",
@@ -5218,6 +5094,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "根菜",
@@ -5225,23 +5102,22 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "tofu",
       "green_onion",
       "onion",
       "enoki",
       "cheese"
     ],
-    "rawIngredients": "挽肉、豆腐、ネギ、玉ねぎ、えのき茸、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なっぱの実在動画。食材候補: 挽肉、豆腐、ネギ、玉ねぎ、えのき茸、チーズ。「食費1～1.5万円の人ってなに食べてるの？🍚」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、豆腐、ネギ、玉ねぎ、えのき茸、チーズ",
+    "description": "なっぱの実在動画。挽肉、白身魚、豆腐、ネギ、玉ねぎ、えのき茸、チーズを使う「食費1～1.5万円の人ってなに食べてるの？🍚」のレシピです。"
   },
   {
     "title": "【初】2人暮らし始めました！",
@@ -5253,7 +5129,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/buvSGcVYQ08/maxresdefault.jpg",
     "creator": "りんのおうちごはん",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -5269,9 +5145,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: 卵。「【初】2人暮らし始めました！」のレシピです。"
+    "description": "りんのおうちごはんの実在動画。卵を使う「【初】2人暮らし始めました！」のレシピです。"
   },
   {
     "title": "【アラフィフ独身女】孤独の夜｜ひとりで過ごすナイトルーティン【無職】【築48年団地】",
@@ -5287,18 +5161,20 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "egg",
       "nira",
@@ -5306,10 +5182,8 @@ const recipes = [
       "daikon",
       "ginger"
     ],
-    "rawIngredients": "豆腐、卵、にら、ネギ、大根、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "杏と猫の小さな暮らしの実在動画。食材候補: 豆腐、卵、にら、ネギ、大根、ショウガ。「【アラフィフ独身女】孤独の夜｜ひとりで過ごすナイトルーティン【無職】【築48年団地】」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、卵、にら、ネギ、大根、ショウガ",
+    "description": "杏と猫の小さな暮らしの実在動画。白身魚、豆腐、卵、にら、ネギ、大根、ショウガを使う「【アラフィフ独身女】孤独の夜｜ひとりで過ごすナイトルーティン【無職】【築48年団地】」のレシピです。"
   },
   {
     "title": "【超濃厚】どん兵衛で明太クリームうどん💭#アレンジレシピ #簡単レシピ #簡単アレンジ #アレンジ #一人暮らし #ol #うどん #カップ麺",
@@ -5337,9 +5211,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。食材候補: うどん。「【超濃厚】どん兵衛で明太クリームうどん💭#アレンジレシピ #簡単レシピ #簡単アレンジ #アレンジ #一人暮らし #ol #うどん #カップ麺」のレシピです。"
+    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。うどんを使う「【超濃厚】どん兵衛で明太クリームうどん💭#アレンジレシピ #簡単レシピ #簡単アレンジ #アレンジ #一人暮らし #ol #うどん #カップ麺」のレシピです。"
   },
   {
     "title": "【超濃厚】残った汁にうどんを入れても美味しいよ☁️#簡単レシピ #アレンジ #アレンジレシピ #ラーメン #たらこ #味噌ラーメン #日常vlog #一人暮らし #おすすめ #独身女子",
@@ -5351,10 +5223,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/_GkgXQ-0PwY/maxresdefault.jpg",
     "creator": "かわいいすし♡ | ときめくものに囲まれたい",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -5364,13 +5237,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "ramen"
     ],
-    "rawIngredients": "うどん、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。食材候補: うどん、ラーメン。「【超濃厚】残った汁にうどんを入れても美味しいよ☁️#簡単レシピ #アレンジ #アレンジレシピ #ラーメン #たらこ #味噌ラーメン #日常vlog #一人暮らし #おすすめ #独身女子」のレシピです。"
+    "rawIngredients": "白身魚、うどん、ラーメン",
+    "description": "かわいいすし♡ | ときめくものに囲まれたいの実在動画。白身魚、うどん、ラーメンを使う「【超濃厚】残った汁にうどんを入れても美味しいよ☁️#簡単レシピ #アレンジ #アレンジレシピ #ラーメン #たらこ #味噌ラーメン #日常vlog #一人暮らし #おすすめ #独身女子」のレシピです。"
   },
   {
     "title": "【簡単レシピ】レンジで簡単小籠包 #自炊 #小籠包 #料理 #レシピ #一人暮らし",
@@ -5404,9 +5276,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "挽肉、ネギ、玉ねぎ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いふのきまぐれキッチンの実在動画。食材候補: 挽肉、ネギ、玉ねぎ、ショウガ、にんにく。「【簡単レシピ】レンジで簡単小籠包 #自炊 #小籠包 #料理 #レシピ #一人暮らし」のレシピです。"
+    "description": "いふのきまぐれキッチンの実在動画。挽肉、ネギ、玉ねぎ、ショウガ、にんにくを使う「【簡単レシピ】レンジで簡単小籠包 #自炊 #小籠包 #料理 #レシピ #一人暮らし」のレシピです。"
   },
   {
     "title": "一人暮らしの貧乏飯|味玉#簡単レシピ #節約レシピ #卵料理",
@@ -5418,7 +5288,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/COykBxqGmIQ/maxresdefault.jpg",
     "creator": "ぼっちぱーてぃー",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -5434,9 +5304,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぼっちぱーてぃーの実在動画。食材候補: 卵。「一人暮らしの貧乏飯|味玉#簡単レシピ #節約レシピ #卵料理」のレシピです。"
+    "description": "ぼっちぱーてぃーの実在動画。卵を使う「一人暮らしの貧乏飯|味玉#簡単レシピ #節約レシピ #卵料理」のレシピです。"
   },
   {
     "title": "ヘルシーだけどガッツリ食べたい！豆腐ハンバーグ🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #レンチンレシピ",
@@ -5464,9 +5332,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: 豆腐。「ヘルシーだけどガッツリ食べたい！豆腐ハンバーグ🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #レンチンレシピ」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。豆腐を使う「ヘルシーだけどガッツリ食べたい！豆腐ハンバーグ🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #レンチンレシピ」のレシピです。"
   },
   {
     "title": "チキンのクリーム煮#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#クリーム煮",
@@ -5483,6 +5349,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系",
@@ -5496,6 +5363,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "spinach",
       "green_onion",
       "onion",
@@ -5505,10 +5373,8 @@ const recipes = [
       "milk",
       "flour"
     ],
-    "rawIngredients": "鶏肉、ほうれん草、ネギ、玉ねぎ、にんじん、チーズ、バター、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。食材候補: 鶏肉、ほうれん草、ネギ、玉ねぎ、にんじん、チーズ、バター、牛乳、小麦粉。「チキンのクリーム煮#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#クリーム煮」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ほうれん草、ネギ、玉ねぎ、にんじん、チーズ、バター、牛乳、小麦粉",
+    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。鶏肉、白身魚、ほうれん草、ネギ、玉ねぎ、にんじん、チーズ、バター、牛乳、小麦粉を使う「チキンのクリーム煮#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#クリーム煮」のレシピです。"
   },
   {
     "title": "【簡単レシピ】包丁いらずの豚もやし #自炊 #もやし #料理 #一人暮らし",
@@ -5525,6 +5391,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "きのこ",
       "根菜"
@@ -5537,15 +5404,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "green_onion",
       "bean_sprouts",
       "enoki",
       "ginger"
     ],
-    "rawIngredients": "豚肉、ネギ、もやし、えのき茸、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いふのきまぐれキッチンの実在動画。食材候補: 豚肉、ネギ、もやし、えのき茸、ショウガ。「【簡単レシピ】包丁いらずの豚もやし #自炊 #もやし #料理 #一人暮らし」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ネギ、もやし、えのき茸、ショウガ",
+    "description": "いふのきまぐれキッチンの実在動画。豚肉、白身魚、ネギ、もやし、えのき茸、ショウガを使う「【簡単レシピ】包丁いらずの豚もやし #自炊 #もやし #料理 #一人暮らし」のレシピです。"
   },
   {
     "title": "老いる寂しさ一人暮らしの虚しい現実とは？",
@@ -5573,9 +5439,35 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "きほんひとり Cook, eat and talkの実在動画。食材候補: ショウガ。「老いる寂しさ一人暮らしの虚しい現実とは？」のレシピです。"
+    "description": "きほんひとり Cook, eat and talkの実在動画。ショウガを使う「老いる寂しさ一人暮らしの虚しい現実とは？」のレシピです。"
+  },
+  {
+    "title": "【還暦で始めた資産づくり】私の老後資金に新しい目標",
+    "platform": "youtube",
+    "externalId": "RXu1tp9CgEQ",
+    "videoUrl": "https://www.youtube.com/watch?v=RXu1tp9CgEQ",
+    "videoId": "RXu1tp9CgEQ",
+    "url": "https://www.youtube.com/watch?v=RXu1tp9CgEQ",
+    "thumbnailUrl": "https://i.ytimg.com/vi/RXu1tp9CgEQ/maxresdefault.jpg",
+    "creator": "まめ子のシニア生活始まるよ",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "まめ子のシニア生活始まるよの実在動画。白身魚を使う「【還暦で始めた資産づくり】私の老後資金に新しい目標」のレシピです。"
   },
   {
     "title": "【50代女性一人暮らし】幅85cmの狭いキッチンで作る、3日間のお弁当と簡単ごはん",
@@ -5609,16 +5501,15 @@ const recipes = [
       "ham",
       "mackerel",
       "yellowtail",
+      "whitefish",
       "atsuage",
       "egg",
       "green_onion",
       "bell_pepper",
       "onion"
     ],
-    "rawIngredients": "豚肉、ハム、サバ、ブリ、厚揚げ、卵、ネギ、ピーマン、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "レバミチャンネルの実在動画。食材候補: 豚肉、ハム、サバ、ブリ、厚揚げ、卵、ネギ、ピーマン、玉ねぎ。「【50代女性一人暮らし】幅85cmの狭いキッチンで作る、3日間のお弁当と簡単ごはん」のレシピです。"
+    "rawIngredients": "豚肉、ハム、サバ、ブリ、白身魚、厚揚げ、卵、ネギ、ピーマン、玉ねぎ",
+    "description": "レバミチャンネルの実在動画。豚肉、ハム、サバ、ブリ、白身魚、厚揚げ、卵、ネギ、ピーマン、玉ねぎを使う「【50代女性一人暮らし】幅85cmの狭いキッチンで作る、3日間のお弁当と簡単ごはん」のレシピです。"
   },
   {
     "title": "【ダイエット飯🔥】無限豚もやし🥗#ダイエットレシピ #料理 #自炊 #簡単レシピ #ダイエット",
@@ -5646,9 +5537,7 @@ const recipes = [
       "bean_sprouts"
     ],
     "rawIngredients": "もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かなやん〔kana〕の実在動画。食材候補: もやし。「【ダイエット飯🔥】無限豚もやし🥗#ダイエットレシピ #料理 #自炊 #簡単レシピ #ダイエット」のレシピです。"
+    "description": "かなやん〔kana〕の実在動画。もやしを使う「【ダイエット飯🔥】無限豚もやし🥗#ダイエットレシピ #料理 #自炊 #簡単レシピ #ダイエット」のレシピです。"
   },
   {
     "title": "二度と鍋つゆを買わなくなる。一人前89円でバカウマい全人類救済鍋『虚無鍋』",
@@ -5665,6 +5554,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜"
     ],
@@ -5676,13 +5566,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "bean_sprouts"
     ],
-    "rawIngredients": "豚肉、卵、もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 豚肉、卵、もやし。「二度と鍋つゆを買わなくなる。一人前89円でバカウマい全人類救済鍋『虚無鍋』」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、もやし",
+    "description": "料理研究家リュウジのバズレシピの実在動画。豚肉、白身魚、卵、もやしを使う「二度と鍋つゆを買わなくなる。一人前89円でバカウマい全人類救済鍋『虚無鍋』」のレシピです。"
   },
   {
     "title": "【12キロ痩せたOL】10分弁当🍱#ズボラ弁当 #ズボラレシピ #簡単レシピ #弁当作り #ダイエットレシピ #shorts",
@@ -5709,12 +5598,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "mayonnaise"
     ],
-    "rawIngredients": "サケ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆぴ〻-12kgラク痩せズボラレシピ♡ˊ˗の実在動画。食材候補: サケ、マヨネーズ。「【12キロ痩せたOL】10分弁当🍱#ズボラ弁当 #ズボラレシピ #簡単レシピ #弁当作り #ダイエットレシピ #shorts」のレシピです。"
+    "rawIngredients": "サケ、白身魚、マヨネーズ",
+    "description": "ゆぴ〻-12kgラク痩せズボラレシピ♡ˊ˗の実在動画。サケ、白身魚、マヨネーズを使う「【12キロ痩せたOL】10分弁当🍱#ズボラ弁当 #ズボラレシピ #簡単レシピ #弁当作り #ダイエットレシピ #shorts」のレシピです。"
   },
   {
     "title": "【2ch有益スレ】一人暮らし自炊民のワイにマジで健康な貧乏飯レシピ教えてw【ゆっくり解説】",
@@ -5731,27 +5619,27 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "tofu",
       "bean_sprouts",
       "lettuce",
       "eggplant",
       "bitter_melon"
     ],
-    "rawIngredients": "牛肉、豆腐、もやし、レタス、なす、ゴーヤ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "2ch有益ライハまとめ【ゆっくり解説】の実在動画。食材候補: 牛肉、豆腐、もやし、レタス、なす、ゴーヤ。「【2ch有益スレ】一人暮らし自炊民のワイにマジで健康な貧乏飯レシピ教えてw【ゆっくり解説】」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、豆腐、もやし、レタス、なす、ゴーヤ",
+    "description": "2ch有益ライハまとめ【ゆっくり解説】の実在動画。牛肉、白身魚、豆腐、もやし、レタス、なす、ゴーヤを使う「【2ch有益スレ】一人暮らし自炊民のワイにマジで健康な貧乏飯レシピ教えてw【ゆっくり解説】」のレシピです。"
   },
   {
     "title": "食材２つだけ！高タンパク質で痩せる鶏ネギ塩炒め弁当【1食200円】",
@@ -5779,9 +5667,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: ネギ。「食材２つだけ！高タンパク質で痩せる鶏ネギ塩炒め弁当【1食200円】」のレシピです。"
+    "description": "りんのおうちごはんの実在動画。ネギを使う「食材２つだけ！高タンパク質で痩せる鶏ネギ塩炒め弁当【1食200円】」のレシピです。"
   },
   {
     "title": "食費1ヶ月1万円の一人暮らしご飯【1週間分紹介】担々そうめん/レモンペッパーチキン/オクラ豚しゃぶ…etc💛",
@@ -5813,9 +5699,7 @@ const recipes = [
       "somen"
     ],
     "rawIngredients": "鶏肉、卵、そうめん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: 鶏肉、卵、そうめん。「食費1ヶ月1万円の一人暮らしご飯【1週間分紹介】担々そうめん/レモンペッパーチキン/オクラ豚しゃぶ…etc💛」のレシピです。"
+    "description": "りんのおうちごはんの実在動画。鶏肉、卵、そうめんを使う「食費1ヶ月1万円の一人暮らしご飯【1週間分紹介】担々そうめん/レモンペッパーチキン/オクラ豚しゃぶ…etc💛」のレシピです。"
   },
   {
     "title": "57歳初めてのせいろ料理",
@@ -5827,11 +5711,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/17bm1K-wOqM/maxresdefault.jpg",
     "creator": "りさねーぜ ひとりの戸建て暮らし",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
-      "鶏肉"
+      "鶏肉",
+      "魚介"
     ],
     "oil": 2,
     "effort": 3,
@@ -5840,12 +5725,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
-      "chicken"
+      "chicken",
+      "whitefish"
     ],
-    "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りさねーぜ ひとりの戸建て暮らしの実在動画。食材候補: 鶏肉。「57歳初めてのせいろ料理」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚",
+    "description": "りさねーぜ ひとりの戸建て暮らしの実在動画。鶏肉、白身魚を使う「57歳初めてのせいろ料理」のレシピです。"
   },
   {
     "title": "レンジで1発！やる気1％オムライス",
@@ -5861,6 +5745,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "チーズ・バター・マヨ系"
@@ -5872,14 +5757,41 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、ご飯・米、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、ご飯・米、マヨネーズ。「レンジで1発！やる気1％オムライス」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、ご飯・米、マヨネーズを使う「レンジで1発！やる気1％オムライス」のレシピです。"
+  },
+  {
+    "title": "【一人暮らし】狭いキッチンで10品爆誕させる👩🏻‍🍳保存期間も紹介してます🫶 #一人暮らし #節約レシピ",
+    "platform": "youtube",
+    "externalId": "Zm8DNCPPmQY",
+    "videoUrl": "https://www.youtube.com/watch?v=Zm8DNCPPmQY",
+    "videoId": "Zm8DNCPPmQY",
+    "url": "https://www.youtube.com/watch?v=Zm8DNCPPmQY",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Zm8DNCPPmQY/maxresdefault.jpg",
+    "creator": "うりよ | ズボラ社会人",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "うりよ | ズボラ社会人の実在動画。白身魚を使う「【一人暮らし】狭いキッチンで10品爆誕させる👩🏻‍🍳保存期間も紹介してます🫶 #一人暮らし #節約レシピ」のレシピです。"
   },
   {
     "title": "食費1ヶ月1万円の一人暮らしごはん【1週間分紹介】 /Weekly Cooking",
@@ -5891,7 +5803,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/Zl_MvEZIS5k/maxresdefault.jpg",
     "creator": "りんのおうちごはん",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -5907,9 +5819,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: 卵。「食費1ヶ月1万円の一人暮らしごはん【1週間分紹介】 /Weekly Cooking」のレシピです。"
+    "description": "りんのおうちごはんの実在動画。卵を使う「食費1ヶ月1万円の一人暮らしごはん【1週間分紹介】 /Weekly Cooking」のレシピです。"
   },
   {
     "title": "【 食費月一万円 】節約ごはんを楽しむ一人暮らし社会人のごはん記録 / 野菜保存法🥕 / おにぎり大量ストック🍙🧡",
@@ -5943,6 +5853,7 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "salmon",
+      "whitefish",
       "canned_tuna",
       "atsuage",
       "egg",
@@ -5953,10 +5864,8 @@ const recipes = [
       "ginger",
       "butter"
     ],
-    "rawIngredients": "豚肉、サケ、ツナ、厚揚げ、卵、ご飯・米、ほうれん草、コーン缶、昆布、ショウガ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 豚肉、サケ、ツナ、厚揚げ、卵、ご飯・米、ほうれん草、コーン缶、昆布、ショウガ、バター。「【 食費月一万円 】節約ごはんを楽しむ一人暮らし社会人のごはん記録 / 野菜保存法🥕 / おにぎり大量ストック🍙🧡」のレシピです。"
+    "rawIngredients": "豚肉、サケ、白身魚、ツナ、厚揚げ、卵、ご飯・米、ほうれん草、コーン缶、昆布、ショウガ、バター",
+    "description": "shiroのくらしの実在動画。豚肉、サケ、白身魚、ツナ、厚揚げ、卵、ご飯・米、ほうれん草、コーン缶、昆布、ショウガ、バターを使う「【 食費月一万円 】節約ごはんを楽しむ一人暮らし社会人のごはん記録 / 野菜保存法🥕 / おにぎり大量ストック🍙🧡」のレシピです。"
   },
   {
     "title": "\\ 炊飯器に入れるだけ / 鶏ももバター醤油ご飯 ↓↓↓ レシピの詳細はコメントから #レシピ #簡単レシピ #炊飯器レシピ",
@@ -5986,9 +5895,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "鶏肉、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さしみ@引きこもり飯の実在動画。食材候補: 鶏肉、バター。「\\ 炊飯器に入れるだけ / 鶏ももバター醤油ご飯 ↓↓↓ レシピの詳細はコメントから #レシピ #簡単レシピ #炊飯器レシピ」のレシピです。"
+    "description": "さしみ@引きこもり飯の実在動画。鶏肉、バターを使う「\\ 炊飯器に入れるだけ / 鶏ももバター醤油ご飯 ↓↓↓ レシピの詳細はコメントから #レシピ #簡単レシピ #炊飯器レシピ」のレシピです。"
   },
   {
     "title": "\\常備して10kg痩せた/時短味噌汁#ダイエット #ダイエットレシピ #ヘルシーレシピ",
@@ -6019,9 +5926,7 @@ const recipes = [
       "wakame"
     ],
     "rawIngredients": "えび、キャベツ、わかめ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "chiaki_beautydietの実在動画。食材候補: えび、キャベツ、わかめ。「\\常備して10kg痩せた/時短味噌汁#ダイエット #ダイエットレシピ #ヘルシーレシピ」のレシピです。"
+    "description": "chiaki_beautydietの実在動画。えび、キャベツ、わかめを使う「\\常備して10kg痩せた/時短味噌汁#ダイエット #ダイエットレシピ #ヘルシーレシピ」のレシピです。"
   },
   {
     "title": "【1食186円】無限豚こま南蛮弁当",
@@ -6049,9 +5954,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えい | 1食200円以下の冷凍弁当ストックの実在動画。食材候補: 豚肉。「【1食186円】無限豚こま南蛮弁当」のレシピです。"
+    "description": "えい | 1食200円以下の冷凍弁当ストックの実在動画。豚肉を使う「【1食186円】無限豚こま南蛮弁当」のレシピです。"
   },
   {
     "title": "箸がとまらない無限鶏むね肉！！ #おつまみレシピ #簡単レシピ #主婦 #おうち居酒屋",
@@ -6079,9 +5982,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いそじま夫婦のお酒と料理チャンネルの実在動画。食材候補: 鶏肉。「箸がとまらない無限鶏むね肉！！ #おつまみレシピ #簡単レシピ #主婦 #おうち居酒屋」のレシピです。"
+    "description": "いそじま夫婦のお酒と料理チャンネルの実在動画。鶏肉を使う「箸がとまらない無限鶏むね肉！！ #おつまみレシピ #簡単レシピ #主婦 #おうち居酒屋」のレシピです。"
   },
   {
     "title": "＼ヘルシー豆腐グラタン／ #レンジレシピ #高タンパクレシピ #簡単レシピ #一人暮らしレシピ #豆腐レシピ",
@@ -6109,9 +6010,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "のあ【40代独身オタクのレンチン飯】の実在動画。食材候補: 豆腐。「＼ヘルシー豆腐グラタン／ #レンジレシピ #高タンパクレシピ #簡単レシピ #一人暮らしレシピ #豆腐レシピ」のレシピです。"
+    "description": "のあ【40代独身オタクのレンチン飯】の実在動画。豆腐を使う「＼ヘルシー豆腐グラタン／ #レンジレシピ #高タンパクレシピ #簡単レシピ #一人暮らしレシピ #豆腐レシピ」のレシピです。"
   },
   {
     "title": "㊗️100万再生 10分で作れる、とても美味しいチャーハン",
@@ -6139,9 +6038,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "家政夫ミツキの10分作りおきの実在動画。食材候補: ご飯・米。「㊗️100万再生 10分で作れる、とても美味しいチャーハン」のレシピです。"
+    "description": "家政夫ミツキの10分作りおきの実在動画。ご飯・米を使う「㊗️100万再生 10分で作れる、とても美味しいチャーハン」のレシピです。"
   },
   {
     "title": "【1、5、10年目】一人暮らし男の自炊あるある",
@@ -6174,9 +6071,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "牛肉、うどん、パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "孤独の厨の実在動画。食材候補: 牛肉、うどん、パスタ、にんにく。「【1、5、10年目】一人暮らし男の自炊あるある」のレシピです。"
+    "description": "孤独の厨の実在動画。牛肉、うどん、パスタ、にんにくを使う「【1、5、10年目】一人暮らし男の自炊あるある」のレシピです。"
   },
   {
     "title": "【冷凍ストック5日分】豚キムチうどん",
@@ -6193,6 +6088,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜"
@@ -6205,15 +6101,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "udon",
       "rice_noodles",
       "bean_sprouts"
     ],
-    "rawIngredients": "豚肉、卵、うどん、ビーフン・フォー、もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "れこちゃんねるの実在動画。食材候補: 豚肉、卵、うどん、ビーフン・フォー、もやし。「【冷凍ストック5日分】豚キムチうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、うどん、ビーフン・フォー、もやし",
+    "description": "れこちゃんねるの実在動画。豚肉、白身魚、卵、うどん、ビーフン・フォー、もやしを使う「【冷凍ストック5日分】豚キムチうどん」のレシピです。"
   },
   {
     "title": "イオン系スーパーまいばすけっとで2500円分爆買い🛒トップバリュー商品で絶対真似できるアレンジレシピも㊙️",
@@ -6225,7 +6120,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/hLF11viS9t8/maxresdefault.jpg",
     "creator": "りんのおうちごはん",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -6241,9 +6136,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: 卵。「イオン系スーパーまいばすけっとで2500円分爆買い🛒トップバリュー商品で絶対真似できるアレンジレシピも㊙️」のレシピです。"
+    "description": "りんのおうちごはんの実在動画。卵を使う「イオン系スーパーまいばすけっとで2500円分爆買い🛒トップバリュー商品で絶対真似できるアレンジレシピも㊙️」のレシピです。"
   },
   {
     "title": "👛一人前60円🧊冷凍ストック【フレンチトースト】",
@@ -6271,9 +6164,7 @@ const recipes = [
       "bread"
     ],
     "rawIngredients": "パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ふにの実在動画。食材候補: パン。「👛一人前60円🧊冷凍ストック【フレンチトースト】」のレシピです。"
+    "description": "ふにの実在動画。パンを使う「👛一人前60円🧊冷凍ストック【フレンチトースト】」のレシピです。"
   },
   {
     "title": "カチコチ冷凍のまま作れる【激うま鶏むねチャーシュー】",
@@ -6285,11 +6176,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/klcd3W9kg64/maxresdefault.jpg",
     "creator": "きい┆-6kg ‣‣ 綺麗に痩せる鶏むね肉レシピ𓎩",
     "style": "YouTube Data API収集",
-    "taste": "semi-light",
+    "taste": "light",
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "根菜"
     ],
@@ -6301,14 +6193,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、卵、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "きい┆-6kg ‣‣ 綺麗に痩せる鶏むね肉レシピ𓎩の実在動画。食材候補: 鶏肉、卵、ショウガ、にんにく。「カチコチ冷凍のまま作れる【激うま鶏むねチャーシュー】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ショウガ、にんにく",
+    "description": "きい┆-6kg ‣‣ 綺麗に痩せる鶏むね肉レシピ𓎩の実在動画。鶏肉、白身魚、卵、ショウガ、にんにくを使う「カチコチ冷凍のまま作れる【激うま鶏むねチャーシュー】」のレシピです。"
   },
   {
     "title": "【ワンパン15分】鮭のクリーム煮 #ワンパンレシピ #ワーママ",
@@ -6339,6 +6230,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "shrimp",
       "spinach",
       "green_onion",
@@ -6351,10 +6243,8 @@ const recipes = [
       "milk",
       "flour"
     ],
-    "rawIngredients": "サケ、えび、ほうれん草、ネギ、ピーマン、ブロッコリー、玉ねぎ、しめじ、にんにく、バター、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みこ ⌇ずぼらママの簡単ワンプレートご飯の実在動画。食材候補: サケ、えび、ほうれん草、ネギ、ピーマン、ブロッコリー、玉ねぎ、しめじ、にんにく、バター、牛乳、小麦粉。「【ワンパン15分】鮭のクリーム煮 #ワンパンレシピ #ワーママ」のレシピです。"
+    "rawIngredients": "サケ、白身魚、えび、ほうれん草、ネギ、ピーマン、ブロッコリー、玉ねぎ、しめじ、にんにく、バター、牛乳、小麦粉",
+    "description": "みこ ⌇ずぼらママの簡単ワンプレートご飯の実在動画。サケ、白身魚、えび、ほうれん草、ネギ、ピーマン、ブロッコリー、玉ねぎ、しめじ、にんにく、バター、牛乳、小麦粉を使う「【ワンパン15分】鮭のクリーム煮 #ワンパンレシピ #ワーママ」のレシピです。"
   },
   {
     "title": "節約チーズケーキ🍰#節約レシピ #自炊記録 #一人暮らし",
@@ -6382,9 +6272,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うりよ | ズボラ社会人の実在動画。食材候補: チーズ。「節約チーズケーキ🍰#節約レシピ #自炊記録 #一人暮らし」のレシピです。"
+    "description": "うりよ | ズボラ社会人の実在動画。チーズを使う「節約チーズケーキ🍰#節約レシピ #自炊記録 #一人暮らし」のレシピです。"
   },
   {
     "title": "材料２つ！一人暮らしの節約ツナ缶うどん！#節約料理 #節約 #節約飯 #簡単レシピ",
@@ -6414,9 +6302,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "ツナ、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "引きこもりの節約レシピの実在動画。食材候補: ツナ、うどん。「材料２つ！一人暮らしの節約ツナ缶うどん！#節約料理 #節約 #節約飯 #簡単レシピ」のレシピです。"
+    "description": "引きこもりの節約レシピの実在動画。ツナ、うどんを使う「材料２つ！一人暮らしの節約ツナ缶うどん！#節約料理 #節約 #節約飯 #簡単レシピ」のレシピです。"
   },
   {
     "title": "＼やみつきコクマヨ／ソーセージパスタ🍝 #レンジレシピ #簡単レシピ #一人暮らしレシピ #パスタレシピ #レンチンレシピ #ズボラレシピ #高タンパク質メニュー",
@@ -6446,9 +6332,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "パスタ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "のあ【40代独身オタクのレンチン飯】の実在動画。食材候補: パスタ、マヨネーズ。「＼やみつきコクマヨ／ソーセージパスタ🍝 #レンジレシピ #簡単レシピ #一人暮らしレシピ #パスタレシピ #レンチンレシピ #ズボラレシピ #高タンパク質メニュー」のレシピです。"
+    "description": "のあ【40代独身オタクのレンチン飯】の実在動画。パスタ、マヨネーズを使う「＼やみつきコクマヨ／ソーセージパスタ🍝 #レンジレシピ #簡単レシピ #一人暮らしレシピ #パスタレシピ #レンチンレシピ #ズボラレシピ #高タンパク質メニュー」のレシピです。"
   },
   {
     "title": "親子丼レシピはこれだけでいい！究極の親子丼レシピ #簡単レシピ #親子丼",
@@ -6476,9 +6360,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちぇる ダイエット食堂の実在動画。食材候補: ご飯・米。「親子丼レシピはこれだけでいい！究極の親子丼レシピ #簡単レシピ #親子丼」のレシピです。"
+    "description": "ちぇる ダイエット食堂の実在動画。ご飯・米を使う「親子丼レシピはこれだけでいい！究極の親子丼レシピ #簡単レシピ #親子丼」のレシピです。"
   },
   {
     "title": "一度に作って大量冷凍！忙しくても手間なしで野菜＆たんぱく質がとれる【一人鍋冷凍セット】基本のストックとアレンジレシピ5選",
@@ -6496,6 +6378,7 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜",
       "きのこ",
@@ -6510,6 +6393,7 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "minced_meat",
+      "whitefish",
       "cabbage",
       "tomato",
       "carrot",
@@ -6520,10 +6404,36 @@ const recipes = [
       "butter",
       "curry_roux"
     ],
-    "rawIngredients": "鶏肉、挽肉、キャベツ、トマト、にんじん、かぼちゃ、レンコン、しめじ、チーズ、バター、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "おすぎ(管理栄養士)の実在動画。食材候補: 鶏肉、挽肉、キャベツ、トマト、にんじん、かぼちゃ、レンコン、しめじ、チーズ、バター、カレールゥ。「一度に作って大量冷凍！忙しくても手間なしで野菜＆たんぱく質がとれる【一人鍋冷凍セット】基本のストックとアレンジレシピ5選」のレシピです。"
+    "rawIngredients": "鶏肉、挽肉、白身魚、キャベツ、トマト、にんじん、かぼちゃ、レンコン、しめじ、チーズ、バター、カレールゥ",
+    "description": "おすぎ(管理栄養士)の実在動画。鶏肉、挽肉、白身魚、キャベツ、トマト、にんじん、かぼちゃ、レンコン、しめじ、チーズ、バター、カレールゥを使う「一度に作って大量冷凍！忙しくても手間なしで野菜＆たんぱく質がとれる【一人鍋冷凍セット】基本のストックとアレンジレシピ5選」のレシピです。"
+  },
+  {
+    "title": "食費８万を辞めたら#節約主婦#簡単レシピ#貯金",
+    "platform": "youtube",
+    "externalId": "yD8bmes2pj0",
+    "videoUrl": "https://www.youtube.com/watch?v=yD8bmes2pj0",
+    "videoId": "yD8bmes2pj0",
+    "url": "https://www.youtube.com/watch?v=yD8bmes2pj0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/yD8bmes2pj0/maxresdefault.jpg",
+    "creator": "ヒナマル",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "ヒナマルの実在動画。白身魚を使う「食費８万を辞めたら#節約主婦#簡単レシピ#貯金」のレシピです。"
   },
   {
     "title": "仕事の日でも料理を楽しむ｜一人暮らし会社員の平日ごはん",
@@ -6556,9 +6466,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "サケ、卵、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅんの節約生活の実在動画。食材候補: サケ、卵、チーズ、マヨネーズ。「仕事の日でも料理を楽しむ｜一人暮らし会社員の平日ごはん」のレシピです。"
+    "description": "しゅんの節約生活の実在動画。サケ、卵、チーズ、マヨネーズを使う「仕事の日でも料理を楽しむ｜一人暮らし会社員の平日ごはん」のレシピです。"
   },
   {
     "title": "【簡単レシピ】炊飯器に入れるだけウインナーチャーハン！!#炊飯器レシピ",
@@ -6586,9 +6494,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "暇人クッキング【簡単レシピ】の実在動画。食材候補: ご飯・米。「【簡単レシピ】炊飯器に入れるだけウインナーチャーハン！!#炊飯器レシピ」のレシピです。"
+    "description": "暇人クッキング【簡単レシピ】の実在動画。ご飯・米を使う「【簡単レシピ】炊飯器に入れるだけウインナーチャーハン！!#炊飯器レシピ」のレシピです。"
   },
   {
     "title": "【2ch有益スレ】一人暮らしのワイにガチ簡単な料理教えてクレメンスｗ【ゆっくり解説】",
@@ -6605,6 +6511,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -6617,6 +6524,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "udon",
       "pasta",
       "tomato",
@@ -6624,10 +6532,8 @@ const recipes = [
       "kombu",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、うどん、パスタ、トマト、コーン缶、昆布、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "2ch有益ライハまとめ【ゆっくり解説】の実在動画。食材候補: 鶏肉、うどん、パスタ、トマト、コーン缶、昆布、にんにく。「【2ch有益スレ】一人暮らしのワイにガチ簡単な料理教えてクレメンスｗ【ゆっくり解説】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、うどん、パスタ、トマト、コーン缶、昆布、にんにく",
+    "description": "2ch有益ライハまとめ【ゆっくり解説】の実在動画。鶏肉、白身魚、うどん、パスタ、トマト、コーン缶、昆布、にんにくを使う「【2ch有益スレ】一人暮らしのワイにガチ簡単な料理教えてクレメンスｗ【ゆっくり解説】」のレシピです。"
   },
   {
     "title": "【ズボラ飯】帰宅後4分で作る一人暮らしのやっつけ簡単料理【うどん】",
@@ -6655,9 +6561,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ichi's lifeの実在動画。食材候補: うどん。「【ズボラ飯】帰宅後4分で作る一人暮らしのやっつけ簡単料理【うどん】」のレシピです。"
+    "description": "ichi's lifeの実在動画。うどんを使う「【ズボラ飯】帰宅後4分で作る一人暮らしのやっつけ簡単料理【うどん】」のレシピです。"
   },
   {
     "title": "👛1枚80円以下！1週間分の朝ごはん☀️【冷凍トースト】",
@@ -6685,9 +6589,7 @@ const recipes = [
       "bread"
     ],
     "rawIngredients": "パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ふにの実在動画。食材候補: パン。「👛1枚80円以下！1週間分の朝ごはん☀️【冷凍トースト】」のレシピです。"
+    "description": "ふにの実在動画。パンを使う「👛1枚80円以下！1週間分の朝ごはん☀️【冷凍トースト】」のレシピです。"
   },
   {
     "title": "簡単カルボナーラうどん#自炊女子 #簡単料理レシピ #カルボナーラうどん #ダイエット中の食事 #ダイエット飯 #綺麗になる食事 #自炊生活 #自炊ダイエット #ヘルシーご飯",
@@ -6716,9 +6618,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "うどん、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yu┊︎褒められ簡単ごはんの実在動画。食材候補: うどん、パスタ。「簡単カルボナーラうどん#自炊女子 #簡単料理レシピ #カルボナーラうどん #ダイエット中の食事 #ダイエット飯 #綺麗になる食事 #自炊生活 #自炊ダイエット #ヘルシーご飯」のレシピです。"
+    "description": "yu┊︎褒められ簡単ごはんの実在動画。うどん、パスタを使う「簡単カルボナーラうどん#自炊女子 #簡単料理レシピ #カルボナーラうどん #ダイエット中の食事 #ダイエット飯 #綺麗になる食事 #自炊生活 #自炊ダイエット #ヘルシーご飯」のレシピです。"
   },
   {
     "title": "【節約】新生活お弁当始まり🌸一人暮らし社会人の節約を楽しむ自炊記録👩‍🦰⌇春キャベツレシピ🥬",
@@ -6735,29 +6635,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "tofu",
       "egg",
       "cabbage",
       "bean_sprouts",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、豆腐、卵、キャベツ、もやし、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 豚肉、豆腐、卵、キャベツ、もやし、マヨネーズ。「【節約】新生活お弁当始まり🌸一人暮らし社会人の節約を楽しむ自炊記録👩‍🦰⌇春キャベツレシピ🥬」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、豆腐、卵、キャベツ、もやし、マヨネーズ",
+    "description": "shiroのくらしの実在動画。豚肉、白身魚、豆腐、卵、キャベツ、もやし、マヨネーズを使う「【節約】新生活お弁当始まり🌸一人暮らし社会人の節約を楽しむ自炊記録👩‍🦰⌇春キャベツレシピ🥬」のレシピです。"
   },
   {
     "title": "おかずにもなる豚汁の作り方",
@@ -6791,9 +6691,7 @@ const recipes = [
       "shiitake"
     ],
     "rawIngredients": "ネギ、じゃが芋、玉ねぎ、にんじん、しいたけ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "をにぎらーの実在動画。食材候補: ネギ、じゃが芋、玉ねぎ、にんじん、しいたけ。「おかずにもなる豚汁の作り方」のレシピです。"
+    "description": "をにぎらーの実在動画。ネギ、じゃが芋、玉ねぎ、にんじん、しいたけを使う「おかずにもなる豚汁の作り方」のレシピです。"
   },
   {
     "title": "【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox",
@@ -6825,9 +6723,7 @@ const recipes = [
       "broccoli"
     ],
     "rawIngredients": "鶏肉、卵、ブロッコリー",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みぃ | 手取り19万円上京OLの実在動画。食材候補: 鶏肉、卵、ブロッコリー。「【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox」のレシピです。"
+    "description": "みぃ | 手取り19万円上京OLの実在動画。鶏肉、卵、ブロッコリーを使う「【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox」のレシピです。"
   },
   {
     "title": "貧乏！具なしわさびパスタ！疲れててもお金はなるべく使いたくない🤦‍♀️#ブラック企業 #料理 #cooking #vlog #ol日常 #ルーティン #レンチンレシピ #一人暮らし",
@@ -6855,9 +6751,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: パスタ。「貧乏！具なしわさびパスタ！疲れててもお金はなるべく使いたくない🤦‍♀️#ブラック企業 #料理 #cooking #vlog #ol日常 #ルーティン #レンチンレシピ #一人暮らし」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。パスタを使う「貧乏！具なしわさびパスタ！疲れててもお金はなるべく使いたくない🤦‍♀️#ブラック企業 #料理 #cooking #vlog #ol日常 #ルーティン #レンチンレシピ #一人暮らし」のレシピです。"
   },
   {
     "title": "一人暮らしの3日間★簡単夜ご飯 #2/料理vlog / 会社員 /簡単レシピ",
@@ -6890,9 +6784,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "豚肉、豆腐、キャベツ、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "*くまねこの暮らし* 〜むりをしない〜の実在動画。食材候補: 豚肉、豆腐、キャベツ、なす。「一人暮らしの3日間★簡単夜ご飯 #2/料理vlog / 会社員 /簡単レシピ」のレシピです。"
+    "description": "*くまねこの暮らし* 〜むりをしない〜の実在動画。豚肉、豆腐、キャベツ、なすを使う「一人暮らしの3日間★簡単夜ご飯 #2/料理vlog / 会社員 /簡単レシピ」のレシピです。"
   },
   {
     "title": "赤から風ラーメン#簡単レシピ #節約レシピ#一人暮らし#冷凍ストック #赤から",
@@ -6909,6 +6801,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -6919,13 +6812,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "noodles",
       "ramen"
     ],
-    "rawIngredients": "豚肉、中華麺、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。食材候補: 豚肉、中華麺、ラーメン。「赤から風ラーメン#簡単レシピ #節約レシピ#一人暮らし#冷凍ストック #赤から」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、中華麺、ラーメン",
+    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。豚肉、白身魚、中華麺、ラーメンを使う「赤から風ラーメン#簡単レシピ #節約レシピ#一人暮らし#冷凍ストック #赤から」のレシピです。"
   },
   {
     "title": "【手取り18万円上京OL】ほぼ150円弁当#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunch",
@@ -6958,9 +6850,7 @@ const recipes = [
       "broccoli"
     ],
     "rawIngredients": "厚揚げ、卵、トマト、ブロッコリー",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みぃ | 手取り19万円上京OLの実在動画。食材候補: 厚揚げ、卵、トマト、ブロッコリー。「【手取り18万円上京OL】ほぼ150円弁当#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunch」のレシピです。"
+    "description": "みぃ | 手取り19万円上京OLの実在動画。厚揚げ、卵、トマト、ブロッコリーを使う「【手取り18万円上京OL】ほぼ150円弁当#自炊 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunch」のレシピです。"
   },
   {
     "title": "熱々あんかけ焼きそば🍜#節約レシピ #やきそば #あんかけ焼きそば #一人暮らしごはん #cooking #料理#男飯 #料理男子",
@@ -6989,9 +6879,7 @@ const recipes = [
       "noodles"
     ],
     "rawIngredients": "そば、中華麺",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: そば、中華麺。「熱々あんかけ焼きそば🍜#節約レシピ #やきそば #あんかけ焼きそば #一人暮らしごはん #cooking #料理#男飯 #料理男子」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。そば、中華麺を使う「熱々あんかけ焼きそば🍜#節約レシピ #やきそば #あんかけ焼きそば #一人暮らしごはん #cooking #料理#男飯 #料理男子」のレシピです。"
   },
   {
     "title": "#チーズケーキ #スイーツ #一人暮らし #料理 #自炊 #cooking #丁寧な暮らし #晩ごはん #ごはん #コーヒー #おうちごはん #vlog #簡単レシピ #イタリアン #和食 #日常",
@@ -7019,9 +6907,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "一人暮らしの日々のごはんの実在動画。食材候補: チーズ。「#チーズケーキ #スイーツ #一人暮らし #料理 #自炊 #cooking #丁寧な暮らし #晩ごはん #ごはん #コーヒー #おうちごはん #vlog #簡単レシピ #イタリアン #和食 #日常」のレシピです。"
+    "description": "一人暮らしの日々のごはんの実在動画。チーズを使う「#チーズケーキ #スイーツ #一人暮らし #料理 #自炊 #cooking #丁寧な暮らし #晩ごはん #ごはん #コーヒー #おうちごはん #vlog #簡単レシピ #イタリアン #和食 #日常」のレシピです。"
   },
   {
     "title": "豚キムチうどん#冷凍ストック #時短節約 #節約レシピ #一人暮らし#豚キムチ",
@@ -7038,6 +6924,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -7049,13 +6936,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。食材候補: 豚肉、うどん、ネギ。「豚キムチうどん#冷凍ストック #時短節約 #節約レシピ #一人暮らし#豚キムチ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。豚肉、白身魚、うどん、ネギを使う「豚キムチうどん#冷凍ストック #時短節約 #節約レシピ #一人暮らし#豚キムチ」のレシピです。"
   },
   {
     "title": "しらすぺぺたま🍝 #節約レシピ #cooking #時短節約 #japanesefood #一人暮らしごはん #パスタ #暮らしチャンネル #簡単レシピ #ぺぺたま#料理 #料理男子",
@@ -7083,9 +6969,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: パスタ。「しらすぺぺたま🍝 #節約レシピ #cooking #時短節約 #japanesefood #一人暮らしごはん #パスタ #暮らしチャンネル #簡単レシピ #ぺぺたま#料理 #料理男子」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。パスタを使う「しらすぺぺたま🍝 #節約レシピ #cooking #時短節約 #japanesefood #一人暮らしごはん #パスタ #暮らしチャンネル #簡単レシピ #ぺぺたま#料理 #料理男子」のレシピです。"
   },
   {
     "title": "【節約】一人暮らしのラクする大量おにぎりストック🍙 柔らかむね肉の節約おかず🍗💕",
@@ -7113,13 +6997,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "mackerel",
+      "whitefish",
       "rice",
       "ginger"
     ],
-    "rawIngredients": "サバ、ご飯・米、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: サバ、ご飯・米、ショウガ。「【節約】一人暮らしのラクする大量おにぎりストック🍙 柔らかむね肉の節約おかず🍗💕」のレシピです。"
+    "rawIngredients": "サバ、白身魚、ご飯・米、ショウガ",
+    "description": "shiroのくらしの実在動画。サバ、白身魚、ご飯・米、ショウガを使う「【節約】一人暮らしのラクする大量おにぎりストック🍙 柔らかむね肉の節約おかず🍗💕」のレシピです。"
   },
   {
     "title": "【ミルフィーユ鍋の作り方】一人暮らし男の料理 / 簡単一人鍋レシピ",
@@ -7136,6 +7019,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -7147,14 +7031,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "napa_cabbage",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、napa_cabbage、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "TOKYO COOKIG CLUBの実在動画。食材候補: 豚肉、napa_cabbage、ショウガ、にんにく。「【ミルフィーユ鍋の作り方】一人暮らし男の料理 / 簡単一人鍋レシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、napa_cabbage、ショウガ、にんにく",
+    "description": "TOKYO COOKIG CLUBの実在動画。豚肉、白身魚、napa_cabbage、ショウガ、にんにくを使う「【ミルフィーユ鍋の作り方】一人暮らし男の料理 / 簡単一人鍋レシピ」のレシピです。"
   },
   {
     "title": "とまとチキンパエリア🥘#節約レシピ #一人暮らしごはん #時短節約 #cooking #料理 #パエリア 📝レシピ詳細はInstagram本文に掲載しております🙇‍♂️",
@@ -7182,9 +7065,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: 鶏肉。「とまとチキンパエリア🥘#節約レシピ #一人暮らしごはん #時短節約 #cooking #料理 #パエリア 📝レシピ詳細はInstagram本文に掲載しております🙇‍♂️」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。鶏肉を使う「とまとチキンパエリア🥘#節約レシピ #一人暮らしごはん #時短節約 #cooking #料理 #パエリア 📝レシピ詳細はInstagram本文に掲載しております🙇‍♂️」のレシピです。"
   },
   {
     "title": "【週2000円】節約おうちごはんを楽しむ一人暮らし👩‍🦰 / 野菜長持ち保存🥕 / かさ増しスコッチエッグ🐣💞",
@@ -7201,29 +7082,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "green_onion",
       "onion",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、ネギ、玉ねぎ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "shiroのくらしの実在動画。食材候補: 鶏肉、卵、ネギ、玉ねぎ、にんにく、マヨネーズ。「【週2000円】節約おうちごはんを楽しむ一人暮らし👩‍🦰 / 野菜長持ち保存🥕 / かさ増しスコッチエッグ🐣💞」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ネギ、玉ねぎ、にんにく、マヨネーズ",
+    "description": "shiroのくらしの実在動画。鶏肉、白身魚、卵、ネギ、玉ねぎ、にんにく、マヨネーズを使う「【週2000円】節約おうちごはんを楽しむ一人暮らし👩‍🦰 / 野菜長持ち保存🥕 / かさ増しスコッチエッグ🐣💞」のレシピです。"
   },
   {
     "title": "コク旨カレーうどん#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#カレーうどん",
@@ -7240,6 +7121,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜"
@@ -7252,15 +7134,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "aburaage",
       "udon",
       "cabbage",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、油揚げ、うどん、キャベツ、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。食材候補: 豚肉、油揚げ、うどん、キャベツ、ネギ。「コク旨カレーうどん#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#カレーうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、油揚げ、うどん、キャベツ、ネギ",
+    "description": "けい 1食300円以下の節約冷凍レシピの実在動画。豚肉、白身魚、油揚げ、うどん、キャベツ、ネギを使う「コク旨カレーうどん#冷凍ストック #節約レシピ #簡単レシピ#一人暮らし#カレーうどん」のレシピです。"
   },
   {
     "title": "炊飯器に丸投げ！トマトチキンライス🍅🍚残りはおにぎりにしてお昼ご飯の節約🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #炊飯器レシピ",
@@ -7292,9 +7173,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "鶏肉、ご飯・米、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: 鶏肉、ご飯・米、トマト。「炊飯器に丸投げ！トマトチキンライス🍅🍚残りはおにぎりにしてお昼ご飯の節約🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #炊飯器レシピ」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。鶏肉、ご飯・米、トマトを使う「炊飯器に丸投げ！トマトチキンライス🍅🍚残りはおにぎりにしてお昼ご飯の節約🫶 #ブラック企業 #料理 #cooking #自炊 #vlog #炊飯器レシピ」のレシピです。"
   },
   {
     "title": "休日は贅沢にたっぷりお肉を使う！！ボロネーゼ🍝#ol日常 #料理 #cooking #自炊 #簡単レシピ #vlog #パスタ #レンチンレシピ",
@@ -7322,9 +7201,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: パスタ。「休日は贅沢にたっぷりお肉を使う！！ボロネーゼ🍝#ol日常 #料理 #cooking #自炊 #簡単レシピ #vlog #パスタ #レンチンレシピ」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。パスタを使う「休日は贅沢にたっぷりお肉を使う！！ボロネーゼ🍝#ol日常 #料理 #cooking #自炊 #簡単レシピ #vlog #パスタ #レンチンレシピ」のレシピです。"
   },
   {
     "title": "[SUB]【料理ドラマ】『ひとりごとエプロン』第1話：一人暮らしのキッチンでつくる、簡単じゃがいもグラタン 2019クリスマスイブ公開/レシピ/音楽",
@@ -7354,9 +7231,7 @@ const recipes = [
       "potato"
     ],
     "rawIngredients": "貝、じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "北欧、暮らしの道具店の実在動画。食材候補: 貝、じゃが芋。「[SUB]【料理ドラマ】『ひとりごとエプロン』第1話：一人暮らしのキッチンでつくる、簡単じゃがいもグラタン 2019クリスマスイブ公開/レシピ/音楽」のレシピです。"
+    "description": "北欧、暮らしの道具店の実在動画。貝、じゃが芋を使う「[SUB]【料理ドラマ】『ひとりごとエプロン』第1話：一人暮らしのキッチンでつくる、簡単じゃがいもグラタン 2019クリスマスイブ公開/レシピ/音楽」のレシピです。"
   },
   {
     "title": "【16日/100日】安くておいしすぎリピ確なので、市販のカレールーには戻れない、、！#一人暮らし#自炊 #夜ご飯",
@@ -7384,9 +7259,7 @@ const recipes = [
       "curry_roux"
     ],
     "rawIngredients": "カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しょーるーむ🌙(shoroom)の実在動画。食材候補: カレールゥ。「【16日/100日】安くておいしすぎリピ確なので、市販のカレールーには戻れない、、！#一人暮らし#自炊 #夜ご飯」のレシピです。"
+    "description": "しょーるーむ🌙(shoroom)の実在動画。カレールゥを使う「【16日/100日】安くておいしすぎリピ確なので、市販のカレールーには戻れない、、！#一人暮らし#自炊 #夜ご飯」のレシピです。"
   },
   {
     "title": "蒙古タンメン風つけ麺🍜 #節約レシピ #cooking #時短節約 #一人暮らしごはん #暮らしチャンネル #料理 #つけ麺 #簡単レシピ #辛いラーメン",
@@ -7414,9 +7287,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: ラーメン。「蒙古タンメン風つけ麺🍜 #節約レシピ #cooking #時短節約 #一人暮らしごはん #暮らしチャンネル #料理 #つけ麺 #簡単レシピ #辛いラーメン」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。ラーメンを使う「蒙古タンメン風つけ麺🍜 #節約レシピ #cooking #時短節約 #一人暮らしごはん #暮らしチャンネル #料理 #つけ麺 #簡単レシピ #辛いラーメン」のレシピです。"
   },
   {
     "title": "和風塩昆布ツナパスタ🍝#節約レシピ #パスタ #時短節約 #一人暮らしごはん #cooking #暮らしチャンネル #料理 #簡単レシピ #ツナマヨ #塩昆布",
@@ -7450,9 +7321,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "ツナ、パスタ、昆布、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: ツナ、パスタ、昆布、マヨネーズ。「和風塩昆布ツナパスタ🍝#節約レシピ #パスタ #時短節約 #一人暮らしごはん #cooking #暮らしチャンネル #料理 #簡単レシピ #ツナマヨ #塩昆布」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。ツナ、パスタ、昆布、マヨネーズを使う「和風塩昆布ツナパスタ🍝#節約レシピ #パスタ #時短節約 #一人暮らしごはん #cooking #暮らしチャンネル #料理 #簡単レシピ #ツナマヨ #塩昆布」のレシピです。"
   },
   {
     "title": "【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox",
@@ -7490,9 +7359,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "挽肉、ベーコン、豆腐、卵、ほうれん草、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みぃ | 手取り19万円上京OLの実在動画。食材候補: 挽肉、ベーコン、豆腐、卵、ほうれん草、ネギ、玉ねぎ。「【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox」のレシピです。"
+    "description": "みぃ | 手取り19万円上京OLの実在動画。挽肉、ベーコン、豆腐、卵、ほうれん草、ネギ、玉ねぎを使う「【手取り18万円上京OL】ほぼ150円弁当#自炊 #お弁当 #料理 #一人暮らし #簡単 #節約 #cooking #弁当 #lunchbox」のレシピです。"
   },
   {
     "title": "巻かないロールキャベツ🍳#節約レシピ #一人暮らしごはん #cooking #ひとり暮らし #おうちごはん #自炊 #ロールキャベツ #料理",
@@ -7520,9 +7387,7 @@ const recipes = [
       "cabbage"
     ],
     "rawIngredients": "キャベツ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: キャベツ。「巻かないロールキャベツ🍳#節約レシピ #一人暮らしごはん #cooking #ひとり暮らし #おうちごはん #自炊 #ロールキャベツ #料理」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。キャベツを使う「巻かないロールキャベツ🍳#節約レシピ #一人暮らしごはん #cooking #ひとり暮らし #おうちごはん #自炊 #ロールキャベツ #料理」のレシピです。"
   },
   {
     "title": "【時短料理はこうやって作ります】ノーカットでお届け/楽してうまい絶品レシピ/絶対作って！豚キャベツ豆腐のくたくた煮/ちくわのカレーマヨ焼き",
@@ -7538,6 +7403,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜",
@@ -7550,15 +7416,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "rice_noodles",
       "cabbage",
       "mayonnaise"
     ],
-    "rawIngredients": "豆腐、ビーフン・フォー、キャベツ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "LiLy's roomの実在動画。食材候補: 豆腐、ビーフン・フォー、キャベツ、マヨネーズ。「【時短料理はこうやって作ります】ノーカットでお届け/楽してうまい絶品レシピ/絶対作って！豚キャベツ豆腐のくたくた煮/ちくわのカレーマヨ焼き」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、ビーフン・フォー、キャベツ、マヨネーズ",
+    "description": "LiLy's roomの実在動画。白身魚、豆腐、ビーフン・フォー、キャベツ、マヨネーズを使う「【時短料理はこうやって作ります】ノーカットでお届け/楽してうまい絶品レシピ/絶対作って！豚キャベツ豆腐のくたくた煮/ちくわのカレーマヨ焼き」のレシピです。"
   },
   {
     "title": "【簡単時短レシピ】レンジだけ！美味しいプリップリの鶏マヨの作り方 鶏肉料理",
@@ -7575,6 +7440,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -7588,6 +7454,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "rice_noodles",
       "green_onion",
       "tomato",
@@ -7596,10 +7463,8 @@ const recipes = [
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、ビーフン・フォー、ネギ、トマト、ショウガ、にんにく、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "でんぼの簡単レンジ料理の実在動画。食材候補: 鶏肉、ビーフン・フォー、ネギ、トマト、ショウガ、にんにく、チーズ、マヨネーズ。「【簡単時短レシピ】レンジだけ！美味しいプリップリの鶏マヨの作り方 鶏肉料理」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ビーフン・フォー、ネギ、トマト、ショウガ、にんにく、チーズ、マヨネーズ",
+    "description": "でんぼの簡単レンジ料理の実在動画。鶏肉、白身魚、ビーフン・フォー、ネギ、トマト、ショウガ、にんにく、チーズ、マヨネーズを使う「【簡単時短レシピ】レンジだけ！美味しいプリップリの鶏マヨの作り方 鶏肉料理」のレシピです。"
   },
   {
     "title": "油を使わない「キャベツのチーズ焼き」材料２つ！まな板・包丁を使わずカットキャベツで簡単‼時短・節約レシピ・キャベツ簡単レシピ",
@@ -7629,9 +7494,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "キャベツ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DAIFUKU KITCHENの実在動画。食材候補: キャベツ、チーズ。「油を使わない「キャベツのチーズ焼き」材料２つ！まな板・包丁を使わずカットキャベツで簡単‼時短・節約レシピ・キャベツ簡単レシピ」のレシピです。"
+    "description": "DAIFUKU KITCHENの実在動画。キャベツ、チーズを使う「油を使わない「キャベツのチーズ焼き」材料２つ！まな板・包丁を使わずカットキャベツで簡単‼時短・節約レシピ・キャベツ簡単レシピ」のレシピです。"
   },
   {
     "title": "【150万回再生人気レシピ】レンジで簡単時短！ピリ辛タレが絶品！鶏むね肉がしっとりのよだれ鶏の作り方",
@@ -7666,9 +7529,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "鶏肉、ビーフン・フォー、ネギ、レタス、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 鶏肉、ビーフン・フォー、ネギ、レタス、ショウガ。「【150万回再生人気レシピ】レンジで簡単時短！ピリ辛タレが絶品！鶏むね肉がしっとりのよだれ鶏の作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。鶏肉、ビーフン・フォー、ネギ、レタス、ショウガを使う「【150万回再生人気レシピ】レンジで簡単時短！ピリ辛タレが絶品！鶏むね肉がしっとりのよだれ鶏の作り方」のレシピです。"
   },
   {
     "title": "【仕事から帰宅後に作る時短レシピ】安くておいしい最強レシピ/頑張らない晩ごはん/体力なし40代母の時短料理/簡単レシピ/簡単おかず",
@@ -7686,6 +7547,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "麺",
@@ -7702,6 +7564,7 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "tofu",
       "atsuage",
       "egg",
@@ -7716,10 +7579,8 @@ const recipes = [
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、鶏肉、豆腐、厚揚げ、卵、ビーフン・フォー、キャベツ、ネギ、トマト、ブロッコリー、ごぼう、レンコン、昆布、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "LiLy's roomの実在動画。食材候補: 豚肉、鶏肉、豆腐、厚揚げ、卵、ビーフン・フォー、キャベツ、ネギ、トマト、ブロッコリー、ごぼう、レンコン、昆布、チーズ、マヨネーズ。「【仕事から帰宅後に作る時短レシピ】安くておいしい最強レシピ/頑張らない晩ごはん/体力なし40代母の時短料理/簡単レシピ/簡単おかず」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、豆腐、厚揚げ、卵、ビーフン・フォー、キャベツ、ネギ、トマト、ブロッコリー、ごぼう、レンコン、昆布、チーズ、マヨネーズ",
+    "description": "LiLy's roomの実在動画。豚肉、鶏肉、白身魚、豆腐、厚揚げ、卵、ビーフン・フォー、キャベツ、ネギ、トマト、ブロッコリー、ごぼう、レンコン、昆布、チーズ、マヨネーズを使う「【仕事から帰宅後に作る時短レシピ】安くておいしい最強レシピ/頑張らない晩ごはん/体力なし40代母の時短料理/簡単レシピ/簡単おかず」のレシピです。"
   },
   {
     "title": "【250万回再生人気レシピ】保存版！時短中華レシピ！おうちで簡単極旨！マーボー豆腐の作り方",
@@ -7755,9 +7616,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "挽肉、豆腐、にら、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 挽肉、豆腐、にら、ネギ、ショウガ、にんにく。「【250万回再生人気レシピ】保存版！時短中華レシピ！おうちで簡単極旨！マーボー豆腐の作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。挽肉、豆腐、にら、ネギ、ショウガ、にんにくを使う「【250万回再生人気レシピ】保存版！時短中華レシピ！おうちで簡単極旨！マーボー豆腐の作り方」のレシピです。"
   },
   {
     "title": "フライパン・鍋不要【トマトパスタ】洗いもの無しで楽ちん！アイラップで時短レシピ",
@@ -7792,9 +7651,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "パスタ、ほうれん草、トマト、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: パスタ、ほうれん草、トマト、にんにく、チーズ。「フライパン・鍋不要【トマトパスタ】洗いもの無しで楽ちん！アイラップで時短レシピ」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。パスタ、ほうれん草、トマト、にんにく、チーズを使う「フライパン・鍋不要【トマトパスタ】洗いもの無しで楽ちん！アイラップで時短レシピ」のレシピです。"
   },
   {
     "title": "鍋不要【卵サンド】洗いもの無しで楽ちん！時短レシピ",
@@ -7826,9 +7683,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "卵、バター、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: 卵、バター、マヨネーズ、牛乳。「鍋不要【卵サンド】洗いもの無しで楽ちん！時短レシピ」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。卵、バター、マヨネーズ、牛乳を使う「鍋不要【卵サンド】洗いもの無しで楽ちん！時短レシピ」のレシピです。"
   },
   {
     "title": "30分でぱぱっと節約夜ごはん🍚 #shorts",
@@ -7846,6 +7701,7 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "根菜",
@@ -7860,16 +7716,15 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "minced_meat",
+      "whitefish",
       "tofu",
       "green_onion",
       "wakame",
       "ginger",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、挽肉、豆腐、ネギ、わかめ、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "のんびり暮らしチャンネルの実在動画。食材候補: 鶏肉、挽肉、豆腐、ネギ、わかめ、ショウガ、マヨネーズ。「30分でぱぱっと節約夜ごはん🍚 #shorts」のレシピです。"
+    "rawIngredients": "鶏肉、挽肉、白身魚、豆腐、ネギ、わかめ、ショウガ、マヨネーズ",
+    "description": "のんびり暮らしチャンネルの実在動画。鶏肉、挽肉、白身魚、豆腐、ネギ、わかめ、ショウガ、マヨネーズを使う「30分でぱぱっと節約夜ごはん🍚 #shorts」のレシピです。"
   },
   {
     "title": "【時短晩ご飯】アラフォー主婦が10分で作る４人家族の一汁三菜〜土曜日のリアル晩ごはん〜",
@@ -7904,9 +7759,7 @@ const recipes = [
       "shimeji"
     ],
     "rawIngredients": "鶏肉、ビーフン・フォー、キャベツ、トマト、しめじ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "サッとさんのおうちの実在動画。食材候補: 鶏肉、ビーフン・フォー、キャベツ、トマト、しめじ。「【時短晩ご飯】アラフォー主婦が10分で作る４人家族の一汁三菜〜土曜日のリアル晩ごはん〜」のレシピです。"
+    "description": "サッとさんのおうちの実在動画。鶏肉、ビーフン・フォー、キャベツ、トマト、しめじを使う「【時短晩ご飯】アラフォー主婦が10分で作る４人家族の一汁三菜〜土曜日のリアル晩ごはん〜」のレシピです。"
   },
   {
     "title": "【1000万回再生】10歳から作ってるシンプルで一番大好きな卵チャーハン〈7分130円レシピ〉Fried Rice(simple ver)",
@@ -7922,6 +7775,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米"
     ],
@@ -7932,13 +7786,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "馬場ごはん〈ロバート〉Baba's Kitchenの実在動画。食材候補: 卵、ご飯・米。「【1000万回再生】10歳から作ってるシンプルで一番大好きな卵チャーハン〈7分130円レシピ〉Fried Rice(simple ver)」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米",
+    "description": "馬場ごはん〈ロバート〉Baba's Kitchenの実在動画。白身魚、卵、ご飯・米を使う「【1000万回再生】10歳から作ってるシンプルで一番大好きな卵チャーハン〈7分130円レシピ〉Fried Rice(simple ver)」のレシピです。"
   },
   {
     "title": "【時短レシピ10選】10分でパパッと完成！スピードメニューレシピ♪｜macaroni（マカロニ）",
@@ -7994,9 +7847,35 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "豚肉、ベーコン、サバ、厚揚げ、卵、うどん、中華麺、キャベツ、napa_cabbage、にら、ネギ、もやし、トマト、なす、えのき茸、しいたけ、ショウガ、にんにく、チーズ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 豚肉、ベーコン、サバ、厚揚げ、卵、うどん、中華麺、キャベツ、napa_cabbage、にら、ネギ、もやし、トマト、なす、えのき茸、しいたけ、ショウガ、にんにく、チーズ、バター、マヨネーズ。「【時短レシピ10選】10分でパパッと完成！スピードメニューレシピ♪｜macaroni（マカロニ）」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。豚肉、ベーコン、サバ、厚揚げ、卵、うどん、中華麺、キャベツ、napa_cabbage、にら、ネギ、もやし、トマト、なす、えのき茸、しいたけ、ショウガ、にんにく、チーズ、バター、マヨネーズを使う「【時短レシピ10選】10分でパパッと完成！スピードメニューレシピ♪｜macaroni（マカロニ）」のレシピです。"
+  },
+  {
+    "title": "【時短弁当】満腹ガッツリ系お弁当１週間/bento",
+    "platform": "youtube",
+    "externalId": "x1xmA7nUAbI",
+    "videoUrl": "https://www.youtube.com/watch?v=x1xmA7nUAbI",
+    "videoId": "x1xmA7nUAbI",
+    "url": "https://www.youtube.com/watch?v=x1xmA7nUAbI",
+    "thumbnailUrl": "https://i.ytimg.com/vi/x1xmA7nUAbI/maxresdefault.jpg",
+    "creator": "まとめ買い主婦【みいかわ】",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "まとめ買い主婦【みいかわ】の実在動画。白身魚を使う「【時短弁当】満腹ガッツリ系お弁当１週間/bento」のレシピです。"
   },
   {
     "title": "帰宅15分で作る爆速夜ごはん🌝🐴 #ふわたまチキン#簡単レシピ #自炊 #2人暮らし #2人暮らし #天皇杯",
@@ -8024,9 +7903,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hanaの暮らしの実在動画。食材候補: 鶏肉。「帰宅15分で作る爆速夜ごはん🌝🐴 #ふわたまチキン#簡単レシピ #自炊 #2人暮らし #2人暮らし #天皇杯」のレシピです。"
+    "description": "Hanaの暮らしの実在動画。鶏肉を使う「帰宅15分で作る爆速夜ごはん🌝🐴 #ふわたまチキン#簡単レシピ #自炊 #2人暮らし #2人暮らし #天皇杯」のレシピです。"
   },
   {
     "title": "【ダイエットレシピ】週一以上食べてる爆速健康ワンパンご飯の作り方！【PFCバランス◎/時短/1人ご飯】",
@@ -8066,9 +7943,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "サケ、ツナ、卵、キャベツ、napa_cabbage、ほうれん草、にら、ネギ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Marina Takewakiの実在動画。食材候補: サケ、ツナ、卵、キャベツ、napa_cabbage、ほうれん草、にら、ネギ、トマト、にんにく。「【ダイエットレシピ】週一以上食べてる爆速健康ワンパンご飯の作り方！【PFCバランス◎/時短/1人ご飯】」のレシピです。"
+    "description": "Marina Takewakiの実在動画。サケ、ツナ、卵、キャベツ、napa_cabbage、ほうれん草、にら、ネギ、トマト、にんにくを使う「【ダイエットレシピ】週一以上食べてる爆速健康ワンパンご飯の作り方！【PFCバランス◎/時短/1人ご飯】」のレシピです。"
   },
   {
     "title": "5児ママ〜30kg痩せた蒸し鶏のにらだれ〜",
@@ -8096,9 +7971,7 @@ const recipes = [
       "nira"
     ],
     "rawIngredients": "にら",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マイの実在動画。食材候補: にら。「5児ママ〜30kg痩せた蒸し鶏のにらだれ〜」のレシピです。"
+    "description": "マイの実在動画。にらを使う「5児ママ〜30kg痩せた蒸し鶏のにらだれ〜」のレシピです。"
   },
   {
     "title": "【コレが正解そうめん弁当】#暮らし #料理 #裏技 #簡単 #時短 #ライフハック",
@@ -8126,9 +7999,7 @@ const recipes = [
       "somen"
     ],
     "rawIngredients": "そうめん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぱるん⌇ずぼらママを救う時短・節約術の実在動画。食材候補: そうめん。「【コレが正解そうめん弁当】#暮らし #料理 #裏技 #簡単 #時短 #ライフハック」のレシピです。"
+    "description": "ぱるん⌇ずぼらママを救う時短・節約術の実在動画。そうめんを使う「【コレが正解そうめん弁当】#暮らし #料理 #裏技 #簡単 #時短 #ライフハック」のレシピです。"
   },
   {
     "title": "【鬼の残業week】疲労困憊で作る超時短1週間レシピ",
@@ -8171,9 +8042,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "豚肉、鶏肉、えび、卵、ネギ、トマト、玉ねぎ、にんじん、ショウガ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "節約自炊リーマンよねの実在動画。食材候補: 豚肉、鶏肉、えび、卵、ネギ、トマト、玉ねぎ、にんじん、ショウガ、バター。「【鬼の残業week】疲労困憊で作る超時短1週間レシピ」のレシピです。"
+    "description": "節約自炊リーマンよねの実在動画。豚肉、鶏肉、えび、卵、ネギ、トマト、玉ねぎ、にんじん、ショウガ、バターを使う「【鬼の残業week】疲労困憊で作る超時短1週間レシピ」のレシピです。"
   },
   {
     "title": "【味&ボリューム最高♡】安くておいしい簡単レシピ/20分あれば余裕/野菜が苦手な家族が大絶賛/時短レシピしか勝たん/時短料理",
@@ -8204,6 +8073,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "canned_tuna",
       "aburaage",
       "rice_noodles",
@@ -8212,10 +8082,8 @@ const recipes = [
       "bean_sprouts",
       "lotus_root"
     ],
-    "rawIngredients": "豚肉、ツナ、油揚げ、ビーフン・フォー、小松菜、ネギ、もやし、レンコン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "LiLy's roomの実在動画。食材候補: 豚肉、ツナ、油揚げ、ビーフン・フォー、小松菜、ネギ、もやし、レンコン。「【味&ボリューム最高♡】安くておいしい簡単レシピ/20分あれば余裕/野菜が苦手な家族が大絶賛/時短レシピしか勝たん/時短料理」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ツナ、油揚げ、ビーフン・フォー、小松菜、ネギ、もやし、レンコン",
+    "description": "LiLy's roomの実在動画。豚肉、白身魚、ツナ、油揚げ、ビーフン・フォー、小松菜、ネギ、もやし、レンコンを使う「【味&ボリューム最高♡】安くておいしい簡単レシピ/20分あれば余裕/野菜が苦手な家族が大絶賛/時短レシピしか勝たん/時短料理」のレシピです。"
   },
   {
     "title": "【朝ごはんに】マグカップ1つでできる！超簡単・時短レシピ 3選",
@@ -8245,9 +8113,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "トマト、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: トマト、チーズ。「【朝ごはんに】マグカップ1つでできる！超簡単・時短レシピ 3選」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。トマト、チーズを使う「【朝ごはんに】マグカップ1つでできる！超簡単・時短レシピ 3選」のレシピです。"
   },
   {
     "title": "レンジで簡単🥟包まない小籠包 #料理 #レシピ #小籠包 #時短料理 #shorts",
@@ -8279,9 +8145,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "挽肉、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: 挽肉、ネギ、ショウガ。「レンジで簡単🥟包まない小籠包 #料理 #レシピ #小籠包 #時短料理 #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。挽肉、ネギ、ショウガを使う「レンジで簡単🥟包まない小籠包 #料理 #レシピ #小籠包 #時短料理 #shorts」のレシピです。"
   },
   {
     "title": "フライパン1つ。丸めて焼くだけでやみつき！豚こま大葉チーズボール",
@@ -8298,6 +8162,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -8310,15 +8175,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "nira",
       "garlic",
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、にら、にんにく、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "簡単レシピ🤍東京OLむむちゃんの実在動画。食材候補: 豚肉、にら、にんにく、チーズ、マヨネーズ。「フライパン1つ。丸めて焼くだけでやみつき！豚こま大葉チーズボール」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、にら、にんにく、チーズ、マヨネーズ",
+    "description": "簡単レシピ🤍東京OLむむちゃんの実在動画。豚肉、白身魚、にら、にんにく、チーズ、マヨネーズを使う「フライパン1つ。丸めて焼くだけでやみつき！豚こま大葉チーズボール」のレシピです。"
   },
   {
     "title": "アンチが震えるほど味の素が入った醤油ラーメンが震えるほど旨い#味の素 #ラーメン",
@@ -8344,13 +8208,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "ramen"
     ],
-    "rawIngredients": "えび、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、ラーメン。「アンチが震えるほど味の素が入った醤油ラーメンが震えるほど旨い#味の素 #ラーメン」のレシピです。"
+    "rawIngredients": "白身魚、えび、ラーメン",
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。白身魚、えび、ラーメンを使う「アンチが震えるほど味の素が入った醤油ラーメンが震えるほど旨い#味の素 #ラーメン」のレシピです。"
   },
   {
     "title": "夏は絶対これ！スタミナとろたまそうめん",
@@ -8385,9 +8248,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、そうめん、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、そうめん、ネギ、ショウガ、にんにく。「夏は絶対これ！スタミナとろたまそうめん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。卵、そうめん、ネギ、ショウガ、にんにくを使う「夏は絶対これ！スタミナとろたまそうめん」のレシピです。"
   },
   {
     "title": "【時短・簡単】スーパーの食材で本格チリコンカンの作り方｜ピリ辛＆旨い豆×ひき肉レシピ",
@@ -8404,28 +8265,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "green_onion",
       "tomato",
       "onion",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "挽肉、ネギ、トマト、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Pato Cookingの実在動画。食材候補: 挽肉、ネギ、トマト、玉ねぎ、にんにく、チーズ。「【時短・簡単】スーパーの食材で本格チリコンカンの作り方｜ピリ辛＆旨い豆×ひき肉レシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、ネギ、トマト、玉ねぎ、にんにく、チーズ",
+    "description": "Pato Cookingの実在動画。挽肉、白身魚、ネギ、トマト、玉ねぎ、にんにく、チーズを使う「【時短・簡単】スーパーの食材で本格チリコンカンの作り方｜ピリ辛＆旨い豆×ひき肉レシピ」のレシピです。"
   },
   {
     "title": "SNSでバズった！だし巻き玉子｜#簡単レシピ #時短レシピ #料理動画 #cooking #だし巻き玉子",
@@ -8441,6 +8302,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "卵"
     ],
@@ -8451,13 +8313,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "egg"
     ],
-    "rawIngredients": "豆腐、卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: 豆腐、卵。「SNSでバズった！だし巻き玉子｜#簡単レシピ #時短レシピ #料理動画 #cooking #だし巻き玉子」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、卵",
+    "description": "ラクうま料理ちゃんねるの実在動画。白身魚、豆腐、卵を使う「SNSでバズった！だし巻き玉子｜#簡単レシピ #時短レシピ #料理動画 #cooking #だし巻き玉子」のレシピです。"
   },
   {
     "title": "【中華屋で働いる友達から教わった】【簡単きゅうり漬け】誰でも簡単に作れるのに超美味しい！#shorts #時短レシピ #料理",
@@ -8473,6 +8334,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -8482,12 +8344,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "cucumber"
     ],
-    "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "お任せCOOKの実在動画。食材候補: きゅうり。「【中華屋で働いる友達から教わった】【簡単きゅうり漬け】誰でも簡単に作れるのに超美味しい！#shorts #時短レシピ #料理」のレシピです。"
+    "rawIngredients": "白身魚、きゅうり",
+    "description": "お任せCOOKの実在動画。白身魚、きゅうりを使う「【中華屋で働いる友達から教わった】【簡単きゅうり漬け】誰でも簡単に作れるのに超美味しい！#shorts #時短レシピ #料理」のレシピです。"
   },
   {
     "title": "料理初心者でも失敗なし！簡単絶品ロコモコ丼",
@@ -8504,6 +8365,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -8518,6 +8380,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
@@ -8526,10 +8389,8 @@ const recipes = [
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 挽肉、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ、マヨネーズ。「料理初心者でも失敗なし！簡単絶品ロコモコ丼」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ、マヨネーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ、マヨネーズを使う「料理初心者でも失敗なし！簡単絶品ロコモコ丼」のレシピです。"
   },
   {
     "title": "世界一簡単な煮干しラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
@@ -8555,13 +8416,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "ramen"
     ],
-    "rawIngredients": "えび、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、ラーメン。「世界一簡単な煮干しラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
+    "rawIngredients": "白身魚、えび、ラーメン",
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。白身魚、えび、ラーメンを使う「世界一簡単な煮干しラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
   },
   {
     "title": "これが一番の時短‼️オーブン同時に4品知らない人は、やってみて🤗🤍✨",
@@ -8608,9 +8468,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "挽肉、白身魚、えび、厚揚げ、キャベツ、小松菜、ネギ、にんじん、レンコン、えのき茸、ショウガ、チーズ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みさこママl簡単褒められ時短レシピの実在動画。食材候補: 挽肉、白身魚、えび、厚揚げ、キャベツ、小松菜、ネギ、にんじん、レンコン、えのき茸、ショウガ、チーズ、バター、マヨネーズ。「これが一番の時短‼️オーブン同時に4品知らない人は、やってみて🤗🤍✨」のレシピです。"
+    "description": "みさこママl簡単褒められ時短レシピの実在動画。挽肉、白身魚、えび、厚揚げ、キャベツ、小松菜、ネギ、にんじん、レンコン、えのき茸、ショウガ、チーズ、バター、マヨネーズを使う「これが一番の時短‼️オーブン同時に4品知らない人は、やってみて🤗🤍✨」のレシピです。"
   },
   {
     "title": "揚げずに完成！本気で作った究極のチキン南蛮",
@@ -8627,6 +8485,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "麺",
       "根菜",
@@ -8640,15 +8499,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice_noodles",
       "ginger",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、ビーフン・フォー、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 鶏肉、卵、ビーフン・フォー、ショウガ、マヨネーズ。「揚げずに完成！本気で作った究極のチキン南蛮」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ビーフン・フォー、ショウガ、マヨネーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。鶏肉、白身魚、卵、ビーフン・フォー、ショウガ、マヨネーズを使う「揚げずに完成！本気で作った究極のチキン南蛮」のレシピです。"
   },
   {
     "title": "280円でできる簡単節約 辛ラーメンカルボナーラ",
@@ -8665,6 +8523,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "チーズ・バター・マヨ系"
@@ -8677,6 +8536,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "ramen",
       "pasta",
@@ -8684,10 +8544,8 @@ const recipes = [
       "butter",
       "milk"
     ],
-    "rawIngredients": "ベーコン、卵、ラーメン、パスタ、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なかむ 手取り18万の簡単節約レシピの実在動画。食材候補: ベーコン、卵、ラーメン、パスタ、チーズ、バター、牛乳。「280円でできる簡単節約 辛ラーメンカルボナーラ」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、ラーメン、パスタ、チーズ、バター、牛乳",
+    "description": "なかむ 手取り18万の簡単節約レシピの実在動画。ベーコン、白身魚、卵、ラーメン、パスタ、チーズ、バター、牛乳を使う「280円でできる簡単節約 辛ラーメンカルボナーラ」のレシピです。"
   },
   {
     "title": "火を使わないナスの煮浸し🍆レンジ4分！時短レシピだよ〜オススメ✌️麺つゆアレンジタレで超簡単。#なす#なすレシピ#レンジ#レンジレシピ#簡単#簡単レシピ#時短レシピ#麺つゆ#ナスの煮びたし",
@@ -8715,9 +8573,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まーたんの実在動画。食材候補: なす。「火を使わないナスの煮浸し🍆レンジ4分！時短レシピだよ〜オススメ✌️麺つゆアレンジタレで超簡単。#なす#なすレシピ#レンジ#レンジレシピ#簡単#簡単レシピ#時短レシピ#麺つゆ#ナスの煮びたし」のレシピです。"
+    "description": "まーたんの実在動画。なすを使う「火を使わないナスの煮浸し🍆レンジ4分！時短レシピだよ〜オススメ✌️麺つゆアレンジタレで超簡単。#なす#なすレシピ#レンジ#レンジレシピ#簡単#簡単レシピ#時短レシピ#麺つゆ#ナスの煮びたし」のレシピです。"
   },
   {
     "title": "やみつきダレで絶品❤️ズッキーニの重ね蒸し #料理 #レシピ #時短料理 #スッキーニ #ズッキーニレシピ #shorts",
@@ -8747,9 +8603,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "豚肉、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: 豚肉、なす。「やみつきダレで絶品❤️ズッキーニの重ね蒸し #料理 #レシピ #時短料理 #スッキーニ #ズッキーニレシピ #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。豚肉、なすを使う「やみつきダレで絶品❤️ズッキーニの重ね蒸し #料理 #レシピ #時短料理 #スッキーニ #ズッキーニレシピ #shorts」のレシピです。"
   },
   {
     "title": "【魚の面倒な片付けゼロ】下味冷凍して焼くだけ！絶品鮭ごまみりん焼き🍳",
@@ -8761,7 +8615,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/-PGICIBm09Q/maxresdefault.jpg",
     "creator": "MiyabinoKurashi | みやびの暮らし",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "cold",
     "ingredients": [
@@ -8774,12 +8628,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
-      "salmon"
+      "salmon",
+      "whitefish"
     ],
-    "rawIngredients": "サケ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "MiyabinoKurashi | みやびの暮らしの実在動画。食材候補: サケ。「【魚の面倒な片付けゼロ】下味冷凍して焼くだけ！絶品鮭ごまみりん焼き🍳」のレシピです。"
+    "rawIngredients": "サケ、白身魚",
+    "description": "MiyabinoKurashi | みやびの暮らしの実在動画。サケ、白身魚を使う「【魚の面倒な片付けゼロ】下味冷凍して焼くだけ！絶品鮭ごまみりん焼き🍳」のレシピです。"
   },
   {
     "title": "じゅんわりジューシー🐷なすと豚肉の重ね蒸し🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts",
@@ -8810,9 +8663,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "豚肉、ネギ、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: 豚肉、ネギ、なす。「じゅんわりジューシー🐷なすと豚肉の重ね蒸し🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。豚肉、ネギ、なすを使う「じゅんわりジューシー🐷なすと豚肉の重ね蒸し🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts」のレシピです。"
   },
   {
     "title": "鰻より美味しい？とろとろなすのかば焼き🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts",
@@ -8840,9 +8691,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: なす。「鰻より美味しい？とろとろなすのかば焼き🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。なすを使う「鰻より美味しい？とろとろなすのかば焼き🍆 #料理 #レシピ #時短料理 #なす #なすレシピ #shorts」のレシピです。"
   },
   {
     "title": "これなら食べれる！【あんかけ塩雑炊】 #簡単レシピ",
@@ -8870,9 +8719,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: ご飯・米。「これなら食べれる！【あんかけ塩雑炊】 #簡単レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。ご飯・米を使う「これなら食べれる！【あんかけ塩雑炊】 #簡単レシピ」のレシピです。"
   },
   {
     "title": "ズッキーニとツナサラダ #レシピ #レシピ動画 #簡単レシピ #時短レシピ #節約 #節約レシピ #料理 #初心者 #簡単 #時短 #ズッキーニ #家族 #ごはん #おつまみ 詳細は関連動画へ!",
@@ -8900,9 +8747,7 @@ const recipes = [
       "canned_tuna"
     ],
     "rawIngredients": "ツナ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "アラフォー看護師 たぬきの おうちごはんの実在動画。食材候補: ツナ。「ズッキーニとツナサラダ #レシピ #レシピ動画 #簡単レシピ #時短レシピ #節約 #節約レシピ #料理 #初心者 #簡単 #時短 #ズッキーニ #家族 #ごはん #おつまみ 詳細は関連動画へ!」のレシピです。"
+    "description": "アラフォー看護師 たぬきの おうちごはんの実在動画。ツナを使う「ズッキーニとツナサラダ #レシピ #レシピ動画 #簡単レシピ #時短レシピ #節約 #節約レシピ #料理 #初心者 #簡単 #時短 #ズッキーニ #家族 #ごはん #おつまみ 詳細は関連動画へ!」のレシピです。"
   },
   {
     "title": "薬味たっぷり🍆絶品なすのたたき #料理 #レシピ #時短料理 #なす #なすレシピ #shorts",
@@ -8931,9 +8776,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "ネギ、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: ネギ、なす。「薬味たっぷり🍆絶品なすのたたき #料理 #レシピ #時短料理 #なす #なすレシピ #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。ネギ、なすを使う「薬味たっぷり🍆絶品なすのたたき #料理 #レシピ #時短料理 #なす #なすレシピ #shorts」のレシピです。"
   },
   {
     "title": "トマ玉カレーうどん #ズボラレシピ #炊飯器レシピ #時短レシピ #ズボラ主婦 #カレーうどん",
@@ -8950,6 +8793,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -8964,6 +8808,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
@@ -8973,10 +8818,8 @@ const recipes = [
       "garlic",
       "curry_roux"
     ],
-    "rawIngredients": "豚肉、卵、うどん、ネギ、トマト、玉ねぎ、ショウガ、にんにく、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅりの実在動画。食材候補: 豚肉、卵、うどん、ネギ、トマト、玉ねぎ、ショウガ、にんにく、カレールゥ。「トマ玉カレーうどん #ズボラレシピ #炊飯器レシピ #時短レシピ #ズボラ主婦 #カレーうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、うどん、ネギ、トマト、玉ねぎ、ショウガ、にんにく、カレールゥ",
+    "description": "しゅりの実在動画。豚肉、白身魚、卵、うどん、ネギ、トマト、玉ねぎ、ショウガ、にんにく、カレールゥを使う「トマ玉カレーうどん #ズボラレシピ #炊飯器レシピ #時短レシピ #ズボラ主婦 #カレーうどん」のレシピです。"
   },
   {
     "title": "【揚げないヘルシー】鶏肉なすの揚げ浸し #pr#簡単レシピ #時短 #料理 #簡単ごはん #レシピ #時短ごはん #料理動画 #時短レシピ #shorts #ヘルシー #和食 #節約レシピ #痩せる",
@@ -9006,9 +8849,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "鶏肉、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あーぴん時短カンタンおうちごはん料理家の実在動画。食材候補: 鶏肉、なす。「【揚げないヘルシー】鶏肉なすの揚げ浸し #pr#簡単レシピ #時短 #料理 #簡単ごはん #レシピ #時短ごはん #料理動画 #時短レシピ #shorts #ヘルシー #和食 #節約レシピ #痩せる」のレシピです。"
+    "description": "あーぴん時短カンタンおうちごはん料理家の実在動画。鶏肉、なすを使う「【揚げないヘルシー】鶏肉なすの揚げ浸し #pr#簡単レシピ #時短 #料理 #簡単ごはん #レシピ #時短ごはん #料理動画 #時短レシピ #shorts #ヘルシー #和食 #節約レシピ #痩せる」のレシピです。"
   },
   {
     "title": "【レンチン✨😋】めんつゆパスタ紹介します✩.*˚ #時短レシピ#簡単レシピ#痩せメシ#時短レシピ#ダイエット#ダイエットレシピ#ダイエットメニュー#ヘルシーレシピ#レンチンレシ",
@@ -9036,9 +8877,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆうじん | 10分で整うワンパンパスタの実在動画。食材候補: パスタ。「【レンチン✨😋】めんつゆパスタ紹介します✩.*˚ #時短レシピ#簡単レシピ#痩せメシ#時短レシピ#ダイエット#ダイエットレシピ#ダイエットメニュー#ヘルシーレシピ#レンチンレシ」のレシピです。"
+    "description": "ゆうじん | 10分で整うワンパンパスタの実在動画。パスタを使う「【レンチン✨😋】めんつゆパスタ紹介します✩.*˚ #時短レシピ#簡単レシピ#痩せメシ#時短レシピ#ダイエット#ダイエットレシピ#ダイエットメニュー#ヘルシーレシピ#レンチンレシ」のレシピです。"
   },
   {
     "title": "レンジで6分！やみつきえのき漬け #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加",
@@ -9054,6 +8893,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "葉物野菜",
       "きのこ",
       "根菜"
@@ -9065,14 +8905,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "green_onion",
       "enoki",
       "garlic"
     ],
-    "rawIngredients": "ネギ、えのき茸、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。食材候補: ネギ、えのき茸、にんにく。「レンジで6分！やみつきえのき漬け #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加」のレシピです。"
+    "rawIngredients": "白身魚、ネギ、えのき茸、にんにく",
+    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。白身魚、ネギ、えのき茸、にんにくを使う「レンジで6分！やみつきえのき漬け #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加」のレシピです。"
   },
   {
     "title": "【レンジで簡単よだれ鶏】#おすすめ #簡単レシピ #簡単美味しい #料理 #時短 #ヘルシー #おかず #ダイエット #鶏むね肉 #よだれ鶏",
@@ -9100,9 +8939,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: 鶏肉。「【レンジで簡単よだれ鶏】#おすすめ #簡単レシピ #簡単美味しい #料理 #時短 #ヘルシー #おかず #ダイエット #鶏むね肉 #よだれ鶏」のレシピです。"
+    "description": "まいのごはん。の実在動画。鶏肉を使う「【レンジで簡単よだれ鶏】#おすすめ #簡単レシピ #簡単美味しい #料理 #時短 #ヘルシー #おかず #ダイエット #鶏むね肉 #よだれ鶏」のレシピです。"
   },
   {
     "title": "オムレツと言ったらコレ！『挽肉オムレツ』#15分レシピ #時短レシピ #オムレツ#ひき肉 #卵 #ガッツリ#男子飯",
@@ -9119,6 +8956,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵"
     ],
     "oil": 2,
@@ -9129,12 +8967,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg"
     ],
-    "rawIngredients": "挽肉、卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まかご飯の実在動画。食材候補: 挽肉、卵。「オムレツと言ったらコレ！『挽肉オムレツ』#15分レシピ #時短レシピ #オムレツ#ひき肉 #卵 #ガッツリ#男子飯」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵",
+    "description": "まかご飯の実在動画。挽肉、白身魚、卵を使う「オムレツと言ったらコレ！『挽肉オムレツ』#15分レシピ #時短レシピ #オムレツ#ひき肉 #卵 #ガッツリ#男子飯」のレシピです。"
   },
   {
     "title": "【白菜と豚しゃぶのうまだれ】 #簡単レシピ #時短節約 #おうちごはん #料理 #recipe",
@@ -9162,9 +8999,7 @@ const recipes = [
       "napa_cabbage"
     ],
     "rawIngredients": "napa_cabbage",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DOKINの実在動画。食材候補: napa_cabbage。「【白菜と豚しゃぶのうまだれ】 #簡単レシピ #時短節約 #おうちごはん #料理 #recipe」のレシピです。"
+    "description": "DOKINの実在動画。napa_cabbageを使う「【白菜と豚しゃぶのうまだれ】 #簡単レシピ #時短節約 #おうちごはん #料理 #recipe」のレシピです。"
   },
   {
     "title": "ポテトサラダまだ茹でてる🥔？#YouTubeshorts #レシピ #ポテトサラダ #時短 #時短レシピ #アイラップ",
@@ -9196,6 +9031,7 @@ const recipes = [
     "detailedIngredients": [
       "ham",
       "bacon",
+      "whitefish",
       "canned_tuna",
       "egg",
       "cucumber",
@@ -9203,10 +9039,8 @@ const recipes = [
       "carrot",
       "mayonnaise"
     ],
-    "rawIngredients": "ハム、ベーコン、ツナ、卵、きゅうり、じゃが芋、にんじん、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Akkaの時短クッキングの実在動画。食材候補: ハム、ベーコン、ツナ、卵、きゅうり、じゃが芋、にんじん、マヨネーズ。「ポテトサラダまだ茹でてる🥔？#YouTubeshorts #レシピ #ポテトサラダ #時短 #時短レシピ #アイラップ」のレシピです。"
+    "rawIngredients": "ハム、ベーコン、白身魚、ツナ、卵、きゅうり、じゃが芋、にんじん、マヨネーズ",
+    "description": "Akkaの時短クッキングの実在動画。ハム、ベーコン、白身魚、ツナ、卵、きゅうり、じゃが芋、にんじん、マヨネーズを使う「ポテトサラダまだ茹でてる🥔？#YouTubeshorts #レシピ #ポテトサラダ #時短 #時短レシピ #アイラップ」のレシピです。"
   },
   {
     "title": "【知らないと損！時短ゆで卵 裏技】 #ライフハック #暮らし #裏技 #ゆで卵",
@@ -9218,7 +9052,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/Zco1hcFW2DY/maxresdefault.jpg",
     "creator": "もな【30秒でわかるラク家事ハック】",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -9234,9 +9068,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "もな【30秒でわかるラク家事ハック】の実在動画。食材候補: 卵。「【知らないと損！時短ゆで卵 裏技】 #ライフハック #暮らし #裏技 #ゆで卵」のレシピです。"
+    "description": "もな【30秒でわかるラク家事ハック】の実在動画。卵を使う「【知らないと損！時短ゆで卵 裏技】 #ライフハック #暮らし #裏技 #ゆで卵」のレシピです。"
   },
   {
     "title": "【ごはんが進む甘辛ケチャップ味】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #鶏もも肉レシピ",
@@ -9264,9 +9096,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かろ🍳ワーママ楽うまワンパンレシピの実在動画。食材候補: 鶏肉。「【ごはんが進む甘辛ケチャップ味】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #鶏もも肉レシピ」のレシピです。"
+    "description": "かろ🍳ワーママ楽うまワンパンレシピの実在動画。鶏肉を使う「【ごはんが進む甘辛ケチャップ味】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #鶏もも肉レシピ」のレシピです。"
   },
   {
     "title": "鮭のムニエル🐟 #二人暮らし #簡単レシピ #節約レシピ #時短節約 #料理 #暮らしチャンネル #家計管理 #自炊 #今日の晩ごはん #おうちごはん #料理動画 #cooking #鮭",
@@ -9294,9 +9124,7 @@ const recipes = [
       "salmon"
     ],
     "rawIngredients": "サケ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "hiyoriの実在動画。食材候補: サケ。「鮭のムニエル🐟 #二人暮らし #簡単レシピ #節約レシピ #時短節約 #料理 #暮らしチャンネル #家計管理 #自炊 #今日の晩ごはん #おうちごはん #料理動画 #cooking #鮭」のレシピです。"
+    "description": "hiyoriの実在動画。サケを使う「鮭のムニエル🐟 #二人暮らし #簡単レシピ #節約レシピ #時短節約 #料理 #暮らしチャンネル #家計管理 #自炊 #今日の晩ごはん #おうちごはん #料理動画 #cooking #鮭」のレシピです。"
   },
   {
     "title": "丸めない！簡単スイートポテト🍠 #簡単レシピ #時短レシピ #さつまいも #ダイエットレシピ #無添加",
@@ -9312,6 +9140,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -9323,15 +9152,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "potato",
       "butter",
       "milk"
     ],
-    "rawIngredients": "卵、じゃが芋、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。食材候補: 卵、じゃが芋、バター、牛乳。「丸めない！簡単スイートポテト🍠 #簡単レシピ #時短レシピ #さつまいも #ダイエットレシピ #無添加」のレシピです。"
+    "rawIngredients": "白身魚、卵、じゃが芋、バター、牛乳",
+    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。白身魚、卵、じゃが芋、バター、牛乳を使う「丸めない！簡単スイートポテト🍠 #簡単レシピ #時短レシピ #さつまいも #ダイエットレシピ #無添加」のレシピです。"
   },
   {
     "title": "時短でできる春雨スープレシピを大公開！",
@@ -9349,6 +9177,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜",
@@ -9365,6 +9194,7 @@ const recipes = [
       "pork",
       "chicken",
       "minced_meat",
+      "whitefish",
       "tofu",
       "harusame",
       "cabbage",
@@ -9375,10 +9205,8 @@ const recipes = [
       "carrot",
       "shiitake"
     ],
-    "rawIngredients": "豚肉、鶏肉、挽肉、豆腐、春雨、キャベツ、小松菜、ネギ、もやし、玉ねぎ、にんじん、しいたけ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: 豚肉、鶏肉、挽肉、豆腐、春雨、キャベツ、小松菜、ネギ、もやし、玉ねぎ、にんじん、しいたけ。「時短でできる春雨スープレシピを大公開！」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、挽肉、白身魚、豆腐、春雨、キャベツ、小松菜、ネギ、もやし、玉ねぎ、にんじん、しいたけ",
+    "description": "あおいの給食室🔪の実在動画。豚肉、鶏肉、挽肉、白身魚、豆腐、春雨、キャベツ、小松菜、ネギ、もやし、玉ねぎ、にんじん、しいたけを使う「時短でできる春雨スープレシピを大公開！」のレシピです。"
   },
   {
     "title": "レシピはこちら🙌＼ ワンパンロコモコ丼 ／#ワンパンレシピ #ロコモコ丼 #簡単晩ごはん #時短ごはん #共働きごはん #おうちごはん #ひき肉レシピ #フライパンひとつ #おつまみ",
@@ -9395,6 +9223,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -9409,6 +9238,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
@@ -9417,10 +9247,8 @@ const recipes = [
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、ネギ、レタス、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。食材候補: 挽肉、卵、ご飯・米、ネギ、レタス、玉ねぎ、にんにく、チーズ。「レシピはこちら🙌＼ ワンパンロコモコ丼 ／#ワンパンレシピ #ロコモコ丼 #簡単晩ごはん #時短ごはん #共働きごはん #おうちごはん #ひき肉レシピ #フライパンひとつ #おつまみ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、ネギ、レタス、玉ねぎ、にんにく、チーズ",
+    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。挽肉、白身魚、卵、ご飯・米、ネギ、レタス、玉ねぎ、にんにく、チーズを使う「レシピはこちら🙌＼ ワンパンロコモコ丼 ／#ワンパンレシピ #ロコモコ丼 #簡単晩ごはん #時短ごはん #共働きごはん #おうちごはん #ひき肉レシピ #フライパンひとつ #おつまみ」のレシピです。"
   },
   {
     "title": "【時短レシピ】豚薄切り肉でルーロー飯風の作り方 #shorts",
@@ -9437,6 +9265,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜"
@@ -9449,14 +9278,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "komatsuna",
       "ginger"
     ],
-    "rawIngredients": "豚肉、卵、小松菜、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、卵、小松菜、ショウガ。「【時短レシピ】豚薄切り肉でルーロー飯風の作り方 #shorts」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、小松菜、ショウガ",
+    "description": "デリッシュキッチンの実在動画。豚肉、白身魚、卵、小松菜、ショウガを使う「【時短レシピ】豚薄切り肉でルーロー飯風の作り方 #shorts」のレシピです。"
   },
   {
     "title": "レシピはこちら🙌#チーズカツ #揚げないレシピ #簡単カツ #豚ロースレシピ #お弁当おかず #時短レシピ #節約ごはん #おうちごはん #作ってみたくなるレシピ #ご飯がすすむ #おつまみレシピ",
@@ -9473,6 +9301,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "チーズ・バター・マヨ系"
     ],
     "oil": 5,
@@ -9483,13 +9312,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "cheese",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。食材候補: 豚肉、チーズ、マヨネーズ。「レシピはこちら🙌#チーズカツ #揚げないレシピ #簡単カツ #豚ロースレシピ #お弁当おかず #時短レシピ #節約ごはん #おうちごはん #作ってみたくなるレシピ #ご飯がすすむ #おつまみレシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、チーズ、マヨネーズ",
+    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。豚肉、白身魚、チーズ、マヨネーズを使う「レシピはこちら🙌#チーズカツ #揚げないレシピ #簡単カツ #豚ロースレシピ #お弁当おかず #時短レシピ #節約ごはん #おうちごはん #作ってみたくなるレシピ #ご飯がすすむ #おつまみレシピ」のレシピです。"
   },
   {
     "title": "レンジでじゅわとろ無限ナス #簡単副菜 #時短レシピ #shorts",
@@ -9517,9 +9345,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りんのおうちごはんの実在動画。食材候補: なす。「レンジでじゅわとろ無限ナス #簡単副菜 #時短レシピ #shorts」のレシピです。"
+    "description": "りんのおうちごはんの実在動画。なすを使う「レンジでじゅわとろ無限ナス #簡単副菜 #時短レシピ #shorts」のレシピです。"
   },
   {
     "title": "秒うま！梅しそおにぎり #簡単レシピ #おにぎり #時短レシピ #無添加 #朝ごはん #朝食",
@@ -9535,6 +9361,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "葉物野菜"
     ],
@@ -9545,13 +9372,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "kombu"
     ],
-    "rawIngredients": "ご飯・米、昆布",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。食材候補: ご飯・米、昆布。「秒うま！梅しそおにぎり #簡単レシピ #おにぎり #時短レシピ #無添加 #朝ごはん #朝食」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、昆布",
+    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。白身魚、ご飯・米、昆布を使う「秒うま！梅しそおにぎり #簡単レシピ #おにぎり #時短レシピ #無添加 #朝ごはん #朝食」のレシピです。"
   },
   {
     "title": "材料少なめ【ツナパスタ】時短で済ませたい日におすすめ！節約レシピ",
@@ -9588,9 +9414,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、ツナ、パスタ、ネギ、昆布、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: 鶏肉、ツナ、パスタ、ネギ、昆布、マヨネーズ。「材料少なめ【ツナパスタ】時短で済ませたい日におすすめ！節約レシピ」のレシピです。"
+    "description": "深夜食堂の実在動画。鶏肉、ツナ、パスタ、ネギ、昆布、マヨネーズを使う「材料少なめ【ツナパスタ】時短で済ませたい日におすすめ！節約レシピ」のレシピです。"
   },
   {
     "title": "【カリカリえのき】#ワーママごはん #簡単レシピ #簡単おかず #時短レシピ #えのき",
@@ -9618,9 +9442,7 @@ const recipes = [
       "enoki"
     ],
     "rawIngredients": "えのき茸",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かろ🍳ワーママ楽うまワンパンレシピの実在動画。食材候補: えのき茸。「【カリカリえのき】#ワーママごはん #簡単レシピ #簡単おかず #時短レシピ #えのき」のレシピです。"
+    "description": "かろ🍳ワーママ楽うまワンパンレシピの実在動画。えのき茸を使う「【カリカリえのき】#ワーママごはん #簡単レシピ #簡単おかず #時短レシピ #えのき」のレシピです。"
   },
   {
     "title": "4児ママ〜鶏もも簡単レシピ〜",
@@ -9648,9 +9470,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マイの実在動画。食材候補: 鶏肉。「4児ママ〜鶏もも簡単レシピ〜」のレシピです。"
+    "description": "マイの実在動画。鶏肉を使う「4児ママ〜鶏もも簡単レシピ〜」のレシピです。"
   },
   {
     "title": "爆速ワンパン餃子 #時短レシピ#簡単レシピ #飯テロ #cooking",
@@ -9678,9 +9498,7 @@ const recipes = [
       "minced_meat"
     ],
     "rawIngredients": "挽肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あやたい家族 〜B型6人の日常とごはん〜の実在動画。食材候補: 挽肉。「爆速ワンパン餃子 #時短レシピ#簡単レシピ #飯テロ #cooking」のレシピです。"
+    "description": "あやたい家族 〜B型6人の日常とごはん〜の実在動画。挽肉を使う「爆速ワンパン餃子 #時短レシピ#簡単レシピ #飯テロ #cooking」のレシピです。"
   },
   {
     "title": "レンジで簡単！虚無塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
@@ -9708,9 +9526,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: ラーメン。「レンジで簡単！虚無塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。ラーメンを使う「レンジで簡単！虚無塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
   },
   {
     "title": "超カンタン！激ウマ回鍋肉！#中華料理 #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ",
@@ -9736,13 +9552,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "ramen"
     ],
-    "rawIngredients": "えび、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、ラーメン。「超カンタン！激ウマ回鍋肉！#中華料理 #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "白身魚、えび、ラーメン",
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。白身魚、えび、ラーメンを使う「超カンタン！激ウマ回鍋肉！#中華料理 #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "レンジで3分！チョコテリーヌ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加",
@@ -9758,6 +9573,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "チーズ・バター・マヨ系"
     ],
@@ -9768,13 +9584,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "butter"
     ],
-    "rawIngredients": "豆腐、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。食材候補: 豆腐、バター。「レンジで3分！チョコテリーヌ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、バター",
+    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。白身魚、豆腐、バターを使う「レンジで3分！チョコテリーヌ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加」のレシピです。"
   },
   {
     "title": "『パン・オ・ショコラ』おうちで作る時短レシピ",
@@ -9802,9 +9617,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆっこぱんの実在動画。食材候補: バター。「『パン・オ・ショコラ』おうちで作る時短レシピ」のレシピです。"
+    "description": "ゆっこぱんの実在動画。バターを使う「『パン・オ・ショコラ』おうちで作る時短レシピ」のレシピです。"
   },
   {
     "title": "🍙おにぎりランチケースの使い方✨＃お弁当＃おにぎり＃時短レシピ",
@@ -9832,9 +9645,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【公式】オーエスケーの実在動画。食材候補: ご飯・米。「🍙おにぎりランチケースの使い方✨＃お弁当＃おにぎり＃時短レシピ」のレシピです。"
+    "description": "【公式】オーエスケーの実在動画。ご飯・米を使う「🍙おにぎりランチケースの使い方✨＃お弁当＃おにぎり＃時短レシピ」のレシピです。"
   },
   {
     "title": "SNS総再生866万の油そば！#料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ",
@@ -9860,14 +9671,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "soba",
       "ramen"
     ],
-    "rawIngredients": "えび、そば、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、そば、ラーメン。「SNS総再生866万の油そば！#料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "白身魚、えび、そば、ラーメン",
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。白身魚、えび、そば、ラーメンを使う「SNS総再生866万の油そば！#料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "料理人の父ちゃんが作る！簡単！チンジャオロース #時短レシピ #簡単レシピ #青椒肉絲 #中華料理",
@@ -9899,9 +9709,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、ピーマン、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "成田家のごきげんごはんの実在動画。食材候補: 豚肉、ピーマン、ショウガ。「料理人の父ちゃんが作る！簡単！チンジャオロース #時短レシピ #簡単レシピ #青椒肉絲 #中華料理」のレシピです。"
+    "description": "成田家のごきげんごはんの実在動画。豚肉、ピーマン、ショウガを使う「料理人の父ちゃんが作る！簡単！チンジャオロース #時短レシピ #簡単レシピ #青椒肉絲 #中華料理」のレシピです。"
   },
   {
     "title": "『韓国チャプチェ』#15分レシピ #時短レシピ #韓国料理#チャプチェ #牛肉 #春雨#男子飯",
@@ -9931,9 +9739,7 @@ const recipes = [
       "harusame"
     ],
     "rawIngredients": "牛肉、春雨",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まかご飯の実在動画。食材候補: 牛肉、春雨。「『韓国チャプチェ』#15分レシピ #時短レシピ #韓国料理#チャプチェ #牛肉 #春雨#男子飯」のレシピです。"
+    "description": "まかご飯の実在動画。牛肉、春雨を使う「『韓国チャプチェ』#15分レシピ #時短レシピ #韓国料理#チャプチェ #牛肉 #春雨#男子飯」のレシピです。"
   },
   {
     "title": "和えるだけ！もずくキムチ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加",
@@ -9949,6 +9755,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜"
@@ -9960,14 +9767,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "somen",
       "green_onion"
     ],
-    "rawIngredients": "豆腐、そうめん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。食材候補: 豆腐、そうめん、ネギ。「和えるだけ！もずくキムチ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、そうめん、ネギ",
+    "description": "むに ⌇ 共働き夫婦のゆる無添加🌿の実在動画。白身魚、豆腐、そうめん、ネギを使う「和えるだけ！もずくキムチ #簡単レシピ #時短レシピ #ダイエットレシピ #ヘルシーレシピ #無添加」のレシピです。"
   },
   {
     "title": "【ズッキーニのミートチーズ焼き】#簡単レシピ#ワンパンレシピ #時短レシピ#節約レシピ#レシピ",
@@ -9995,9 +9801,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DOKINの実在動画。食材候補: チーズ。「【ズッキーニのミートチーズ焼き】#簡単レシピ#ワンパンレシピ #時短レシピ#節約レシピ#レシピ」のレシピです。"
+    "description": "DOKINの実在動画。チーズを使う「【ズッキーニのミートチーズ焼き】#簡単レシピ#ワンパンレシピ #時短レシピ#節約レシピ#レシピ」のレシピです。"
   },
   {
     "title": "きゅうりの明太子和え🥒 #料理 #レシピ #時短料理 #きゅうり #きゅうりレシピ #shorts",
@@ -10025,9 +9829,7 @@ const recipes = [
       "cucumber"
     ],
     "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: きゅうり。「きゅうりの明太子和え🥒 #料理 #レシピ #時短料理 #きゅうり #きゅうりレシピ #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。きゅうりを使う「きゅうりの明太子和え🥒 #料理 #レシピ #時短料理 #きゅうり #きゅうりレシピ #shorts」のレシピです。"
   },
   {
     "title": "ブロッコリー茹でちゃダメ！ #youtubeshorts #簡単レシピ #時短レシピ",
@@ -10043,6 +9845,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "葉物野菜"
     ],
     "oil": 1,
@@ -10052,12 +9855,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "broccoli"
     ],
-    "rawIngredients": "ブロッコリー",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Akkaの時短クッキングの実在動画。食材候補: ブロッコリー。「ブロッコリー茹でちゃダメ！ #youtubeshorts #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "白身魚、ブロッコリー",
+    "description": "Akkaの時短クッキングの実在動画。白身魚、ブロッコリーを使う「ブロッコリー茹でちゃダメ！ #youtubeshorts #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "レンジでカンタン！！絶品カルボナーラ！ #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ",
@@ -10083,14 +9885,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "ramen",
       "pasta"
     ],
-    "rawIngredients": "えび、ラーメン、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、ラーメン、パスタ。「レンジでカンタン！！絶品カルボナーラ！ #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ」のレシピです。"
+    "rawIngredients": "白身魚、えび、ラーメン、パスタ",
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。白身魚、えび、ラーメン、パスタを使う「レンジでカンタン！！絶品カルボナーラ！ #料理 #レシピ #ラーメン#時短 #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "ワンオペ金曜日の超時短ごはん🍝ナポリうどんありですか？#るいちゃんねる #簡単レシピ #簡単料理 #時短レシピ #時短節約 #2歳",
@@ -10118,9 +9919,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "るいちゃんねる🍼の実在動画。食材候補: うどん。「ワンオペ金曜日の超時短ごはん🍝ナポリうどんありですか？#るいちゃんねる #簡単レシピ #簡単料理 #時短レシピ #時短節約 #2歳」のレシピです。"
+    "description": "るいちゃんねる🍼の実在動画。うどんを使う「ワンオペ金曜日の超時短ごはん🍝ナポリうどんありですか？#るいちゃんねる #簡単レシピ #簡単料理 #時短レシピ #時短節約 #2歳」のレシピです。"
   },
   {
     "title": "【材料ふたつで半熟たまカツ】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #卵レシピ",
@@ -10148,9 +9947,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かろ🍳ワーママ楽うまワンパンレシピの実在動画。食材候補: 卵。「【材料ふたつで半熟たまカツ】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #卵レシピ」のレシピです。"
+    "description": "かろ🍳ワーママ楽うまワンパンレシピの実在動画。卵を使う「【材料ふたつで半熟たまカツ】#レシピ #簡単レシピ #簡単おかず #時短レシピ #ワーママごはん #卵レシピ」のレシピです。"
   },
   {
     "title": "簡単！節約！旨い！！豚バラのさっぱり蒸し煮✨ #簡単レシピ",
@@ -10178,9 +9975,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: 豚肉。「簡単！節約！旨い！！豚バラのさっぱり蒸し煮✨ #簡単レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。豚肉を使う「簡単！節約！旨い！！豚バラのさっぱり蒸し煮✨ #簡単レシピ」のレシピです。"
   },
   {
     "title": "10分でできるコスパ鍋🍲 #簡単レシピ #時短レシピ #節約レシピ #鍋レシピ #鍋 #小松菜レシピ #春雨レシピ #きのこレシピ",
@@ -10210,9 +10005,7 @@ const recipes = [
       "komatsuna"
     ],
     "rawIngredients": "春雨、小松菜",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Yuuのラクうまクッキングの実在動画。食材候補: 春雨、小松菜。「10分でできるコスパ鍋🍲 #簡単レシピ #時短レシピ #節約レシピ #鍋レシピ #鍋 #小松菜レシピ #春雨レシピ #きのこレシピ」のレシピです。"
+    "description": "Yuuのラクうまクッキングの実在動画。春雨、小松菜を使う「10分でできるコスパ鍋🍲 #簡単レシピ #時短レシピ #節約レシピ #鍋レシピ #鍋 #小松菜レシピ #春雨レシピ #きのこレシピ」のレシピです。"
   },
   {
     "title": "もっちゅりん風🍩もちもちドーナツ #料理 #レシピ #時短料理 #もっちゅりん #ホットケーキミックス #shorts",
@@ -10242,9 +10035,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "卵、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いとえり時短クッキングの実在動画。食材候補: 卵、牛乳。「もっちゅりん風🍩もちもちドーナツ #料理 #レシピ #時短料理 #もっちゅりん #ホットケーキミックス #shorts」のレシピです。"
+    "description": "いとえり時短クッキングの実在動画。卵、牛乳を使う「もっちゅりん風🍩もちもちドーナツ #料理 #レシピ #時短料理 #もっちゅりん #ホットケーキミックス #shorts」のレシピです。"
   },
   {
     "title": "レッドホット風チキン #ズボラレシピ #時短レシピ #炊飯器レシピ #ズボラ主婦 #ケンタッキー",
@@ -10261,6 +10052,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -10272,13 +10064,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅりの実在動画。食材候補: 鶏肉、にんにく、マヨネーズ。「レッドホット風チキン #ズボラレシピ #時短レシピ #炊飯器レシピ #ズボラ主婦 #ケンタッキー」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にんにく、マヨネーズ",
+    "description": "しゅりの実在動画。鶏肉、白身魚、にんにく、マヨネーズを使う「レッドホット風チキン #ズボラレシピ #時短レシピ #炊飯器レシピ #ズボラ主婦 #ケンタッキー」のレシピです。"
   },
   {
     "title": "大根おろしの豚しゃぶサラダ #レシピ#簡単レシピ#時短レシピ #同棲ご飯#お昼ご飯#夜ごはん#豚しゃぶ#サラダ#大根おろし#トマト",
@@ -10312,9 +10103,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、きゅうり、トマト、大根、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるさん【22時帰宅の放置ごはん】の実在動画。食材候補: 豚肉、きゅうり、トマト、大根、にんにく。「大根おろしの豚しゃぶサラダ #レシピ#簡単レシピ#時短レシピ #同棲ご飯#お昼ご飯#夜ごはん#豚しゃぶ#サラダ#大根おろし#トマト」のレシピです。"
+    "description": "まるさん【22時帰宅の放置ごはん】の実在動画。豚肉、きゅうり、トマト、大根、にんにくを使う「大根おろしの豚しゃぶサラダ #レシピ#簡単レシピ#時短レシピ #同棲ご飯#お昼ご飯#夜ごはん#豚しゃぶ#サラダ#大根おろし#トマト」のレシピです。"
   },
   {
     "title": "レシピはこちら🙌#肉じゃがリメイク #スコップコロッケ #簡単レシピ #時短レシピ #リメイクレシピ #家庭料理 #ズボラ飯 #夜ご飯#余りもの活用 #美味しい #コロッケアレンジ #おつまみレシピ",
@@ -10326,11 +10115,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/1oeik1yaIIk/maxresdefault.jpg",
     "creator": "さち⌇時短・簡単・夫婦ごはん",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "根菜"
     ],
     "oil": 2,
@@ -10341,12 +10131,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "potato"
     ],
-    "rawIngredients": "挽肉、じゃが芋",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。食材候補: 挽肉、じゃが芋。「レシピはこちら🙌#肉じゃがリメイク #スコップコロッケ #簡単レシピ #時短レシピ #リメイクレシピ #家庭料理 #ズボラ飯 #夜ご飯#余りもの活用 #美味しい #コロッケアレンジ #おつまみレシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、じゃが芋",
+    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。挽肉、白身魚、じゃが芋を使う「レシピはこちら🙌#肉じゃがリメイク #スコップコロッケ #簡単レシピ #時短レシピ #リメイクレシピ #家庭料理 #ズボラ飯 #夜ご飯#余りもの活用 #美味しい #コロッケアレンジ #おつまみレシピ」のレシピです。"
   },
   {
     "title": "【カレー余り】 とろ〜り絶品カレーパン #残り #時短レシピ #幼児食 #カレー #カレーパン #朝ごはん #食パン #おやつ #トモニテ #shorts",
@@ -10362,6 +10151,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "チーズ・バター・マヨ系",
@@ -10374,15 +10164,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice_noodles",
       "cheese",
       "bread"
     ],
-    "rawIngredients": "卵、ビーフン・フォー、チーズ、パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "トモニテの実在動画。食材候補: 卵、ビーフン・フォー、チーズ、パン。「【カレー余り】 とろ〜り絶品カレーパン #残り #時短レシピ #幼児食 #カレー #カレーパン #朝ごはん #食パン #おやつ #トモニテ #shorts」のレシピです。"
+    "rawIngredients": "白身魚、卵、ビーフン・フォー、チーズ、パン",
+    "description": "トモニテの実在動画。白身魚、卵、ビーフン・フォー、チーズ、パンを使う「【カレー余り】 とろ〜り絶品カレーパン #残り #時短レシピ #幼児食 #カレー #カレーパン #朝ごはん #食パン #おやつ #トモニテ #shorts」のレシピです。"
   },
   {
     "title": "地味ご飯の時に助かるラディッシュ菜飯 #時短レシピ #夏レシピ #主婦 #簡単料理 #ライフハック #料理 #知ってて得する #豆知識 #shorts #ラディッシュ #菜飯 #混ぜご飯",
@@ -10407,12 +10196,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "octopus"
     ],
-    "rawIngredients": "たこ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "冷凍子ママの実在動画。食材候補: たこ。「地味ご飯の時に助かるラディッシュ菜飯 #時短レシピ #夏レシピ #主婦 #簡単料理 #ライフハック #料理 #知ってて得する #豆知識 #shorts #ラディッシュ #菜飯 #混ぜご飯」のレシピです。"
+    "rawIngredients": "白身魚、たこ",
+    "description": "冷凍子ママの実在動画。白身魚、たこを使う「地味ご飯の時に助かるラディッシュ菜飯 #時短レシピ #夏レシピ #主婦 #簡単料理 #ライフハック #料理 #知ってて得する #豆知識 #shorts #ラディッシュ #菜飯 #混ぜご飯」のレシピです。"
   },
   {
     "title": "ブリトー #簡単レシピ #冷凍ストック #時短レシピ #冷凍ストック #cooking",
@@ -10444,9 +10232,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "ハム、ブリ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りこの実在動画。食材候補: ハム、ブリ、チーズ。「ブリトー #簡単レシピ #冷凍ストック #時短レシピ #冷凍ストック #cooking」のレシピです。"
+    "description": "りこの実在動画。ハム、ブリ、チーズを使う「ブリトー #簡単レシピ #冷凍ストック #時短レシピ #冷凍ストック #cooking」のレシピです。"
   },
   {
     "title": "レンジで簡単！味の素だしの醤油ラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
@@ -10474,9 +10260,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: ラーメン。「レンジで簡単！味の素だしの醤油ラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。ラーメンを使う「レンジで簡単！味の素だしの醤油ラーメン#時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
   },
   {
     "title": "溶かすだけで食べられる絶品冷凍パスタ弁当 #パスタ #暮らしチャンネル #冷凍ストック #cooking #料理 #時短レシピ #簡単レシピ #pasta #food #自炊 #おうちごはん #時短",
@@ -10492,6 +10276,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -10501,12 +10286,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "nico_pastablockの実在動画。食材候補: パスタ。「溶かすだけで食べられる絶品冷凍パスタ弁当 #パスタ #暮らしチャンネル #冷凍ストック #cooking #料理 #時短レシピ #簡単レシピ #pasta #food #自炊 #おうちごはん #時短」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "nico_pastablockの実在動画。白身魚、パスタを使う「溶かすだけで食べられる絶品冷凍パスタ弁当 #パスタ #暮らしチャンネル #冷凍ストック #cooking #料理 #時短レシピ #簡単レシピ #pasta #food #自炊 #おうちごはん #時短」のレシピです。"
   },
   {
     "title": "【簡単レシピ】納豆パリパリ焼き #おつまみ #簡単レシピ #簡単 #簡単料理 #時短 #時短レシピ #時短料理 #節約 #節約レシピ #自炊 #料理 #料理動画 #チーズ #一人暮らし #ズボラ飯",
@@ -10534,9 +10318,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "チキチキチャンネルの実在動画。食材候補: チーズ。「【簡単レシピ】納豆パリパリ焼き #おつまみ #簡単レシピ #簡単 #簡単料理 #時短 #時短レシピ #時短料理 #節約 #節約レシピ #自炊 #料理 #料理動画 #チーズ #一人暮らし #ズボラ飯」のレシピです。"
+    "description": "チキチキチャンネルの実在動画。チーズを使う「【簡単レシピ】納豆パリパリ焼き #おつまみ #簡単レシピ #簡単 #簡単料理 #時短 #時短レシピ #時短料理 #節約 #節約レシピ #自炊 #料理 #料理動画 #チーズ #一人暮らし #ズボラ飯」のレシピです。"
   },
   {
     "title": "【時短料理】焼き鳥缶で作れる激うま『親子丼』 #料理 #時短レシピ #親子丼 #せりちゃん食堂",
@@ -10553,6 +10335,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -10566,15 +10349,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "芹沢尚哉のせりちゃん食堂の実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ。「【時短料理】焼き鳥缶で作れる激うま『親子丼』 #料理 #時短レシピ #親子丼 #せりちゃん食堂」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "芹沢尚哉のせりちゃん食堂の実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「【時短料理】焼き鳥缶で作れる激うま『親子丼』 #料理 #時短レシピ #親子丼 #せりちゃん食堂」のレシピです。"
   },
   {
     "title": "絶品！塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理",
@@ -10602,9 +10384,7 @@ const recipes = [
       "ramen"
     ],
     "rawIngredients": "ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: ラーメン。「絶品！塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。ラーメンを使う「絶品！塩ラーメン #時短#ラーメン#簡単レシピ#時短レシピ#レシピ#時短料理」のレシピです。"
   },
   {
     "title": "絶品！90秒で作れる油そば #ラーメン",
@@ -10630,14 +10410,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "soba",
       "ramen"
     ],
-    "rawIngredients": "えび、そば、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、そば、ラーメン。「絶品！90秒で作れる油そば #ラーメン」のレシピです。"
+    "rawIngredients": "白身魚、えび、そば、ラーメン",
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。白身魚、えび、そば、ラーメンを使う「絶品！90秒で作れる油そば #ラーメン」のレシピです。"
   },
   {
     "title": "【誰でも簡単】ドケチ主婦が月４万円で暮らすために実践する「食費節約術７選」｜節約レシピ紹介/節約生活/５人家族",
@@ -10654,6 +10433,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜",
@@ -10668,6 +10448,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "tofu",
       "rice_noodles",
       "pasta",
@@ -10679,10 +10460,8 @@ const recipes = [
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "鶏肉、豆腐、ビーフン・フォー、パスタ、ネギ、もやし、トマト、玉ねぎ、大根、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "リッチじゃない暮らしの実在動画。食材候補: 鶏肉、豆腐、ビーフン・フォー、パスタ、ネギ、もやし、トマト、玉ねぎ、大根、にんにく、チーズ。「【誰でも簡単】ドケチ主婦が月４万円で暮らすために実践する「食費節約術７選」｜節約レシピ紹介/節約生活/５人家族」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、豆腐、ビーフン・フォー、パスタ、ネギ、もやし、トマト、玉ねぎ、大根、にんにく、チーズ",
+    "description": "リッチじゃない暮らしの実在動画。鶏肉、白身魚、豆腐、ビーフン・フォー、パスタ、ネギ、もやし、トマト、玉ねぎ、大根、にんにく、チーズを使う「【誰でも簡単】ドケチ主婦が月４万円で暮らすために実践する「食費節約術７選」｜節約レシピ紹介/節約生活/５人家族」のレシピです。"
   },
   {
     "title": "お酢でさっぱり【夏野菜の焼き浸し】めんつゆで簡単絶品！生姜の風味に夏野菜の甘みが病みつき！節約おかず",
@@ -10717,9 +10496,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "鶏肉、トマト、なす、ピーマン、かぼちゃ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: 鶏肉、トマト、なす、ピーマン、かぼちゃ、ショウガ。「お酢でさっぱり【夏野菜の焼き浸し】めんつゆで簡単絶品！生姜の風味に夏野菜の甘みが病みつき！節約おかず」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。鶏肉、トマト、なす、ピーマン、かぼちゃ、ショウガを使う「お酢でさっぱり【夏野菜の焼き浸し】めんつゆで簡単絶品！生姜の風味に夏野菜の甘みが病みつき！節約おかず」のレシピです。"
   },
   {
     "title": "100万回再生人気レシピ【卵・油・パン粉不使用】家族に大人気！混ぜて焼くだけの節約もやしバーグ【節約レシピ】【もやしレシピ】【肉もやし】",
@@ -10753,9 +10530,7 @@ const recipes = [
       "bread"
     ],
     "rawIngredients": "挽肉、卵、もやし、パン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "調理師ゆめ子のこだわりレシピの実在動画。食材候補: 挽肉、卵、もやし、パン。「100万回再生人気レシピ【卵・油・パン粉不使用】家族に大人気！混ぜて焼くだけの節約もやしバーグ【節約レシピ】【もやしレシピ】【肉もやし】」のレシピです。"
+    "description": "調理師ゆめ子のこだわりレシピの実在動画。挽肉、卵、もやし、パンを使う「100万回再生人気レシピ【卵・油・パン粉不使用】家族に大人気！混ぜて焼くだけの節約もやしバーグ【節約レシピ】【もやしレシピ】【肉もやし】」のレシピです。"
   },
   {
     "title": "【節約レシピ】豆腐の照り焼き",
@@ -10786,9 +10561,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豆腐、厚揚げ、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "節約レシピの実在動画。食材候補: 豆腐、厚揚げ、ネギ。「【節約レシピ】豆腐の照り焼き」のレシピです。"
+    "description": "節約レシピの実在動画。豆腐、厚揚げ、ネギを使う「【節約レシピ】豆腐の照り焼き」のレシピです。"
   },
   {
     "title": "【80円で完成‼️もやし焼き】 #ダイエットレシピ #簡単レシピ #節約レシピ",
@@ -10816,9 +10589,7 @@ const recipes = [
       "bean_sprouts"
     ],
     "rawIngredients": "もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ほのか🍽ラク痩せ飯の実在動画。食材候補: もやし。「【80円で完成‼️もやし焼き】 #ダイエットレシピ #簡単レシピ #節約レシピ」のレシピです。"
+    "description": "ほのか🍽ラク痩せ飯の実在動画。もやしを使う「【80円で完成‼️もやし焼き】 #ダイエットレシピ #簡単レシピ #節約レシピ」のレシピです。"
   },
   {
     "title": "「玉ねぎ豆腐焼き」とろ～と甘い玉ねぎとフワフワ豆腐！節約レシピ・ダイエットレシピ",
@@ -10850,9 +10621,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "豆腐、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DAIFUKU KITCHENの実在動画。食材候補: 豆腐、ネギ、玉ねぎ。「「玉ねぎ豆腐焼き」とろ～と甘い玉ねぎとフワフワ豆腐！節約レシピ・ダイエットレシピ」のレシピです。"
+    "description": "DAIFUKU KITCHENの実在動画。豆腐、ネギ、玉ねぎを使う「「玉ねぎ豆腐焼き」とろ～と甘い玉ねぎとフワフワ豆腐！節約レシピ・ダイエットレシピ」のレシピです。"
   },
   {
     "title": "1000万再生超えたの。もやし史上1番バズったといっても過言ではないレシピです。#簡単レシピ #節約レシピ #shorts",
@@ -10880,9 +10649,35 @@ const recipes = [
       "bean_sprouts"
     ],
     "rawIngredients": "もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "経塚翼 - Tsubasa Kyoduka -の実在動画。食材候補: もやし。「1000万再生超えたの。もやし史上1番バズったといっても過言ではないレシピです。#簡単レシピ #節約レシピ #shorts」のレシピです。"
+    "description": "経塚翼 - Tsubasa Kyoduka -の実在動画。もやしを使う「1000万再生超えたの。もやし史上1番バズったといっても過言ではないレシピです。#簡単レシピ #節約レシピ #shorts」のレシピです。"
+  },
+  {
+    "title": "100円節約ズボラ飯ライフハック！ #ライフハック #暮らし #料理 #レシピ #shorts",
+    "platform": "youtube",
+    "externalId": "ZWmUo8ggZG0",
+    "videoUrl": "https://www.youtube.com/watch?v=ZWmUo8ggZG0",
+    "videoId": "ZWmUo8ggZG0",
+    "url": "https://www.youtube.com/watch?v=ZWmUo8ggZG0",
+    "thumbnailUrl": "https://i.ytimg.com/vi/ZWmUo8ggZG0/maxresdefault.jpg",
+    "creator": "よう│明日から使えるライフハック術",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "よう│明日から使えるライフハック術の実在動画。白身魚を使う「100円節約ズボラ飯ライフハック！ #ライフハック #暮らし #料理 #レシピ #shorts」のレシピです。"
   },
   {
     "title": "食べだしたらとまらない『カリッカリえのき』 #簡単レシピ #節約レシピ #おつまみレシピ",
@@ -10898,6 +10693,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "きのこ",
       "根菜"
     ],
@@ -10908,14 +10704,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "enoki",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "えのき茸、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まさまさ・楽うまレシピの実在動画。食材候補: えのき茸、ショウガ、にんにく。「食べだしたらとまらない『カリッカリえのき』 #簡単レシピ #節約レシピ #おつまみレシピ」のレシピです。"
+    "rawIngredients": "白身魚、えのき茸、ショウガ、にんにく",
+    "description": "まさまさ・楽うまレシピの実在動画。白身魚、えのき茸、ショウガ、にんにくを使う「食べだしたらとまらない『カリッカリえのき』 #簡単レシピ #節約レシピ #おつまみレシピ」のレシピです。"
   },
   {
     "title": "【簡単節約レシピ👛✨】1個132円ビッグマック風タコス",
@@ -10943,9 +10738,7 @@ const recipes = [
       "octopus"
     ],
     "rawIngredients": "たこ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なの⌇週2500円でやりくりする社会人の実在動画。食材候補: たこ。「【簡単節約レシピ👛✨】1個132円ビッグマック風タコス」のレシピです。"
+    "description": "なの⌇週2500円でやりくりする社会人の実在動画。たこを使う「【簡単節約レシピ👛✨】1個132円ビッグマック風タコス」のレシピです。"
   },
   {
     "title": "たった125円！たった7分！究極の節約飯の『すき焼き丼』が悶絶級に旨いっ！",
@@ -10979,9 +10772,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、卵、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、卵、ご飯・米、ネギ。「たった125円！たった7分！究極の節約飯の『すき焼き丼』が悶絶級に旨いっ！」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、卵、ご飯・米、ネギを使う「たった125円！たった7分！究極の節約飯の『すき焼き丼』が悶絶級に旨いっ！」のレシピです。"
   },
   {
     "title": "【10分で完成‼️ささみシソチーズ🧀】 #ダイエットレシピ #簡単レシピ #節約レシピ # #ダイエット",
@@ -11011,9 +10802,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "鶏肉、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ほのか🍽ラク痩せ飯の実在動画。食材候補: 鶏肉、チーズ。「【10分で完成‼️ささみシソチーズ🧀】 #ダイエットレシピ #簡単レシピ #節約レシピ # #ダイエット」のレシピです。"
+    "description": "ほのか🍽ラク痩せ飯の実在動画。鶏肉、チーズを使う「【10分で完成‼️ささみシソチーズ🧀】 #ダイエットレシピ #簡単レシピ #節約レシピ # #ダイエット」のレシピです。"
   },
   {
     "title": "25歳会社員が204円で作る簡単節約チキンラーメンカルボナーラ",
@@ -11030,28 +10819,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "ramen",
       "pasta",
       "green_onion",
       "cheese",
       "milk"
     ],
-    "rawIngredients": "鶏肉、ラーメン、パスタ、ネギ、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "こまつl会社員の簡単節約レシピの実在動画。食材候補: 鶏肉、ラーメン、パスタ、ネギ、チーズ、牛乳。「25歳会社員が204円で作る簡単節約チキンラーメンカルボナーラ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ラーメン、パスタ、ネギ、チーズ、牛乳",
+    "description": "こまつl会社員の簡単節約レシピの実在動画。鶏肉、白身魚、ラーメン、パスタ、ネギ、チーズ、牛乳を使う「25歳会社員が204円で作る簡単節約チキンラーメンカルボナーラ」のレシピです。"
   },
   {
     "title": "ねぎ豚あんかけ塩うどん🔥 #簡単レシピ #節約レシピ",
@@ -11081,9 +10870,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん、ネギ。「ねぎ豚あんかけ塩うどん🔥 #簡単レシピ #節約レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどん、ネギを使う「ねぎ豚あんかけ塩うどん🔥 #簡単レシピ #節約レシピ」のレシピです。"
   },
   {
     "title": "【エビを超えた！天才的に旨い鶏マヨ】#料理 #料理動画 #food #おすすめ",
@@ -11113,9 +10900,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "えび、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: えび、マヨネーズ。「【エビを超えた！天才的に旨い鶏マヨ】#料理 #料理動画 #food #おすすめ」のレシピです。"
+    "description": "まいのごはん。の実在動画。えび、マヨネーズを使う「【エビを超えた！天才的に旨い鶏マヨ】#料理 #料理動画 #food #おすすめ」のレシピです。"
   },
   {
     "title": "【ダイエット×節約レシピ】ピリ辛×まろやかの最強タッグ！『濃厚キムチ春雨スープ』",
@@ -11132,6 +10917,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -11143,13 +10929,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "harusame",
       "green_onion"
     ],
-    "rawIngredients": "挽肉、春雨、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "簡単うまレシピの実在動画。食材候補: 挽肉、春雨、ネギ。「【ダイエット×節約レシピ】ピリ辛×まろやかの最強タッグ！『濃厚キムチ春雨スープ』」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、春雨、ネギ",
+    "description": "簡単うまレシピの実在動画。挽肉、白身魚、春雨、ネギを使う「【ダイエット×節約レシピ】ピリ辛×まろやかの最強タッグ！『濃厚キムチ春雨スープ』」のレシピです。"
   },
   {
     "title": "【150万回再生人気レシピ】簡単！節約おかずレシピ10選",
@@ -11191,9 +10976,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "豚肉、鶏肉、えび、厚揚げ、ネギ、もやし、ショウガ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 豚肉、鶏肉、えび、厚揚げ、ネギ、もやし、ショウガ、バター、マヨネーズ。「【150万回再生人気レシピ】簡単！節約おかずレシピ10選」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。豚肉、鶏肉、えび、厚揚げ、ネギ、もやし、ショウガ、バター、マヨネーズを使う「【150万回再生人気レシピ】簡単！節約おかずレシピ10選」のレシピです。"
   },
   {
     "title": "【生活費公開】５人家族・節約一家が「１週間１万円生活」に挑戦した結果（食費・日用品・レジャー費）｜節約生活/食費見直し/貯金/節約レシピ",
@@ -11211,6 +10994,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "麺",
@@ -11230,6 +11014,7 @@ const recipes = [
       "pork",
       "chicken",
       "ham",
+      "whitefish",
       "tofu",
       "egg",
       "noodles",
@@ -11249,10 +11034,8 @@ const recipes = [
       "milk",
       "flour"
     ],
-    "rawIngredients": "豚肉、鶏肉、ハム、豆腐、卵、中華麺、きゅうり、ほうれん草、にら、ネギ、もやし、トマト、玉ねぎ、にんじん、しめじ、ショウガ、にんにく、バター、マヨネーズ、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "リッチじゃない暮らしの実在動画。食材候補: 豚肉、鶏肉、ハム、豆腐、卵、中華麺、きゅうり、ほうれん草、にら、ネギ、もやし、トマト、玉ねぎ、にんじん、しめじ、ショウガ、にんにく、バター、マヨネーズ、牛乳、小麦粉。「【生活費公開】５人家族・節約一家が「１週間１万円生活」に挑戦した結果（食費・日用品・レジャー費）｜節約生活/食費見直し/貯金/節約レシピ」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、ハム、白身魚、豆腐、卵、中華麺、きゅうり、ほうれん草、にら、ネギ、もやし、トマト、玉ねぎ、にんじん、しめじ、ショウガ、にんにく、バター、マヨネーズ、牛乳、小麦粉",
+    "description": "リッチじゃない暮らしの実在動画。豚肉、鶏肉、ハム、白身魚、豆腐、卵、中華麺、きゅうり、ほうれん草、にら、ネギ、もやし、トマト、玉ねぎ、にんじん、しめじ、ショウガ、にんにく、バター、マヨネーズ、牛乳、小麦粉を使う「【生活費公開】５人家族・節約一家が「１週間１万円生活」に挑戦した結果（食費・日用品・レジャー費）｜節約生活/食費見直し/貯金/節約レシピ」のレシピです。"
   },
   {
     "title": "お金も洗い物も節約レシピ！えのき歯ごたえあってお腹いっぱいなる😉#料理 #cooking #vlog #ol日常 #自炊 #ブラック企業",
@@ -11280,9 +11063,7 @@ const recipes = [
       "enoki"
     ],
     "rawIngredients": "えのき茸",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: えのき茸。「お金も洗い物も節約レシピ！えのき歯ごたえあってお腹いっぱいなる😉#料理 #cooking #vlog #ol日常 #自炊 #ブラック企業」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。えのき茸を使う「お金も洗い物も節約レシピ！えのき歯ごたえあってお腹いっぱいなる😉#料理 #cooking #vlog #ol日常 #自炊 #ブラック企業」のレシピです。"
   },
   {
     "title": "【ほうれん草と半熟卵のおかかマヨサラダ】#簡単レシピ #おうちごはん #時短節約 #節約レシピ",
@@ -11314,9 +11095,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、ほうれん草、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DOKINの実在動画。食材候補: 卵、ほうれん草、マヨネーズ。「【ほうれん草と半熟卵のおかかマヨサラダ】#簡単レシピ #おうちごはん #時短節約 #節約レシピ」のレシピです。"
+    "description": "DOKINの実在動画。卵、ほうれん草、マヨネーズを使う「【ほうれん草と半熟卵のおかかマヨサラダ】#簡単レシピ #おうちごはん #時短節約 #節約レシピ」のレシピです。"
   },
   {
     "title": "【節約レシピ】厚揚げ大葉チーズ",
@@ -11346,9 +11125,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "厚揚げ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "節約レシピの実在動画。食材候補: 厚揚げ、チーズ。「【節約レシピ】厚揚げ大葉チーズ」のレシピです。"
+    "description": "節約レシピの実在動画。厚揚げ、チーズを使う「【節約レシピ】厚揚げ大葉チーズ」のレシピです。"
   },
   {
     "title": "なんじゃこりゃ。美味すぎやねん。 #パスタレシピ #節約レシピ",
@@ -11376,9 +11153,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "経塚翼 - Tsubasa Kyoduka -の実在動画。食材候補: パスタ。「なんじゃこりゃ。美味すぎやねん。 #パスタレシピ #節約レシピ」のレシピです。"
+    "description": "経塚翼 - Tsubasa Kyoduka -の実在動画。パスタを使う「なんじゃこりゃ。美味すぎやねん。 #パスタレシピ #節約レシピ」のレシピです。"
   },
   {
     "title": "【DAY85】究極の節約丼🍚 #shorts #節約 #節約レシピ",
@@ -11406,9 +11181,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いずみ⌇3年で1000万円貯める節約家夫婦の実在動画。食材候補: ご飯・米。「【DAY85】究極の節約丼🍚 #shorts #節約 #節約レシピ」のレシピです。"
+    "description": "いずみ⌇3年で1000万円貯める節約家夫婦の実在動画。ご飯・米を使う「【DAY85】究極の節約丼🍚 #shorts #節約 #節約レシピ」のレシピです。"
   },
   {
     "title": "【節約レシピ】50円でパスタランチ🍝💕 #節約 #節約レシピ #パスタ",
@@ -11424,7 +11197,6 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
-      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -11434,13 +11206,10 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
-      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "白身魚、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いずみ⌇3年で1000万円貯める節約家夫婦の実在動画。食材候補: 白身魚、パスタ。「【節約レシピ】50円でパスタランチ🍝💕 #節約 #節約レシピ #パスタ」のレシピです。"
+    "rawIngredients": "パスタ",
+    "description": "いずみ⌇3年で1000万円貯める節約家夫婦の実在動画。パスタを使う「【節約レシピ】50円でパスタランチ🍝💕 #節約 #節約レシピ #パスタ」のレシピです。"
   },
   {
     "title": "【節約ごはん】年明け…食費を抑える！ 街で聞いたらレシピ続々…『気になる！』",
@@ -11452,10 +11221,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/zMTkRGQbp_s/maxresdefault.jpg",
     "creator": "日テレNEWS",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -11465,12 +11235,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon"
     ],
-    "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "日テレNEWSの実在動画。食材候補: うどん。「【節約ごはん】年明け…食費を抑える！ 街で聞いたらレシピ続々…『気になる！』」のレシピです。"
+    "rawIngredients": "白身魚、うどん",
+    "description": "日テレNEWSの実在動画。白身魚、うどんを使う「【節約ごはん】年明け…食費を抑える！ 街で聞いたらレシピ続々…『気になる！』」のレシピです。"
   },
   {
     "title": "【たっぷりキャベツで節約・簡単！】１個１８円で驚くほど旨い／豚キャベツつくねの作り方 #recipe #cooking #料理",
@@ -11487,6 +11256,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜"
     ],
@@ -11498,13 +11268,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "cabbage"
     ],
-    "rawIngredients": "挽肉、卵、キャベツ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "kattyanneru/かっちゃんねるの実在動画。食材候補: 挽肉、卵、キャベツ。「【たっぷりキャベツで節約・簡単！】１個１８円で驚くほど旨い／豚キャベツつくねの作り方 #recipe #cooking #料理」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、キャベツ",
+    "description": "kattyanneru/かっちゃんねるの実在動画。挽肉、白身魚、卵、キャベツを使う「【たっぷりキャベツで節約・簡単！】１個１８円で驚くほど旨い／豚キャベツつくねの作り方 #recipe #cooking #料理」のレシピです。"
   },
   {
     "title": "マジでこの一皿だけで夕飯が成立してしまう節約飯【もやしと春雨のバカウマ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #節約レシピ",
@@ -11520,6 +11289,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -11530,13 +11300,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "harusame",
       "bean_sprouts"
     ],
-    "rawIngredients": "春雨、もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 春雨、もやし。「マジでこの一皿だけで夕飯が成立してしまう節約飯【もやしと春雨のバカウマ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #節約レシピ」のレシピです。"
+    "rawIngredients": "白身魚、春雨、もやし",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、春雨、もやしを使う「マジでこの一皿だけで夕飯が成立してしまう節約飯【もやしと春雨のバカウマ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #節約レシピ」のレシピです。"
   },
   {
     "title": "【ヘルシー朝ごはんはこう作る！】#節約レシピ #節約 #料理 #簡単レシピ #自炊 #朝ごはん",
@@ -11552,6 +11321,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "根菜"
@@ -11563,6 +11333,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "spinach",
       "green_onion",
@@ -11571,10 +11342,8 @@ const recipes = [
       "wakame",
       "garlic"
     ],
-    "rawIngredients": "豆腐、ほうれん草、ネギ、なす、大根、わかめ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおにーな作りおきキッチンの実在動画。食材候補: 豆腐、ほうれん草、ネギ、なす、大根、わかめ、にんにく。「【ヘルシー朝ごはんはこう作る！】#節約レシピ #節約 #料理 #簡単レシピ #自炊 #朝ごはん」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、ほうれん草、ネギ、なす、大根、わかめ、にんにく",
+    "description": "あおにーな作りおきキッチンの実在動画。白身魚、豆腐、ほうれん草、ネギ、なす、大根、わかめ、にんにくを使う「【ヘルシー朝ごはんはこう作る！】#節約レシピ #節約 #料理 #簡単レシピ #自炊 #朝ごはん」のレシピです。"
   },
   {
     "title": "洗い物少ない！【甘辛だれの油いらず唐揚げ】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #からあげ #唐揚げ",
@@ -11604,9 +11373,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "鶏肉、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、ショウガ。「洗い物少ない！【甘辛だれの油いらず唐揚げ】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #からあげ #唐揚げ」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、ショウガを使う「洗い物少ない！【甘辛だれの油いらず唐揚げ】詳しいレシピは概要欄を見てね♪ #晩ごはん #おかず #鶏もも肉 #鶏肉 #鶏肉レシピ #簡単レシピ #レシピ動画 #からあげ #唐揚げ」のレシピです。"
   },
   {
     "title": "280円で作るパックご飯オムライスが美味すぎた🎠#節約レシピ#料理#オムライス",
@@ -11634,9 +11401,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "300円先生【300円以下で料理したい】の実在動画。食材候補: ご飯・米。「280円で作るパックご飯オムライスが美味すぎた🎠#節約レシピ#料理#オムライス」のレシピです。"
+    "description": "300円先生【300円以下で料理したい】の実在動画。ご飯・米を使う「280円で作るパックご飯オムライスが美味すぎた🎠#節約レシピ#料理#オムライス」のレシピです。"
   },
   {
     "title": "【節約レシピ】夫大絶賛の簡単節約丼🍚🍳 #shorts #節約 #節約レシピ",
@@ -11664,9 +11429,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "いずみ⌇3年で1000万円貯める節約家夫婦の実在動画。食材候補: ご飯・米。「【節約レシピ】夫大絶賛の簡単節約丼🍚🍳 #shorts #節約 #節約レシピ」のレシピです。"
+    "description": "いずみ⌇3年で1000万円貯める節約家夫婦の実在動画。ご飯・米を使う「【節約レシピ】夫大絶賛の簡単節約丼🍚🍳 #shorts #節約 #節約レシピ」のレシピです。"
   },
   {
     "title": "【1食194円】てりたまチキン弁当",
@@ -11694,9 +11457,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えい | 1食200円以下の冷凍弁当ストックの実在動画。食材候補: 鶏肉。「【1食194円】てりたまチキン弁当」のレシピです。"
+    "description": "えい | 1食200円以下の冷凍弁当ストックの実在動画。鶏肉を使う「【1食194円】てりたまチキン弁当」のレシピです。"
   },
   {
     "title": "25歳会社員が150円で作る簡単節約ワンパン辛ラーメンカルボナーラ",
@@ -11713,28 +11474,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "ramen",
       "pasta",
       "green_onion",
       "cheese",
       "milk"
     ],
-    "rawIngredients": "ベーコン、ラーメン、パスタ、ネギ、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "こまつl会社員の簡単節約レシピの実在動画。食材候補: ベーコン、ラーメン、パスタ、ネギ、チーズ、牛乳。「25歳会社員が150円で作る簡単節約ワンパン辛ラーメンカルボナーラ」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、ラーメン、パスタ、ネギ、チーズ、牛乳",
+    "description": "こまつl会社員の簡単節約レシピの実在動画。ベーコン、白身魚、ラーメン、パスタ、ネギ、チーズ、牛乳を使う「25歳会社員が150円で作る簡単節約ワンパン辛ラーメンカルボナーラ」のレシピです。"
   },
   {
     "title": "なんかこれめっちゃバズったんだけど、、、そう言う時に限って玉ねぎの皮ちゃんと剥けてなくて叩かれまくったレシピ😱 #簡単レシピ #節約レシピ #ダイエット #shorts",
@@ -11764,9 +11525,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "経塚翼 - Tsubasa Kyoduka -の実在動画。食材候補: ネギ、玉ねぎ。「なんかこれめっちゃバズったんだけど、、、そう言う時に限って玉ねぎの皮ちゃんと剥けてなくて叩かれまくったレシピ😱 #簡単レシピ #節約レシピ #ダイエット #shorts」のレシピです。"
+    "description": "経塚翼 - Tsubasa Kyoduka -の実在動画。ネギ、玉ねぎを使う「なんかこれめっちゃバズったんだけど、、、そう言う時に限って玉ねぎの皮ちゃんと剥けてなくて叩かれまくったレシピ😱 #簡単レシピ #節約レシピ #ダイエット #shorts」のレシピです。"
   },
   {
     "title": "おうちでおっとっと作ってみない？#簡単レシピ #時短節約 #節約レシピ #料理 #餃子の皮 #youtubeshorts #shorts",
@@ -11794,9 +11553,7 @@ const recipes = [
       "minced_meat"
     ],
     "rawIngredients": "挽肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yuchiの実在動画。食材候補: 挽肉。「おうちでおっとっと作ってみない？#簡単レシピ #時短節約 #節約レシピ #料理 #餃子の皮 #youtubeshorts #shorts」のレシピです。"
+    "description": "yuchiの実在動画。挽肉を使う「おうちでおっとっと作ってみない？#簡単レシピ #時短節約 #節約レシピ #料理 #餃子の皮 #youtubeshorts #shorts」のレシピです。"
   },
   {
     "title": "トマトにんにく辛パスタ🌶️ #節約レシピ #cooking #時短節約 #一人暮らしごはん #japanesefood #暮らしチャンネル #パスタ #今日の晩ごはん #簡単レシピ #トマトパスタ",
@@ -11828,9 +11585,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅう | 22時からつくる節約レシピの実在動画。食材候補: パスタ、トマト、にんにく。「トマトにんにく辛パスタ🌶️ #節約レシピ #cooking #時短節約 #一人暮らしごはん #japanesefood #暮らしチャンネル #パスタ #今日の晩ごはん #簡単レシピ #トマトパスタ」のレシピです。"
+    "description": "しゅう | 22時からつくる節約レシピの実在動画。パスタ、トマト、にんにくを使う「トマトにんにく辛パスタ🌶️ #節約レシピ #cooking #時短節約 #一人暮らしごはん #japanesefood #暮らしチャンネル #パスタ #今日の晩ごはん #簡単レシピ #トマトパスタ」のレシピです。"
   },
   {
     "title": "\\むくみ解消!!パクパクちくきゅうサラダ/#shorts#料理#cooking#節約レシピ#ズボラ",
@@ -11846,6 +11601,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -11855,12 +11611,11 @@ const recipes = [
     "knife": true,
     "heat": false,
     "detailedIngredients": [
+      "whitefish",
       "cucumber"
     ],
-    "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ワタシの料理の実在動画。食材候補: きゅうり。「\\むくみ解消!!パクパクちくきゅうサラダ/#shorts#料理#cooking#節約レシピ#ズボラ」のレシピです。"
+    "rawIngredients": "白身魚、きゅうり",
+    "description": "ワタシの料理の実在動画。白身魚、きゅうりを使う「\\むくみ解消!!パクパクちくきゅうサラダ/#shorts#料理#cooking#節約レシピ#ズボラ」のレシピです。"
   },
   {
     "title": "1食190円チキンマカロニグラタン弁当#shorts#簡単レシピ#節約レシピ",
@@ -11900,9 +11655,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "鶏肉、ネギ、玉ねぎ、しめじ、チーズ、バター、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。食材候補: 鶏肉、ネギ、玉ねぎ、しめじ、チーズ、バター、牛乳、小麦粉。「1食190円チキンマカロニグラタン弁当#shorts#簡単レシピ#節約レシピ」のレシピです。"
+    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。鶏肉、ネギ、玉ねぎ、しめじ、チーズ、バター、牛乳、小麦粉を使う「1食190円チキンマカロニグラタン弁当#shorts#簡単レシピ#節約レシピ」のレシピです。"
   },
   {
     "title": "究極のやみつき無限きゅうり",
@@ -11928,13 +11681,12 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "cucumber"
     ],
-    "rawIngredients": "ツナ、きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ツナ、きゅうり。「究極のやみつき無限きゅうり」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、きゅうり",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、ツナ、きゅうりを使う「究極のやみつき無限きゅうり」のレシピです。"
   },
   {
     "title": "【超簡単！】究極の節約アイスの作り方！#shorts",
@@ -11966,9 +11718,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "卵、にら、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DAI大の実在動画。食材候補: 卵、にら、牛乳。「【超簡単！】究極の節約アイスの作り方！#shorts」のレシピです。"
+    "description": "DAI大の実在動画。卵、にら、牛乳を使う「【超簡単！】究極の節約アイスの作り方！#shorts」のレシピです。"
   },
   {
     "title": "【給食再現レシピ】#給食レシピ#再現レシピ#高野豆腐#簡単レシピ#節約レシピ",
@@ -11996,9 +11746,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "sugars弁当🍱🍙の実在動画。食材候補: 豆腐。「【給食再現レシピ】#給食レシピ#再現レシピ#高野豆腐#簡単レシピ#節約レシピ」のレシピです。"
+    "description": "sugars弁当🍱🍙の実在動画。豆腐を使う「【給食再現レシピ】#給食レシピ#再現レシピ#高野豆腐#簡単レシピ#節約レシピ」のレシピです。"
   },
   {
     "title": "主材料２つで簡単！節約！「豆腐の海苔巻き」 詳しいレシピは概要欄をチェック！#簡単レシピ",
@@ -12026,9 +11774,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豆腐。「主材料２つで簡単！節約！「豆腐の海苔巻き」 詳しいレシピは概要欄をチェック！#簡単レシピ」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豆腐を使う「主材料２つで簡単！節約！「豆腐の海苔巻き」 詳しいレシピは概要欄をチェック！#簡単レシピ」のレシピです。"
   },
   {
     "title": "もやしとひき肉だけ！究極の節約ズボラレシピ✨ #簡単レシピ #節約レシピ #晩御飯レシピ",
@@ -12058,9 +11804,7 @@ const recipes = [
       "bean_sprouts"
     ],
     "rawIngredients": "挽肉、もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちぇる ダイエット食堂の実在動画。食材候補: 挽肉、もやし。「もやしとひき肉だけ！究極の節約ズボラレシピ✨ #簡単レシピ #節約レシピ #晩御飯レシピ」のレシピです。"
+    "description": "ちぇる ダイエット食堂の実在動画。挽肉、もやしを使う「もやしとひき肉だけ！究極の節約ズボラレシピ✨ #簡単レシピ #節約レシピ #晩御飯レシピ」のレシピです。"
   },
   {
     "title": "【2ch有益スレ】ガチ一人暮らし自炊勢の最強食費節約術をまてめて挙げてけw【ゆっくり解説】",
@@ -12090,6 +11834,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "tuna_sashimi",
       "canned_tuna",
       "udon",
@@ -12100,10 +11845,8 @@ const recipes = [
       "onion",
       "daikon"
     ],
-    "rawIngredients": "鶏肉、マグロ、ツナ、うどん、中華麺、パスタ、キャベツ、ネギ、玉ねぎ、大根",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "2ch有益ライハまとめ【ゆっくり解説】の実在動画。食材候補: 鶏肉、マグロ、ツナ、うどん、中華麺、パスタ、キャベツ、ネギ、玉ねぎ、大根。「【2ch有益スレ】ガチ一人暮らし自炊勢の最強食費節約術をまてめて挙げてけw【ゆっくり解説】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、マグロ、ツナ、うどん、中華麺、パスタ、キャベツ、ネギ、玉ねぎ、大根",
+    "description": "2ch有益ライハまとめ【ゆっくり解説】の実在動画。鶏肉、白身魚、マグロ、ツナ、うどん、中華麺、パスタ、キャベツ、ネギ、玉ねぎ、大根を使う「【2ch有益スレ】ガチ一人暮らし自炊勢の最強食費節約術をまてめて挙げてけw【ゆっくり解説】」のレシピです。"
   },
   {
     "title": "【混ぜて焼くだけ】節約もダイエットも出来て超旨い！外カリッ中もちっ『やみつき野菜チヂミ』#shorts #低糖質レシピ #ロカボダイエット #痩せるレピ #bento #節約レシピ",
@@ -12119,6 +11862,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "根菜",
@@ -12131,6 +11875,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "atsuage",
       "cucumber",
       "nira",
@@ -12140,10 +11885,8 @@ const recipes = [
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "厚揚げ、きゅうり、にら、ネギ、玉ねぎ、にんじん、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "こっタソの自由気ままに【Kottaso Recipe】の実在動画。食材候補: 厚揚げ、きゅうり、にら、ネギ、玉ねぎ、にんじん、にんにく、チーズ。「【混ぜて焼くだけ】節約もダイエットも出来て超旨い！外カリッ中もちっ『やみつき野菜チヂミ』#shorts #低糖質レシピ #ロカボダイエット #痩せるレピ #bento #節約レシピ」のレシピです。"
+    "rawIngredients": "白身魚、厚揚げ、きゅうり、にら、ネギ、玉ねぎ、にんじん、にんにく、チーズ",
+    "description": "こっタソの自由気ままに【Kottaso Recipe】の実在動画。白身魚、厚揚げ、きゅうり、にら、ネギ、玉ねぎ、にんじん、にんにく、チーズを使う「【混ぜて焼くだけ】節約もダイエットも出来て超旨い！外カリッ中もちっ『やみつき野菜チヂミ』#shorts #低糖質レシピ #ロカボダイエット #痩せるレピ #bento #節約レシピ」のレシピです。"
   },
   {
     "title": "【キムチーズ豆腐グラタン🥄✨】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐",
@@ -12173,9 +11916,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "豆腐、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ほのか🍽ラク痩せ飯の実在動画。食材候補: 豆腐、チーズ。「【キムチーズ豆腐グラタン🥄✨】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐」のレシピです。"
+    "description": "ほのか🍽ラク痩せ飯の実在動画。豆腐、チーズを使う「【キムチーズ豆腐グラタン🥄✨】 #ダイエットレシピ #簡単レシピ #節約レシピ #豆腐」のレシピです。"
   },
   {
     "title": "【時短・節約！もう茹でん激うまゆで卵】#ゆで卵レシピ #時短レシピ #節約レシピ #ズボラ飯 #家事ハック #暮らしの知恵 #ズボラ主婦 #便利ワザ #料理の裏ワザ #キッチンハック",
@@ -12203,9 +11944,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あぴ 忙しいママを救う暮らし術🪄の実在動画。食材候補: 卵。「【時短・節約！もう茹でん激うまゆで卵】#ゆで卵レシピ #時短レシピ #節約レシピ #ズボラ飯 #家事ハック #暮らしの知恵 #ズボラ主婦 #便利ワザ #料理の裏ワザ #キッチンハック」のレシピです。"
+    "description": "あぴ 忙しいママを救う暮らし術🪄の実在動画。卵を使う「【時短・節約！もう茹でん激うまゆで卵】#ゆで卵レシピ #時短レシピ #節約レシピ #ズボラ飯 #家事ハック #暮らしの知恵 #ズボラ主婦 #便利ワザ #料理の裏ワザ #キッチンハック」のレシピです。"
   },
   {
     "title": "カリッモチッ！すげえ旨い！簡単厚揚げのおつまみ。話題のレシピ",
@@ -12238,9 +11977,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豆腐、厚揚げ、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: 豆腐、厚揚げ、ネギ、ショウガ。「カリッモチッ！すげえ旨い！簡単厚揚げのおつまみ。話題のレシピ」のレシピです。"
+    "description": "ちゃらりんこクックの実在動画。豆腐、厚揚げ、ネギ、ショウガを使う「カリッモチッ！すげえ旨い！簡単厚揚げのおつまみ。話題のレシピ」のレシピです。"
   },
   {
     "title": "妻が24時間豆腐生活に挑戦！ #アレンジレシピ #節約レシピ #shorts",
@@ -12268,9 +12005,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆみみンゴTVの実在動画。食材候補: 豆腐。「妻が24時間豆腐生活に挑戦！ #アレンジレシピ #節約レシピ #shorts」のレシピです。"
+    "description": "ゆみみンゴTVの実在動画。豆腐を使う「妻が24時間豆腐生活に挑戦！ #アレンジレシピ #節約レシピ #shorts」のレシピです。"
   },
   {
     "title": "【節約レシピ】4人家族平日5日間の晩ごはんレシピ！1食約100円の激安料理/平日1週間分の晩ご飯紹介",
@@ -12321,9 +12056,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、鶏肉、挽肉、サバ、ツナ、豆腐、キャベツ、napa_cabbage、小松菜、ネギ、もやし、トマト、玉ねぎ、にんじん、大根、えのき茸、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "4人家族ぴーちの節約術の実在動画。食材候補: 豚肉、鶏肉、挽肉、サバ、ツナ、豆腐、キャベツ、napa_cabbage、小松菜、ネギ、もやし、トマト、玉ねぎ、にんじん、大根、えのき茸、ショウガ、にんにく。「【節約レシピ】4人家族平日5日間の晩ごはんレシピ！1食約100円の激安料理/平日1週間分の晩ご飯紹介」のレシピです。"
+    "description": "4人家族ぴーちの節約術の実在動画。豚肉、鶏肉、挽肉、サバ、ツナ、豆腐、キャベツ、napa_cabbage、小松菜、ネギ、もやし、トマト、玉ねぎ、にんじん、大根、えのき茸、ショウガ、にんにくを使う「【節約レシピ】4人家族平日5日間の晩ごはんレシピ！1食約100円の激安料理/平日1週間分の晩ご飯紹介」のレシピです。"
   },
   {
     "title": "失敗しない◎ロールキャベツの作り方☺️🥬 #節約レシピ #料理",
@@ -12351,9 +12084,7 @@ const recipes = [
       "cabbage"
     ],
     "rawIngredients": "キャベツ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: キャベツ。「失敗しない◎ロールキャベツの作り方☺️🥬 #節約レシピ #料理」のレシピです。"
+    "description": "Hideka cookingの実在動画。キャベツを使う「失敗しない◎ロールキャベツの作り方☺️🥬 #節約レシピ #料理」のレシピです。"
   },
   {
     "title": "▶︎10分でできるコスパ鍋🍲 #鍋レシピ #鍋 #もやし料理 #もやしレシピ #もやし #白菜レシピ #白菜 #簡単レシピ #節約レシピ #時短レシピ",
@@ -12382,9 +12113,35 @@ const recipes = [
       "bean_sprouts"
     ],
     "rawIngredients": "napa_cabbage、もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Yuuのラクうまクッキングの実在動画。食材候補: napa_cabbage、もやし。「▶︎10分でできるコスパ鍋🍲 #鍋レシピ #鍋 #もやし料理 #もやしレシピ #もやし #白菜レシピ #白菜 #簡単レシピ #節約レシピ #時短レシピ」のレシピです。"
+    "description": "Yuuのラクうまクッキングの実在動画。napa_cabbage、もやしを使う「▶︎10分でできるコスパ鍋🍲 #鍋レシピ #鍋 #もやし料理 #もやしレシピ #もやし #白菜レシピ #白菜 #簡単レシピ #節約レシピ #時短レシピ」のレシピです。"
+  },
+  {
+    "title": "【1日333円】31歳で資産7000万円貯めた最強食費節約ルーティン【レシピ有り】",
+    "platform": "youtube",
+    "externalId": "AQr0Acx_Ask",
+    "videoUrl": "https://www.youtube.com/watch?v=AQr0Acx_Ask",
+    "videoId": "AQr0Acx_Ask",
+    "url": "https://www.youtube.com/watch?v=AQr0Acx_Ask",
+    "thumbnailUrl": "https://i.ytimg.com/vi/AQr0Acx_Ask/maxresdefault.jpg",
+    "creator": "倹者の流儀",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "倹者の流儀の実在動画。白身魚を使う「【1日333円】31歳で資産7000万円貯めた最強食費節約ルーティン【レシピ有り】」のレシピです。"
   },
   {
     "title": "5分でできる◎やみつき無限ピーマン！#料理動画 #簡単レシピ #節約レシピ #お弁当 #副菜 #無限ピーマン #やみつきレシピ",
@@ -12412,9 +12169,7 @@ const recipes = [
       "bell_pepper"
     ],
     "rawIngredients": "ピーマン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいにち★ごはんの実在動画。食材候補: ピーマン。「5分でできる◎やみつき無限ピーマン！#料理動画 #簡単レシピ #節約レシピ #お弁当 #副菜 #無限ピーマン #やみつきレシピ」のレシピです。"
+    "description": "まいにち★ごはんの実在動画。ピーマンを使う「5分でできる◎やみつき無限ピーマン！#料理動画 #簡単レシピ #節約レシピ #お弁当 #副菜 #無限ピーマン #やみつきレシピ」のレシピです。"
   },
   {
     "title": "節約食材で！ボリュームたっぷり「厚揚げ南蛮」 #材料と作り方は概要欄 #厚揚げ #厚揚げレシピ #節約 #節約レシピ #レシピ #料理 #フーディストノート #フーディスト",
@@ -12450,9 +12205,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、厚揚げ、卵、ビーフン・フォー、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "フーディストノートの実在動画。食材候補: 鶏肉、厚揚げ、卵、ビーフン・フォー、マヨネーズ。「節約食材で！ボリュームたっぷり「厚揚げ南蛮」 #材料と作り方は概要欄 #厚揚げ #厚揚げレシピ #節約 #節約レシピ #レシピ #料理 #フーディストノート #フーディスト」のレシピです。"
+    "description": "フーディストノートの実在動画。鶏肉、厚揚げ、卵、ビーフン・フォー、マヨネーズを使う「節約食材で！ボリュームたっぷり「厚揚げ南蛮」 #材料と作り方は概要欄 #厚揚げ #厚揚げレシピ #節約 #節約レシピ #レシピ #料理 #フーディストノート #フーディスト」のレシピです。"
   },
   {
     "title": "【小麦不使用‼️納豆豆腐チヂミ‼️】 #ダイエットレシピ #簡単レシピ #節約レシピ",
@@ -12480,9 +12233,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ほのか🍽ラク痩せ飯の実在動画。食材候補: 豆腐。「【小麦不使用‼️納豆豆腐チヂミ‼️】 #ダイエットレシピ #簡単レシピ #節約レシピ」のレシピです。"
+    "description": "ほのか🍽ラク痩せ飯の実在動画。豆腐を使う「【小麦不使用‼️納豆豆腐チヂミ‼️】 #ダイエットレシピ #簡単レシピ #節約レシピ」のレシピです。"
   },
   {
     "title": "【節約飯】これ一生もののレシピです。もやしと挽き肉だけで激安肉もやし作ります #リュウジ #節約 #料理",
@@ -12494,11 +12245,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/uZ9AMAyvyqU/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -12509,12 +12261,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "bean_sprouts"
     ],
-    "rawIngredients": "挽肉、もやし",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 挽肉、もやし。「【節約飯】これ一生もののレシピです。もやしと挽き肉だけで激安肉もやし作ります #リュウジ #節約 #料理」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、もやし",
+    "description": "料理研究家リュウジのバズレシピの実在動画。挽肉、白身魚、もやしを使う「【節約飯】これ一生もののレシピです。もやしと挽き肉だけで激安肉もやし作ります #リュウジ #節約 #料理」のレシピです。"
   },
   {
     "title": "262円でできる簡単節約 ディアボラ風チキン",
@@ -12531,6 +12282,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜",
       "米"
@@ -12543,15 +12295,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "green_onion",
       "onion",
       "garlic",
       "flour"
     ],
-    "rawIngredients": "鶏肉、ネギ、玉ねぎ、にんにく、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なかむ 手取り18万の簡単節約レシピの実在動画。食材候補: 鶏肉、ネギ、玉ねぎ、にんにく、小麦粉。「262円でできる簡単節約 ディアボラ風チキン」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ネギ、玉ねぎ、にんにく、小麦粉",
+    "description": "なかむ 手取り18万の簡単節約レシピの実在動画。鶏肉、白身魚、ネギ、玉ねぎ、にんにく、小麦粉を使う「262円でできる簡単節約 ディアボラ風チキン」のレシピです。"
   },
   {
     "title": "25歳会社員が41円で作る簡単節約ワンパン暗殺者のパスタ",
@@ -12583,9 +12334,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "こまつl会社員の簡単節約レシピの実在動画。食材候補: パスタ、トマト、にんにく。「25歳会社員が41円で作る簡単節約ワンパン暗殺者のパスタ」のレシピです。"
+    "description": "こまつl会社員の簡単節約レシピの実在動画。パスタ、トマト、にんにくを使う「25歳会社員が41円で作る簡単節約ワンパン暗殺者のパスタ」のレシピです。"
   },
   {
     "title": "【10分以内】もやしが主役になる！節約レシピ9選｜安いのに大満足おかず",
@@ -12602,6 +12351,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜",
@@ -12616,6 +12366,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "cucumber",
       "green_onion",
@@ -12629,10 +12380,8 @@ const recipes = [
       "butter",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、きゅうり、ネギ、もやし、ブロッコリー、にんじん、しめじ、わかめ、ショウガ、にんにく、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 鶏肉、卵、きゅうり、ネギ、もやし、ブロッコリー、にんじん、しめじ、わかめ、ショウガ、にんにく、バター、マヨネーズ。「【10分以内】もやしが主役になる！節約レシピ9選｜安いのに大満足おかず」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、きゅうり、ネギ、もやし、ブロッコリー、にんじん、しめじ、わかめ、ショウガ、にんにく、バター、マヨネーズ",
+    "description": "macaroni | マカロニの実在動画。鶏肉、白身魚、卵、きゅうり、ネギ、もやし、ブロッコリー、にんじん、しめじ、わかめ、ショウガ、にんにく、バター、マヨネーズを使う「【10分以内】もやしが主役になる！節約レシピ9選｜安いのに大満足おかず」のレシピです。"
   },
   {
     "title": "【食費節約術】食費1ヶ月2万円代/4人家族の夜ご飯5選！ルーティン主婦【業務スーパー】",
@@ -12649,6 +12398,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜"
     ],
     "oil": 2,
@@ -12659,12 +12409,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "ginger"
     ],
-    "rawIngredients": "鶏肉、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ヒナマルの実在動画。食材候補: 鶏肉、ショウガ。「【食費節約術】食費1ヶ月2万円代/4人家族の夜ご飯5選！ルーティン主婦【業務スーパー】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ショウガ",
+    "description": "ヒナマルの実在動画。鶏肉、白身魚、ショウガを使う「【食費節約術】食費1ヶ月2万円代/4人家族の夜ご飯5選！ルーティン主婦【業務スーパー】」のレシピです。"
   },
   {
     "title": "【１人暮らし節約生活】平日１週間１０００円以下、仕事終わり晩ご飯",
@@ -12696,9 +12445,35 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "豚肉、豆腐、卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅんの節約生活の実在動画。食材候補: 豚肉、豆腐、卵。「【１人暮らし節約生活】平日１週間１０００円以下、仕事終わり晩ご飯」のレシピです。"
+    "description": "しゅんの節約生活の実在動画。豚肉、豆腐、卵を使う「【１人暮らし節約生活】平日１週間１０００円以下、仕事終わり晩ご飯」のレシピです。"
+  },
+  {
+    "title": "【簡単節約レシピ】3食5日節約ご飯/食費27000円でやりくりする節約主婦が冷蔵庫にある物で１週間節約レシピを公開！節約生活/節約ルーティン",
+    "platform": "youtube",
+    "externalId": "NdY7pNYfy6U",
+    "videoUrl": "https://www.youtube.com/watch?v=NdY7pNYfy6U",
+    "videoId": "NdY7pNYfy6U",
+    "url": "https://www.youtube.com/watch?v=NdY7pNYfy6U",
+    "thumbnailUrl": "https://i.ytimg.com/vi/NdY7pNYfy6U/maxresdefault.jpg",
+    "creator": "看護師るいみママの節約チャンネル",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "cold",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "看護師るいみママの節約チャンネルの実在動画。白身魚を使う「【簡単節約レシピ】3食5日節約ご飯/食費27000円でやりくりする節約主婦が冷蔵庫にある物で１週間節約レシピを公開！節約生活/節約ルーティン」のレシピです。"
   },
   {
     "title": "【自炊入門】これ以上簡単で旨い料理はないと思う節約神レシピ３選",
@@ -12726,9 +12501,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "がまぐち夫婦の節約チャンネルの実在動画。食材候補: 鶏肉。「【自炊入門】これ以上簡単で旨い料理はないと思う節約神レシピ３選」のレシピです。"
+    "description": "がまぐち夫婦の節約チャンネルの実在動画。鶏肉を使う「【自炊入門】これ以上簡単で旨い料理はないと思う節約神レシピ３選」のレシピです。"
   },
   {
     "title": "豚こまで簡単！カレー風味のポークケチャップ🐷✨ #豚こまレシピ #節約",
@@ -12756,9 +12529,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: 豚肉。「豚こまで簡単！カレー風味のポークケチャップ🐷✨ #豚こまレシピ #節約」のレシピです。"
+    "description": "Hideka cookingの実在動画。豚肉を使う「豚こまで簡単！カレー風味のポークケチャップ🐷✨ #豚こまレシピ #節約」のレシピです。"
   },
   {
     "title": "【節約主婦の本気】予算４,０００円で家族が喜ぶ「５日間の晩ごはん作り」に挑戦した結果｜食費節約/節約レシピ/料理/５人家族",
@@ -12815,9 +12586,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "牛肉、鶏肉、挽肉、白身魚、豆腐、卵、ラーメン、napa_cabbage、ネギ、もやし、なす、ピーマン、にんじん、かぼちゃ、ショウガ、にんにく、チーズ、バター、マヨネーズ、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "リッチじゃない暮らしの実在動画。食材候補: 牛肉、鶏肉、挽肉、白身魚、豆腐、卵、ラーメン、napa_cabbage、ネギ、もやし、なす、ピーマン、にんじん、かぼちゃ、ショウガ、にんにく、チーズ、バター、マヨネーズ、牛乳、小麦粉。「【節約主婦の本気】予算４,０００円で家族が喜ぶ「５日間の晩ごはん作り」に挑戦した結果｜食費節約/節約レシピ/料理/５人家族」のレシピです。"
+    "description": "リッチじゃない暮らしの実在動画。牛肉、鶏肉、挽肉、白身魚、豆腐、卵、ラーメン、napa_cabbage、ネギ、もやし、なす、ピーマン、にんじん、かぼちゃ、ショウガ、にんにく、チーズ、バター、マヨネーズ、牛乳、小麦粉を使う「【節約主婦の本気】予算４,０００円で家族が喜ぶ「５日間の晩ごはん作り」に挑戦した結果｜食費節約/節約レシピ/料理/５人家族」のレシピです。"
   },
   {
     "title": "【一瞬でなくなる 無限ちくきゅう】#きゅうりレシピ#ちくわレシピ#節約レシピ#簡単レシピ#時短レシピ#火を使わない",
@@ -12845,9 +12614,7 @@ const recipes = [
       "cucumber"
     ],
     "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽてママ🍳子どもが喜ぶ10分レシピの実在動画。食材候補: きゅうり。「【一瞬でなくなる 無限ちくきゅう】#きゅうりレシピ#ちくわレシピ#節約レシピ#簡単レシピ#時短レシピ#火を使わない」のレシピです。"
+    "description": "ぽてママ🍳子どもが喜ぶ10分レシピの実在動画。きゅうりを使う「【一瞬でなくなる 無限ちくきゅう】#きゅうりレシピ#ちくわレシピ#節約レシピ#簡単レシピ#時短レシピ#火を使わない」のレシピです。"
   },
   {
     "title": "1食200円カオマンガイ風弁当#shorts#簡単レシピ#節約レシピ",
@@ -12864,6 +12631,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -12875,14 +12643,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。食材候補: 鶏肉、ネギ、ショウガ、にんにく。「1食200円カオマンガイ風弁当#shorts#簡単レシピ#節約レシピ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ネギ、ショウガ、にんにく",
+    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。鶏肉、白身魚、ネギ、ショウガ、にんにくを使う「1食200円カオマンガイ風弁当#shorts#簡単レシピ#節約レシピ」のレシピです。"
   },
   {
     "title": "豚こま唐揚げ｜丸めて簡単！少ない油で作れる柔らかジューシーな節約おかず【料理研究家ゆかり】#豚肉レシピ #からあげ #shorts",
@@ -12912,9 +12679,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、にんにく。「豚こま唐揚げ｜丸めて簡単！少ない油で作れる柔らかジューシーな節約おかず【料理研究家ゆかり】#豚肉レシピ #からあげ #shorts」のレシピです。"
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。豚肉、にんにくを使う「豚こま唐揚げ｜丸めて簡単！少ない油で作れる柔らかジューシーな節約おかず【料理研究家ゆかり】#豚肉レシピ #からあげ #shorts」のレシピです。"
   },
   {
     "title": "【ゆっくり料理】スタミナMAX夜食 味噌ダレにんにく炒飯【節約レシピ】",
@@ -12948,9 +12713,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "依神姉妹の節約レシピちゃんねるの実在動画。食材候補: 卵、ご飯・米、ネギ、にんにく。「【ゆっくり料理】スタミナMAX夜食 味噌ダレにんにく炒飯【節約レシピ】」のレシピです。"
+    "description": "依神姉妹の節約レシピちゃんねるの実在動画。卵、ご飯・米、ネギ、にんにくを使う「【ゆっくり料理】スタミナMAX夜食 味噌ダレにんにく炒飯【節約レシピ】」のレシピです。"
   },
   {
     "title": "材料キャベツと豚バラのみ！時短簡単節約レシピ🍚ご飯が進む『キャベツ豚バラの塩ダレ』🥬",
@@ -12980,9 +12743,7 @@ const recipes = [
       "cabbage"
     ],
     "rawIngredients": "豚肉、キャベツ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あいす🍚【簡単時短節約レシピ】の実在動画。食材候補: 豚肉、キャベツ。「材料キャベツと豚バラのみ！時短簡単節約レシピ🍚ご飯が進む『キャベツ豚バラの塩ダレ』🥬」のレシピです。"
+    "description": "あいす🍚【簡単時短節約レシピ】の実在動画。豚肉、キャベツを使う「材料キャベツと豚バラのみ！時短簡単節約レシピ🍚ご飯が進む『キャベツ豚バラの塩ダレ』🥬」のレシピです。"
   },
   {
     "title": "1人前150円で出来るそうめんの最強レシピ知ってる？そうめんそうめんレシピ節約レシピ料理",
@@ -13010,9 +12771,7 @@ const recipes = [
       "somen"
     ],
     "rawIngredients": "そうめん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "guhucmの実在動画。食材候補: そうめん。「1人前150円で出来るそうめんの最強レシピ知ってる？そうめんそうめんレシピ節約レシピ料理」のレシピです。"
+    "description": "guhucmの実在動画。そうめんを使う「1人前150円で出来るそうめんの最強レシピ知ってる？そうめんそうめんレシピ節約レシピ料理」のレシピです。"
   },
   {
     "title": "卵・砂糖・生クリーム不使用【材料3つ】【濃厚牛乳アイス】レンジで簡単！混ぜてチンして凍らすだけ♪市販のアイスもう買えない",
@@ -13044,9 +12803,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "卵、にら、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: 卵、にら、牛乳。「卵・砂糖・生クリーム不使用【材料3つ】【濃厚牛乳アイス】レンジで簡単！混ぜてチンして凍らすだけ♪市販のアイスもう買えない」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。卵、にら、牛乳を使う「卵・砂糖・生クリーム不使用【材料3つ】【濃厚牛乳アイス】レンジで簡単！混ぜてチンして凍らすだけ♪市販のアイスもう買えない」のレシピです。"
   },
   {
     "title": "材料3つ！混ぜて凍らせるだけ【ヨーグルトアイス】ヨーグルトの水切りなし！簡単に作れて美味しい♪",
@@ -13074,9 +12831,35 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: 牛乳。「材料3つ！混ぜて凍らせるだけ【ヨーグルトアイス】ヨーグルトの水切りなし！簡単に作れて美味しい♪」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。牛乳を使う「材料3つ！混ぜて凍らせるだけ【ヨーグルトアイス】ヨーグルトの水切りなし！簡単に作れて美味しい♪」のレシピです。"
+  },
+  {
+    "title": "【パックそのまま】【簡単豆乳プリン】誰でも簡単に作れて超美味しくプルプルに仕上がる！#時短レシピ #料理 #時短レシピ",
+    "platform": "youtube",
+    "externalId": "IDra0-JsqOU",
+    "videoUrl": "https://www.youtube.com/watch?v=IDra0-JsqOU",
+    "videoId": "IDra0-JsqOU",
+    "url": "https://www.youtube.com/watch?v=IDra0-JsqOU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/IDra0-JsqOU/maxresdefault.jpg",
+    "creator": "お任せCOOK",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "easy",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "お任せCOOKの実在動画。白身魚を使う「【パックそのまま】【簡単豆乳プリン】誰でも簡単に作れて超美味しくプルプルに仕上がる！#時短レシピ #料理 #時短レシピ」のレシピです。"
   },
   {
     "title": "ムダなし！手間なし！【簡単レシピ、節約レシピ】えのき茸サバ缶卵とじ！時短、ワンパン",
@@ -13112,9 +12895,7 @@ const recipes = [
       "enoki"
     ],
     "rawIngredients": "サバ、卵、ネギ、玉ねぎ、えのき茸",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "モンフレールやさいでキレイ!簡単クッキング!の実在動画。食材候補: サバ、卵、ネギ、玉ねぎ、えのき茸。「ムダなし！手間なし！【簡単レシピ、節約レシピ】えのき茸サバ缶卵とじ！時短、ワンパン」のレシピです。"
+    "description": "モンフレールやさいでキレイ!簡単クッキング!の実在動画。サバ、卵、ネギ、玉ねぎ、えのき茸を使う「ムダなし！手間なし！【簡単レシピ、節約レシピ】えのき茸サバ缶卵とじ！時短、ワンパン」のレシピです。"
   },
   {
     "title": "【1食100円】お金がない日はこれ一択 【混ぜてレンチン】100円で作れる幸せドリア ずぼら主婦のずぼらレシピ",
@@ -13145,9 +12926,7 @@ const recipes = [
       "curry_roux"
     ],
     "rawIngredients": "卵、チーズ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "手取り17万夫とズボラ妻の節約レシピの実在動画。食材候補: 卵、チーズ、カレールゥ。「【1食100円】お金がない日はこれ一択 【混ぜてレンチン】100円で作れる幸せドリア ずぼら主婦のずぼらレシピ」のレシピです。"
+    "description": "手取り17万夫とズボラ妻の節約レシピの実在動画。卵、チーズ、カレールゥを使う「【1食100円】お金がない日はこれ一択 【混ぜてレンチン】100円で作れる幸せドリア ずぼら主婦のずぼらレシピ」のレシピです。"
   },
   {
     "title": "【節約弁当】3品で150円なのに大満足！大葉ハムちくわ天弁当",
@@ -13183,9 +12962,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "ハム、卵、ブロッコリー、マヨネーズ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "mikatanキッチンの実在動画。食材候補: ハム、卵、ブロッコリー、マヨネーズ、小麦粉。「【節約弁当】3品で150円なのに大満足！大葉ハムちくわ天弁当」のレシピです。"
+    "description": "mikatanキッチンの実在動画。ハム、卵、ブロッコリー、マヨネーズ、小麦粉を使う「【節約弁当】3品で150円なのに大満足！大葉ハムちくわ天弁当」のレシピです。"
   },
   {
     "title": "1人分300円節約ごはんNO.2 #節約レシピ #節約ごはん #300円ごはん #1人分ごはん #パスタレシピ #麻婆ナス #なすレシピ #食費節約 #簡単ごはん #琴音の節約でも楽しく暮らす",
@@ -13215,9 +12992,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "パスタ、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "琴音の実在動画。食材候補: パスタ、なす。「1人分300円節約ごはんNO.2 #節約レシピ #節約ごはん #300円ごはん #1人分ごはん #パスタレシピ #麻婆ナス #なすレシピ #食費節約 #簡単ごはん #琴音の節約でも楽しく暮らす」のレシピです。"
+    "description": "琴音の実在動画。パスタ、なすを使う「1人分300円節約ごはんNO.2 #節約レシピ #節約ごはん #300円ごはん #1人分ごはん #パスタレシピ #麻婆ナス #なすレシピ #食費節約 #簡単ごはん #琴音の節約でも楽しく暮らす」のレシピです。"
   },
   {
     "title": "【食費節約】業務スーパー購入品で作る１週間6,000円生活‼️ワンオペもう飽きた…#晩ご飯#簡単夜ご飯",
@@ -13247,9 +13022,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "鶏肉、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "おつきみママチャンネルの実在動画。食材候補: 鶏肉、チーズ。「【食費節約】業務スーパー購入品で作る１週間6,000円生活‼️ワンオペもう飽きた…#晩ご飯#簡単夜ご飯」のレシピです。"
+    "description": "おつきみママチャンネルの実在動画。鶏肉、チーズを使う「【食費節約】業務スーパー購入品で作る１週間6,000円生活‼️ワンオペもう飽きた…#晩ご飯#簡単夜ご飯」のレシピです。"
   },
   {
     "title": "時短料理で乗り切る平日５日間のお弁当とお昼ごはん記録//新しいお弁当箱が失敗だった！？/vol.76",
@@ -13278,6 +13051,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "canned_tuna",
       "somen",
       "rice_noodles",
@@ -13285,10 +13059,8 @@ const recipes = [
       "tomato",
       "eggplant"
     ],
-    "rawIngredients": "牛肉、ツナ、そうめん、ビーフン・フォー、パスタ、トマト、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Alice's Kitchen Diaryの実在動画。食材候補: 牛肉、ツナ、そうめん、ビーフン・フォー、パスタ、トマト、なす。「時短料理で乗り切る平日５日間のお弁当とお昼ごはん記録//新しいお弁当箱が失敗だった！？/vol.76」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、ツナ、そうめん、ビーフン・フォー、パスタ、トマト、なす",
+    "description": "Alice's Kitchen Diaryの実在動画。牛肉、白身魚、ツナ、そうめん、ビーフン・フォー、パスタ、トマト、なすを使う「時短料理で乗り切る平日５日間のお弁当とお昼ごはん記録//新しいお弁当箱が失敗だった！？/vol.76」のレシピです。"
   },
   {
     "title": "【時短♪節約♪】食べたら止まらない♪ちくわの大葉チーズ巻きwithブラックペッパー♪",
@@ -13304,6 +13076,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
@@ -13313,12 +13086,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "cheese"
     ],
-    "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あつメシ×あさとファミリーの実在動画。食材候補: チーズ。「【時短♪節約♪】食べたら止まらない♪ちくわの大葉チーズ巻きwithブラックペッパー♪」のレシピです。"
+    "rawIngredients": "白身魚、チーズ",
+    "description": "あつメシ×あさとファミリーの実在動画。白身魚、チーズを使う「【時短♪節約♪】食べたら止まらない♪ちくわの大葉チーズ巻きwithブラックペッパー♪」のレシピです。"
   },
   {
     "title": "市販のタレなしで作る🍳簡単回鍋肉 #料理 #時短節約 #簡単ご飯 #簡単レシピ",
@@ -13335,6 +13107,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -13346,15 +13119,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "cabbage",
       "bell_pepper",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、キャベツ、ピーマン、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えまっちごはん⌇節約主婦の献立の実在動画。食材候補: 豚肉、キャベツ、ピーマン、ショウガ、にんにく。「市販のタレなしで作る🍳簡単回鍋肉 #料理 #時短節約 #簡単ご飯 #簡単レシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、キャベツ、ピーマン、ショウガ、にんにく",
+    "description": "えまっちごはん⌇節約主婦の献立の実在動画。豚肉、白身魚、キャベツ、ピーマン、ショウガ、にんにくを使う「市販のタレなしで作る🍳簡単回鍋肉 #料理 #時短節約 #簡単ご飯 #簡単レシピ」のレシピです。"
   },
   {
     "title": "手取り11万29歳の貧困ごはん #貧困ごはん #節約レシピ #節約 #節約飯 #男飯",
@@ -13385,9 +13157,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ネギ、玉ねぎ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "シュン | 手取り11万旦那の実在動画。食材候補: ネギ、玉ねぎ、にんにく。「手取り11万29歳の貧困ごはん #貧困ごはん #節約レシピ #節約 #節約飯 #男飯」のレシピです。"
+    "description": "シュン | 手取り11万旦那の実在動画。ネギ、玉ねぎ、にんにくを使う「手取り11万29歳の貧困ごはん #貧困ごはん #節約レシピ #節約 #節約飯 #男飯」のレシピです。"
   },
   {
     "title": "190円で作ったこんちくしょーが美味すぎた🎠",
@@ -13414,15 +13184,42 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "octopus",
       "green_onion",
       "konnyaku",
       "ginger"
     ],
-    "rawIngredients": "たこ、ネギ、こんにゃく、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "300円先生【300円以下で料理したい】の実在動画。食材候補: たこ、ネギ、こんにゃく、ショウガ。「190円で作ったこんちくしょーが美味すぎた🎠」のレシピです。"
+    "rawIngredients": "白身魚、たこ、ネギ、こんにゃく、ショウガ",
+    "description": "300円先生【300円以下で料理したい】の実在動画。白身魚、たこ、ネギ、こんにゃく、ショウガを使う「190円で作ったこんちくしょーが美味すぎた🎠」のレシピです。"
+  },
+  {
+    "title": "\\1本70円/パリパリチョコバナナ #shorts #チョコバナナ #アイス",
+    "platform": "youtube",
+    "externalId": "_jbg6bL7j50",
+    "videoUrl": "https://www.youtube.com/watch?v=_jbg6bL7j50",
+    "videoId": "_jbg6bL7j50",
+    "url": "https://www.youtube.com/watch?v=_jbg6bL7j50",
+    "thumbnailUrl": "https://i.ytimg.com/vi/_jbg6bL7j50/maxresdefault.jpg",
+    "creator": "ちゃか_限界オタクの節約冷凍ストック",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "ちゃか_限界オタクの節約冷凍ストックの実在動画。白身魚を使う「\\1本70円/パリパリチョコバナナ #shorts #チョコバナナ #アイス」のレシピです。"
   },
   {
     "title": "もっち豆腐もやし #ダイエットレシピ #混ぜて焼くだけ #簡単レシピ",
@@ -13438,6 +13235,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "根菜",
@@ -13450,15 +13248,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tofu",
       "bean_sprouts",
       "ginger",
       "mayonnaise"
     ],
-    "rawIngredients": "豆腐、もやし、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "美やせグルメっの実在動画。食材候補: 豆腐、もやし、ショウガ、マヨネーズ。「もっち豆腐もやし #ダイエットレシピ #混ぜて焼くだけ #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、豆腐、もやし、ショウガ、マヨネーズ",
+    "description": "美やせグルメっの実在動画。白身魚、豆腐、もやし、ショウガ、マヨネーズを使う「もっち豆腐もやし #ダイエットレシピ #混ぜて焼くだけ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【節約弁当】ちくわ全部これにして！味見が止まらなくなる大葉チーズのちくわカレー唐揚げ",
@@ -13497,9 +13294,7 @@ const recipes = [
       "curry_roux"
     ],
     "rawIngredients": "挽肉、卵、ネギ、昆布、ショウガ、にんにく、チーズ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "にぎりっ娘。nigiriccoの実在動画。食材候補: 挽肉、卵、ネギ、昆布、ショウガ、にんにく、チーズ、カレールゥ。「【節約弁当】ちくわ全部これにして！味見が止まらなくなる大葉チーズのちくわカレー唐揚げ」のレシピです。"
+    "description": "にぎりっ娘。nigiriccoの実在動画。挽肉、卵、ネギ、昆布、ショウガ、にんにく、チーズ、カレールゥを使う「【節約弁当】ちくわ全部これにして！味見が止まらなくなる大葉チーズのちくわカレー唐揚げ」のレシピです。"
   },
   {
     "title": "【タラと塩昆布のやみつき和風パスタ🐟✨】 #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ",
@@ -13511,7 +13306,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/xoJ5VTF_KdI/maxresdefault.jpg",
     "creator": "のどか⌇10分で彼に褒められるパスタ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "rich",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -13536,9 +13331,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "白身魚、パスタ、ネギ、昆布、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "のどか⌇10分で彼に褒められるパスタの実在動画。食材候補: 白身魚、パスタ、ネギ、昆布、にんにく、バター。「【タラと塩昆布のやみつき和風パスタ🐟✨】 #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ」のレシピです。"
+    "description": "のどか⌇10分で彼に褒められるパスタの実在動画。白身魚、パスタ、ネギ、昆布、にんにく、バターを使う「【タラと塩昆布のやみつき和風パスタ🐟✨】 #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ」のレシピです。"
   },
   {
     "title": "⭐️簡単で体に優しい節約レシピ⭐️ 沢山、投稿していきます ぜひ作ってみてください😊 @taka_recipe 借金2000万、元うつ、61歳が作る 🍋「塩レモンチキンパエリア」",
@@ -13566,9 +13359,35 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "たか 借金2000万のおうちごはんの実在動画。食材候補: 鶏肉。「⭐️簡単で体に優しい節約レシピ⭐️ 沢山、投稿していきます ぜひ作ってみてください😊 @taka_recipe 借金2000万、元うつ、61歳が作る 🍋「塩レモンチキンパエリア」」のレシピです。"
+    "description": "たか 借金2000万のおうちごはんの実在動画。鶏肉を使う「⭐️簡単で体に優しい節約レシピ⭐️ 沢山、投稿していきます ぜひ作ってみてください😊 @taka_recipe 借金2000万、元うつ、61歳が作る 🍋「塩レモンチキンパエリア」」のレシピです。"
+  },
+  {
+    "title": "オクラ大量消費！焼くだけ簡単絶品副菜",
+    "platform": "youtube",
+    "externalId": "UT89ysFT7RU",
+    "videoUrl": "https://www.youtube.com/watch?v=UT89ysFT7RU",
+    "videoId": "UT89ysFT7RU",
+    "url": "https://www.youtube.com/watch?v=UT89ysFT7RU",
+    "thumbnailUrl": "https://i.ytimg.com/vi/UT89ysFT7RU/maxresdefault.jpg",
+    "creator": "ママの厨房",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "ママの厨房の実在動画。白身魚を使う「オクラ大量消費！焼くだけ簡単絶品副菜」のレシピです。"
   },
   {
     "title": "胸肉とブロッコリーのレモンペッパー焼き🍋 #時短節約 #簡単レシピ #repi",
@@ -13596,9 +13415,7 @@ const recipes = [
       "broccoli"
     ],
     "rawIngredients": "ブロッコリー",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うりよ | ズボラ社会人の実在動画。食材候補: ブロッコリー。「胸肉とブロッコリーのレモンペッパー焼き🍋 #時短節約 #簡単レシピ #repi」のレシピです。"
+    "description": "うりよ | ズボラ社会人の実在動画。ブロッコリーを使う「胸肉とブロッコリーのレモンペッパー焼き🍋 #時短節約 #簡単レシピ #repi」のレシピです。"
   },
   {
     "title": "夕食にぴったりの「簡単・美味しいおかず」レシピを5つ紹介します。#簡単レシピ #時短レシピ #夕食レシピ #晩ごはん #おかずレシピ #節約レシピ #料理 #家庭料理 #鶏もも肉 #豚バラ #なす",
@@ -13616,6 +13433,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "葉物野菜"
     ],
     "oil": 2,
@@ -13627,14 +13445,13 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "nira",
       "bean_sprouts",
       "eggplant"
     ],
-    "rawIngredients": "豚肉、鶏肉、にら、もやし、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ずぼら飯ラボの実在動画。食材候補: 豚肉、鶏肉、にら、もやし、なす。「夕食にぴったりの「簡単・美味しいおかず」レシピを5つ紹介します。#簡単レシピ #時短レシピ #夕食レシピ #晩ごはん #おかずレシピ #節約レシピ #料理 #家庭料理 #鶏もも肉 #豚バラ #なす」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、にら、もやし、なす",
+    "description": "ずぼら飯ラボの実在動画。豚肉、鶏肉、白身魚、にら、もやし、なすを使う「夕食にぴったりの「簡単・美味しいおかず」レシピを5つ紹介します。#簡単レシピ #時短レシピ #夕食レシピ #晩ごはん #おかずレシピ #節約レシピ #料理 #家庭料理 #鶏もも肉 #豚バラ #なす」のレシピです。"
   },
   {
     "title": "\\きゅうりの1本漬け/#shorts #冷凍ストック #きゅうり",
@@ -13662,9 +13479,7 @@ const recipes = [
       "cucumber"
     ],
     "rawIngredients": "きゅうり",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃか_限界オタクの節約冷凍ストックの実在動画。食材候補: きゅうり。「\\きゅうりの1本漬け/#shorts #冷凍ストック #きゅうり」のレシピです。"
+    "description": "ちゃか_限界オタクの節約冷凍ストックの実在動画。きゅうりを使う「\\きゅうりの1本漬け/#shorts #冷凍ストック #きゅうり」のレシピです。"
   },
   {
     "title": "【もう揚げなくていい！】ノンフライヤーでパリパリすぎて感動級「五目中華春巻き」の作り方 #料理 #簡単レシピ",
@@ -13702,9 +13517,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "挽肉、卵、小松菜、にんじん、しいたけ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "kattyanneru/かっちゃんねるの実在動画。食材候補: 挽肉、卵、小松菜、にんじん、しいたけ、ショウガ、にんにく。「【もう揚げなくていい！】ノンフライヤーでパリパリすぎて感動級「五目中華春巻き」の作り方 #料理 #簡単レシピ」のレシピです。"
+    "description": "kattyanneru/かっちゃんねるの実在動画。挽肉、卵、小松菜、にんじん、しいたけ、ショウガ、にんにくを使う「【もう揚げなくていい！】ノンフライヤーでパリパリすぎて感動級「五目中華春巻き」の作り方 #料理 #簡単レシピ」のレシピです。"
   },
   {
     "title": "30歳独身の節約飯｜豆腐チヂミ #豆腐レシピ #節約レシピ #簡単レシピ #一人暮らしごはん #料理動画",
@@ -13732,9 +13545,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "てるまるの実在動画。食材候補: 豆腐。「30歳独身の節約飯｜豆腐チヂミ #豆腐レシピ #節約レシピ #簡単レシピ #一人暮らしごはん #料理動画」のレシピです。"
+    "description": "てるまるの実在動画。豆腐を使う「30歳独身の節約飯｜豆腐チヂミ #豆腐レシピ #節約レシピ #簡単レシピ #一人暮らしごはん #料理動画」のレシピです。"
   },
   {
     "title": "ミニトマトでさっぱり！ズッキーニの味噌バター炒め【簡単・節約】#ズッキーニ #ミニトマト #ベーコン #味噌バター #簡単レシピ #節約レシピ #家庭料理 #時短レシピ #おうちごはん #年金生活",
@@ -13751,6 +13562,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
@@ -13762,13 +13574,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "tomato",
       "butter"
     ],
-    "rawIngredients": "ベーコン、トマト、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "金髪ゆきぱぱチャンネルの実在動画。食材候補: ベーコン、トマト、バター。「ミニトマトでさっぱり！ズッキーニの味噌バター炒め【簡単・節約】#ズッキーニ #ミニトマト #ベーコン #味噌バター #簡単レシピ #節約レシピ #家庭料理 #時短レシピ #おうちごはん #年金生活」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、トマト、バター",
+    "description": "金髪ゆきぱぱチャンネルの実在動画。ベーコン、白身魚、トマト、バターを使う「ミニトマトでさっぱり！ズッキーニの味噌バター炒め【簡単・節約】#ズッキーニ #ミニトマト #ベーコン #味噌バター #簡単レシピ #節約レシピ #家庭料理 #時短レシピ #おうちごはん #年金生活」のレシピです。"
   },
   {
     "title": "26歳会社員が24円で作る簡単節約レンチン爆速パスタ🍝",
@@ -13796,9 +13607,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "こまつl会社員の簡単節約レシピの実在動画。食材候補: パスタ。「26歳会社員が24円で作る簡単節約レンチン爆速パスタ🍝」のレシピです。"
+    "description": "こまつl会社員の簡単節約レシピの実在動画。パスタを使う「26歳会社員が24円で作る簡単節約レンチン爆速パスタ🍝」のレシピです。"
   },
   {
     "title": "4ヶ月で15kg痩せた私が今でも食べてる痩せレシピ🩷 #ダイエット #簡単レシピ #ダイエットレシピ #パスタ #節約 #節約レシピ #簡単レシピ",
@@ -13826,9 +13635,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【みのりん】広島の大食いトレーニーの実在動画。食材候補: パスタ。「4ヶ月で15kg痩せた私が今でも食べてる痩せレシピ🩷 #ダイエット #簡単レシピ #ダイエットレシピ #パスタ #節約 #節約レシピ #簡単レシピ」のレシピです。"
+    "description": "【みのりん】広島の大食いトレーニーの実在動画。パスタを使う「4ヶ月で15kg痩せた私が今でも食べてる痩せレシピ🩷 #ダイエット #簡単レシピ #ダイエットレシピ #パスタ #節約 #節約レシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "大根おろしとツナのポン酢パスタ🐟❄️ #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ #グルメ",
@@ -13855,15 +13662,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "daikon",
       "garlic"
     ],
-    "rawIngredients": "ツナ、パスタ、大根、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "のどか⌇10分で彼に褒められるパスタの実在動画。食材候補: ツナ、パスタ、大根、にんにく。「大根おろしとツナのポン酢パスタ🐟❄️ #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ #グルメ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、大根、にんにく",
+    "description": "のどか⌇10分で彼に褒められるパスタの実在動画。白身魚、ツナ、パスタ、大根、にんにくを使う「大根おろしとツナのポン酢パスタ🐟❄️ #パスタ #時短節約 #料理 #pasta #cooking #自炊 #noodles #food #簡単レシピ #グルメ」のレシピです。"
   },
   {
     "title": "1杯88円でつくる野菜スープ",
@@ -13898,9 +13704,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "ネギ、玉ねぎ、にんじん、かぼちゃ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あお〻4年で1000万円貯めた中間管理職ママの実在動画。食材候補: ネギ、玉ねぎ、にんじん、かぼちゃ、バター、牛乳。「1杯88円でつくる野菜スープ」のレシピです。"
+    "description": "あお〻4年で1000万円貯めた中間管理職ママの実在動画。ネギ、玉ねぎ、にんじん、かぼちゃ、バター、牛乳を使う「1杯88円でつくる野菜スープ」のレシピです。"
   },
   {
     "title": "【ヤンニョム豚こま】100万円貯める冷凍節約弁当#冷凍弁当 #冷凍節約 #節約弁当 #節約レシピ#ヤンニョムチキン#ヤンニョム豚こま",
@@ -13918,6 +13722,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -13930,13 +13735,40 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "broccoli",
       "garlic"
     ],
-    "rawIngredients": "豚肉、鶏肉、ブロッコリー、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うま冷凍貯金で夢を実現する22歳の実在動画。食材候補: 豚肉、鶏肉、ブロッコリー、にんにく。「【ヤンニョム豚こま】100万円貯める冷凍節約弁当#冷凍弁当 #冷凍節約 #節約弁当 #節約レシピ#ヤンニョムチキン#ヤンニョム豚こま」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、ブロッコリー、にんにく",
+    "description": "うま冷凍貯金で夢を実現する22歳の実在動画。豚肉、鶏肉、白身魚、ブロッコリー、にんにくを使う「【ヤンニョム豚こま】100万円貯める冷凍節約弁当#冷凍弁当 #冷凍節約 #節約弁当 #節約レシピ#ヤンニョムチキン#ヤンニョム豚こま」のレシピです。"
+  },
+  {
+    "title": "【無理せず節約】2人前約500円|晩ごはん記録|食費月3万円😎毎日が楽しくなる節約飯",
+    "platform": "youtube",
+    "externalId": "5ZBnSKMnHr4",
+    "videoUrl": "https://www.youtube.com/watch?v=5ZBnSKMnHr4",
+    "videoId": "5ZBnSKMnHr4",
+    "url": "https://www.youtube.com/watch?v=5ZBnSKMnHr4",
+    "thumbnailUrl": "https://i.ytimg.com/vi/5ZBnSKMnHr4/maxresdefault.jpg",
+    "creator": "森のくま子🧸",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "森のくま子🧸の実在動画。白身魚を使う「【無理せず節約】2人前約500円|晩ごはん記録|食費月3万円😎毎日が楽しくなる節約飯」のレシピです。"
   },
   {
     "title": "レンジでキムチチゲ #節約レシピ #簡単レシピ #時短節約 #料理 #今日の晩ごはん #おうちごはん #1食300円以下冷凍ストック #時短レシピ #まいにちごはん #cooking #料理動画",
@@ -13953,6 +13785,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜",
       "根菜"
@@ -13965,15 +13798,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "tofu",
       "nira",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、豆腐、にら、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あや 節約×冷凍ストックの実在動画。食材候補: 豚肉、豆腐、にら、ネギ、にんにく。「レンジでキムチチゲ #節約レシピ #簡単レシピ #時短節約 #料理 #今日の晩ごはん #おうちごはん #1食300円以下冷凍ストック #時短レシピ #まいにちごはん #cooking #料理動画」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、豆腐、にら、ネギ、にんにく",
+    "description": "あや 節約×冷凍ストックの実在動画。豚肉、白身魚、豆腐、にら、ネギ、にんにくを使う「レンジでキムチチゲ #節約レシピ #簡単レシピ #時短節約 #料理 #今日の晩ごはん #おうちごはん #1食300円以下冷凍ストック #時短レシピ #まいにちごはん #cooking #料理動画」のレシピです。"
   },
   {
     "title": "【レンジ5分】爆速‼️レンチンでなすの煮浸し🍆簡単＆節約レシピ♪疲れた日もこれなら作れる☺️",
@@ -14003,9 +13835,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "なす、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "貧乏ズボラ夫婦のおいしいごはんの実在動画。食材候補: なす、ショウガ。「【レンジ5分】爆速‼️レンチンでなすの煮浸し🍆簡単＆節約レシピ♪疲れた日もこれなら作れる☺️」のレシピです。"
+    "description": "貧乏ズボラ夫婦のおいしいごはんの実在動画。なす、ショウガを使う「【レンジ5分】爆速‼️レンチンでなすの煮浸し🍆簡単＆節約レシピ♪疲れた日もこれなら作れる☺️」のレシピです。"
   },
   {
     "title": "なす＋トマト＋豚肉で作る、おうちバルサミコ炒め #なすレシピ #節約レシピ #常備菜 #バルサミコ代用 #パパ看護師",
@@ -14022,6 +13852,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -14033,14 +13864,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "tomato",
       "eggplant",
       "garlic"
     ],
-    "rawIngredients": "豚肉、トマト、なす、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぱぱナースのごはんノートの実在動画。食材候補: 豚肉、トマト、なす、にんにく。「なす＋トマト＋豚肉で作る、おうちバルサミコ炒め #なすレシピ #節約レシピ #常備菜 #バルサミコ代用 #パパ看護師」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、トマト、なす、にんにく",
+    "description": "ぱぱナースのごはんノートの実在動画。豚肉、白身魚、トマト、なす、にんにくを使う「なす＋トマト＋豚肉で作る、おうちバルサミコ炒め #なすレシピ #節約レシピ #常備菜 #バルサミコ代用 #パパ看護師」のレシピです。"
   },
   {
     "title": "ナスが驚くほど美味しくなる。味染み・時短・節約、全部叶う最強テク！簡単レシピ3選。麻婆ナス/なすポン酢/トマトパスタ",
@@ -14082,9 +13912,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "挽肉、ハム、ベーコン、パスタ、ネギ、トマト、なす、玉ねぎ、ショウガ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "シクロエの家の実在動画。食材候補: 挽肉、ハム、ベーコン、パスタ、ネギ、トマト、なす、玉ねぎ、ショウガ、にんにく、チーズ。「ナスが驚くほど美味しくなる。味染み・時短・節約、全部叶う最強テク！簡単レシピ3選。麻婆ナス/なすポン酢/トマトパスタ」のレシピです。"
+    "description": "シクロエの家の実在動画。挽肉、ハム、ベーコン、パスタ、ネギ、トマト、なす、玉ねぎ、ショウガ、にんにく、チーズを使う「ナスが驚くほど美味しくなる。味染み・時短・節約、全部叶う最強テク！簡単レシピ3選。麻婆ナス/なすポン酢/トマトパスタ」のレシピです。"
   },
   {
     "title": "お好み焼き風ネギもやし #ダイエットレシピ #簡単レシピ",
@@ -14100,6 +13928,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "葉物野菜",
       "チーズ・バター・マヨ系"
     ],
@@ -14110,14 +13939,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "green_onion",
       "bean_sprouts",
       "mayonnaise"
     ],
-    "rawIngredients": "ネギ、もやし、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "美やせグルメっの実在動画。食材候補: ネギ、もやし、マヨネーズ。「お好み焼き風ネギもやし #ダイエットレシピ #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、ネギ、もやし、マヨネーズ",
+    "description": "美やせグルメっの実在動画。白身魚、ネギ、もやし、マヨネーズを使う「お好み焼き風ネギもやし #ダイエットレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "たった5分。卵、ウィンナー、チーズがあれば世界1簡単で旨いズボラ丼ができます『超絶悶絶丼』",
@@ -14152,9 +13980,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、ご飯・米、にんにく、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、ご飯・米、にんにく、チーズ、マヨネーズ。「たった5分。卵、ウィンナー、チーズがあれば世界1簡単で旨いズボラ丼ができます『超絶悶絶丼』」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、ご飯・米、にんにく、チーズ、マヨネーズを使う「たった5分。卵、ウィンナー、チーズがあれば世界1簡単で旨いズボラ丼ができます『超絶悶絶丼』」のレシピです。"
   },
   {
     "title": "10分で吉野家風牛丼を作ってみよう！！／みきママ",
@@ -14170,6 +13996,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -14181,15 +14008,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "green_onion",
       "onion",
       "ginger"
     ],
-    "rawIngredients": "ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みきママChannelの実在動画。食材候補: ご飯・米、ネギ、玉ねぎ、ショウガ。「10分で吉野家風牛丼を作ってみよう！！／みきママ」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、ネギ、玉ねぎ、ショウガ",
+    "description": "みきママChannelの実在動画。白身魚、ご飯・米、ネギ、玉ねぎ、ショウガを使う「10分で吉野家風牛丼を作ってみよう！！／みきママ」のレシピです。"
   },
   {
     "title": "あまりにも完成度が高いので絶対試してほしい。15分で名店の味【完全再現 吉野家風豚丼】",
@@ -14201,11 +14027,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/EZlBM3s_PVU/sddefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -14218,15 +14045,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion",
       "onion",
       "ginger"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ。「あまりにも完成度が高いので絶対試してほしい。15分で名店の味【完全再現 吉野家風豚丼】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ、玉ねぎ、ショウガ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。豚肉、白身魚、ご飯・米、ネギ、玉ねぎ、ショウガを使う「あまりにも完成度が高いので絶対試してほしい。15分で名店の味【完全再現 吉野家風豚丼】」のレシピです。"
   },
   {
     "title": "【「めんつゆ」で作る！】親子丼",
@@ -14262,9 +14088,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "鰹節屋・だし屋のヤマキ公式チャンネルの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ。「【「めんつゆ」で作る！】親子丼」のレシピです。"
+    "description": "鰹節屋・だし屋のヤマキ公式チャンネルの実在動画。鶏肉、卵、ご飯・米、ネギ、玉ねぎを使う「【「めんつゆ」で作る！】親子丼」のレシピです。"
   },
   {
     "title": "【再現】吉野家の牛丼の再現!!テレビでも紹介された大絶賛レシピ。",
@@ -14299,9 +14123,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "牛肉、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "再現レシピ稲垣飛鳥のasucafe channelの実在動画。食材候補: 牛肉、ご飯・米、ネギ、玉ねぎ、ショウガ。「【再現】吉野家の牛丼の再現!!テレビでも紹介された大絶賛レシピ。」のレシピです。"
+    "description": "再現レシピ稲垣飛鳥のasucafe channelの実在動画。牛肉、ご飯・米、ネギ、玉ねぎ、ショウガを使う「【再現】吉野家の牛丼の再現!!テレビでも紹介された大絶賛レシピ。」のレシピです。"
   },
   {
     "title": "親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】",
@@ -14317,6 +14139,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "麺"
@@ -14328,14 +14151,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "pasta"
     ],
-    "rawIngredients": "卵、ご飯・米、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "George ジョージ吉田の実在動画。食材候補: 卵、ご飯・米、パスタ。「親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、パスタ",
+    "description": "George ジョージ吉田の実在動画。白身魚、卵、ご飯・米、パスタを使う「親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】」のレシピです。"
   },
   {
     "title": "これ、ガチで本家よりうめえかもしれません。一度食べたら忘れられない【至高のすたみな丼】",
@@ -14352,6 +14174,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -14365,15 +14188,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、卵、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 豚肉、卵、ご飯・米、ネギ、にんにく。「これ、ガチで本家よりうめえかもしれません。一度食べたら忘れられない【至高のすたみな丼】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ご飯・米、ネギ、にんにく",
+    "description": "料理研究家リュウジのバズレシピの実在動画。豚肉、白身魚、卵、ご飯・米、ネギ、にんにくを使う「これ、ガチで本家よりうめえかもしれません。一度食べたら忘れられない【至高のすたみな丼】」のレシピです。"
   },
   {
     "title": "こんなうめえご飯食べたことねえぞ丼",
@@ -14406,6 +14228,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "octopus",
       "egg",
       "rice",
@@ -14414,10 +14237,8 @@ const recipes = [
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "鶏肉、たこ、卵、ご飯・米、パスタ、ほうれん草、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、たこ、卵、ご飯・米、パスタ、ほうれん草、にんにく、チーズ。「こんなうめえご飯食べたことねえぞ丼」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、たこ、卵、ご飯・米、パスタ、ほうれん草、にんにく、チーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、白身魚、たこ、卵、ご飯・米、パスタ、ほうれん草、にんにく、チーズを使う「こんなうめえご飯食べたことねえぞ丼」のレシピです。"
   },
   {
     "title": "もう、焼くだけの豚丼にサヨナラ。料理研究家が導く豚丼の最適解、最高傑作豚丼",
@@ -14434,6 +14255,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜"
     ],
@@ -14445,13 +14267,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 豚肉、ご飯・米、ネギ。「もう、焼くだけの豚丼にサヨナラ。料理研究家が導く豚丼の最適解、最高傑作豚丼」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。豚肉、白身魚、ご飯・米、ネギを使う「もう、焼くだけの豚丼にサヨナラ。料理研究家が導く豚丼の最適解、最高傑作豚丼」のレシピです。"
   },
   {
     "title": "【これだけは教えたくない！】最強の味噌だれニンニクホルモン丼の作り方",
@@ -14481,9 +14302,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ご飯・米、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: ご飯・米、にんにく。「【これだけは教えたくない！】最強の味噌だれニンニクホルモン丼の作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。ご飯・米、にんにくを使う「【これだけは教えたくない！】最強の味噌だれニンニクホルモン丼の作り方」のレシピです。"
   },
   {
     "title": "親子丼（めんつゆで本格）の簡単な作り方【美味しいホットクックレシピ】阪下千恵",
@@ -14522,9 +14341,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "鶏肉、卵、ご飯・米、パスタ、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家 阪下千恵のBlue Terraceの実在動画。食材候補: 鶏肉、卵、ご飯・米、パスタ、ネギ、玉ねぎ、ショウガ。「親子丼（めんつゆで本格）の簡単な作り方【美味しいホットクックレシピ】阪下千恵」のレシピです。"
+    "description": "料理研究家 阪下千恵のBlue Terraceの実在動画。鶏肉、卵、ご飯・米、パスタ、ネギ、玉ねぎ、ショウガを使う「親子丼（めんつゆで本格）の簡単な作り方【美味しいホットクックレシピ】阪下千恵」のレシピです。"
   },
   {
     "title": "焼肉屋さんでも絶対知らない。本当に美味しい「焼き」が決め手の至高のビビンバ",
@@ -14541,6 +14358,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜",
@@ -14554,6 +14372,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "nira",
       "green_onion",
@@ -14562,10 +14381,8 @@ const recipes = [
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "挽肉、卵、にら、ネギ、もやし、にんじん、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 挽肉、卵、にら、ネギ、もやし、にんじん、にんにく、マヨネーズ。「焼肉屋さんでも絶対知らない。本当に美味しい「焼き」が決め手の至高のビビンバ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、にら、ネギ、もやし、にんじん、にんにく、マヨネーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。挽肉、白身魚、卵、にら、ネギ、もやし、にんじん、にんにく、マヨネーズを使う「焼肉屋さんでも絶対知らない。本当に美味しい「焼き」が決め手の至高のビビンバ」のレシピです。"
   },
   {
     "title": "【たった三分で出来る】この丼でズボラ飯の概念が変わる。合法生ユッケ丼",
@@ -14582,6 +14399,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -14595,15 +14413,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "ham",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "ハム、卵、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ハム、卵、ご飯・米、ネギ、にんにく。「【たった三分で出来る】この丼でズボラ飯の概念が変わる。合法生ユッケ丼」のレシピです。"
+    "rawIngredients": "ハム、白身魚、卵、ご飯・米、ネギ、にんにく",
+    "description": "料理研究家リュウジのバズレシピの実在動画。ハム、白身魚、卵、ご飯・米、ネギ、にんにくを使う「【たった三分で出来る】この丼でズボラ飯の概念が変わる。合法生ユッケ丼」のレシピです。"
   },
   {
     "title": "10秒で作れる！ネギマグロ丼のタレ🍣 #shots #おうちごはん",
@@ -14631,15 +14448,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "tuna_sashimi",
       "rice",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "マグロ、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: マグロ、ご飯・米、ネギ、にんにく。「10秒で作れる！ネギマグロ丼のタレ🍣 #shots #おうちごはん」のレシピです。"
+    "rawIngredients": "白身魚、マグロ、ご飯・米、ネギ、にんにく",
+    "description": "まみ(mami) ラクうまごはんの実在動画。白身魚、マグロ、ご飯・米、ネギ、にんにくを使う「10秒で作れる！ネギマグロ丼のタレ🍣 #shots #おうちごはん」のレシピです。"
   },
   {
     "title": "【ご飯系レシピNo.1】オートミール・キャメロン・ディアス丼",
@@ -14655,6 +14471,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -14662,12 +14479,13 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
@@ -14675,10 +14493,8 @@ const recipes = [
       "ginger",
       "butter"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ、玉ねぎ、ショウガ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ドムス【見るだけで痩せるチャンネル】の実在動画。食材候補: 卵、ご飯・米、ネギ、玉ねぎ、ショウガ、バター。「【ご飯系レシピNo.1】オートミール・キャメロン・ディアス丼」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ、玉ねぎ、ショウガ、バター",
+    "description": "ドムス【見るだけで痩せるチャンネル】の実在動画。白身魚、卵、ご飯・米、ネギ、玉ねぎ、ショウガ、バターを使う「【ご飯系レシピNo.1】オートミール・キャメロン・ディアス丼」のレシピです。"
   },
   {
     "title": "背徳のとろたまチーズソーセージ丼",
@@ -14694,6 +14510,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "根菜",
@@ -14706,16 +14523,15 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "garlic",
       "cheese",
       "butter"
     ],
-    "rawIngredients": "卵、ご飯・米、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、ご飯・米、にんにく、チーズ、バター。「背徳のとろたまチーズソーセージ丼」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、にんにく、チーズ、バター",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、ご飯・米、にんにく、チーズ、バターを使う「背徳のとろたまチーズソーセージ丼」のレシピです。"
   },
   {
     "title": "やる気1％で目玉焼きソーセージ丼",
@@ -14731,6 +14547,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "チーズ・バター・マヨ系"
@@ -14742,14 +14559,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "butter"
     ],
-    "rawIngredients": "卵、ご飯・米、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、ご飯・米、バター。「やる気1％で目玉焼きソーセージ丼」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、バター",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、ご飯・米、バターを使う「やる気1％で目玉焼きソーセージ丼」のレシピです。"
   },
   {
     "title": "【ごはん作りたくないときに！】ツナたま丼！#ツナ #卵 #丼",
@@ -14781,9 +14597,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ツナ、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: ツナ、卵、ご飯・米。「【ごはん作りたくないときに！】ツナたま丼！#ツナ #卵 #丼」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。ツナ、卵、ご飯・米を使う「【ごはん作りたくないときに！】ツナたま丼！#ツナ #卵 #丼」のレシピです。"
   },
   {
     "title": "スーパーのトンカツで作るカツ丼の作り方 #イチカツ #レシピ #料理動画 #カツ丼",
@@ -14811,9 +14625,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "イチカツ料理チャンネルの実在動画。食材候補: ご飯・米。「スーパーのトンカツで作るカツ丼の作り方 #イチカツ #レシピ #料理動画 #カツ丼」のレシピです。"
+    "description": "イチカツ料理チャンネルの実在動画。ご飯・米を使う「スーパーのトンカツで作るカツ丼の作り方 #イチカツ #レシピ #料理動画 #カツ丼」のレシピです。"
   },
   {
     "title": "【5分で挑戦】アボカドとマグロのユッケ丼の作り方｜21時の自分めし vol.31【火を使わない】",
@@ -14847,9 +14659,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "マグロ、卵、ご飯・米、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: マグロ、卵、ご飯・米、にんにく。「【5分で挑戦】アボカドとマグロのユッケ丼の作り方｜21時の自分めし vol.31【火を使わない】」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。マグロ、卵、ご飯・米、にんにくを使う「【5分で挑戦】アボカドとマグロのユッケ丼の作り方｜21時の自分めし vol.31【火を使わない】」のレシピです。"
   },
   {
     "title": "やる気1%でごろごろサーモンユッケ丼",
@@ -14877,13 +14687,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "サケ、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: サケ、卵、ご飯・米。「やる気1%でごろごろサーモンユッケ丼」のレシピです。"
+    "rawIngredients": "サケ、白身魚、卵、ご飯・米",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。サケ、白身魚、卵、ご飯・米を使う「やる気1%でごろごろサーモンユッケ丼」のレシピです。"
   },
   {
     "title": "【吉野家風】基本の豚丼 #shorts #豚丼 #豚肉レシピ",
@@ -14918,9 +14727,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "今日何つくるの実在動画。食材候補: 豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ。「【吉野家風】基本の豚丼 #shorts #豚丼 #豚肉レシピ」のレシピです。"
+    "description": "今日何つくるの実在動画。豚肉、ご飯・米、ネギ、玉ねぎ、ショウガを使う「【吉野家風】基本の豚丼 #shorts #豚丼 #豚肉レシピ」のレシピです。"
   },
   {
     "title": "これを食べネバ夏終われない【無限オクラ】詳しいレシピはアプリで料理名を検索♪#オクラ #やみつき #塩昆布 #夏野菜 #丼 #晩御飯 #レシピ#簡単レシピ #レシピ動画 #料理動画",
@@ -14950,9 +14757,7 @@ const recipes = [
       "kombu"
     ],
     "rawIngredients": "ご飯・米、昆布",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: ご飯・米、昆布。「これを食べネバ夏終われない【無限オクラ】詳しいレシピはアプリで料理名を検索♪#オクラ #やみつき #塩昆布 #夏野菜 #丼 #晩御飯 #レシピ#簡単レシピ #レシピ動画 #料理動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。ご飯・米、昆布を使う「これを食べネバ夏終われない【無限オクラ】詳しいレシピはアプリで料理名を検索♪#オクラ #やみつき #塩昆布 #夏野菜 #丼 #晩御飯 #レシピ#簡単レシピ #レシピ動画 #料理動画」のレシピです。"
   },
   {
     "title": "無限に米が溶けるヤバいたまご料理が爆誕しました",
@@ -14970,6 +14775,7 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "卵",
       "米",
       "麺",
@@ -14986,6 +14792,7 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "pasta",
@@ -14997,10 +14804,8 @@ const recipes = [
       "butter",
       "flour"
     ],
-    "rawIngredients": "鶏肉、挽肉、卵、ご飯・米、パスタ、ネギ、ピーマン、玉ねぎ、にんにく、チーズ、バター、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、挽肉、卵、ご飯・米、パスタ、ネギ、ピーマン、玉ねぎ、にんにく、チーズ、バター、小麦粉。「無限に米が溶けるヤバいたまご料理が爆誕しました」のレシピです。"
+    "rawIngredients": "鶏肉、挽肉、白身魚、卵、ご飯・米、パスタ、ネギ、ピーマン、玉ねぎ、にんにく、チーズ、バター、小麦粉",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、挽肉、白身魚、卵、ご飯・米、パスタ、ネギ、ピーマン、玉ねぎ、にんにく、チーズ、バター、小麦粉を使う「無限に米が溶けるヤバいたまご料理が爆誕しました」のレシピです。"
   },
   {
     "title": "絶対にハマる超絶品てりたまチキン丼",
@@ -15017,6 +14822,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "根菜",
@@ -15030,15 +14836,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 鶏肉、卵、ご飯・米、にんにく、マヨネーズ。「絶対にハマる超絶品てりたまチキン丼」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、にんにく、マヨネーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。鶏肉、白身魚、卵、ご飯・米、にんにく、マヨネーズを使う「絶対にハマる超絶品てりたまチキン丼」のレシピです。"
   },
   {
     "title": "【スタミナ丼】甘辛で美味しいプロの料理人の作り方",
@@ -15075,9 +14880,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、卵、ご飯・米、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "「一品料理」マサちゃんねるの実在動画。食材候補: 豚肉、卵、ご飯・米、ネギ、ショウガ、にんにく。「【スタミナ丼】甘辛で美味しいプロの料理人の作り方」のレシピです。"
+    "description": "「一品料理」マサちゃんねるの実在動画。豚肉、卵、ご飯・米、ネギ、ショウガ、にんにくを使う「【スタミナ丼】甘辛で美味しいプロの料理人の作り方」のレシピです。"
   },
   {
     "title": "料理研究家、渾身の必殺ズボラ飯【わさびバターコンビーフ丼】",
@@ -15094,6 +14897,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -15106,14 +14910,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "rice",
       "green_onion",
       "butter"
     ],
-    "rawIngredients": "牛肉、ご飯・米、ネギ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 牛肉、ご飯・米、ネギ、バター。「料理研究家、渾身の必殺ズボラ飯【わさびバターコンビーフ丼】」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、ご飯・米、ネギ、バター",
+    "description": "料理研究家リュウジのバズレシピの実在動画。牛肉、白身魚、ご飯・米、ネギ、バターを使う「料理研究家、渾身の必殺ズボラ飯【わさびバターコンビーフ丼】」のレシピです。"
   },
   {
     "title": "【すき家】3分で誰でもカンタンに作れるとりそぼろ丼教えます【完全再現】",
@@ -15130,6 +14933,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜"
@@ -15142,14 +14946,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "プロ料理人あやの再現料理の実在動画。食材候補: 挽肉、卵、ご飯・米、ネギ。「【すき家】3分で誰でもカンタンに作れるとりそぼろ丼教えます【完全再現】」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、ネギ",
+    "description": "プロ料理人あやの再現料理の実在動画。挽肉、白身魚、卵、ご飯・米、ネギを使う「【すき家】3分で誰でもカンタンに作れるとりそぼろ丼教えます【完全再現】」のレシピです。"
   },
   {
     "title": "背徳の照りマヨサーモン丼",
@@ -15173,23 +14976,22 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "サケ、卵、ご飯・米、ネギ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: サケ、卵、ご飯・米、ネギ、にんにく、マヨネーズ。「背徳の照りマヨサーモン丼」のレシピです。"
+    "rawIngredients": "サケ、白身魚、卵、ご飯・米、ネギ、にんにく、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。サケ、白身魚、卵、ご飯・米、ネギ、にんにく、マヨネーズを使う「背徳の照りマヨサーモン丼」のレシピです。"
   },
   {
     "title": "マジでフライパンで最高にウマくて香ばしい『ケバブ』丼が食えちゃいます！【魔法のケバブライス】",
@@ -15205,6 +15007,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "葉物野菜",
       "根菜",
@@ -15217,16 +15020,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "cabbage",
       "tomato",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "ご飯・米、キャベツ、トマト、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ご飯・米、キャベツ、トマト、にんにく、マヨネーズ。「マジでフライパンで最高にウマくて香ばしい『ケバブ』丼が食えちゃいます！【魔法のケバブライス】」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、キャベツ、トマト、にんにく、マヨネーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、ご飯・米、キャベツ、トマト、にんにく、マヨネーズを使う「マジでフライパンで最高にウマくて香ばしい『ケバブ』丼が食えちゃいます！【魔法のケバブライス】」のレシピです。"
   },
   {
     "title": "お財布の味方💸【厚揚げの生姜焼き丼】詳しいレシピはアプリで料理名を検索♪ #厚揚げ #丼レシピ #丼 #節約レシピ #揚げ玉 #節約 #めんつゆ #料理動画 #レシピ動画 #簡単レシピ",
@@ -15260,9 +15062,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "厚揚げ、ご飯・米、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 厚揚げ、ご飯・米、ネギ、ショウガ。「お財布の味方💸【厚揚げの生姜焼き丼】詳しいレシピはアプリで料理名を検索♪ #厚揚げ #丼レシピ #丼 #節約レシピ #揚げ玉 #節約 #めんつゆ #料理動画 #レシピ動画 #簡単レシピ」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。厚揚げ、ご飯・米、ネギ、ショウガを使う「お財布の味方💸【厚揚げの生姜焼き丼】詳しいレシピはアプリで料理名を検索♪ #厚揚げ #丼レシピ #丼 #節約レシピ #揚げ玉 #節約 #めんつゆ #料理動画 #レシピ動画 #簡単レシピ」のレシピです。"
   },
   {
     "title": "【ホットクックで簡単！】絶対に失敗しない牛丼の作り方｜レシピ",
@@ -15290,9 +15090,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "小原正子の実在動画。食材候補: ご飯・米。「【ホットクックで簡単！】絶対に失敗しない牛丼の作り方｜レシピ」のレシピです。"
+    "description": "小原正子の実在動画。ご飯・米を使う「【ホットクックで簡単！】絶対に失敗しない牛丼の作り方｜レシピ」のレシピです。"
   },
   {
     "title": "スーパーのサーモンが合法的に100倍美味しくなる究極の漬けダレ教えます #shorts",
@@ -15317,12 +15115,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
-      "salmon"
+      "salmon",
+      "whitefish"
     ],
-    "rawIngredients": "サケ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: サケ。「スーパーのサーモンが合法的に100倍美味しくなる究極の漬けダレ教えます #shorts」のレシピです。"
+    "rawIngredients": "サケ、白身魚",
+    "description": "料理研究家リュウジのバズレシピの実在動画。サケ、白身魚を使う「スーパーのサーモンが合法的に100倍美味しくなる究極の漬けダレ教えます #shorts」のレシピです。"
   },
   {
     "title": "【一食100円】マジでこれうなぎ屋さんキレんだろ丼#shorts #リュウジ #うなぎ #うな丼 #レシピ #料理 #バズレシピ",
@@ -15350,15 +15147,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shellfish",
       "tofu",
       "rice",
       "pasta"
     ],
-    "rawIngredients": "貝、豆腐、ご飯・米、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 貝、豆腐、ご飯・米、パスタ。「【一食100円】マジでこれうなぎ屋さんキレんだろ丼#shorts #リュウジ #うなぎ #うな丼 #レシピ #料理 #バズレシピ」のレシピです。"
+    "rawIngredients": "白身魚、貝、豆腐、ご飯・米、パスタ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、貝、豆腐、ご飯・米、パスタを使う「【一食100円】マジでこれうなぎ屋さんキレんだろ丼#shorts #リュウジ #うなぎ #うな丼 #レシピ #料理 #バズレシピ」のレシピです。"
   },
   {
     "title": "ラーメンショップ再現『ネギ丼』作り方。【レシピ】【おうち麺】【飯テロ】",
@@ -15375,6 +15171,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "麺",
       "葉物野菜",
@@ -15382,23 +15179,22 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "rice",
       "ramen",
       "green_onion",
       "ginger",
       "cheese"
     ],
-    "rawIngredients": "ベーコン、ご飯・米、ラーメン、ネギ、ショウガ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "休日おうち外食の実在動画。食材候補: ベーコン、ご飯・米、ラーメン、ネギ、ショウガ、チーズ。「ラーメンショップ再現『ネギ丼』作り方。【レシピ】【おうち麺】【飯テロ】」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、ご飯・米、ラーメン、ネギ、ショウガ、チーズ",
+    "description": "休日おうち外食の実在動画。ベーコン、白身魚、ご飯・米、ラーメン、ネギ、ショウガ、チーズを使う「ラーメンショップ再現『ネギ丼』作り方。【レシピ】【おうち麺】【飯テロ】」のレシピです。"
   },
   {
     "title": "【ウインナー丼】焼肉屋が作る禁断のレシピがうますぎる #shorts",
@@ -15426,9 +15222,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ホルモンしま田の実在動画。食材候補: ご飯・米。「【ウインナー丼】焼肉屋が作る禁断のレシピがうますぎる #shorts」のレシピです。"
+    "description": "ホルモンしま田の実在動画。ご飯・米を使う「【ウインナー丼】焼肉屋が作る禁断のレシピがうますぎる #shorts」のレシピです。"
   },
   {
     "title": "【完全再現】吉野家潰す気か牛丼",
@@ -15446,6 +15240,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "米",
       "麺",
       "葉物野菜",
@@ -15460,6 +15255,7 @@ const recipes = [
     "detailedIngredients": [
       "beef",
       "chicken",
+      "whitefish",
       "rice",
       "pasta",
       "green_onion",
@@ -15468,10 +15264,8 @@ const recipes = [
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "牛肉、鶏肉、ご飯・米、パスタ、ネギ、玉ねぎ、昆布、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 牛肉、鶏肉、ご飯・米、パスタ、ネギ、玉ねぎ、昆布、ショウガ、にんにく。「【完全再現】吉野家潰す気か牛丼」のレシピです。"
+    "rawIngredients": "牛肉、鶏肉、白身魚、ご飯・米、パスタ、ネギ、玉ねぎ、昆布、ショウガ、にんにく",
+    "description": "料理研究家リュウジのバズレシピの実在動画。牛肉、鶏肉、白身魚、ご飯・米、パスタ、ネギ、玉ねぎ、昆布、ショウガ、にんにくを使う「【完全再現】吉野家潰す気か牛丼」のレシピです。"
   },
   {
     "title": "吉野家の牛丼完全再現への道",
@@ -15501,9 +15295,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "すいじば SUIJIBAの実在動画。食材候補: 卵、ご飯・米。「吉野家の牛丼完全再現への道」のレシピです。"
+    "description": "すいじば SUIJIBAの実在動画。卵、ご飯・米を使う「吉野家の牛丼完全再現への道」のレシピです。"
   },
   {
     "title": "究極のワンパンレシピ！目玉焼きチーズミンチ",
@@ -15520,6 +15312,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -15532,14 +15325,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "挽肉、卵、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 挽肉、卵、にんにく、チーズ。「究極のワンパンレシピ！目玉焼きチーズミンチ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、にんにく、チーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。挽肉、白身魚、卵、にんにく、チーズを使う「究極のワンパンレシピ！目玉焼きチーズミンチ」のレシピです。"
   },
   {
     "title": "給食で大人気のもずく丼ってどんな味？",
@@ -15556,6 +15348,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -15569,6 +15362,7 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "minced_meat",
+      "whitefish",
       "rice",
       "green_onion",
       "bell_pepper",
@@ -15577,10 +15371,8 @@ const recipes = [
       "corn",
       "ginger"
     ],
-    "rawIngredients": "豚肉、挽肉、ご飯・米、ネギ、ピーマン、玉ねぎ、にんじん、コーン缶、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: 豚肉、挽肉、ご飯・米、ネギ、ピーマン、玉ねぎ、にんじん、コーン缶、ショウガ。「給食で大人気のもずく丼ってどんな味？」のレシピです。"
+    "rawIngredients": "豚肉、挽肉、白身魚、ご飯・米、ネギ、ピーマン、玉ねぎ、にんじん、コーン缶、ショウガ",
+    "description": "あおいの給食室🔪の実在動画。豚肉、挽肉、白身魚、ご飯・米、ネギ、ピーマン、玉ねぎ、にんじん、コーン缶、ショウガを使う「給食で大人気のもずく丼ってどんな味？」のレシピです。"
   },
   {
     "title": "【ご飯に合いすぎるｗｗ】すた丼を再現してみた！",
@@ -15608,9 +15400,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "おっくんの宅飲みグルメの実在動画。食材候補: ご飯・米。「【ご飯に合いすぎるｗｗ】すた丼を再現してみた！」のレシピです。"
+    "description": "おっくんの宅飲みグルメの実在動画。ご飯・米を使う「【ご飯に合いすぎるｗｗ】すた丼を再現してみた！」のレシピです。"
   },
   {
     "title": "【男飯】本当に美味しいマルチョウのシロコロホルモン丼の作り方",
@@ -15642,9 +15432,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、ご飯・米、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かっつ飯TV【居酒屋料理専門チャンネル】の実在動画。食材候補: 卵、ご飯・米、にんにく。「【男飯】本当に美味しいマルチョウのシロコロホルモン丼の作り方」のレシピです。"
+    "description": "かっつ飯TV【居酒屋料理専門チャンネル】の実在動画。卵、ご飯・米、にんにくを使う「【男飯】本当に美味しいマルチョウのシロコロホルモン丼の作り方」のレシピです。"
   },
   {
     "title": "懐かしの給食！ビビンバの作り方",
@@ -15661,27 +15449,27 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "pork",
       "minced_meat",
+      "whitefish",
       "spinach",
       "bean_sprouts",
       "carrot",
       "garlic"
     ],
-    "rawIngredients": "豚肉、挽肉、ほうれん草、もやし、にんじん、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: 豚肉、挽肉、ほうれん草、もやし、にんじん、にんにく。「懐かしの給食！ビビンバの作り方」のレシピです。"
+    "rawIngredients": "豚肉、挽肉、白身魚、ほうれん草、もやし、にんじん、にんにく",
+    "description": "あおいの給食室🔪の実在動画。豚肉、挽肉、白身魚、ほうれん草、もやし、にんじん、にんにくを使う「懐かしの給食！ビビンバの作り方」のレシピです。"
   },
   {
     "title": "【悪魔のチーズメルトソーセージ丼】",
@@ -15697,6 +15485,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -15708,15 +15497,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "garlic",
       "cheese",
       "butter"
     ],
-    "rawIngredients": "ご飯・米、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ご飯・米、にんにく、チーズ、バター。「【悪魔のチーズメルトソーセージ丼】」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、にんにく、チーズ、バター",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、ご飯・米、にんにく、チーズ、バターを使う「【悪魔のチーズメルトソーセージ丼】」のレシピです。"
   },
   {
     "title": "やみつき納豆ごはんの作り方【ミツカン公式】",
@@ -15746,9 +15534,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "卵、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ミツカン公式チャンネルの実在動画。食材候補: 卵、ネギ。「やみつき納豆ごはんの作り方【ミツカン公式】」のレシピです。"
+    "description": "ミツカン公式チャンネルの実在動画。卵、ネギを使う「やみつき納豆ごはんの作り方【ミツカン公式】」のレシピです。"
   },
   {
     "title": "とまらない味わい！最強ガーリックバター豚丼",
@@ -15765,6 +15551,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "根菜",
@@ -15778,15 +15565,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "rice",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "豚肉、卵、ご飯・米、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、卵、ご飯・米、にんにく、バター。「とまらない味わい！最強ガーリックバター豚丼」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ご飯・米、にんにく、バター",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、卵、ご飯・米、にんにく、バターを使う「とまらない味わい！最強ガーリックバター豚丼」のレシピです。"
   },
   {
     "title": "スーパーの値引きされたトンカツで絶品ズボラカツ丼",
@@ -15802,6 +15588,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -15814,15 +15601,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、ご飯・米、ネギ、玉ねぎ。「スーパーの値引きされたトンカツで絶品ズボラカツ丼」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「スーパーの値引きされたトンカツで絶品ズボラカツ丼」のレシピです。"
   },
   {
     "title": "㊗️150万再生 10分で作れて旨すぎる牛丼",
@@ -15850,9 +15636,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "家政夫ミツキの10分作りおきの実在動画。食材候補: ご飯・米。「㊗️150万再生 10分で作れて旨すぎる牛丼」のレシピです。"
+    "description": "家政夫ミツキの10分作りおきの実在動画。ご飯・米を使う「㊗️150万再生 10分で作れて旨すぎる牛丼」のレシピです。"
   },
   {
     "title": "煮込んだ分だけ美味すぎる豚こましぐれ煮丼",
@@ -15869,6 +15653,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -15881,15 +15666,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion",
       "onion",
       "ginger"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ。「煮込んだ分だけ美味すぎる豚こましぐれ煮丼」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ、玉ねぎ、ショウガ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、ご飯・米、ネギ、玉ねぎ、ショウガを使う「煮込んだ分だけ美味すぎる豚こましぐれ煮丼」のレシピです。"
   },
   {
     "title": "背徳のチーズソーセージタッカルビ丼",
@@ -15905,6 +15689,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -15916,14 +15701,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "ご飯・米、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ご飯・米、にんにく、チーズ。「背徳のチーズソーセージタッカルビ丼」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、にんにく、チーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、ご飯・米、にんにく、チーズを使う「背徳のチーズソーセージタッカルビ丼」のレシピです。"
   },
   {
     "title": "ウィンナーと卵さえあればできる最強に旨いウィンナー丼",
@@ -15957,9 +15741,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "卵、ご飯・米、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、ご飯・米、にんにく、バター。「ウィンナーと卵さえあればできる最強に旨いウィンナー丼」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、ご飯・米、にんにく、バターを使う「ウィンナーと卵さえあればできる最強に旨いウィンナー丼」のレシピです。"
   },
   {
     "title": "1番美味しい親子丼の作り方はこれ！🐥 #簡単レシピ #料理 #cooking",
@@ -15987,9 +15769,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: ご飯・米。「1番美味しい親子丼の作り方はこれ！🐥 #簡単レシピ #料理 #cooking」のレシピです。"
+    "description": "Hideka cookingの実在動画。ご飯・米を使う「1番美味しい親子丼の作り方はこれ！🐥 #簡単レシピ #料理 #cooking」のレシピです。"
   },
   {
     "title": "【ネギトロ】もう市販品に戻れない！サクから作るふわふわネギトロ丼！",
@@ -16019,9 +15799,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オリーブオイルをひとまわし / オリひとの実在動画。食材候補: ご飯・米、ネギ。「【ネギトロ】もう市販品に戻れない！サクから作るふわふわネギトロ丼！」のレシピです。"
+    "description": "オリーブオイルをひとまわし / オリひとの実在動画。ご飯・米、ネギを使う「【ネギトロ】もう市販品に戻れない！サクから作るふわふわネギトロ丼！」のレシピです。"
   },
   {
     "title": "食材は卵だけ。3分で絶望してしまうほどウマい『究極のたまご丼』の作り方",
@@ -16054,9 +15832,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、ご飯・米、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、ご飯・米、バター、マヨネーズ。「食材は卵だけ。3分で絶望してしまうほどウマい『究極のたまご丼』の作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、ご飯・米、バター、マヨネーズを使う「食材は卵だけ。3分で絶望してしまうほどウマい『究極のたまご丼』の作り方」のレシピです。"
   },
   {
     "title": "なす味噌丼🧑🏻‍🍳🍆#簡単レシピ #給食 #茄子 #丼 #幼児食 #shorts",
@@ -16073,6 +15849,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -16085,15 +15862,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "rice",
       "eggplant",
       "bell_pepper",
       "ginger"
     ],
-    "rawIngredients": "挽肉、ご飯・米、なす、ピーマン、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "給食の先生ゆりままの実在動画。食材候補: 挽肉、ご飯・米、なす、ピーマン、ショウガ。「なす味噌丼🧑🏻‍🍳🍆#簡単レシピ #給食 #茄子 #丼 #幼児食 #shorts」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、ご飯・米、なす、ピーマン、ショウガ",
+    "description": "給食の先生ゆりままの実在動画。挽肉、白身魚、ご飯・米、なす、ピーマン、ショウガを使う「なす味噌丼🧑🏻‍🍳🍆#簡単レシピ #給食 #茄子 #丼 #幼児食 #shorts」のレシピです。"
   },
   {
     "title": "プロのアドバイス満載！絶品中華丼レシピ｜クラシル #shorts",
@@ -16121,9 +15897,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: ご飯・米。「プロのアドバイス満載！絶品中華丼レシピ｜クラシル #shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。ご飯・米を使う「プロのアドバイス満載！絶品中華丼レシピ｜クラシル #shorts」のレシピです。"
   },
   {
     "title": "Pork Bowl 甘辛豚丼の作り方 #pork #豚丼 #shorts",
@@ -16141,6 +15915,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -16155,16 +15930,15 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion",
       "ginger"
     ],
-    "rawIngredients": "豚肉、鶏肉、卵、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、鶏肉、卵、ご飯・米、ネギ、玉ねぎ、ショウガ。「Pork Bowl 甘辛豚丼の作り方 #pork #豚丼 #shorts」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、ショウガ",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。豚肉、鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、ショウガを使う「Pork Bowl 甘辛豚丼の作り方 #pork #豚丼 #shorts」のレシピです。"
   },
   {
     "title": "かつ丼 卵とじ 専用鍋不要フライパンでOK コツをしっかり説明簡単レシピ カツ丼の作り方",
@@ -16181,6 +15955,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -16194,15 +15969,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "豚肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "みんなのごはん堂の実在動画。食材候補: 豚肉、卵、ご飯・米、ネギ、玉ねぎ。「かつ丼 卵とじ 専用鍋不要フライパンでOK コツをしっかり説明簡単レシピ カツ丼の作り方」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "みんなのごはん堂の実在動画。豚肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「かつ丼 卵とじ 専用鍋不要フライパンでOK コツをしっかり説明簡単レシピ カツ丼の作り方」のレシピです。"
   },
   {
     "title": "【200万回再生人気レシピ】材料3つでお店の味に！牛肉がトロットロやわらか！超王道牛丼の作り方",
@@ -16238,9 +16012,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "牛肉、ご飯・米、ネギ、レタス、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 牛肉、ご飯・米、ネギ、レタス、玉ねぎ、ショウガ。「【200万回再生人気レシピ】材料3つでお店の味に！牛肉がトロットロやわらか！超王道牛丼の作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。牛肉、ご飯・米、ネギ、レタス、玉ねぎ、ショウガを使う「【200万回再生人気レシピ】材料3つでお店の味に！牛肉がトロットロやわらか！超王道牛丼の作り方」のレシピです。"
   },
   {
     "title": "卵は3つをのっけ丼",
@@ -16270,9 +16042,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: 卵、ご飯・米。「卵は3つをのっけ丼」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。卵、ご飯・米を使う「卵は3つをのっけ丼」のレシピです。"
   },
   {
     "title": "究極のたまご丼はこれ",
@@ -16302,9 +16072,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: 卵、ご飯・米。「究極のたまご丼はこれ」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。卵、ご飯・米を使う「究極のたまご丼はこれ」のレシピです。"
   },
   {
     "title": "飯テロにも程がある🤤「夢中豚バラ」詳しいレシピは概要欄でチェック！ #豚バラ #豚バラ 豚バラレシピ #豚肉",
@@ -16321,6 +16089,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -16332,13 +16101,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、ネギ、にんにく。「飯テロにも程がある🤤「夢中豚バラ」詳しいレシピは概要欄でチェック！ #豚バラ #豚バラ 豚バラレシピ #豚肉」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ネギ、にんにく",
+    "description": "デリッシュキッチンの実在動画。豚肉、白身魚、ネギ、にんにくを使う「飯テロにも程がある🤤「夢中豚バラ」詳しいレシピは概要欄でチェック！ #豚バラ #豚バラ 豚バラレシピ #豚肉」のレシピです。"
   },
   {
     "title": "簡単玉子丼の作り方！",
@@ -16354,6 +16122,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -16366,16 +16135,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "nira",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "卵、ご飯・米、にら、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんますクッキングの実在動画。食材候補: 卵、ご飯・米、にら、ネギ、玉ねぎ。「簡単玉子丼の作り方！」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、にら、ネギ、玉ねぎ",
+    "description": "けんますクッキングの実在動画。白身魚、卵、ご飯・米、にら、ネギ、玉ねぎを使う「簡単玉子丼の作り方！」のレシピです。"
   },
   {
     "title": "悪魔のてりたまソーセージ丼",
@@ -16391,6 +16159,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "チーズ・バター・マヨ系"
@@ -16402,14 +16171,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、ご飯・米、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、ご飯・米、マヨネーズ。「悪魔のてりたまソーセージ丼」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、ご飯・米、マヨネーズを使う「悪魔のてりたまソーセージ丼」のレシピです。"
   },
   {
     "title": "フライパン一発で3色そぼろ丼🍚✨ #簡単レシピ #胃袋泥棒レシピ",
@@ -16437,9 +16205,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: ご飯・米。「フライパン一発で3色そぼろ丼🍚✨ #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。ご飯・米を使う「フライパン一発で3色そぼろ丼🍚✨ #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "【胃袋を掴む】ふわとろ親子丼 #おうちごはん #簡単レシピ",
@@ -16467,9 +16233,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: ご飯・米。「【胃袋を掴む】ふわとろ親子丼 #おうちごはん #簡単レシピ」のレシピです。"
+    "description": "Hideka cookingの実在動画。ご飯・米を使う「【胃袋を掴む】ふわとろ親子丼 #おうちごはん #簡単レシピ」のレシピです。"
   },
   {
     "title": "卵とチーズで作るヤバすぎる玉子丼#卵 #簡単レシピ #丼",
@@ -16501,9 +16265,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "卵、ご飯・米、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、ご飯・米、チーズ。「卵とチーズで作るヤバすぎる玉子丼#卵 #簡単レシピ #丼」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、ご飯・米、チーズを使う「卵とチーズで作るヤバすぎる玉子丼#卵 #簡単レシピ #丼」のレシピです。"
   },
   {
     "title": "【究極のユッケだれTKG】",
@@ -16531,9 +16293,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵。「【究極のユッケだれTKG】」のレシピです。"
+    "description": "まるみキッチン【簡単レシピ】の実在動画。卵を使う「【究極のユッケだれTKG】」のレシピです。"
   },
   {
     "title": "牛丼の作り方｜おうちで簡単にお店の味！ちょっと一手間で激ウマに仕上がる絶品牛丼レシピ！旨味たっぷりで最後の一口まで大満足！-How to make【料理研究家ゆかり】",
@@ -16550,6 +16310,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -16564,6 +16325,7 @@ const recipes = [
     "detailedIngredients": [
       "beef",
       "pork",
+      "whitefish",
       "egg",
       "rice",
       "napa_cabbage",
@@ -16571,10 +16333,8 @@ const recipes = [
       "onion",
       "ginger"
     ],
-    "rawIngredients": "牛肉、豚肉、卵、ご飯・米、napa_cabbage、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 牛肉、豚肉、卵、ご飯・米、napa_cabbage、ネギ、玉ねぎ、ショウガ。「牛丼の作り方｜おうちで簡単にお店の味！ちょっと一手間で激ウマに仕上がる絶品牛丼レシピ！旨味たっぷりで最後の一口まで大満足！-How to make【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "牛肉、豚肉、白身魚、卵、ご飯・米、napa_cabbage、ネギ、玉ねぎ、ショウガ",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。牛肉、豚肉、白身魚、卵、ご飯・米、napa_cabbage、ネギ、玉ねぎ、ショウガを使う「牛丼の作り方｜おうちで簡単にお店の味！ちょっと一手間で激ウマに仕上がる絶品牛丼レシピ！旨味たっぷりで最後の一口まで大満足！-How to make【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "洗い物も少ないし、生焼けの心配もない「食べたらハンバーグ丼」 詳しいレシピは概要欄をチェック！ #ハンバーグ #丼レシピ #昼ごはん",
@@ -16590,6 +16350,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -16602,15 +16363,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 卵、ご飯・米、ネギ、玉ねぎ。「洗い物も少ないし、生焼けの心配もない「食べたらハンバーグ丼」 詳しいレシピは概要欄をチェック！ #ハンバーグ #丼レシピ #昼ごはん」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "デリッシュキッチンの実在動画。白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「洗い物も少ないし、生焼けの心配もない「食べたらハンバーグ丼」 詳しいレシピは概要欄をチェック！ #ハンバーグ #丼レシピ #昼ごはん」のレシピです。"
   },
   {
     "title": "【㊗️500万回再生‼️】【牛丼ってここまで変わる？荏原シェフの技で普通の肉でもプロの味に】｜#クラシル #shorts",
@@ -16642,9 +16402,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: ご飯・米、ネギ、玉ねぎ。「【㊗️500万回再生‼️】【牛丼ってここまで変わる？荏原シェフの技で普通の肉でもプロの味に】｜#クラシル #shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。ご飯・米、ネギ、玉ねぎを使う「【㊗️500万回再生‼️】【牛丼ってここまで変わる？荏原シェフの技で普通の肉でもプロの味に】｜#クラシル #shorts」のレシピです。"
   },
   {
     "title": "子供ウケ抜群【だしあん卵丼】🍳 #たまごレシピ #たまご料理 #卵レシピ #卵料理 #丼レシピ",
@@ -16660,6 +16418,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜"
@@ -16671,14 +16430,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "える パパッと作れるパパ飯の実在動画。食材候補: 卵、ご飯・米、ネギ。「子供ウケ抜群【だしあん卵丼】🍳 #たまごレシピ #たまご料理 #卵レシピ #卵料理 #丼レシピ」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ",
+    "description": "える パパッと作れるパパ飯の実在動画。白身魚、卵、ご飯・米、ネギを使う「子供ウケ抜群【だしあん卵丼】🍳 #たまごレシピ #たまご料理 #卵レシピ #卵料理 #丼レシピ」のレシピです。"
   },
   {
     "title": "うちの三姉妹で取り合いになった絶品ロコモコ丼",
@@ -16695,6 +16453,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -16708,15 +16467,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "lettuce",
       "cheese"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、レタス、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 挽肉、卵、ご飯・米、レタス、チーズ。「うちの三姉妹で取り合いになった絶品ロコモコ丼」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、レタス、チーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。挽肉、白身魚、卵、ご飯・米、レタス、チーズを使う「うちの三姉妹で取り合いになった絶品ロコモコ丼」のレシピです。"
   },
   {
     "title": "子供が大好きな給食の豚キムチ丼を作ってみた！",
@@ -16733,6 +16491,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -16745,6 +16504,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "cabbage",
       "nira",
@@ -16753,10 +16513,8 @@ const recipes = [
       "carrot",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ご飯・米、キャベツ、にら、ネギ、玉ねぎ、にんじん、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: 豚肉、ご飯・米、キャベツ、にら、ネギ、玉ねぎ、にんじん、にんにく。「子供が大好きな給食の豚キムチ丼を作ってみた！」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、キャベツ、にら、ネギ、玉ねぎ、にんじん、にんにく",
+    "description": "あおいの給食室🔪の実在動画。豚肉、白身魚、ご飯・米、キャベツ、にら、ネギ、玉ねぎ、にんじん、にんにくを使う「子供が大好きな給食の豚キムチ丼を作ってみた！」のレシピです。"
   },
   {
     "title": "簡単すぎ・・・え、今から作ろうかな【ポン酢豚丼】#どんぶり#丼 #豚肉 #豚こま肉 #玉ねぎ #ポン酢 #簡単レシピ #レシピ動画",
@@ -16791,9 +16549,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ。「簡単すぎ・・・え、今から作ろうかな【ポン酢豚丼】#どんぶり#丼 #豚肉 #豚こま肉 #玉ねぎ #ポン酢 #簡単レシピ #レシピ動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、ご飯・米、ネギ、玉ねぎ、ショウガを使う「簡単すぎ・・・え、今から作ろうかな【ポン酢豚丼】#どんぶり#丼 #豚肉 #豚こま肉 #玉ねぎ #ポン酢 #簡単レシピ #レシピ動画」のレシピです。"
   },
   {
     "title": "胃袋掴む！鶏の照りたま丼【ふわとろ半熟卵と照り焼きチキン】",
@@ -16825,9 +16581,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "鶏肉、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "chii【ちはる姉さん】らくチン美味いごはんとおやつ🥣の実在動画。食材候補: 鶏肉、卵、ご飯・米。「胃袋掴む！鶏の照りたま丼【ふわとろ半熟卵と照り焼きチキン】」のレシピです。"
+    "description": "chii【ちはる姉さん】らくチン美味いごはんとおやつ🥣の実在動画。鶏肉、卵、ご飯・米を使う「胃袋掴む！鶏の照りたま丼【ふわとろ半熟卵と照り焼きチキン】」のレシピです。"
   },
   {
     "title": "今度から親子丼これでもいいかも【とろとろ親子丼】詳しいレシピは概要欄をチェック！#親子丼 #ひき肉 #鶏肉 #昼ごはん #ワンパン #晩ごはん#簡単レシピ #レシピ動画 #料理動画",
@@ -16845,29 +16599,29 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "chicken",
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "ginger"
     ],
-    "rawIngredients": "鶏肉、挽肉、卵、ご飯・米、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、挽肉、卵、ご飯・米、ネギ、ショウガ。「今度から親子丼これでもいいかも【とろとろ親子丼】詳しいレシピは概要欄をチェック！#親子丼 #ひき肉 #鶏肉 #昼ごはん #ワンパン #晩ごはん#簡単レシピ #レシピ動画 #料理動画」のレシピです。"
+    "rawIngredients": "鶏肉、挽肉、白身魚、卵、ご飯・米、ネギ、ショウガ",
+    "description": "デリッシュキッチンの実在動画。鶏肉、挽肉、白身魚、卵、ご飯・米、ネギ、ショウガを使う「今度から親子丼これでもいいかも【とろとろ親子丼】詳しいレシピは概要欄をチェック！#親子丼 #ひき肉 #鶏肉 #昼ごはん #ワンパン #晩ごはん#簡単レシピ #レシピ動画 #料理動画」のレシピです。"
   },
   {
     "title": "究極の親子丼の作り方☆卵が半熟とろとろ濃厚！お肉も柔らかジューシー！おうちでも簡単にお店のように美味しく作るコツをご紹介します♪-How to make Oyakodon-【料理研究家ゆかり】",
@@ -16884,6 +16638,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜"
@@ -16896,15 +16651,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "eggplant"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、なす。「究極の親子丼の作り方☆卵が半熟とろとろ濃厚！お肉も柔らかジューシー！おうちでも簡単にお店のように美味しく作るコツをご紹介します♪-How to make Oyakodon-【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、なす",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、なすを使う「究極の親子丼の作り方☆卵が半熟とろとろ濃厚！お肉も柔らかジューシー！おうちでも簡単にお店のように美味しく作るコツをご紹介します♪-How to make Oyakodon-【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "焼肉屋超え🍳豚バラネギ塩丼",
@@ -16921,6 +16675,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -16933,14 +16688,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆっこ⌇調理師ママのラクうまごはんの実在動画。食材候補: 豚肉、ご飯・米、ネギ、にんにく。「焼肉屋超え🍳豚バラネギ塩丼」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ、にんにく",
+    "description": "ゆっこ⌇調理師ママのラクうまごはんの実在動画。豚肉、白身魚、ご飯・米、ネギ、にんにくを使う「焼肉屋超え🍳豚バラネギ塩丼」のレシピです。"
   },
   {
     "title": "ご飯泥棒！ささみユッケ風丼が美味しすぎた🤤🍚 #簡単レシピ #自炊",
@@ -16970,9 +16724,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "鶏肉、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: 鶏肉、ご飯・米。「ご飯泥棒！ささみユッケ風丼が美味しすぎた🤤🍚 #簡単レシピ #自炊」のレシピです。"
+    "description": "Hideka cookingの実在動画。鶏肉、ご飯・米を使う「ご飯泥棒！ささみユッケ風丼が美味しすぎた🤤🍚 #簡単レシピ #自炊」のレシピです。"
   },
   {
     "title": "ちくわで最高に旨すぎる丼作れます",
@@ -17002,9 +16754,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "ご飯・米、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: ご飯・米、バター。「ちくわで最高に旨すぎる丼作れます」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。ご飯・米、バターを使う「ちくわで最高に旨すぎる丼作れます」のレシピです。"
   },
   {
     "title": "【野永シェフの特製・他人丼レシピ】｜#クラシル #shorts",
@@ -17032,9 +16782,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: ご飯・米。「【野永シェフの特製・他人丼レシピ】｜#クラシル #shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。ご飯・米を使う「【野永シェフの特製・他人丼レシピ】｜#クラシル #shorts」のレシピです。"
   },
   {
     "title": "某有名チェーン店の牛丼を再現してみた【笠野家の牛丼】",
@@ -17051,6 +16799,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -17064,6 +16813,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
@@ -17071,10 +16821,8 @@ const recipes = [
       "kombu",
       "ginger"
     ],
-    "rawIngredients": "牛肉、卵、ご飯・米、ネギ、玉ねぎ、昆布、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: 牛肉、卵、ご飯・米、ネギ、玉ねぎ、昆布、ショウガ。「某有名チェーン店の牛丼を再現してみた【笠野家の牛丼】」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、昆布、ショウガ",
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。牛肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、昆布、ショウガを使う「某有名チェーン店の牛丼を再現してみた【笠野家の牛丼】」のレシピです。"
   },
   {
     "title": "牛と卵の他人丼《牛とじ丼》#shorts #簡単レシピ",
@@ -17104,9 +16852,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "はらぺ子のママの実在動画。食材候補: 卵、ご飯・米。「牛と卵の他人丼《牛とじ丼》#shorts #簡単レシピ」のレシピです。"
+    "description": "はらぺ子のママの実在動画。卵、ご飯・米を使う「牛と卵の他人丼《牛とじ丼》#shorts #簡単レシピ」のレシピです。"
   },
   {
     "title": "『技術は不要』ちょっとずつ余った野菜達こそ最高の食材です。家庭で作る中華丼の作り方",
@@ -17148,9 +16894,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、卵、ご飯・米、napa_cabbage、小松菜、ネギ、玉ねぎ、にんじん、しめじ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "食事処さくらの料理教室の実在動画。食材候補: 豚肉、卵、ご飯・米、napa_cabbage、小松菜、ネギ、玉ねぎ、にんじん、しめじ、ショウガ。「『技術は不要』ちょっとずつ余った野菜達こそ最高の食材です。家庭で作る中華丼の作り方」のレシピです。"
+    "description": "食事処さくらの料理教室の実在動画。豚肉、卵、ご飯・米、napa_cabbage、小松菜、ネギ、玉ねぎ、にんじん、しめじ、ショウガを使う「『技術は不要』ちょっとずつ余った野菜達こそ最高の食材です。家庭で作る中華丼の作り方」のレシピです。"
   },
   {
     "title": "料理人歴23年、今までこの作り方知らなかったのが悔しいです",
@@ -17182,9 +16926,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豆腐、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "飲食店独立学校 /こうせい校長の実在動画。食材候補: 豆腐、ネギ、ショウガ。「料理人歴23年、今までこの作り方知らなかったのが悔しいです」のレシピです。"
+    "description": "飲食店独立学校 /こうせい校長の実在動画。豆腐、ネギ、ショウガを使う「料理人歴23年、今までこの作り方知らなかったのが悔しいです」のレシピです。"
   },
   {
     "title": "鶏肉なしでこの美味しさ!【玉ねぎと卵だけ!のたまご丼】の作り方/王道の甘じょっばい味がいい♪",
@@ -17201,6 +16943,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -17214,15 +16957,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "つぶあんの簡単ゆったりクッキングの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ。「鶏肉なしでこの美味しさ!【玉ねぎと卵だけ!のたまご丼】の作り方/王道の甘じょっばい味がいい♪」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "つぶあんの簡単ゆったりクッキングの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「鶏肉なしでこの美味しさ!【玉ねぎと卵だけ!のたまご丼】の作り方/王道の甘じょっばい味がいい♪」のレシピです。"
   },
   {
     "title": "答えは0:07秒あたりを見てね【卵だけあんかけ丼】丁寧に工程を見たい人はアプリで検索♪#卵 #たまご #丼 #丼飯 #あんかけ #中華料理 #天津飯 #簡単レシピ #レシピ動画 #料理動画",
@@ -17258,9 +17000,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、ご飯・米、ネギ、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 卵、ご飯・米、ネギ、ショウガ、マヨネーズ。「答えは0:07秒あたりを見てね【卵だけあんかけ丼】丁寧に工程を見たい人はアプリで検索♪#卵 #たまご #丼 #丼飯 #あんかけ #中華料理 #天津飯 #簡単レシピ #レシピ動画 #料理動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。卵、ご飯・米、ネギ、ショウガ、マヨネーズを使う「答えは0:07秒あたりを見てね【卵だけあんかけ丼】丁寧に工程を見たい人はアプリで検索♪#卵 #たまご #丼 #丼飯 #あんかけ #中華料理 #天津飯 #簡単レシピ #レシピ動画 #料理動画」のレシピです。"
   },
   {
     "title": "【ルウ1個で1人前】どんぶり革命！カレー親子丼が旨すぎる！",
@@ -17277,6 +17017,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -17290,15 +17031,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "めしコイズミの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ。「【ルウ1個で1人前】どんぶり革命！カレー親子丼が旨すぎる！」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "めしコイズミの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「【ルウ1個で1人前】どんぶり革命！カレー親子丼が旨すぎる！」のレシピです。"
   },
   {
     "title": "全人類好きな味✨ネギ塩豚丼🍚♡（レシピはコメント欄に🫶）",
@@ -17328,9 +17068,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆい▷愛する旦那さんに褒められごはんの実在動画。食材候補: ご飯・米、ネギ。「全人類好きな味✨ネギ塩豚丼🍚♡（レシピはコメント欄に🫶）」のレシピです。"
+    "description": "ゆい▷愛する旦那さんに褒められごはんの実在動画。ご飯・米、ネギを使う「全人類好きな味✨ネギ塩豚丼🍚♡（レシピはコメント欄に🫶）」のレシピです。"
   },
   {
     "title": "【再現！】「すた丼」お店調理のポイントをご家庭で再現する作り方 #shorts",
@@ -17366,9 +17104,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、卵、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ねこくら料理チャンネル ～猫と暮らしたい～の実在動画。食材候補: 豚肉、卵、ご飯・米、ネギ、にんにく。「【再現！】「すた丼」お店調理のポイントをご家庭で再現する作り方 #shorts」のレシピです。"
+    "description": "ねこくら料理チャンネル ～猫と暮らしたい～の実在動画。豚肉、卵、ご飯・米、ネギ、にんにくを使う「【再現！】「すた丼」お店調理のポイントをご家庭で再現する作り方 #shorts」のレシピです。"
   },
   {
     "title": "【うなぎよりウマい】なすの蒲焼き丼 #レシピ動画 #簡単レシピ #なす #なすレシピ #うなぎ #丼",
@@ -17401,9 +17137,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "ご飯・米、なす、ショウガ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ガンガンの料理塾の実在動画。食材候補: ご飯・米、なす、ショウガ、小麦粉。「【うなぎよりウマい】なすの蒲焼き丼 #レシピ動画 #簡単レシピ #なす #なすレシピ #うなぎ #丼」のレシピです。"
+    "description": "ガンガンの料理塾の実在動画。ご飯・米、なす、ショウガ、小麦粉を使う「【うなぎよりウマい】なすの蒲焼き丼 #レシピ動画 #簡単レシピ #なす #なすレシピ #うなぎ #丼」のレシピです。"
   },
   {
     "title": "【サーモンとアボカドで究極のポキ丼】",
@@ -17432,14 +17166,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "egg",
       "rice",
       "garlic"
     ],
-    "rawIngredients": "サケ、卵、ご飯・米、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: サケ、卵、ご飯・米、にんにく。「【サーモンとアボカドで究極のポキ丼】」のレシピです。"
+    "rawIngredients": "サケ、白身魚、卵、ご飯・米、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。サケ、白身魚、卵、ご飯・米、にんにくを使う「【サーモンとアボカドで究極のポキ丼】」のレシピです。"
   },
   {
     "title": "家庭で本場の味を再現！笠原流【豚丼】の作り方",
@@ -17456,29 +17189,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "麺",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "rice_noodles",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ビーフン・フォー、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: 豚肉、ご飯・米、ビーフン・フォー、ネギ、ショウガ、にんにく。「家庭で本場の味を再現！笠原流【豚丼】の作り方」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ビーフン・フォー、ネギ、ショウガ、にんにく",
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。豚肉、白身魚、ご飯・米、ビーフン・フォー、ネギ、ショウガ、にんにくを使う「家庭で本場の味を再現！笠原流【豚丼】の作り方」のレシピです。"
   },
   {
     "title": "【みんな大好き】板前が教える、親子丼の作り方！※分量はコメント欄に！#shorts",
@@ -17514,9 +17247,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "板前山ちゃんの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ。「【みんな大好き】板前が教える、親子丼の作り方！※分量はコメント欄に！#shorts」のレシピです。"
+    "description": "板前山ちゃんの実在動画。鶏肉、卵、ご飯・米、ネギ、玉ねぎを使う「【みんな大好き】板前が教える、親子丼の作り方！※分量はコメント欄に！#shorts」のレシピです。"
   },
   {
     "title": "作ってみて！海鮮丼 #shorts",
@@ -17544,9 +17275,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんた食堂の実在動画。食材候補: ご飯・米。「作ってみて！海鮮丼 #shorts」のレシピです。"
+    "description": "けんた食堂の実在動画。ご飯・米を使う「作ってみて！海鮮丼 #shorts」のレシピです。"
   },
   {
     "title": "【100万回再生人気レシピ】薄切り肉で簡単＆柔らか！直球勝負のレシピ！豚丼の作り方",
@@ -17580,9 +17309,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 豚肉、ご飯・米、ネギ、にんにく。「【100万回再生人気レシピ】薄切り肉で簡単＆柔らか！直球勝負のレシピ！豚丼の作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。豚肉、ご飯・米、ネギ、にんにくを使う「【100万回再生人気レシピ】薄切り肉で簡単＆柔らか！直球勝負のレシピ！豚丼の作り方」のレシピです。"
   },
   {
     "title": "厚揚げ豚挽き丼🧑🏻‍🍳#shorts #簡単レシピ#料理",
@@ -17599,6 +17326,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "米"
     ],
@@ -17610,13 +17338,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "atsuage",
       "rice"
     ],
-    "rawIngredients": "挽肉、厚揚げ、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "給食の先生ゆりままの実在動画。食材候補: 挽肉、厚揚げ、ご飯・米。「厚揚げ豚挽き丼🧑🏻‍🍳#shorts #簡単レシピ#料理」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、厚揚げ、ご飯・米",
+    "description": "給食の先生ゆりままの実在動画。挽肉、白身魚、厚揚げ、ご飯・米を使う「厚揚げ豚挽き丼🧑🏻‍🍳#shorts #簡単レシピ#料理」のレシピです。"
   },
   {
     "title": "最高においしい牛丼の作り方/ How to make the most delicious gyudon",
@@ -17646,9 +17373,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "ご飯・米、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Ryogoの実在動画。食材候補: ご飯・米、パスタ。「最高においしい牛丼の作り方/ How to make the most delicious gyudon」のレシピです。"
+    "description": "Ryogoの実在動画。ご飯・米、パスタを使う「最高においしい牛丼の作り方/ How to make the most delicious gyudon」のレシピです。"
   },
   {
     "title": "10分で完成【ワンパンビビンバ丼】 #レシピ",
@@ -17676,9 +17401,35 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "AKIHO kitchen 簡単映えレシピの実在動画。食材候補: ご飯・米。「10分で完成【ワンパンビビンバ丼】 #レシピ」のレシピです。"
+    "description": "AKIHO kitchen 簡単映えレシピの実在動画。ご飯・米を使う「10分で完成【ワンパンビビンバ丼】 #レシピ」のレシピです。"
+  },
+  {
+    "title": "脳がバグる😱じゃがりこを粉々にして、うなぎの蒲焼作ってみたらリアルすぎた！#Shorts #お菓子 #DIY #じゃがりこ",
+    "platform": "youtube",
+    "externalId": "FHwmQTShcmM",
+    "videoUrl": "https://www.youtube.com/watch?v=FHwmQTShcmM",
+    "videoId": "FHwmQTShcmM",
+    "url": "https://www.youtube.com/watch?v=FHwmQTShcmM",
+    "thumbnailUrl": "https://i.ytimg.com/vi/FHwmQTShcmM/maxresdefault.jpg",
+    "creator": "アジーンTV",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "アジーンTVの実在動画。白身魚を使う「脳がバグる😱じゃがりこを粉々にして、うなぎの蒲焼作ってみたらリアルすぎた！#Shorts #お菓子 #DIY #じゃがりこ」のレシピです。"
   },
   {
     "title": "※再掲※正直レビュー!! 「ワンパンロコモコ丼」 #簡単レシピ #ワンパン #ロコモコ #ハンバーグ #おつまみ",
@@ -17695,6 +17446,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -17709,6 +17461,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
@@ -17716,10 +17469,8 @@ const recipes = [
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "バズログ【バズ飯正直レビュー】の実在動画。食材候補: 挽肉、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ。「※再掲※正直レビュー!! 「ワンパンロコモコ丼」 #簡単レシピ #ワンパン #ロコモコ #ハンバーグ #おつまみ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズ",
+    "description": "バズログ【バズ飯正直レビュー】の実在動画。挽肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ、にんにく、チーズを使う「※再掲※正直レビュー!! 「ワンパンロコモコ丼」 #簡単レシピ #ワンパン #ロコモコ #ハンバーグ #おつまみ」のレシピです。"
   },
   {
     "title": "一度で作るそぼろ丼",
@@ -17747,9 +17498,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: ご飯・米。「一度で作るそぼろ丼」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。ご飯・米を使う「一度で作るそぼろ丼」のレシピです。"
   },
   {
     "title": "豚こまで節約！簡単豚丼 #簡単レシピ #時短節約 #shorts",
@@ -17766,6 +17515,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -17778,15 +17528,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion",
       "onion",
       "ginger"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パパっとdishの実在動画。食材候補: 豚肉、ご飯・米、ネギ、玉ねぎ、ショウガ。「豚こまで節約！簡単豚丼 #簡単レシピ #時短節約 #shorts」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ、玉ねぎ、ショウガ",
+    "description": "パパっとdishの実在動画。豚肉、白身魚、ご飯・米、ネギ、玉ねぎ、ショウガを使う「豚こまで節約！簡単豚丼 #簡単レシピ #時短節約 #shorts」のレシピです。"
   },
   {
     "title": "絶品照り焼き丼🧑🏻‍🍳🐓#簡単レシピ #照り焼き #給食 #shorts",
@@ -17803,6 +17552,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "米",
       "葉物野菜"
     ],
@@ -17814,13 +17564,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "給食の先生ゆりままの実在動画。食材候補: 鶏肉、ご飯・米、ネギ。「絶品照り焼き丼🧑🏻‍🍳🐓#簡単レシピ #照り焼き #給食 #shorts」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ご飯・米、ネギ",
+    "description": "給食の先生ゆりままの実在動画。鶏肉、白身魚、ご飯・米、ネギを使う「絶品照り焼き丼🧑🏻‍🍳🐓#簡単レシピ #照り焼き #給食 #shorts」のレシピです。"
   },
   {
     "title": "完全再現！すき家の牛丼＃簡単レシピ＃牛丼#shorts",
@@ -17837,28 +17586,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 1,
+    "effort": 4,
     "dishes": 1,
-    "steps": 2,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "rice",
       "green_onion",
       "onion",
       "kombu",
       "ginger"
     ],
-    "rawIngredients": "牛肉、ご飯・米、ネギ、玉ねぎ、昆布、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "はっち 料理サークルちゃお主宰の実在動画。食材候補: 牛肉、ご飯・米、ネギ、玉ねぎ、昆布、ショウガ。「完全再現！すき家の牛丼＃簡単レシピ＃牛丼#shorts」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、ご飯・米、ネギ、玉ねぎ、昆布、ショウガ",
+    "description": "はっち 料理サークルちゃお主宰の実在動画。牛肉、白身魚、ご飯・米、ネギ、玉ねぎ、昆布、ショウガを使う「完全再現！すき家の牛丼＃簡単レシピ＃牛丼#shorts」のレシピです。"
   },
   {
     "title": "わずか8分でこの美味しさ【帯広豚丼】",
@@ -17891,9 +17640,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、ご飯・米、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "二階堂まなみの「きほんのき」の実在動画。食材候補: 豚肉、ご飯・米、ショウガ、にんにく。「わずか8分でこの美味しさ【帯広豚丼】」のレシピです。"
+    "description": "二階堂まなみの「きほんのき」の実在動画。豚肉、ご飯・米、ショウガ、にんにくを使う「わずか8分でこの美味しさ【帯広豚丼】」のレシピです。"
   },
   {
     "title": "卵だけ！絶品とろふわあんかけ丼 簡単 節約 ワンパンレシピ おうちごはん たまご料理",
@@ -17940,9 +17687,7 @@ const recipes = [
       "pumpkin"
     ],
     "rawIngredients": "鶏肉、豆腐、卵、ご飯・米、キャベツ、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: 鶏肉、豆腐、卵、ご飯・米、キャベツ、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ。「卵だけ！絶品とろふわあんかけ丼 簡単 節約 ワンパンレシピ おうちごはん たまご料理」のレシピです。"
+    "description": "ちゃらりんこクックの実在動画。鶏肉、豆腐、卵、ご飯・米、キャベツ、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃを使う「卵だけ！絶品とろふわあんかけ丼 簡単 節約 ワンパンレシピ おうちごはん たまご料理」のレシピです。"
   },
   {
     "title": "イケメンダイエットマグロポキ丼の作り方 #ダイエット #ダイエットレシピ #shorts",
@@ -17972,9 +17717,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "マグロ、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんじイケメン化計画の実在動画。食材候補: マグロ、ご飯・米。「イケメンダイエットマグロポキ丼の作り方 #ダイエット #ダイエットレシピ #shorts」のレシピです。"
+    "description": "けんじイケメン化計画の実在動画。マグロ、ご飯・米を使う「イケメンダイエットマグロポキ丼の作り方 #ダイエット #ダイエットレシピ #shorts」のレシピです。"
   },
   {
     "title": "にんにくも生姜も使わないからこそウマい!!スーパーの肉で至高を越えたシン・豚丼作ります#shorts #リュウジ #料理",
@@ -17990,6 +17733,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "根菜"
     ],
@@ -18000,14 +17744,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "ご飯・米、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ご飯・米、ショウガ、にんにく。「にんにくも生姜も使わないからこそウマい!!スーパーの肉で至高を越えたシン・豚丼作ります#shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、ショウガ、にんにく",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、ご飯・米、ショウガ、にんにくを使う「にんにくも生姜も使わないからこそウマい!!スーパーの肉で至高を越えたシン・豚丼作ります#shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "夫の大好物『ネギ塩豚丼』 #簡単レシピ #料理",
@@ -18037,9 +17780,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。食材候補: ご飯・米、ネギ。「夫の大好物『ネギ塩豚丼』 #簡単レシピ #料理」のレシピです。"
+    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。ご飯・米、ネギを使う「夫の大好物『ネギ塩豚丼』 #簡単レシピ #料理」のレシピです。"
   },
   {
     "title": "【カニカマで作るカニ玉丼】10分で完成するふわとろ絶品丼！節約にもおすすめ♪",
@@ -18055,6 +17796,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -18067,15 +17809,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 卵、ご飯・米、ネギ、マヨネーズ。「【カニカマで作るカニ玉丼】10分で完成するふわとろ絶品丼！節約にもおすすめ♪」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ、マヨネーズ",
+    "description": "macaroni | マカロニの実在動画。白身魚、卵、ご飯・米、ネギ、マヨネーズを使う「【カニカマで作るカニ玉丼】10分で完成するふわとろ絶品丼！節約にもおすすめ♪」のレシピです。"
   },
   {
     "title": "【悪魔の甘辛ダレ】帯広風豚丼、ヤバすぎた【1週間白米が止まらないおかず生活】",
@@ -18092,6 +17833,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -18104,15 +17846,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "OneMin Cookingの実在動画。食材候補: 豚肉、ご飯・米、ネギ、ショウガ、にんにく。「【悪魔の甘辛ダレ】帯広風豚丼、ヤバすぎた【1週間白米が止まらないおかず生活】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ、ショウガ、にんにく",
+    "description": "OneMin Cookingの実在動画。豚肉、白身魚、ご飯・米、ネギ、ショウガ、にんにくを使う「【悪魔の甘辛ダレ】帯広風豚丼、ヤバすぎた【1週間白米が止まらないおかず生活】」のレシピです。"
   },
   {
     "title": "【豚こまと卵の簡単レシピ】10分で絶品どんぶり！お箸とまらん♪",
@@ -18146,9 +17887,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "豚肉、卵、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しばのごはん食堂の実在動画。食材候補: 豚肉、卵、ネギ、玉ねぎ。「【豚こまと卵の簡単レシピ】10分で絶品どんぶり！お箸とまらん♪」のレシピです。"
+    "description": "しばのごはん食堂の実在動画。豚肉、卵、ネギ、玉ねぎを使う「【豚こまと卵の簡単レシピ】10分で絶品どんぶり！お箸とまらん♪」のレシピです。"
   },
   {
     "title": "悪魔のてりたまベーコン丼",
@@ -18160,11 +17899,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/1TGzuBboYXE/maxresdefault.jpg",
     "creator": "まるみキッチン【簡単レシピ】",
     "style": "YouTube Data API収集",
-    "taste": "rich",
+    "taste": "semi-rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米"
     ],
@@ -18176,13 +17916,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "ベーコン、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ベーコン、卵、ご飯・米。「悪魔のてりたまベーコン丼」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、ご飯・米",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。ベーコン、白身魚、卵、ご飯・米を使う「悪魔のてりたまベーコン丼」のレシピです。"
   },
   {
     "title": "フライパン1つで完結！爆速そぼろ丼",
@@ -18199,6 +17938,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米"
     ],
@@ -18210,13 +17950,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "レイ【3児ママのリアルすぎる日常】の実在動画。食材候補: 挽肉、卵、ご飯・米。「フライパン1つで完結！爆速そぼろ丼」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米",
+    "description": "レイ【3児ママのリアルすぎる日常】の実在動画。挽肉、白身魚、卵、ご飯・米を使う「フライパン1つで完結！爆速そぼろ丼」のレシピです。"
   },
   {
     "title": "我慢しない鶏むねユッケ丼 #彼ごはん#彼ご飯#自炊#簡単レシピ#ヘルシーレシピ#ダイエットレシピ#太らないレシピ#鶏むねユッケ#どんぶり#鶏むねレシピ#高タンパクレシピ#筋肉レシピ#レンチンレシピ",
@@ -18246,9 +17985,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "鶏肉、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なぎ【冷凍弁当で月1万円節約】の実在動画。食材候補: 鶏肉、ご飯・米。「我慢しない鶏むねユッケ丼 #彼ごはん#彼ご飯#自炊#簡単レシピ#ヘルシーレシピ#ダイエットレシピ#太らないレシピ#鶏むねユッケ#どんぶり#鶏むねレシピ#高タンパクレシピ#筋肉レシピ#レンチンレシピ」のレシピです。"
+    "description": "なぎ【冷凍弁当で月1万円節約】の実在動画。鶏肉、ご飯・米を使う「我慢しない鶏むねユッケ丼 #彼ごはん#彼ご飯#自炊#簡単レシピ#ヘルシーレシピ#ダイエットレシピ#太らないレシピ#鶏むねユッケ#どんぶり#鶏むねレシピ#高タンパクレシピ#筋肉レシピ#レンチンレシピ」のレシピです。"
   },
   {
     "title": "おうちで再現！ 伝説のすた丼の作り方",
@@ -18265,6 +18002,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -18278,15 +18016,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、卵、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "おつまみ料理動画ツマモの実在動画。食材候補: 豚肉、卵、ご飯・米、ネギ、にんにく。「おうちで再現！ 伝説のすた丼の作り方」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ご飯・米、ネギ、にんにく",
+    "description": "おつまみ料理動画ツマモの実在動画。豚肉、白身魚、卵、ご飯・米、ネギ、にんにくを使う「おうちで再現！ 伝説のすた丼の作り方」のレシピです。"
   },
   {
     "title": "美味しい豚丼３００円【万能のただならぬタレを是非】小間肉でも極旨です おに豚丼。",
@@ -18302,6 +18039,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -18313,15 +18051,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "ご飯・米、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "くまの限界食堂の実在動画。食材候補: ご飯・米、ネギ、ショウガ、にんにく。「美味しい豚丼３００円【万能のただならぬタレを是非】小間肉でも極旨です おに豚丼。」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、ネギ、ショウガ、にんにく",
+    "description": "くまの限界食堂の実在動画。白身魚、ご飯・米、ネギ、ショウガ、にんにくを使う「美味しい豚丼３００円【万能のただならぬタレを是非】小間肉でも極旨です おに豚丼。」のレシピです。"
   },
   {
     "title": "この金額で出来る一番うめえ料理これだと思う。死ぬほどバズったドケチレシピ【お金渋り丼】 #リュウジ #料理 #shorts",
@@ -18333,10 +18070,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/iPshdzeTiRI/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米"
     ],
     "oil": 2,
@@ -18346,12 +18084,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice"
     ],
-    "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ご飯・米。「この金額で出来る一番うめえ料理これだと思う。死ぬほどバズったドケチレシピ【お金渋り丼】 #リュウジ #料理 #shorts」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、ご飯・米を使う「この金額で出来る一番うめえ料理これだと思う。死ぬほどバズったドケチレシピ【お金渋り丼】 #リュウジ #料理 #shorts」のレシピです。"
   },
   {
     "title": "野菜もりもり食べれちゃう！そぼろ丼の作り方✨ #おうちごはん #shots",
@@ -18368,6 +18105,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -18380,15 +18118,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "rice",
       "komatsuna",
       "carrot",
       "ginger"
     ],
-    "rawIngredients": "挽肉、ご飯・米、小松菜、にんじん、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: 挽肉、ご飯・米、小松菜、にんじん、ショウガ。「野菜もりもり食べれちゃう！そぼろ丼の作り方✨ #おうちごはん #shots」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、ご飯・米、小松菜、にんじん、ショウガ",
+    "description": "まみ(mami) ラクうまごはんの実在動画。挽肉、白身魚、ご飯・米、小松菜、にんじん、ショウガを使う「野菜もりもり食べれちゃう！そぼろ丼の作り方✨ #おうちごはん #shots」のレシピです。"
   },
   {
     "title": "【2ヶ月で6キロ痩せた】腸活めかぶ丼 #ダイエットレシピ #簡単レシピ",
@@ -18404,6 +18141,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "米",
       "葉物野菜"
@@ -18415,14 +18153,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "卵、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "うちこ【ダイエットレシピ】の実在動画。食材候補: 卵、ご飯・米、ネギ。「【2ヶ月で6キロ痩せた】腸活めかぶ丼 #ダイエットレシピ #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、卵、ご飯・米、ネギ",
+    "description": "うちこ【ダイエットレシピ】の実在動画。白身魚、卵、ご飯・米、ネギを使う「【2ヶ月で6キロ痩せた】腸活めかぶ丼 #ダイエットレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【どんなお肉でも絶対美味しくなる牛丼】",
@@ -18452,9 +18189,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "牛肉、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "昭和生まれのBBAのごはんの実在動画。食材候補: 牛肉、ご飯・米。「【どんなお肉でも絶対美味しくなる牛丼】」のレシピです。"
+    "description": "昭和生まれのBBAのごはんの実在動画。牛肉、ご飯・米を使う「【どんなお肉でも絶対美味しくなる牛丼】」のレシピです。"
   },
   {
     "title": "15分で出来る！牛肉と小松菜のふわ玉丼🤤✨ #簡単レシピ #料理",
@@ -18486,9 +18221,7 @@ const recipes = [
       "komatsuna"
     ],
     "rawIngredients": "牛肉、ご飯・米、小松菜",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: 牛肉、ご飯・米、小松菜。「15分で出来る！牛肉と小松菜のふわ玉丼🤤✨ #簡単レシピ #料理」のレシピです。"
+    "description": "Hideka cookingの実在動画。牛肉、ご飯・米、小松菜を使う「15分で出来る！牛肉と小松菜のふわ玉丼🤤✨ #簡単レシピ #料理」のレシピです。"
   },
   {
     "title": "【白だしで簡単‼︎ふわとろ🥚鶏むね肉の親子丼🐓】#shoerts #簡単レシピ #時短節約 #料理#親子丼",
@@ -18505,6 +18238,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜",
@@ -18518,15 +18252,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion",
       "onion"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆかごはんの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ、玉ねぎ。「【白だしで簡単‼︎ふわとろ🥚鶏むね肉の親子丼🐓】#shoerts #簡単レシピ #時短節約 #料理#親子丼」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎ",
+    "description": "ゆかごはんの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギ、玉ねぎを使う「【白だしで簡単‼︎ふわとろ🥚鶏むね肉の親子丼🐓】#shoerts #簡単レシピ #時短節約 #料理#親子丼」のレシピです。"
   },
   {
     "title": "シャリアピンステーキ丼の美味しい作り方#shorts",
@@ -18554,9 +18287,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Ryou【和久井亮平】の実在動画。食材候補: ご飯・米。「シャリアピンステーキ丼の美味しい作り方#shorts」のレシピです。"
+    "description": "Ryou【和久井亮平】の実在動画。ご飯・米を使う「シャリアピンステーキ丼の美味しい作り方#shorts」のレシピです。"
   },
   {
     "title": "ウィンナーと卵さえあれば作れる超最強おかず。ご飯無限です",
@@ -18586,9 +18317,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、マヨネーズ。「ウィンナーと卵さえあれば作れる超最強おかず。ご飯無限です」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、マヨネーズを使う「ウィンナーと卵さえあれば作れる超最強おかず。ご飯無限です」のレシピです。"
   },
   {
     "title": "ビビンバ丼 #幼児食 #簡単レシピ #野菜嫌い #料理 #自炊",
@@ -18604,6 +18333,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -18615,15 +18345,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice",
       "komatsuna",
       "bean_sprouts",
       "carrot"
     ],
-    "rawIngredients": "ご飯・米、小松菜、もやし、にんじん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ヒロ⌇大人もリピする子どもごはん🍳の実在動画。食材候補: ご飯・米、小松菜、もやし、にんじん。「ビビンバ丼 #幼児食 #簡単レシピ #野菜嫌い #料理 #自炊」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米、小松菜、もやし、にんじん",
+    "description": "ヒロ⌇大人もリピする子どもごはん🍳の実在動画。白身魚、ご飯・米、小松菜、もやし、にんじんを使う「ビビンバ丼 #幼児食 #簡単レシピ #野菜嫌い #料理 #自炊」のレシピです。"
   },
   {
     "title": "正直、これしか出さない定食屋さんがあっても通うレベルでウマい。米泥棒、無限豚バラ #リュウジ #料理 #バズレシピ #レシピ #レシピ動画 #料理動画 #豚バラ",
@@ -18640,6 +18369,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米"
     ],
     "oil": 2,
@@ -18650,12 +18380,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice"
     ],
-    "rawIngredients": "豚肉、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 豚肉、ご飯・米。「正直、これしか出さない定食屋さんがあっても通うレベルでウマい。米泥棒、無限豚バラ #リュウジ #料理 #バズレシピ #レシピ #レシピ動画 #料理動画 #豚バラ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米",
+    "description": "料理研究家リュウジのバズレシピの実在動画。豚肉、白身魚、ご飯・米を使う「正直、これしか出さない定食屋さんがあっても通うレベルでウマい。米泥棒、無限豚バラ #リュウジ #料理 #バズレシピ #レシピ #レシピ動画 #料理動画 #豚バラ」のレシピです。"
   },
   {
     "title": "めちゃ美味しいカツ丼のタレ作り方！一人前分量～！ #shorts #簡単レシピ #カツ丼タレ",
@@ -18683,9 +18412,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ビートル萬屋ちゃんねるの実在動画。食材候補: ご飯・米。「めちゃ美味しいカツ丼のタレ作り方！一人前分量～！ #shorts #簡単レシピ #カツ丼タレ」のレシピです。"
+    "description": "ビートル萬屋ちゃんねるの実在動画。ご飯・米を使う「めちゃ美味しいカツ丼のタレ作り方！一人前分量～！ #shorts #簡単レシピ #カツ丼タレ」のレシピです。"
   },
   {
     "title": "ひき肉が100倍旨くなる！至高の肉味噌たまご丼 #簡単レシピ",
@@ -18702,6 +18429,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "米"
     ],
@@ -18713,13 +18441,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "挽肉、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "にっしー@1分クッキングの実在動画。食材候補: 挽肉、卵、ご飯・米。「ひき肉が100倍旨くなる！至高の肉味噌たまご丼 #簡単レシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、ご飯・米",
+    "description": "にっしー@1分クッキングの実在動画。挽肉、白身魚、卵、ご飯・米を使う「ひき肉が100倍旨くなる！至高の肉味噌たまご丼 #簡単レシピ」のレシピです。"
   },
   {
     "title": "材料3つだけで超簡単&激うま！ジューシー油揚げにふわとろ卵！あぶたま丼の作り方",
@@ -18754,9 +18481,7 @@ const recipes = [
       "lettuce"
     ],
     "rawIngredients": "油揚げ、卵、ご飯・米、ネギ、レタス",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 油揚げ、卵、ご飯・米、ネギ、レタス。「材料3つだけで超簡単&激うま！ジューシー油揚げにふわとろ卵！あぶたま丼の作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。油揚げ、卵、ご飯・米、ネギ、レタスを使う「材料3つだけで超簡単&激うま！ジューシー油揚げにふわとろ卵！あぶたま丼の作り方」のレシピです。"
   },
   {
     "title": "10分で激うま！焼き鳥丼 #簡単レシピ #今日の晩ごはん #ワーママご飯 #ワンパンレシピ #おうちごはん #時短レシピ #こどもごはん #焼き鳥 #鶏肉レシピ",
@@ -18773,6 +18498,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米",
       "葉物野菜"
@@ -18785,14 +18511,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "つきの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ。「10分で激うま！焼き鳥丼 #簡単レシピ #今日の晩ごはん #ワーママご飯 #ワンパンレシピ #おうちごはん #時短レシピ #こどもごはん #焼き鳥 #鶏肉レシピ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米、ネギ",
+    "description": "つきの実在動画。鶏肉、白身魚、卵、ご飯・米、ネギを使う「10分で激うま！焼き鳥丼 #簡単レシピ #今日の晩ごはん #ワーママご飯 #ワンパンレシピ #おうちごはん #時短レシピ #こどもごはん #焼き鳥 #鶏肉レシピ」のレシピです。"
   },
   {
     "title": "絶品中華丼🧑🏻‍🍳#簡単レシピ #中華丼 #給食 #shorts",
@@ -18809,6 +18534,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜",
@@ -18822,6 +18548,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "napa_cabbage",
       "green_onion",
@@ -18830,10 +18557,8 @@ const recipes = [
       "shiitake",
       "ginger"
     ],
-    "rawIngredients": "豚肉、ご飯・米、napa_cabbage、ネギ、玉ねぎ、にんじん、しいたけ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "給食の先生ゆりままの実在動画。食材候補: 豚肉、ご飯・米、napa_cabbage、ネギ、玉ねぎ、にんじん、しいたけ、ショウガ。「絶品中華丼🧑🏻‍🍳#簡単レシピ #中華丼 #給食 #shorts」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、napa_cabbage、ネギ、玉ねぎ、にんじん、しいたけ、ショウガ",
+    "description": "給食の先生ゆりままの実在動画。豚肉、白身魚、ご飯・米、napa_cabbage、ネギ、玉ねぎ、にんじん、しいたけ、ショウガを使う「絶品中華丼🧑🏻‍🍳#簡単レシピ #中華丼 #給食 #shorts」のレシピです。"
   },
   {
     "title": "海鮮丼は青魚が旨い #shorts #海鮮丼 #sashimi",
@@ -18863,9 +18588,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "サバ、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんた食堂の実在動画。食材候補: サバ、ご飯・米。「海鮮丼は青魚が旨い #shorts #海鮮丼 #sashimi」のレシピです。"
+    "description": "けんた食堂の実在動画。サバ、ご飯・米を使う「海鮮丼は青魚が旨い #shorts #海鮮丼 #sashimi」のレシピです。"
   },
   {
     "title": "ニラとひき肉のスタミナ丼 #簡単レシピ #時短節約 #料理 #whatieatinaday #まいにちごはん",
@@ -18897,9 +18620,7 @@ const recipes = [
       "nira"
     ],
     "rawIngredients": "挽肉、ご飯・米、にら",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "おうちごはん日記の実在動画。食材候補: 挽肉、ご飯・米、にら。「ニラとひき肉のスタミナ丼 #簡単レシピ #時短節約 #料理 #whatieatinaday #まいにちごはん」のレシピです。"
+    "description": "おうちごはん日記の実在動画。挽肉、ご飯・米、にらを使う「ニラとひき肉のスタミナ丼 #簡単レシピ #時短節約 #料理 #whatieatinaday #まいにちごはん」のレシピです。"
   },
   {
     "title": "卵あれば誰でも簡単にできるクソうまい北海道北見市のソウルフード",
@@ -18915,6 +18636,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵"
     ],
     "oil": 2,
@@ -18924,12 +18646,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg"
     ],
-    "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "家族のための男飯🐒もんきちの実在動画。食材候補: 卵。「卵あれば誰でも簡単にできるクソうまい北海道北見市のソウルフード」のレシピです。"
+    "rawIngredients": "白身魚、卵",
+    "description": "家族のための男飯🐒もんきちの実在動画。白身魚、卵を使う「卵あれば誰でも簡単にできるクソうまい北海道北見市のソウルフード」のレシピです。"
   },
   {
     "title": "これが88円で食えるのヤバいだろ…安い油揚げが牛丼並みにウマくなる【虚無ごはん5】 #shorts #リュウジ #料理",
@@ -18945,6 +18666,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "米"
     ],
@@ -18955,13 +18677,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "aburaage",
       "rice"
     ],
-    "rawIngredients": "油揚げ、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 油揚げ、ご飯・米。「これが88円で食えるのヤバいだろ…安い油揚げが牛丼並みにウマくなる【虚無ごはん5】 #shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "白身魚、油揚げ、ご飯・米",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、油揚げ、ご飯・米を使う「これが88円で食えるのヤバいだろ…安い油揚げが牛丼並みにウマくなる【虚無ごはん5】 #shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "和風ステーキ丼の作り方#shorts",
@@ -18989,9 +18710,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "板前山ちゃんの実在動画。食材候補: ご飯・米。「和風ステーキ丼の作り方#shorts」のレシピです。"
+    "description": "板前山ちゃんの実在動画。ご飯・米を使う「和風ステーキ丼の作り方#shorts」のレシピです。"
   },
   {
     "title": "【笠原シェフを訪ね、賛否両論へ】桝谷が愛した“親子丼”ふわふわになる裏技満載！【この味一生忘れない】Oyakodon",
@@ -19025,9 +18744,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "鶏肉、卵、ご飯・米、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "桝谷のSimple is bestの実在動画。食材候補: 鶏肉、卵、ご飯・米、ネギ。「【笠原シェフを訪ね、賛否両論へ】桝谷が愛した“親子丼”ふわふわになる裏技満載！【この味一生忘れない】Oyakodon」のレシピです。"
+    "description": "桝谷のSimple is bestの実在動画。鶏肉、卵、ご飯・米、ネギを使う「【笠原シェフを訪ね、賛否両論へ】桝谷が愛した“親子丼”ふわふわになる裏技満載！【この味一生忘れない】Oyakodon」のレシピです。"
   },
   {
     "title": "『インスタ800万再生突破』ぷるぷるムネ肉ユッケ丼#簡単レシピ #むね肉 #レシピ",
@@ -19055,9 +18772,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kiyo Balance Kitchenの実在動画。食材候補: ご飯・米。「『インスタ800万再生突破』ぷるぷるムネ肉ユッケ丼#簡単レシピ #むね肉 #レシピ」のレシピです。"
+    "description": "Kiyo Balance Kitchenの実在動画。ご飯・米を使う「『インスタ800万再生突破』ぷるぷるムネ肉ユッケ丼#簡単レシピ #むね肉 #レシピ」のレシピです。"
   },
   {
     "title": "【出汁は使わない。親子丼の旨味を最大にするには鶏肉の下処理が肝心】｜#クラシル #shorts",
@@ -19087,9 +18802,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "鶏肉、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: 鶏肉、ご飯・米。「【出汁は使わない。親子丼の旨味を最大にするには鶏肉の下処理が肝心】｜#クラシル #shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。鶏肉、ご飯・米を使う「【出汁は使わない。親子丼の旨味を最大にするには鶏肉の下処理が肝心】｜#クラシル #shorts」のレシピです。"
   },
   {
     "title": "【部活終わりこれあったら大喜び】ニラ豚ミンチ丼 #料理 #マッチョ #元カレ #簡単レシピ #暮らしチャンネル #cooking",
@@ -19106,6 +18819,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜"
     ],
@@ -19117,13 +18831,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "rice",
       "nira"
     ],
-    "rawIngredients": "挽肉、ご飯・米、にら",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マッチョ元カレごはんがうますぎるの実在動画。食材候補: 挽肉、ご飯・米、にら。「【部活終わりこれあったら大喜び】ニラ豚ミンチ丼 #料理 #マッチョ #元カレ #簡単レシピ #暮らしチャンネル #cooking」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、ご飯・米、にら",
+    "description": "マッチョ元カレごはんがうますぎるの実在動画。挽肉、白身魚、ご飯・米、にらを使う「【部活終わりこれあったら大喜び】ニラ豚ミンチ丼 #料理 #マッチョ #元カレ #簡単レシピ #暮らしチャンネル #cooking」のレシピです。"
   },
   {
     "title": "どのお店にも絶対負けないほどガチで旨い【極トンテキ】",
@@ -19158,9 +18871,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "豚肉、ネギ、玉ねぎ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、ネギ、玉ねぎ、にんにく、バター。「どのお店にも絶対負けないほどガチで旨い【極トンテキ】」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、ネギ、玉ねぎ、にんにく、バターを使う「どのお店にも絶対負けないほどガチで旨い【極トンテキ】」のレシピです。"
   },
   {
     "title": "それカツにすんのかよ。肉無しでも笑えるほど美味しい【貧乏人のカツ丼】が安いのに旨すぎる#shorts #リュウジ #料理",
@@ -19176,6 +18887,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "米"
     ],
     "oil": 5,
@@ -19185,12 +18897,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice"
     ],
-    "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ご飯・米。「それカツにすんのかよ。肉無しでも笑えるほど美味しい【貧乏人のカツ丼】が安いのに旨すぎる#shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "白身魚、ご飯・米",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、ご飯・米を使う「それカツにすんのかよ。肉無しでも笑えるほど美味しい【貧乏人のカツ丼】が安いのに旨すぎる#shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "牛丼をそのまま煮るのは大損！安い肉が劇的にトロトロになる元店員の秘密の下準備。 #牛丼の作り方 #おすすめ #裏技 #暮らしの知恵 #主婦の知恵",
@@ -19218,9 +18929,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ヘルシーレシピの実在動画。食材候補: ご飯・米。「牛丼をそのまま煮るのは大損！安い肉が劇的にトロトロになる元店員の秘密の下準備。 #牛丼の作り方 #おすすめ #裏技 #暮らしの知恵 #主婦の知恵」のレシピです。"
+    "description": "ヘルシーレシピの実在動画。ご飯・米を使う「牛丼をそのまま煮るのは大損！安い肉が劇的にトロトロになる元店員の秘密の下準備。 #牛丼の作り方 #おすすめ #裏技 #暮らしの知恵 #主婦の知恵」のレシピです。"
   },
   {
     "title": "結局これが1番うまい…チキンとほうれん草のクリームパスタが美味すぎて溺れたい！#パスタ #時短レシピ #クリームパスタ",
@@ -19252,9 +18961,7 @@ const recipes = [
       "spinach"
     ],
     "rawIngredients": "鶏肉、パスタ、ほうれん草",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: 鶏肉、パスタ、ほうれん草。「結局これが1番うまい…チキンとほうれん草のクリームパスタが美味すぎて溺れたい！#パスタ #時短レシピ #クリームパスタ」のレシピです。"
+    "description": "深夜食堂の実在動画。鶏肉、パスタ、ほうれん草を使う「結局これが1番うまい…チキンとほうれん草のクリームパスタが美味すぎて溺れたい！#パスタ #時短レシピ #クリームパスタ」のレシピです。"
   },
   {
     "title": "【至高のパスタ】ミニトマトで作る！あっさりトマトパスタ #パスタレシピ #パスタ",
@@ -19270,6 +18977,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -19281,14 +18989,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "tomato",
       "garlic"
     ],
-    "rawIngredients": "パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ナオ飯チャンネルの実在動画。食材候補: パスタ、トマト、にんにく。「【至高のパスタ】ミニトマトで作る！あっさりトマトパスタ #パスタレシピ #パスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、トマト、にんにく",
+    "description": "ナオ飯チャンネルの実在動画。白身魚、パスタ、トマト、にんにくを使う「【至高のパスタ】ミニトマトで作る！あっさりトマトパスタ #パスタレシピ #パスタ」のレシピです。"
   },
   {
     "title": "僕が10代から作ってる本当に美味しいペペロンチーノのレシピはこちらです。【悪魔のペペロンチーノ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #パスタ",
@@ -19304,6 +19011,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -19313,12 +19021,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ。「僕が10代から作ってる本当に美味しいペペロンチーノのレシピはこちらです。【悪魔のペペロンチーノ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #パスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタを使う「僕が10代から作ってる本当に美味しいペペロンチーノのレシピはこちらです。【悪魔のペペロンチーノ】 #リュウジ #バズレシピ #料理 #料理動画 #レシピ #レシピ動画 #パスタ」のレシピです。"
   },
   {
     "title": "これが1番うまい…濃厚バター醤油パスタがあっさりなのに猛烈に美味しい！ #パスタ #時短レシピ #簡単レシピ",
@@ -19354,9 +19061,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "パスタ、ほうれん草、しめじ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: パスタ、ほうれん草、しめじ、にんにく、バター。「これが1番うまい…濃厚バター醤油パスタがあっさりなのに猛烈に美味しい！ #パスタ #時短レシピ #簡単レシピ」のレシピです。"
+    "description": "深夜食堂の実在動画。パスタ、ほうれん草、しめじ、にんにく、バターを使う「これが1番うまい…濃厚バター醤油パスタがあっさりなのに猛烈に美味しい！ #パスタ #時短レシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【白だしだけで作るパスタ】小松菜の和風パスタ #レシピ動画 #簡単レシピ #料理 #レシピ #パスタ",
@@ -19373,29 +19078,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "きのこ",
       "根菜"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": false,
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "pasta",
       "spinach",
       "komatsuna",
       "shimeji",
       "garlic"
     ],
-    "rawIngredients": "ベーコン、パスタ、ほうれん草、小松菜、しめじ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ガンガンの料理塾の実在動画。食材候補: ベーコン、パスタ、ほうれん草、小松菜、しめじ、にんにく。「【白だしだけで作るパスタ】小松菜の和風パスタ #レシピ動画 #簡単レシピ #料理 #レシピ #パスタ」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、パスタ、ほうれん草、小松菜、しめじ、にんにく",
+    "description": "ガンガンの料理塾の実在動画。ベーコン、白身魚、パスタ、ほうれん草、小松菜、しめじ、にんにくを使う「【白だしだけで作るパスタ】小松菜の和風パスタ #レシピ動画 #簡単レシピ #料理 #レシピ #パスタ」のレシピです。"
   },
   {
     "title": "【15分で作れる】ほぼお店の味！最高に美味しいナポリタンが完成。#パスタ #簡単レシピ #時短レシピ #料理",
@@ -19423,9 +19128,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: パスタ。「【15分で作れる】ほぼお店の味！最高に美味しいナポリタンが完成。#パスタ #簡単レシピ #時短レシピ #料理」のレシピです。"
+    "description": "深夜食堂の実在動画。パスタを使う「【15分で作れる】ほぼお店の味！最高に美味しいナポリタンが完成。#パスタ #簡単レシピ #時短レシピ #料理」のレシピです。"
   },
   {
     "title": "大人気のパスタを再現してみました🍝 #レシピ #カプリチョーザ",
@@ -19453,9 +19156,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "高松先生🍖おうちごはんの実在動画。食材候補: パスタ。「大人気のパスタを再現してみました🍝 #レシピ #カプリチョーザ」のレシピです。"
+    "description": "高松先生🍖おうちごはんの実在動画。パスタを使う「大人気のパスタを再現してみました🍝 #レシピ #カプリチョーザ」のレシピです。"
   },
   {
     "title": "生クリーム？小麦粉？ルー？全部いらねえのにお店の味、信じられない【虚無チーズパスタ】#shorts #リュウジ #料理",
@@ -19471,6 +19172,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系",
       "米"
@@ -19482,14 +19184,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "cheese",
       "flour"
     ],
-    "rawIngredients": "パスタ、チーズ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ、チーズ、小麦粉。「生クリーム？小麦粉？ルー？全部いらねえのにお店の味、信じられない【虚無チーズパスタ】#shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、チーズ、小麦粉",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタ、チーズ、小麦粉を使う「生クリーム？小麦粉？ルー？全部いらねえのにお店の味、信じられない【虚無チーズパスタ】#shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "5分で簡単！最強納豆パスタ〜🍝 #簡単レシピ #料理 #パスタ",
@@ -19517,9 +19218,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: パスタ。「5分で簡単！最強納豆パスタ〜🍝 #簡単レシピ #料理 #パスタ」のレシピです。"
+    "description": "Hideka cookingの実在動画。パスタを使う「5分で簡単！最強納豆パスタ〜🍝 #簡単レシピ #料理 #パスタ」のレシピです。"
   },
   {
     "title": "【10分で作れる】大盛りで食べたくなる和風ツナパスタ！#簡単レシピ #パスタ",
@@ -19549,9 +19248,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "ツナ、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: ツナ、パスタ。「【10分で作れる】大盛りで食べたくなる和風ツナパスタ！#簡単レシピ #パスタ」のレシピです。"
+    "description": "深夜食堂の実在動画。ツナ、パスタを使う「【10分で作れる】大盛りで食べたくなる和風ツナパスタ！#簡単レシピ #パスタ」のレシピです。"
   },
   {
     "title": "【ワンパン15分】このキノコパスタ最上級に美味しい！#パスタ #簡単レシピ #料理 #時短レシピ #パスタ",
@@ -19579,9 +19276,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: パスタ。「【ワンパン15分】このキノコパスタ最上級に美味しい！#パスタ #簡単レシピ #料理 #時短レシピ #パスタ」のレシピです。"
+    "description": "深夜食堂の実在動画。パスタを使う「【ワンパン15分】このキノコパスタ最上級に美味しい！#パスタ #簡単レシピ #料理 #時短レシピ #パスタ」のレシピです。"
   },
   {
     "title": "旨辛トマトパスタ！基本の【アラビアータ🇮🇹】#shorts",
@@ -19615,9 +19310,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "たこ、パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: たこ、パスタ、トマト、にんにく。「旨辛トマトパスタ！基本の【アラビアータ🇮🇹】#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。たこ、パスタ、トマト、にんにくを使う「旨辛トマトパスタ！基本の【アラビアータ🇮🇹】#shorts」のレシピです。"
   },
   {
     "title": "総再生400万回越え！ガーリックバターの和風【きのこパスタ】",
@@ -19649,9 +19342,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "パスタ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、にんにく、バター。「総再生400万回越え！ガーリックバターの和風【きのこパスタ】」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、にんにく、バターを使う「総再生400万回越え！ガーリックバターの和風【きのこパスタ】」のレシピです。"
   },
   {
     "title": "やる気1％で極上のワンパンカルボナーラ",
@@ -19668,6 +19359,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "チーズ・バター・マヨ系"
@@ -19680,15 +19372,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "cheese",
       "milk"
     ],
-    "rawIngredients": "ベーコン、卵、パスタ、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ベーコン、卵、パスタ、チーズ、牛乳。「やる気1％で極上のワンパンカルボナーラ」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、パスタ、チーズ、牛乳",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。ベーコン、白身魚、卵、パスタ、チーズ、牛乳を使う「やる気1％で極上のワンパンカルボナーラ」のレシピです。"
   },
   {
     "title": "レンジで簡単！濃厚チーズパスタ",
@@ -19704,6 +19395,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -19714,15 +19406,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "cheese",
       "butter",
       "milk"
     ],
-    "rawIngredients": "パスタ、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: パスタ、チーズ、バター、牛乳。「レンジで簡単！濃厚チーズパスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、チーズ、バター、牛乳",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、パスタ、チーズ、バター、牛乳を使う「レンジで簡単！濃厚チーズパスタ」のレシピです。"
   },
   {
     "title": "イタリアで作るペペロンチーノがシンプルの極み！#ペペロンチーノ #パスタ #レシピ",
@@ -19752,9 +19443,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: パスタ、にんにく。「イタリアで作るペペロンチーノがシンプルの極み！#ペペロンチーノ #パスタ #レシピ」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。パスタ、にんにくを使う「イタリアで作るペペロンチーノがシンプルの極み！#ペペロンチーノ #パスタ #レシピ」のレシピです。"
   },
   {
     "title": "1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】",
@@ -19770,6 +19459,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -19782,15 +19472,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "tomato",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "パスタ、トマト、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ、トマト、にんにく、チーズ。「1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、トマト、にんにく、チーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタ、トマト、にんにく、チーズを使う「1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】」のレシピです。"
   },
   {
     "title": "【冷凍シーフードミックスで作る】絶品シーフードパスタの作り方！解凍要らず！",
@@ -19820,9 +19509,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "居酒屋店長のまかない飯チャンネルの実在動画。食材候補: パスタ、にんにく。「【冷凍シーフードミックスで作る】絶品シーフードパスタの作り方！解凍要らず！」のレシピです。"
+    "description": "居酒屋店長のまかない飯チャンネルの実在動画。パスタ、にんにくを使う「【冷凍シーフードミックスで作る】絶品シーフードパスタの作り方！解凍要らず！」のレシピです。"
   },
   {
     "title": "和風きのこパスタの作り方｜フライパン1つで簡単！きのこの旨みたっぷりで風味豊かな和風パスタ！忙しい日にピッタリ！-How to make Mushroom Pasta-【料理研究家ゆかり】",
@@ -19839,6 +19526,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -19854,6 +19542,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "green_onion",
@@ -19862,10 +19551,8 @@ const recipes = [
       "garlic",
       "butter"
     ],
-    "rawIngredients": "ベーコン、卵、パスタ、ネギ、トマト、しめじ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: ベーコン、卵、パスタ、ネギ、トマト、しめじ、にんにく、バター。「和風きのこパスタの作り方｜フライパン1つで簡単！きのこの旨みたっぷりで風味豊かな和風パスタ！忙しい日にピッタリ！-How to make Mushroom Pasta-【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、パスタ、ネギ、トマト、しめじ、にんにく、バター",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。ベーコン、白身魚、卵、パスタ、ネギ、トマト、しめじ、にんにく、バターを使う「和風きのこパスタの作り方｜フライパン1つで簡単！きのこの旨みたっぷりで風味豊かな和風パスタ！忙しい日にピッタリ！-How to make Mushroom Pasta-【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "調味料2つで完成する究極に美味しい和風パスタ",
@@ -19893,15 +19580,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "green_onion",
       "butter"
     ],
-    "rawIngredients": "ツナ、パスタ、ネギ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: ツナ、パスタ、ネギ、バター。「調味料2つで完成する究極に美味しい和風パスタ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、ネギ、バター",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、ツナ、パスタ、ネギ、バターを使う「調味料2つで完成する究極に美味しい和風パスタ」のレシピです。"
   },
   {
     "title": "超簡単で激ウマなパスタレシピ３選🍝 #パスタ #レシピ #簡単レシピ #shorts",
@@ -19929,9 +19615,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: パスタ。「超簡単で激ウマなパスタレシピ３選🍝 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。パスタを使う「超簡単で激ウマなパスタレシピ３選🍝 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "本場イタリアの失敗なしの【カルボナーラ】コツは水！#カルボナーラ #パスタ #レシピ",
@@ -19961,9 +19645,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "パスタ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: パスタ、チーズ。「本場イタリアの失敗なしの【カルボナーラ】コツは水！#カルボナーラ #パスタ #レシピ」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。パスタ、チーズを使う「本場イタリアの失敗なしの【カルボナーラ】コツは水！#カルボナーラ #パスタ #レシピ」のレシピです。"
   },
   {
     "title": "【激ウマパスタレシピ3選🍝】2025年上期に作ったパスタの中から特に美味しかったものを紹介します！ #パスタ #レシピ #簡単レシピ #shorts",
@@ -19991,9 +19673,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: パスタ。「【激ウマパスタレシピ3選🍝】2025年上期に作ったパスタの中から特に美味しかったものを紹介します！ #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。パスタを使う「【激ウマパスタレシピ3選🍝】2025年上期に作ったパスタの中から特に美味しかったものを紹介します！ #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】 #リュウジ #料理 #パスタ",
@@ -20009,6 +19689,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -20019,13 +19700,12 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "tomato"
     ],
-    "rawIngredients": "パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ、トマト。「1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】 #リュウジ #料理 #パスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、トマト",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタ、トマトを使う「1皿98円。トマトソース買うのがバカらしくなるウマさだこれ【虚無トマトパスタ】 #リュウジ #料理 #パスタ」のレシピです。"
   },
   {
     "title": "【貧乏人のパスタ】YouTubeで人気の簡単パスタ #shorts",
@@ -20041,6 +19721,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "根菜",
@@ -20053,15 +19734,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "pasta",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "卵、パスタ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "フリーランス料理人の簡単レシピの実在動画。食材候補: 卵、パスタ、にんにく、チーズ。「【貧乏人のパスタ】YouTubeで人気の簡単パスタ #shorts」のレシピです。"
+    "rawIngredients": "白身魚、卵、パスタ、にんにく、チーズ",
+    "description": "フリーランス料理人の簡単レシピの実在動画。白身魚、卵、パスタ、にんにく、チーズを使う「【貧乏人のパスタ】YouTubeで人気の簡単パスタ #shorts」のレシピです。"
   },
   {
     "title": "【ワンパン10分で作れる◎】海老トマトクリームパスタ #料理動画 #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #パスタレシピ",
@@ -20090,16 +19770,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "pasta",
       "tomato",
       "garlic",
       "milk"
     ],
-    "rawIngredients": "えび、パスタ、トマト、にんにく、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: えび、パスタ、トマト、にんにく、牛乳。「【ワンパン10分で作れる◎】海老トマトクリームパスタ #料理動画 #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #パスタレシピ」のレシピです。"
+    "rawIngredients": "白身魚、えび、パスタ、トマト、にんにく、牛乳",
+    "description": "ラクうま料理ちゃんねるの実在動画。白身魚、えび、パスタ、トマト、にんにく、牛乳を使う「【ワンパン10分で作れる◎】海老トマトクリームパスタ #料理動画 #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #パスタレシピ」のレシピです。"
   },
   {
     "title": "フライパン１つで作れるありえないほど美味しいパスタの作り方",
@@ -20127,9 +19806,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: パスタ。「フライパン１つで作れるありえないほど美味しいパスタの作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。パスタを使う「フライパン１つで作れるありえないほど美味しいパスタの作り方」のレシピです。"
   },
   {
     "title": "大葉20枚使った絶対おいしいパスタ【どっさり青じそパスタ】 #大葉 #青じそ #パスタ #スパゲティ #大葉レシピ",
@@ -20156,14 +19833,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "garlic"
     ],
-    "rawIngredients": "ツナ、パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: ツナ、パスタ、にんにく。「大葉20枚使った絶対おいしいパスタ【どっさり青じそパスタ】 #大葉 #青じそ #パスタ #スパゲティ #大葉レシピ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、にんにく",
+    "description": "デリッシュキッチンの実在動画。白身魚、ツナ、パスタ、にんにくを使う「大葉20枚使った絶対おいしいパスタ【どっさり青じそパスタ】 #大葉 #青じそ #パスタ #スパゲティ #大葉レシピ」のレシピです。"
   },
   {
     "title": "革命｜味噌×ペペロンチーノ【みそロンチーノ】#shorts",
@@ -20193,9 +19869,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、にんにく。「革命｜味噌×ペペロンチーノ【みそロンチーノ】#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、にんにくを使う「革命｜味噌×ペペロンチーノ【みそロンチーノ】#shorts」のレシピです。"
   },
   {
     "title": "本場推奨🇮🇹【暗殺者のパスタ】36cmの鉄フライパンで作る！#shorts",
@@ -20225,9 +19899,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、トマト。「本場推奨🇮🇹【暗殺者のパスタ】36cmの鉄フライパンで作る！#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、トマトを使う「本場推奨🇮🇹【暗殺者のパスタ】36cmの鉄フライパンで作る！#shorts」のレシピです。"
   },
   {
     "title": "【簡単10分】貧乏パスタ｜一気に大盛作るコツ！#shorts",
@@ -20261,9 +19933,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "卵、パスタ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: 卵、パスタ、にんにく、チーズ。「【簡単10分】貧乏パスタ｜一気に大盛作るコツ！#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。卵、パスタ、にんにく、チーズを使う「【簡単10分】貧乏パスタ｜一気に大盛作るコツ！#shorts」のレシピです。"
   },
   {
     "title": "【ペペロンチーノ】誰でも1発で乳化できる作り方",
@@ -20293,9 +19963,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "PEPESEN ペペロンチーノ専門チャンネルの実在動画。食材候補: パスタ、にんにく。「【ペペロンチーノ】誰でも1発で乳化できる作り方」のレシピです。"
+    "description": "PEPESEN ペペロンチーノ専門チャンネルの実在動画。パスタ、にんにくを使う「【ペペロンチーノ】誰でも1発で乳化できる作り方」のレシピです。"
   },
   {
     "title": "こんなに旨いのにまだ日本では全く知られてない無名にして最高の【不遇のパスタ】#shorts #リュウジ #レシピ",
@@ -20311,6 +19979,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -20320,12 +19989,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ。「こんなに旨いのにまだ日本では全く知られてない無名にして最高の【不遇のパスタ】#shorts #リュウジ #レシピ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタを使う「こんなに旨いのにまだ日本では全く知られてない無名にして最高の【不遇のパスタ】#shorts #リュウジ #レシピ」のレシピです。"
   },
   {
     "title": "ワンパンで和風明太クリームパスタ",
@@ -20341,6 +20009,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -20351,14 +20020,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "mayonnaise",
       "milk"
     ],
-    "rawIngredients": "パスタ、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: パスタ、マヨネーズ、牛乳。「ワンパンで和風明太クリームパスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、マヨネーズ、牛乳",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、パスタ、マヨネーズ、牛乳を使う「ワンパンで和風明太クリームパスタ」のレシピです。"
   },
   {
     "title": "悶絶パスタ🍝",
@@ -20386,9 +20054,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: パスタ。「悶絶パスタ🍝」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。パスタを使う「悶絶パスタ🍝」のレシピです。"
   },
   {
     "title": "パスタは折らずに作りました🍝【ワンパンツナトマトパスタ】詳しいレシピは概要欄をチェック！#パスタ#ワンパン #ワンパンパスタ#ツナ#トマトパスタ #スパゲティ #料理動画 #レシピ動画 #簡単レシピ",
@@ -20416,15 +20082,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "tomato",
       "garlic"
     ],
-    "rawIngredients": "ツナ、パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: ツナ、パスタ、トマト、にんにく。「パスタは折らずに作りました🍝【ワンパンツナトマトパスタ】詳しいレシピは概要欄をチェック！#パスタ#ワンパン #ワンパンパスタ#ツナ#トマトパスタ #スパゲティ #料理動画 #レシピ動画 #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、トマト、にんにく",
+    "description": "デリッシュキッチンの実在動画。白身魚、ツナ、パスタ、トマト、にんにくを使う「パスタは折らずに作りました🍝【ワンパンツナトマトパスタ】詳しいレシピは概要欄をチェック！#パスタ#ワンパン #ワンパンパスタ#ツナ#トマトパスタ #スパゲティ #料理動画 #レシピ動画 #簡単レシピ」のレシピです。"
   },
   {
     "title": "無条件に美味しい【ガーリックバター醤油のパスタ】#shorts",
@@ -20462,9 +20127,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "ベーコン、ブリ、パスタ、ほうれん草、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ベーコン、ブリ、パスタ、ほうれん草、にんにく、バター。「無条件に美味しい【ガーリックバター醤油のパスタ】#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ベーコン、ブリ、パスタ、ほうれん草、にんにく、バターを使う「無条件に美味しい【ガーリックバター醤油のパスタ】#shorts」のレシピです。"
   },
   {
     "title": "フライパン１つでぜっっったいに失敗しない本格カルボナーラ",
@@ -20492,9 +20155,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: パスタ。「フライパン１つでぜっっったいに失敗しない本格カルボナーラ」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。パスタを使う「フライパン１つでぜっっったいに失敗しない本格カルボナーラ」のレシピです。"
   },
   {
     "title": "いや、美味すぎるって！ただ和えるだけパスタ。",
@@ -20522,9 +20183,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: パスタ。「いや、美味すぎるって！ただ和えるだけパスタ。」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。パスタを使う「いや、美味すぎるって！ただ和えるだけパスタ。」のレシピです。"
   },
   {
     "title": "たぶん一番美味しい、しかも簡単、明太子パスタ｜クラシル｜#shorts",
@@ -20552,9 +20211,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: パスタ。「たぶん一番美味しい、しかも簡単、明太子パスタ｜クラシル｜#shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。パスタを使う「たぶん一番美味しい、しかも簡単、明太子パスタ｜クラシル｜#shorts」のレシピです。"
   },
   {
     "title": "イタリアではこうする！｜一番美味しいトマトパスタの作り方#shorts",
@@ -20586,9 +20243,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、トマト、にんにく。「イタリアではこうする！｜一番美味しいトマトパスタの作り方#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、トマト、にんにくを使う「イタリアではこうする！｜一番美味しいトマトパスタの作り方#shorts」のレシピです。"
   },
   {
     "title": "思い出の喫茶店の味【たらこスパゲッティ】",
@@ -20600,10 +20255,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/wq82wx3zRdo/maxresdefault.jpg",
     "creator": "【賛否両論】笠原将弘の料理のほそ道",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -20613,12 +20269,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: パスタ。「思い出の喫茶店の味【たらこスパゲッティ】」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。白身魚、パスタを使う「思い出の喫茶店の味【たらこスパゲッティ】」のレシピです。"
   },
   {
     "title": "【革命的な冷製パスタ】超簡単な冷やし坦々風パスタが美味すぎるので紹介します。 #パスタ #レシピ #簡単レシピ #shorts",
@@ -20646,9 +20301,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: パスタ。「【革命的な冷製パスタ】超簡単な冷やし坦々風パスタが美味すぎるので紹介します。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。パスタを使う「【革命的な冷製パスタ】超簡単な冷やし坦々風パスタが美味すぎるので紹介します。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "マヨで食うパスタがうますぎた。",
@@ -20664,6 +20317,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -20675,14 +20329,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "パスタ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: パスタ、にんにく、マヨネーズ。「マヨで食うパスタがうますぎた。」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、にんにく、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、パスタ、にんにく、マヨネーズを使う「マヨで食うパスタがうますぎた。」のレシピです。"
   },
   {
     "title": "『幸せのパスタ』がフライパン１つでできて世界1旨い件",
@@ -20718,9 +20371,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "卵、パスタ、昆布、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、パスタ、昆布、にんにく、バター。「『幸せのパスタ』がフライパン１つでできて世界1旨い件」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、パスタ、昆布、にんにく、バターを使う「『幸せのパスタ』がフライパン１つでできて世界1旨い件」のレシピです。"
   },
   {
     "title": "【ラーメン二郎パスタ】イタリアンシェフがたどり着いた！#shorts",
@@ -20754,9 +20405,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ラーメン、パスタ、キャベツ、もやし、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ラーメン、パスタ、キャベツ、もやし、にんにく。「【ラーメン二郎パスタ】イタリアンシェフがたどり着いた！#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ラーメン、パスタ、キャベツ、もやし、にんにくを使う「【ラーメン二郎パスタ】イタリアンシェフがたどり着いた！#shorts」のレシピです。"
   },
   {
     "title": "トマトのペペロンチーノ【トマト缶】で作る絶品パスタ！#shorts",
@@ -20772,6 +20421,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -20783,14 +20433,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "tomato",
       "garlic"
     ],
-    "rawIngredients": "パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、トマト、にんにく。「トマトのペペロンチーノ【トマト缶】で作る絶品パスタ！#shorts」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、トマト、にんにく",
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。白身魚、パスタ、トマト、にんにくを使う「トマトのペペロンチーノ【トマト缶】で作る絶品パスタ！#shorts」のレシピです。"
   },
   {
     "title": "やる気1%で背徳の塩こんぶバターパスタ",
@@ -20806,6 +20455,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -20817,14 +20467,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "green_onion",
       "butter"
     ],
-    "rawIngredients": "パスタ、ネギ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: パスタ、ネギ、バター。「やる気1%で背徳の塩こんぶバターパスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、ネギ、バター",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、パスタ、ネギ、バターを使う「やる気1%で背徳の塩こんぶバターパスタ」のレシピです。"
   },
   {
     "title": "レンジでできる人生最高に美味しい明太子パスタ",
@@ -20857,9 +20506,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "パスタ、昆布、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: パスタ、昆布、バター、マヨネーズ。「レンジでできる人生最高に美味しい明太子パスタ」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。パスタ、昆布、バター、マヨネーズを使う「レンジでできる人生最高に美味しい明太子パスタ」のレシピです。"
   },
   {
     "title": "【ワンパンパスタレシピ10選】別ゆでいらず！フライパン1つで完成♪｜macaroni（マカロニ）",
@@ -20908,9 +20555,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "豚肉、ベーコン、貝、ツナ、卵、パスタ、キャベツ、napa_cabbage、ネギ、トマト、大根、しめじ、にんにく、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 豚肉、ベーコン、貝、ツナ、卵、パスタ、キャベツ、napa_cabbage、ネギ、トマト、大根、しめじ、にんにく、チーズ、牛乳。「【ワンパンパスタレシピ10選】別ゆでいらず！フライパン1つで完成♪｜macaroni（マカロニ）」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。豚肉、ベーコン、貝、ツナ、卵、パスタ、キャベツ、napa_cabbage、ネギ、トマト、大根、しめじ、にんにく、チーズ、牛乳を使う「【ワンパンパスタレシピ10選】別ゆでいらず！フライパン1つで完成♪｜macaroni（マカロニ）」のレシピです。"
   },
   {
     "title": "【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい #リュウジ #料理 #shorts",
@@ -20922,10 +20567,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/_iAn2wKW_Xw/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -20935,12 +20581,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ。「【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい #リュウジ #料理 #shorts」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタを使う「【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい #リュウジ #料理 #shorts」のレシピです。"
   },
   {
     "title": "【覚えて損なし】豚肉ときのこで作る「うちの和風パスタ」 #料理#パスタ#スパゲッティ",
@@ -20957,6 +20602,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "きのこ",
@@ -20971,6 +20617,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "pasta",
       "green_onion",
       "enoki",
@@ -20978,10 +20625,8 @@ const recipes = [
       "garlic",
       "butter"
     ],
-    "rawIngredients": "豚肉、パスタ、ネギ、えのき茸、しめじ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パパイズム 〜レシピ考える人〜料理人、イタリアン〜の実在動画。食材候補: 豚肉、パスタ、ネギ、えのき茸、しめじ、にんにく、バター。「【覚えて損なし】豚肉ときのこで作る「うちの和風パスタ」 #料理#パスタ#スパゲッティ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、パスタ、ネギ、えのき茸、しめじ、にんにく、バター",
+    "description": "パパイズム 〜レシピ考える人〜料理人、イタリアン〜の実在動画。豚肉、白身魚、パスタ、ネギ、えのき茸、しめじ、にんにく、バターを使う「【覚えて損なし】豚肉ときのこで作る「うちの和風パスタ」 #料理#パスタ#スパゲッティ」のレシピです。"
   },
   {
     "title": "【節約・ダイエットレシピ】たったの170円で作れる『和風旨みパスタ』",
@@ -20998,28 +20643,28 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
     ],
     "oil": 3,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "pasta",
       "komatsuna",
       "green_onion",
       "kombu",
       "ginger"
     ],
-    "rawIngredients": "豚肉、パスタ、小松菜、ネギ、昆布、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "簡単うまレシピの実在動画。食材候補: 豚肉、パスタ、小松菜、ネギ、昆布、ショウガ。「【節約・ダイエットレシピ】たったの170円で作れる『和風旨みパスタ』」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、パスタ、小松菜、ネギ、昆布、ショウガ",
+    "description": "簡単うまレシピの実在動画。豚肉、白身魚、パスタ、小松菜、ネギ、昆布、ショウガを使う「【節約・ダイエットレシピ】たったの170円で作れる『和風旨みパスタ』」のレシピです。"
   },
   {
     "title": "レンジ1発で満腹！和風スープパスタ #簡単レシピ #胃袋泥棒レシピ",
@@ -21047,9 +20692,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: パスタ。「レンジ1発で満腹！和風スープパスタ #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。パスタを使う「レンジ1発で満腹！和風スープパスタ #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "ワンパン＆包丁なし！ケチャップツナパスタ ｜ How To Make Ketchup Tuna Pasta",
@@ -21077,15 +20720,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "egg",
       "pasta",
       "garlic"
     ],
-    "rawIngredients": "ツナ、卵、パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: ツナ、卵、パスタ、にんにく。「ワンパン＆包丁なし！ケチャップツナパスタ ｜ How To Make Ketchup Tuna Pasta」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、卵、パスタ、にんにく",
+    "description": "デリッシュキッチンの実在動画。白身魚、ツナ、卵、パスタ、にんにくを使う「ワンパン＆包丁なし！ケチャップツナパスタ ｜ How To Make Ketchup Tuna Pasta」のレシピです。"
   },
   {
     "title": "【時短レシピ】トマトとたっぷり魚介のお家パスタが旨すぎて幸！#簡単レシピ #パスタ #料理",
@@ -21119,9 +20761,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "パスタ、トマト、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: パスタ、トマト、にんにく、チーズ。「【時短レシピ】トマトとたっぷり魚介のお家パスタが旨すぎて幸！#簡単レシピ #パスタ #料理」のレシピです。"
+    "description": "深夜食堂の実在動画。パスタ、トマト、にんにく、チーズを使う「【時短レシピ】トマトとたっぷり魚介のお家パスタが旨すぎて幸！#簡単レシピ #パスタ #料理」のレシピです。"
   },
   {
     "title": "革命！｜イタリア人に教わった【トマトクリームパスタ】トマトペーストで簡単パスタ#shorts",
@@ -21154,9 +20794,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "パスタ、トマト、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、トマト、チーズ、バター。「革命！｜イタリア人に教わった【トマトクリームパスタ】トマトペーストで簡単パスタ#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、トマト、チーズ、バターを使う「革命！｜イタリア人に教わった【トマトクリームパスタ】トマトペーストで簡単パスタ#shorts」のレシピです。"
   },
   {
     "title": "お皿１つで完璧な味わい！レンジで楽チンペペロンチーノ",
@@ -21172,6 +20810,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -21183,14 +20822,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "パスタ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: パスタ、にんにく、バター。「お皿１つで完璧な味わい！レンジで楽チンペペロンチーノ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、にんにく、バター",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、パスタ、にんにく、バターを使う「お皿１つで完璧な味わい！レンジで楽チンペペロンチーノ」のレシピです。"
   },
   {
     "title": "あの有名店の絶望的にウマい究極のパスタを再現しました。【絶望のパスタ】#shorts #リュウジ #パスタ",
@@ -21206,6 +20844,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -21215,12 +20854,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ。「あの有名店の絶望的にウマい究極のパスタを再現しました。【絶望のパスタ】#shorts #リュウジ #パスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタを使う「あの有名店の絶望的にウマい究極のパスタを再現しました。【絶望のパスタ】#shorts #リュウジ #パスタ」のレシピです。"
   },
   {
     "title": "超さっぱり『冷しゃぶ冷製パスタ』 #簡単レシピ",
@@ -21250,9 +20888,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "パスタ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずニコの実在動画。食材候補: パスタ、ショウガ。「超さっぱり『冷しゃぶ冷製パスタ』 #簡単レシピ」のレシピです。"
+    "description": "かずニコの実在動画。パスタ、ショウガを使う「超さっぱり『冷しゃぶ冷製パスタ』 #簡単レシピ」のレシピです。"
   },
   {
     "title": "ワンパンでねぎ塩ツナパスタ",
@@ -21280,15 +20916,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "ツナ、パスタ、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ツナ、パスタ、ネギ、にんにく。「ワンパンでねぎ塩ツナパスタ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、ネギ、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、ツナ、パスタ、ネギ、にんにくを使う「ワンパンでねぎ塩ツナパスタ」のレシピです。"
   },
   {
     "title": "冷製パスタの概念変わるぞこれ...【冷製トマト缶パスタ】#shorts #リュウジ #トマト #缶詰 #パスタ #冷製パスタ #レシピ #料理",
@@ -21311,12 +20946,13 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "tomato",
@@ -21324,10 +20960,8 @@ const recipes = [
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "ツナ、パスタ、トマト、昆布、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ツナ、パスタ、トマト、昆布、にんにく、チーズ。「冷製パスタの概念変わるぞこれ...【冷製トマト缶パスタ】#shorts #リュウジ #トマト #缶詰 #パスタ #冷製パスタ #レシピ #料理」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、トマト、昆布、にんにく、チーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、ツナ、パスタ、トマト、昆布、にんにく、チーズを使う「冷製パスタの概念変わるぞこれ...【冷製トマト缶パスタ】#shorts #リュウジ #トマト #缶詰 #パスタ #冷製パスタ #レシピ #料理」のレシピです。"
   },
   {
     "title": "ワンパンでソーセージペペロンチーノ",
@@ -21343,6 +20977,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -21354,14 +20989,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "パスタ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: パスタ、にんにく、チーズ。「ワンパンでソーセージペペロンチーノ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、にんにく、チーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、パスタ、にんにく、チーズを使う「ワンパンでソーセージペペロンチーノ」のレシピです。"
   },
   {
     "title": "ナポリタンを自宅で簡単に美味しく作るためのコツを伝授",
@@ -21395,9 +21029,7 @@ const recipes = [
       "carrot"
     ],
     "rawIngredients": "パスタ、ネギ、ピーマン、玉ねぎ、にんじん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: パスタ、ネギ、ピーマン、玉ねぎ、にんじん。「ナポリタンを自宅で簡単に美味しく作るためのコツを伝授」のレシピです。"
+    "description": "あおいの給食室🔪の実在動画。パスタ、ネギ、ピーマン、玉ねぎ、にんじんを使う「ナポリタンを自宅で簡単に美味しく作るためのコツを伝授」のレシピです。"
   },
   {
     "title": "400万再生越え！パスタを美味しく冷凍する方法 #簡単レシピ #料理 #ライフハック #時短レシピ #レシピ #主婦の知恵 #パスタ #パスタレシピ #ぱすた #shorts いい#知ってて得する",
@@ -21413,6 +21045,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -21422,12 +21055,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "冷凍子ママの実在動画。食材候補: パスタ。「400万再生越え！パスタを美味しく冷凍する方法 #簡単レシピ #料理 #ライフハック #時短レシピ #レシピ #主婦の知恵 #パスタ #パスタレシピ #ぱすた #shorts いい#知ってて得する」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "冷凍子ママの実在動画。白身魚、パスタを使う「400万再生越え！パスタを美味しく冷凍する方法 #簡単レシピ #料理 #ライフハック #時短レシピ #レシピ #主婦の知恵 #パスタ #パスタレシピ #ぱすた #shorts いい#知ってて得する」のレシピです。"
   },
   {
     "title": "イタリア人に教わった【アラビアータ】トマトペーストでお手軽｜賄いパスタ#shorts",
@@ -21456,14 +21088,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "yellowtail",
+      "whitefish",
       "pasta",
       "tomato",
       "garlic"
     ],
-    "rawIngredients": "ブリ、パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ブリ、パスタ、トマト、にんにく。「イタリア人に教わった【アラビアータ】トマトペーストでお手軽｜賄いパスタ#shorts」のレシピです。"
+    "rawIngredients": "ブリ、白身魚、パスタ、トマト、にんにく",
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ブリ、白身魚、パスタ、トマト、にんにくを使う「イタリア人に教わった【アラビアータ】トマトペーストでお手軽｜賄いパスタ#shorts」のレシピです。"
   },
   {
     "title": "これまじでカルボナーラ越えました。目玉焼き作ってパスタに乗せる目玉焼きパスタが廃人レベルにウマい #リュウジ #ベーコン #目玉焼き #ベーコンエッグ #パスタ #レシピ #料理 #バズレシピ",
@@ -21481,6 +21112,7 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -21496,6 +21128,7 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "lettuce",
@@ -21503,10 +21136,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "鶏肉、ベーコン、卵、パスタ、レタス、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、ベーコン、卵、パスタ、レタス、にんにく、チーズ、バター。「これまじでカルボナーラ越えました。目玉焼き作ってパスタに乗せる目玉焼きパスタが廃人レベルにウマい #リュウジ #ベーコン #目玉焼き #ベーコンエッグ #パスタ #レシピ #料理 #バズレシピ」のレシピです。"
+    "rawIngredients": "鶏肉、ベーコン、白身魚、卵、パスタ、レタス、にんにく、チーズ、バター",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、ベーコン、白身魚、卵、パスタ、レタス、にんにく、チーズ、バターを使う「これまじでカルボナーラ越えました。目玉焼き作ってパスタに乗せる目玉焼きパスタが廃人レベルにウマい #リュウジ #ベーコン #目玉焼き #ベーコンエッグ #パスタ #レシピ #料理 #バズレシピ」のレシピです。"
   },
   {
     "title": "キャベツとツナの和風パスタのレシピ",
@@ -21534,15 +21165,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "cabbage",
       "butter"
     ],
-    "rawIngredients": "ツナ、パスタ、キャベツ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パーティレシピ動画スマパリの実在動画。食材候補: ツナ、パスタ、キャベツ、バター。「キャベツとツナの和風パスタのレシピ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、キャベツ、バター",
+    "description": "パーティレシピ動画スマパリの実在動画。白身魚、ツナ、パスタ、キャベツ、バターを使う「キャベツとツナの和風パスタのレシピ」のレシピです。"
   },
   {
     "title": "【秘密を解き明かす】ボウルパスタの真骨頂なめらか明太子パスタ【アロマフレスカ・原田慎次】｜クラシル #シェフのレシピ帖",
@@ -21570,9 +21200,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: パスタ。「【秘密を解き明かす】ボウルパスタの真骨頂なめらか明太子パスタ【アロマフレスカ・原田慎次】｜クラシル #シェフのレシピ帖」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。パスタを使う「【秘密を解き明かす】ボウルパスタの真骨頂なめらか明太子パスタ【アロマフレスカ・原田慎次】｜クラシル #シェフのレシピ帖」のレシピです。"
   },
   {
     "title": "フライパン１つで完成！和風明太マヨパスタ",
@@ -21588,6 +21216,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -21599,15 +21228,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "green_onion",
       "butter",
       "mayonnaise"
     ],
-    "rawIngredients": "パスタ、ネギ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: パスタ、ネギ、バター、マヨネーズ。「フライパン１つで完成！和風明太マヨパスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、ネギ、バター、マヨネーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、パスタ、ネギ、バター、マヨネーズを使う「フライパン１つで完成！和風明太マヨパスタ」のレシピです。"
   },
   {
     "title": "「ほんだし®︎」ってじつはパスタとも相性抜群なの知ってた？？",
@@ -21623,6 +21251,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -21635,15 +21264,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "pasta",
       "green_onion",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、パスタ、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、パスタ、ネギ、マヨネーズ。「「ほんだし®︎」ってじつはパスタとも相性抜群なの知ってた？？」のレシピです。"
+    "rawIngredients": "白身魚、卵、パスタ、ネギ、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、パスタ、ネギ、マヨネーズを使う「「ほんだし®︎」ってじつはパスタとも相性抜群なの知ってた？？」のレシピです。"
   },
   {
     "title": "思わず悶絶してしまうほどガチで旨い『和風パスタ』を食べたことはありますか？",
@@ -21682,9 +21310,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "豚肉、たこ、パスタ、ネギ、昆布、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、たこ、パスタ、ネギ、昆布、にんにく、バター。「思わず悶絶してしまうほどガチで旨い『和風パスタ』を食べたことはありますか？」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、たこ、パスタ、ネギ、昆布、にんにく、バターを使う「思わず悶絶してしまうほどガチで旨い『和風パスタ』を食べたことはありますか？」のレシピです。"
   },
   {
     "title": "【店級のパスタが食べい人必見】激うまボロネーゼ #マッチョ #料理 #元カレ #筋肉番付 #暮らしチャンネル #パスタ #簡単 #cooking #飯テロ",
@@ -21712,9 +21338,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マッチョ元カレごはんがうますぎるの実在動画。食材候補: パスタ。「【店級のパスタが食べい人必見】激うまボロネーゼ #マッチョ #料理 #元カレ #筋肉番付 #暮らしチャンネル #パスタ #簡単 #cooking #飯テロ」のレシピです。"
+    "description": "マッチョ元カレごはんがうますぎるの実在動画。パスタを使う「【店級のパスタが食べい人必見】激うまボロネーゼ #マッチョ #料理 #元カレ #筋肉番付 #暮らしチャンネル #パスタ #簡単 #cooking #飯テロ」のレシピです。"
   },
   {
     "title": "【レンチン1回】にんにく醤油パスタ🍝#shots",
@@ -21744,9 +21368,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: パスタ、にんにく。「【レンチン1回】にんにく醤油パスタ🍝#shots」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。パスタ、にんにくを使う「【レンチン1回】にんにく醤油パスタ🍝#shots」のレシピです。"
   },
   {
     "title": "洗い物ほぼないと言っても過言ではない【鮭丸ごとクリームパスタ】詳しいレシピは概要欄をチェック！#鮭#サーモン#パスタ#スパゲッティ#クリームパスタ#簡単レシピ#ほうれん草#ワンパンレシピ#レシピ動画",
@@ -21775,15 +21397,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "pasta",
       "spinach",
       "butter",
       "milk"
     ],
-    "rawIngredients": "サケ、パスタ、ほうれん草、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: サケ、パスタ、ほうれん草、バター、牛乳。「洗い物ほぼないと言っても過言ではない【鮭丸ごとクリームパスタ】詳しいレシピは概要欄をチェック！#鮭#サーモン#パスタ#スパゲッティ#クリームパスタ#簡単レシピ#ほうれん草#ワンパンレシピ#レシピ動画」のレシピです。"
+    "rawIngredients": "サケ、白身魚、パスタ、ほうれん草、バター、牛乳",
+    "description": "デリッシュキッチンの実在動画。サケ、白身魚、パスタ、ほうれん草、バター、牛乳を使う「洗い物ほぼないと言っても過言ではない【鮭丸ごとクリームパスタ】詳しいレシピは概要欄をチェック！#鮭#サーモン#パスタ#スパゲッティ#クリームパスタ#簡単レシピ#ほうれん草#ワンパンレシピ#レシピ動画」のレシピです。"
   },
   {
     "title": "【茹でて混ぜるだけ】明太子パスタならこれ。 #パスタ",
@@ -21816,9 +21437,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "パスタ、にんにく、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: パスタ、にんにく、バター、牛乳。「【茹でて混ぜるだけ】明太子パスタならこれ。 #パスタ」のレシピです。"
+    "description": "深夜食堂の実在動画。パスタ、にんにく、バター、牛乳を使う「【茹でて混ぜるだけ】明太子パスタならこれ。 #パスタ」のレシピです。"
   },
   {
     "title": "2026年6月8日",
@@ -21835,6 +21454,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -21848,6 +21468,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "pasta",
       "green_onion",
       "onion",
@@ -21855,10 +21476,8 @@ const recipes = [
       "butter",
       "milk"
     ],
-    "rawIngredients": "豚肉、パスタ、ネギ、玉ねぎ、にんにく、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あやか⌇10分で作れる褒められパスタの実在動画。食材候補: 豚肉、パスタ、ネギ、玉ねぎ、にんにく、バター、牛乳。「2026年6月8日」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、パスタ、ネギ、玉ねぎ、にんにく、バター、牛乳",
+    "description": "あやか⌇10分で作れる褒められパスタの実在動画。豚肉、白身魚、パスタ、ネギ、玉ねぎ、にんにく、バター、牛乳を使う「2026年6月8日」のレシピです。"
   },
   {
     "title": "【ミルクパスタ】牛乳で作るクリームパスタの作り方 #料理 #レシピ",
@@ -21888,9 +21507,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "パスタ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "をにぎらーの実在動画。食材候補: パスタ、牛乳。「【ミルクパスタ】牛乳で作るクリームパスタの作り方 #料理 #レシピ」のレシピです。"
+    "description": "をにぎらーの実在動画。パスタ、牛乳を使う「【ミルクパスタ】牛乳で作るクリームパスタの作り方 #料理 #レシピ」のレシピです。"
   },
   {
     "title": "元高級ホテル料理人が教える、滑らかぁ〜な明太子パスタの作り方!!",
@@ -21918,14 +21535,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "canned_tuna",
       "pasta",
       "cheese"
     ],
-    "rawIngredients": "サケ、ツナ、パスタ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ツナボーイ🐟の実在動画。食材候補: サケ、ツナ、パスタ、チーズ。「元高級ホテル料理人が教える、滑らかぁ〜な明太子パスタの作り方!!」のレシピです。"
+    "rawIngredients": "サケ、白身魚、ツナ、パスタ、チーズ",
+    "description": "ツナボーイ🐟の実在動画。サケ、白身魚、ツナ、パスタ、チーズを使う「元高級ホテル料理人が教える、滑らかぁ〜な明太子パスタの作り方!!」のレシピです。"
   },
   {
     "title": "一口で「作って良かった」と必ず思わせてみせます。料理研究家が人生を懸けた【至高のトマトソースパスタ 】",
@@ -21941,6 +21557,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -21952,15 +21569,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "tomato",
       "onion",
       "garlic"
     ],
-    "rawIngredients": "パスタ、トマト、玉ねぎ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ、トマト、玉ねぎ、にんにく。「一口で「作って良かった」と必ず思わせてみせます。料理研究家が人生を懸けた【至高のトマトソースパスタ 】」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、トマト、玉ねぎ、にんにく",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタ、トマト、玉ねぎ、にんにくを使う「一口で「作って良かった」と必ず思わせてみせます。料理研究家が人生を懸けた【至高のトマトソースパスタ 】」のレシピです。"
   },
   {
     "title": "【絶品パスタ３選】ツナを使った最高に旨いパスタレシピ #パスタ #レシピ #shorts",
@@ -22000,9 +21616,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "ツナ、パスタ、ネギ、玉ねぎ、昆布、にんにく、チーズ、バター、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: ツナ、パスタ、ネギ、玉ねぎ、昆布、にんにく、チーズ、バター、マヨネーズ。「【絶品パスタ３選】ツナを使った最高に旨いパスタレシピ #パスタ #レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。ツナ、パスタ、ネギ、玉ねぎ、昆布、にんにく、チーズ、バター、マヨネーズを使う「【絶品パスタ３選】ツナを使った最高に旨いパスタレシピ #パスタ #レシピ #shorts」のレシピです。"
   },
   {
     "title": "1食150円、33歳限界OLのトマトクリームパスタ弁当#shorts#簡単レシピ#パスタ",
@@ -22014,7 +21628,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/fKiWxN4S2v0/maxresdefault.jpg",
     "creator": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
@@ -22031,6 +21645,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "pasta",
       "green_onion",
@@ -22040,10 +21655,8 @@ const recipes = [
       "cheese",
       "milk"
     ],
-    "rawIngredients": "ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。食材候補: ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、牛乳。「1食150円、33歳限界OLのトマトクリームパスタ弁当#shorts#簡単レシピ#パスタ」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、牛乳",
+    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。白身魚、ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、牛乳を使う「1食150円、33歳限界OLのトマトクリームパスタ弁当#shorts#簡単レシピ#パスタ」のレシピです。"
   },
   {
     "title": "包丁も火も使いません【レンチントマトクリームパスタ】詳しくはDELISH KITCHENアプリでレシピ名を検索♪ #簡単レシピ #レンジ #パスタ #レンジ調理",
@@ -22081,9 +21694,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "ベーコン、パスタ、ネギ、トマト、玉ねぎ、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: ベーコン、パスタ、ネギ、トマト、玉ねぎ、チーズ、牛乳。「包丁も火も使いません【レンチントマトクリームパスタ】詳しくはDELISH KITCHENアプリでレシピ名を検索♪ #簡単レシピ #レンジ #パスタ #レンジ調理」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。ベーコン、パスタ、ネギ、トマト、玉ねぎ、チーズ、牛乳を使う「包丁も火も使いません【レンチントマトクリームパスタ】詳しくはDELISH KITCHENアプリでレシピ名を検索♪ #簡単レシピ #レンジ #パスタ #レンジ調理」のレシピです。"
   },
   {
     "title": "忙しい人必見！簡単お手軽！10分で作れる和風ツナパスタのレシピ #shorts #recipe #パスタ",
@@ -22116,9 +21727,7 @@ const recipes = [
       "lettuce"
     ],
     "rawIngredients": "ツナ、ラーメン、パスタ、レタス",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: ツナ、ラーメン、パスタ、レタス。「忙しい人必見！簡単お手軽！10分で作れる和風ツナパスタのレシピ #shorts #recipe #パスタ」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。ツナ、ラーメン、パスタ、レタスを使う「忙しい人必見！簡単お手軽！10分で作れる和風ツナパスタのレシピ #shorts #recipe #パスタ」のレシピです。"
   },
   {
     "title": "視聴者に聞いた貧乏パスタTOP3",
@@ -22146,9 +21755,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "OTAKE【節約オタク】の実在動画。食材候補: パスタ。「視聴者に聞いた貧乏パスタTOP3」のレシピです。"
+    "description": "OTAKE【節約オタク】の実在動画。パスタを使う「視聴者に聞いた貧乏パスタTOP3」のレシピです。"
   },
   {
     "title": "リュウジとかいうYouTuberより断然旨いペペロンチーノの作り方",
@@ -22165,6 +21772,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -22177,15 +21785,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "rice_noodles",
       "pasta",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "鶏肉、ビーフン・フォー、パスタ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、ビーフン・フォー、パスタ、にんにく、バター。「リュウジとかいうYouTuberより断然旨いペペロンチーノの作り方」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、ビーフン・フォー、パスタ、にんにく、バター",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、白身魚、ビーフン・フォー、パスタ、にんにく、バターを使う「リュウジとかいうYouTuberより断然旨いペペロンチーノの作り方」のレシピです。"
   },
   {
     "title": "世界最小のパスタ！チュニジア料理をW杯戦の前に喰らい尽くす！【ワールドカップ】",
@@ -22213,9 +21820,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ひみつ基地。の実在動画。食材候補: パスタ。「世界最小のパスタ！チュニジア料理をW杯戦の前に喰らい尽くす！【ワールドカップ】」のレシピです。"
+    "description": "ひみつ基地。の実在動画。パスタを使う「世界最小のパスタ！チュニジア料理をW杯戦の前に喰らい尽くす！【ワールドカップ】」のレシピです。"
   },
   {
     "title": "【ひき肉のパスタ】どうしても紹介したい美味しいパスタです！ #パスタ #レシピ #shorts",
@@ -22245,9 +21850,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "挽肉、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: 挽肉、パスタ。「【ひき肉のパスタ】どうしても紹介したい美味しいパスタです！ #パスタ #レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。挽肉、パスタを使う「【ひき肉のパスタ】どうしても紹介したい美味しいパスタです！ #パスタ #レシピ #shorts」のレシピです。"
   },
   {
     "title": "革命｜トマトペーストで作る秒速【クリームパスタ】ショート動画で1000万再生のリピ確定パスタ！",
@@ -22282,9 +21885,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "貝、パスタ、トマト、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: 貝、パスタ、トマト、チーズ、バター。「革命｜トマトペーストで作る秒速【クリームパスタ】ショート動画で1000万再生のリピ確定パスタ！」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。貝、パスタ、トマト、チーズ、バターを使う「革命｜トマトペーストで作る秒速【クリームパスタ】ショート動画で1000万再生のリピ確定パスタ！」のレシピです。"
   },
   {
     "title": "超簡単【レンチンパスタ】白だしを混ぜてチンするだけですぐ食べられる♪市販のパスタもう買えない",
@@ -22318,9 +21919,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ベーコン、パスタ、しめじ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: ベーコン、パスタ、しめじ、にんにく。「超簡単【レンチンパスタ】白だしを混ぜてチンするだけですぐ食べられる♪市販のパスタもう買えない」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。ベーコン、パスタ、しめじ、にんにくを使う「超簡単【レンチンパスタ】白だしを混ぜてチンするだけですぐ食べられる♪市販のパスタもう買えない」のレシピです。"
   },
   {
     "title": "某チェーン店さん本当にごめんなさいパスタ#shorts #リュウジ #カプリチョーザ #再現 #レシピ #パスタ #料理",
@@ -22356,9 +21955,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ。「某チェーン店さん本当にごめんなさいパスタ#shorts #リュウジ #カプリチョーザ #再現 #レシピ #パスタ #料理」のレシピです。"
+    "description": "料理研究家リュウジのバズレシピの実在動画。パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズを使う「某チェーン店さん本当にごめんなさいパスタ#shorts #リュウジ #カプリチョーザ #再現 #レシピ #パスタ #料理」のレシピです。"
   },
   {
     "title": "240万回再生された ”松茸の味お吸いもの” だけで味が完璧に決まる悶絶パスタの作り方",
@@ -22386,9 +21983,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: パスタ。「240万回再生された ”松茸の味お吸いもの” だけで味が完璧に決まる悶絶パスタの作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。パスタを使う「240万回再生された ”松茸の味お吸いもの” だけで味が完璧に決まる悶絶パスタの作り方」のレシピです。"
   },
   {
     "title": "【極みパスタ】海老の旨みをふんだんに使った最強ペペロンチーノです。 #パスタ #レシピ #簡単レシピ #レシピ動画 #ワンパンパスタ #shorts",
@@ -22418,9 +22013,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "えび、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: えび、パスタ。「【極みパスタ】海老の旨みをふんだんに使った最強ペペロンチーノです。 #パスタ #レシピ #簡単レシピ #レシピ動画 #ワンパンパスタ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。えび、パスタを使う「【極みパスタ】海老の旨みをふんだんに使った最強ペペロンチーノです。 #パスタ #レシピ #簡単レシピ #レシピ動画 #ワンパンパスタ #shorts」のレシピです。"
   },
   {
     "title": "イタリアンシェフが教える想像を超えるパスタ「ミントとチーズのスパゲッティー」【イタリアンプロ養成講座 vol.197】",
@@ -22436,18 +22029,20 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "tomato",
       "ginger",
@@ -22455,10 +22050,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "パスタ、トマト、ショウガ、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "小倉知巳のイタリアンプロ養成講座の実在動画。食材候補: パスタ、トマト、ショウガ、にんにく、チーズ、バター。「イタリアンシェフが教える想像を超えるパスタ「ミントとチーズのスパゲッティー」【イタリアンプロ養成講座 vol.197】」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、トマト、ショウガ、にんにく、チーズ、バター",
+    "description": "小倉知巳のイタリアンプロ養成講座の実在動画。白身魚、パスタ、トマト、ショウガ、にんにく、チーズ、バターを使う「イタリアンシェフが教える想像を超えるパスタ「ミントとチーズのスパゲッティー」【イタリアンプロ養成講座 vol.197】」のレシピです。"
   },
   {
     "title": "SNSで鬼バズってる料理長のレベルが違いすぎる",
@@ -22476,28 +22069,28 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "beef",
       "chicken",
+      "whitefish",
       "tofu",
       "pasta",
       "green_onion",
       "tomato"
     ],
-    "rawIngredients": "牛肉、鶏肉、豆腐、パスタ、ネギ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 牛肉、鶏肉、豆腐、パスタ、ネギ、トマト。「SNSで鬼バズってる料理長のレベルが違いすぎる」のレシピです。"
+    "rawIngredients": "牛肉、鶏肉、白身魚、豆腐、パスタ、ネギ、トマト",
+    "description": "料理研究家リュウジのバズレシピの実在動画。牛肉、鶏肉、白身魚、豆腐、パスタ、ネギ、トマトを使う「SNSで鬼バズってる料理長のレベルが違いすぎる」のレシピです。"
   },
   {
     "title": "【シンプルこそ至高】ミニトマトのパスタが超簡単でお店レベルの旨さでした。 #パスタ #レシピ #簡単レシピ #shorts",
@@ -22527,9 +22120,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: パスタ、トマト。「【シンプルこそ至高】ミニトマトのパスタが超簡単でお店レベルの旨さでした。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。パスタ、トマトを使う「【シンプルこそ至高】ミニトマトのパスタが超簡単でお店レベルの旨さでした。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "これ以上のナポリタンを僕は知らない…【至高のナポリタン】『Japanese style pasta Napolitana』",
@@ -22545,18 +22136,20 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "green_onion",
       "bell_pepper",
@@ -22564,10 +22157,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バター。「これ以上のナポリタンを僕は知らない…【至高のナポリタン】『Japanese style pasta Napolitana』」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バター",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バターを使う「これ以上のナポリタンを僕は知らない…【至高のナポリタン】『Japanese style pasta Napolitana』」のレシピです。"
   },
   {
     "title": "【ワンパン15分】トマトクリームパスタはコレだ！ #パスタ",
@@ -22604,9 +22195,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "ベーコン、えび、パスタ、ネギ、トマト、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: ベーコン、えび、パスタ、ネギ、トマト、牛乳。「【ワンパン15分】トマトクリームパスタはコレだ！ #パスタ」のレシピです。"
+    "description": "深夜食堂の実在動画。ベーコン、えび、パスタ、ネギ、トマト、牛乳を使う「【ワンパン15分】トマトクリームパスタはコレだ！ #パスタ」のレシピです。"
   },
   {
     "title": "どハマりパスタ",
@@ -22634,9 +22223,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: パスタ。「どハマりパスタ」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。パスタを使う「どハマりパスタ」のレシピです。"
   },
   {
     "title": "【10分で完成】簡単すぎる絶品パスタレシピ10選🍝忙しい日の神ごはん！節約×時短×大満足！",
@@ -22685,9 +22272,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "挽肉、ベーコン、サケ、卵、そうめん、パスタ、ネギ、トマト、玉ねぎ、しめじ、にんにく、チーズ、バター、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 挽肉、ベーコン、サケ、卵、そうめん、パスタ、ネギ、トマト、玉ねぎ、しめじ、にんにく、チーズ、バター、マヨネーズ、牛乳。「【10分で完成】簡単すぎる絶品パスタレシピ10選🍝忙しい日の神ごはん！節約×時短×大満足！」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。挽肉、ベーコン、サケ、卵、そうめん、パスタ、ネギ、トマト、玉ねぎ、しめじ、にんにく、チーズ、バター、マヨネーズ、牛乳を使う「【10分で完成】簡単すぎる絶品パスタレシピ10選🍝忙しい日の神ごはん！節約×時短×大満足！」のレシピです。"
   },
   {
     "title": "【ワンパン10分で作れる◎】ミートソースパスタ #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #ワンパンレシピ #パスタレシピ",
@@ -22704,29 +22289,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "pasta",
       "green_onion",
       "onion",
       "carrot",
       "cheese"
     ],
-    "rawIngredients": "挽肉、パスタ、ネギ、玉ねぎ、にんじん、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラクうま料理ちゃんねるの実在動画。食材候補: 挽肉、パスタ、ネギ、玉ねぎ、にんじん、チーズ。「【ワンパン10分で作れる◎】ミートソースパスタ #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #ワンパンレシピ #パスタレシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、パスタ、ネギ、玉ねぎ、にんじん、チーズ",
+    "description": "ラクうま料理ちゃんねるの実在動画。挽肉、白身魚、パスタ、ネギ、玉ねぎ、にんじん、チーズを使う「【ワンパン10分で作れる◎】ミートソースパスタ #cooking #shorts #簡単レシピ #時短レシピ #節約レシピ #ワンパンレシピ #パスタレシピ」のレシピです。"
   },
   {
     "title": "【試作100回以上！極上カルボナーラ】",
@@ -22743,6 +22328,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "チーズ・バター・マヨ系"
@@ -22755,15 +22341,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "cheese",
       "milk"
     ],
-    "rawIngredients": "ベーコン、卵、パスタ、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ベーコン、卵、パスタ、チーズ、牛乳。「【試作100回以上！極上カルボナーラ】」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、パスタ、チーズ、牛乳",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。ベーコン、白身魚、卵、パスタ、チーズ、牛乳を使う「【試作100回以上！極上カルボナーラ】」のレシピです。"
   },
   {
     "title": "海老クリームパスタの作り方｜フライパン1つで簡単！生クリームなしでも濃厚に仕上がる失敗しないクリームパスタレシピ【パスタレシピ・ワンパンレシピ・フライパンレシピ・簡単レシピ】【料理研究家ゆかり】",
@@ -22793,6 +22378,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "shrimp",
       "egg",
       "pasta",
@@ -22804,10 +22390,8 @@ const recipes = [
       "butter",
       "milk"
     ],
-    "rawIngredients": "えび、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: えび、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、バター、牛乳。「海老クリームパスタの作り方｜フライパン1つで簡単！生クリームなしでも濃厚に仕上がる失敗しないクリームパスタレシピ【パスタレシピ・ワンパンレシピ・フライパンレシピ・簡単レシピ】【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "白身魚、えび、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、バター、牛乳",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。白身魚、えび、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ、バター、牛乳を使う「海老クリームパスタの作り方｜フライパン1つで簡単！生クリームなしでも濃厚に仕上がる失敗しないクリームパスタレシピ【パスタレシピ・ワンパンレシピ・フライパンレシピ・簡単レシピ】【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "明日、スーパーから｢パスタ｣が消えます。驚愕のミートソース",
@@ -22825,6 +22409,7 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -22839,6 +22424,7 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "minced_meat",
+      "whitefish",
       "pasta",
       "komatsuna",
       "tomato",
@@ -22846,10 +22432,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "鶏肉、挽肉、パスタ、小松菜、トマト、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、挽肉、パスタ、小松菜、トマト、にんにく、チーズ、バター。「明日、スーパーから｢パスタ｣が消えます。驚愕のミートソース」のレシピです。"
+    "rawIngredients": "鶏肉、挽肉、白身魚、パスタ、小松菜、トマト、にんにく、チーズ、バター",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、挽肉、白身魚、パスタ、小松菜、トマト、にんにく、チーズ、バターを使う「明日、スーパーから｢パスタ｣が消えます。驚愕のミートソース」のレシピです。"
   },
   {
     "title": "【和風パスタ】箸で食べる和風ガーリックきのこパスタ❗️秋にピッタリのパスタです❗️#パスタ#和風#ベーコン#きのこレシピ#料理#簡単レシピ#cooking",
@@ -22866,6 +22450,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "きのこ",
       "根菜",
@@ -22879,15 +22464,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "pasta",
       "shimeji",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "ベーコン、パスタ、しめじ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "速水もこみち Mocomichi Hayamiの実在動画。食材候補: ベーコン、パスタ、しめじ、にんにく、バター。「【和風パスタ】箸で食べる和風ガーリックきのこパスタ❗️秋にピッタリのパスタです❗️#パスタ#和風#ベーコン#きのこレシピ#料理#簡単レシピ#cooking」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、パスタ、しめじ、にんにく、バター",
+    "description": "速水もこみち Mocomichi Hayamiの実在動画。ベーコン、白身魚、パスタ、しめじ、にんにく、バターを使う「【和風パスタ】箸で食べる和風ガーリックきのこパスタ❗️秋にピッタリのパスタです❗️#パスタ#和風#ベーコン#きのこレシピ#料理#簡単レシピ#cooking」のレシピです。"
   },
   {
     "title": "【ひき肉のパスタ】どうしても紹介したい美味しいレシピです🍝😋 #パスタ #レシピ #簡単レシピ #料理 #shorts",
@@ -22917,9 +22501,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "挽肉、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: 挽肉、パスタ。「【ひき肉のパスタ】どうしても紹介したい美味しいレシピです🍝😋 #パスタ #レシピ #簡単レシピ #料理 #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。挽肉、パスタを使う「【ひき肉のパスタ】どうしても紹介したい美味しいレシピです🍝😋 #パスタ #レシピ #簡単レシピ #料理 #shorts」のレシピです。"
   },
   {
     "title": "家にある材料で簡単お手軽パスタ！旨みたっぷり！ツナトマトパスタの作り方",
@@ -22931,7 +22513,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/XQ7SIM5aFbA/maxresdefault.jpg",
     "creator": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "rich",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -22957,9 +22539,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズ。「家にある材料で簡単お手軽パスタ！旨みたっぷり！ツナトマトパスタの作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。ツナ、パスタ、ネギ、トマト、玉ねぎ、にんにく、チーズを使う「家にある材料で簡単お手軽パスタ！旨みたっぷり！ツナトマトパスタの作り方」のレシピです。"
   },
   {
     "title": "【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい",
@@ -22976,6 +22556,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "根菜",
@@ -22989,15 +22570,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "ベーコン、卵、パスタ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: ベーコン、卵、パスタ、にんにく、チーズ。「【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、パスタ、にんにく、チーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。ベーコン、白身魚、卵、パスタ、にんにく、チーズを使う「【最高傑作】ついに人生で一番美味しいカルボナーラが完成したから絶対に見てほしい」のレシピです。"
   },
   {
     "title": "【衝撃的な旨さ】ガリバタチキンパスタ🍝 #パスタ #レシピ #簡単レシピ #shorts",
@@ -23027,9 +22607,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "鶏肉、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: 鶏肉、パスタ。「【衝撃的な旨さ】ガリバタチキンパスタ🍝 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。鶏肉、パスタを使う「【衝撃的な旨さ】ガリバタチキンパスタ🍝 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "【悶絶級の旨さ🍝】海老と大葉のクリームパスタがお店の味超えてます。 #パスタ #レシピ #料理 #簡単レシピ #shorts",
@@ -23059,9 +22637,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "えび、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: えび、パスタ。「【悶絶級の旨さ🍝】海老と大葉のクリームパスタがお店の味超えてます。 #パスタ #レシピ #料理 #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。えび、パスタを使う「【悶絶級の旨さ🍝】海老と大葉のクリームパスタがお店の味超えてます。 #パスタ #レシピ #料理 #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "【限界シリーズ】ガチまかないはこれ！包丁不要のマヨ醤油パスタ",
@@ -23093,9 +22669,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "パスタ、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まかないチャレンジ!の実在動画。食材候補: パスタ、ネギ、マヨネーズ。「【限界シリーズ】ガチまかないはこれ！包丁不要のマヨ醤油パスタ」のレシピです。"
+    "description": "まかないチャレンジ!の実在動画。パスタ、ネギ、マヨネーズを使う「【限界シリーズ】ガチまかないはこれ！包丁不要のマヨ醤油パスタ」のレシピです。"
   },
   {
     "title": "レンジで大満足パスタの作り方【ミツカン公式】",
@@ -23125,9 +22699,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ミツカン公式チャンネルの実在動画。食材候補: パスタ、にんにく。「レンジで大満足パスタの作り方【ミツカン公式】」のレシピです。"
+    "description": "ミツカン公式チャンネルの実在動画。パスタ、にんにくを使う「レンジで大満足パスタの作り方【ミツカン公式】」のレシピです。"
   },
   {
     "title": "買い出し不要！超シンプルなズボラ和風パスタ",
@@ -23163,9 +22735,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "卵、パスタ、ネギ、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、パスタ、ネギ、にんにく、マヨネーズ。「買い出し不要！超シンプルなズボラ和風パスタ」のレシピです。"
+    "description": "まるみキッチン【簡単レシピ】の実在動画。卵、パスタ、ネギ、にんにく、マヨネーズを使う「買い出し不要！超シンプルなズボラ和風パスタ」のレシピです。"
   },
   {
     "title": "簡単なのにおいしすぎる！【ワンパンたらこクリームパスタ】詳しいレシピはアプリで料理名を検索♪ #たらこパスタ #たらこ #パスタ #スパゲティ #ワンパン #フライパンひとつ",
@@ -23181,6 +22751,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -23192,16 +22763,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "green_onion",
       "butter",
       "mayonnaise",
       "milk"
     ],
-    "rawIngredients": "パスタ、ネギ、バター、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: パスタ、ネギ、バター、マヨネーズ、牛乳。「簡単なのにおいしすぎる！【ワンパンたらこクリームパスタ】詳しいレシピはアプリで料理名を検索♪ #たらこパスタ #たらこ #パスタ #スパゲティ #ワンパン #フライパンひとつ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、ネギ、バター、マヨネーズ、牛乳",
+    "description": "デリッシュキッチンの実在動画。白身魚、パスタ、ネギ、バター、マヨネーズ、牛乳を使う「簡単なのにおいしすぎる！【ワンパンたらこクリームパスタ】詳しいレシピはアプリで料理名を検索♪ #たらこパスタ #たらこ #パスタ #スパゲティ #ワンパン #フライパンひとつ」のレシピです。"
   },
   {
     "title": "たことミニトマトの出汁を吸ったパスタがお店級に美味いです。 #パスタ #レシピ #簡単レシピ #shorts",
@@ -23233,9 +22803,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "たこ、パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: たこ、パスタ、トマト。「たことミニトマトの出汁を吸ったパスタがお店級に美味いです。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。たこ、パスタ、トマトを使う「たことミニトマトの出汁を吸ったパスタがお店級に美味いです。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "【400万回再生】もう終わりです。カルボナーラをこの方法で作ったら、もうコレでいいやってなる【 料理レシピ 】",
@@ -23252,6 +22820,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -23259,23 +22828,22 @@ const recipes = [
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "tomato",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "ベーコン、卵、パスタ、トマト、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Aosトラットリア〜青池のオッティモな食卓の実在動画。食材候補: ベーコン、卵、パスタ、トマト、にんにく、チーズ。「【400万回再生】もう終わりです。カルボナーラをこの方法で作ったら、もうコレでいいやってなる【 料理レシピ 】」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、パスタ、トマト、にんにく、チーズ",
+    "description": "Aosトラットリア〜青池のオッティモな食卓の実在動画。ベーコン、白身魚、卵、パスタ、トマト、にんにく、チーズを使う「【400万回再生】もう終わりです。カルボナーラをこの方法で作ったら、もうコレでいいやってなる【 料理レシピ 】」のレシピです。"
   },
   {
     "title": "簡単パスタレシピ！しらすパスタの作り方 #料理 #パスタ #shorts",
@@ -23303,9 +22871,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: パスタ。「簡単パスタレシピ！しらすパスタの作り方 #料理 #パスタ #shorts」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。パスタを使う「簡単パスタレシピ！しらすパスタの作り方 #料理 #パスタ #shorts」のレシピです。"
   },
   {
     "title": "衝撃｜ズッキーニのパスタ【ペペロンチーノ】が美味しすぎた…#shorts",
@@ -23335,9 +22901,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、にんにく。「衝撃｜ズッキーニのパスタ【ペペロンチーノ】が美味しすぎた…#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、にんにくを使う「衝撃｜ズッキーニのパスタ【ペペロンチーノ】が美味しすぎた…#shorts」のレシピです。"
   },
   {
     "title": "イタリア人シェフに直接教わった｜暗殺者のパスタ【決定版】結局どうなの？おこげパスタ！",
@@ -23372,9 +22936,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "貝、パスタ、トマト、コーン缶、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: 貝、パスタ、トマト、コーン缶、にんにく。「イタリア人シェフに直接教わった｜暗殺者のパスタ【決定版】結局どうなの？おこげパスタ！」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。貝、パスタ、トマト、コーン缶、にんにくを使う「イタリア人シェフに直接教わった｜暗殺者のパスタ【決定版】結局どうなの？おこげパスタ！」のレシピです。"
   },
   {
     "title": "梅もずくとオクラの冷製パスタ",
@@ -23390,6 +22952,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -23400,13 +22963,12 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "green_onion"
     ],
-    "rawIngredients": "パスタ、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "パスたけの実在動画。食材候補: パスタ、ネギ。「梅もずくとオクラの冷製パスタ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、ネギ",
+    "description": "パスたけの実在動画。白身魚、パスタ、ネギを使う「梅もずくとオクラの冷製パスタ」のレシピです。"
   },
   {
     "title": "イタリア料理を極める第一歩｜キャベツとアンチョビの【ペペロンチーノ】簡単だけど大満足の一皿！",
@@ -23439,9 +23001,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、キャベツ、コーン缶、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、キャベツ、コーン缶、にんにく。「イタリア料理を極める第一歩｜キャベツとアンチョビの【ペペロンチーノ】簡単だけど大満足の一皿！」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、キャベツ、コーン缶、にんにくを使う「イタリア料理を極める第一歩｜キャベツとアンチョビの【ペペロンチーノ】簡単だけど大満足の一皿！」のレシピです。"
   },
   {
     "title": "プロが教えるナポリタン #ナポリタン #パスタ #スパゲティ #料理人 #レシピ #作り方",
@@ -23469,9 +23029,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: パスタ。「プロが教えるナポリタン #ナポリタン #パスタ #スパゲティ #料理人 #レシピ #作り方」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。パスタを使う「プロが教えるナポリタン #ナポリタン #パスタ #スパゲティ #料理人 #レシピ #作り方」のレシピです。"
   },
   {
     "title": "【簡単レシピ】フライパン一つで完成！カルボナーラ #shorts",
@@ -23508,9 +23066,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "ベーコン、卵、パスタ、にんにく、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【料理研究家 水野あき】3児のママの時短レシピの実在動画。食材候補: ベーコン、卵、パスタ、にんにく、チーズ、牛乳。「【簡単レシピ】フライパン一つで完成！カルボナーラ #shorts」のレシピです。"
+    "description": "【料理研究家 水野あき】3児のママの時短レシピの実在動画。ベーコン、卵、パスタ、にんにく、チーズ、牛乳を使う「【簡単レシピ】フライパン一つで完成！カルボナーラ #shorts」のレシピです。"
   },
   {
     "title": "衝撃の【トマトパスタ】｜イタリアの三ツ星シェフに教わったパスタを《完全再現》",
@@ -23545,9 +23101,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ブリ、パスタ、トマト、コーン缶、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ブリ、パスタ、トマト、コーン缶、にんにく。「衝撃の【トマトパスタ】｜イタリアの三ツ星シェフに教わったパスタを《完全再現》」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ブリ、パスタ、トマト、コーン缶、にんにくを使う「衝撃の【トマトパスタ】｜イタリアの三ツ星シェフに教わったパスタを《完全再現》」のレシピです。"
   },
   {
     "title": "イタリア人に教わった【ペペロンチーノ】トマトの旨味で完成された最高パスタ！#shorts",
@@ -23581,9 +23135,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ブリ、パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ブリ、パスタ、トマト、にんにく。「イタリア人に教わった【ペペロンチーノ】トマトの旨味で完成された最高パスタ！#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ブリ、パスタ、トマト、にんにくを使う「イタリア人に教わった【ペペロンチーノ】トマトの旨味で完成された最高パスタ！#shorts」のレシピです。"
   },
   {
     "title": "ウインナーとパスタで簡単にできる美味しい料理！ #簡単レシピ #プチ知識 #ずんだもん #料理",
@@ -23611,9 +23163,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ひろか | 誰でもできるライフハック術の実在動画。食材候補: パスタ。「ウインナーとパスタで簡単にできる美味しい料理！ #簡単レシピ #プチ知識 #ずんだもん #料理」のレシピです。"
+    "description": "ひろか | 誰でもできるライフハック術の実在動画。パスタを使う「ウインナーとパスタで簡単にできる美味しい料理！ #簡単レシピ #プチ知識 #ずんだもん #料理」のレシピです。"
   },
   {
     "title": "【しらすの旨辛ペペロンチーノ】シェフの即席パスタ#shorts",
@@ -23641,9 +23191,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "George ジョージ吉田の実在動画。食材候補: パスタ。「【しらすの旨辛ペペロンチーノ】シェフの即席パスタ#shorts」のレシピです。"
+    "description": "George ジョージ吉田の実在動画。パスタを使う「【しらすの旨辛ペペロンチーノ】シェフの即席パスタ#shorts」のレシピです。"
   },
   {
     "title": "ガーリック醤油が最高！【ナスのパスタ】#shorts",
@@ -23679,9 +23227,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ベーコン、パスタ、ネギ、なす、大根、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ベーコン、パスタ、ネギ、なす、大根、にんにく。「ガーリック醤油が最高！【ナスのパスタ】#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ベーコン、パスタ、ネギ、なす、大根、にんにくを使う「ガーリック醤油が最高！【ナスのパスタ】#shorts」のレシピです。"
   },
   {
     "title": "【100万回人気レシピ！】うま味たっぷりパスタ！お店の味に！和風きのこスパゲティの作り方",
@@ -23718,9 +23264,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "ラーメン、パスタ、レタス、しめじ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: ラーメン、パスタ、レタス、しめじ、にんにく、バター。「【100万回人気レシピ！】うま味たっぷりパスタ！お店の味に！和風きのこスパゲティの作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。ラーメン、パスタ、レタス、しめじ、にんにく、バターを使う「【100万回人気レシピ！】うま味たっぷりパスタ！お店の味に！和風きのこスパゲティの作り方」のレシピです。"
   },
   {
     "title": "海苔と牛乳の組み合わせ、なしだと思った？ 【海苔クリームパスタ】 #パスタ #海苔 #クリームパスタ #簡単レシピ #料理 #おうちごはん",
@@ -23736,6 +23280,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -23746,13 +23291,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "milk"
     ],
-    "rawIngredients": "パスタ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: パスタ、牛乳。「海苔と牛乳の組み合わせ、なしだと思った？ 【海苔クリームパスタ】 #パスタ #海苔 #クリームパスタ #簡単レシピ #料理 #おうちごはん」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、牛乳",
+    "description": "デリッシュキッチンの実在動画。白身魚、パスタ、牛乳を使う「海苔と牛乳の組み合わせ、なしだと思った？ 【海苔クリームパスタ】 #パスタ #海苔 #クリームパスタ #簡単レシピ #料理 #おうちごはん」のレシピです。"
   },
   {
     "title": "【明太子カルボナーラ】濃厚で美味すぎるパスタが超簡単にできちゃいます。 #パスタ #レシピ #簡単レシピ #shorts",
@@ -23780,9 +23324,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: パスタ。「【明太子カルボナーラ】濃厚で美味すぎるパスタが超簡単にできちゃいます。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。パスタを使う「【明太子カルボナーラ】濃厚で美味すぎるパスタが超簡単にできちゃいます。 #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "五右衛門風！明太クリームパスタ作ってみた🤤🍝 #料理 #簡単レシピ #パスタ",
@@ -23810,9 +23352,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: パスタ。「五右衛門風！明太クリームパスタ作ってみた🤤🍝 #料理 #簡単レシピ #パスタ」のレシピです。"
+    "description": "Hideka cookingの実在動画。パスタを使う「五右衛門風！明太クリームパスタ作ってみた🤤🍝 #料理 #簡単レシピ #パスタ」のレシピです。"
   },
   {
     "title": "フランス人にバター醤油パスタ作ったらww",
@@ -23828,6 +23368,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -23838,13 +23379,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "butter"
     ],
-    "rawIngredients": "パスタ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "天然彼女エヴァちゃんの実在動画。食材候補: パスタ、バター。「フランス人にバター醤油パスタ作ったらww」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、バター",
+    "description": "天然彼女エヴァちゃんの実在動画。白身魚、パスタ、バターを使う「フランス人にバター醤油パスタ作ったらww」のレシピです。"
   },
   {
     "title": "【激ウマ和風パスタ】最高に旨いシンプルな和風パスタを紹介します！ #パスタ #レシピ #簡単レシピ #shorts",
@@ -23872,9 +23412,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: パスタ。「【激ウマ和風パスタ】最高に旨いシンプルな和風パスタを紹介します！ #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。パスタを使う「【激ウマ和風パスタ】最高に旨いシンプルな和風パスタを紹介します！ #パスタ #レシピ #簡単レシピ #shorts」のレシピです。"
   },
   {
     "title": "イタリアで作るボンゴレロッソが衝撃のうまさ！#パスタ #ボンゴレ #レシピ",
@@ -23904,9 +23442,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "貝、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: 貝、パスタ。「イタリアで作るボンゴレロッソが衝撃のうまさ！#パスタ #ボンゴレ #レシピ」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。貝、パスタを使う「イタリアで作るボンゴレロッソが衝撃のうまさ！#パスタ #ボンゴレ #レシピ」のレシピです。"
   },
   {
     "title": "思い立ったらすぐ作れる！ケチャップで簡単コク旨！おうちナポリタンの作り方",
@@ -23922,6 +23458,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -23934,6 +23471,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "ramen",
       "pasta",
       "green_onion",
@@ -23945,10 +23483,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "ラーメン、パスタ、ネギ、レタス、トマト、ピーマン、玉ねぎ、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: ラーメン、パスタ、ネギ、レタス、トマト、ピーマン、玉ねぎ、にんにく、チーズ、バター。「思い立ったらすぐ作れる！ケチャップで簡単コク旨！おうちナポリタンの作り方」のレシピです。"
+    "rawIngredients": "白身魚、ラーメン、パスタ、ネギ、レタス、トマト、ピーマン、玉ねぎ、にんにく、チーズ、バター",
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。白身魚、ラーメン、パスタ、ネギ、レタス、トマト、ピーマン、玉ねぎ、にんにく、チーズ、バターを使う「思い立ったらすぐ作れる！ケチャップで簡単コク旨！おうちナポリタンの作り方」のレシピです。"
   },
   {
     "title": "リアル・イカスミパスタ #shorts #pastarecipe",
@@ -23976,9 +23512,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんた食堂の実在動画。食材候補: パスタ。「リアル・イカスミパスタ #shorts #pastarecipe」のレシピです。"
+    "description": "けんた食堂の実在動画。パスタを使う「リアル・イカスミパスタ #shorts #pastarecipe」のレシピです。"
   },
   {
     "title": "スーパーフード舞茸の紹介とパスタのレシピ、その効能と#パスタ #レシピ #pasta",
@@ -24006,9 +23540,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ラク短おうちパスタ@きみさんの実在動画。食材候補: パスタ。「スーパーフード舞茸の紹介とパスタのレシピ、その効能と#パスタ #レシピ #pasta」のレシピです。"
+    "description": "ラク短おうちパスタ@きみさんの実在動画。パスタを使う「スーパーフード舞茸の紹介とパスタのレシピ、その効能と#パスタ #レシピ #pasta」のレシピです。"
   },
   {
     "title": "バジルあったら作ってみて【バジルのパスタ】 #recipe #簡単レシピ #パスタ #料理 #おうちごはん #パスタレシピ #バジル #レシピ #レシピ動画 #shorts",
@@ -24024,6 +23556,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -24035,14 +23568,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "パスタ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆーりお┃1分で分かる洋食レシピの実在動画。食材候補: パスタ、にんにく、チーズ。「バジルあったら作ってみて【バジルのパスタ】 #recipe #簡単レシピ #パスタ #料理 #おうちごはん #パスタレシピ #バジル #レシピ #レシピ動画 #shorts」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、にんにく、チーズ",
+    "description": "ゆーりお┃1分で分かる洋食レシピの実在動画。白身魚、パスタ、にんにく、チーズを使う「バジルあったら作ってみて【バジルのパスタ】 #recipe #簡単レシピ #パスタ #料理 #おうちごはん #パスタレシピ #バジル #レシピ #レシピ動画 #shorts」のレシピです。"
   },
   {
     "title": "【100万回再生人気レシピ！】お店のパスタに！シンプルだけど最高に美味しい！コウケンテツ渾身のペペロンチーノの作り方",
@@ -24076,9 +23608,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "パスタ、レタス、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: パスタ、レタス、にんにく、バター。「【100万回再生人気レシピ！】お店のパスタに！シンプルだけど最高に美味しい！コウケンテツ渾身のペペロンチーノの作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。パスタ、レタス、にんにく、バターを使う「【100万回再生人気レシピ！】お店のパスタに！シンプルだけど最高に美味しい！コウケンテツ渾身のペペロンチーノの作り方」のレシピです。"
   },
   {
     "title": "イタリア人に教わった漁師風パスタ【ペスカトーラ】#shorts",
@@ -24114,9 +23644,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ブリ、えび、たこ、パスタ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: ブリ、えび、たこ、パスタ、トマト、にんにく。「イタリア人に教わった漁師風パスタ【ペスカトーラ】#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。ブリ、えび、たこ、パスタ、トマト、にんにくを使う「イタリア人に教わった漁師風パスタ【ペスカトーラ】#shorts」のレシピです。"
   },
   {
     "title": "きのこパスタ｜めんつゆガーリック！【ペペロンチーノ】 #パスタ",
@@ -24149,9 +23677,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "パスタ、しめじ、しいたけ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、しめじ、しいたけ、にんにく。「きのこパスタ｜めんつゆガーリック！【ペペロンチーノ】 #パスタ」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、しめじ、しいたけ、にんにくを使う「きのこパスタ｜めんつゆガーリック！【ペペロンチーノ】 #パスタ」のレシピです。"
   },
   {
     "title": "フライパンひとつで簡単！ケチャたまパスタ！ フルはチャンネルから！#料理 #おうちごはん #簡単レシピ #料理動画 #食テロ #gofood #パスタ #Shorts",
@@ -24179,9 +23705,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理にスキル全振りした人の実在動画。食材候補: パスタ。「フライパンひとつで簡単！ケチャたまパスタ！ フルはチャンネルから！#料理 #おうちごはん #簡単レシピ #料理動画 #食テロ #gofood #パスタ #Shorts」のレシピです。"
+    "description": "料理にスキル全振りした人の実在動画。パスタを使う「フライパンひとつで簡単！ケチャたまパスタ！ フルはチャンネルから！#料理 #おうちごはん #簡単レシピ #料理動画 #食テロ #gofood #パスタ #Shorts」のレシピです。"
   },
   {
     "title": "レンジで簡単❗クリームパスタ #shorts",
@@ -24197,6 +23721,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -24207,14 +23732,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta",
       "cheese",
       "milk"
     ],
-    "rawIngredients": "パスタ、チーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "よつばの事情の実在動画。食材候補: パスタ、チーズ、牛乳。「レンジで簡単❗クリームパスタ #shorts」のレシピです。"
+    "rawIngredients": "白身魚、パスタ、チーズ、牛乳",
+    "description": "よつばの事情の実在動画。白身魚、パスタ、チーズ、牛乳を使う「レンジで簡単❗クリームパスタ #shorts」のレシピです。"
   },
   {
     "title": "トマトパスタの作り方｜フライパン1つで簡単☆ワンパンレシピ！濃厚で旨い！手軽な材料で作れるやみつきトマトパスタです！-How to make Tomato Pasta-【料理研究家ゆかり】",
@@ -24226,11 +23750,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/OMbjEzyTZU0/maxresdefault.jpg",
     "creator": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchen",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "rich",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -24244,6 +23769,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "bacon",
+      "whitefish",
       "egg",
       "pasta",
       "green_onion",
@@ -24251,10 +23777,8 @@ const recipes = [
       "onion",
       "garlic"
     ],
-    "rawIngredients": "ベーコン、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: ベーコン、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく。「トマトパスタの作り方｜フライパン1つで簡単☆ワンパンレシピ！濃厚で旨い！手軽な材料で作れるやみつきトマトパスタです！-How to make Tomato Pasta-【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "ベーコン、白身魚、卵、パスタ、ネギ、トマト、玉ねぎ、にんにく",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。ベーコン、白身魚、卵、パスタ、ネギ、トマト、玉ねぎ、にんにくを使う「トマトパスタの作り方｜フライパン1つで簡単☆ワンパンレシピ！濃厚で旨い！手軽な材料で作れるやみつきトマトパスタです！-How to make Tomato Pasta-【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "シチリア風【辛口カルボナーラ】まさかのうまい！公邸料理人のパスタレシピ#パスタ #カルボナーラ #料理",
@@ -24284,9 +23808,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "卵、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: 卵、パスタ。「シチリア風【辛口カルボナーラ】まさかのうまい！公邸料理人のパスタレシピ#パスタ #カルボナーラ #料理」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。卵、パスタを使う「シチリア風【辛口カルボナーラ】まさかのうまい！公邸料理人のパスタレシピ#パスタ #カルボナーラ #料理」のレシピです。"
   },
   {
     "title": "夏こそ食べたいシチリアのパスタ【アッラ ノルマ】公邸料理人のパスタレシピ#パスタ #トマトスパゲティ#料理",
@@ -24316,9 +23838,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: パスタ、トマト。「夏こそ食べたいシチリアのパスタ【アッラ ノルマ】公邸料理人のパスタレシピ#パスタ #トマトスパゲティ#料理」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。パスタ、トマトを使う「夏こそ食べたいシチリアのパスタ【アッラ ノルマ】公邸料理人のパスタレシピ#パスタ #トマトスパゲティ#料理」のレシピです。"
   },
   {
     "title": "イタリア親父が効率厨のパスタ料理を見た結果",
@@ -24346,9 +23866,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ニヤリハットの実在動画。食材候補: パスタ。「イタリア親父が効率厨のパスタ料理を見た結果」のレシピです。"
+    "description": "ニヤリハットの実在動画。パスタを使う「イタリア親父が効率厨のパスタ料理を見た結果」のレシピです。"
   },
   {
     "title": "喫茶店で食べた思い出の味！笠原流【昭和のナポリタン】",
@@ -24364,6 +23882,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -24376,6 +23895,7 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "rice_noodles",
       "pasta",
       "green_onion",
@@ -24384,10 +23904,8 @@ const recipes = [
       "cheese",
       "butter"
     ],
-    "rawIngredients": "ビーフン・フォー、パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: ビーフン・フォー、パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バター。「喫茶店で食べた思い出の味！笠原流【昭和のナポリタン】」のレシピです。"
+    "rawIngredients": "白身魚、ビーフン・フォー、パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バター",
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。白身魚、ビーフン・フォー、パスタ、ネギ、ピーマン、玉ねぎ、チーズ、バターを使う「喫茶店で食べた思い出の味！笠原流【昭和のナポリタン】」のレシピです。"
   },
   {
     "title": "世界チャンピオンのフレッシュトマト🍅パスタ！｜クラシル #shorts",
@@ -24417,9 +23935,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: パスタ、トマト。「世界チャンピオンのフレッシュトマト🍅パスタ！｜クラシル #shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。パスタ、トマトを使う「世界チャンピオンのフレッシュトマト🍅パスタ！｜クラシル #shorts」のレシピです。"
   },
   {
     "title": "【調味料2つ】レンチンパスタ🍝#簡単レシピ #pasta",
@@ -24447,9 +23963,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: パスタ。「【調味料2つ】レンチンパスタ🍝#簡単レシピ #pasta」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。パスタを使う「【調味料2つ】レンチンパスタ🍝#簡単レシピ #pasta」のレシピです。"
   },
   {
     "title": "【明太子の冷製パスタレシピ】冷たい明太子パスタが美味しすぎる！ #パスタレシピ #明太子パスタ #冷製パスタ",
@@ -24478,16 +23992,15 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "octopus",
       "egg",
       "pasta",
       "garlic",
       "milk"
     ],
-    "rawIngredients": "たこ、卵、パスタ、にんにく、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ナオ飯チャンネルの実在動画。食材候補: たこ、卵、パスタ、にんにく、牛乳。「【明太子の冷製パスタレシピ】冷たい明太子パスタが美味しすぎる！ #パスタレシピ #明太子パスタ #冷製パスタ」のレシピです。"
+    "rawIngredients": "白身魚、たこ、卵、パスタ、にんにく、牛乳",
+    "description": "ナオ飯チャンネルの実在動画。白身魚、たこ、卵、パスタ、にんにく、牛乳を使う「【明太子の冷製パスタレシピ】冷たい明太子パスタが美味しすぎる！ #パスタレシピ #明太子パスタ #冷製パスタ」のレシピです。"
   },
   {
     "title": "イタリア人から教わった🐙【ペペロンチーノ】シンプルパスタ#shorts",
@@ -24519,9 +24032,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "たこ、パスタ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: たこ、パスタ、にんにく。「イタリア人から教わった🐙【ペペロンチーノ】シンプルパスタ#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。たこ、パスタ、にんにくを使う「イタリア人から教わった🐙【ペペロンチーノ】シンプルパスタ#shorts」のレシピです。"
   },
   {
     "title": "イタリア人に教わったパスタ【カッチョエペペ】#shorts",
@@ -24551,9 +24062,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "パスタ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: パスタ、バター。「イタリア人に教わったパスタ【カッチョエペペ】#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。パスタ、バターを使う「イタリア人に教わったパスタ【カッチョエペペ】#shorts」のレシピです。"
   },
   {
     "title": "お店で食べるような［クリームパスタ］をご家庭でも簡単に作れるようにレシピにしてみました。",
@@ -24593,9 +24102,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "ベーコン、パスタ、ネギ、玉ねぎ、しめじ、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "食事処さくらの料理教室の実在動画。食材候補: ベーコン、パスタ、ネギ、玉ねぎ、しめじ、チーズ、バター、牛乳。「お店で食べるような［クリームパスタ］をご家庭でも簡単に作れるようにレシピにしてみました。」のレシピです。"
+    "description": "食事処さくらの料理教室の実在動画。ベーコン、パスタ、ネギ、玉ねぎ、しめじ、チーズ、バター、牛乳を使う「お店で食べるような［クリームパスタ］をご家庭でも簡単に作れるようにレシピにしてみました。」のレシピです。"
   },
   {
     "title": "もうミートソース買わない！ぶち込むだけで簡単おいしいボロネーゼペンネ",
@@ -24627,9 +24134,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "挽肉、パスタ、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆたれぴレシピの実在動画。食材候補: 挽肉、パスタ、トマト。「もうミートソース買わない！ぶち込むだけで簡単おいしいボロネーゼペンネ」のレシピです。"
+    "description": "ゆたれぴレシピの実在動画。挽肉、パスタ、トマトを使う「もうミートソース買わない！ぶち込むだけで簡単おいしいボロネーゼペンネ」のレシピです。"
   },
   {
     "title": "うめえ！！ボールごとくれ！！と叫ばれるほど旨い、塩が決め手の【至高を越えたスパサラ】#shorts #リュウジ #料理",
@@ -24641,10 +24146,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/Nz79UMbUCAo/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -24654,12 +24160,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: パスタ。「うめえ！！ボールごとくれ！！と叫ばれるほど旨い、塩が決め手の【至高を越えたスパサラ】#shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、パスタを使う「うめえ！！ボールごとくれ！！と叫ばれるほど旨い、塩が決め手の【至高を越えたスパサラ】#shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "【旨みと香りが最高のパスタ】ベーコンと大葉のジェノベーゼ #パスタ #レシピ #shorts",
@@ -24696,9 +24201,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "ベーコン、パスタ、ネギ、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "かずき@簡単パスタレシピの実在動画。食材候補: ベーコン、パスタ、ネギ、玉ねぎ、にんにく、チーズ。「【旨みと香りが最高のパスタ】ベーコンと大葉のジェノベーゼ #パスタ #レシピ #shorts」のレシピです。"
+    "description": "かずき@簡単パスタレシピの実在動画。ベーコン、パスタ、ネギ、玉ねぎ、にんにく、チーズを使う「【旨みと香りが最高のパスタ】ベーコンと大葉のジェノベーゼ #パスタ #レシピ #shorts」のレシピです。"
   },
   {
     "title": "こんな美味い牡蠣のパスタがあるのかと言われたペペロンチーノのレシピ#shorts",
@@ -24726,9 +24229,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "George ジョージ吉田の実在動画。食材候補: パスタ。「こんな美味い牡蠣のパスタがあるのかと言われたペペロンチーノのレシピ#shorts」のレシピです。"
+    "description": "George ジョージ吉田の実在動画。パスタを使う「こんな美味い牡蠣のパスタがあるのかと言われたペペロンチーノのレシピ#shorts」のレシピです。"
   },
   {
     "title": "本場イタリアの野良パスタが虜になるうまさ #パスタ #レシピ #公邸料理人",
@@ -24765,9 +24266,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "挽肉、パスタ、ネギ、トマト、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Chef Ropia料理人の世界の実在動画。食材候補: 挽肉、パスタ、ネギ、トマト、チーズ、バター、牛乳。「本場イタリアの野良パスタが虜になるうまさ #パスタ #レシピ #公邸料理人」のレシピです。"
+    "description": "Chef Ropia料理人の世界の実在動画。挽肉、パスタ、ネギ、トマト、チーズ、バター、牛乳を使う「本場イタリアの野良パスタが虜になるうまさ #パスタ #レシピ #公邸料理人」のレシピです。"
   },
   {
     "title": "イタリア人に教わった【肉パスタ】ボロネーゼだけじゃないラグーソース#shorts",
@@ -24804,9 +24303,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "挽肉、パスタ、ほうれん草、にんにく、チーズ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: 挽肉、パスタ、ほうれん草、にんにく、チーズ、バター。「イタリア人に教わった【肉パスタ】ボロネーゼだけじゃないラグーソース#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。挽肉、パスタ、ほうれん草、にんにく、チーズ、バターを使う「イタリア人に教わった【肉パスタ】ボロネーゼだけじゃないラグーソース#shorts」のレシピです。"
   },
   {
     "title": "ペペロンチーノの美味しい作り方。#shorts",
@@ -24834,9 +24331,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Ryou【和久井亮平】の実在動画。食材候補: パスタ。「ペペロンチーノの美味しい作り方。#shorts」のレシピです。"
+    "description": "Ryou【和久井亮平】の実在動画。パスタを使う「ペペロンチーノの美味しい作り方。#shorts」のレシピです。"
   },
   {
     "title": "和えるだけ和風たらこパスタ⌇パスタの熱で和えるのがおいしさのポイント #料理 #簡単レシピ #管理栄養士 #パスタ #たらこ",
@@ -24852,6 +24347,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -24861,12 +24357,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "管理栄養士ぽなこの実在動画。食材候補: パスタ。「和えるだけ和風たらこパスタ⌇パスタの熱で和えるのがおいしさのポイント #料理 #簡単レシピ #管理栄養士 #パスタ #たらこ」のレシピです。"
+    "rawIngredients": "白身魚、パスタ",
+    "description": "管理栄養士ぽなこの実在動画。白身魚、パスタを使う「和えるだけ和風たらこパスタ⌇パスタの熱で和えるのがおいしさのポイント #料理 #簡単レシピ #管理栄養士 #パスタ #たらこ」のレシピです。"
   },
   {
     "title": "過去にこれほど旨い冷凍うどんの食べ方があっただろうか。究極の油うどん",
@@ -24883,29 +24378,29 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
       "根菜"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "udon",
       "pasta",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、卵、うどん、パスタ、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、卵、うどん、パスタ、ネギ、にんにく。「過去にこれほど旨い冷凍うどんの食べ方があっただろうか。究極の油うどん」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、うどん、パスタ、ネギ、にんにく",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、白身魚、卵、うどん、パスタ、ネギ、にんにくを使う「過去にこれほど旨い冷凍うどんの食べ方があっただろうか。究極の油うどん」のレシピです。"
   },
   {
     "title": "身体が温まる！ふわふわ卵のあんかけうどん🥢 #簡単レシピ #ズボラ飯",
@@ -24921,6 +24416,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -24933,15 +24429,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "ginger"
     ],
-    "rawIngredients": "卵、うどん、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 卵、うどん、ネギ、ショウガ。「身体が温まる！ふわふわ卵のあんかけうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、ショウガ",
+    "description": "腹へったchの実在動画。白身魚、卵、うどん、ネギ、ショウガを使う「身体が温まる！ふわふわ卵のあんかけうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
   },
   {
     "title": "レンジ１発でこんなに旨いなんて【極み油うどん】詳しいレシピは概要欄をチェック！#うどん #冷凍うどん #焼きうどん",
@@ -24957,6 +24452,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -24969,15 +24465,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 卵、うどん、ネギ、にんにく。「レンジ１発でこんなに旨いなんて【極み油うどん】詳しいレシピは概要欄をチェック！#うどん #冷凍うどん #焼きうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく",
+    "description": "デリッシュキッチンの実在動画。白身魚、卵、うどん、ネギ、にんにくを使う「レンジ１発でこんなに旨いなんて【極み油うどん】詳しいレシピは概要欄をチェック！#うどん #冷凍うどん #焼きうどん」のレシピです。"
   },
   {
     "title": "【やる気1％で卵かけ鶏がらだしうどん】",
@@ -24993,6 +24488,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜"
@@ -25004,14 +24500,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、ネギ。「【やる気1％で卵かけ鶏がらだしうどん】」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、ネギを使う「【やる気1％で卵かけ鶏がらだしうどん】」のレシピです。"
   },
   {
     "title": "ホッと温まる。ズボラ式肉うどん🥢 #簡単レシピ #ズボラ飯",
@@ -25043,9 +24538,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 豚肉、うどん、ネギ。「ホッと温まる。ズボラ式肉うどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
+    "description": "腹へったchの実在動画。豚肉、うどん、ネギを使う「ホッと温まる。ズボラ式肉うどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
   },
   {
     "title": "【冷やしうどんレシピ10選】暑い日に食べたい！さっぱり簡単うどんアレンジ",
@@ -25096,9 +24589,7 @@ const recipes = [
       "curry_roux"
     ],
     "rawIngredients": "牛肉、挽肉、ツナ、卵、うどん、パスタ、napa_cabbage、きゅうり、ネギ、トマト、ピーマン、玉ねぎ、大根、わかめ、ショウガ、にんにく、バター、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 牛肉、挽肉、ツナ、卵、うどん、パスタ、napa_cabbage、きゅうり、ネギ、トマト、ピーマン、玉ねぎ、大根、わかめ、ショウガ、にんにく、バター、カレールゥ。「【冷やしうどんレシピ10選】暑い日に食べたい！さっぱり簡単うどんアレンジ」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。牛肉、挽肉、ツナ、卵、うどん、パスタ、napa_cabbage、きゅうり、ネギ、トマト、ピーマン、玉ねぎ、大根、わかめ、ショウガ、にんにく、バター、カレールゥを使う「【冷やしうどんレシピ10選】暑い日に食べたい！さっぱり簡単うどんアレンジ」のレシピです。"
   },
   {
     "title": "やる気1％でウマ塩うどん",
@@ -25114,6 +24605,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -25125,14 +24617,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: うどん、ネギ、にんにく。「やる気1％でウマ塩うどん」のレシピです。"
+    "rawIngredients": "白身魚、うどん、ネギ、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、うどん、ネギ、にんにくを使う「やる気1％でウマ塩うどん」のレシピです。"
   },
   {
     "title": "この世で1番うまい冷凍うどんの食べ方はこれ。",
@@ -25148,6 +24639,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -25160,15 +24652,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「この世で1番うまい冷凍うどんの食べ方はこれ。」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、ネギ、にんにくを使う「この世で1番うまい冷凍うどんの食べ方はこれ。」のレシピです。"
   },
   {
     "title": "やる気1%で作れちゃうめんつゆ鶏がら冷やしうどん",
@@ -25184,6 +24675,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -25195,15 +24687,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "うどん、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: うどん、ネギ、ショウガ、にんにく。「やる気1%で作れちゃうめんつゆ鶏がら冷やしうどん」のレシピです。"
+    "rawIngredients": "白身魚、うどん、ネギ、ショウガ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、うどん、ネギ、ショウガ、にんにくを使う「やる気1%で作れちゃうめんつゆ鶏がら冷やしうどん」のレシピです。"
   },
   {
     "title": "泣くほど旨い『冷やしぶっかけ肉うどん』",
@@ -25237,9 +24728,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、卵、うどん、ネギ。「泣くほど旨い『冷やしぶっかけ肉うどん』」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、卵、うどん、ネギを使う「泣くほど旨い『冷やしぶっかけ肉うどん』」のレシピです。"
   },
   {
     "title": "【究極の卵黄ユッケうどん】",
@@ -25255,6 +24744,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺"
     ],
@@ -25265,13 +24755,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon"
     ],
-    "rawIngredients": "卵、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん。「【究極の卵黄ユッケうどん】」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどんを使う「【究極の卵黄ユッケうどん】」のレシピです。"
   },
   {
     "title": "これだけは絶対覚えてた方が良い！やみつき混ぜうどんの作り方！",
@@ -25283,10 +24772,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/eV-IkFKfqBY/maxresdefault.jpg",
     "creator": "けんますクッキング",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -25296,12 +24786,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon"
     ],
-    "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんますクッキングの実在動画。食材候補: うどん。「これだけは絶対覚えてた方が良い！やみつき混ぜうどんの作り方！」のレシピです。"
+    "rawIngredients": "白身魚、うどん",
+    "description": "けんますクッキングの実在動画。白身魚、うどんを使う「これだけは絶対覚えてた方が良い！やみつき混ぜうどんの作り方！」のレシピです。"
   },
   {
     "title": "お皿ひとつでできる絶品ズボラ飯！ヤンニョムチーズうどん",
@@ -25317,6 +24806,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -25330,16 +24820,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく、チーズ。「お皿ひとつでできる絶品ズボラ飯！ヤンニョムチーズうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく、チーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、うどん、ネギ、にんにく、チーズを使う「お皿ひとつでできる絶品ズボラ飯！ヤンニョムチーズうどん」のレシピです。"
   },
   {
     "title": "とろとろ餡と生姜でほっかほか！卵とじうどん ｜ How To Make Egg-drop Udon",
@@ -25357,6 +24846,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "麺",
@@ -25373,6 +24863,7 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "tofu",
       "egg",
       "udon",
@@ -25384,10 +24875,8 @@ const recipes = [
       "ginger",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、鶏肉、豆腐、卵、うどん、パスタ、にら、ネギ、もやし、大根、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、鶏肉、豆腐、卵、うどん、パスタ、にら、ネギ、もやし、大根、ショウガ、マヨネーズ。「とろとろ餡と生姜でほっかほか！卵とじうどん ｜ How To Make Egg-drop Udon」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、豆腐、卵、うどん、パスタ、にら、ネギ、もやし、大根、ショウガ、マヨネーズ",
+    "description": "デリッシュキッチンの実在動画。豚肉、鶏肉、白身魚、豆腐、卵、うどん、パスタ、にら、ネギ、もやし、大根、ショウガ、マヨネーズを使う「とろとろ餡と生姜でほっかほか！卵とじうどん ｜ How To Make Egg-drop Udon」のレシピです。"
   },
   {
     "title": "300万回再生された○🐢再現レシピ #shorts",
@@ -25415,9 +24904,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Noa│家族ごはんの実在動画。食材候補: うどん。「300万回再生された○🐢再現レシピ #shorts」のレシピです。"
+    "description": "Noa│家族ごはんの実在動画。うどんを使う「300万回再生された○🐢再現レシピ #shorts」のレシピです。"
   },
   {
     "title": "肉うどん",
@@ -25450,9 +24937,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "牛肉、豚肉、うどん、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "タサン志麻の実在動画。食材候補: 牛肉、豚肉、うどん、ショウガ。「肉うどん」のレシピです。"
+    "description": "タサン志麻の実在動画。牛肉、豚肉、うどん、ショウガを使う「肉うどん」のレシピです。"
   },
   {
     "title": "【㊗️800万回再生‼️】お店が出来ちゃう？とろっとろのカレーうどん ｜クラシル #Shorts",
@@ -25480,9 +24965,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: うどん。「【㊗️800万回再生‼️】お店が出来ちゃう？とろっとろのカレーうどん ｜クラシル #Shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。うどんを使う「【㊗️800万回再生‼️】お店が出来ちゃう？とろっとろのカレーうどん ｜クラシル #Shorts」のレシピです。"
   },
   {
     "title": "【レンジで簡単！スタミナつけうどん】",
@@ -25516,9 +24999,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「【レンジで簡単！スタミナつけうどん】」のレシピです。"
+    "description": "まるみキッチン【簡単レシピ】の実在動画。卵、うどん、ネギ、にんにくを使う「【レンジで簡単！スタミナつけうどん】」のレシピです。"
   },
   {
     "title": "夏にピッタリピリ辛レシピ！冷やしラー油ぶっかけうどん",
@@ -25548,9 +25029,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: うどん、ネギ。「夏にピッタリピリ辛レシピ！冷やしラー油ぶっかけうどん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。うどん、ネギを使う「夏にピッタリピリ辛レシピ！冷やしラー油ぶっかけうどん」のレシピです。"
   },
   {
     "title": "【こういうのでいいんだよ】金欠で疲れたそこのあなたに食べてほしい。心と体に染み渡るうどんレシピ教えます！",
@@ -25586,9 +25065,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、ブリ、厚揚げ、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんますクッキングの実在動画。食材候補: 豚肉、ブリ、厚揚げ、うどん、ネギ。「【こういうのでいいんだよ】金欠で疲れたそこのあなたに食べてほしい。心と体に染み渡るうどんレシピ教えます！」のレシピです。"
+    "description": "けんますクッキングの実在動画。豚肉、ブリ、厚揚げ、うどん、ネギを使う「【こういうのでいいんだよ】金欠で疲れたそこのあなたに食べてほしい。心と体に染み渡るうどんレシピ教えます！」のレシピです。"
   },
   {
     "title": "汁まで飲み干しちゃう。簡単すぎる梅だしうどん🥢",
@@ -25618,9 +25095,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: うどん、ネギ。「汁まで飲み干しちゃう。簡単すぎる梅だしうどん🥢」のレシピです。"
+    "description": "腹へったchの実在動画。うどん、ネギを使う「汁まで飲み干しちゃう。簡単すぎる梅だしうどん🥢」のレシピです。"
   },
   {
     "title": "疲れた日でも超簡単に作れる究極のキムチ釜玉うどん",
@@ -25636,6 +25111,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -25648,15 +25124,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「疲れた日でも超簡単に作れる究極のキムチ釜玉うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、うどん、ネギ、にんにくを使う「疲れた日でも超簡単に作れる究極のキムチ釜玉うどん」のレシピです。"
   },
   {
     "title": "やる気1％でスタミナまぜうどん",
@@ -25672,6 +25147,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "根菜"
@@ -25683,14 +25159,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、にんにく。「やる気1％でスタミナまぜうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、にんにくを使う「やる気1％でスタミナまぜうどん」のレシピです。"
   },
   {
     "title": "やる気1%で濃厚ネギだれつけうどん",
@@ -25706,6 +25181,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -25718,15 +25194,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「やる気1%で濃厚ネギだれつけうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、ネギ、にんにくを使う「やる気1%で濃厚ネギだれつけうどん」のレシピです。"
   },
   {
     "title": "さっぱりおいしい！冷やしぶっかけうどん",
@@ -25742,6 +25217,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -25754,15 +25230,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "ginger"
     ],
-    "rawIngredients": "卵、うどん、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、ネギ、ショウガ。「さっぱりおいしい！冷やしぶっかけうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、ショウガ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、ネギ、ショウガを使う「さっぱりおいしい！冷やしぶっかけうどん」のレシピです。"
   },
   {
     "title": "手打ちうどんの作り方 前編【讃岐うどん】",
@@ -25779,6 +25254,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜"
@@ -25791,14 +25267,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "aburaage",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、油揚げ、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "JA香川県公式チャンネルの実在動画。食材候補: 鶏肉、油揚げ、うどん、ネギ。「手打ちうどんの作り方 前編【讃岐うどん】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、油揚げ、うどん、ネギ",
+    "description": "JA香川県公式チャンネルの実在動画。鶏肉、白身魚、油揚げ、うどん、ネギを使う「手打ちうどんの作り方 前編【讃岐うどん】」のレシピです。"
   },
   {
     "title": "すげぇ旨いカレーうどんの作り方簡単ワンパンレシピ！ ライフハック",
@@ -25845,9 +25320,7 @@ const recipes = [
       "shiitake"
     ],
     "rawIngredients": "鶏肉、豆腐、うどん、キャベツ、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ、しいたけ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: 鶏肉、豆腐、うどん、キャベツ、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ、しいたけ。「すげぇ旨いカレーうどんの作り方簡単ワンパンレシピ！ ライフハック」のレシピです。"
+    "description": "ちゃらりんこクックの実在動画。鶏肉、豆腐、うどん、キャベツ、ほうれん草、小松菜、にら、ネギ、なす、ピーマン、ブロッコリー、玉ねぎ、大根、かぼちゃ、しいたけを使う「すげぇ旨いカレーうどんの作り方簡単ワンパンレシピ！ ライフハック」のレシピです。"
   },
   {
     "title": "茹でて混ぜるだけ！速攻で食べれるのに最高に美味しい！【うどん】永谷園松茸のお吸い物で釜揚げにしたら最高。食べた後のお楽しみも嬉しい。",
@@ -25863,6 +25336,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜"
@@ -25874,14 +25348,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "手抜き料理、それは創作。の実在動画。食材候補: 卵、うどん、ネギ。「茹でて混ぜるだけ！速攻で食べれるのに最高に美味しい！【うどん】永谷園松茸のお吸い物で釜揚げにしたら最高。食べた後のお楽しみも嬉しい。」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ",
+    "description": "手抜き料理、それは創作。の実在動画。白身魚、卵、うどん、ネギを使う「茹でて混ぜるだけ！速攻で食べれるのに最高に美味しい！【うどん】永谷園松茸のお吸い物で釜揚げにしたら最高。食べた後のお楽しみも嬉しい。」のレシピです。"
   },
   {
     "title": "5分で完成！明太子クリームうどん🌶️ #簡単レシピ #美味しい",
@@ -25917,9 +25390,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "うどん、ネギ、にんにく、バター、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: うどん、ネギ、にんにく、バター、マヨネーズ、牛乳。「5分で完成！明太子クリームうどん🌶️ #簡単レシピ #美味しい」のレシピです。"
+    "description": "腹へったchの実在動画。うどん、ネギ、にんにく、バター、マヨネーズ、牛乳を使う「5分で完成！明太子クリームうどん🌶️ #簡単レシピ #美味しい」のレシピです。"
   },
   {
     "title": "簡単釜玉納豆うどん #簡単レシピ",
@@ -25947,9 +25418,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆい | 誰でもできる簡単痩せレシピの実在動画。食材候補: うどん。「簡単釜玉納豆うどん #簡単レシピ」のレシピです。"
+    "description": "ゆい | 誰でもできる簡単痩せレシピの実在動画。うどんを使う「簡単釜玉納豆うどん #簡単レシピ」のレシピです。"
   },
   {
     "title": "やる気1％でキムチーズ釜玉うどん",
@@ -25965,6 +25434,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "根菜",
@@ -25977,16 +25447,15 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "ginger",
       "garlic",
       "cheese"
     ],
-    "rawIngredients": "卵、うどん、ショウガ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、ショウガ、にんにく、チーズ。「やる気1％でキムチーズ釜玉うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ショウガ、にんにく、チーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、ショウガ、にんにく、チーズを使う「やる気1％でキムチーズ釜玉うどん」のレシピです。"
   },
   {
     "title": "レンチンで楽ちんレシピ！豚キムチーズうどん",
@@ -26003,6 +25472,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -26016,15 +25486,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "cheese"
     ],
-    "rawIngredients": "豚肉、卵、うどん、ネギ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、卵、うどん、ネギ、チーズ。「レンチンで楽ちんレシピ！豚キムチーズうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、うどん、ネギ、チーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、卵、うどん、ネギ、チーズを使う「レンチンで楽ちんレシピ！豚キムチーズうどん」のレシピです。"
   },
   {
     "title": "電子レンジだけ【冷凍うどんアレンジ】キムチとツナで超絶品🔥業務スーパーレシピ！",
@@ -26054,9 +25523,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "ツナ、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぎょうすーままの実在動画。食材候補: ツナ、うどん。「電子レンジだけ【冷凍うどんアレンジ】キムチとツナで超絶品🔥業務スーパーレシピ！」のレシピです。"
+    "description": "ぎょうすーままの実在動画。ツナ、うどんを使う「電子レンジだけ【冷凍うどんアレンジ】キムチとツナで超絶品🔥業務スーパーレシピ！」のレシピです。"
   },
   {
     "title": "野菜たっぷり！うまみ豚白菜うどん #簡単レシピ",
@@ -26086,9 +25553,7 @@ const recipes = [
       "napa_cabbage"
     ],
     "rawIngredients": "うどん、napa_cabbage",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん、napa_cabbage。「野菜たっぷり！うまみ豚白菜うどん #簡単レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどん、napa_cabbageを使う「野菜たっぷり！うまみ豚白菜うどん #簡単レシピ」のレシピです。"
   },
   {
     "title": "夫が大絶賛した豆乳坦々うどん #簡単レシピ #料理 #夫婦ごはん",
@@ -26116,9 +25581,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。食材候補: うどん。「夫が大絶賛した豆乳坦々うどん #簡単レシピ #料理 #夫婦ごはん」のレシピです。"
+    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。うどんを使う「夫が大絶賛した豆乳坦々うどん #簡単レシピ #料理 #夫婦ごはん」のレシピです。"
   },
   {
     "title": "混ぜるだけで絶品レシピ！冷やしビビンうどん",
@@ -26154,9 +25617,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ツナ、卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: ツナ、卵、うどん、ネギ、にんにく。「混ぜるだけで絶品レシピ！冷やしビビンうどん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。ツナ、卵、うどん、ネギ、にんにくを使う「混ぜるだけで絶品レシピ！冷やしビビンうどん」のレシピです。"
   },
   {
     "title": "レンジで1発！生クリーム不要のクリームうどん🥹 #shots #おうちごはん",
@@ -26172,6 +25633,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -26183,16 +25645,15 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "garlic",
       "butter",
       "mayonnaise",
       "milk"
     ],
-    "rawIngredients": "うどん、にんにく、バター、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: うどん、にんにく、バター、マヨネーズ、牛乳。「レンジで1発！生クリーム不要のクリームうどん🥹 #shots #おうちごはん」のレシピです。"
+    "rawIngredients": "白身魚、うどん、にんにく、バター、マヨネーズ、牛乳",
+    "description": "まみ(mami) ラクうまごはんの実在動画。白身魚、うどん、にんにく、バター、マヨネーズ、牛乳を使う「レンジで1発！生クリーム不要のクリームうどん🥹 #shots #おうちごはん」のレシピです。"
   },
   {
     "title": "やる気1%でごまつゆつけうどん",
@@ -26226,9 +25687,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「やる気1%でごまつゆつけうどん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。卵、うどん、ネギ、にんにくを使う「やる気1%でごまつゆつけうどん」のレシピです。"
   },
   {
     "title": "【やる気1％で作れる！鶏がら醤油うどん】",
@@ -26260,9 +25719,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: うどん、ネギ、にんにく。「【やる気1％で作れる！鶏がら醤油うどん】」のレシピです。"
+    "description": "まるみキッチン【簡単レシピ】の実在動画。うどん、ネギ、にんにくを使う「【やる気1％で作れる！鶏がら醤油うどん】」のレシピです。"
   },
   {
     "title": "これは絶対覚えた方がいい。家でこんなにウマい出汁とお揚げが作れます【至高のきつねうどん】 #料理 #バズレシピ #簡単レシピ",
@@ -26278,6 +25735,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "麺"
     ],
@@ -26288,13 +25746,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "aburaage",
       "udon"
     ],
-    "rawIngredients": "油揚げ、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 油揚げ、うどん。「これは絶対覚えた方がいい。家でこんなにウマい出汁とお揚げが作れます【至高のきつねうどん】 #料理 #バズレシピ #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、油揚げ、うどん",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、油揚げ、うどんを使う「これは絶対覚えた方がいい。家でこんなにウマい出汁とお揚げが作れます【至高のきつねうどん】 #料理 #バズレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "簡単すぎる。肉カレーうどん🥢",
@@ -26311,6 +25768,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -26323,14 +25781,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion",
       "curry_roux"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 豚肉、うどん、ネギ、カレールゥ。「簡単すぎる。肉カレーうどん🥢」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ、カレールゥ",
+    "description": "腹へったchの実在動画。豚肉、白身魚、うどん、ネギ、カレールゥを使う「簡単すぎる。肉カレーうどん🥢」のレシピです。"
   },
   {
     "title": "限界olのためのうどんレシピ😪ごまドレッシング万能すぎる👊 #ブラック企業 #ol日常 #退勤後 #cooking #自炊 #vlog #簡単レシピ",
@@ -26358,9 +25815,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: うどん。「限界olのためのうどんレシピ😪ごまドレッシング万能すぎる👊 #ブラック企業 #ol日常 #退勤後 #cooking #自炊 #vlog #簡単レシピ」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。うどんを使う「限界olのためのうどんレシピ😪ごまドレッシング万能すぎる👊 #ブラック企業 #ol日常 #退勤後 #cooking #自炊 #vlog #簡単レシピ」のレシピです。"
   },
   {
     "title": "やる気1%で作れる鶏ガラ醤油釜玉うどん",
@@ -26394,9 +25849,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「やる気1%で作れる鶏ガラ醤油釜玉うどん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。卵、うどん、ネギ、にんにくを使う「やる気1%で作れる鶏ガラ醤油釜玉うどん」のレシピです。"
   },
   {
     "title": "肉うどんの作り方！ガッツリいける！おうちで簡単お店の味☆旨みたっぷり甘辛肉うどんです♪お肉も柔らかで食べ応え抜群！-How to make Meat Noodles-【料理研究家ゆかり】",
@@ -26413,6 +25866,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -26426,15 +25880,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "牛肉、卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 牛肉、卵、うどん、ネギ、にんにく。「肉うどんの作り方！ガッツリいける！おうちで簡単お店の味☆旨みたっぷり甘辛肉うどんです♪お肉も柔らかで食べ応え抜群！-How to make Meat Noodles-【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、卵、うどん、ネギ、にんにく",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。牛肉、白身魚、卵、うどん、ネギ、にんにくを使う「肉うどんの作り方！ガッツリいける！おうちで簡単お店の味☆旨みたっぷり甘辛肉うどんです♪お肉も柔らかで食べ応え抜群！-How to make Meat Noodles-【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "夏野菜たっぷり！簡単サラダうどん",
@@ -26462,9 +25915,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "chii【ちはる姉さん】らくチン美味いごはんとおやつ🥣の実在動画。食材候補: うどん。「夏野菜たっぷり！簡単サラダうどん」のレシピです。"
+    "description": "chii【ちはる姉さん】らくチン美味いごはんとおやつ🥣の実在動画。うどんを使う「夏野菜たっぷり！簡単サラダうどん」のレシピです。"
   },
   {
     "title": "簡単で減塩！給食うどんレシピ大公開",
@@ -26502,9 +25953,7 @@ const recipes = [
       "carrot"
     ],
     "rawIngredients": "豚肉、油揚げ、うどん、ほうれん草、ネギ、玉ねぎ、にんじん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: 豚肉、油揚げ、うどん、ほうれん草、ネギ、玉ねぎ、にんじん。「簡単で減塩！給食うどんレシピ大公開」のレシピです。"
+    "description": "あおいの給食室🔪の実在動画。豚肉、油揚げ、うどん、ほうれん草、ネギ、玉ねぎ、にんじんを使う「簡単で減塩！給食うどんレシピ大公開」のレシピです。"
   },
   {
     "title": "鬼リピ決定の逸材レシピ！ビビンラー油うどん",
@@ -26520,6 +25969,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜"
@@ -26531,14 +25981,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ。「鬼リピ決定の逸材レシピ！ビビンラー油うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、うどん、ネギを使う「鬼リピ決定の逸材レシピ！ビビンラー油うどん」のレシピです。"
   },
   {
     "title": "箸が止まらない！ラー油でピリ辛油うどん！",
@@ -26573,9 +26022,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、うどん、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、ショウガ、にんにく。「箸が止まらない！ラー油でピリ辛油うどん！」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。卵、うどん、ネギ、ショウガ、にんにくを使う「箸が止まらない！ラー油でピリ辛油うどん！」のレシピです。"
   },
   {
     "title": "【やる気1％でたれポン酢まぜうどん】",
@@ -26591,6 +26038,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "根菜"
@@ -26602,14 +26050,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、にんにく。「【やる気1％でたれポン酢まぜうどん】」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、にんにくを使う「【やる気1％でたれポン酢まぜうどん】」のレシピです。"
   },
   {
     "title": "作業5分で！明太釜玉うどん🥢 #簡単レシピ #胃袋泥棒レシピ",
@@ -26637,9 +26084,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん。「作業5分で！明太釜玉うどん🥢 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどんを使う「作業5分で！明太釜玉うどん🥢 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "仕事終わりでもレンジで簡単に美味しく出来る！カルボうどん🐣 #カルボナーラうどん #冷凍うどん #うどん #簡単レシピ #レンジで簡単",
@@ -26668,9 +26113,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "うどん、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "コタキッチンKotaKitchenの実在動画。食材候補: うどん、パスタ。「仕事終わりでもレンジで簡単に美味しく出来る！カルボうどん🐣 #カルボナーラうどん #冷凍うどん #うどん #簡単レシピ #レンジで簡単」のレシピです。"
+    "description": "コタキッチンKotaKitchenの実在動画。うどん、パスタを使う「仕事終わりでもレンジで簡単に美味しく出来る！カルボうどん🐣 #カルボナーラうどん #冷凍うどん #うどん #簡単レシピ #レンジで簡単」のレシピです。"
   },
   {
     "title": "たまらない美味さ！ネギ豚つけうどん",
@@ -26687,6 +26130,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -26698,13 +26142,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、うどん、ネギ。「たまらない美味さ！ネギ豚つけうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、うどん、ネギを使う「たまらない美味さ！ネギ豚つけうどん」のレシピです。"
   },
   {
     "title": "たったこれだけ。いつもの具材でうどんはここまで旨くなる『かきたまうどん』",
@@ -26745,9 +26188,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "たこ、油揚げ、卵、うどん、パスタ、キャベツ、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "食事処さくらの料理教室の実在動画。食材候補: たこ、油揚げ、卵、うどん、パスタ、キャベツ、ネギ、ショウガ、にんにく。「たったこれだけ。いつもの具材でうどんはここまで旨くなる『かきたまうどん』」のレシピです。"
+    "description": "食事処さくらの料理教室の実在動画。たこ、油揚げ、卵、うどん、パスタ、キャベツ、ネギ、ショウガ、にんにくを使う「たったこれだけ。いつもの具材でうどんはここまで旨くなる『かきたまうどん』」のレシピです。"
   },
   {
     "title": "【プロ直伝】 人気うどん屋さんから教わった【手打ちうどん】の作り方を公開します",
@@ -26763,6 +26204,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "根菜",
       "米"
@@ -26774,14 +26216,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "corn",
       "flour"
     ],
-    "rawIngredients": "うどん、コーン缶、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理人設楽の料理道場の実在動画。食材候補: うどん、コーン缶、小麦粉。「【プロ直伝】 人気うどん屋さんから教わった【手打ちうどん】の作り方を公開します」のレシピです。"
+    "rawIngredients": "白身魚、うどん、コーン缶、小麦粉",
+    "description": "料理人設楽の料理道場の実在動画。白身魚、うどん、コーン缶、小麦粉を使う「【プロ直伝】 人気うどん屋さんから教わった【手打ちうどん】の作り方を公開します」のレシピです。"
   },
   {
     "title": "一瞬で完成！バター釜玉油うどん",
@@ -26797,6 +26238,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -26810,16 +26252,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "卵、うどん、ネギ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、にんにく、バター。「一瞬で完成！バター釜玉油うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、にんにく、バター",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、うどん、ネギ、にんにく、バターを使う「一瞬で完成！バター釜玉油うどん」のレシピです。"
   },
   {
     "title": "超簡単‼️めんつゆごま油うどんの作り方◥█̆̈◤࿉∥ #うどん #レシピ #時短 #簡単レシピ",
@@ -26847,9 +26288,35 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆりうどん【うどんアイドル®︎】の実在動画。食材候補: うどん。「超簡単‼️めんつゆごま油うどんの作り方◥█̆̈◤࿉∥ #うどん #レシピ #時短 #簡単レシピ」のレシピです。"
+    "description": "ゆりうどん【うどんアイドル®︎】の実在動画。うどんを使う「超簡単‼️めんつゆごま油うどんの作り方◥█̆̈◤࿉∥ #うどん #レシピ #時短 #簡単レシピ」のレシピです。"
+  },
+  {
+    "title": "【丸亀にあったらみんな注文するよ？】豚バラ茄子つけうどん #料理 #マッチョ #元カレ #cooking #簡単レシピ #クッキング",
+    "platform": "youtube",
+    "externalId": "Z-EHKV0zbwE",
+    "videoUrl": "https://www.youtube.com/watch?v=Z-EHKV0zbwE",
+    "videoId": "Z-EHKV0zbwE",
+    "url": "https://www.youtube.com/watch?v=Z-EHKV0zbwE",
+    "thumbnailUrl": "https://i.ytimg.com/vi/Z-EHKV0zbwE/maxresdefault.jpg",
+    "creator": "マッチョ元カレごはんがうますぎる",
+    "style": "YouTube Data API収集",
+    "taste": "light",
+    "time": "normal",
+    "temperature": "warm",
+    "ingredients": [
+      "魚介"
+    ],
+    "oil": 2,
+    "effort": 3,
+    "dishes": 2,
+    "steps": 4,
+    "knife": false,
+    "heat": true,
+    "detailedIngredients": [
+      "whitefish"
+    ],
+    "rawIngredients": "白身魚",
+    "description": "マッチョ元カレごはんがうますぎるの実在動画。白身魚を使う「【丸亀にあったらみんな注文するよ？】豚バラ茄子つけうどん #料理 #マッチョ #元カレ #cooking #簡単レシピ #クッキング」のレシピです。"
   },
   {
     "title": "簡単かきたまうどんの作り方 #shorts #簡単レシピ #おうちごはん #うどん #料理 #cooking #japanesefood",
@@ -26877,9 +26344,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "めしまる【誰でも作れる簡単レシピ】の実在動画。食材候補: うどん。「簡単かきたまうどんの作り方 #shorts #簡単レシピ #おうちごはん #うどん #料理 #cooking #japanesefood」のレシピです。"
+    "description": "めしまる【誰でも作れる簡単レシピ】の実在動画。うどんを使う「簡単かきたまうどんの作り方 #shorts #簡単レシピ #おうちごはん #うどん #料理 #cooking #japanesefood」のレシピです。"
   },
   {
     "title": "寒い日に栄養満点ごはん！鶏ねぎ塩うどん #簡単レシピ #胃袋泥棒レシピ",
@@ -26909,9 +26374,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん、ネギ。「寒い日に栄養満点ごはん！鶏ねぎ塩うどん #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどん、ネギを使う「寒い日に栄養満点ごはん！鶏ねぎ塩うどん #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "🍲5分で作れる！絶品豚塩うどん🐷 #簡単レシピ #うどん",
@@ -26945,9 +26408,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、鶏肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 豚肉、鶏肉、うどん、ネギ。「🍲5分で作れる！絶品豚塩うどん🐷 #簡単レシピ #うどん」のレシピです。"
+    "description": "腹へったchの実在動画。豚肉、鶏肉、うどん、ネギを使う「🍲5分で作れる！絶品豚塩うどん🐷 #簡単レシピ #うどん」のレシピです。"
   },
   {
     "title": "レンジのみで作れて男子受け抜群。1人ご飯にもちょうどよいからうどんあったらこれやって！#簡単レシピ #時短節約 #節約レシピ #うどんレシピ #とんこつラーメン #youtubeshorts",
@@ -26959,10 +26420,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/2VsP5kqjYj0/maxresdefault.jpg",
     "creator": "yuchi",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -26972,13 +26434,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "ramen"
     ],
-    "rawIngredients": "うどん、ラーメン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yuchiの実在動画。食材候補: うどん、ラーメン。「レンジのみで作れて男子受け抜群。1人ご飯にもちょうどよいからうどんあったらこれやって！#簡単レシピ #時短節約 #節約レシピ #うどんレシピ #とんこつラーメン #youtubeshorts」のレシピです。"
+    "rawIngredients": "白身魚、うどん、ラーメン",
+    "description": "yuchiの実在動画。白身魚、うどん、ラーメンを使う「レンジのみで作れて男子受け抜群。1人ご飯にもちょうどよいからうどんあったらこれやって！#簡単レシピ #時短節約 #節約レシピ #うどんレシピ #とんこつラーメン #youtubeshorts」のレシピです。"
   },
   {
     "title": "焼きうどんを極上にするひと手間のコツ",
@@ -27006,9 +26467,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "食事処さくらの料理教室の実在動画。食材候補: うどん。「焼きうどんを極上にするひと手間のコツ」のレシピです。"
+    "description": "食事処さくらの料理教室の実在動画。うどんを使う「焼きうどんを極上にするひと手間のコツ」のレシピです。"
   },
   {
     "title": "冷凍うどんがあったら、、 #shots",
@@ -27025,6 +26484,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -27037,14 +26497,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "garlic",
       "milk"
     ],
-    "rawIngredients": "豚肉、うどん、にんにく、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: 豚肉、うどん、にんにく、牛乳。「冷凍うどんがあったら、、 #shots」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、にんにく、牛乳",
+    "description": "まみ(mami) ラクうまごはんの実在動画。豚肉、白身魚、うどん、にんにく、牛乳を使う「冷凍うどんがあったら、、 #shots」のレシピです。"
   },
   {
     "title": "【肉うどん】困った時に！一瞬で作れて絶品な肉うどんの黄金比！",
@@ -27072,9 +26531,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オリーブオイルをひとまわし / オリひとの実在動画。食材候補: うどん。「【肉うどん】困った時に！一瞬で作れて絶品な肉うどんの黄金比！」のレシピです。"
+    "description": "オリーブオイルをひとまわし / オリひとの実在動画。うどんを使う「【肉うどん】困った時に！一瞬で作れて絶品な肉うどんの黄金比！」のレシピです。"
   },
   {
     "title": "【プロの簡単レシピ】最高に美味しいうどん出汁！冷凍うどんでも美味しくなる作り方",
@@ -27102,9 +26559,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "板長チャンネル - Japan's Head chefの実在動画。食材候補: うどん。「【プロの簡単レシピ】最高に美味しいうどん出汁！冷凍うどんでも美味しくなる作り方」のレシピです。"
+    "description": "板長チャンネル - Japan's Head chefの実在動画。うどんを使う「【プロの簡単レシピ】最高に美味しいうどん出汁！冷凍うどんでも美味しくなる作り方」のレシピです。"
   },
   {
     "title": "絶品カレーうどん#簡単レシピ#レシピ#おうちごはん#カレーうどん#うどんレシピ#料理",
@@ -27140,9 +26595,7 @@ const recipes = [
       "onion"
     ],
     "rawIngredients": "牛肉、油揚げ、うどん、ネギ、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まゆみの愛情キッチンの実在動画。食材候補: 牛肉、油揚げ、うどん、ネギ、玉ねぎ。「絶品カレーうどん#簡単レシピ#レシピ#おうちごはん#カレーうどん#うどんレシピ#料理」のレシピです。"
+    "description": "まゆみの愛情キッチンの実在動画。牛肉、油揚げ、うどん、ネギ、玉ねぎを使う「絶品カレーうどん#簡単レシピ#レシピ#おうちごはん#カレーうどん#うどんレシピ#料理」のレシピです。"
   },
   {
     "title": "【冷凍うどん】電子レンジだけで作れるズボラかけうどん #簡単レシピ",
@@ -27170,9 +26623,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "トールの遊び場の実在動画。食材候補: うどん。「【冷凍うどん】電子レンジだけで作れるズボラかけうどん #簡単レシピ」のレシピです。"
+    "description": "トールの遊び場の実在動画。うどんを使う「【冷凍うどん】電子レンジだけで作れるズボラかけうどん #簡単レシピ」のレシピです。"
   },
   {
     "title": "簡単すぎる…絶品鶏塩うどん🥢",
@@ -27189,6 +26640,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -27200,13 +26652,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 鶏肉、うどん、ネギ。「簡単すぎる…絶品鶏塩うどん🥢」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、うどん、ネギ",
+    "description": "腹へったchの実在動画。鶏肉、白身魚、うどん、ネギを使う「簡単すぎる…絶品鶏塩うどん🥢」のレシピです。"
   },
   {
     "title": "冷凍うどんはこうやって食らえ。",
@@ -27222,6 +26673,7 @@ const recipes = [
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "チーズ・バター・マヨ系"
@@ -27233,14 +26685,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "butter"
     ],
-    "rawIngredients": "卵、うどん、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、バター。「冷凍うどんはこうやって食らえ。」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、バター",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、バターを使う「冷凍うどんはこうやって食らえ。」のレシピです。"
   },
   {
     "title": "手打ちうどんの作り方 後編【讃岐うどん】",
@@ -27257,6 +26708,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜"
@@ -27269,14 +26721,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "aburaage",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、油揚げ、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "JA香川県公式チャンネルの実在動画。食材候補: 鶏肉、油揚げ、うどん、ネギ。「手打ちうどんの作り方 後編【讃岐うどん】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、油揚げ、うどん、ネギ",
+    "description": "JA香川県公式チャンネルの実在動画。鶏肉、白身魚、油揚げ、うどん、ネギを使う「手打ちうどんの作り方 後編【讃岐うどん】」のレシピです。"
   },
   {
     "title": "爆速！濃厚！！【ピリ辛胡麻うどん】 #簡単レシピ",
@@ -27304,9 +26755,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん。「爆速！濃厚！！【ピリ辛胡麻うどん】 #簡単レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどんを使う「爆速！濃厚！！【ピリ辛胡麻うどん】 #簡単レシピ」のレシピです。"
   },
   {
     "title": "疲れた日でも作れる。爆速ツナ塩うどん🥢 #簡単レシピ #ズボラ飯",
@@ -27340,9 +26789,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ツナ、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: ツナ、うどん、ネギ、にんにく。「疲れた日でも作れる。爆速ツナ塩うどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
+    "description": "腹へったchの実在動画。ツナ、うどん、ネギ、にんにくを使う「疲れた日でも作れる。爆速ツナ塩うどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
   },
   {
     "title": "とろける卵かけチーズうどん🧀#簡単レシピ #うどん #時短レシピ #お手軽レシピ #レンジで簡単 #チーズ #冷凍うどん",
@@ -27374,9 +26821,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "卵、うどん、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "コタキッチンKotaKitchenの実在動画。食材候補: 卵、うどん、チーズ。「とろける卵かけチーズうどん🧀#簡単レシピ #うどん #時短レシピ #お手軽レシピ #レンジで簡単 #チーズ #冷凍うどん」のレシピです。"
+    "description": "コタキッチンKotaKitchenの実在動画。卵、うどん、チーズを使う「とろける卵かけチーズうどん🧀#簡単レシピ #うどん #時短レシピ #お手軽レシピ #レンジで簡単 #チーズ #冷凍うどん」のレシピです。"
   },
   {
     "title": "本日の‼️てぬきお昼ごはん🤭バター釜玉うどん",
@@ -27392,6 +26837,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -27404,15 +26850,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "butter"
     ],
-    "rawIngredients": "卵、うどん、ネギ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あつメシ×あさとファミリーの実在動画。食材候補: 卵、うどん、ネギ、バター。「本日の‼️てぬきお昼ごはん🤭バター釜玉うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、バター",
+    "description": "あつメシ×あさとファミリーの実在動画。白身魚、卵、うどん、ネギ、バターを使う「本日の‼️てぬきお昼ごはん🤭バター釜玉うどん」のレシピです。"
   },
   {
     "title": "フライパンや鍋で1発でできるズボラ飯！ネギ塩豚バラうどん",
@@ -27429,6 +26874,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -27440,13 +26886,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、うどん、ネギ。「フライパンや鍋で1発でできるズボラ飯！ネギ塩豚バラうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、うどん、ネギを使う「フライパンや鍋で1発でできるズボラ飯！ネギ塩豚バラうどん」のレシピです。"
   },
   {
     "title": "やる気1%でピリ辛まぜうどん",
@@ -27462,6 +26907,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "根菜"
@@ -27473,14 +26919,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "garlic"
     ],
-    "rawIngredients": "卵、うどん、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、にんにく。「やる気1%でピリ辛まぜうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、にんにくを使う「やる気1%でピリ辛まぜうどん」のレシピです。"
   },
   {
     "title": "柚子胡椒香るトマト冷やしうどん：レシピは概要欄に",
@@ -27510,9 +26955,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "うどん、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "自炊する山田の実在動画。食材候補: うどん、トマト。「柚子胡椒香るトマト冷やしうどん：レシピは概要欄に」のレシピです。"
+    "description": "自炊する山田の実在動画。うどん、トマトを使う「柚子胡椒香るトマト冷やしうどん：レシピは概要欄に」のレシピです。"
   },
   {
     "title": "レンジで一発！明太マヨうどん",
@@ -27528,6 +26971,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "チーズ・バター・マヨ系"
@@ -27539,14 +26983,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "mayonnaise"
     ],
-    "rawIngredients": "卵、うどん、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん、マヨネーズ。「レンジで一発！明太マヨうどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、マヨネーズ",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどん、マヨネーズを使う「レンジで一発！明太マヨうどん」のレシピです。"
   },
   {
     "title": "簡単で本格味！プロの卵とじあんかけうどんの作り方【絶品】",
@@ -27580,9 +27023,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "卵、うどん、昆布、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【和食道】政chの実在動画。食材候補: 卵、うどん、昆布、ショウガ。「簡単で本格味！プロの卵とじあんかけうどんの作り方【絶品】」のレシピです。"
+    "description": "【和食道】政chの実在動画。卵、うどん、昆布、ショウガを使う「簡単で本格味！プロの卵とじあんかけうどんの作り方【絶品】」のレシピです。"
   },
   {
     "title": "うどん茹でるな！！驚愕の方法で作るヤバい冷やしうどん #リュウジ #料理 #shorts",
@@ -27594,10 +27035,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/BXOqmSIBxEI/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-light",
+    "taste": "light",
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 1,
@@ -27607,12 +27049,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon"
     ],
-    "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: うどん。「うどん茹でるな！！驚愕の方法で作るヤバい冷やしうどん #リュウジ #料理 #shorts」のレシピです。"
+    "rawIngredients": "白身魚、うどん",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、うどんを使う「うどん茹でるな！！驚愕の方法で作るヤバい冷やしうどん #リュウジ #料理 #shorts」のレシピです。"
   },
   {
     "title": "プロが教える最高に美味しい肉うどんの作り方【簡単レシピ】",
@@ -27647,9 +27088,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、うどん、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "フリーランス料理人の簡単レシピの実在動画。食材候補: 豚肉、うどん、ネギ、玉ねぎ、ショウガ。「プロが教える最高に美味しい肉うどんの作り方【簡単レシピ】」のレシピです。"
+    "description": "フリーランス料理人の簡単レシピの実在動画。豚肉、うどん、ネギ、玉ねぎ、ショウガを使う「プロが教える最高に美味しい肉うどんの作り方【簡単レシピ】」のレシピです。"
   },
   {
     "title": "小麦粉と水で作る 手打ちうどん",
@@ -27679,9 +27118,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "うどん、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "よつばの事情の実在動画。食材候補: うどん、小麦粉。「小麦粉と水で作る 手打ちうどん」のレシピです。"
+    "description": "よつばの事情の実在動画。うどん、小麦粉を使う「小麦粉と水で作る 手打ちうどん」のレシピです。"
   },
   {
     "title": "これ公開するかマジ悩んだ。あまりにも罪深いウマさの【必殺ズボラうどん】の作り方#shorts #リュウジ #うどん",
@@ -27693,10 +27130,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/DQuUk2rAdOE/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -27706,12 +27144,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon"
     ],
-    "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: うどん。「これ公開するかマジ悩んだ。あまりにも罪深いウマさの【必殺ズボラうどん】の作り方#shorts #リュウジ #うどん」のレシピです。"
+    "rawIngredients": "白身魚、うどん",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、うどんを使う「これ公開するかマジ悩んだ。あまりにも罪深いウマさの【必殺ズボラうどん】の作り方#shorts #リュウジ #うどん」のレシピです。"
   },
   {
     "title": "いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】#shorts #リュウジ #料理",
@@ -27727,6 +27164,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 3,
@@ -27736,13 +27174,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "soba"
     ],
-    "rawIngredients": "うどん、そば",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: うどん、そば。「いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】#shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "白身魚、うどん、そば",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、うどん、そばを使う「いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】#shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】",
@@ -27754,11 +27191,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/PHA_9YugW0k/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-light",
+    "taste": "semi-rich",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "麺",
@@ -27773,6 +27211,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "aburaage",
       "egg",
       "udon",
@@ -27780,10 +27219,8 @@ const recipes = [
       "green_onion",
       "shiitake"
     ],
-    "rawIngredients": "鶏肉、油揚げ、卵、うどん、そば、ネギ、しいたけ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、油揚げ、卵、うどん、そば、ネギ、しいたけ。「いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、油揚げ、卵、うどん、そば、ネギ、しいたけ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、白身魚、油揚げ、卵、うどん、そば、ネギ、しいたけを使う「いや、これは流石に絶賛されろ。お蕎麦屋さんより旨い自信あります。【至高の鍋焼きうどん】」のレシピです。"
   },
   {
     "title": "【手間1分】朝からいける簡単とんこつ風うどんが旨すぎた！#簡単レシピ #冷凍うどん #時短",
@@ -27811,9 +27248,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: うどん。「【手間1分】朝からいける簡単とんこつ風うどんが旨すぎた！#簡単レシピ #冷凍うどん #時短」のレシピです。"
+    "description": "深夜食堂の実在動画。うどんを使う「【手間1分】朝からいける簡単とんこつ風うどんが旨すぎた！#簡単レシピ #冷凍うどん #時短」のレシピです。"
   },
   {
     "title": "さっぱりと食べられる！肉おろしぶっかけうどん！ #簡単レシピ #うどん",
@@ -27830,6 +27265,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -27842,14 +27278,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion",
       "daikon"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ、大根",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 豚肉、うどん、ネギ、大根。「さっぱりと食べられる！肉おろしぶっかけうどん！ #簡単レシピ #うどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ、大根",
+    "description": "腹へったchの実在動画。豚肉、白身魚、うどん、ネギ、大根を使う「さっぱりと食べられる！肉おろしぶっかけうどん！ #簡単レシピ #うどん」のレシピです。"
   },
   {
     "title": "やる気1%でヤンニョムうどん",
@@ -27879,9 +27314,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "卵、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん。「やる気1%でヤンニョムうどん」のレシピです。"
+    "description": "まるみキッチン【簡単レシピ】の実在動画。卵、うどんを使う「やる気1%でヤンニョムうどん」のレシピです。"
   },
   {
     "title": "間違いなく絶品！一品鶏だしねぎ塩つけうどん",
@@ -27898,6 +27331,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -27910,15 +27344,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "udon",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、うどん、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 鶏肉、うどん、ネギ、ショウガ、にんにく。「間違いなく絶品！一品鶏だしねぎ塩つけうどん」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、うどん、ネギ、ショウガ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。鶏肉、白身魚、うどん、ネギ、ショウガ、にんにくを使う「間違いなく絶品！一品鶏だしねぎ塩つけうどん」のレシピです。"
   },
   {
     "title": "レンジで1発！明太バタークリームうどん",
@@ -27934,6 +27367,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -27945,16 +27379,15 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "green_onion",
       "butter",
       "mayonnaise",
       "milk"
     ],
-    "rawIngredients": "うどん、ネギ、バター、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: うどん、ネギ、バター、マヨネーズ、牛乳。「レンジで1発！明太バタークリームうどん」のレシピです。"
+    "rawIngredients": "白身魚、うどん、ネギ、バター、マヨネーズ、牛乳",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、うどん、ネギ、バター、マヨネーズ、牛乳を使う「レンジで1発！明太バタークリームうどん」のレシピです。"
   },
   {
     "title": "かすうどんを作ろう #shorts",
@@ -27982,9 +27415,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんた食堂の実在動画。食材候補: うどん。「かすうどんを作ろう #shorts」のレシピです。"
+    "description": "けんた食堂の実在動画。うどんを使う「かすうどんを作ろう #shorts」のレシピです。"
   },
   {
     "title": "鶏煮込みうどん〜鶏肉と白菜の旨味スープが身体に沁みわたる",
@@ -28001,6 +27432,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -28012,14 +27444,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "udon",
       "napa_cabbage",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、うどん、napa_cabbage、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Grand Chef MATSUO 松尾幸造の実在動画。食材候補: 鶏肉、うどん、napa_cabbage、ネギ。「鶏煮込みうどん〜鶏肉と白菜の旨味スープが身体に沁みわたる」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、うどん、napa_cabbage、ネギ",
+    "description": "Grand Chef MATSUO 松尾幸造の実在動画。鶏肉、白身魚、うどん、napa_cabbage、ネギを使う「鶏煮込みうどん〜鶏肉と白菜の旨味スープが身体に沁みわたる」のレシピです。"
   },
   {
     "title": "簡単すぎる。絶品肉つけうどん🥢 #簡単レシピ #ズボラ飯",
@@ -28051,9 +27482,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 豚肉、うどん、ネギ。「簡単すぎる。絶品肉つけうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
+    "description": "腹へったchの実在動画。豚肉、うどん、ネギを使う「簡単すぎる。絶品肉つけうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
   },
   {
     "title": "レンジで簡単！トマトチーズうどん🍅🍃 #簡単レシピ #胃袋泥棒レシピ",
@@ -28085,9 +27514,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "うどん、トマト、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん、トマト、チーズ。「レンジで簡単！トマトチーズうどん🍅🍃 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどん、トマト、チーズを使う「レンジで簡単！トマトチーズうどん🍅🍃 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "寒い冬に最適！！忙しい日に助かる！簡単ふわとろ卵とじうどんの作り方 #料理 #うどん #shorts",
@@ -28119,9 +27546,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 卵、うどん、ネギ。「寒い冬に最適！！忙しい日に助かる！簡単ふわとろ卵とじうどんの作り方 #料理 #うどん #shorts」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。卵、うどん、ネギを使う「寒い冬に最適！！忙しい日に助かる！簡単ふわとろ卵とじうどんの作り方 #料理 #うどん #shorts」のレシピです。"
   },
   {
     "title": "やる気1%でツナマヨカルボうどん",
@@ -28149,6 +27574,7 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "canned_tuna",
       "egg",
       "udon",
@@ -28157,10 +27583,8 @@ const recipes = [
       "mayonnaise",
       "milk"
     ],
-    "rawIngredients": "ツナ、卵、うどん、パスタ、チーズ、マヨネーズ、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: ツナ、卵、うどん、パスタ、チーズ、マヨネーズ、牛乳。「やる気1%でツナマヨカルボうどん」のレシピです。"
+    "rawIngredients": "白身魚、ツナ、卵、うどん、パスタ、チーズ、マヨネーズ、牛乳",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、ツナ、卵、うどん、パスタ、チーズ、マヨネーズ、牛乳を使う「やる気1%でツナマヨカルボうどん」のレシピです。"
   },
   {
     "title": "【スタミナキムチまぜうどん】",
@@ -28176,6 +27600,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺"
     ],
@@ -28186,13 +27611,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon"
     ],
-    "rawIngredients": "卵、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 卵、うどん。「【スタミナキムチまぜうどん】」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。白身魚、卵、うどんを使う「【スタミナキムチまぜうどん】」のレシピです。"
   },
   {
     "title": "レンジで簡単！梅しらすうどん🌸 #簡単レシピ #胃袋泥棒レシピ",
@@ -28220,9 +27644,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん。「レンジで簡単！梅しらすうどん🌸 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどんを使う「レンジで簡単！梅しらすうどん🌸 #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "真夏のざるうどん #shorts",
@@ -28252,9 +27674,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "豚肉、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんた食堂の実在動画。食材候補: 豚肉、うどん。「真夏のざるうどん #shorts」のレシピです。"
+    "description": "けんた食堂の実在動画。豚肉、うどんを使う「真夏のざるうどん #shorts」のレシピです。"
   },
   {
     "title": "体温まる。とろとろ焦がしネギうどん🥢 #簡単レシピ #うどん",
@@ -28284,9 +27704,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: うどん、ネギ。「体温まる。とろとろ焦がしネギうどん🥢 #簡単レシピ #うどん」のレシピです。"
+    "description": "腹へったchの実在動画。うどん、ネギを使う「体温まる。とろとろ焦がしネギうどん🥢 #簡単レシピ #うどん」のレシピです。"
   },
   {
     "title": "冷凍うどんで作る！笠原流【豆乳担々うどん】",
@@ -28315,9 +27733,7 @@ const recipes = [
       "noodles"
     ],
     "rawIngredients": "うどん、中華麺",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: うどん、中華麺。「冷凍うどんで作る！笠原流【豆乳担々うどん】」のレシピです。"
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。うどん、中華麺を使う「冷凍うどんで作る！笠原流【豆乳担々うどん】」のレシピです。"
   },
   {
     "title": "【電子レンジで簡単！】カレーうどんのレシピ、作り方#shorts #簡単レシピ #初心者 #料理 #おうちごはん #電子レンジ#うどん#カレー",
@@ -28333,6 +27749,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -28344,14 +27761,13 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "green_onion",
       "curry_roux"
     ],
-    "rawIngredients": "うどん、ネギ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "主婦レシピ【主婦による家庭料理レシピ】の実在動画。食材候補: うどん、ネギ、カレールゥ。「【電子レンジで簡単！】カレーうどんのレシピ、作り方#shorts #簡単レシピ #初心者 #料理 #おうちごはん #電子レンジ#うどん#カレー」のレシピです。"
+    "rawIngredients": "白身魚、うどん、ネギ、カレールゥ",
+    "description": "主婦レシピ【主婦による家庭料理レシピ】の実在動画。白身魚、うどん、ネギ、カレールゥを使う「【電子レンジで簡単！】カレーうどんのレシピ、作り方#shorts #簡単レシピ #初心者 #料理 #おうちごはん #電子レンジ#うどん#カレー」のレシピです。"
   },
   {
     "title": "カレーうどんの美味しい作り方#shorts",
@@ -28379,9 +27795,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Ryou【和久井亮平】の実在動画。食材候補: うどん。「カレーうどんの美味しい作り方#shorts」のレシピです。"
+    "description": "Ryou【和久井亮平】の実在動画。うどんを使う「カレーうどんの美味しい作り方#shorts」のレシピです。"
   },
   {
     "title": "暑い日にぴったり！豚バラ冷しゃぶうどん",
@@ -28415,9 +27829,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、うどん、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、うどん、ネギ、ショウガ。「暑い日にぴったり！豚バラ冷しゃぶうどん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、うどん、ネギ、ショウガを使う「暑い日にぴったり！豚バラ冷しゃぶうどん」のレシピです。"
   },
   {
     "title": "1食180円汁なし坦々うどん弁当#shorts#簡単レシピ#節約レシピ",
@@ -28434,29 +27846,29 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": true,
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "udon",
       "green_onion",
       "ginger",
       "garlic",
       "milk"
     ],
-    "rawIngredients": "挽肉、うどん、ネギ、ショウガ、にんにく、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。食材候補: 挽肉、うどん、ネギ、ショウガ、にんにく、牛乳。「1食180円汁なし坦々うどん弁当#shorts#簡単レシピ#節約レシピ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、うどん、ネギ、ショウガ、にんにく、牛乳",
+    "description": "ゆみ⌇年150万貯める独身女の冷凍ｽﾄｯｸの実在動画。挽肉、白身魚、うどん、ネギ、ショウガ、にんにく、牛乳を使う「1食180円汁なし坦々うどん弁当#shorts#簡単レシピ#節約レシピ」のレシピです。"
   },
   {
     "title": "豚コマと冷凍うどんで作れる肉うどんで家族が笑顔に！！",
@@ -28473,6 +27885,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -28484,13 +27897,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なべのだいどころ。の実在動画。食材候補: 豚肉、うどん、ネギ。「豚コマと冷凍うどんで作れる肉うどんで家族が笑顔に！！」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "なべのだいどころ。の実在動画。豚肉、白身魚、うどん、ネギを使う「豚コマと冷凍うどんで作れる肉うどんで家族が笑顔に！！」のレシピです。"
   },
   {
     "title": "絶品！讃岐うどんスープの作り方。いりこ出汁がたまらん！簡単で美味しいレシピ公開。#簡単レシピ #讃岐うどんスープ#shorts",
@@ -28523,9 +27935,7 @@ const recipes = [
       "kombu"
     ],
     "rawIngredients": "うどん、ネギ、じゃが芋、昆布",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "はっち 料理サークルちゃお主宰の実在動画。食材候補: うどん、ネギ、じゃが芋、昆布。「絶品！讃岐うどんスープの作り方。いりこ出汁がたまらん！簡単で美味しいレシピ公開。#簡単レシピ #讃岐うどんスープ#shorts」のレシピです。"
+    "description": "はっち 料理サークルちゃお主宰の実在動画。うどん、ネギ、じゃが芋、昆布を使う「絶品！讃岐うどんスープの作り方。いりこ出汁がたまらん！簡単で美味しいレシピ公開。#簡単レシピ #讃岐うどんスープ#shorts」のレシピです。"
   },
   {
     "title": "レンジで爆速！焼肉のタレとチーズで最強ビビンバうどん",
@@ -28560,9 +27970,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "卵、うどん、ショウガ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ショウガ、にんにく、チーズ。「レンジで爆速！焼肉のタレとチーズで最強ビビンバうどん」のレシピです。"
+    "description": "ハマごはん【お手軽レシピ】の実在動画。卵、うどん、ショウガ、にんにく、チーズを使う「レンジで爆速！焼肉のタレとチーズで最強ビビンバうどん」のレシピです。"
   },
   {
     "title": "【簡単節約】仕事終わりでも作れる冷凍うどんのレシピ📍レシピはコメント欄へ#簡単レシピ #japanesefood",
@@ -28590,9 +27998,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: うどん。「【簡単節約】仕事終わりでも作れる冷凍うどんのレシピ📍レシピはコメント欄へ#簡単レシピ #japanesefood」のレシピです。"
+    "description": "まみ(mami) ラクうまごはんの実在動画。うどんを使う「【簡単節約】仕事終わりでも作れる冷凍うどんのレシピ📍レシピはコメント欄へ#簡単レシピ #japanesefood」のレシピです。"
   },
   {
     "title": "豚肉で簡単コク旨！ボリューム満点！ねぎ肉うどんの作り方",
@@ -28627,9 +28033,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、うどん、ネギ、レタス、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 豚肉、うどん、ネギ、レタス、ショウガ。「豚肉で簡単コク旨！ボリューム満点！ねぎ肉うどんの作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。豚肉、うどん、ネギ、レタス、ショウガを使う「豚肉で簡単コク旨！ボリューム満点！ねぎ肉うどんの作り方」のレシピです。"
   },
   {
     "title": "【超簡単】美味しいうどんだしの作り方！ #shorts #簡単レシピ #うどん",
@@ -28657,9 +28061,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ビートル萬屋ちゃんねるの実在動画。食材候補: うどん。「【超簡単】美味しいうどんだしの作り方！ #shorts #簡単レシピ #うどん」のレシピです。"
+    "description": "ビートル萬屋ちゃんねるの実在動画。うどんを使う「【超簡単】美味しいうどんだしの作り方！ #shorts #簡単レシピ #うどん」のレシピです。"
   },
   {
     "title": "【コスパ◎】5分で完成、麻辣湯うどんレシピ。 #簡単レシピ #麻辣湯 #おうちごはん #節約レシピ #時短レシピ #料理動画",
@@ -28687,9 +28089,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: うどん。「【コスパ◎】5分で完成、麻辣湯うどんレシピ。 #簡単レシピ #麻辣湯 #おうちごはん #節約レシピ #時短レシピ #料理動画」のレシピです。"
+    "description": "深夜食堂の実在動画。うどんを使う「【コスパ◎】5分で完成、麻辣湯うどんレシピ。 #簡単レシピ #麻辣湯 #おうちごはん #節約レシピ #時短レシピ #料理動画」のレシピです。"
   },
   {
     "title": "爆速油うどん#うどん#油そば#料理#簡単レシピ#shorts",
@@ -28705,6 +28105,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺"
     ],
@@ -28715,14 +28116,13 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "soba"
     ],
-    "rawIngredients": "卵、うどん、そば",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "秒ウマ飯l 毎日ごはんをラクに美味しくの実在動画。食材候補: 卵、うどん、そば。「爆速油うどん#うどん#油そば#料理#簡単レシピ#shorts」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、そば",
+    "description": "秒ウマ飯l 毎日ごはんをラクに美味しくの実在動画。白身魚、卵、うどん、そばを使う「爆速油うどん#うどん#油そば#料理#簡単レシピ#shorts」のレシピです。"
   },
   {
     "title": "【15分で作れる】冷凍うどんで作る本格担々麺！#時短レシピ #簡単レシピ",
@@ -28760,9 +28160,7 @@ const recipes = [
       "milk"
     ],
     "rawIngredients": "挽肉、うどん、中華麺、ネギ、もやし、にんにく、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: 挽肉、うどん、中華麺、ネギ、もやし、にんにく、牛乳。「【15分で作れる】冷凍うどんで作る本格担々麺！#時短レシピ #簡単レシピ」のレシピです。"
+    "description": "深夜食堂の実在動画。挽肉、うどん、中華麺、ネギ、もやし、にんにく、牛乳を使う「【15分で作れる】冷凍うどんで作る本格担々麺！#時短レシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "【たった100円】金無きゃこれくってろうどん#PR #JOYL",
@@ -28779,6 +28177,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -28793,6 +28192,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "udon",
       "pasta",
@@ -28800,10 +28200,8 @@ const recipes = [
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "挽肉、卵、うどん、パスタ、もやし、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 挽肉、卵、うどん、パスタ、もやし、にんにく、マヨネーズ。「【たった100円】金無きゃこれくってろうどん#PR #JOYL」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、うどん、パスタ、もやし、にんにく、マヨネーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。挽肉、白身魚、卵、うどん、パスタ、もやし、にんにく、マヨネーズを使う「【たった100円】金無きゃこれくってろうどん#PR #JOYL」のレシピです。"
   },
   {
     "title": "【リピ確】5分で作れる油そば！悪魔的に旨い…#簡単レシピ #冷凍うどん #油そば",
@@ -28832,9 +28230,7 @@ const recipes = [
       "soba"
     ],
     "rawIngredients": "うどん、そば",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "深夜食堂の実在動画。食材候補: うどん、そば。「【リピ確】5分で作れる油そば！悪魔的に旨い…#簡単レシピ #冷凍うどん #油そば」のレシピです。"
+    "description": "深夜食堂の実在動画。うどん、そばを使う「【リピ確】5分で作れる油そば！悪魔的に旨い…#簡単レシピ #冷凍うどん #油そば」のレシピです。"
   },
   {
     "title": "たった5分。卵さえあればできる限界玉子うどん",
@@ -28864,9 +28260,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "卵、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、うどん。「たった5分。卵さえあればできる限界玉子うどん」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、うどんを使う「たった5分。卵さえあればできる限界玉子うどん」のレシピです。"
   },
   {
     "title": "簡単すぎてリピしちゃう！ずぼらカレーうどん🥢 #簡単レシピ #ズボラ飯",
@@ -28882,6 +28276,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜",
@@ -28894,15 +28289,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "aburaage",
       "udon",
       "green_onion",
       "curry_roux"
     ],
-    "rawIngredients": "油揚げ、うどん、ネギ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 油揚げ、うどん、ネギ、カレールゥ。「簡単すぎてリピしちゃう！ずぼらカレーうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
+    "rawIngredients": "白身魚、油揚げ、うどん、ネギ、カレールゥ",
+    "description": "腹へったchの実在動画。白身魚、油揚げ、うどん、ネギ、カレールゥを使う「簡単すぎてリピしちゃう！ずぼらカレーうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
   },
   {
     "title": "簡単絶品レシピ！たらこバターうどん",
@@ -28918,6 +28312,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -28928,13 +28323,12 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "butter"
     ],
-    "rawIngredients": "うどん、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: うどん、バター。「簡単絶品レシピ！たらこバターうどん」のレシピです。"
+    "rawIngredients": "白身魚、うどん、バター",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、うどん、バターを使う「簡単絶品レシピ！たらこバターうどん」のレシピです。"
   },
   {
     "title": "\\9割の人が知らない/痩せるうどんの食べ方#簡単レシピ #ダイエットレシピ #痩せる料理",
@@ -28951,6 +28345,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -28962,13 +28357,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "chiaki_beautydietの実在動画。食材候補: 豚肉、うどん、ネギ。「\\9割の人が知らない/痩せるうどんの食べ方#簡単レシピ #ダイエットレシピ #痩せる料理」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "chiaki_beautydietの実在動画。豚肉、白身魚、うどん、ネギを使う「\\9割の人が知らない/痩せるうどんの食べ方#簡単レシピ #ダイエットレシピ #痩せる料理」のレシピです。"
   },
   {
     "title": "鶏うどん #晩御飯 #うどん #鶏肉 #麺 #レシピ #meal #chicken",
@@ -28998,9 +28392,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "鶏肉、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "社畜ごはんの実在動画。食材候補: 鶏肉、うどん。「鶏うどん #晩御飯 #うどん #鶏肉 #麺 #レシピ #meal #chicken」のレシピです。"
+    "description": "社畜ごはんの実在動画。鶏肉、うどんを使う「鶏うどん #晩御飯 #うどん #鶏肉 #麺 #レシピ #meal #chicken」のレシピです。"
   },
   {
     "title": "豚肉と玉ねぎのうどん#簡単レシピ#レシピ#うどん#簡単料理#料理",
@@ -29017,6 +28409,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -29029,15 +28422,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion",
       "onion",
       "ginger"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ、玉ねぎ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まゆみの愛情キッチンの実在動画。食材候補: 豚肉、うどん、ネギ、玉ねぎ、ショウガ。「豚肉と玉ねぎのうどん#簡単レシピ#レシピ#うどん#簡単料理#料理」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ、玉ねぎ、ショウガ",
+    "description": "まゆみの愛情キッチンの実在動画。豚肉、白身魚、うどん、ネギ、玉ねぎ、ショウガを使う「豚肉と玉ねぎのうどん#簡単レシピ#レシピ#うどん#簡単料理#料理」のレシピです。"
   },
   {
     "title": "カレー南蛮うどん・讃【ASMR】 #shorts",
@@ -29065,9 +28457,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "けんた食堂の実在動画。食材候補: うどん。「カレー南蛮うどん・讃【ASMR】 #shorts」のレシピです。"
+    "description": "けんた食堂の実在動画。うどんを使う「カレー南蛮うどん・讃【ASMR】 #shorts」のレシピです。"
   },
   {
     "title": "絶品カレーうどんの作り方！手軽な材料でうどん屋さんの味！箸が止まらなくなる旨さです！上手に作るコツをご紹介！-How to make Curry Udon-【料理研究家ゆかり】",
@@ -29084,6 +28474,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "卵",
       "麺",
@@ -29099,6 +28490,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "aburaage",
       "egg",
       "udon",
@@ -29109,10 +28501,8 @@ const recipes = [
       "garlic",
       "curry_roux"
     ],
-    "rawIngredients": "豚肉、油揚げ、卵、うどん、ネギ、玉ねぎ、ごぼう、ショウガ、にんにく、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、油揚げ、卵、うどん、ネギ、玉ねぎ、ごぼう、ショウガ、にんにく、カレールゥ。「絶品カレーうどんの作り方！手軽な材料でうどん屋さんの味！箸が止まらなくなる旨さです！上手に作るコツをご紹介！-How to make Curry Udon-【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、油揚げ、卵、うどん、ネギ、玉ねぎ、ごぼう、ショウガ、にんにく、カレールゥ",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。豚肉、白身魚、油揚げ、卵、うどん、ネギ、玉ねぎ、ごぼう、ショウガ、にんにく、カレールゥを使う「絶品カレーうどんの作り方！手軽な材料でうどん屋さんの味！箸が止まらなくなる旨さです！上手に作るコツをご紹介！-How to make Curry Udon-【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "からだ温まる。とろたまカレーうどん🥢 #簡単レシピ #ズボラ飯",
@@ -29146,9 +28536,7 @@ const recipes = [
       "curry_roux"
     ],
     "rawIngredients": "卵、うどん、ネギ、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: 卵、うどん、ネギ、カレールゥ。「からだ温まる。とろたまカレーうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
+    "description": "腹へったchの実在動画。卵、うどん、ネギ、カレールゥを使う「からだ温まる。とろたまカレーうどん🥢 #簡単レシピ #ズボラ飯」のレシピです。"
   },
   {
     "title": "カレーうどん",
@@ -29165,6 +28553,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "麺",
       "葉物野菜",
@@ -29179,6 +28568,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "aburaage",
       "udon",
       "komatsuna",
@@ -29187,10 +28577,8 @@ const recipes = [
       "carrot",
       "curry_roux"
     ],
-    "rawIngredients": "豚肉、油揚げ、うどん、小松菜、ネギ、玉ねぎ、にんじん、カレールゥ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あおいの給食室🔪の実在動画。食材候補: 豚肉、油揚げ、うどん、小松菜、ネギ、玉ねぎ、にんじん、カレールゥ。「カレーうどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、油揚げ、うどん、小松菜、ネギ、玉ねぎ、にんじん、カレールゥ",
+    "description": "あおいの給食室🔪の実在動画。豚肉、白身魚、油揚げ、うどん、小松菜、ネギ、玉ねぎ、にんじん、カレールゥを使う「カレーうどん」のレシピです。"
   },
   {
     "title": "丸亀製麺が激怒した冷やしうどん【バトルキッチン.340（2024.3.30)】毛もじゃお兄さん『 Wの悲劇～Woman 』を歌うの巻",
@@ -29222,9 +28610,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "魔理沙のズボラ飯の実在動画。食材候補: 卵、うどん、ネギ。「丸亀製麺が激怒した冷やしうどん【バトルキッチン.340（2024.3.30)】毛もじゃお兄さん『 Wの悲劇～Woman 』を歌うの巻」のレシピです。"
+    "description": "魔理沙のズボラ飯の実在動画。卵、うどん、ネギを使う「丸亀製麺が激怒した冷やしうどん【バトルキッチン.340（2024.3.30)】毛もじゃお兄さん『 Wの悲劇～Woman 』を歌うの巻」のレシピです。"
   },
   {
     "title": "プチットうどんの便利さをみんなに伝えたい🥺✨#プチットうどん#お弁当作り#お弁当#food#lunch#料理",
@@ -29252,9 +28638,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "お弁当の日。の実在動画。食材候補: うどん。「プチットうどんの便利さをみんなに伝えたい🥺✨#プチットうどん#お弁当作り#お弁当#food#lunch#料理」のレシピです。"
+    "description": "お弁当の日。の実在動画。うどんを使う「プチットうどんの便利さをみんなに伝えたい🥺✨#プチットうどん#お弁当作り#お弁当#food#lunch#料理」のレシピです。"
   },
   {
     "title": "美味しい組み合わせ！鶏の照り焼き温玉うどん ｜ How To Make Chicken's Teriyaki Hot spring egg Udon",
@@ -29288,9 +28672,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "鶏肉、卵、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、卵、うどん、ネギ。「美味しい組み合わせ！鶏の照り焼き温玉うどん ｜ How To Make Chicken's Teriyaki Hot spring egg Udon」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、卵、うどん、ネギを使う「美味しい組み合わせ！鶏の照り焼き温玉うどん ｜ How To Make Chicken's Teriyaki Hot spring egg Udon」のレシピです。"
   },
   {
     "title": "忙しいあなたに朗報！超簡単「手抜き皿うどん」レシピ🍜 今日は忙しい日におすすめの、手抜きで簡単に作れる皿うどんのレシピをご紹介します。最低限の材料と手間で、おいしい皿うどんが楽しめますよ。",
@@ -29327,9 +28709,7 @@ const recipes = [
       "carrot"
     ],
     "rawIngredients": "豚肉、卵、うどん、キャベツ、もやし、にんじん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "男の手料理の実在動画。食材候補: 豚肉、卵、うどん、キャベツ、もやし、にんじん。「忙しいあなたに朗報！超簡単「手抜き皿うどん」レシピ🍜 今日は忙しい日におすすめの、手抜きで簡単に作れる皿うどんのレシピをご紹介します。最低限の材料と手間で、おいしい皿うどんが楽しめますよ。」のレシピです。"
+    "description": "男の手料理の実在動画。豚肉、卵、うどん、キャベツ、もやし、にんじんを使う「忙しいあなたに朗報！超簡単「手抜き皿うどん」レシピ🍜 今日は忙しい日におすすめの、手抜きで簡単に作れる皿うどんのレシピをご紹介します。最低限の材料と手間で、おいしい皿うどんが楽しめますよ。」のレシピです。"
   },
   {
     "title": "レンジだけで簡単！冷やし坦々うどん",
@@ -29346,6 +28726,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "根菜"
     ],
@@ -29357,14 +28738,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "udon",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "挽肉、うどん、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "村上農園ユーチューバー部の実在動画。食材候補: 挽肉、うどん、ショウガ、にんにく。「レンジだけで簡単！冷やし坦々うどん」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、うどん、ショウガ、にんにく",
+    "description": "村上農園ユーチューバー部の実在動画。挽肉、白身魚、うどん、ショウガ、にんにくを使う「レンジだけで簡単！冷やし坦々うどん」のレシピです。"
   },
   {
     "title": "爆速バター醤油うどん#うどん#バター#醤油#料理#shorts",
@@ -29394,9 +28774,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "うどん、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "秒ウマ飯l 毎日ごはんをラクに美味しくの実在動画。食材候補: うどん、バター。「爆速バター醤油うどん#うどん#バター#醤油#料理#shorts」のレシピです。"
+    "description": "秒ウマ飯l 毎日ごはんをラクに美味しくの実在動画。うどん、バターを使う「爆速バター醤油うどん#うどん#バター#醤油#料理#shorts」のレシピです。"
   },
   {
     "title": "[町中華]元ラーメン屋が作る坦々うどん#ラーメン#shorts",
@@ -29433,9 +28811,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "えび、うどん、ラーメン、ネギ、牛乳、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。食材候補: えび、うどん、ラーメン、ネギ、牛乳、小麦粉。「[町中華]元ラーメン屋が作る坦々うどん#ラーメン#shorts」のレシピです。"
+    "description": "えびすごはん 料理研究家 えびすまさきの実在動画。えび、うどん、ラーメン、ネギ、牛乳、小麦粉を使う「[町中華]元ラーメン屋が作る坦々うどん#ラーメン#shorts」のレシピです。"
   },
   {
     "title": "断言しますがこれが世界で一番旨いうどんの食べ方です。#shorts #リュウジ #山形 #納豆 #うどん #ひっぱりうどん #レシピ #料理",
@@ -29466,6 +28842,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "mackerel",
+      "whitefish",
       "egg",
       "udon",
       "pasta",
@@ -29473,10 +28850,8 @@ const recipes = [
       "onion",
       "mayonnaise"
     ],
-    "rawIngredients": "サバ、卵、うどん、パスタ、ネギ、玉ねぎ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: サバ、卵、うどん、パスタ、ネギ、玉ねぎ、マヨネーズ。「断言しますがこれが世界で一番旨いうどんの食べ方です。#shorts #リュウジ #山形 #納豆 #うどん #ひっぱりうどん #レシピ #料理」のレシピです。"
+    "rawIngredients": "サバ、白身魚、卵、うどん、パスタ、ネギ、玉ねぎ、マヨネーズ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。サバ、白身魚、卵、うどん、パスタ、ネギ、玉ねぎ、マヨネーズを使う「断言しますがこれが世界で一番旨いうどんの食べ方です。#shorts #リュウジ #山形 #納豆 #うどん #ひっぱりうどん #レシピ #料理」のレシピです。"
   },
   {
     "title": "【プロ直伝】 お家で簡単！本格【手打ちうどん】の作り方 初心者でも失敗しないうどんの打ち方 安い粉でも美味しいうどんが作れます！",
@@ -29508,9 +28883,7 @@ const recipes = [
       "flour"
     ],
     "rawIngredients": "うどん、大根、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理人設楽の料理道場の実在動画。食材候補: うどん、大根、小麦粉。「【プロ直伝】 お家で簡単！本格【手打ちうどん】の作り方 初心者でも失敗しないうどんの打ち方 安い粉でも美味しいうどんが作れます！」のレシピです。"
+    "description": "料理人設楽の料理道場の実在動画。うどん、大根、小麦粉を使う「【プロ直伝】 お家で簡単！本格【手打ちうどん】の作り方 初心者でも失敗しないうどんの打ち方 安い粉でも美味しいうどんが作れます！」のレシピです。"
   },
   {
     "title": "懐かしの昭和の味！笠原流【焼きうどん】の作り方",
@@ -29527,6 +28900,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -29540,6 +28914,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "rice_noodles",
       "cabbage",
@@ -29549,10 +28924,8 @@ const recipes = [
       "shiitake",
       "ginger"
     ],
-    "rawIngredients": "豚肉、うどん、ビーフン・フォー、キャベツ、ネギ、ピーマン、にんじん、しいたけ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: 豚肉、うどん、ビーフン・フォー、キャベツ、ネギ、ピーマン、にんじん、しいたけ、ショウガ。「懐かしの昭和の味！笠原流【焼きうどん】の作り方」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ビーフン・フォー、キャベツ、ネギ、ピーマン、にんじん、しいたけ、ショウガ",
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。豚肉、白身魚、うどん、ビーフン・フォー、キャベツ、ネギ、ピーマン、にんじん、しいたけ、ショウガを使う「懐かしの昭和の味！笠原流【焼きうどん】の作り方」のレシピです。"
   },
   {
     "title": "【白菜と卵だけで驚くほど旨い！】とろたま白菜うどんの作り方 #shorts 【kattyanneru】",
@@ -29587,9 +28960,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "卵、うどん、napa_cabbage、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "kattyanneru/かっちゃんねるの実在動画。食材候補: 卵、うどん、napa_cabbage、ネギ、ショウガ。「【白菜と卵だけで驚くほど旨い！】とろたま白菜うどんの作り方 #shorts 【kattyanneru】」のレシピです。"
+    "description": "kattyanneru/かっちゃんねるの実在動画。卵、うどん、napa_cabbage、ネギ、ショウガを使う「【白菜と卵だけで驚くほど旨い！】とろたま白菜うどんの作り方 #shorts 【kattyanneru】」のレシピです。"
   },
   {
     "title": "簡単に作れる！明太釜玉うどん ｜ How To Make Mentaiko egg udon",
@@ -29626,9 +28997,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、卵、うどん、パスタ、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、卵、うどん、パスタ、ネギ、マヨネーズ。「簡単に作れる！明太釜玉うどん ｜ How To Make Mentaiko egg udon」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、卵、うどん、パスタ、ネギ、マヨネーズを使う「簡単に作れる！明太釜玉うどん ｜ How To Make Mentaiko egg udon」のレシピです。"
   },
   {
     "title": "お財布にやさしい！超絶品豚こま肉うどん",
@@ -29645,6 +29014,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -29657,15 +29027,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、うどん、ネギ、ショウガ、にんにく。「お財布にやさしい！超絶品豚こま肉うどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ、ショウガ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、うどん、ネギ、ショウガ、にんにくを使う「お財布にやさしい！超絶品豚こま肉うどん」のレシピです。"
   },
   {
     "title": "〜丸亀超えた明太クリームうどん〜#簡単レシピ #料理 #おうちご飯 #自炊 #shorts",
@@ -29681,6 +29050,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺",
       "チーズ・バター・マヨ系"
     ],
@@ -29691,15 +29061,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon",
       "cheese",
       "butter",
       "milk"
     ],
-    "rawIngredients": "うどん、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りょう_ 家族が喜ぶラクうまレシピの実在動画。食材候補: うどん、チーズ、バター、牛乳。「〜丸亀超えた明太クリームうどん〜#簡単レシピ #料理 #おうちご飯 #自炊 #shorts」のレシピです。"
+    "rawIngredients": "白身魚、うどん、チーズ、バター、牛乳",
+    "description": "りょう_ 家族が喜ぶラクうまレシピの実在動画。白身魚、うどん、チーズ、バター、牛乳を使う「〜丸亀超えた明太クリームうどん〜#簡単レシピ #料理 #おうちご飯 #自炊 #shorts」のレシピです。"
   },
   {
     "title": "うま塩豚白菜うどん🥬❤️‍🔥 #簡単レシピ #時短レシピ",
@@ -29729,9 +29098,7 @@ const recipes = [
       "napa_cabbage"
     ],
     "rawIngredients": "うどん、napa_cabbage",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん、napa_cabbage。「うま塩豚白菜うどん🥬❤️‍🔥 #簡単レシピ #時短レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどん、napa_cabbageを使う「うま塩豚白菜うどん🥬❤️‍🔥 #簡単レシピ #時短レシピ」のレシピです。"
   },
   {
     "title": "リピート確定の逸材レシピ！めんたいチーズ釜玉うどん",
@@ -29747,6 +29114,7 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -29759,15 +29127,14 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "green_onion",
       "cheese"
     ],
-    "rawIngredients": "卵、うどん、ネギ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 卵、うどん、ネギ、チーズ。「リピート確定の逸材レシピ！めんたいチーズ釜玉うどん」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、ネギ、チーズ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。白身魚、卵、うどん、ネギ、チーズを使う「リピート確定の逸材レシピ！めんたいチーズ釜玉うどん」のレシピです。"
   },
   {
     "title": "スープジャーで冷たいうどん弁当#同棲ご飯 #簡単レシピ #毎日弁当 #同棲弁当",
@@ -29779,7 +29146,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/zBdJncNEKGg/maxresdefault.jpg",
     "creator": "ぴちゃん🍚2人暮らしのvlog",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "cold",
     "ingredients": [
@@ -29795,9 +29162,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぴちゃん🍚2人暮らしのvlogの実在動画。食材候補: うどん。「スープジャーで冷たいうどん弁当#同棲ご飯 #簡単レシピ #毎日弁当 #同棲弁当」のレシピです。"
+    "description": "ぴちゃん🍚2人暮らしのvlogの実在動画。うどんを使う「スープジャーで冷たいうどん弁当#同棲ご飯 #簡単レシピ #毎日弁当 #同棲弁当」のレシピです。"
   },
   {
     "title": "おいしいうどんの作り方【こむぎ粉くらぶ｜日清製粉グループ】",
@@ -29825,9 +29190,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "日清製粉グループの実在動画。食材候補: うどん。「おいしいうどんの作り方【こむぎ粉くらぶ｜日清製粉グループ】」のレシピです。"
+    "description": "日清製粉グループの実在動画。うどんを使う「おいしいうどんの作り方【こむぎ粉くらぶ｜日清製粉グループ】」のレシピです。"
   },
   {
     "title": "【永久保存版】3分あればうどん屋さん並みに美味しいうどんつゆが作れます『爆速かけうどん』の作り方",
@@ -29857,9 +29220,7 @@ const recipes = [
       "kombu"
     ],
     "rawIngredients": "うどん、昆布",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: うどん、昆布。「【永久保存版】3分あればうどん屋さん並みに美味しいうどんつゆが作れます『爆速かけうどん』の作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。うどん、昆布を使う「【永久保存版】3分あればうどん屋さん並みに美味しいうどんつゆが作れます『爆速かけうどん』の作り方」のレシピです。"
   },
   {
     "title": "レンチン４分で絶品わかめうどん🍲🥢レシピはコメント欄に✍️",
@@ -29889,9 +29250,7 @@ const recipes = [
       "wakame"
     ],
     "rawIngredients": "うどん、わかめ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しほ⌇ グルテンフリーの簡単おやつ𓎩の実在動画。食材候補: うどん、わかめ。「レンチン４分で絶品わかめうどん🍲🥢レシピはコメント欄に✍️」のレシピです。"
+    "description": "しほ⌇ グルテンフリーの簡単おやつ𓎩の実在動画。うどん、わかめを使う「レンチン４分で絶品わかめうどん🍲🥢レシピはコメント欄に✍️」のレシピです。"
   },
   {
     "title": "簡単なのに本格的！冷凍うどんで作る【豆乳担々うどん】",
@@ -29908,6 +29267,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜"
@@ -29920,6 +29280,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "udon",
       "noodles",
       "rice_noodles",
@@ -29927,10 +29288,8 @@ const recipes = [
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "挽肉、うどん、中華麺、ビーフン・フォー、にら、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: 挽肉、うどん、中華麺、ビーフン・フォー、にら、ネギ、にんにく。「簡単なのに本格的！冷凍うどんで作る【豆乳担々うどん】」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、うどん、中華麺、ビーフン・フォー、にら、ネギ、にんにく",
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。挽肉、白身魚、うどん、中華麺、ビーフン・フォー、にら、ネギ、にんにくを使う「簡単なのに本格的！冷凍うどんで作る【豆乳担々うどん】」のレシピです。"
   },
   {
     "title": "節約オタクが教える貧乏うどんTOP3",
@@ -29958,9 +29317,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "OTAKE【節約オタク】の実在動画。食材候補: うどん。「節約オタクが教える貧乏うどんTOP3」のレシピです。"
+    "description": "OTAKE【節約オタク】の実在動画。うどんを使う「節約オタクが教える貧乏うどんTOP3」のレシピです。"
   },
   {
     "title": "ちゃんぽんうどん #幼児食 #簡単レシピ #まいにちごはん #野菜嫌い #料理 #偏食 #おうちごはん",
@@ -29977,6 +29334,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -29990,6 +29348,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "cabbage",
       "green_onion",
@@ -29998,10 +29357,8 @@ const recipes = [
       "carrot",
       "milk"
     ],
-    "rawIngredients": "豚肉、うどん、キャベツ、ネギ、もやし、玉ねぎ、にんじん、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ヒロ⌇大人もリピする子どもごはん🍳の実在動画。食材候補: 豚肉、うどん、キャベツ、ネギ、もやし、玉ねぎ、にんじん、牛乳。「ちゃんぽんうどん #幼児食 #簡単レシピ #まいにちごはん #野菜嫌い #料理 #偏食 #おうちごはん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、キャベツ、ネギ、もやし、玉ねぎ、にんじん、牛乳",
+    "description": "ヒロ⌇大人もリピする子どもごはん🍳の実在動画。豚肉、白身魚、うどん、キャベツ、ネギ、もやし、玉ねぎ、にんじん、牛乳を使う「ちゃんぽんうどん #幼児食 #簡単レシピ #まいにちごはん #野菜嫌い #料理 #偏食 #おうちごはん」のレシピです。"
   },
   {
     "title": "【レシピ】明太クリームうどんの作り方 #簡単レシピ #cooking #料理 #おうちごはん #ランチ #晩御飯",
@@ -30029,9 +29386,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "YUNA COOKの実在動画。食材候補: うどん。「【レシピ】明太クリームうどんの作り方 #簡単レシピ #cooking #料理 #おうちごはん #ランチ #晩御飯」のレシピです。"
+    "description": "YUNA COOKの実在動画。うどんを使う「【レシピ】明太クリームうどんの作り方 #簡単レシピ #cooking #料理 #おうちごはん #ランチ #晩御飯」のレシピです。"
   },
   {
     "title": "【30分で手打ちうどん】むしゃくしゃしてやった。今は反省してるしとにかくおいしかった('∇')【おうちごはんvlog】#shorts",
@@ -30059,9 +29414,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "四郎のごはんの実在動画。食材候補: うどん。「【30分で手打ちうどん】むしゃくしゃしてやった。今は反省してるしとにかくおいしかった('∇')【おうちごはんvlog】#shorts」のレシピです。"
+    "description": "四郎のごはんの実在動画。うどんを使う「【30分で手打ちうどん】むしゃくしゃしてやった。今は反省してるしとにかくおいしかった('∇')【おうちごはんvlog】#shorts」のレシピです。"
   },
   {
     "title": "ばり美味い冷凍うどんレシピ",
@@ -30089,9 +29442,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハシダの実在動画。食材候補: うどん。「ばり美味い冷凍うどんレシピ」のレシピです。"
+    "description": "ハシダの実在動画。うどんを使う「ばり美味い冷凍うどんレシピ」のレシピです。"
   },
   {
     "title": "つるとん○ん越えました。生クリームを使わない超濃厚明太クリームうどんの作り方#shorts",
@@ -30103,10 +29454,11 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/ryZluQ2V2nw/maxresdefault.jpg",
     "creator": "料理研究家リュウジのバズレシピ",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "麺"
     ],
     "oil": 2,
@@ -30116,12 +29468,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "udon"
     ],
-    "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: うどん。「つるとん○ん越えました。生クリームを使わない超濃厚明太クリームうどんの作り方#shorts」のレシピです。"
+    "rawIngredients": "白身魚、うどん",
+    "description": "料理研究家リュウジのバズレシピの実在動画。白身魚、うどんを使う「つるとん○ん越えました。生クリームを使わない超濃厚明太クリームうどんの作り方#shorts」のレシピです。"
   },
   {
     "title": "【簡単昼食】釜玉バター醤油うどんの作り方 #shorts",
@@ -30155,9 +29506,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "卵、うどん、ネギ、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 卵、うどん、ネギ、バター。「【簡単昼食】釜玉バター醤油うどんの作り方 #shorts」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。卵、うどん、ネギ、バターを使う「【簡単昼食】釜玉バター醤油うどんの作り方 #shorts」のレシピです。"
   },
   {
     "title": "寒い日はコレなんです。麻婆うどん🥢 #ズボラ飯 #簡単レシピ",
@@ -30187,9 +29536,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "腹へったchの実在動画。食材候補: うどん、ネギ。「寒い日はコレなんです。麻婆うどん🥢 #ズボラ飯 #簡単レシピ」のレシピです。"
+    "description": "腹へったchの実在動画。うどん、ネギを使う「寒い日はコレなんです。麻婆うどん🥢 #ズボラ飯 #簡単レシピ」のレシピです。"
   },
   {
     "title": "貧乏人の贅沢な『うどん』【バトルキッチン494（2025.2.28)】",
@@ -30223,9 +29570,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "うどん、ネギ、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "魔理沙のズボラ飯の実在動画。食材候補: うどん、ネギ、ショウガ、マヨネーズ。「貧乏人の贅沢な『うどん』【バトルキッチン494（2025.2.28)】」のレシピです。"
+    "description": "魔理沙のズボラ飯の実在動画。うどん、ネギ、ショウガ、マヨネーズを使う「貧乏人の贅沢な『うどん』【バトルキッチン494（2025.2.28)】」のレシピです。"
   },
   {
     "title": "超絶品！鶏ガラ醤油うどん",
@@ -30242,6 +29587,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -30253,13 +29599,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "鶏肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 鶏肉、うどん、ネギ。「超絶品！鶏ガラ醤油うどん」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、うどん、ネギ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。鶏肉、白身魚、うどん、ネギを使う「超絶品！鶏ガラ醤油うどん」のレシピです。"
   },
   {
     "title": "これ食べたことない人は損してる #味噌煮込みうどん #簡単レシピ #うどんレシピ",
@@ -30289,9 +29634,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "たこ、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちぇる ダイエット食堂の実在動画。食材候補: たこ、うどん。「これ食べたことない人は損してる #味噌煮込みうどん #簡単レシピ #うどんレシピ」のレシピです。"
+    "description": "ちぇる ダイエット食堂の実在動画。たこ、うどんを使う「これ食べたことない人は損してる #味噌煮込みうどん #簡単レシピ #うどんレシピ」のレシピです。"
   },
   {
     "title": "3分でうどん屋さんの『かけうどん』が作れます",
@@ -30321,9 +29664,7 @@ const recipes = [
       "kombu"
     ],
     "rawIngredients": "うどん、昆布",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: うどん、昆布。「3分でうどん屋さんの『かけうどん』が作れます」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。うどん、昆布を使う「3分でうどん屋さんの『かけうどん』が作れます」のレシピです。"
   },
   {
     "title": "出汁パックでつくる！お手軽素うどんのレシピ｜やすまるだし｜簡単｜#shorts",
@@ -30351,9 +29692,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "男子ごはん - Kyoto chill life -の実在動画。食材候補: うどん。「出汁パックでつくる！お手軽素うどんのレシピ｜やすまるだし｜簡単｜#shorts」のレシピです。"
+    "description": "男子ごはん - Kyoto chill life -の実在動画。うどんを使う「出汁パックでつくる！お手軽素うどんのレシピ｜やすまるだし｜簡単｜#shorts」のレシピです。"
   },
   {
     "title": "やみつきになるモチモチ食感！フライドうどん ｜ How To Make Fried Japanese Wheat Noodle",
@@ -30371,6 +29710,7 @@ const recipes = [
     "ingredients": [
       "鶏肉",
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜",
       "根菜",
@@ -30386,6 +29726,7 @@ const recipes = [
     "detailedIngredients": [
       "chicken",
       "bacon",
+      "whitefish",
       "udon",
       "green_onion",
       "potato",
@@ -30396,10 +29737,8 @@ const recipes = [
       "mayonnaise",
       "flour"
     ],
-    "rawIngredients": "鶏肉、ベーコン、うどん、ネギ、じゃが芋、玉ねぎ、大根、チーズ、バター、マヨネーズ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、ベーコン、うどん、ネギ、じゃが芋、玉ねぎ、大根、チーズ、バター、マヨネーズ、小麦粉。「やみつきになるモチモチ食感！フライドうどん ｜ How To Make Fried Japanese Wheat Noodle」のレシピです。"
+    "rawIngredients": "鶏肉、ベーコン、白身魚、うどん、ネギ、じゃが芋、玉ねぎ、大根、チーズ、バター、マヨネーズ、小麦粉",
+    "description": "デリッシュキッチンの実在動画。鶏肉、ベーコン、白身魚、うどん、ネギ、じゃが芋、玉ねぎ、大根、チーズ、バター、マヨネーズ、小麦粉を使う「やみつきになるモチモチ食感！フライドうどん ｜ How To Make Fried Japanese Wheat Noodle」のレシピです。"
   },
   {
     "title": "焼きうどんの作り方！パパッと簡単！冷凍うどんがモッチモチになる方法をご紹介！手軽な調味料だけで、激旨な焼きうどんに仕上がりに。-How to make Fried Udon-【料理研究家ゆかり】",
@@ -30416,6 +29755,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -30430,6 +29770,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "udon",
       "cabbage",
@@ -30439,10 +29780,8 @@ const recipes = [
       "carrot",
       "butter"
     ],
-    "rawIngredients": "豚肉、卵、うどん、キャベツ、ネギ、ピーマン、玉ねぎ、にんじん、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、卵、うどん、キャベツ、ネギ、ピーマン、玉ねぎ、にんじん、バター。「焼きうどんの作り方！パパッと簡単！冷凍うどんがモッチモチになる方法をご紹介！手軽な調味料だけで、激旨な焼きうどんに仕上がりに。-How to make Fried Udon-【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、うどん、キャベツ、ネギ、ピーマン、玉ねぎ、にんじん、バター",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。豚肉、白身魚、卵、うどん、キャベツ、ネギ、ピーマン、玉ねぎ、にんじん、バターを使う「焼きうどんの作り方！パパッと簡単！冷凍うどんがモッチモチになる方法をご紹介！手軽な調味料だけで、激旨な焼きうどんに仕上がりに。-How to make Fried Udon-【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "夫婦で大好きな『豚肉ネギのつけうどん』 #簡単レシピ #料理",
@@ -30474,9 +29813,7 @@ const recipes = [
       "green_onion"
     ],
     "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。食材候補: 豚肉、うどん、ネギ。「夫婦で大好きな『豚肉ネギのつけうどん』 #簡単レシピ #料理」のレシピです。"
+    "description": "さな〻旦那胃袋つかみメシ🍳の実在動画。豚肉、うどん、ネギを使う「夫婦で大好きな『豚肉ネギのつけうどん』 #簡単レシピ #料理」のレシピです。"
   },
   {
     "title": "【味噌煮込みうどん】濃い味がやみつき！自宅で簡単な名古屋名物の作り方！！",
@@ -30488,7 +29825,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/6NAIxSK6fqE/maxresdefault.jpg",
     "creator": "オリーブオイルをひとまわし / オリひと",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
@@ -30504,9 +29841,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オリーブオイルをひとまわし / オリひとの実在動画。食材候補: うどん。「【味噌煮込みうどん】濃い味がやみつき！自宅で簡単な名古屋名物の作り方！！」のレシピです。"
+    "description": "オリーブオイルをひとまわし / オリひとの実在動画。うどんを使う「【味噌煮込みうどん】濃い味がやみつき！自宅で簡単な名古屋名物の作り方！！」のレシピです。"
   },
   {
     "title": "上司の説教を忘れるくらい美味しすぎたズボラごま味噌うどん✨#料理 #vlog #ブラック企業 #cooking #ol日常 #ビタフィット #バイタス",
@@ -30534,9 +29869,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: うどん。「上司の説教を忘れるくらい美味しすぎたズボラごま味噌うどん✨#料理 #vlog #ブラック企業 #cooking #ol日常 #ビタフィット #バイタス」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。うどんを使う「上司の説教を忘れるくらい美味しすぎたズボラごま味噌うどん✨#料理 #vlog #ブラック企業 #cooking #ol日常 #ビタフィット #バイタス」のレシピです。"
   },
   {
     "title": "肉味噌うどん🧑🏻‍🍳🤍#簡単レシピ #給食 #うどん #幼児食 #shorts",
@@ -30553,6 +29886,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -30566,6 +29900,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "egg",
       "udon",
       "cucumber",
@@ -30575,10 +29910,8 @@ const recipes = [
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "挽肉、卵、うどん、きゅうり、ネギ、トマト、玉ねぎ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "給食の先生ゆりままの実在動画。食材候補: 挽肉、卵、うどん、きゅうり、ネギ、トマト、玉ねぎ、ショウガ、にんにく。「肉味噌うどん🧑🏻‍🍳🤍#簡単レシピ #給食 #うどん #幼児食 #shorts」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、卵、うどん、きゅうり、ネギ、トマト、玉ねぎ、ショウガ、にんにく",
+    "description": "給食の先生ゆりままの実在動画。挽肉、白身魚、卵、うどん、きゅうり、ネギ、トマト、玉ねぎ、ショウガ、にんにくを使う「肉味噌うどん🧑🏻‍🍳🤍#簡単レシピ #給食 #うどん #幼児食 #shorts」のレシピです。"
   },
   {
     "title": "冷たいのにコクうま！究極の冷しゃぶうどんがマジで止まらん！",
@@ -30595,6 +29928,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -30606,13 +29940,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、うどん、ネギ。「冷たいのにコクうま！究極の冷しゃぶうどんがマジで止まらん！」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、うどん、ネギを使う「冷たいのにコクうま！究極の冷しゃぶうどんがマジで止まらん！」のレシピです。"
   },
   {
     "title": "うどんの美味しい作り方。",
@@ -30640,9 +29973,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Ryou【和久井亮平】の実在動画。食材候補: うどん。「うどんの美味しい作り方。」のレシピです。"
+    "description": "Ryou【和久井亮平】の実在動画。うどんを使う「うどんの美味しい作り方。」のレシピです。"
   },
   {
     "title": "【濃厚たらこクリームうどん】の作り方 #おうちごはん #レシピ #料理 #cooking #cookingchannel",
@@ -30658,18 +29989,20 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵",
       "麺",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
+    "effort": 4,
+    "dishes": 3,
+    "steps": 5,
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg",
       "udon",
       "garlic",
@@ -30677,10 +30010,8 @@ const recipes = [
       "butter",
       "milk"
     ],
-    "rawIngredients": "卵、うどん、にんにく、チーズ、バター、牛乳",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "「まおごはん」の実在動画。食材候補: 卵、うどん、にんにく、チーズ、バター、牛乳。「【濃厚たらこクリームうどん】の作り方 #おうちごはん #レシピ #料理 #cooking #cookingchannel」のレシピです。"
+    "rawIngredients": "白身魚、卵、うどん、にんにく、チーズ、バター、牛乳",
+    "description": "「まおごはん」の実在動画。白身魚、卵、うどん、にんにく、チーズ、バター、牛乳を使う「【濃厚たらこクリームうどん】の作り方 #おうちごはん #レシピ #料理 #cooking #cookingchannel」のレシピです。"
   },
   {
     "title": "3人家族の爆食夜ごはん🍚今日も簡単✨冷凍うどんで「エビとトマトのクリームうどん🦐🍅」フライパンに材料入れるだけで完成！#るいちゃんねる #もぐもぐタイム #料理 #簡単レシピ #うどんレシピ",
@@ -30712,9 +30043,7 @@ const recipes = [
       "tomato"
     ],
     "rawIngredients": "えび、うどん、トマト",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "るいちゃんねる🍼の実在動画。食材候補: えび、うどん、トマト。「3人家族の爆食夜ごはん🍚今日も簡単✨冷凍うどんで「エビとトマトのクリームうどん🦐🍅」フライパンに材料入れるだけで完成！#るいちゃんねる #もぐもぐタイム #料理 #簡単レシピ #うどんレシピ」のレシピです。"
+    "description": "るいちゃんねる🍼の実在動画。えび、うどん、トマトを使う「3人家族の爆食夜ごはん🍚今日も簡単✨冷凍うどんで「エビとトマトのクリームうどん🦐🍅」フライパンに材料入れるだけで完成！#るいちゃんねる #もぐもぐタイム #料理 #簡単レシピ #うどんレシピ」のレシピです。"
   },
   {
     "title": "【簡単うどん】生姜で温まる卵とじうどん＃うどんレシピ＃卵とじうどん＃生姜＃shorts",
@@ -30746,9 +30075,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "卵、うどん、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "あきファミリーの実在動画。食材候補: 卵、うどん、ショウガ。「【簡単うどん】生姜で温まる卵とじうどん＃うどんレシピ＃卵とじうどん＃生姜＃shorts」のレシピです。"
+    "description": "あきファミリーの実在動画。卵、うどん、ショウガを使う「【簡単うどん】生姜で温まる卵とじうどん＃うどんレシピ＃卵とじうどん＃生姜＃shorts」のレシピです。"
   },
   {
     "title": "レンジで超絶品！豚バラ肉うどん",
@@ -30765,6 +30092,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "葉物野菜"
     ],
@@ -30776,13 +30104,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "udon",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、うどん、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、うどん、ネギ。「レンジで超絶品！豚バラ肉うどん」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、うどん、ネギ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、うどん、ネギを使う「レンジで超絶品！豚バラ肉うどん」のレシピです。"
   },
   {
     "title": "【たった40円】お金がガチで無い時でも5分で超幸せになれる『限界玉子うどん』の作り方",
@@ -30812,9 +30139,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "卵、うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、うどん。「【たった40円】お金がガチで無い時でも5分で超幸せになれる『限界玉子うどん』の作り方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、うどんを使う「【たった40円】お金がガチで無い時でも5分で超幸せになれる『限界玉子うどん』の作り方」のレシピです。"
   },
   {
     "title": "ふわトロかき玉うどん(レシピはコメント欄🪄)",
@@ -30842,9 +30167,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ふみ⌇工場勤務旦那の胃袋掴む楽うまごはんの実在動画。食材候補: うどん。「ふわトロかき玉うどん(レシピはコメント欄🪄)」のレシピです。"
+    "description": "ふみ⌇工場勤務旦那の胃袋掴む楽うまごはんの実在動画。うどんを使う「ふわトロかき玉うどん(レシピはコメント欄🪄)」のレシピです。"
   },
   {
     "title": "【二日酔いなったらこれ作れ！】卵とじうどん #マッチョ #料理 #元カレ #筋肉番付 #cooking #暮らしチャンネル #飯テロ #簡単レシピ",
@@ -30860,6 +30183,7 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "魚介",
       "卵"
     ],
     "oil": 2,
@@ -30869,12 +30193,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "whitefish",
       "egg"
     ],
-    "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マッチョ元カレごはんがうますぎるの実在動画。食材候補: 卵。「【二日酔いなったらこれ作れ！】卵とじうどん #マッチョ #料理 #元カレ #筋肉番付 #cooking #暮らしチャンネル #飯テロ #簡単レシピ」のレシピです。"
+    "rawIngredients": "白身魚、卵",
+    "description": "マッチョ元カレごはんがうますぎるの実在動画。白身魚、卵を使う「【二日酔いなったらこれ作れ！】卵とじうどん #マッチョ #料理 #元カレ #筋肉番付 #cooking #暮らしチャンネル #飯テロ #簡単レシピ」のレシピです。"
   },
   {
     "title": "これ以外のうどんのことを忘れてしまうほどウマいです。肉うどんの価値観が変わる【至高の肉うどん】",
@@ -30891,6 +30214,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "根菜"
     ],
@@ -30902,13 +30226,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "beef",
+      "whitefish",
       "udon",
       "ginger"
     ],
-    "rawIngredients": "牛肉、うどん、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 牛肉、うどん、ショウガ。「これ以外のうどんのことを忘れてしまうほどウマいです。肉うどんの価値観が変わる【至高の肉うどん】」のレシピです。"
+    "rawIngredients": "牛肉、白身魚、うどん、ショウガ",
+    "description": "料理研究家リュウジのバズレシピの実在動画。牛肉、白身魚、うどん、ショウガを使う「これ以外のうどんのことを忘れてしまうほどウマいです。肉うどんの価値観が変わる【至高の肉うどん】」のレシピです。"
   },
   {
     "title": "冷凍うどんで簡単！豚バラ焼きうどんの作り方",
@@ -30925,6 +30248,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "麺",
       "葉物野菜",
@@ -30938,15 +30262,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "udon",
       "lettuce",
       "garlic"
     ],
-    "rawIngredients": "豚肉、卵、うどん、レタス、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "レイ【3児ママのリアルすぎる日常】の実在動画。食材候補: 豚肉、卵、うどん、レタス、にんにく。「冷凍うどんで簡単！豚バラ焼きうどんの作り方」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、うどん、レタス、にんにく",
+    "description": "レイ【3児ママのリアルすぎる日常】の実在動画。豚肉、白身魚、卵、うどん、レタス、にんにくを使う「冷凍うどんで簡単！豚バラ焼きうどんの作り方」のレシピです。"
   },
   {
     "title": "2歳児の爆食お昼ごはん！今日も爆速で娘の大好物作ってみたよ👧🏻💕#もぐもぐタイム #るいちゃんねる #簡単レシピ #簡単料理 #カルボナーラ #うどんレシピ",
@@ -30975,9 +30298,7 @@ const recipes = [
       "pasta"
     ],
     "rawIngredients": "うどん、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "るいちゃんねる🍼の実在動画。食材候補: うどん、パスタ。「2歳児の爆食お昼ごはん！今日も爆速で娘の大好物作ってみたよ👧🏻💕#もぐもぐタイム #るいちゃんねる #簡単レシピ #簡単料理 #カルボナーラ #うどんレシピ」のレシピです。"
+    "description": "るいちゃんねる🍼の実在動画。うどん、パスタを使う「2歳児の爆食お昼ごはん！今日も爆速で娘の大好物作ってみたよ👧🏻💕#もぐもぐタイム #るいちゃんねる #簡単レシピ #簡単料理 #カルボナーラ #うどんレシピ」のレシピです。"
   },
   {
     "title": "年明けうどんに！牛すきうどん #簡単レシピ #胃袋泥棒レシピ",
@@ -31005,9 +30326,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "maki | 今日の時短レシピの実在動画。食材候補: うどん。「年明けうどんに！牛すきうどん #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
+    "description": "maki | 今日の時短レシピの実在動画。うどんを使う「年明けうどんに！牛すきうどん #簡単レシピ #胃袋泥棒レシピ」のレシピです。"
   },
   {
     "title": "5分。冷凍うどんの1番ウマい食べ方",
@@ -31035,9 +30354,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: うどん。「5分。冷凍うどんの1番ウマい食べ方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。うどんを使う「5分。冷凍うどんの1番ウマい食べ方」のレシピです。"
   },
   {
     "title": "釜玉そうめんレシピ〜食で夏を早く感じすぎている気がする🔥真夏、生きられるのかな、、🫠 #ブラック企業 #料理 #cooking #vlog #自炊 #そうめんアレンジ",
@@ -31065,9 +30382,7 @@ const recipes = [
       "somen"
     ],
     "rawIngredients": "そうめん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ななOL簡単ご飯の実在動画。食材候補: そうめん。「釜玉そうめんレシピ〜食で夏を早く感じすぎている気がする🔥真夏、生きられるのかな、、🫠 #ブラック企業 #料理 #cooking #vlog #自炊 #そうめんアレンジ」のレシピです。"
+    "description": "ななOL簡単ご飯の実在動画。そうめんを使う「釜玉そうめんレシピ〜食で夏を早く感じすぎている気がする🔥真夏、生きられるのかな、、🫠 #ブラック企業 #料理 #cooking #vlog #自炊 #そうめんアレンジ」のレシピです。"
   },
   {
     "title": "【しょうゆが決め手！極上のサバ缶アレンジうどんのレシピ】｜#クラシル #shorts",
@@ -31102,9 +30417,7 @@ const recipes = [
       "shiitake"
     ],
     "rawIngredients": "サバ、うどん、ほうれん草、ネギ、しいたけ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kurashiru [クラシル]の実在動画。食材候補: サバ、うどん、ほうれん草、ネギ、しいたけ。「【しょうゆが決め手！極上のサバ缶アレンジうどんのレシピ】｜#クラシル #shorts」のレシピです。"
+    "description": "Kurashiru [クラシル]の実在動画。サバ、うどん、ほうれん草、ネギ、しいたけを使う「【しょうゆが決め手！極上のサバ缶アレンジうどんのレシピ】｜#クラシル #shorts」のレシピです。"
   },
   {
     "title": "料理人歴23年、今までこの作り方知らなかったのが悔しいです",
@@ -31138,9 +30451,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、うどん、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "飲食店独立学校 /こうせい校長の実在動画。食材候補: 卵、うどん、ネギ、にんにく。「料理人歴23年、今までこの作り方知らなかったのが悔しいです」のレシピです。"
+    "description": "飲食店独立学校 /こうせい校長の実在動画。卵、うどん、ネギ、にんにくを使う「料理人歴23年、今までこの作り方知らなかったのが悔しいです」のレシピです。"
   },
   {
     "title": "これはすげぇえ！！火も包丁も使わない激旨焼きうどんの作り方 簡単レシピ ライフハック 裏ワザ",
@@ -31168,9 +30479,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちゃらりんこクックの実在動画。食材候補: うどん。「これはすげぇえ！！火も包丁も使わない激旨焼きうどんの作り方 簡単レシピ ライフハック 裏ワザ」のレシピです。"
+    "description": "ちゃらりんこクックの実在動画。うどんを使う「これはすげぇえ！！火も包丁も使わない激旨焼きうどんの作り方 簡単レシピ ライフハック 裏ワザ」のレシピです。"
   },
   {
     "title": "［レンチン旨辛ビビンうどん］#うどん#ビビンうどん#レンチンレシピ#簡単レシピ#料理#自炊#高校生#うどんレシピ#旨辛レシピ#韓国料理#韓国風",
@@ -31198,9 +30507,7 @@ const recipes = [
       "udon"
     ],
     "rawIngredients": "うどん",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "kureaの実在動画。食材候補: うどん。「［レンチン旨辛ビビンうどん］#うどん#ビビンうどん#レンチンレシピ#簡単レシピ#料理#自炊#高校生#うどんレシピ#旨辛レシピ#韓国料理#韓国風」のレシピです。"
+    "description": "kureaの実在動画。うどんを使う「［レンチン旨辛ビビンうどん］#うどん#ビビンうどん#レンチンレシピ#簡単レシピ#料理#自炊#高校生#うどんレシピ#旨辛レシピ#韓国料理#韓国風」のレシピです。"
   },
   {
     "title": "【天才的に旨い♡鶏肉となすのオイスターいため】ご飯がすすむ！※詳細はコメント欄へ #簡単レシピ #おすすめ #なす",
@@ -31230,9 +30537,7 @@ const recipes = [
       "eggplant"
     ],
     "rawIngredients": "鶏肉、なす",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: 鶏肉、なす。「【天才的に旨い♡鶏肉となすのオイスターいため】ご飯がすすむ！※詳細はコメント欄へ #簡単レシピ #おすすめ #なす」のレシピです。"
+    "description": "まいのごはん。の実在動画。鶏肉、なすを使う「【天才的に旨い♡鶏肉となすのオイスターいため】ご飯がすすむ！※詳細はコメント欄へ #簡単レシピ #おすすめ #なす」のレシピです。"
   },
   {
     "title": "【肉味噌】かけるだけで食欲倍増！弁当や晩飯に使える万能肉味噌！",
@@ -31260,9 +30565,7 @@ const recipes = [
       "tofu"
     ],
     "rawIngredients": "豆腐",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "オリーブオイルをひとまわし / オリひとの実在動画。食材候補: 豆腐。「【肉味噌】かけるだけで食欲倍増！弁当や晩飯に使える万能肉味噌！」のレシピです。"
+    "description": "オリーブオイルをひとまわし / オリひとの実在動画。豆腐を使う「【肉味噌】かけるだけで食欲倍増！弁当や晩飯に使える万能肉味噌！」のレシピです。"
   },
   {
     "title": "スーパーのお肉を美味しく焼く方法【プロの技】豚肉ステーキ#shorts",
@@ -31290,9 +30593,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: 豚肉。「スーパーのお肉を美味しく焼く方法【プロの技】豚肉ステーキ#shorts」のレシピです。"
+    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。豚肉を使う「スーパーのお肉を美味しく焼く方法【プロの技】豚肉ステーキ#shorts」のレシピです。"
   },
   {
     "title": "豚肉とキャベツで作るご飯が進みすぎる最強おかず",
@@ -31324,9 +30625,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、キャベツ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、キャベツ、にんにく。「豚肉とキャベツで作るご飯が進みすぎる最強おかず」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、キャベツ、にんにくを使う「豚肉とキャベツで作るご飯が進みすぎる最強おかず」のレシピです。"
   },
   {
     "title": "切らないし混ぜないしもうこれでいい 【パックのままズボラ焼き】詳しいレシピは概要欄を見てね♪ #ひき肉 #ひき肉レシピ #ズボラ飯 #ハンバーグ #レシピ動画 #簡単レシピ #料理動画 #晩ごはん",
@@ -31343,6 +30642,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "チーズ・バター・マヨ系"
     ],
     "oil": 4,
@@ -31353,12 +30653,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "mayonnaise"
     ],
-    "rawIngredients": "挽肉、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 挽肉、マヨネーズ。「切らないし混ぜないしもうこれでいい 【パックのままズボラ焼き】詳しいレシピは概要欄を見てね♪ #ひき肉 #ひき肉レシピ #ズボラ飯 #ハンバーグ #レシピ動画 #簡単レシピ #料理動画 #晩ごはん」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、マヨネーズ",
+    "description": "デリッシュキッチンの実在動画。挽肉、白身魚、マヨネーズを使う「切らないし混ぜないしもうこれでいい 【パックのままズボラ焼き】詳しいレシピは概要欄を見てね♪ #ひき肉 #ひき肉レシピ #ズボラ飯 #ハンバーグ #レシピ動画 #簡単レシピ #料理動画 #晩ごはん」のレシピです。"
   },
   {
     "title": "0:28の脂を取るシーンは見ごたえあるよね 【定番豚の角煮】詳しいレシピは概要欄を見てね♪#豚バラ#豚の角煮#角煮 #角煮レシピ #簡単レシピ#晩ごはん#レシピ動画 #料理動画 #デリッシュキッチン",
@@ -31375,6 +30674,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜"
@@ -31387,14 +30687,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "green_onion",
       "ginger"
     ],
-    "rawIngredients": "豚肉、卵、ネギ、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、卵、ネギ、ショウガ。「0:28の脂を取るシーンは見ごたえあるよね 【定番豚の角煮】詳しいレシピは概要欄を見てね♪#豚バラ#豚の角煮#角煮 #角煮レシピ #簡単レシピ#晩ごはん#レシピ動画 #料理動画 #デリッシュキッチン」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ネギ、ショウガ",
+    "description": "デリッシュキッチンの実在動画。豚肉、白身魚、卵、ネギ、ショウガを使う「0:28の脂を取るシーンは見ごたえあるよね 【定番豚の角煮】詳しいレシピは概要欄を見てね♪#豚バラ#豚の角煮#角煮 #角煮レシピ #簡単レシピ#晩ごはん#レシピ動画 #料理動画 #デリッシュキッチン」のレシピです。"
   },
   {
     "title": "これやばい…タレが最高の太らない鶏胸焼鳥丼！#鶏胸肉 #簡単レシピ #料理 #short",
@@ -31411,6 +30710,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "米"
     ],
@@ -31422,13 +30722,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "rice"
     ],
-    "rawIngredients": "鶏肉、卵、ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "鶏むねマッスルの実在動画。食材候補: 鶏肉、卵、ご飯・米。「これやばい…タレが最高の太らない鶏胸焼鳥丼！#鶏胸肉 #簡単レシピ #料理 #short」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、ご飯・米",
+    "description": "鶏むねマッスルの実在動画。鶏肉、白身魚、卵、ご飯・米を使う「これやばい…タレが最高の太らない鶏胸焼鳥丼！#鶏胸肉 #簡単レシピ #料理 #short」のレシピです。"
   },
   {
     "title": "ナスと大葉の肉巻き｜巻いて焼くだけで簡単！ジューシーなナスと大葉の香りが美味しい豚肉おかずレシピ！お弁当にもおすすめ【なすレシピ・大葉レシピ・豚肉レシピ・簡単レシピ・おかず】【料理研究家ゆかり】",
@@ -31445,6 +30744,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜"
@@ -31457,15 +30757,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "eggplant",
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、卵、なす、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、卵、なす、ショウガ、にんにく。「ナスと大葉の肉巻き｜巻いて焼くだけで簡単！ジューシーなナスと大葉の香りが美味しい豚肉おかずレシピ！お弁当にもおすすめ【なすレシピ・大葉レシピ・豚肉レシピ・簡単レシピ・おかず】【料理研究家ゆかり】」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、なす、ショウガ、にんにく",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。豚肉、白身魚、卵、なす、ショウガ、にんにくを使う「ナスと大葉の肉巻き｜巻いて焼くだけで簡単！ジューシーなナスと大葉の香りが美味しい豚肉おかずレシピ！お弁当にもおすすめ【なすレシピ・大葉レシピ・豚肉レシピ・簡単レシピ・おかず】【料理研究家ゆかり】」のレシピです。"
   },
   {
     "title": "スーパーで買った激安豚肉を極上ステーキに！豚肉ステーキの焼き方",
@@ -31496,9 +30795,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "居酒屋店長のまかない飯チャンネルの実在動画。食材候補: 豚肉、ショウガ、にんにく。「スーパーで買った激安豚肉を極上ステーキに！豚肉ステーキの焼き方」のレシピです。"
+    "description": "居酒屋店長のまかない飯チャンネルの実在動画。豚肉、ショウガ、にんにくを使う「スーパーで買った激安豚肉を極上ステーキに！豚肉ステーキの焼き方」のレシピです。"
   },
   {
     "title": "柔らかさっぱりヘルシー！鶏むね肉の南蛮漬けの作り方 #料理 #鶏むね #shorts",
@@ -31526,9 +30823,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 鶏肉。「柔らかさっぱりヘルシー！鶏むね肉の南蛮漬けの作り方 #料理 #鶏むね #shorts」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。鶏肉を使う「柔らかさっぱりヘルシー！鶏むね肉の南蛮漬けの作り方 #料理 #鶏むね #shorts」のレシピです。"
   },
   {
     "title": "冷蔵庫で５日保存な常備菜【しっとり ゆで鶏】",
@@ -31556,9 +30851,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: 鶏肉。「冷蔵庫で５日保存な常備菜【しっとり ゆで鶏】」のレシピです。"
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。鶏肉を使う「冷蔵庫で５日保存な常備菜【しっとり ゆで鶏】」のレシピです。"
   },
   {
     "title": "鶏よりおいしい😳ヤンニョム豚こま🧀（レシピはコメント欄に✨）",
@@ -31586,9 +30879,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆい▷愛する旦那さんに褒められごはんの実在動画。食材候補: 豚肉。「鶏よりおいしい😳ヤンニョム豚こま🧀（レシピはコメント欄に✨）」のレシピです。"
+    "description": "ゆい▷愛する旦那さんに褒められごはんの実在動画。豚肉を使う「鶏よりおいしい😳ヤンニョム豚こま🧀（レシピはコメント欄に✨）」のレシピです。"
   },
   {
     "title": "簡単なのに絶品ローストポーク",
@@ -31605,6 +30896,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "麺",
       "根菜"
     ],
@@ -31616,13 +30908,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice_noodles",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ビーフン・フォー、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なな⌇家族の心を満たす愛情レシピの実在動画。食材候補: 豚肉、ビーフン・フォー、にんにく。「簡単なのに絶品ローストポーク」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ビーフン・フォー、にんにく",
+    "description": "なな⌇家族の心を満たす愛情レシピの実在動画。豚肉、白身魚、ビーフン・フォー、にんにくを使う「簡単なのに絶品ローストポーク」のレシピです。"
   },
   {
     "title": "ご飯が無限に進む！大分名物【にら豚】",
@@ -31650,9 +30941,7 @@ const recipes = [
       "nira"
     ],
     "rawIngredients": "にら",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。食材候補: にら。「ご飯が無限に進む！大分名物【にら豚】」のレシピです。"
+    "description": "【賛否両論】笠原将弘の料理のほそ道の実在動画。にらを使う「ご飯が無限に進む！大分名物【にら豚】」のレシピです。"
   },
   {
     "title": "安い鶏むね肉を無限に食える方法を発見しました「エンドレス鶏むね肉」が旨すぎる#shorts #リュウジ #料理",
@@ -31669,6 +30958,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -31680,13 +30970,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "garlic",
       "butter"
     ],
-    "rawIngredients": "鶏肉、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家リュウジのバズレシピの実在動画。食材候補: 鶏肉、にんにく、バター。「安い鶏むね肉を無限に食える方法を発見しました「エンドレス鶏むね肉」が旨すぎる#shorts #リュウジ #料理」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にんにく、バター",
+    "description": "料理研究家リュウジのバズレシピの実在動画。鶏肉、白身魚、にんにく、バターを使う「安い鶏むね肉を無限に食える方法を発見しました「エンドレス鶏むね肉」が旨すぎる#shorts #リュウジ #料理」のレシピです。"
   },
   {
     "title": "確実に1番美味しい豚丼の作り方。正直お店超えてます。",
@@ -31714,9 +31003,7 @@ const recipes = [
       "rice"
     ],
     "rawIngredients": "ご飯・米",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: ご飯・米。「確実に1番美味しい豚丼の作り方。正直お店超えてます。」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。ご飯・米を使う「確実に1番美味しい豚丼の作り方。正直お店超えてます。」のレシピです。"
   },
   {
     "title": "鶏むね肉買ったら…。 #簡単レシピ",
@@ -31728,11 +31015,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/EMP2tb7AAgs/maxresdefault.jpg",
     "creator": "さくらい ゆか【管理栄養士】",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
-      "鶏肉"
+      "鶏肉",
+      "魚介"
     ],
     "oil": 2,
     "effort": 3,
@@ -31741,12 +31029,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
-      "chicken"
+      "chicken",
+      "whitefish"
     ],
-    "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さくらい ゆか【管理栄養士】の実在動画。食材候補: 鶏肉。「鶏むね肉買ったら…。 #簡単レシピ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚",
+    "description": "さくらい ゆか【管理栄養士】の実在動画。鶏肉、白身魚を使う「鶏むね肉買ったら…。 #簡単レシピ」のレシピです。"
   },
   {
     "title": "レンジで簡単！やみつき無限漬け 【麻薬鶏】丁寧に工程を見たい人はアプリで【旨だれ漬け鶏むね肉】と検索♪ #鶏肉 #鶏むね肉 #やみつき #麻薬たまご #レシピ動画 #料理動画 #shorts",
@@ -31785,9 +31072,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "鶏肉、豆腐、卵、ビーフン・フォー、ネギ、レタス、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、豆腐、卵、ビーフン・フォー、ネギ、レタス、にんにく。「レンジで簡単！やみつき無限漬け 【麻薬鶏】丁寧に工程を見たい人はアプリで【旨だれ漬け鶏むね肉】と検索♪ #鶏肉 #鶏むね肉 #やみつき #麻薬たまご #レシピ動画 #料理動画 #shorts」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、豆腐、卵、ビーフン・フォー、ネギ、レタス、にんにくを使う「レンジで簡単！やみつき無限漬け 【麻薬鶏】丁寧に工程を見たい人はアプリで【旨だれ漬け鶏むね肉】と検索♪ #鶏肉 #鶏むね肉 #やみつき #麻薬たまご #レシピ動画 #料理動画 #shorts」のレシピです。"
   },
   {
     "title": "ワンパンで作る カリッじゅわ〜やみつきチキン",
@@ -31815,9 +31100,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なな⌇家族の心を満たす愛情レシピの実在動画。食材候補: 鶏肉。「ワンパンで作る カリッじゅわ〜やみつきチキン」のレシピです。"
+    "description": "なな⌇家族の心を満たす愛情レシピの実在動画。鶏肉を使う「ワンパンで作る カリッじゅわ〜やみつきチキン」のレシピです。"
   },
   {
     "title": "材料1つ【鶏むね肉焼き】ただ焼くだけ！安い鶏むね肉が柔らかジューシーに！ボリュームも満点！！節約おかず・おつまみ",
@@ -31847,9 +31130,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "鶏肉、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "夫手取り17万円の節約ごはんの実在動画。食材候補: 鶏肉、にんにく。「材料1つ【鶏むね肉焼き】ただ焼くだけ！安い鶏むね肉が柔らかジューシーに！ボリュームも満点！！節約おかず・おつまみ」のレシピです。"
+    "description": "夫手取り17万円の節約ごはんの実在動画。鶏肉、にんにくを使う「材料1つ【鶏むね肉焼き】ただ焼くだけ！安い鶏むね肉が柔らかジューシーに！ボリュームも満点！！節約おかず・おつまみ」のレシピです。"
   },
   {
     "title": "ベーコンの焼き方#料理 #飯テロ #cooking",
@@ -31877,9 +31158,7 @@ const recipes = [
       "bacon"
     ],
     "rawIngredients": "ベーコン",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "mamamaの実在動画。食材候補: ベーコン。「ベーコンの焼き方#料理 #飯テロ #cooking」のレシピです。"
+    "description": "mamamaの実在動画。ベーコンを使う「ベーコンの焼き方#料理 #飯テロ #cooking」のレシピです。"
   },
   {
     "title": "安い！早い！うまい！豚こま南蛮✨（レシピはコメント欄に🫶）",
@@ -31907,9 +31186,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆい▷愛する旦那さんに褒められごはんの実在動画。食材候補: 豚肉。「安い！早い！うまい！豚こま南蛮✨（レシピはコメント欄に🫶）」のレシピです。"
+    "description": "ゆい▷愛する旦那さんに褒められごはんの実在動画。豚肉を使う「安い！早い！うまい！豚こま南蛮✨（レシピはコメント欄に🫶）」のレシピです。"
   },
   {
     "title": "肉汁に溺れるガチで1番美味しい鶏胸肉の食べ方",
@@ -31939,9 +31216,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: にんにく、バター。「肉汁に溺れるガチで1番美味しい鶏胸肉の食べ方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。にんにく、バターを使う「肉汁に溺れるガチで1番美味しい鶏胸肉の食べ方」のレシピです。"
   },
   {
     "title": "㊗️80万再生 基本の照り焼き鶏肉の作り方",
@@ -31969,9 +31244,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "家政夫ミツキの10分作りおきの実在動画。食材候補: 鶏肉。「㊗️80万再生 基本の照り焼き鶏肉の作り方」のレシピです。"
+    "description": "家政夫ミツキの10分作りおきの実在動画。鶏肉を使う「㊗️80万再生 基本の照り焼き鶏肉の作り方」のレシピです。"
   },
   {
     "title": "もう買わない🎄クリスマスはサクサク激うまのこれ作って🍗#簡単レシピ #クリスマスレシピ #鶏むね肉 #ヘルシーレシピ #フライドチキン #cooking #shorts",
@@ -31999,9 +31272,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yuchiの実在動画。食材候補: 鶏肉。「もう買わない🎄クリスマスはサクサク激うまのこれ作って🍗#簡単レシピ #クリスマスレシピ #鶏むね肉 #ヘルシーレシピ #フライドチキン #cooking #shorts」のレシピです。"
+    "description": "yuchiの実在動画。鶏肉を使う「もう買わない🎄クリスマスはサクサク激うまのこれ作って🍗#簡単レシピ #クリスマスレシピ #鶏むね肉 #ヘルシーレシピ #フライドチキン #cooking #shorts」のレシピです。"
   },
   {
     "title": "鶏胸肉を毎日1枚以上食べる料理家が辿り着いた、もはやとろける最高の鶏胸チャーシュー",
@@ -32034,9 +31305,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "卵、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵、ネギ、ショウガ、にんにく。「鶏胸肉を毎日1枚以上食べる料理家が辿り着いた、もはやとろける最高の鶏胸チャーシュー」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵、ネギ、ショウガ、にんにくを使う「鶏胸肉を毎日1枚以上食べる料理家が辿り着いた、もはやとろける最高の鶏胸チャーシュー」のレシピです。"
   },
   {
     "title": "毎日鶏胸肉を1.5枚食べる料理家がガチで旨すぎる鶏胸肉レシピを紹介",
@@ -32064,9 +31333,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 卵。「毎日鶏胸肉を1.5枚食べる料理家がガチで旨すぎる鶏胸肉レシピを紹介」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。卵を使う「毎日鶏胸肉を1.5枚食べる料理家がガチで旨すぎる鶏胸肉レシピを紹介」のレシピです。"
   },
   {
     "title": "ひき肉とピーマン炒めるだけ【ピーマン肉味噌】 詳しいレシピは概要欄をチェック！ #料理 #レシピ動画 #レシピ #簡単レシピ #晩ごはん",
@@ -32098,9 +31365,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "挽肉、ピーマン、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 挽肉、ピーマン、ショウガ。「ひき肉とピーマン炒めるだけ【ピーマン肉味噌】 詳しいレシピは概要欄をチェック！ #料理 #レシピ動画 #レシピ #簡単レシピ #晩ごはん」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。挽肉、ピーマン、ショウガを使う「ひき肉とピーマン炒めるだけ【ピーマン肉味噌】 詳しいレシピは概要欄をチェック！ #料理 #レシピ動画 #レシピ #簡単レシピ #晩ごはん」のレシピです。"
   },
   {
     "title": "しっとり鶏むね肉のチキン南蛮レシピ #鶏むね肉レシピ #チキン南蛮",
@@ -32128,9 +31393,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちぇる ダイエット食堂の実在動画。食材候補: 鶏肉。「しっとり鶏むね肉のチキン南蛮レシピ #鶏むね肉レシピ #チキン南蛮」のレシピです。"
+    "description": "ちぇる ダイエット食堂の実在動画。鶏肉を使う「しっとり鶏むね肉のチキン南蛮レシピ #鶏むね肉レシピ #チキン南蛮」のレシピです。"
   },
   {
     "title": "洗い物少ない！【油要らず唐揚げ】詳しいレシピは概要欄を見てね♪#唐揚げ#鶏もも肉 #鶏肉 #鶏肉レシピ #からあげ #鶏肉#おかず #晩ご飯 #おうちごはん #レシピ動画 #簡単レシピ #ワンパン",
@@ -32160,9 +31423,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "鶏肉、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、ショウガ。「洗い物少ない！【油要らず唐揚げ】詳しいレシピは概要欄を見てね♪#唐揚げ#鶏もも肉 #鶏肉 #鶏肉レシピ #からあげ #鶏肉#おかず #晩ご飯 #おうちごはん #レシピ動画 #簡単レシピ #ワンパン」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。鶏肉、ショウガを使う「洗い物少ない！【油要らず唐揚げ】詳しいレシピは概要欄を見てね♪#唐揚げ#鶏もも肉 #鶏肉 #鶏肉レシピ #からあげ #鶏肉#おかず #晩ご飯 #おうちごはん #レシピ動画 #簡単レシピ #ワンパン」のレシピです。"
   },
   {
     "title": "【肉野菜炒め】一生役立つ家庭料理の作り方#shorts #料理 #cooking",
@@ -32198,9 +31459,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、キャベツ、ネギ、もやし、玉ねぎ、にんじん、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "muuのおうちごはんの実在動画。食材候補: 豚肉、キャベツ、ネギ、もやし、玉ねぎ、にんじん、にんにく。「【肉野菜炒め】一生役立つ家庭料理の作り方#shorts #料理 #cooking」のレシピです。"
+    "description": "muuのおうちごはんの実在動画。豚肉、キャベツ、ネギ、もやし、玉ねぎ、にんじん、にんにくを使う「【肉野菜炒め】一生役立つ家庭料理の作り方#shorts #料理 #cooking」のレシピです。"
   },
   {
     "title": "シェフが教える豚肉の火入れ術【総再生1000万回超え】#shorts",
@@ -32228,9 +31487,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "George ジョージ吉田の実在動画。食材候補: 豚肉。「シェフが教える豚肉の火入れ術【総再生1000万回超え】#shorts」のレシピです。"
+    "description": "George ジョージ吉田の実在動画。豚肉を使う「シェフが教える豚肉の火入れ術【総再生1000万回超え】#shorts」のレシピです。"
   },
   {
     "title": "甘辛シャキシャキでお箸が止まらない🤤【千切りキャベツ肉巻き】 #肉巻き #豚バラ #カットキャベツ #キャベツ#簡単レシピ #レシピ動画",
@@ -32262,9 +31519,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、キャベツ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、キャベツ、にんにく。「甘辛シャキシャキでお箸が止まらない🤤【千切りキャベツ肉巻き】 #肉巻き #豚バラ #カットキャベツ #キャベツ#簡単レシピ #レシピ動画」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、キャベツ、にんにくを使う「甘辛シャキシャキでお箸が止まらない🤤【千切りキャベツ肉巻き】 #肉巻き #豚バラ #カットキャベツ #キャベツ#簡単レシピ #レシピ動画」のレシピです。"
   },
   {
     "title": "作っても作っても足りない甘辛チキンスティック #鶏むね肉 #ワンパンレシピ",
@@ -32276,11 +31531,12 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/2wiy2uoCizE/maxresdefault.jpg",
     "creator": "さくらい ゆか【管理栄養士】",
     "style": "YouTube Data API収集",
-    "taste": "semi-rich",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
-      "鶏肉"
+      "鶏肉",
+      "魚介"
     ],
     "oil": 2,
     "effort": 3,
@@ -32289,12 +31545,11 @@ const recipes = [
     "knife": true,
     "heat": true,
     "detailedIngredients": [
-      "chicken"
+      "chicken",
+      "whitefish"
     ],
-    "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さくらい ゆか【管理栄養士】の実在動画。食材候補: 鶏肉。「作っても作っても足りない甘辛チキンスティック #鶏むね肉 #ワンパンレシピ」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚",
+    "description": "さくらい ゆか【管理栄養士】の実在動画。鶏肉、白身魚を使う「作っても作っても足りない甘辛チキンスティック #鶏むね肉 #ワンパンレシピ」のレシピです。"
   },
   {
     "title": "お弁当にも！【冷凍ストック】肉巻きピーマン#冷凍 #冷凍ストック #簡単レシピ #料理 #料理動画 #今日の晩ごはん #cooking #お弁当 #お弁当おかず #ピーマンレシピ #ピーマン",
@@ -32311,6 +31566,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "米"
     ],
@@ -32322,13 +31578,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "bell_pepper",
       "flour"
     ],
-    "rawIngredients": "豚肉、ピーマン、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "冷凍子ママの実在動画。食材候補: 豚肉、ピーマン、小麦粉。「お弁当にも！【冷凍ストック】肉巻きピーマン#冷凍 #冷凍ストック #簡単レシピ #料理 #料理動画 #今日の晩ごはん #cooking #お弁当 #お弁当おかず #ピーマンレシピ #ピーマン」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ピーマン、小麦粉",
+    "description": "冷凍子ママの実在動画。豚肉、白身魚、ピーマン、小麦粉を使う「お弁当にも！【冷凍ストック】肉巻きピーマン#冷凍 #冷凍ストック #簡単レシピ #料理 #料理動画 #今日の晩ごはん #cooking #お弁当 #お弁当おかず #ピーマンレシピ #ピーマン」のレシピです。"
   },
   {
     "title": "【時短メイン】鶏肉とたまねぎの醤油マヨ炒め #つくおき #レシピ #時短 #簡単",
@@ -32360,9 +31615,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、ネギ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "つくおきチャンネルの実在動画。食材候補: 鶏肉、ネギ、マヨネーズ。「【時短メイン】鶏肉とたまねぎの醤油マヨ炒め #つくおき #レシピ #時短 #簡単」のレシピです。"
+    "description": "つくおきチャンネルの実在動画。鶏肉、ネギ、マヨネーズを使う「【時短メイン】鶏肉とたまねぎの醤油マヨ炒め #つくおき #レシピ #時短 #簡単」のレシピです。"
   },
   {
     "title": "5児ママ〜椎茸の肉詰め〜",
@@ -32390,9 +31643,7 @@ const recipes = [
       "shiitake"
     ],
     "rawIngredients": "しいたけ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "マイの実在動画。食材候補: しいたけ。「5児ママ〜椎茸の肉詰め〜」のレシピです。"
+    "description": "マイの実在動画。しいたけを使う「5児ママ〜椎茸の肉詰め〜」のレシピです。"
   },
   {
     "title": "胸肉と卵があるなら絶対作ってみて欲しい #料理 #レシピ #food",
@@ -32404,7 +31655,7 @@ const recipes = [
     "thumbnailUrl": "https://i.ytimg.com/vi/957-ikJYPmw/maxresdefault.jpg",
     "creator": "Kiyo Balance Kitchen",
     "style": "YouTube Data API収集",
-    "taste": "light",
+    "taste": "semi-light",
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
@@ -32420,9 +31671,7 @@ const recipes = [
       "egg"
     ],
     "rawIngredients": "卵",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Kiyo Balance Kitchenの実在動画。食材候補: 卵。「胸肉と卵があるなら絶対作ってみて欲しい #料理 #レシピ #food」のレシピです。"
+    "description": "Kiyo Balance Kitchenの実在動画。卵を使う「胸肉と卵があるなら絶対作ってみて欲しい #料理 #レシピ #food」のレシピです。"
   },
   {
     "title": "焼いてかけるだけの失敗なし柔らかジューシー生姜焼き",
@@ -32439,6 +31688,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "根菜"
     ],
     "oil": 3,
@@ -32449,12 +31699,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "ginger"
     ],
-    "rawIngredients": "豚肉、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、ショウガ。「焼いてかけるだけの失敗なし柔らかジューシー生姜焼き」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ショウガ",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、ショウガを使う「焼いてかけるだけの失敗なし柔らかジューシー生姜焼き」のレシピです。"
   },
   {
     "title": "たっぷりキャベツと豚の蒸し煮🤤",
@@ -32482,9 +31731,7 @@ const recipes = [
       "cabbage"
     ],
     "rawIngredients": "キャベツ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しらっちのウマ痩せレシピ🍳の実在動画。食材候補: キャベツ。「たっぷりキャベツと豚の蒸し煮🤤」のレシピです。"
+    "description": "しらっちのウマ痩せレシピ🍳の実在動画。キャベツを使う「たっぷりキャベツと豚の蒸し煮🤤」のレシピです。"
   },
   {
     "title": "【挽き肉余ったらコレ作ろ！】秘伝の肉味噌#料理 #簡単レシピ #cooking",
@@ -32500,7 +31747,8 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
-      "肉類"
+      "肉類",
+      "魚介"
     ],
     "oil": 2,
     "effort": 3,
@@ -32509,12 +31757,11 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
-      "minced_meat"
+      "minced_meat",
+      "whitefish"
     ],
-    "rawIngredients": "挽肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "たれマニアの実在動画。食材候補: 挽肉。「【挽き肉余ったらコレ作ろ！】秘伝の肉味噌#料理 #簡単レシピ #cooking」のレシピです。"
+    "rawIngredients": "挽肉、白身魚",
+    "description": "たれマニアの実在動画。挽肉、白身魚を使う「【挽き肉余ったらコレ作ろ！】秘伝の肉味噌#料理 #簡単レシピ #cooking」のレシピです。"
   },
   {
     "title": "悪魔的だけど太らない！トマトチーズエッグチキン #鶏胸肉 #簡単レシピ #料理 #cooking #shorts",
@@ -32531,6 +31778,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "卵",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -32543,14 +31791,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "egg",
       "tomato",
       "cheese"
     ],
-    "rawIngredients": "鶏肉、卵、トマト、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "鶏むねマッスルの実在動画。食材候補: 鶏肉、卵、トマト、チーズ。「悪魔的だけど太らない！トマトチーズエッグチキン #鶏胸肉 #簡単レシピ #料理 #cooking #shorts」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、卵、トマト、チーズ",
+    "description": "鶏むねマッスルの実在動画。鶏肉、白身魚、卵、トマト、チーズを使う「悪魔的だけど太らない！トマトチーズエッグチキン #鶏胸肉 #簡単レシピ #料理 #cooking #shorts」のレシピです。"
   },
   {
     "title": "たった10分！卵と豚肉だけで無限にご飯が進む最強おかず",
@@ -32584,9 +31831,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "豚肉、卵、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、卵、にんにく、マヨネーズ。「たった10分！卵と豚肉だけで無限にご飯が進む最強おかず」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、卵、にんにく、マヨネーズを使う「たった10分！卵と豚肉だけで無限にご飯が進む最強おかず」のレシピです。"
   },
   {
     "title": "家にある調味料でできる！「トンテキ」詳しいレシピは概要欄をチェック！ #トンテキ #ステーキ",
@@ -32603,6 +31848,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜",
       "米"
@@ -32615,6 +31861,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "cabbage",
       "green_onion",
       "tomato",
@@ -32622,10 +31869,8 @@ const recipes = [
       "garlic",
       "flour"
     ],
-    "rawIngredients": "豚肉、キャベツ、ネギ、トマト、玉ねぎ、にんにく、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、キャベツ、ネギ、トマト、玉ねぎ、にんにく、小麦粉。「家にある調味料でできる！「トンテキ」詳しいレシピは概要欄をチェック！ #トンテキ #ステーキ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、キャベツ、ネギ、トマト、玉ねぎ、にんにく、小麦粉",
+    "description": "デリッシュキッチンの実在動画。豚肉、白身魚、キャベツ、ネギ、トマト、玉ねぎ、にんにく、小麦粉を使う「家にある調味料でできる！「トンテキ」詳しいレシピは概要欄をチェック！ #トンテキ #ステーキ」のレシピです。"
   },
   {
     "title": "超しっとり🤤簡単絶品ローストビーフの作り方✨ #クリスマスレシピ #ローストビーフ #ローストビーフレシピ #簡単レシピ",
@@ -32653,9 +31898,7 @@ const recipes = [
       "beef"
     ],
     "rawIngredients": "牛肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちぇる ダイエット食堂の実在動画。食材候補: 牛肉。「超しっとり🤤簡単絶品ローストビーフの作り方✨ #クリスマスレシピ #ローストビーフ #ローストビーフレシピ #簡単レシピ」のレシピです。"
+    "description": "ちぇる ダイエット食堂の実在動画。牛肉を使う「超しっとり🤤簡単絶品ローストビーフの作り方✨ #クリスマスレシピ #ローストビーフ #ローストビーフレシピ #簡単レシピ」のレシピです。"
   },
   {
     "title": "ご飯おかわり必須。「豚ばらピーマンの甘辛炒め」 #材料と作り方は概要欄 #豚肉 #豚肉レシピ #豚バラ #豚バラレシピ #ピーマン #ピーマンレシピ #料理 #フーディストノート #フーディスト",
@@ -32672,6 +31915,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "根菜"
     ],
@@ -32683,13 +31927,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "bell_pepper",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ピーマン、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "フーディストノートの実在動画。食材候補: 豚肉、ピーマン、にんにく。「ご飯おかわり必須。「豚ばらピーマンの甘辛炒め」 #材料と作り方は概要欄 #豚肉 #豚肉レシピ #豚バラ #豚バラレシピ #ピーマン #ピーマンレシピ #料理 #フーディストノート #フーディスト」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ピーマン、にんにく",
+    "description": "フーディストノートの実在動画。豚肉、白身魚、ピーマン、にんにくを使う「ご飯おかわり必須。「豚ばらピーマンの甘辛炒め」 #材料と作り方は概要欄 #豚肉 #豚肉レシピ #豚バラ #豚バラレシピ #ピーマン #ピーマンレシピ #料理 #フーディストノート #フーディスト」のレシピです。"
   },
   {
     "title": "【実は簡単】美味しいローストビーフの作り方",
@@ -32717,9 +31960,7 @@ const recipes = [
       "beef"
     ],
     "rawIngredients": "牛肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "TOKUTOKU☆cookingの実在動画。食材候補: 牛肉。「【実は簡単】美味しいローストビーフの作り方」のレシピです。"
+    "description": "TOKUTOKU☆cookingの実在動画。牛肉を使う「【実は簡単】美味しいローストビーフの作り方」のレシピです。"
   },
   {
     "title": "ほぼ放置！確実に世界 1ジューシーで肉汁溢れる鶏胸肉の焼き方",
@@ -32750,9 +31991,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ネギ、玉ねぎ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: ネギ、玉ねぎ、にんにく。「ほぼ放置！確実に世界 1ジューシーで肉汁溢れる鶏胸肉の焼き方」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。ネギ、玉ねぎ、にんにくを使う「ほぼ放置！確実に世界 1ジューシーで肉汁溢れる鶏胸肉の焼き方」のレシピです。"
   },
   {
     "title": "悪魔の肉巻き厚揚げ",
@@ -32769,6 +32008,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "根菜"
     ],
@@ -32780,13 +32020,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "atsuage",
       "garlic"
     ],
-    "rawIngredients": "豚肉、厚揚げ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 豚肉、厚揚げ、にんにく。「悪魔の肉巻き厚揚げ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、厚揚げ、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。豚肉、白身魚、厚揚げ、にんにくを使う「悪魔の肉巻き厚揚げ」のレシピです。"
   },
   {
     "title": "【家族が爆食べ】とろたま豚丼！簡単すぎてリピ確定 #簡単レシピ #cooking",
@@ -32821,9 +32060,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "豚肉、卵、ご飯・米、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。食材候補: 豚肉、卵、ご飯・米、チーズ、マヨネーズ。「【家族が爆食べ】とろたま豚丼！簡単すぎてリピ確定 #簡単レシピ #cooking」のレシピです。"
+    "description": "ぽっけ夫婦⌇家族が喜ぶ10分ごはんの実在動画。豚肉、卵、ご飯・米、チーズ、マヨネーズを使う「【家族が爆食べ】とろたま豚丼！簡単すぎてリピ確定 #簡単レシピ #cooking」のレシピです。"
   },
   {
     "title": "え？簡単かもって思わせるので見てください。【ザクザク油淋鶏】",
@@ -32859,9 +32096,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "鶏肉、きゅうり、ネギ、もやし、トマト、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "くまの限界食堂の実在動画。食材候補: 鶏肉、きゅうり、ネギ、もやし、トマト、ショウガ、にんにく。「え？簡単かもって思わせるので見てください。【ザクザク油淋鶏】」のレシピです。"
+    "description": "くまの限界食堂の実在動画。鶏肉、きゅうり、ネギ、もやし、トマト、ショウガ、にんにくを使う「え？簡単かもって思わせるので見てください。【ザクザク油淋鶏】」のレシピです。"
   },
   {
     "title": "レシピはこちら🙌#ワンパン#おうちごはん#彼ごはん#レシピ#夕飯#楽うま#晩御飯#重ね煮#簡単レシピ#おかずレシピ#おつまみレシピ#簡単レシピ#豚肉レシピ #簡単ごはん #ダイエットレシピ",
@@ -32878,6 +32113,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "葉物野菜",
       "きのこ",
       "根菜"
@@ -32890,6 +32126,7 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "nira",
       "green_onion",
       "bean_sprouts",
@@ -32897,10 +32134,8 @@ const recipes = [
       "ginger",
       "garlic"
     ],
-    "rawIngredients": "豚肉、にら、ネギ、もやし、えのき茸、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。食材候補: 豚肉、にら、ネギ、もやし、えのき茸、ショウガ、にんにく。「レシピはこちら🙌#ワンパン#おうちごはん#彼ごはん#レシピ#夕飯#楽うま#晩御飯#重ね煮#簡単レシピ#おかずレシピ#おつまみレシピ#簡単レシピ#豚肉レシピ #簡単ごはん #ダイエットレシピ」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、にら、ネギ、もやし、えのき茸、ショウガ、にんにく",
+    "description": "さち⌇時短・簡単・夫婦ごはんの実在動画。豚肉、白身魚、にら、ネギ、もやし、えのき茸、ショウガ、にんにくを使う「レシピはこちら🙌#ワンパン#おうちごはん#彼ごはん#レシピ#夕飯#楽うま#晩御飯#重ね煮#簡単レシピ#おかずレシピ#おつまみレシピ#簡単レシピ#豚肉レシピ #簡単ごはん #ダイエットレシピ」のレシピです。"
   },
   {
     "title": "万能ダレで作る！みそマスポーク #簡単レシピ #今日の晩ごはん #ワーママご飯 #料理 #ワンパンレシピ #おうちごはん #こどもごはん #万能ソース #豚ロース #万能調味料",
@@ -32918,6 +32153,7 @@ const recipes = [
     "ingredients": [
       "肉類",
       "鶏肉",
+      "魚介",
       "麺",
       "葉物野菜",
       "チーズ・バター・マヨ系"
@@ -32931,14 +32167,13 @@ const recipes = [
     "detailedIngredients": [
       "pork",
       "chicken",
+      "whitefish",
       "rice_noodles",
       "broccoli",
       "mayonnaise"
     ],
-    "rawIngredients": "豚肉、鶏肉、ビーフン・フォー、ブロッコリー、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "つきの実在動画。食材候補: 豚肉、鶏肉、ビーフン・フォー、ブロッコリー、マヨネーズ。「万能ダレで作る！みそマスポーク #簡単レシピ #今日の晩ごはん #ワーママご飯 #料理 #ワンパンレシピ #おうちごはん #こどもごはん #万能ソース #豚ロース #万能調味料」のレシピです。"
+    "rawIngredients": "豚肉、鶏肉、白身魚、ビーフン・フォー、ブロッコリー、マヨネーズ",
+    "description": "つきの実在動画。豚肉、鶏肉、白身魚、ビーフン・フォー、ブロッコリー、マヨネーズを使う「万能ダレで作る！みそマスポーク #簡単レシピ #今日の晩ごはん #ワーママご飯 #料理 #ワンパンレシピ #おうちごはん #こどもごはん #万能ソース #豚ロース #万能調味料」のレシピです。"
   },
   {
     "title": "これは完全にチャーシューやん(笑)",
@@ -32955,6 +32190,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "卵",
       "葉物野菜",
       "根菜"
@@ -32967,14 +32203,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "egg",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、卵、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まるみキッチン【簡単レシピ】の実在動画。食材候補: 豚肉、卵、ネギ、にんにく。「これは完全にチャーシューやん(笑)」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、卵、ネギ、にんにく",
+    "description": "まるみキッチン【簡単レシピ】の実在動画。豚肉、白身魚、卵、ネギ、にんにくを使う「これは完全にチャーシューやん(笑)」のレシピです。"
   },
   {
     "title": "「まるでお店で食べるやつ！」鬼リピしまくりの【鶏むね肉の甘辛チキン】胃袋余裕で掴めます",
@@ -32991,6 +32226,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜"
     ],
     "oil": 2,
@@ -33001,12 +32237,11 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "garlic"
     ],
-    "rawIngredients": "鶏肉、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "低空飛行キッチンの実在動画。食材候補: 鶏肉、にんにく。「「まるでお店で食べるやつ！」鬼リピしまくりの【鶏むね肉の甘辛チキン】胃袋余裕で掴めます」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にんにく",
+    "description": "低空飛行キッチンの実在動画。鶏肉、白身魚、にんにくを使う「「まるでお店で食べるやつ！」鬼リピしまくりの【鶏むね肉の甘辛チキン】胃袋余裕で掴めます」のレシピです。"
   },
   {
     "title": "【豚肉と玉ねぎの簡単レシピ】ごはんが無限にススム！合わせだれで炒めるだけ",
@@ -33041,9 +32276,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、ネギ、レタス、玉ねぎ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しばのごはん食堂の実在動画。食材候補: 豚肉、ネギ、レタス、玉ねぎ、ショウガ、にんにく。「【豚肉と玉ねぎの簡単レシピ】ごはんが無限にススム！合わせだれで炒めるだけ」のレシピです。"
+    "description": "しばのごはん食堂の実在動画。豚肉、ネギ、レタス、玉ねぎ、ショウガ、にんにくを使う「【豚肉と玉ねぎの簡単レシピ】ごはんが無限にススム！合わせだれで炒めるだけ」のレシピです。"
   },
   {
     "title": "箸が止まらない美味さ！究極の焼肉豚バラ丼",
@@ -33060,6 +32293,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "米",
       "葉物野菜",
       "根菜"
@@ -33072,14 +32306,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "rice",
       "green_onion",
       "garlic"
     ],
-    "rawIngredients": "豚肉、ご飯・米、ネギ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ハマごはん【お手軽レシピ】の実在動画。食材候補: 豚肉、ご飯・米、ネギ、にんにく。「箸が止まらない美味さ！究極の焼肉豚バラ丼」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、ご飯・米、ネギ、にんにく",
+    "description": "ハマごはん【お手軽レシピ】の実在動画。豚肉、白身魚、ご飯・米、ネギ、にんにくを使う「箸が止まらない美味さ！究極の焼肉豚バラ丼」のレシピです。"
   },
   {
     "title": "【カリカリ豚こまの甘酢ごま和え】#豚こま肉 #簡単レシピ #時短レシピ #節約レシピ #recipe",
@@ -33107,9 +32340,7 @@ const recipes = [
       "pork"
     ],
     "rawIngredients": "豚肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "DOKINの実在動画。食材候補: 豚肉。「【カリカリ豚こまの甘酢ごま和え】#豚こま肉 #簡単レシピ #時短レシピ #節約レシピ #recipe」のレシピです。"
+    "description": "DOKINの実在動画。豚肉を使う「【カリカリ豚こまの甘酢ごま和え】#豚こま肉 #簡単レシピ #時短レシピ #節約レシピ #recipe」のレシピです。"
   },
   {
     "title": "ピーマンのチーズ肉巻き🫑#ピーマン #簡単レシピ #料理 #おうちごはん #自炊 #cooking #チーズ #ごはん #時短レシピ #おいしい",
@@ -33139,9 +32370,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "ピーマン、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "りな おうちでごちそう:ワンパンレシピの実在動画。食材候補: ピーマン、チーズ。「ピーマンのチーズ肉巻き🫑#ピーマン #簡単レシピ #料理 #おうちごはん #自炊 #cooking #チーズ #ごはん #時短レシピ #おいしい」のレシピです。"
+    "description": "りな おうちでごちそう:ワンパンレシピの実在動画。ピーマン、チーズを使う「ピーマンのチーズ肉巻き🫑#ピーマン #簡単レシピ #料理 #おうちごはん #自炊 #cooking #チーズ #ごはん #時短レシピ #おいしい」のレシピです。"
   },
   {
     "title": "夫の大好物！ガーリックステーキライス☺️🧄 #簡単レシピ #おうちごはん #自炊 #cooking",
@@ -33171,9 +32400,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "ご飯・米、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Hideka cookingの実在動画。食材候補: ご飯・米、にんにく。「夫の大好物！ガーリックステーキライス☺️🧄 #簡単レシピ #おうちごはん #自炊 #cooking」のレシピです。"
+    "description": "Hideka cookingの実在動画。ご飯・米、にんにくを使う「夫の大好物！ガーリックステーキライス☺️🧄 #簡単レシピ #おうちごはん #自炊 #cooking」のレシピです。"
   },
   {
     "title": "豚バラ大根の作り方｜定番の人気おかず！味がしみしみ♪フライパンで簡単！#豚バラ大根 #おかき おかず #shorts",
@@ -33190,6 +32417,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "根菜"
     ],
     "oil": 5,
@@ -33200,13 +32428,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "daikon",
       "ginger"
     ],
-    "rawIngredients": "豚肉、大根、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、大根、ショウガ。「豚バラ大根の作り方｜定番の人気おかず！味がしみしみ♪フライパンで簡単！#豚バラ大根 #おかき おかず #shorts」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、大根、ショウガ",
+    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。豚肉、白身魚、大根、ショウガを使う「豚バラ大根の作り方｜定番の人気おかず！味がしみしみ♪フライパンで簡単！#豚バラ大根 #おかき おかず #shorts」のレシピです。"
   },
   {
     "title": "こんなのうまいに決まってる【豚キムチーズ肉巻き】詳しいレシピはアプリで料理名を検索♪#キムチ #豚キムチ#肉巻き #料理動画 #レシピ動画 #簡単レシピ #豚肉レシピ #豚バラ",
@@ -33236,9 +32463,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "豚肉、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、チーズ。「こんなのうまいに決まってる【豚キムチーズ肉巻き】詳しいレシピはアプリで料理名を検索♪#キムチ #豚キムチ#肉巻き #料理動画 #レシピ動画 #簡単レシピ #豚肉レシピ #豚バラ」のレシピです。"
+    "description": "デリッシュキッチンの実在動画。豚肉、チーズを使う「こんなのうまいに決まってる【豚キムチーズ肉巻き】詳しいレシピはアプリで料理名を検索♪#キムチ #豚キムチ#肉巻き #料理動画 #レシピ動画 #簡単レシピ #豚肉レシピ #豚バラ」のレシピです。"
   },
   {
     "title": "豚こまと玉ねぎ｜もはや週一では足りない。結局コレが一番",
@@ -33273,9 +32498,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "豚肉、ネギ、玉ねぎ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ポテヒロの楽メシの実在動画。食材候補: 豚肉、ネギ、玉ねぎ、にんにく、バター。「豚こまと玉ねぎ｜もはや週一では足りない。結局コレが一番」のレシピです。"
+    "description": "ポテヒロの楽メシの実在動画。豚肉、ネギ、玉ねぎ、にんにく、バターを使う「豚こまと玉ねぎ｜もはや週一では足りない。結局コレが一番」のレシピです。"
   },
   {
     "title": "料理初心者さんでも作れる！漬けて焼くだけ柔らかガーリックチキン🧄 #shots #おうちごはん #food",
@@ -33292,6 +32515,7 @@ const recipes = [
     "temperature": "cold",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -33303,13 +32527,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まみ(mami) ラクうまごはんの実在動画。食材候補: 鶏肉、にんにく、マヨネーズ。「料理初心者さんでも作れる！漬けて焼くだけ柔らかガーリックチキン🧄 #shots #おうちごはん #food」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にんにく、マヨネーズ",
+    "description": "まみ(mami) ラクうまごはんの実在動画。鶏肉、白身魚、にんにく、マヨネーズを使う「料理初心者さんでも作れる！漬けて焼くだけ柔らかガーリックチキン🧄 #shots #おうちごはん #food」のレシピです。"
   },
   {
     "title": "鶏むねと小松菜のチーズ焼き #ワンパンレシピ #鶏むね肉レシピ #小松菜レシピ",
@@ -33346,9 +32569,7 @@ const recipes = [
       "mayonnaise"
     ],
     "rawIngredients": "鶏肉、卵、小松菜、にら、ネギ、チーズ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ふじたかなのワールドクッキング Kana's kitchenの実在動画。食材候補: 鶏肉、卵、小松菜、にら、ネギ、チーズ、マヨネーズ。「鶏むねと小松菜のチーズ焼き #ワンパンレシピ #鶏むね肉レシピ #小松菜レシピ」のレシピです。"
+    "description": "ふじたかなのワールドクッキング Kana's kitchenの実在動画。鶏肉、卵、小松菜、にら、ネギ、チーズ、マヨネーズを使う「鶏むねと小松菜のチーズ焼き #ワンパンレシピ #鶏むね肉レシピ #小松菜レシピ」のレシピです。"
   },
   {
     "title": "『仕事帰りでもパッと作れる』甘さと食感が絶妙の【肉豆腐】一生使える基本のレシピです。",
@@ -33387,9 +32608,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "牛肉、豆腐、パスタ、キャベツ、napa_cabbage、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "食事処さくらの料理教室の実在動画。食材候補: 牛肉、豆腐、パスタ、キャベツ、napa_cabbage、ネギ、ショウガ、にんにく。「『仕事帰りでもパッと作れる』甘さと食感が絶妙の【肉豆腐】一生使える基本のレシピです。」のレシピです。"
+    "description": "食事処さくらの料理教室の実在動画。牛肉、豆腐、パスタ、キャベツ、napa_cabbage、ネギ、ショウガ、にんにくを使う「『仕事帰りでもパッと作れる』甘さと食感が絶妙の【肉豆腐】一生使える基本のレシピです。」のレシピです。"
   },
   {
     "title": "【豚こまステーキ】肉屋がハマった。これ本当に豚こま？",
@@ -33422,9 +32641,7 @@ const recipes = [
       "butter"
     ],
     "rawIngredients": "豚肉、にんじん、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ポテヒロの楽メシの実在動画。食材候補: 豚肉、にんじん、にんにく、バター。「【豚こまステーキ】肉屋がハマった。これ本当に豚こま？」のレシピです。"
+    "description": "ポテヒロの楽メシの実在動画。豚肉、にんじん、にんにく、バターを使う「【豚こまステーキ】肉屋がハマった。これ本当に豚こま？」のレシピです。"
   },
   {
     "title": "【ボリューム満点！がっつり肉レシピ7選】簡単なのにまるでお店！メインおかずに食べて大満足♡",
@@ -33462,9 +32679,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "牛肉、豚肉、鶏肉、ネギ、玉ねぎ、にんにく、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "macaroni | マカロニの実在動画。食材候補: 牛肉、豚肉、鶏肉、ネギ、玉ねぎ、にんにく、チーズ。「【ボリューム満点！がっつり肉レシピ7選】簡単なのにまるでお店！メインおかずに食べて大満足♡」のレシピです。"
+    "description": "macaroni | マカロニの実在動画。牛肉、豚肉、鶏肉、ネギ、玉ねぎ、にんにく、チーズを使う「【ボリューム満点！がっつり肉レシピ7選】簡単なのにまるでお店！メインおかずに食べて大満足♡」のレシピです。"
   },
   {
     "title": "ひき肉ステーキやってみた#肉 #時短レシピ #料理",
@@ -33492,9 +32707,7 @@ const recipes = [
       "minced_meat"
     ],
     "rawIngredients": "挽肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まさ 4児双子パパの時短料理の実在動画。食材候補: 挽肉。「ひき肉ステーキやってみた#肉 #時短レシピ #料理」のレシピです。"
+    "description": "まさ 4児双子パパの時短料理の実在動画。挽肉を使う「ひき肉ステーキやってみた#肉 #時短レシピ #料理」のレシピです。"
   },
   {
     "title": "ワンパン10分で🍳絶品豚カルビマヨ",
@@ -33511,6 +32724,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "きのこ",
       "根菜",
       "チーズ・バター・マヨ系"
@@ -33523,14 +32737,13 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "minced_meat",
+      "whitefish",
       "enoki",
       "ginger",
       "mayonnaise"
     ],
-    "rawIngredients": "挽肉、えのき茸、ショウガ、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ゆっこ⌇調理師ママのラクうまごはんの実在動画。食材候補: 挽肉、えのき茸、ショウガ、マヨネーズ。「ワンパン10分で🍳絶品豚カルビマヨ」のレシピです。"
+    "rawIngredients": "挽肉、白身魚、えのき茸、ショウガ、マヨネーズ",
+    "description": "ゆっこ⌇調理師ママのラクうまごはんの実在動画。挽肉、白身魚、えのき茸、ショウガ、マヨネーズを使う「ワンパン10分で🍳絶品豚カルビマヨ」のレシピです。"
   },
   {
     "title": "元高級ホテル料理人が教える、最高峰しょうが焼きの作り方!!",
@@ -33559,15 +32772,14 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "salmon",
+      "whitefish",
       "canned_tuna",
       "pasta",
       "ginger",
       "cheese"
     ],
-    "rawIngredients": "サケ、ツナ、パスタ、ショウガ、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ツナボーイ🐟の実在動画。食材候補: サケ、ツナ、パスタ、ショウガ、チーズ。「元高級ホテル料理人が教える、最高峰しょうが焼きの作り方!!」のレシピです。"
+    "rawIngredients": "サケ、白身魚、ツナ、パスタ、ショウガ、チーズ",
+    "description": "ツナボーイ🐟の実在動画。サケ、白身魚、ツナ、パスタ、ショウガ、チーズを使う「元高級ホテル料理人が教える、最高峰しょうが焼きの作り方!!」のレシピです。"
   },
   {
     "title": "煮込み10分だけなのに…味しみがレベチ🥹豚しゃぶ肉豆腐✨",
@@ -33584,6 +32796,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "肉類",
+      "魚介",
       "豆腐・大豆系",
       "葉物野菜"
     ],
@@ -33595,13 +32808,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "pork",
+      "whitefish",
       "tofu",
       "green_onion"
     ],
-    "rawIngredients": "豚肉、豆腐、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "MYON(みょん) 胃袋を惚れさせるレシピの実在動画。食材候補: 豚肉、豆腐、ネギ。「煮込み10分だけなのに…味しみがレベチ🥹豚しゃぶ肉豆腐✨」のレシピです。"
+    "rawIngredients": "豚肉、白身魚、豆腐、ネギ",
+    "description": "MYON(みょん) 胃袋を惚れさせるレシピの実在動画。豚肉、白身魚、豆腐、ネギを使う「煮込み10分だけなのに…味しみがレベチ🥹豚しゃぶ肉豆腐✨」のレシピです。"
   },
   {
     "title": "フライパンにそのままポン！そのまんま焼き♪",
@@ -33634,9 +32846,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、ネギ、トマト、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "yAsu*やす【今日なに作ろう★簡単レシピ】の実在動画。食材候補: 豚肉、ネギ、トマト、にんにく。「フライパンにそのままポン！そのまんま焼き♪」のレシピです。"
+    "description": "yAsu*やす【今日なに作ろう★簡単レシピ】の実在動画。豚肉、ネギ、トマト、にんにくを使う「フライパンにそのままポン！そのまんま焼き♪」のレシピです。"
   },
   {
     "title": "30kg痩せた男が食べている鶏むね紫蘇ポンの作り方を紹介したいと思います！#shorts #short",
@@ -33664,9 +32874,7 @@ const recipes = [
       "chicken"
     ],
     "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しゅんまるのダイエット日記の実在動画。食材候補: 鶏肉。「30kg痩せた男が食べている鶏むね紫蘇ポンの作り方を紹介したいと思います！#shorts #short」のレシピです。"
+    "description": "しゅんまるのダイエット日記の実在動画。鶏肉を使う「30kg痩せた男が食べている鶏むね紫蘇ポンの作り方を紹介したいと思います！#shorts #short」のレシピです。"
   },
   {
     "title": "7分。豚肉とキャベツだけでご飯が無限に進む『ご飯泥棒炒め』",
@@ -33698,9 +32906,7 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "豚肉、キャベツ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "だれウマ【料理研究家】の実在動画。食材候補: 豚肉、キャベツ、にんにく。「7分。豚肉とキャベツだけでご飯が無限に進む『ご飯泥棒炒め』」のレシピです。"
+    "description": "だれウマ【料理研究家】の実在動画。豚肉、キャベツ、にんにくを使う「7分。豚肉とキャベツだけでご飯が無限に進む『ご飯泥棒炒め』」のレシピです。"
   },
   {
     "title": "食材1つ【3分焼くだけ】“唐揚げよりご飯とビールがすすむ！”と何度も褒められた『ヤバい鶏むね』食費節約 ／ おかず ／ おつまみ ／ ダイエット ／ 高タンパク、低糖質 ／ 旨辛",
@@ -33717,6 +32923,7 @@ const recipes = [
     "temperature": "warm",
     "ingredients": [
       "鶏肉",
+      "魚介",
       "根菜",
       "チーズ・バター・マヨ系"
     ],
@@ -33728,13 +32935,12 @@ const recipes = [
     "heat": true,
     "detailedIngredients": [
       "chicken",
+      "whitefish",
       "garlic",
       "mayonnaise"
     ],
-    "rawIngredients": "鶏肉、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "こっタソの自由気ままに【Kottaso Recipe】の実在動画。食材候補: 鶏肉、にんにく、マヨネーズ。「食材1つ【3分焼くだけ】“唐揚げよりご飯とビールがすすむ！”と何度も褒められた『ヤバい鶏むね』食費節約 ／ おかず ／ おつまみ ／ ダイエット ／ 高タンパク、低糖質 ／ 旨辛」のレシピです。"
+    "rawIngredients": "鶏肉、白身魚、にんにく、マヨネーズ",
+    "description": "こっタソの自由気ままに【Kottaso Recipe】の実在動画。鶏肉、白身魚、にんにく、マヨネーズを使う「食材1つ【3分焼くだけ】“唐揚げよりご飯とビールがすすむ！”と何度も褒められた『ヤバい鶏むね』食費節約 ／ おかず ／ おつまみ ／ ダイエット ／ 高タンパク、低糖質 ／ 旨辛」のレシピです。"
   },
   {
     "title": "へとへとでも作れる ワンパンひとくちチーズカツ",
@@ -33762,9 +32968,7 @@ const recipes = [
       "cheese"
     ],
     "rawIngredients": "チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なな⌇家族の心を満たす愛情レシピの実在動画。食材候補: チーズ。「へとへとでも作れる ワンパンひとくちチーズカツ」のレシピです。"
+    "description": "なな⌇家族の心を満たす愛情レシピの実在動画。チーズを使う「へとへとでも作れる ワンパンひとくちチーズカツ」のレシピです。"
   },
   {
     "title": "【150万回再生人気レシピ】たった10分煮るだけでぷるぷる&驚きの味しみ！肉豆腐の作り方",
@@ -33799,9 +33003,7 @@ const recipes = [
       "ginger"
     ],
     "rawIngredients": "豚肉、豆腐、ネギ、レタス、ショウガ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。食材候補: 豚肉、豆腐、ネギ、レタス、ショウガ。「【150万回再生人気レシピ】たった10分煮るだけでぷるぷる&驚きの味しみ！肉豆腐の作り方」のレシピです。"
+    "description": "Koh Kentetsu Kitchen【料理研究家コウケンテツ公式チャンネル】の実在動画。豚肉、豆腐、ネギ、レタス、ショウガを使う「【150万回再生人気レシピ】たった10分煮るだけでぷるぷる&驚きの味しみ！肉豆腐の作り方」のレシピです。"
   },
   {
     "title": "【簡単レシピ】子供も食べられる！ヤンニョムチキン #shorts",
@@ -33831,513 +33033,6 @@ const recipes = [
       "garlic"
     ],
     "rawIngredients": "鶏肉、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "【料理研究家 水野あき】3児のママの時短レシピの実在動画。食材候補: 鶏肉、にんにく。「【簡単レシピ】子供も食べられる！ヤンニョムチキン #shorts」のレシピです。"
-  },
-  {
-    "title": "鶏むね肉レシピに迷ったらこれ作って！！！#shorts",
-    "platform": "youtube",
-    "externalId": "qlckAfYFPHQ",
-    "videoUrl": "https://www.youtube.com/watch?v=qlckAfYFPHQ",
-    "videoId": "qlckAfYFPHQ",
-    "url": "https://www.youtube.com/watch?v=qlckAfYFPHQ",
-    "thumbnailUrl": "https://i.ytimg.com/vi/qlckAfYFPHQ/maxresdefault.jpg",
-    "creator": "はるあん",
-    "style": "YouTube Data API収集",
-    "taste": "rich",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "鶏肉",
-      "根菜",
-      "チーズ・バター・マヨ系"
-    ],
-    "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "chicken",
-      "garlic",
-      "mayonnaise"
-    ],
-    "rawIngredients": "鶏肉、にんにく、マヨネーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "はるあんの実在動画。食材候補: 鶏肉、にんにく、マヨネーズ。「鶏むね肉レシピに迷ったらこれ作って！！！#shorts」のレシピです。"
-  },
-  {
-    "title": "肉がパサつかない！こんなに柔らかいなんて！【やわらか鶏むね肉のねぎニラまみれ】詳しいレシピは概要欄をチェック！#鶏むね肉 #鶏肉#レシピ動画#簡単レシピ #料理動画",
-    "platform": "youtube",
-    "externalId": "hvAjs5YyEZw",
-    "videoUrl": "https://www.youtube.com/watch?v=hvAjs5YyEZw",
-    "videoId": "hvAjs5YyEZw",
-    "url": "https://www.youtube.com/watch?v=hvAjs5YyEZw",
-    "thumbnailUrl": "https://i.ytimg.com/vi/hvAjs5YyEZw/maxresdefault.jpg",
-    "creator": "デリッシュキッチン",
-    "style": "YouTube Data API収集",
-    "taste": "light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "鶏肉",
-      "豆腐・大豆系",
-      "麺",
-      "葉物野菜"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "chicken",
-      "tofu",
-      "somen",
-      "nira",
-      "green_onion"
-    ],
-    "rawIngredients": "鶏肉、豆腐、そうめん、にら、ネギ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 鶏肉、豆腐、そうめん、にら、ネギ。「肉がパサつかない！こんなに柔らかいなんて！【やわらか鶏むね肉のねぎニラまみれ】詳しいレシピは概要欄をチェック！#鶏むね肉 #鶏肉#レシピ動画#簡単レシピ #料理動画」のレシピです。"
-  },
-  {
-    "title": "知らないと損する【ステーキ肉の焼き方】スーパーの薄い肉が高級ステーキになる方法 #shorts",
-    "platform": "youtube",
-    "externalId": "BwX7JO5v6g8",
-    "videoUrl": "https://www.youtube.com/watch?v=BwX7JO5v6g8",
-    "videoId": "BwX7JO5v6g8",
-    "url": "https://www.youtube.com/watch?v=BwX7JO5v6g8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/BwX7JO5v6g8/maxresdefault.jpg",
-    "creator": "ファビオ飯 /イタリア料理人の世界",
-    "style": "YouTube Data API収集",
-    "taste": "rich",
-    "time": "easy",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類"
-    ],
-    "oil": 3,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "beef"
-    ],
-    "rawIngredients": "牛肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ファビオ飯 /イタリア料理人の世界の実在動画。食材候補: 牛肉。「知らないと損する【ステーキ肉の焼き方】スーパーの薄い肉が高級ステーキになる方法 #shorts」のレシピです。"
-  },
-  {
-    "title": "- ̗̀📣テレビや雑誌などで多く取り上げられた！「鶏肉のてりたま」 #おすすめ #簡単レシピ #cooking#おすすめ",
-    "platform": "youtube",
-    "externalId": "nLv_P3RzXZo",
-    "videoUrl": "https://www.youtube.com/watch?v=nLv_P3RzXZo",
-    "videoId": "nLv_P3RzXZo",
-    "url": "https://www.youtube.com/watch?v=nLv_P3RzXZo",
-    "thumbnailUrl": "https://i.ytimg.com/vi/nLv_P3RzXZo/maxresdefault.jpg",
-    "creator": "まいのごはん。",
-    "style": "YouTube Data API収集",
-    "taste": "semi-rich",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "鶏肉"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "chicken"
-    ],
-    "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "まいのごはん。の実在動画。食材候補: 鶏肉。「- ̗̀📣テレビや雑誌などで多く取り上げられた！「鶏肉のてりたま」 #おすすめ #簡単レシピ #cooking#おすすめ」のレシピです。"
-  },
-  {
-    "title": "洗い物ぜんぜんないじゃん！「パックのまま油淋豚」 #油淋鶏",
-    "platform": "youtube",
-    "externalId": "_7f5fiwlcSc",
-    "videoUrl": "https://www.youtube.com/watch?v=_7f5fiwlcSc",
-    "videoId": "_7f5fiwlcSc",
-    "url": "https://www.youtube.com/watch?v=_7f5fiwlcSc",
-    "thumbnailUrl": "https://i.ytimg.com/vi/_7f5fiwlcSc/maxresdefault.jpg",
-    "creator": "デリッシュキッチン",
-    "style": "YouTube Data API収集",
-    "taste": "semi-light",
-    "time": "easy",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類",
-      "葉物野菜",
-      "根菜"
-    ],
-    "oil": 2,
-    "effort": 4,
-    "dishes": 3,
-    "steps": 5,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "pork",
-      "cabbage",
-      "green_onion",
-      "lettuce",
-      "daikon",
-      "ginger",
-      "garlic"
-    ],
-    "rawIngredients": "豚肉、キャベツ、ネギ、レタス、大根、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "デリッシュキッチンの実在動画。食材候補: 豚肉、キャベツ、ネギ、レタス、大根、ショウガ、にんにく。「洗い物ぜんぜんないじゃん！「パックのまま油淋豚」 #油淋鶏」のレシピです。"
-  },
-  {
-    "title": "やみつき肉巻きキャベツの作り方！#簡単レシピ #キャベツ #shorts",
-    "platform": "youtube",
-    "externalId": "5fDke9I_PVQ",
-    "videoUrl": "https://www.youtube.com/watch?v=5fDke9I_PVQ",
-    "videoId": "5fDke9I_PVQ",
-    "url": "https://www.youtube.com/watch?v=5fDke9I_PVQ",
-    "thumbnailUrl": "https://i.ytimg.com/vi/5fDke9I_PVQ/maxresdefault.jpg",
-    "creator": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchen",
-    "style": "YouTube Data API収集",
-    "taste": "semi-light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類",
-      "卵",
-      "葉物野菜",
-      "根菜"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "pork",
-      "egg",
-      "cabbage",
-      "ginger",
-      "garlic"
-    ],
-    "rawIngredients": "豚肉、卵、キャベツ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "料理研究家ゆかりのおうちで簡単レシピ / Yukari's Kitchenの実在動画。食材候補: 豚肉、卵、キャベツ、ショウガ、にんにく。「やみつき肉巻きキャベツの作り方！#簡単レシピ #キャベツ #shorts」のレシピです。"
-  },
-  {
-    "title": "モテ飯。豚肉の白ワイン煮込み",
-    "platform": "youtube",
-    "externalId": "PSksg8FEFHA",
-    "videoUrl": "https://www.youtube.com/watch?v=PSksg8FEFHA",
-    "videoId": "PSksg8FEFHA",
-    "url": "https://www.youtube.com/watch?v=PSksg8FEFHA",
-    "thumbnailUrl": "https://i.ytimg.com/vi/PSksg8FEFHA/maxresdefault.jpg",
-    "creator": "自炊する山田",
-    "style": "YouTube Data API収集",
-    "taste": "rich",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類",
-      "葉物野菜",
-      "根菜",
-      "チーズ・バター・マヨ系"
-    ],
-    "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "pork",
-      "cabbage",
-      "green_onion",
-      "onion",
-      "garlic",
-      "butter"
-    ],
-    "rawIngredients": "豚肉、キャベツ、ネギ、玉ねぎ、にんにく、バター",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "自炊する山田の実在動画。食材候補: 豚肉、キャベツ、ネギ、玉ねぎ、にんにく、バター。「モテ飯。豚肉の白ワイン煮込み」のレシピです。"
-  },
-  {
-    "title": "マグロほほ肉作ってもろた #Shorts #マグロ #レシピ",
-    "platform": "youtube",
-    "externalId": "eMyJV1HSdVc",
-    "videoUrl": "https://www.youtube.com/watch?v=eMyJV1HSdVc",
-    "videoId": "eMyJV1HSdVc",
-    "url": "https://www.youtube.com/watch?v=eMyJV1HSdVc",
-    "thumbnailUrl": "https://i.ytimg.com/vi/eMyJV1HSdVc/maxresdefault.jpg",
-    "creator": "えりだん【えりこの旦那】",
-    "style": "YouTube Data API収集",
-    "taste": "light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "魚介"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": false,
-    "heat": true,
-    "detailedIngredients": [
-      "tuna_sashimi"
-    ],
-    "rawIngredients": "マグロ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "えりだん【えりこの旦那】の実在動画。食材候補: マグロ。「マグロほほ肉作ってもろた #Shorts #マグロ #レシピ」のレシピです。"
-  },
-  {
-    "title": "【焼くだけ】安い鶏むねが柔らかジューシーなおかずに！『鶏むねのジューシー焼き！』",
-    "platform": "youtube",
-    "externalId": "HNBXBCs9HmU",
-    "videoUrl": "https://www.youtube.com/watch?v=HNBXBCs9HmU",
-    "videoId": "HNBXBCs9HmU",
-    "url": "https://www.youtube.com/watch?v=HNBXBCs9HmU",
-    "thumbnailUrl": "https://i.ytimg.com/vi/HNBXBCs9HmU/maxresdefault.jpg",
-    "creator": "おうち料理チャンネル",
-    "style": "YouTube Data API収集",
-    "taste": "semi-rich",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "鶏肉",
-      "根菜",
-      "米"
-    ],
-    "oil": 3,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "chicken",
-      "ginger",
-      "flour"
-    ],
-    "rawIngredients": "鶏肉、ショウガ、小麦粉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "おうち料理チャンネルの実在動画。食材候補: 鶏肉、ショウガ、小麦粉。「【焼くだけ】安い鶏むねが柔らかジューシーなおかずに！『鶏むねのジューシー焼き！』」のレシピです。"
-  },
-  {
-    "title": "家族みんな大好き！タレが決め手のピーマンの肉詰め🫑",
-    "platform": "youtube",
-    "externalId": "aMV52zJ3ono",
-    "videoUrl": "https://www.youtube.com/watch?v=aMV52zJ3ono",
-    "videoId": "aMV52zJ3ono",
-    "url": "https://www.youtube.com/watch?v=aMV52zJ3ono",
-    "thumbnailUrl": "https://i.ytimg.com/vi/aMV52zJ3ono/maxresdefault.jpg",
-    "creator": "なぎさんの台所",
-    "style": "YouTube Data API収集",
-    "taste": "semi-light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類",
-      "葉物野菜",
-      "根菜"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "minced_meat",
-      "green_onion",
-      "bell_pepper",
-      "onion"
-    ],
-    "rawIngredients": "挽肉、ネギ、ピーマン、玉ねぎ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "なぎさんの台所の実在動画。食材候補: 挽肉、ネギ、ピーマン、玉ねぎ。「家族みんな大好き！タレが決め手のピーマンの肉詰め🫑」のレシピです。"
-  },
-  {
-    "title": "再現！神ソース",
-    "platform": "youtube",
-    "externalId": "ffw82I4n1tM",
-    "videoUrl": "https://www.youtube.com/watch?v=ffw82I4n1tM",
-    "videoId": "ffw82I4n1tM",
-    "url": "https://www.youtube.com/watch?v=ffw82I4n1tM",
-    "thumbnailUrl": "https://i.ytimg.com/vi/ffw82I4n1tM/maxresdefault.jpg",
-    "creator": "Noa│家族ごはん",
-    "style": "YouTube Data API収集",
-    "taste": "light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "葉物野菜",
-      "根菜"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "green_onion",
-      "onion",
-      "garlic"
-    ],
-    "rawIngredients": "ネギ、玉ねぎ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "Noa│家族ごはんの実在動画。食材候補: ネギ、玉ねぎ、にんにく。「再現！神ソース」のレシピです。"
-  },
-  {
-    "title": "【茹で放置】するだけで秒でなくなる旨さ‼︎茹で豚。これハマる",
-    "platform": "youtube",
-    "externalId": "NhUvY4fXLtg",
-    "videoUrl": "https://www.youtube.com/watch?v=NhUvY4fXLtg",
-    "videoId": "NhUvY4fXLtg",
-    "url": "https://www.youtube.com/watch?v=NhUvY4fXLtg",
-    "thumbnailUrl": "https://i.ytimg.com/vi/NhUvY4fXLtg/maxresdefault.jpg",
-    "creator": "ポテヒロの楽メシ",
-    "style": "YouTube Data API収集",
-    "taste": "light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類",
-      "葉物野菜",
-      "根菜"
-    ],
-    "oil": 1,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "pork",
-      "green_onion",
-      "ginger",
-      "garlic"
-    ],
-    "rawIngredients": "豚肉、ネギ、ショウガ、にんにく",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ポテヒロの楽メシの実在動画。食材候補: 豚肉、ネギ、ショウガ、にんにく。「【茹で放置】するだけで秒でなくなる旨さ‼︎茹で豚。これハマる」のレシピです。"
-  },
-  {
-    "title": "ワンパンで作れる！うま塩鶏むね大葉🤤",
-    "platform": "youtube",
-    "externalId": "bluVGa8ChYM",
-    "videoUrl": "https://www.youtube.com/watch?v=bluVGa8ChYM",
-    "videoId": "bluVGa8ChYM",
-    "url": "https://www.youtube.com/watch?v=bluVGa8ChYM",
-    "thumbnailUrl": "https://i.ytimg.com/vi/bluVGa8ChYM/maxresdefault.jpg",
-    "creator": "しらっちのウマ痩せレシピ🍳",
-    "style": "YouTube Data API収集",
-    "taste": "semi-rich",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "鶏肉"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "chicken"
-    ],
-    "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "しらっちのウマ痩せレシピ🍳の実在動画。食材候補: 鶏肉。「ワンパンで作れる！うま塩鶏むね大葉🤤」のレシピです。"
-  },
-  {
-    "title": "簡単すぎる肉詰めピーマン！適量OK！#ピーマンレシピ #簡単レシピ #料理動画",
-    "platform": "youtube",
-    "externalId": "pnrFUbzRQw4",
-    "videoUrl": "https://www.youtube.com/watch?v=pnrFUbzRQw4",
-    "videoId": "pnrFUbzRQw4",
-    "url": "https://www.youtube.com/watch?v=pnrFUbzRQw4",
-    "thumbnailUrl": "https://i.ytimg.com/vi/pnrFUbzRQw4/maxresdefault.jpg",
-    "creator": "元気ママキッチン",
-    "style": "YouTube Data API収集",
-    "taste": "rich",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "肉類",
-      "葉物野菜",
-      "チーズ・バター・マヨ系"
-    ],
-    "oil": 4,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": false,
-    "heat": true,
-    "detailedIngredients": [
-      "minced_meat",
-      "bell_pepper",
-      "cheese"
-    ],
-    "rawIngredients": "挽肉、ピーマン、チーズ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "元気ママキッチンの実在動画。食材候補: 挽肉、ピーマン、チーズ。「簡単すぎる肉詰めピーマン！適量OK！#ピーマンレシピ #簡単レシピ #料理動画」のレシピです。"
-  },
-  {
-    "title": "さっぱりヘルシー✨鶏むね肉の甘酢おろしレシピ #鶏むね肉レシピ #甘酢おろしチキン #chickenrecipe #shorts",
-    "platform": "youtube",
-    "externalId": "ROZG57gppS8",
-    "videoUrl": "https://www.youtube.com/watch?v=ROZG57gppS8",
-    "videoId": "ROZG57gppS8",
-    "url": "https://www.youtube.com/watch?v=ROZG57gppS8",
-    "thumbnailUrl": "https://i.ytimg.com/vi/ROZG57gppS8/maxresdefault.jpg",
-    "creator": "ちぇる ダイエット食堂",
-    "style": "YouTube Data API収集",
-    "taste": "semi-light",
-    "time": "normal",
-    "temperature": "warm",
-    "ingredients": [
-      "鶏肉"
-    ],
-    "oil": 2,
-    "effort": 3,
-    "dishes": 2,
-    "steps": 4,
-    "knife": true,
-    "heat": true,
-    "detailedIngredients": [
-      "chicken"
-    ],
-    "rawIngredients": "鶏肉",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "ちぇる ダイエット食堂の実在動画。食材候補: 鶏肉。「さっぱりヘルシー✨鶏むね肉の甘酢おろしレシピ #鶏むね肉レシピ #甘酢おろしチキン #chickenrecipe #shorts」のレシピです。"
+    "description": "【料理研究家 水野あき】3児のママの時短レシピの実在動画。鶏肉、にんにくを使う「【簡単レシピ】子供も食べられる！ヤンニョムチキン #shorts」のレシピです。"
   }
 ];
