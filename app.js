@@ -489,6 +489,12 @@ function scoreRecipe(recipe, conditions) {
   };
 }
 
+function matchesHardOptions(recipe, conditions) {
+  if (conditions.noKnife && recipe.knife) return false;
+  if (conditions.noHeat && recipe.heat) return false;
+  return true;
+}
+
 function getSelectedIngredientProfile(selectedIds) {
   const categoryIds = new Set();
   const tagIds = new Set();
@@ -887,11 +893,12 @@ function renderCards(scoredRecipes) {
 
 function updateRecommendations() {
   const conditions = readConditions();
+  const candidateRecipes = recipes.filter((recipe) => matchesHardOptions(recipe, conditions));
   const recommendedRecipes = hasActiveConditions(conditions)
-    ? recipes
+    ? candidateRecipes
         .map((recipe) => scoreRecipe(recipe, conditions))
         .sort((a, b) => b.score - a.score)
-    : getRandomRecommendations(recipes);
+    : getRandomRecommendations(candidateRecipes);
 
   renderSelectedIngredients(conditions);
   renderSummary(conditions);

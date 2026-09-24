@@ -291,6 +291,9 @@ def load_records(path: Path) -> list[dict]:
         return list(csv.DictReader(csv_file))
 
 
+EXCLUDED_REVIEW_STATUSES = {"exclude", "excluded", "non_recipe"}
+
+
 def load_master_facts(path: Path | None) -> dict[str, dict[str, str]]:
     if not path or not path.exists():
         return {}
@@ -300,11 +303,19 @@ def load_master_facts(path: Path | None) -> dict[str, dict[str, str]]:
 
     facts = {}
     for row in rows:
-        if clean(row.get("review_status")) != "confirmed":
-            continue
         video_id = clean(row.get("video_id"))
+        review_status = clean(row.get("review_status"))
+        if video_id and review_status in EXCLUDED_REVIEW_STATUSES:
+            facts[video_id] = row
+            continue
+        if review_status != "confirmed":
+            continue
         exact_ingredients = parse_tags(row.get("exact_ingredients"))
-        if video_id and exact_ingredients:
+        has_condition_override = any(
+            clean(row.get(key))
+            for key in ("time", "temperature", "uses_knife", "uses_heat", "oil", "effort", "visual_knife")
+        )
+        if video_id and (exact_ingredients or has_condition_override):
             facts[video_id] = row
     return facts
 
@@ -344,12 +355,16 @@ def build_rows(
             continue
 
         override = master_facts.get(video_id)
+        if override and clean(override.get("review_status")) in EXCLUDED_REVIEW_STATUSES:
+            continue
         tags = extract_tags(title, description)
         fact_status = "estimated"
         fact_source = "youtube_api_inferred"
         if override:
-            tags = parse_tags(override.get("exact_ingredients"))
-            fact_status = "confirmed"
+            override_tags = parse_tags(override.get("exact_ingredients"))
+            if override_tags:
+                tags = override_tags
+                fact_status = "confirmed"
             fact_source = choose_value(override, "source", "manual")
         if not tags:
             continue
@@ -361,7 +376,7 @@ def build_rows(
         oil = int(float(choose_value(override, "oil", str(infer_oil(title, tags)))))
         effort = int(float(choose_value(override, "effort", str(infer_effort(title, tags)))))
         dishes = infer_dishes(title, effort)
-        knife = choose_bool(override, "uses_knife", infer_knife(tags))
+        knife = choose_bool(override, "visual_knife", choose_bool(override, "uses_knife", infer_knife(tags)))
         heat = choose_bool(override, "uses_heat", infer_heat(title, temperature))
 
         rows.append(

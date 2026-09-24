@@ -124,8 +124,11 @@ python3 scripts/check_recipe_quality.py data/1000件料理レシピ.csv --fail-o
 - `video_id`: YouTube動画ID
 - `exact_ingredients`: 正しい食材タグ。カンマ区切り
 - `time`, `temperature`, `uses_knife`, `uses_heat`: 確認済みの調理条件
+- `visual_knife`: 動画内に包丁が写り込むなど、映像確認で包丁ありにする場合は `true`
 - `reviewer`, `reviewed_at`, `review_status`: 確認者、確認日、確認状態
 - `source`, `notes`: 根拠とメモ
+
+`visual_knife=true` は食材からの推定より優先します。`包丁を使わない` 条件を選んだ場合、`knife=true` のレシピは推薦候補から外します。
 
 100件を層化抽出して人手確認する場合は、次を実行します。
 

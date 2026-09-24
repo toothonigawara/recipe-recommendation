@@ -50,6 +50,39 @@ P0_TITLE_TAG_CONFLICTS = [
     },
 ]
 
+NON_RECIPE_TITLE_PATTERNS = [
+    {
+        "required": ("下準備",),
+        "hints": ("裏技", "暮らしの知恵", "大損", "秘密"),
+        "message": "title looks like a prep-tip video rather than a complete recipe",
+    },
+    {
+        "required": ("2ch有益スレ",),
+        "hints": (),
+        "message": "title looks like a discussion-summary video rather than a recipe",
+    },
+    {
+        "required": ("保存術",),
+        "hints": (),
+        "message": "title looks like a storage-tip video rather than a recipe",
+    },
+    {
+        "required": ("家事ハック",),
+        "hints": (),
+        "message": "title looks like a life-hack video rather than a recipe",
+    },
+    {
+        "required": ("暮らしの知恵",),
+        "hints": (),
+        "message": "title looks like a life-tip video rather than a recipe",
+    },
+    {
+        "required": ("知らないと損",),
+        "hints": ("裏技", "焼き方"),
+        "message": "title looks like a tip or technique video rather than a complete recipe",
+    },
+]
+
 
 def read_rows(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8-sig") as csv_file:
@@ -125,6 +158,18 @@ def check_p0_title_tag_conflicts(rows: list[dict[str, str]]) -> list[str]:
     return warnings
 
 
+def check_non_recipe_titles(rows: list[dict[str, str]]) -> list[str]:
+    warnings = []
+    for index, row in enumerate(rows, 2):
+        title = row.get("メニュー") or ""
+        for rule in NON_RECIPE_TITLE_PATTERNS:
+            has_required_words = all(word in title for word in rule["required"])
+            has_hint_words = not rule["hints"] or any(word in title for word in rule["hints"])
+            if has_required_words and has_hint_words:
+                warnings.append(f"P0 L{index} {title}: {rule['message']}")
+    return warnings
+
+
 def check_distribution(rows: list[dict[str, str]]) -> list[str]:
     warnings = []
     category_counts = Counter()
@@ -149,6 +194,7 @@ def run_checks(path: Path) -> list[str]:
         warnings.extend(check_duplicates(rows))
         warnings.extend(check_empty_fields(rows))
         warnings.extend(check_p0_title_tag_conflicts(rows))
+        warnings.extend(check_non_recipe_titles(rows))
         warnings.extend(check_suspicious_tags(rows))
         warnings.extend(check_distribution(rows))
     return warnings
