@@ -919,6 +919,18 @@ body.dialog-open {
   gap: 20px;
 }
 
+.empty-state {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 18px;
+  border: 2px solid rgba(122, 77, 53, 0.16);
+  border-radius: 16px;
+  background: #fff8df;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.7;
+}
+
 .recipe-card {
   display: grid;
   grid-template-rows: auto 1fr;

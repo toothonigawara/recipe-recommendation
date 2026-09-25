@@ -85,7 +85,7 @@ LABELS = {
 TAG_KEYWORDS = [
     ("beef", ["牛肉", "牛こま", "牛バラ", "ビーフ", "ローストビーフ"]),
     ("pork", ["豚肉", "豚バラ", "豚こま", "豚ロース", "ポーク"]),
-    ("chicken", ["鶏肉", "鶏もも", "鶏むね", "ささみ", "チキン", "手羽"]),
+    ("chicken", ["鶏肉", "鶏もも", "鶏むね", "ささみ", "チキン", "手羽", "焼き鳥", "やきとり"]),
     ("minced_meat", ["ひき肉", "挽肉", "挽き肉", "ミンチ", "餃子"]),
     ("ham", ["ハム"]),
     ("bacon", ["ベーコン"]),
@@ -176,6 +176,8 @@ def extract_tags(*texts: str) -> list[str]:
         for tag in tags
         if not any(pattern in joined for pattern in NEGATED_TAG_PATTERNS.get(tag, ()))
     ]
+    if "rice" in tags and "pasta" in tags and re.search(r"パスタに|パスタへ|パスタ化|パスタアレンジ|パスタにアレンジ", joined):
+        tags = [tag for tag in tags if tag != "rice"]
     return list(dict.fromkeys(tags))
 
 

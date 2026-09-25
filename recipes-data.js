@@ -14105,8 +14105,8 @@ const recipes = [
     "time": "easy",
     "temperature": "warm",
     "ingredients": [
+      "鶏肉",
       "卵",
-      "米",
       "麺"
     ],
     "oil": 3,
@@ -14116,14 +14116,14 @@ const recipes = [
     "knife": false,
     "heat": true,
     "detailedIngredients": [
+      "chicken",
       "egg",
-      "rice",
       "pasta"
     ],
-    "rawIngredients": "卵、ご飯・米、パスタ",
-    "ingredientStatus": "estimated",
-    "ingredientSource": "youtube_api_inferred",
-    "description": "George ジョージ吉田の実在動画。食材候補: 卵、ご飯・米、パスタ。「親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】」のレシピです。"
+    "rawIngredients": "鶏肉、卵、パスタ",
+    "ingredientStatus": "confirmed",
+    "ingredientSource": "title/manual",
+    "description": "George ジョージ吉田の実在動画。鶏肉、卵、パスタを使う「親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】」のレシピです。"
   },
   {
     "title": "これ、ガチで本家よりうめえかもしれません。一度食べたら忘れられない【至高のすたみな丼】",
@@ -21959,21 +21959,23 @@ const recipes = [
     "time": "normal",
     "temperature": "warm",
     "ingredients": [
+      "鶏肉",
       "麺"
     ],
     "oil": 3,
     "effort": 3,
     "dishes": 2,
     "steps": 4,
-    "knife": false,
+    "knife": true,
     "heat": true,
     "detailedIngredients": [
+      "chicken",
       "pasta"
     ],
-    "rawIngredients": "パスタ",
+    "rawIngredients": "鶏肉、パスタ",
     "ingredientStatus": "estimated",
     "ingredientSource": "youtube_api_inferred",
-    "description": "ひみつ基地。の実在動画。食材候補: パスタ。「世界最小のパスタ！チュニジア料理をW杯戦の前に喰らい尽くす！【ワールドカップ】」のレシピです。"
+    "description": "ひみつ基地。の実在動画。食材候補: 鶏肉、パスタ。「世界最小のパスタ！チュニジア料理をW杯戦の前に喰らい尽くす！【ワールドカップ】」のレシピです。"
   },
   {
     "title": "【ひき肉のパスタ】どうしても紹介したい美味しいパスタです！ #パスタ #レシピ #shorts",

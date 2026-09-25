@@ -16,6 +16,21 @@ const labels = {
     warm: "温かい",
     cold: "冷たい"
   },
+  dishType: {
+    rice: "ご飯系",
+    bread: "パン系",
+    noodle: "麺系",
+    side: "おかず系",
+    soup: "汁物系"
+  },
+  mainIngredient: {
+    meat: "肉",
+    fish: "魚",
+    egg: "卵",
+    soy: "豆腐・大豆",
+    vegetable: "野菜中心",
+    other: "その他"
+  },
   ingredients: {
     leafyVegetable: "葉物野菜",
     vegetableAll: "野菜",
@@ -289,7 +304,8 @@ const defaultConditions = {
   taste: "",
   time: "",
   temperature: "",
-  ingredients: [],
+  dishType: "",
+  mainIngredient: "",
   noKnife: false,
   noHeat: false
 };
@@ -306,6 +322,20 @@ const ingredientChoiceIdsByGroup = {
   richDairy: ["cheese", "butter"]
 };
 
+const dishTypeTagGroups = {
+  rice: ["rice"],
+  bread: ["bread"],
+  noodle: ["udon", "soba", "noodles", "somen", "ramen", "yakisoba_noodles", "rice_noodles", "pasta", "harusame"]
+};
+
+const mainIngredientTagGroups = {
+  meat: ["beef", "pork", "chicken", "minced_meat", "ham", "bacon"],
+  fish: ["aji", "squid", "sardine", "shrimp", "shellfish", "oyster", "crab", "salmon", "mackerel", "saury", "shirasu", "whitefish", "octopus", "yellowtail", "scallop", "tuna_sashimi", "canned_tuna", "mentaiko", "fried_fishcake", "chikuwa"],
+  egg: ["egg"],
+  soy: ["tofu", "atsuage", "aburaage", "soybean", "natto", "okara"],
+  vegetable: ["cabbage", "asparagus", "cucumber", "bitter_melon", "green_bean", "shishito", "komatsuna", "chrysanthemum", "celery", "bamboo_shoot", "bok_choy", "winter_melon", "tomato", "eggplant", "napa_cabbage", "nira", "green_onion", "bell_pepper", "broccoli", "spinach", "bean_sprouts", "lettuce", "turnip", "pumpkin", "burdock", "sweet_potato", "taro", "potato", "daikon", "onion", "nagaimo", "carrot", "corn", "lotus_root", "enoki", "shimeji", "shiitake", "dried_shiitake", "wakame", "kiriboshi_daikon", "kombu", "hijiki", "seaweed_salad", "mozuku", "jellyfish"]
+};
+
 function readConditions() {
   if (!form) return readConditionsFromUrl();
 
@@ -314,7 +344,8 @@ function readConditions() {
     taste: formData.get("taste") || "",
     time: formData.get("time") || "",
     temperature: formData.get("temperature") || "",
-    ingredients: formData.getAll("ingredients"),
+    dishType: normalizeOptionalChoice(formData.get("dishType")),
+    mainIngredient: normalizeOptionalChoice(formData.get("mainIngredient")),
     noKnife: formData.has("noKnife"),
     noHeat: formData.has("noHeat")
   };
@@ -326,10 +357,15 @@ function readConditionsFromUrl() {
     taste: params.get("taste") || "",
     time: params.get("time") || "",
     temperature: params.get("temperature") || "",
-    ingredients: params.getAll("ingredients"),
+    dishType: normalizeOptionalChoice(params.get("dishType")),
+    mainIngredient: normalizeOptionalChoice(params.get("mainIngredient")),
     noKnife: params.get("noKnife") === "1",
     noHeat: params.get("noHeat") === "1"
   };
+}
+
+function normalizeOptionalChoice(value) {
+  return value && value !== "any" ? value : "";
 }
 
 function isReloadNavigation() {
@@ -354,7 +390,8 @@ function buildConditionsQuery(conditions) {
   if (conditions.taste) params.set("taste", conditions.taste);
   if (conditions.time) params.set("time", conditions.time);
   if (conditions.temperature) params.set("temperature", conditions.temperature);
-  conditions.ingredients.forEach((item) => params.append("ingredients", item));
+  if (conditions.dishType) params.set("dishType", conditions.dishType);
+  if (conditions.mainIngredient) params.set("mainIngredient", conditions.mainIngredient);
   if (conditions.noKnife) params.set("noKnife", "1");
   if (conditions.noHeat) params.set("noHeat", "1");
   return params.toString();
@@ -368,17 +405,12 @@ function buildPageUrl(page, conditions) {
 function applyConditionsToForm(conditions) {
   if (!form) return;
 
-  ["taste", "time", "temperature"].forEach((name) => {
+  ["taste", "time", "temperature", "dishType", "mainIngredient"].forEach((name) => {
     form.querySelectorAll(`input[name="${name}"]`).forEach((input) => {
       input.checked = false;
     });
     const input = form.querySelector(`input[name="${name}"][value="${conditions[name]}"]`);
     if (input) input.checked = true;
-  });
-
-  form.querySelectorAll('input[name="ingredients"]').forEach((input) => {
-    input.checked = conditions.ingredients.includes(input.value);
-    input.indeterminate = false;
   });
 
   const noKnife = form.querySelector('input[name="noKnife"]');
@@ -396,9 +428,10 @@ function hasActiveConditions(conditions) {
     conditions.taste ||
     conditions.time ||
     conditions.temperature ||
+    conditions.dishType ||
+    conditions.mainIngredient ||
     conditions.noKnife ||
-    conditions.noHeat ||
-    conditions.ingredients.length > 0
+    conditions.noHeat
   );
 }
 
@@ -441,22 +474,24 @@ function scoreRecipe(recipe, conditions) {
     reasons.push(`${labels.temperature[conditions.temperature]}料理として作りやすい`);
   }
 
-  const recipeIngredientProfile = getIngredientTasteProfile(recipe);
-  const recipeIngredientCategoryIds = recipeIngredientProfile.categoryIds;
-  const recipeIngredientTags = recipe.detailedIngredients || [];
-  const selectedIngredientProfile = getSelectedIngredientProfile(conditions.ingredients);
-  const matchedIngredientTags = selectedIngredientProfile.tagIds.filter((item) => recipeIngredientTags.includes(item));
-  const matchedIngredientCategories = selectedIngredientProfile.categoryIds.filter((item) => recipeIngredientCategoryIds.includes(item));
-  if (matchedIngredientTags.length > 0) {
-    score += Math.min(22, matchedIngredientTags.length * 12);
-    reasons.push(`使用食材: ${matchedIngredientTags.map((item) => labels.ingredients[item] || item).join("・")}`);
-  } else if (matchedIngredientCategories.length > 0) {
-    score += Math.min(20, matchedIngredientCategories.length * 10);
-    reasons.push(`使用カテゴリ: ${matchedIngredientCategories.map((item) => labels.ingredients[item] || item).join("・")}`);
-  } else if (conditions.ingredients.length === 0) {
-    score += 4;
-  } else {
-    score -= 8;
+  if (conditions.dishType) {
+    const dishType = getDishType(recipe);
+    if (dishType === conditions.dishType) {
+      score += 22;
+      reasons.push(`料理タイプが「${labels.dishType[conditions.dishType]}」に合う`);
+    } else {
+      score -= 8;
+    }
+  }
+
+  if (conditions.mainIngredient) {
+    const mainIngredient = getMainIngredientType(recipe);
+    if (mainIngredient === conditions.mainIngredient) {
+      score += 22;
+      reasons.push(`中心食材が「${labels.mainIngredient[conditions.mainIngredient]}」に合う`);
+    } else {
+      score -= 8;
+    }
   }
 
   const loadBonus = Math.max(0, 14 - recipe.effort * 3 - recipe.dishes * 2);
@@ -491,9 +526,48 @@ function scoreRecipe(recipe, conditions) {
 }
 
 function matchesHardOptions(recipe, conditions) {
+  if (conditions.dishType && getDishType(recipe) !== conditions.dishType) return false;
+  if (conditions.mainIngredient && getMainIngredientType(recipe) !== conditions.mainIngredient) return false;
   if (conditions.noKnife && recipe.knife) return false;
   if (conditions.noHeat && recipe.heat) return false;
   return true;
+}
+
+function recipeHasAnyTag(recipe, tags) {
+  const recipeTags = new Set(recipe.detailedIngredients || []);
+  return tags.some((tag) => recipeTags.has(tag));
+}
+
+function getDishType(recipe) {
+  const text = `${recipe.title || ""} ${recipe.description || ""}`;
+  const breadText = text.replace(/フライパン|パン粉/g, "");
+
+  if (recipeHasAnyTag(recipe, dishTypeTagGroups.bread) || /食パン|パン(?!粉|チ)|トースト|サンド|バーガー|ピザ|ホットドッグ/.test(breadText)) {
+    return "bread";
+  }
+
+  if (recipeHasAnyTag(recipe, dishTypeTagGroups.noodle) || /麺|うどん|そば|蕎麦|パスタ|ラーメン|そうめん|素麺|焼きそば|ビーフン|フォー|春雨/.test(text)) {
+    return "noodle";
+  }
+
+  if (recipeHasAnyTag(recipe, dishTypeTagGroups.rice) || /混ぜご飯|炊き込みご飯|ご飯もの|ごはんもの|丼|どんぶり|チャーハン|炒飯|おにぎり|雑炊|リゾット|オムライス|カレーライス/.test(text)) {
+    return "rice";
+  }
+
+  if (/汁|スープ|味噌汁|みそ汁|吸い物|鍋|シチュー|ポタージュ|豚汁|おでん/.test(text)) {
+    return "soup";
+  }
+
+  return "side";
+}
+
+function getMainIngredientType(recipe) {
+  if (recipeHasAnyTag(recipe, mainIngredientTagGroups.meat)) return "meat";
+  if (recipeHasAnyTag(recipe, mainIngredientTagGroups.fish)) return "fish";
+  if (recipeHasAnyTag(recipe, mainIngredientTagGroups.egg)) return "egg";
+  if (recipeHasAnyTag(recipe, mainIngredientTagGroups.soy)) return "soy";
+  if (recipeHasAnyTag(recipe, mainIngredientTagGroups.vegetable)) return "vegetable";
+  return "other";
 }
 
 function getSelectedIngredientProfile(selectedIds) {
@@ -748,12 +822,12 @@ function renderSelectedIngredients(conditions) {
 function renderSummary(conditions) {
   if (!summaryStrip) return;
 
-  const visibleIngredients = getVisibleSelectedIngredients(conditions.ingredients);
   const tags = [
     conditions.taste ? labels.taste[conditions.taste] : "",
     conditions.time ? labels.time[conditions.time] : "",
     conditions.temperature ? labels.temperature[conditions.temperature] : "",
-    ...visibleIngredients.map((item) => labels.ingredients[item] || item)
+    conditions.dishType ? labels.dishType[conditions.dishType] : "",
+    conditions.mainIngredient ? labels.mainIngredient[conditions.mainIngredient] : ""
   ].filter(Boolean);
 
   if (conditions.noKnife) tags.push("包丁なし");
@@ -833,6 +907,14 @@ function renderCards(scoredRecipes) {
 
   recommendations.innerHTML = "";
 
+  if (scoredRecipes.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "empty-state";
+    empty.textContent = "条件に合う動画が見つかりませんでした。条件を少しゆるめて検索してください。";
+    recommendations.appendChild(empty);
+    return;
+  }
+
   scoredRecipes.slice(0, 3).forEach((recipe, index) => {
     const card = template.content.cloneNode(true);
     const article = card.querySelector(".recipe-card");
@@ -884,7 +966,7 @@ function renderCards(scoredRecipes) {
     const reasonText = recipe.reasons.length > 0
       ? recipe.reasons.join("。") + "。"
       : "条件に合いやすい候補です。";
-    reasonBox.textContent = `${reasonText} 食材カテゴリ: ${getIngredientTasteProfile(recipe).categories.join("・")}`;
+    reasonBox.textContent = `${reasonText} 料理タイプ: ${labels.dishType[getDishType(recipe)]} / 中心食材: ${labels.mainIngredient[getMainIngredientType(recipe)]}`;
 
     youtubeLink.href = videoUrl;
     youtubeLink.textContent = getVideoPlatform(recipe) === "youtube" ? "YouTubeで開く" : "動画を開く";

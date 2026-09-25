@@ -48,6 +48,11 @@ P0_TITLE_TAG_CONFLICTS = [
         "forbidden_tags": {"whitefish"},
         "message": "oyakodon should not include whitefish unless manually confirmed",
     },
+    {
+        "title_includes": ("パスタに",),
+        "forbidden_tags": {"rice"},
+        "message": "pasta-conversion title should not keep rice tag",
+    },
 ]
 
 NON_RECIPE_TITLE_PATTERNS = [
