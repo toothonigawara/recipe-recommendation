@@ -336,6 +336,8 @@ const mainIngredientTagGroups = {
   vegetable: ["cabbage", "asparagus", "cucumber", "bitter_melon", "green_bean", "shishito", "komatsuna", "chrysanthemum", "celery", "bamboo_shoot", "bok_choy", "winter_melon", "tomato", "eggplant", "napa_cabbage", "nira", "green_onion", "bell_pepper", "broccoli", "spinach", "bean_sprouts", "lettuce", "turnip", "pumpkin", "burdock", "sweet_potato", "taro", "potato", "daikon", "onion", "nagaimo", "carrot", "corn", "lotus_root", "enoki", "shimeji", "shiitake", "dried_shiitake", "wakame", "kiriboshi_daikon", "kombu", "hijiki", "seaweed_salad", "mozuku", "jellyfish"]
 };
 
+const requiredConditionGroups = ["taste", "time", "temperature", "dishType", "mainIngredient"];
+
 function readConditions() {
   if (!form) return readConditionsFromUrl();
 
@@ -421,6 +423,56 @@ function applyConditionsToForm(conditions) {
 
 function goToResults() {
   window.location.href = buildPageUrl("results.html", readConditions());
+}
+
+function getConditionFieldset(name) {
+  const input = form ? form.querySelector(`input[name="${name}"]`) : null;
+  return input ? input.closest("fieldset") : null;
+}
+
+function getMissingRequiredGroups() {
+  if (!form) return [];
+  return requiredConditionGroups.filter((name) => !form.querySelector(`input[name="${name}"]:checked`));
+}
+
+function setRequiredGroupState(name, isMissing) {
+  const fieldset = getConditionFieldset(name);
+  if (!fieldset) return;
+
+  const segmented = fieldset.querySelector(".segmented");
+  fieldset.classList.toggle("is-required-missing", isMissing);
+  if (segmented) segmented.setAttribute("aria-invalid", isMissing ? "true" : "false");
+
+  let message = fieldset.querySelector(".required-message");
+  if (isMissing && !message) {
+    message = document.createElement("p");
+    message.className = "required-message";
+    message.textContent = "選択してください";
+    fieldset.appendChild(message);
+  } else if (!isMissing && message) {
+    message.remove();
+  }
+}
+
+function updateRequiredWarnings() {
+  const missingGroups = new Set(getMissingRequiredGroups());
+  requiredConditionGroups.forEach((name) => {
+    setRequiredGroupState(name, missingGroups.has(name));
+  });
+  return missingGroups;
+}
+
+function attemptGoToResults() {
+  const missingGroups = updateRequiredWarnings();
+  if (missingGroups.size > 0) {
+    const firstMissingFieldset = getConditionFieldset(Array.from(missingGroups)[0]);
+    if (firstMissingFieldset) {
+      firstMissingFieldset.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    return;
+  }
+
+  goToResults();
 }
 
 function hasActiveConditions(conditions) {
@@ -998,17 +1050,22 @@ if (form) {
     applyConditionsToForm(readConditionsFromUrl());
     updateRecommendations();
   });
-  form.addEventListener("change", updateRecommendations);
+  form.addEventListener("change", (event) => {
+    if (requiredConditionGroups.includes(event.target.name)) {
+      setRequiredGroupState(event.target.name, false);
+    }
+    updateRecommendations();
+  });
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    goToResults();
+    attemptGoToResults();
   });
 }
 
 if (searchButton) {
   searchButton.addEventListener("click", (event) => {
     event.preventDefault();
-    goToResults();
+    attemptGoToResults();
   });
 }
 

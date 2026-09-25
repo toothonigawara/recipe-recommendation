@@ -281,6 +281,13 @@ legend {
   color: var(--tomato);
 }
 
+.required-message {
+  margin: 8px 0 0;
+  color: #c9271e;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
 .segmented {
   display: grid;
   gap: 8px;
