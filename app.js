@@ -283,6 +283,7 @@ const videoFrameWrap = document.querySelector("#videoFrameWrap");
 const searchButton = document.querySelector("#searchButton");
 const changeConditionsLink = document.querySelector("#changeConditionsLink");
 const brandHomeLink = document.querySelector("#brandHomeLink");
+const floatingBackButton = document.querySelector("#floatingBackButton");
 
 const defaultConditions = {
   taste: "",
@@ -926,6 +927,17 @@ if (searchButton) {
   searchButton.addEventListener("click", (event) => {
     event.preventDefault();
     goToResults();
+  });
+}
+
+if (floatingBackButton) {
+  floatingBackButton.addEventListener("click", () => {
+    if (window.history.length > 1) {
+      window.history.back();
+      return;
+    }
+
+    window.location.href = "index.html";
   });
 }
 
