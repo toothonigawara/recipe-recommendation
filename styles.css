@@ -249,7 +249,7 @@ h1 {
 .survey-notice,
 .survey-feedback-panel {
   max-width: 1420px;
-  margin: clamp(-150px, -16vh, -104px) auto 24px;
+  margin: clamp(-260px, -30vh, -190px) auto 24px;
   padding: clamp(18px, 3vw, 28px);
   border: 2px solid rgba(10, 169, 130, 0.34);
   border-radius: 16px;
