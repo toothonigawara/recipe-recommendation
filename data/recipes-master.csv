@@ -12,3 +12,4 @@ BwX7JO5v6g8,知らないと損する【ステーキ肉の焼き方】スーパ�
 1TGzuBboYXE,悪魔のてりたまベーコン丼,https://www.youtube.com/watch?v=1TGzuBboYXE,"bacon,egg,rice",easy,warm,true,true,,4,1,Codex,2026-09-24,confirmed,video/manual,"動画内の包丁写り込み・ベーコン調理を包丁ありとして補正。",true
 TZ3HXRrWMd0,親子丼をパスタにしたら凄すぎる事に気付いた料理人の簡単レシピ【10分で作れる】,https://www.youtube.com/watch?v=TZ3HXRrWMd0,"chicken,egg,pasta",easy,warm,false,true,,3,1,Codex,2026-09-25,confirmed,title/manual,"タイトルと説明文から親子丼の米料理ではなくパスタ料理として補正。riceを除外し、焼き鳥缶由来のchickenを追加。",false
 rHtNwUI6LUg,【一食100円】マジでこれうなぎ屋さんキレんだろ丼#shorts #リュウジ #うなぎ #うな丼 #レシピ #料理 #バズレシピ,https://www.youtube.com/watch?v=rHtNwUI6LUg,"tofu,rice",easy,warm,false,true,,2,1,Codex,2026-09-26,confirmed,title/manual,"説明文冒頭の関連動画名と書籍紹介からshellfish/pastaを誤抽出していたため、今回のレシピ材料に合わせて補正。",false
+h_IcKPmseHs,【ダイエットレシピ】週一以上食べてる爆速健康ワンパンご飯の作り方！【PFCバランス◎/時短/1人ご飯】,https://www.youtube.com/watch?v=h_IcKPmseHs,,,,,,,,,Codex,2026-09-29,excluded,title/manual,"約27分の長尺かつ複数レシピ紹介で、条件に合う単体の短尺レシピ動画として扱わない。",

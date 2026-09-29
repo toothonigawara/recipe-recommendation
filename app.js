@@ -336,6 +336,10 @@ const mainIngredientTagGroups = {
   vegetable: ["cabbage", "asparagus", "cucumber", "bitter_melon", "green_bean", "shishito", "komatsuna", "chrysanthemum", "celery", "bamboo_shoot", "bok_choy", "winter_melon", "tomato", "eggplant", "napa_cabbage", "nira", "green_onion", "bell_pepper", "broccoli", "spinach", "bean_sprouts", "lettuce", "turnip", "pumpkin", "burdock", "sweet_potato", "taro", "potato", "daikon", "onion", "nagaimo", "carrot", "corn", "lotus_root", "enoki", "shimeji", "shiitake", "dried_shiitake", "wakame", "kiriboshi_daikon", "kombu", "hijiki", "seaweed_salad", "mozuku", "jellyfish"]
 };
 
+const excludedRecipeIds = new Set([
+  "h_IcKPmseHs"
+]);
+
 const requiredConditionGroups = ["taste", "time", "temperature", "dishType", "mainIngredient"];
 
 function readConditions() {
@@ -578,6 +582,7 @@ function scoreRecipe(recipe, conditions) {
 }
 
 function matchesHardOptions(recipe, conditions) {
+  if (excludedRecipeIds.has(recipe.videoId)) return false;
   if (conditions.dishType && getDishType(recipe) !== conditions.dishType) return false;
   if (conditions.mainIngredient && getMainIngredientType(recipe) !== conditions.mainIngredient) return false;
   if (conditions.noKnife && recipe.knife) return false;
@@ -592,16 +597,16 @@ function recipeHasAnyTag(recipe, tags) {
 
 function getDishType(recipe) {
   const text = `${recipe.title || ""} ${recipe.description || ""}`;
-  const breadText = text.replace(/フライパン|パン粉/g, "");
+  const breadText = text.replace(/フライパン|ワンパン|パン粉/g, "");
   const hasRice = recipeHasAnyTag(recipe, dishTypeTagGroups.rice);
   const looksLikeRiceBowl = /丼|どんぶり|丼ぶり|重|リゾット|のっけご飯|乗っけご飯|ご飯に.+(?:のせ|乗せ|かけ)|ごはんに.+(?:のせ|乗せ|かけ)/.test(text);
 
-  if (recipeHasAnyTag(recipe, dishTypeTagGroups.bread) || /食パン|パン(?!粉|チ)|トースト|サンド|バーガー|ピザ|ホットドッグ/.test(breadText)) {
-    return "bread";
-  }
-
   if (recipeHasAnyTag(recipe, dishTypeTagGroups.noodle) || /麺|うどん|そば|蕎麦|パスタ|ラーメン|そうめん|素麺|焼きそば|ビーフン|フォー|春雨/.test(text)) {
     return "noodle";
+  }
+
+  if (/食パン|パン(?!粉|チ)|トースト|サンド|バーガー|ピザ|ホットドッグ/.test(breadText)) {
+    return "bread";
   }
 
   if (/汁|スープ|味噌汁|みそ汁|吸い物|鍋|シチュー|ポタージュ|豚汁|おでん/.test(text)) {
