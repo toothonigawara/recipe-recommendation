@@ -1,5 +1,6 @@
 (function () {
   const assignmentMount = document.querySelector("#surveyAssignmentGrid");
+  const searchedConditionsMount = document.querySelector("#surveySearchedConditions");
   const recommendForm = document.querySelector("#recommendForm");
   const formMount = document.querySelector("#surveyFormFrame");
   const rawUrl = window.SURVEY_FORM_EMBED_URL || "";
@@ -58,9 +59,13 @@
   }
 
   function renderAssignment(assignment) {
-    if (!assignmentMount) return;
+    renderConditionGrid(assignmentMount, assignment);
+  }
 
-    assignmentMount.replaceChildren();
+  function renderConditionGrid(mount, assignment) {
+    if (!mount) return;
+
+    mount.replaceChildren();
     Object.entries(assignment).forEach(([name, [, label]]) => {
       const item = document.createElement("div");
       item.className = "survey-assignment-item";
@@ -72,7 +77,7 @@
       value.textContent = label;
 
       item.append(key, value);
-      assignmentMount.appendChild(item);
+      mount.appendChild(item);
     });
   }
 
@@ -92,6 +97,18 @@
     window.addEventListener("pageshow", () => {
       applyAssignment(assignment);
     });
+  }
+
+  if (searchedConditionsMount) {
+    const params = new URLSearchParams(window.location.search);
+    const searchedConditions = Object.fromEntries(
+      Object.entries(assignmentOptions).map(([name, options]) => {
+        const value = params.get(name) || "";
+        const option = options.find(([optionValue]) => optionValue === value);
+        return [name, option || ["", "未選択"]];
+      })
+    );
+    renderConditionGrid(searchedConditionsMount, searchedConditions);
   }
 
   if (!formMount || !rawUrl) return;

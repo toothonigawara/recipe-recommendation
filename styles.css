@@ -284,6 +284,14 @@ h1 {
   background: #fffaf0;
 }
 
+.survey-searched-conditions {
+  margin-top: 18px;
+  padding: 16px;
+  border: 2px solid rgba(10, 169, 130, 0.22);
+  border-radius: 12px;
+  background: #fffaf0;
+}
+
 .survey-assignment-title {
   margin-bottom: 12px;
   color: #7a4d35;
