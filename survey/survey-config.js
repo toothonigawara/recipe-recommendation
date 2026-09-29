@@ -1,0 +1,1 @@
+window.SURVEY_FORM_EMBED_URL = "";

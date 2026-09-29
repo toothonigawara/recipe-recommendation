@@ -246,6 +246,72 @@ h1 {
   padding: clamp(18px, 3vw, 30px);
 }
 
+.survey-notice,
+.survey-feedback-panel {
+  max-width: 1420px;
+  margin: -88px auto 24px;
+  padding: clamp(18px, 3vw, 28px);
+  border: 2px solid rgba(10, 169, 130, 0.34);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.98);
+  position: relative;
+  z-index: 2;
+}
+
+.survey-notice {
+  margin-inline: clamp(16px, 4vw, 48px);
+}
+
+.survey-notice h2,
+.survey-feedback-panel h2 {
+  margin-bottom: 10px;
+  color: #7a4d35;
+}
+
+.survey-notice p:last-child,
+.survey-feedback-copy p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.8;
+}
+
+.survey-shell .workspace {
+  margin-top: 0;
+}
+
+.survey-feedback-panel {
+  margin: 24px 0 0;
+}
+
+.survey-form-frame {
+  min-height: 480px;
+  margin-top: 18px;
+  overflow: hidden;
+  border: 2px solid rgba(122, 77, 53, 0.16);
+  border-radius: 14px;
+  background: #fffaf0;
+}
+
+.survey-form-frame iframe {
+  display: block;
+  width: 100%;
+  min-height: 720px;
+  border: 0;
+}
+
+.survey-form-placeholder {
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+  margin: 0;
+  padding: 24px;
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.8;
+  text-align: center;
+}
+
 .panel-heading,
 .result-header {
   display: flex;
