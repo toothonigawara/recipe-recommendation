@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>調査用 | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="../styles.css?v=survey-spacing-tight-20260929">
+    <link rel="stylesheet" href="../styles.css?v=survey-assignment-20260929">
   </head>
   <body>
     <main class="app-shell survey-shell">
@@ -32,7 +32,11 @@
         <div>
           <p class="section-kicker">Survey</p>
           <h2>試作版へのご協力ありがとうございます</h2>
-          <p>条件を選んで検索し、表示された動画候補を見たあとに結果ページ下部のフォームへ感想を入力してください。</p>
+          <p>サイトにアクセスしてくださりありがとうございます。まずは下記の指定条件で検索してください。指定条件は入力欄に反映されています。2回目以降は自由に検索していただいて構いません。お手数ですが、検索するごとに結果ページ下部のアンケートへご回答をお願いします。</p>
+          <div class="survey-assignment" id="surveyAssignment" aria-label="指定条件">
+            <p class="survey-assignment-title">今回の指定条件</p>
+            <div class="survey-assignment-grid" id="surveyAssignmentGrid"></div>
+          </div>
         </div>
       </section>
 
@@ -162,20 +166,6 @@
               </div>
             </fieldset>
 
-            <fieldset>
-              <legend>オプション</legend>
-              <div class="option-list">
-                <label class="toggle-row">
-                  <span>包丁を使わない</span>
-                  <input type="checkbox" name="noKnife">
-                </label>
-                <label class="toggle-row">
-                  <span>火を使わない</span>
-                  <input type="checkbox" name="noHeat">
-                </label>
-              </div>
-            </fieldset>
-
             <div class="form-actions">
               <button class="primary-action search-action" id="searchButton" type="submit">検索する</button>
             </div>
@@ -186,5 +176,6 @@
 
     <script src="../recipes-data.js?v=egg-option-20260823"></script>
     <script src="../app.js?v=egg-impression-20260928"></script>
+    <script src="survey.js?v=random-assignment-20260929"></script>
   </body>
 </html>

@@ -276,6 +276,48 @@ h1 {
   line-height: 1.8;
 }
 
+.survey-assignment {
+  margin-top: 18px;
+  padding: 16px;
+  border: 2px solid rgba(239, 92, 72, 0.22);
+  border-radius: 12px;
+  background: #fffaf0;
+}
+
+.survey-assignment-title {
+  margin-bottom: 12px;
+  color: #7a4d35;
+  font-weight: 800;
+}
+
+.survey-assignment-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.survey-assignment-item {
+  display: grid;
+  gap: 6px;
+  min-height: 82px;
+  padding: 12px;
+  border: 2px solid rgba(10, 169, 130, 0.2);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.survey-assignment-item span {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.survey-assignment-item strong {
+  color: var(--ink);
+  font-size: 1.04rem;
+  line-height: 1.35;
+}
+
 .survey-shell .workspace {
   margin-top: 0;
 }
@@ -1240,6 +1282,10 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .survey-assignment-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .ingredient-choice-grid {
     grid-template-columns: repeat(3, minmax(100px, 1fr));
   }
@@ -1296,6 +1342,10 @@ h3 {
   .segmented.four,
   .segmented.three,
   .segmented.two {
+    grid-template-columns: 1fr;
+  }
+
+  .survey-assignment-grid {
     grid-template-columns: 1fr;
   }
 
