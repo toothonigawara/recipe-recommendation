@@ -53,6 +53,11 @@ P0_TITLE_TAG_CONFLICTS = [
         "forbidden_tags": {"rice"},
         "message": "pasta-conversion title should not keep rice tag",
     },
+    {
+        "title_includes": ("したら", "やったら", "みたら", "だったら"),
+        "forbidden_tags": {"whitefish"},
+        "message": "Japanese connective ending should not be interpreted as cod",
+    },
 ]
 
 NON_RECIPE_TITLE_PATTERNS = [
@@ -85,6 +90,26 @@ NON_RECIPE_TITLE_PATTERNS = [
         "required": ("知らないと損",),
         "hints": ("裏技", "焼き方"),
         "message": "title looks like a tip or technique video rather than a complete recipe",
+    },
+    {
+        "required": ("Vlog",),
+        "hints": (),
+        "message": "title looks like a vlog rather than a recipe",
+    },
+    {
+        "required": ("食べてみた",),
+        "hints": (),
+        "message": "title looks like an eating-only video rather than a recipe",
+    },
+    {
+        "required": ("食レポ",),
+        "hints": (),
+        "message": "title looks like a food review rather than a recipe",
+    },
+    {
+        "required": ("大食い",),
+        "hints": (),
+        "message": "title looks like an eating challenge rather than a recipe",
     },
 ]
 

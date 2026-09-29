@@ -17,7 +17,7 @@ const labels = {
     cold: "冷たい"
   },
   dishType: {
-    rice: "ご飯系",
+    rice: "丼物",
     bread: "パン系",
     noodle: "麺系",
     side: "おかず系",
@@ -593,6 +593,8 @@ function recipeHasAnyTag(recipe, tags) {
 function getDishType(recipe) {
   const text = `${recipe.title || ""} ${recipe.description || ""}`;
   const breadText = text.replace(/フライパン|パン粉/g, "");
+  const hasRice = recipeHasAnyTag(recipe, dishTypeTagGroups.rice);
+  const looksLikeRiceBowl = /丼|どんぶり|丼ぶり|重|リゾット|のっけご飯|乗っけご飯|ご飯に.+(?:のせ|乗せ|かけ)|ごはんに.+(?:のせ|乗せ|かけ)/.test(text);
 
   if (recipeHasAnyTag(recipe, dishTypeTagGroups.bread) || /食パン|パン(?!粉|チ)|トースト|サンド|バーガー|ピザ|ホットドッグ/.test(breadText)) {
     return "bread";
@@ -602,18 +604,20 @@ function getDishType(recipe) {
     return "noodle";
   }
 
-  if (recipeHasAnyTag(recipe, dishTypeTagGroups.rice) || /混ぜご飯|炊き込みご飯|ご飯もの|ごはんもの|丼|どんぶり|チャーハン|炒飯|おにぎり|雑炊|リゾット|オムライス|カレーライス/.test(text)) {
-    return "rice";
-  }
-
   if (/汁|スープ|味噌汁|みそ汁|吸い物|鍋|シチュー|ポタージュ|豚汁|おでん/.test(text)) {
     return "soup";
+  }
+
+  if (hasRice && looksLikeRiceBowl) {
+    return "rice";
   }
 
   return "side";
 }
 
 function getMainIngredientType(recipe) {
+  const text = `${recipe.title || ""} ${recipe.description || ""}`;
+  if (/オムライス|チャーハン|炒飯/.test(text)) return "egg";
   if (recipeHasAnyTag(recipe, mainIngredientTagGroups.meat)) return "meat";
   if (recipeHasAnyTag(recipe, mainIngredientTagGroups.fish)) return "fish";
   if (recipeHasAnyTag(recipe, mainIngredientTagGroups.egg)) return "egg";

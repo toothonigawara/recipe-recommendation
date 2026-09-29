@@ -92,7 +92,7 @@ TAG_KEYWORDS = [
     ("salmon", ["鮭", "サーモン"]),
     ("mackerel", ["さば", "サバ", "鯖"]),
     ("yellowtail", ["ブリ", "鰤", "ぶり大根"]),
-    ("whitefish", ["白身魚", "タラ", "たらの", "鱈"]),
+    ("whitefish", ["白身魚", "タラ", "鱈"]),
     ("aji", ["アジフライ", "アジの", "アジを", "鯵"]),
     ("shrimp", ["えび", "エビ", "海老"]),
     ("shellfish", ["あさり", "貝", "クラム", "ボンゴレ"]),
@@ -151,26 +151,160 @@ TAG_KEYWORDS = [
     ("curry_roux", ["カレールゥ", "カレールー", "カレー粉"]),
 ]
 
-EXCLUDED_TITLE_WORDS = ("まとめ", "ランキング", "献立", "作り置き", "総集編", "ライブ", "切り抜き")
+EXCLUDED_TITLE_WORDS = (
+    "まとめ",
+    "ランキング",
+    "献立",
+    "作り置き",
+    "総集編",
+    "ライブ",
+    "切り抜き",
+    "vlog",
+    "Vlog",
+    "ブイログ",
+    "食べ歩き",
+    "食レポ",
+    "大食い",
+    "爆食",
+    "咀嚼音",
+    "ASMR",
+    "モッパン",
+    "mukbang",
+)
+RECIPE_HINT_WORDS = (
+    "レシピ",
+    "作り方",
+    "料理",
+    "簡単",
+    "材料",
+    "分量",
+    "調味料",
+    "作る",
+    "作れる",
+    "cooking",
+    "recipe",
+    "#shorts",
+    "#Shorts",
+)
+NON_RECIPE_TEXT_PATTERNS = (
+    "食べてみた",
+    "食べるだけ",
+    "購入品",
+    "開封",
+    "ルーティン",
+    "日常",
+    "旅行",
+    "外食",
+    "店紹介",
+    "お店紹介",
+    "飲み歩き",
+)
+MAX_DURATION_SECONDS = 300
 TITLE_ONLY_TAGS = {"rice", "soba", "bread"}
 NEGATED_TAG_PATTERNS = {
     "egg": ("卵液不要", "卵不要", "卵なし", "卵不使用", "卵を使わない"),
 }
+RECIPE_SECTION_MARKERS = (
+    "今回のレシピはこちら",
+    "今回のレシピ",
+    "材料はこちら",
+    "材料",
+    "レシピはこちら",
+)
+PROMO_SECTION_MARKERS = (
+    "◆",
+    "▼",
+    "～～",
+    "書籍のお知らせ",
+    "チャンネル登録",
+    "こちらもおすすめ",
+    "関連動画",
+    "おすすめ動画",
+    "SNS",
+    "Twitter",
+    "Instagram",
+    "TikTok",
+    "Amazon",
+    "楽天",
+    "ホームページ",
+    "グッズ販売",
+    "STORE",
+    "ダウンロードはこちら",
+    "お仕事",
+    "サブチャンネル",
+)
 
 
 def clean(value: str | None) -> str:
     return re.sub(r"\s+", " ", (value or "").strip())
 
 
+def is_likely_recipe_record(title: str, description: str) -> bool:
+    text = f"{title}\n{description[:1200]}"
+    if any(word in text for word in NON_RECIPE_TEXT_PATTERNS):
+        return False
+    return any(word in text for word in RECIPE_HINT_WORDS)
+
+
+def duration_seconds(record: dict) -> int:
+    try:
+        return int(float(record.get("duration_seconds") or 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def trim_description_for_ingredient_extraction(description: str) -> str:
+    """Keep likely recipe text and drop links, promos, SNS, and book sections."""
+    if not description:
+        return ""
+
+    source = description
+    using_recipe_section = False
+    for marker in RECIPE_SECTION_MARKERS:
+        marker_index = source.find(marker)
+        if marker_index >= 0:
+            source = source[marker_index:]
+            using_recipe_section = True
+            break
+
+    promo_markers = PROMO_SECTION_MARKERS if using_recipe_section else tuple(
+        marker for marker in PROMO_SECTION_MARKERS if marker not in {"◆", "▼", "～～"}
+    )
+    lines = []
+    for raw_line in source.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if line.startswith(("http://", "https://")):
+            continue
+        if any(marker in line for marker in promo_markers):
+            if lines:
+                break
+            continue
+        lines.append(line)
+
+    return "\n".join(lines)
+
+
 def extract_tags(*texts: str) -> list[str]:
     """Extract ingredient tags from title and description text."""
     title = texts[0] if texts else ""
-    joined = "\n".join(texts)
-    tags = []
-    for tag, keywords in TAG_KEYWORDS:
-        source = title if tag in TITLE_ONLY_TAGS else joined
-        if any(keyword in source for keyword in keywords):
-            tags.append(tag)
+    description = texts[1] if len(texts) > 1 else ""
+    relevant_description = trim_description_for_ingredient_extraction(description)
+    joined = "\n".join([title, relevant_description])
+
+    def collect_tags(joined_text: str) -> list[str]:
+        found_tags = []
+        for tag, keywords in TAG_KEYWORDS:
+            source = title if tag in TITLE_ONLY_TAGS else joined_text
+            if any(keyword in source for keyword in keywords):
+                found_tags.append(tag)
+        return found_tags
+
+    tags = collect_tags(joined)
+    if not tags and relevant_description != description:
+        joined = "\n".join([title, description])
+        tags = collect_tags(joined)
     tags = [
         tag
         for tag in tags
@@ -353,12 +487,18 @@ def build_rows(
         description = clean(record.get("description"))
         if not video_id or not title or video_id in seen_ids:
             continue
-        if any(word in title for word in EXCLUDED_TITLE_WORDS):
-            continue
-
         override = master_facts.get(video_id)
         if override and clean(override.get("review_status")) in EXCLUDED_REVIEW_STATUSES:
             continue
+        if any(word in title for word in EXCLUDED_TITLE_WORDS):
+            continue
+        is_confirmed = bool(override and clean(override.get("review_status")) == "confirmed")
+        if not is_confirmed and not is_likely_recipe_record(title, description):
+            continue
+        record_duration_seconds = duration_seconds(record)
+        if not is_confirmed and record_duration_seconds and record_duration_seconds > MAX_DURATION_SECONDS:
+            continue
+
         tags = extract_tags(title, description)
         fact_status = "estimated"
         fact_source = "youtube_api_inferred"
