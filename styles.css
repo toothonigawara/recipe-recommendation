@@ -276,6 +276,13 @@ h1 {
   line-height: 1.8;
 }
 
+.survey-reminder {
+  margin: 12px 0 0;
+  color: #e9736f;
+  font-weight: 800;
+  line-height: 1.8;
+}
+
 .survey-assignment {
   margin-top: 18px;
   padding: 16px;
