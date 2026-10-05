@@ -525,7 +525,7 @@ function scoreRecipe(recipe, conditions) {
     if (timeScore >= 13) reasons.push(`調理時間が「${labels.time[conditions.time]}」に合う`);
   }
 
-  if (conditions.temperature && recipe.temperature === conditions.temperature) {
+  if (conditions.temperature && getRecipeTemperature(recipe) === conditions.temperature) {
     score += 16;
     reasons.push(`${labels.temperature[conditions.temperature]}料理として作りやすい`);
   }
@@ -583,6 +583,7 @@ function scoreRecipe(recipe, conditions) {
 
 function matchesHardOptions(recipe, conditions) {
   if (excludedRecipeIds.has(recipe.videoId)) return false;
+  if (conditions.temperature && getRecipeTemperature(recipe) !== conditions.temperature) return false;
   if (conditions.dishType && getDishType(recipe) !== conditions.dishType) return false;
   if (conditions.mainIngredient && getMainIngredientType(recipe) !== conditions.mainIngredient) return false;
   if (conditions.noKnife && recipe.knife) return false;
@@ -618,6 +619,12 @@ function getDishType(recipe) {
   }
 
   return "side";
+}
+
+function getRecipeTemperature(recipe) {
+  const dishType = getDishType(recipe);
+  if (dishType === "rice" || dishType === "bread") return "warm";
+  return recipe.temperature;
 }
 
 function getMainIngredientType(recipe) {
@@ -1014,7 +1021,7 @@ function renderCards(scoredRecipes) {
     [
       labels.taste[recipe.taste],
       labels.time[recipe.time],
-      labels.temperature[recipe.temperature],
+      labels.temperature[getRecipeTemperature(recipe)],
       `油${recipe.oil}/5`,
       `負荷${recipe.effort}/5`,
       `洗い物${recipe.dishes}`

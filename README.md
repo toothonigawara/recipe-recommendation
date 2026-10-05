@@ -4,16 +4,16 @@
 
 ## 目的
 
-料理名で検索するのではなく、味・調理時間・温度・使用食材・調理負荷から「今日作りやすい料理動画」を3件に絞って推薦します。
+料理名で検索するのではなく、味・調理時間・温度・料理タイプ・中心食材・調理負荷から「今日作りやすい料理動画」を3件に絞って推薦します。
 
 ## 実装内容
 
 - 味の4段階選択
 - 調理時間の3段階選択
 - 温度の選択
-- 食材はカテゴリ選択と個別材料選択を併用し、親カテゴリを選ぶと該当材料をまとめて選択
+- 料理タイプと中心食材のカテゴリ選択
 - 包丁なし・火なしのオプション
-- 実在YouTube料理動画1000件の推薦データ
+- 実在YouTube料理動画2000件の推薦データ
 - 推薦カードからYouTube動画をサイト内で埋め込み再生
 - 調理負荷、洗い物、工程数を含むスコアリング
 - 味の傾向は、個別材料をカテゴリへ変換したうえで材料・油感・投稿者傾向からrichness_scoreを計算し、全レシピの四分位数で4段階分類
@@ -34,21 +34,23 @@ python3 -m http.server 8000
 http://127.0.0.1:8000/index.html
 ```
 
-YouTube Data APIで収集した実在する料理動画1000件を推薦対象にしています。
+YouTube Data APIで収集した実在する料理動画2000件を推薦対象にしています。
 
-- 1000件版CSV: `data/1000件料理レシピ.csv`
+- 2000件版CSV: `data/2000件料理レシピ.csv`
 - API取得元データ: `data/youtube_api_recipes.json`, `data/youtube_api_recipes.csv`
-- アプリ用1000件データ: `recipes-data.js`
+- アプリ用2000件データ: `recipes-data.js`
 - 食材カテゴリ味スコア表: `data/ingredient-taste-categories.csv`
 - 食材の1人前基準量表: `data/ingredient-serving-standards.csv`
 - 材料スコア計算スクリプト: `scripts/ingredient_score.py`
 - 食材タグ再精査スクリプト: `scripts/curate_recipe_ingredients.py`
 - YouTube検索候補: `data/youtube_candidates.json`
 - YouTube公開メタデータ: `data/youtube_details.json`
-- 1000件収集スクリプト: `scripts/collect_youtube_api_recipes.py`
-- 1000件生成スクリプト: `scripts/build_recipe_dataset.py`
+- データ収集スクリプト: `scripts/collect_youtube_api_recipes.py`
+- データ生成スクリプト: `scripts/build_recipe_dataset.py`
 - 品質チェックスクリプト: `scripts/check_recipe_quality.py`
 - 人手確認済みデータ台帳: `data/recipes-master.csv`
+- レシピ特徴タグ判定ルール: `data/recipe-tagging-rules.md`
+- 人手確認が必要な特徴タグ一覧: `data/recipe-tag-review.csv`
 - 100件監査サンプル作成スクリプト: `scripts/create_recipe_audit_sample.py`
 - 旧100件再生成スクリプト: `scripts/collect_recipe_candidates.py`, `scripts/fetch_video_details.py`, `scripts/build_100_recipe_data.py`
 
@@ -64,7 +66,7 @@ CSVにはYouTube埋め込み用の `video_id` 列を持たせています。
 
 既存の `video_id`、`動画URL`、`url` はYouTube互換用として残しています。
 
-## 1000件データ作成の流れ
+## 2000件データ作成の流れ
 
 YouTube Data APIのキーを環境変数に設定してから実行します。
 
@@ -72,10 +74,10 @@ YouTube Data APIのキーを環境変数に設定してから実行します。
 export YOUTUBE_API_KEY="取得したAPIキー"
 ```
 
-1. YouTube Data APIで1000件収集
+1. YouTube Data APIで2000件以上収集
 
 ```bash
-python3 scripts/collect_youtube_api_recipes.py --target-count 1000
+python3 scripts/collect_youtube_api_recipes.py --target-count 2500 --merge-existing
 ```
 
 2. 取得データをCSV/JSONに保存
@@ -91,17 +93,20 @@ python3 scripts/collect_youtube_api_recipes.py --target-count 1000
 python3 scripts/build_recipe_dataset.py \
   --input data/youtube_api_recipes.json \
   --master-data data/recipes-master.csv \
-  --csv-output data/1000件料理レシピ.csv \
-  --json-output data/1000_recipes_scored.json \
-  --js-output recipes-data.js
+  --csv-output data/2000件料理レシピ.csv \
+  --json-output data/2000_recipes_scored.json \
+  --js-output recipes-data.js \
+  --limit 2000
 ```
 
 `data/recipes-master.csv` に `review_status=confirmed` の行がある場合は、YouTube説明文からの自動抽出よりも台帳の `exact_ingredients`、調理時間、包丁、火などを優先します。未確認データは `fact_status=estimated` として出力し、確認済みデータと区別します。
 
+料理ジャンル、主食、料理の形、中心食材、味、温度、調理時間、調理負荷は、各タグごとに `*_confidence` と `*_basis` を付けて出力します。confidenceが低いものは `data/recipe-tag-review.csv` に抽出されます。
+
 4. 品質チェック
 
 ```bash
-python3 scripts/check_recipe_quality.py data/1000件料理レシピ.csv --fail-on-warning
+python3 scripts/check_recipe_quality.py data/2000件料理レシピ.csv --fail-on-warning
 ```
 
 「卵液不要なのに卵タグが入る」「親子丼に白身魚タグが混入する」など、推薦説明に直結する不整合はP0として検出します。

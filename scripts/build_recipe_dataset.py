@@ -12,6 +12,7 @@ from ingredient_score import (
     add_richness_and_taste_level_to_rows,
     generate_ingredient_categories,
 )
+from recipe_feature_tags import build_feature_tags
 
 
 LABELS = {
@@ -334,8 +335,36 @@ def infer_time(title: str, description: str) -> str:
     return "normal"
 
 
-def infer_temperature(title: str) -> str:
-    if any(word in title for word in ("冷", "サラダ", "カプレーゼ", "ざる", "冷やし", "漬け")):
+def infer_temperature(title: str, tags: list[str]) -> str:
+    warm_priority_words = (
+        "焼き",
+        "焼く",
+        "炒め",
+        "煮",
+        "揚げ",
+        "蒸し",
+        "丼",
+        "どんぶり",
+        "ご飯",
+        "ごはん",
+        "食パン",
+        "トースト",
+        "ホットサンド",
+        "バーガー",
+        "ピザ",
+        "ホットドッグ",
+        "スープ",
+        "味噌汁",
+        "みそ汁",
+        "鍋",
+        "シチュー",
+    )
+    cold_words = ("冷奴", "冷やし", "冷製", "サラダ", "カプレーゼ", "ざる", "和え", "ナムル", "漬物")
+    if any(tag in tags for tag in ("rice", "bread")):
+        return "warm"
+    if any(word in title for word in warm_priority_words):
+        return "warm"
+    if any(word in title for word in cold_words):
         return "cold"
     return "warm"
 
@@ -480,6 +509,7 @@ def build_rows(
 ) -> list[dict[str, str]]:
     rows = []
     seen_ids = set()
+    source_records_by_id = {}
     master_facts = master_facts or {}
     for record in records:
         video_id = record.get("video_id") or ""
@@ -512,9 +542,10 @@ def build_rows(
             continue
 
         seen_ids.add(video_id)
+        source_records_by_id[video_id] = record
         categories = generate_ingredient_categories(",".join(tags))
         time_level = choose_value(override, "time", infer_time(title, description))
-        temperature = choose_value(override, "temperature", infer_temperature(title))
+        temperature = choose_value(override, "temperature", infer_temperature(title, tags))
         oil = int(float(choose_value(override, "oil", str(infer_oil(title, tags)))))
         effort = int(float(choose_value(override, "effort", str(infer_effort(title, tags)))))
         dishes = infer_dishes(title, effort)
@@ -553,6 +584,13 @@ def build_rows(
     scored_rows = add_richness_and_taste_level_to_rows(rows)
     for row in scored_rows:
         row["味"] = infer_taste_from_level(row.get("taste_level", ""))
+        row.update(
+            build_feature_tags(
+                row,
+                source_records_by_id.get(row.get("video_id", "")),
+                master_facts.get(row.get("video_id", "")),
+            )
+        )
     return scored_rows
 
 
@@ -569,8 +607,68 @@ def write_json(path: Path, rows: list[dict[str, str]]) -> None:
     path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def write_review_csv(path: Path, rows: list[dict[str, str]]) -> None:
+    review_rows = [row for row in rows if row.get("tag_review_status") == "needs_review"]
+    if not review_rows:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("", encoding="utf-8")
+        return
+    columns = [
+        "video_id",
+        "メニュー",
+        "動画URL",
+        "投稿者",
+        "tag_review_reasons",
+        "genre",
+        "genre_confidence",
+        "genre_basis",
+        "staple",
+        "staple_confidence",
+        "staple_basis",
+        "dish_shape",
+        "dish_shape_confidence",
+        "dish_shape_basis",
+        "main_ingredient",
+        "main_ingredient_confidence",
+        "main_ingredient_basis",
+        "temperature_tag",
+        "temperature_tag_confidence",
+        "temperature_tag_basis",
+        "time_tag",
+        "time_tag_confidence",
+        "time_tag_basis",
+        "uses_knife_tag",
+        "uses_knife_tag_confidence",
+        "uses_knife_tag_basis",
+        "uses_heat_tag",
+        "uses_heat_tag_confidence",
+        "uses_heat_tag_basis",
+        "uses_frying_pan",
+        "uses_frying_pan_confidence",
+        "uses_frying_pan_basis",
+        "uses_microwave",
+        "uses_microwave_confidence",
+        "uses_microwave_basis",
+        "詳細食材タグ",
+        "fact_status",
+        "fact_source",
+    ]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8-sig", newline="") as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=columns)
+        writer.writeheader()
+        writer.writerows({column: row.get(column, "") for column in columns} for row in review_rows)
+
+
 def to_bool(value: str) -> bool:
     return str(value).lower() == "true"
+
+
+def to_float(value: str) -> float:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def write_js(path: Path, rows: list[dict[str, str]]) -> None:
@@ -601,6 +699,32 @@ def write_js(path: Path, rows: list[dict[str, str]]) -> None:
                 "rawIngredients": row["食材"],
                 "ingredientStatus": row.get("fact_status", "estimated"),
                 "ingredientSource": row.get("fact_source", "youtube_api_inferred"),
+                "featureTags": {
+                    "genre": row.get("genre", ""),
+                    "genreConfidence": to_float(row.get("genre_confidence", "")),
+                    "staple": row.get("staple", ""),
+                    "stapleConfidence": to_float(row.get("staple_confidence", "")),
+                    "dishShape": row.get("dish_shape", ""),
+                    "dishShapeConfidence": to_float(row.get("dish_shape_confidence", "")),
+                    "mainIngredient": row.get("main_ingredient", ""),
+                    "mainIngredientConfidence": to_float(row.get("main_ingredient_confidence", "")),
+                    "taste": row.get("taste_tag", ""),
+                    "tasteConfidence": to_float(row.get("taste_tag_confidence", "")),
+                    "temperature": row.get("temperature_tag", ""),
+                    "temperatureConfidence": to_float(row.get("temperature_tag_confidence", "")),
+                    "time": row.get("time_tag", ""),
+                    "timeConfidence": to_float(row.get("time_tag_confidence", "")),
+                    "usesKnife": to_bool(row.get("uses_knife_tag", "")),
+                    "usesKnifeConfidence": to_float(row.get("uses_knife_tag_confidence", "")),
+                    "usesHeat": to_bool(row.get("uses_heat_tag", "")),
+                    "usesHeatConfidence": to_float(row.get("uses_heat_tag_confidence", "")),
+                    "usesFryingPan": to_bool(row.get("uses_frying_pan", "")),
+                    "usesFryingPanConfidence": to_float(row.get("uses_frying_pan_confidence", "")),
+                    "usesMicrowave": to_bool(row.get("uses_microwave", "")),
+                    "usesMicrowaveConfidence": to_float(row.get("uses_microwave_confidence", "")),
+                    "reviewStatus": row.get("tag_review_status", ""),
+                    "reviewReasons": row.get("tag_review_reasons", ""),
+                },
                 "description": (
                     f"{row['投稿者']}の実在動画。{row['食材']}を使う「{row['メニュー']}」のレシピです。"
                     if row.get("fact_status") == "confirmed"
@@ -618,6 +742,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--json-output", default="data/1000_recipes_scored.json")
     parser.add_argument("--js-output", default="recipes-data.js")
     parser.add_argument("--master-data", default="data/recipes-master.csv")
+    parser.add_argument("--review-output", default="data/recipe-tag-review.csv")
     parser.add_argument("--limit", type=int, default=1000)
     return parser
 
@@ -630,6 +755,7 @@ def main() -> None:
         raise RuntimeError("No recipe rows were built.")
     write_csv(Path(args.csv_output), rows)
     write_json(Path(args.json_output), rows)
+    write_review_csv(Path(args.review_output), rows)
     write_js(Path(args.js_output), rows)
     print(f"Built {len(rows)} recipes")
 
