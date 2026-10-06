@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -111,6 +112,41 @@ NON_RECIPE_TITLE_PATTERNS = [
         "hints": (),
         "message": "title looks like an eating challenge rather than a recipe",
     },
+    {
+        "required": ("自炊記録",),
+        "hints": (),
+        "message": "title looks like a cooking diary rather than a single recipe",
+    },
+    {
+        "required": ("ごはん記録",),
+        "hints": (),
+        "message": "title looks like a meal diary rather than a single recipe",
+    },
+    {
+        "required": ("ご飯記録",),
+        "hints": (),
+        "message": "title looks like a meal diary rather than a single recipe",
+    },
+    {
+        "required": ("お弁当記録",),
+        "hints": (),
+        "message": "title looks like a lunchbox diary rather than a single recipe",
+    },
+    {
+        "required": ("保存法",),
+        "hints": (),
+        "message": "title looks like a storage-tip video rather than a recipe",
+    },
+]
+
+NON_RECIPE_TITLE_REGEXES = [
+    (re.compile(r"レシピ\s*[0-9０-９]+\s*選"), "title looks like a multi-recipe compilation"),
+    (re.compile(r"[0-9０-９]+\s*選[】｜：:🍝]?"), "title looks like a list or compilation video"),
+    (re.compile(r"[0-9０-９]+日間.*(?:自炊|ごはん|ご飯|弁当|節約)"), "title looks like a multi-day cooking diary"),
+    (re.compile(r"(?:平日|休日)?[0-9０-９]+日(?:分|間).*?(?:ごはん|ご飯|弁当|自炊)"), "title looks like a multi-day cooking diary"),
+    (re.compile(r"(?:週|週間).*?(?:ごはん|ご飯|自炊|弁当|献立|紹介)"), "title looks like a weekly meal diary or compilation"),
+    (re.compile(r"(?:ごはん|ご飯|弁当|自炊).*?記録"), "title looks like a diary rather than a single recipe"),
+    (re.compile(r"食費.*?(?:生活|記録|紹介|節約)"), "title looks like budget-life content rather than a single recipe"),
 ]
 
 
@@ -197,6 +233,9 @@ def check_non_recipe_titles(rows: list[dict[str, str]]) -> list[str]:
             has_hint_words = not rule["hints"] or any(word in title for word in rule["hints"])
             if has_required_words and has_hint_words:
                 warnings.append(f"P0 L{index} {title}: {rule['message']}")
+        for pattern, message in NON_RECIPE_TITLE_REGEXES:
+            if pattern.search(title):
+                warnings.append(f"P0 L{index} {title}: {message}")
     return warnings
 
 

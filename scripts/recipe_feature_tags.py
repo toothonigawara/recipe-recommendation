@@ -219,6 +219,12 @@ def text_for_rules(title: str, description: str) -> str:
     return f"{title}\n{description[:1200]}"
 
 
+def text_without_hashtags(title: str, description: str) -> str:
+    title_core = re.split(r"[#＃]", title, maxsplit=1)[0]
+    description_core = re.sub(r"[#＃]\S+", "", description[:1200])
+    return f"{title_core}\n{description_core}"
+
+
 def has_any_tag(tags: set[str], candidates: set[str]) -> bool:
     return bool(tags & candidates)
 
@@ -248,27 +254,35 @@ def decide_genre(title: str, description: str, tags: set[str]) -> Decision:
 
 
 def decide_staple(title: str, description: str, tags: set[str]) -> Decision:
-    text = text_for_rules(title, description)
+    text = text_without_hashtags(title, description)
     bread_text = re.sub(r"フライパン|ワンパン|パン粉", "", text)
 
-    if has_any_tag(tags, NOODLE_TAGS) or re.search(r"うどん|そば|蕎麦|パスタ|ラーメン|そうめん|素麺|焼きそば|ビーフン|フォー|春雨|麺", text):
+    if "スープ" in title and not has_any_tag(tags, NOODLE_TAGS | RICE_TAGS | {"bread"}):
+        return Decision("その他", 0.92, "スープ名で主食タグなし")
+    if has_any_tag(tags, RICE_TAGS) and re.search(r"丼|どんぶり|丼ぶり|ご飯|ごはん|米", title):
+        return Decision("ご飯", 0.94, "米タグとご飯料理名")
+    if has_any_tag(tags, NOODLE_TAGS) or re.search(r"うどん|そば|蕎麦|パスタ|ラーメン|そうめん|素麺|焼きそば|ビーフン|フォー(?!ク)|春雨|麺", text):
         return Decision("麺", 0.95, "麺タグまたは麺料理名")
     if has_any_tag(tags, {"bread"}) or re.search(r"食パン|パン(?!粉|チ)|トースト|サンド|バーガー|ピザ|ホットドッグ", bread_text):
         return Decision("パン", 0.93, "パンタグまたはパン料理名")
+    if "サラダ" in title and not has_any_tag(tags, RICE_TAGS):
+        return Decision("その他", 0.90, "サラダ名で主食タグなし")
     if has_any_tag(tags, RICE_TAGS) or re.search(r"ご飯|ごはん|米|丼|炒飯|チャーハン|オムライス|雑炊|リゾット|おにぎり", text):
         return Decision("ご飯", 0.92, "米タグまたはご飯料理名")
     return Decision("その他", 0.82, "主食タグなし")
 
 
 def decide_dish_shape(title: str, description: str, tags: set[str], staple: str) -> Decision:
-    text = text_for_rules(title, description)
+    text = text_without_hashtags(title, description)
     bread_text = re.sub(r"フライパン|ワンパン|パン粉", "", text)
 
     if staple == "麺":
         return Decision("麺料理", 0.94, "主食タグが麺")
     if staple == "パン":
         return Decision("パン料理", 0.92, "主食タグがパン")
-    if re.search(r"丼|どんぶり|丼ぶり|重|のっけご飯|乗っけご飯|ご飯に.+(?:のせ|乗せ|かけ)|ごはんに.+(?:のせ|乗せ|かけ)", text):
+    if "スープ" in title and staple == "その他":
+        return Decision("主菜", 0.80, "スープ名で主食料理ではない")
+    if staple == "ご飯" and re.search(r"丼|どんぶり|丼ぶり|重|のっけご飯|乗っけご飯|ご飯に.+(?:のせ|乗せ|かけ)|ごはんに.+(?:のせ|乗せ|かけ)", text):
         return Decision("丼", 0.94, "丼・のっけご飯表現")
     if staple == "ご飯" and re.search(r"リゾット|雑炊|炒飯|チャーハン|オムライス|炊き込み|おにぎり|カレーライス|ドリア", text):
         return Decision("丼以外のご飯もの", 0.90, "丼以外の米料理名")
@@ -285,6 +299,10 @@ def decide_dish_shape(title: str, description: str, tags: set[str], staple: str)
 
 def decide_main_ingredient(title: str, description: str, tags: set[str]) -> Decision:
     text = text_for_rules(title, description)
+    if "スープ" in title and not has_any_tag(tags, MEAT_TAGS | FISH_TAGS | EGG_TAGS | SOY_TAGS):
+        if has_any_tag(tags, VEGETABLE_TAGS):
+            return Decision("野菜中心", 0.78, f"スープの野菜タグ: {', '.join(sorted(tags & VEGETABLE_TAGS)[:4])}")
+        return Decision("その他", 0.74, "スープ名で中心食材が弱い")
     if re.search(r"オムライス|チャーハン|炒飯|卵チャーハン|オムレツ|卵焼き|だし巻き", text):
         return Decision("卵", 0.92, "卵が主役になりやすい料理名")
     if has_any_tag(tags, MEAT_TAGS):

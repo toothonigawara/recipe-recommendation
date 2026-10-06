@@ -85,6 +85,8 @@ def apply_results(rows: list[dict[str, str]], jev_rows: list[dict[str, str]], th
     exclude_candidates = 0
 
     for row in rows:
+        if row.get("fact_status") == "confirmed" or row.get("tag_review_status") == "confirmed":
+            continue
         result = jev_by_id.get(row.get("video_id", ""))
         if not result:
             continue

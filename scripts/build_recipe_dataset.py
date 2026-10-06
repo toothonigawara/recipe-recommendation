@@ -27,11 +27,19 @@ LABELS = {
     "yellowtail": "ブリ",
     "whitefish": "白身魚",
     "aji": "アジ",
+    "squid": "いか",
+    "sardine": "イワシ",
     "shrimp": "えび",
     "shellfish": "貝",
+    "oyster": "かき",
+    "crab": "かに",
+    "saury": "サンマ",
+    "shirasu": "しらす",
     "octopus": "たこ",
+    "scallop": "ほたて",
     "tuna_sashimi": "マグロ",
     "canned_tuna": "ツナ",
+    "mentaiko": "明太子",
     "tofu": "豆腐",
     "atsuage": "厚揚げ",
     "aburaage": "油揚げ",
@@ -92,7 +100,7 @@ TAG_KEYWORDS = [
     ("bacon", ["ベーコン"]),
     ("salmon", ["鮭", "サーモン"]),
     ("mackerel", ["さば", "サバ", "鯖"]),
-    ("yellowtail", ["ブリ", "鰤", "ぶり大根"]),
+    ("yellowtail", ["ぶり大根", "ブリ大根", "鰤大根", "ブリの", "ブリを", "鰤の", "鰤を"]),
     ("whitefish", ["白身魚", "タラ", "鱈"]),
     ("aji", ["アジフライ", "アジの", "アジを", "鯵"]),
     ("shrimp", ["えび", "エビ", "海老"]),
@@ -163,6 +171,26 @@ EXCLUDED_TITLE_WORDS = (
     "vlog",
     "Vlog",
     "ブイログ",
+    "自炊記録",
+    "ごはん記録",
+    "ご飯記録",
+    "お弁当記録",
+    "弁当記録",
+    "自炊生活",
+    "暮らしの記録",
+    "節約生活",
+    "食費月",
+    "月一万円",
+    "月1万円",
+    "1週間分紹介",
+    "１週間分紹介",
+    "5日間",
+    "５日間",
+    "平日5日間",
+    "平日５日間",
+    "保存法",
+    "保存術",
+    "キッチンリセット",
     "食べ歩き",
     "食レポ",
     "大食い",
@@ -199,6 +227,22 @@ NON_RECIPE_TEXT_PATTERNS = (
     "店紹介",
     "お店紹介",
     "飲み歩き",
+    "自炊記録",
+    "ごはん記録",
+    "ご飯記録",
+    "お弁当記録",
+    "弁当記録",
+    "保存法",
+    "保存術",
+)
+NON_RECIPE_TITLE_REGEXES = (
+    re.compile(r"レシピ\s*[0-9０-９]+\s*選"),
+    re.compile(r"[0-9０-９]+\s*選[】｜：:🍝]?"),
+    re.compile(r"[0-9０-９]+日間.*(?:自炊|ごはん|ご飯|弁当|節約)"),
+    re.compile(r"(?:平日|休日)?[0-9０-９]+日(?:分|間).*?(?:ごはん|ご飯|弁当|自炊)"),
+    re.compile(r"(?:週|週間).*?(?:ごはん|ご飯|自炊|弁当|献立|紹介)"),
+    re.compile(r"(?:ごはん|ご飯|弁当|自炊).*?記録"),
+    re.compile(r"食費.*?(?:生活|記録|紹介|節約)"),
 )
 MAX_DURATION_SECONDS = 300
 TITLE_ONLY_TAGS = {"rice", "soba", "bread"}
@@ -245,6 +289,12 @@ def is_likely_recipe_record(title: str, description: str) -> bool:
     if any(word in text for word in NON_RECIPE_TEXT_PATTERNS):
         return False
     return any(word in text for word in RECIPE_HINT_WORDS)
+
+
+def is_excluded_title(title: str) -> bool:
+    return any(word in title for word in EXCLUDED_TITLE_WORDS) or any(
+        pattern.search(title) for pattern in NON_RECIPE_TITLE_REGEXES
+    )
 
 
 def duration_seconds(record: dict) -> int:
@@ -313,6 +363,8 @@ def extract_tags(*texts: str) -> list[str]:
     ]
     if "rice" in tags and "pasta" in tags and re.search(r"パスタに|パスタへ|パスタ化|パスタアレンジ|パスタにアレンジ", joined):
         tags = [tag for tag in tags if tag != "rice"]
+    if "rice_noodles" in tags and not re.search(r"ビーフン|フォー(?!ク)", joined):
+        tags = [tag for tag in tags if tag != "rice_noodles"]
     return list(dict.fromkeys(tags))
 
 
@@ -520,7 +572,7 @@ def build_rows(
         override = master_facts.get(video_id)
         if override and clean(override.get("review_status")) in EXCLUDED_REVIEW_STATUSES:
             continue
-        if any(word in title for word in EXCLUDED_TITLE_WORDS):
+        if is_excluded_title(title):
             continue
         is_confirmed = bool(override and clean(override.get("review_status")) == "confirmed")
         if not is_confirmed and not is_likely_recipe_record(title, description):

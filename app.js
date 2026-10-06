@@ -542,9 +542,13 @@ function scoreRecipe(recipe, conditions) {
 
   if (conditions.mainIngredient) {
     const mainIngredient = getMainIngredientType(recipe);
+    const ingredientTypes = getMainIngredientTypes(recipe);
     if (mainIngredient === conditions.mainIngredient) {
       score += 22;
       reasons.push(`中心食材が「${labels.mainIngredient[conditions.mainIngredient]}」に合う`);
+    } else if (ingredientTypes.includes(conditions.mainIngredient)) {
+      score += 16;
+      reasons.push(`食材に「${labels.mainIngredient[conditions.mainIngredient]}」を含む`);
     } else {
       score -= 8;
     }
@@ -585,7 +589,7 @@ function matchesHardOptions(recipe, conditions) {
   if (excludedRecipeIds.has(recipe.videoId)) return false;
   if (conditions.temperature && getRecipeTemperature(recipe) !== conditions.temperature) return false;
   if (conditions.dishType && getDishType(recipe) !== conditions.dishType) return false;
-  if (conditions.mainIngredient && getMainIngredientType(recipe) !== conditions.mainIngredient) return false;
+  if (conditions.mainIngredient && !getMainIngredientTypes(recipe).includes(conditions.mainIngredient)) return false;
   if (conditions.noKnife && recipe.knife) return false;
   if (conditions.noHeat && recipe.heat) return false;
   return true;
@@ -636,6 +640,14 @@ function getMainIngredientType(recipe) {
   if (recipeHasAnyTag(recipe, mainIngredientTagGroups.soy)) return "soy";
   if (recipeHasAnyTag(recipe, mainIngredientTagGroups.vegetable)) return "vegetable";
   return "other";
+}
+
+function getMainIngredientTypes(recipe) {
+  const types = [];
+  Object.entries(mainIngredientTagGroups).forEach(([type, tags]) => {
+    if (recipeHasAnyTag(recipe, tags)) types.push(type);
+  });
+  return types.length ? types : ["other"];
 }
 
 function getSelectedIngredientProfile(selectedIds) {
