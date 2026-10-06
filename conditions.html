@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>条件検索 | 動画レシピ提案サイト</title>
+    <link rel="stylesheet" href="styles.css?v=swipe-prototype-20261006">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="site-topbar">
+          <a class="brand-pill" href="index.html">動画レシピ提案サイト</a>
+          <a href="index.html">スワイプ</a>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">好み・時間・食材からおすすめを表示</p>
+          <h1 id="page-title">動画レシピ提案サイト</h1>
+          <p class="lead">
+            今日の気分に合う料理動画を、ぎゅっと3本だけ。
+          </p>
+          <div class="hero-badges" aria-label="推薦の特徴">
+            <span>2000 DATA</span>
+            <span>3 PICKS</span>
+            <span>SHORTS</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace home-workspace" aria-label="推薦条件">
+        <aside class="control-panel" aria-label="条件選択">
+          <div class="panel-heading">
+            <p class="section-kicker">Conditions</p>
+            <h2>今の条件</h2>
+          </div>
+
+          <form id="recommendForm" autocomplete="off">
+            <fieldset>
+              <legend>味</legend>
+              <div class="segmented four" data-group="taste">
+                <label>
+                  <input type="radio" name="taste" value="rich">
+                  <span class="condition-button taste-rich">ガッツリ</span>
+                </label>
+                <label>
+                  <input type="radio" name="taste" value="semi-rich">
+                  <span class="condition-button taste-semi-rich">ややガッツリ</span>
+                </label>
+                <label>
+                  <input type="radio" name="taste" value="semi-light">
+                  <span class="condition-button taste-semi-light">ややあっさり</span>
+                </label>
+                <label>
+                  <input type="radio" name="taste" value="light">
+                  <span class="condition-button taste-light">あっさり</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>調理時間</legend>
+              <div class="segmented three" data-group="time">
+                <label>
+                  <input type="radio" name="time" value="easy">
+                  <span class="condition-button time-easy">簡単<br><small>〜15分</small></span>
+                </label>
+                <label>
+                  <input type="radio" name="time" value="normal">
+                  <span class="condition-button time-normal">普通<br><small>15〜30分</small></span>
+                </label>
+                <label>
+                  <input type="radio" name="time" value="slow">
+                  <span class="condition-button time-slow">じっくり<br><small>30分〜</small></span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>温度</legend>
+              <div class="segmented two" data-group="temperature">
+                <label>
+                  <input type="radio" name="temperature" value="warm">
+                  <span>温かい</span>
+                </label>
+                <label>
+                  <input type="radio" name="temperature" value="cold">
+                  <span>冷たい</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>料理タイプ</legend>
+              <div class="segmented three" data-group="dishType">
+                <label>
+                  <input type="radio" name="dishType" value="rice">
+                  <span class="condition-button">丼物</span>
+                </label>
+                <label>
+                  <input type="radio" name="dishType" value="bread">
+                  <span class="condition-button">パン系</span>
+                </label>
+                <label>
+                  <input type="radio" name="dishType" value="noodle">
+                  <span class="condition-button">麺系</span>
+                </label>
+                <label>
+                  <input type="radio" name="dishType" value="side">
+                  <span class="condition-button">おかず系</span>
+                </label>
+                <label>
+                  <input type="radio" name="dishType" value="soup">
+                  <span class="condition-button">汁物系</span>
+                </label>
+                <label>
+                  <input type="radio" name="dishType" value="any">
+                  <span class="condition-button">指定なし</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>中心食材</legend>
+              <div class="segmented three" data-group="mainIngredient">
+                <label>
+                  <input type="radio" name="mainIngredient" value="meat">
+                  <span class="condition-button">肉</span>
+                </label>
+                <label>
+                  <input type="radio" name="mainIngredient" value="fish">
+                  <span class="condition-button">魚</span>
+                </label>
+                <label>
+                  <input type="radio" name="mainIngredient" value="egg">
+                  <span class="condition-button">卵</span>
+                </label>
+                <label>
+                  <input type="radio" name="mainIngredient" value="soy">
+                  <span class="condition-button">豆腐・大豆</span>
+                </label>
+                <label>
+                  <input type="radio" name="mainIngredient" value="vegetable">
+                  <span class="condition-button">野菜中心</span>
+                </label>
+                <label>
+                  <input type="radio" name="mainIngredient" value="other">
+                  <span class="condition-button">その他</span>
+                </label>
+                <label>
+                  <input type="radio" name="mainIngredient" value="any">
+                  <span class="condition-button">指定なし</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>オプション</legend>
+              <div class="option-list">
+                <label class="toggle-row">
+                  <span>包丁を使わない</span>
+                  <input type="checkbox" name="noKnife">
+                </label>
+                <label class="toggle-row">
+                  <span>火を使わない</span>
+                  <input type="checkbox" name="noHeat">
+                </label>
+              </div>
+            </fieldset>
+
+            <div class="form-actions">
+              <button class="primary-action search-action" id="searchButton" type="submit">検索する</button>
+            </div>
+          </form>
+        </aside>
+      </section>
+    </main>
+
+    <script src="recipes-data.js?v=database-2000-20260929"></script>
+    <script src="app.js?v=swipe-prototype-20261006"></script>
+  </body>
+</html>

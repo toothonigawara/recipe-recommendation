@@ -408,6 +408,10 @@ function buildPageUrl(page, conditions) {
   return query ? `${page}?${query}` : page;
 }
 
+function getConditionsPagePath() {
+  return window.location.pathname.includes("/survey/") ? "index.html" : "conditions.html";
+}
+
 function applyConditionsToForm(conditions) {
   if (!form) return;
 
@@ -1068,7 +1072,11 @@ function updateRecommendations() {
   renderCards(recommendedRecipes);
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
-    if (link) link.href = buildPageUrl("index.html", conditions);
+    if (link === changeConditionsLink) {
+      link.href = buildPageUrl(getConditionsPagePath(), conditions);
+    } else if (link) {
+      link.href = "index.html";
+    }
   });
 }
 
@@ -1104,7 +1112,7 @@ if (floatingBackButton) {
       return;
     }
 
-    window.location.href = "index.html";
+    window.location.href = getConditionsPagePath();
   });
 }
 
