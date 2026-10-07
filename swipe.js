@@ -15,7 +15,7 @@ const swipeState = {
 };
 
 const swipeConfig = {
-  sessionSize: 8,
+  sessionSize: 10,
   swipeThreshold: 90
 };
 
@@ -81,6 +81,35 @@ function summarizeSwipeResults(results) {
   return summary;
 }
 
+function buildRateStats(results, key) {
+  const stats = {};
+  results.forEach((result) => {
+    const value = result[key] || "未設定";
+    if (!stats[value]) {
+      stats[value] = {
+        value,
+        shown: 0,
+        likes: 0,
+        dislikes: 0,
+        likeRate: 0
+      };
+    }
+    stats[value].shown += 1;
+    if (result.action === "like") {
+      stats[value].likes += 1;
+    } else {
+      stats[value].dislikes += 1;
+    }
+    stats[value].likeRate = stats[value].likes / stats[value].shown;
+  });
+
+  return Object.values(stats).sort((a, b) => {
+    if (b.likeRate !== a.likeRate) return b.likeRate - a.likeRate;
+    if (b.likes !== a.likes) return b.likes - a.likes;
+    return b.shown - a.shown;
+  });
+}
+
 function pickMostCommon(items, key) {
   const counts = countBy(items, key);
   return Object.entries(counts)
@@ -140,26 +169,68 @@ function mapMainIngredient(value) {
 }
 
 function inferRecommendationConditions(results) {
-  const liked = results.filter((result) => result.action === "like");
-  const source = liked.length > 0 ? liked : [];
+  const tasteStats = buildRateStats(results, "taste_level").filter((item) => item.likes > 0);
+  const temperatureStats = buildRateStats(results, "temperature").filter((item) => item.likes > 0);
+  const dishTypeStats = buildRateStats(results, "dish_type").filter((item) => item.likes > 0);
+  const mainIngredientStats = buildRateStats(results, "main_ingredient").filter((item) => item.likes > 0);
+  const topIngredient = mainIngredientStats[0];
+  const nextIngredient = mainIngredientStats[1];
+  const shouldUseMainIngredient = Boolean(
+    topIngredient &&
+    topIngredient.likes >= 2 &&
+    topIngredient.likeRate >= 0.67 &&
+    (!nextIngredient || topIngredient.likes > nextIngredient.likes || topIngredient.likeRate >= 0.8)
+  );
 
   return {
-    taste: mapTasteLevel(pickMostCommon(source, "taste_level")),
-    time: mapCookingTime(pickMostCommon(source, "cooking_time")),
-    temperature: mapTemperature(pickMostCommon(source, "temperature")),
-    dishType: mapDishType(pickMostCommon(source, "dish_type")),
-    mainIngredient: mapMainIngredient(pickMostCommon(source, "main_ingredient"))
+    taste: mapTasteLevel(tasteStats[0]?.value),
+    temperature: mapTemperature(temperatureStats[0]?.value),
+    dishTypes: dishTypeStats.slice(0, 3).map((item) => mapDishType(item.value)).filter(Boolean),
+    mainIngredient: shouldUseMainIngredient ? mapMainIngredient(topIngredient.value) : "",
+    likedDishes: results
+      .filter((result) => result.action === "like")
+      .map((result) => ({
+        dish_id: result.dish_id,
+        dish_name: result.dish_name,
+        dish_type: result.dish_type,
+        main_ingredient: result.main_ingredient
+      })),
+    stats: {
+      taste: tasteStats,
+      temperature: temperatureStats,
+      dishType: dishTypeStats,
+      mainIngredient: mainIngredientStats
+    }
   };
 }
 
 function buildResultsUrl(results) {
   const conditions = inferRecommendationConditions(results);
   const params = new URLSearchParams();
-  Object.entries(conditions).forEach(([key, value]) => {
+  Object.entries({
+    taste: conditions.taste,
+    temperature: conditions.temperature,
+    mainIngredient: conditions.mainIngredient
+  }).forEach(([key, value]) => {
     if (value) params.set(key, value);
   });
+  params.set("source", "swipe");
   const query = params.toString();
   return query ? `results.html?${query}` : "results.html";
+}
+
+function saveSwipeSession() {
+  const profile = inferRecommendationConditions(swipeState.results);
+  const payload = {
+    version: 1,
+    createdAt: new Date().toISOString(),
+    results: swipeState.results,
+    profile
+  };
+  sessionStorage.setItem("recipeSwipeSession", JSON.stringify(payload));
+  window.swipePrototype.summary = summarizeSwipeResults(swipeState.results);
+  window.swipePrototype.profile = profile;
+  return payload;
 }
 
 function updateDebugOutput() {
@@ -167,7 +238,8 @@ function updateDebugOutput() {
 
   const payload = {
     results: swipeState.results,
-    summary: summarizeSwipeResults(swipeState.results)
+    summary: summarizeSwipeResults(swipeState.results),
+    profile: inferRecommendationConditions(swipeState.results)
   };
   swipeElements.debugOutput.textContent = JSON.stringify(payload, null, 2);
 }
@@ -185,7 +257,7 @@ function renderSwipeDish() {
   swipeElements.image.src = dish.image;
   swipeElements.image.alt = `${dish.dish_name}の仮画像`;
   swipeElements.name.textContent = dish.dish_name;
-  swipeElements.meta.textContent = `${dish.genre} / ${dish.cooking_time}`;
+  swipeElements.meta.textContent = `${dish.genre} / ${dish.staple}`;
   swipeElements.progressText.textContent = `${progressCurrent} / ${progressTotal}`;
   swipeElements.progressBar.style.width = `${(swipeState.currentIndex / progressTotal) * 100}%`;
 
@@ -238,6 +310,7 @@ function recordSwipe(action) {
   swipeState.currentIndex += 1;
   window.swipePrototype.results = swipeState.results;
   window.swipePrototype.summary = summarizeSwipeResults(swipeState.results);
+  window.swipePrototype.profile = inferRecommendationConditions(swipeState.results);
   renderSwipeDish();
 }
 
@@ -297,6 +370,7 @@ function restartSwipeSession() {
   swipeState.results = [];
   window.swipePrototype.results = swipeState.results;
   window.swipePrototype.summary = {};
+  window.swipePrototype.profile = {};
   if (swipeElements.resultButton) {
     swipeElements.resultButton.disabled = true;
   }
@@ -314,9 +388,11 @@ window.swipePrototype = {
     swipeState.results = value;
   },
   summary: {},
+  profile: {},
   selectSwipeDishes,
   getNextSwipeDish,
   summarizeSwipeResults,
+  buildRateStats,
   inferRecommendationConditions,
   buildResultsUrl,
   restart: restartSwipeSession
@@ -326,6 +402,7 @@ if (swipeElements.card && swipeDishPool.length > 0) {
   swipeElements.likeButton.addEventListener("click", () => answerSwipe("like"));
   swipeElements.dislikeButton.addEventListener("click", () => answerSwipe("dislike"));
   swipeElements.resultButton.addEventListener("click", () => {
+    saveSwipeSession();
     window.location.href = buildResultsUrl(swipeState.results);
   });
   swipeElements.restartButton.addEventListener("click", restartSwipeSession);

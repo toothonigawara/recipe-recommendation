@@ -282,6 +282,8 @@ const timeDistance = {
 const form = document.querySelector("#recommendForm");
 const recommendations = document.querySelector("#recommendations");
 const summaryStrip = document.querySelector("#summaryStrip");
+const swipeInsightPanel = document.querySelector("#swipeInsightPanel");
+const swipeLikedDishes = document.querySelector("#swipeLikedDishes");
 const template = document.querySelector("#recipeCardTemplate");
 const ingredientDialog = document.querySelector("#ingredientDialog");
 const openIngredientSelector = document.querySelector("#openIngredientSelector");
@@ -299,6 +301,7 @@ const searchButton = document.querySelector("#searchButton");
 const changeConditionsLink = document.querySelector("#changeConditionsLink");
 const brandHomeLink = document.querySelector("#brandHomeLink");
 const floatingBackButton = document.querySelector("#floatingBackButton");
+let activeSwipeDishId = "";
 
 const defaultConditions = {
   taste: "",
@@ -406,6 +409,22 @@ function buildConditionsQuery(conditions) {
 function buildPageUrl(page, conditions) {
   const query = buildConditionsQuery(conditions);
   return query ? `${page}?${query}` : page;
+}
+
+function isSwipeResultRequest() {
+  return new URLSearchParams(window.location.search).get("source") === "swipe";
+}
+
+function readSwipeSession() {
+  if (!isSwipeResultRequest()) return null;
+
+  try {
+    const raw = sessionStorage.getItem("recipeSwipeSession");
+    return raw ? JSON.parse(raw) : null;
+  } catch (error) {
+    console.warn("failed to read swipe session", error);
+    return null;
+  }
 }
 
 function getConditionsPagePath() {
@@ -596,6 +615,13 @@ function matchesHardOptions(recipe, conditions) {
   if (conditions.mainIngredient && !getMainIngredientTypes(recipe).includes(conditions.mainIngredient)) return false;
   if (conditions.noKnife && recipe.knife) return false;
   if (conditions.noHeat && recipe.heat) return false;
+  return true;
+}
+
+function matchesSwipeOptions(recipe, conditions) {
+  if (excludedRecipeIds.has(recipe.videoId)) return false;
+  if (conditions.temperature && getRecipeTemperature(recipe) !== conditions.temperature) return false;
+  if (conditions.mainIngredient && !getMainIngredientTypes(recipe).includes(conditions.mainIngredient)) return false;
   return true;
 }
 
@@ -903,14 +929,17 @@ function renderSelectedIngredients(conditions) {
   }
 }
 
-function renderSummary(conditions) {
+function renderSummary(conditions, swipeSession = null) {
   if (!summaryStrip) return;
 
+  const swipeDishTypes = swipeSession?.profile?.dishTypes || [];
   const tags = [
     conditions.taste ? labels.taste[conditions.taste] : "",
     conditions.time ? labels.time[conditions.time] : "",
     conditions.temperature ? labels.temperature[conditions.temperature] : "",
-    conditions.dishType ? labels.dishType[conditions.dishType] : "",
+    swipeDishTypes.length > 0
+      ? `料理タイプ: ${swipeDishTypes.map((type) => labels.dishType[type]).filter(Boolean).join(" / ")}`
+      : conditions.dishType ? labels.dishType[conditions.dishType] : "",
     conditions.mainIngredient ? labels.mainIngredient[conditions.mainIngredient] : ""
   ].filter(Boolean);
 
@@ -1058,17 +1087,156 @@ function renderCards(scoredRecipes) {
   });
 }
 
+function scoreRecipeForSwipe(recipe, conditions, profile) {
+  const scored = scoreRecipe(recipe, {
+    ...conditions,
+    time: "",
+    dishType: ""
+  });
+  const dishType = getDishType(recipe);
+
+  if (profile.dishTypes && profile.dishTypes.includes(dishType)) {
+    scored.score += 22;
+    scored.reasons = [
+      `食べたい料理タイプ「${labels.dishType[dishType]}」の候補`,
+      ...scored.reasons
+    ].slice(0, 4);
+  }
+
+  return scored;
+}
+
+function selectDiverseSwipeRecommendations(scoredRecipes, dishTypes) {
+  const selected = [];
+  const selectedIds = new Set();
+
+  (dishTypes || []).slice(0, 3).forEach((dishType) => {
+    const candidate = scoredRecipes.find((recipe) => (
+      !selectedIds.has(recipe.videoId) && getDishType(recipe) === dishType
+    ));
+    if (!candidate) return;
+    selected.push(candidate);
+    selectedIds.add(candidate.videoId);
+  });
+
+  scoredRecipes.forEach((recipe) => {
+    if (selected.length >= 3 || selectedIds.has(recipe.videoId)) return;
+    selected.push(recipe);
+    selectedIds.add(recipe.videoId);
+  });
+
+  return selected;
+}
+
+const swipeDishKeywords = {
+  omelette_rice: ["オムライス"],
+  ramen: ["ラーメン"],
+  oyakodon: ["親子丼"],
+  ginger_pork: ["生姜焼き", "しょうが焼き"],
+  yakisoba: ["焼きそば"],
+  seafood_pasta: ["魚介", "シーフード", "パスタ"],
+  curry_rice: ["カレー"],
+  salted_salmon: ["鮭", "サケ", "塩焼き"],
+  bibimbap: ["ビビンバ"],
+  kimchi_jjigae: ["キムチチゲ", "チゲ"],
+  hiyayakko: ["冷奴", "冷ややっこ"],
+  cold_soba: ["ざるそば", "そば", "蕎麦"],
+  egg_sandwich: ["卵サンド", "たまごサンド", "サンド"],
+  hamburger: ["ハンバーガー", "バーガー"],
+  mapo_tofu: ["麻婆豆腐", "マーボー豆腐"],
+  fried_rice: ["チャーハン", "炒飯"],
+  kaisendon: ["海鮮丼", "海鮮"],
+  green_salad: ["サラダ"],
+  caprese: ["カプレーゼ"],
+  gratin: ["グラタン"],
+  tonkatsu: ["とんかつ", "トンカツ"],
+  sanma_shioyaki: ["さんま", "サンマ"],
+  niku_udon: ["肉うどん", "うどん"],
+  kimbap: ["キンパ"],
+  pizza_toast: ["ピザトースト", "トースト"],
+  minestrone: ["ミネストローネ"],
+  tuna_mayo_onigiri: ["ツナマヨ", "おにぎり"],
+  nikujaga: ["肉じゃが"]
+};
+
+function getActiveSwipeDish(swipeSession) {
+  const likedDishes = swipeSession?.profile?.likedDishes || [];
+  return likedDishes.find((dish) => dish.dish_id === activeSwipeDishId) || null;
+}
+
+function recipeMatchesSwipeDish(recipe, dish) {
+  if (!dish) return false;
+
+  const text = `${recipe.title || ""} ${recipe.description || ""}`;
+  const keywords = swipeDishKeywords[dish.dish_id] || [dish.dish_name];
+  return keywords.some((keyword) => text.includes(keyword));
+}
+
+function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
+  const profile = swipeSession?.profile || {};
+  const candidateRecipes = allRecipes.filter((recipe) => matchesSwipeOptions(recipe, conditions));
+  const activeDish = getActiveSwipeDish(swipeSession);
+  const focusedCandidates = activeDish
+    ? candidateRecipes.filter((recipe) => recipeMatchesSwipeDish(recipe, activeDish))
+    : [];
+  const recommendationBase = focusedCandidates.length > 0 ? focusedCandidates : candidateRecipes;
+  const scoredRecipes = candidateRecipes
+    .map((recipe) => scoreRecipeForSwipe(recipe, conditions, profile))
+    .sort((a, b) => b.score - a.score);
+  const focusedScoredRecipes = recommendationBase
+    .map((recipe) => scoreRecipeForSwipe(recipe, conditions, profile))
+    .sort((a, b) => b.score - a.score);
+
+  if (focusedCandidates.length > 0) {
+    return selectDiverseSwipeRecommendations(focusedScoredRecipes, [mapDishShapeToType(activeDish.dish_type)]);
+  }
+
+  return selectDiverseSwipeRecommendations(scoredRecipes, profile.dishTypes);
+}
+
+function mapDishShapeToType(value) {
+  if (value === "丼" || value === "ご飯もの") return "rice";
+  if (value === "パン料理") return "bread";
+  if (value === "麺料理") return "noodle";
+  if (value === "汁物") return "soup";
+  return "side";
+}
+
+function renderSwipeInsight(swipeSession) {
+  if (!swipeInsightPanel || !swipeLikedDishes) return;
+
+  const likedDishes = swipeSession?.profile?.likedDishes || [];
+  swipeInsightPanel.hidden = likedDishes.length === 0;
+  swipeLikedDishes.innerHTML = "";
+
+  likedDishes.slice(0, 10).forEach((dish) => {
+    const chip = document.createElement("button");
+    chip.type = "button";
+    chip.textContent = `${dish.dish_name}系`;
+    chip.className = dish.dish_id === activeSwipeDishId ? "is-active" : "";
+    chip.addEventListener("click", () => {
+      activeSwipeDishId = activeSwipeDishId === dish.dish_id ? "" : dish.dish_id;
+      updateRecommendations();
+    });
+    swipeLikedDishes.appendChild(chip);
+  });
+}
+
 function updateRecommendations() {
   const conditions = readConditions();
+  const swipeSession = readSwipeSession();
   const candidateRecipes = recipes.filter((recipe) => matchesHardOptions(recipe, conditions));
-  const recommendedRecipes = hasActiveConditions(conditions)
-    ? candidateRecipes
-        .map((recipe) => scoreRecipe(recipe, conditions))
-        .sort((a, b) => b.score - a.score)
-    : getRandomRecommendations(candidateRecipes);
+  const recommendedRecipes = swipeSession
+    ? getSwipeRecommendedRecipes(recipes, conditions, swipeSession)
+    : hasActiveConditions(conditions)
+      ? candidateRecipes
+          .map((recipe) => scoreRecipe(recipe, conditions))
+          .sort((a, b) => b.score - a.score)
+      : getRandomRecommendations(candidateRecipes);
 
   renderSelectedIngredients(conditions);
-  renderSummary(conditions);
+  renderSummary(conditions, swipeSession);
+  renderSwipeInsight(swipeSession);
   renderCards(recommendedRecipes);
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
