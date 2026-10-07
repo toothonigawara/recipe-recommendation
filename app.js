@@ -282,6 +282,7 @@ const timeDistance = {
 const form = document.querySelector("#recommendForm");
 const recommendations = document.querySelector("#recommendations");
 const summaryStrip = document.querySelector("#summaryStrip");
+const resultJumpNav = document.querySelector("#resultJumpNav");
 const swipeInsightPanel = document.querySelector("#swipeInsightPanel");
 const swipeLikedDishes = document.querySelector("#swipeLikedDishes");
 const template = document.querySelector("#recipeCardTemplate");
@@ -1021,12 +1022,15 @@ function renderCards(scoredRecipes) {
   recommendations.innerHTML = "";
 
   if (scoredRecipes.length === 0) {
+    if (resultJumpNav) resultJumpNav.hidden = true;
     const empty = document.createElement("p");
     empty.className = "empty-state";
     empty.textContent = "条件に合う動画が見つかりませんでした。条件を少しゆるめて検索してください。";
     recommendations.appendChild(empty);
     return;
   }
+
+  if (resultJumpNav) resultJumpNav.hidden = false;
 
   scoredRecipes.slice(0, 3).forEach((recipe, index) => {
     const card = template.content.cloneNode(true);
@@ -1044,6 +1048,9 @@ function renderCards(scoredRecipes) {
     const youtubeLink = card.querySelector(".youtube-link");
     const videoUrl = buildVideoUrl(recipe);
 
+    article.id = `recipe-${index + 1}`;
+    article.tabIndex = -1;
+    article.setAttribute("aria-label", `推薦動画 ${index + 1}: ${recipe.title}`);
     article.style.setProperty("--rank", index + 1);
     image.src = getYoutubeThumbnail(recipe);
     image.alt = `${recipe.title}の動画サムネイル`;
