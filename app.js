@@ -1149,7 +1149,7 @@ const swipeDishKeywords = {
   hiyayakko: ["冷奴", "冷ややっこ"],
   cold_soba: ["ざるそば", "そば", "蕎麦"],
   egg_sandwich: ["卵サンド", "たまごサンド", "サンド"],
-  hamburger: ["ハンバーガー", "バーガー"],
+  hamburger: ["ハンバーグ"],
   mapo_tofu: ["麻婆豆腐", "マーボー豆腐"],
   fried_rice: ["チャーハン", "炒飯"],
   kaisendon: ["海鮮丼", "海鮮"],
