@@ -33,7 +33,7 @@ TAG_TITLE_HINTS = {
     "rice": ("米", "ライス", "丼", "炒飯", "チャーハン", "オムライス", "おにぎり", "雑炊"),
     "udon": ("うどん",),
     "soba": ("そば", "蕎麦"),
-    "pasta": ("パスタ", "スパゲッティ", "ナポリタン", "ペペロンチーノ", "カルボナーラ"),
+    "pasta": ("パスタ", "スパゲッティ", "ナポリタン", "ペペロンチーノ", "カルボナーラ", "ミネストローネ"),
     "noodles": ("中華麺", "焼きそば", "冷やし中華", "担々麺", "ラーメン"),
     "rice_noodles": ("ビーフン", "フォー"),
 }
@@ -148,6 +148,21 @@ NON_RECIPE_TITLE_REGEXES = [
     (re.compile(r"(?:ごはん|ご飯|弁当|自炊).*?記録"), "title looks like a diary rather than a single recipe"),
     (re.compile(r"食費.*?(?:生活|記録|紹介|節約)"), "title looks like budget-life content rather than a single recipe"),
 ]
+BENTO_SUBPOSITION_REGEX = re.compile(
+    r"(?:お?弁当|べんとう|bento).{0,10}(?:にも|におすすめ|にもおすすめ|使える|ぴったり|便利)"
+    r"|(?:お弁当|べんとう).{0,6}おかず"
+)
+BENTO_MAIN_REGEX = re.compile(
+    r"(?:ランチケース|ランチボックス|lunchbox|lunch box)"
+    r"|"
+    r"(?:丼弁当|お?弁当レシピ|べんとうレシピ|bento recipe)"
+    r"|"
+    r"(?:お?弁当|べんとう|bento).{0,14}"
+    r"(?:作り|づくり|詰め|詰め方|詰める|記録|献立|毎日|冷凍弁当|節約弁当|弁当レシピ|ランチケース|ランチボックス|lunchbox|lunch box)"
+    r"|(?:旦那|夫|高校生|幼稚園|園児|息子|娘|OL|一人暮らし|同棲).{0,8}(?:お?弁当|べんとう)"
+    r"|(?:お?弁当|べんとう|bento).{0,14}(?:旦那|夫|高校生|幼稚園|園児|息子|娘|OL|一人暮らし|同棲)"
+    r"|(?:冷凍|節約|ズボラ|そうめん|パスタ|グラタン|カオマンガイ|うどん|ステーキ).{0,8}(?:お?弁当|べんとう)"
+)
 
 
 def read_rows(path: Path) -> list[dict[str, str]]:
@@ -228,6 +243,8 @@ def check_non_recipe_titles(rows: list[dict[str, str]]) -> list[str]:
     warnings = []
     for index, row in enumerate(rows, 2):
         title = row.get("メニュー") or ""
+        if BENTO_MAIN_REGEX.search(title) and not BENTO_SUBPOSITION_REGEX.search(title):
+            warnings.append(f"P0 L{index} {title}: title looks like a lunchbox-making video")
         for rule in NON_RECIPE_TITLE_PATTERNS:
             has_required_words = all(word in title for word in rule["required"])
             has_hint_words = not rule["hints"] or any(word in title for word in rule["hints"])

@@ -11,7 +11,10 @@
       <section class="swipe-stage" aria-labelledby="page-title">
         <div class="site-topbar swipe-topbar">
           <a class="brand-pill" href="index.html">動画レシピ提案サイト</a>
-          <a href="conditions.html">条件検索</a>
+          <aside class="topbar-condition-card" aria-label="条件検索への入口">
+            <span>詳しい条件を指定したい方はこちらから</span>
+            <a href="conditions.html">条件で検索する</a>
+          </aside>
         </div>
 
         <header class="swipe-intro">
@@ -19,15 +22,21 @@
           <h1 id="page-title">今日食べたい料理をスワイプ</h1>
           <p class="lead">
             代表的な料理を見ながら、今の気分に近いものを選んでください。
+            スワイプ結果に近い実在YouTubeレシピを表示します。
           </p>
         </header>
 
         <section class="swipe-workspace" aria-label="代表料理スワイプ">
           <div class="swipe-progress" aria-live="polite">
-            <span id="swipeProgressText">1 / 8</span>
+            <span id="swipeProgressText">1 / 10</span>
             <div class="swipe-progress-bar" aria-hidden="true">
               <span id="swipeProgressBar"></span>
             </div>
+          </div>
+
+          <div class="swipe-direction-hint" aria-label="スワイプ方向の説明">
+            <span class="swipe-direction-dislike">← 左へ: 今じゃない</span>
+            <span class="swipe-direction-like">右へ: 食べたい →</span>
           </div>
 
           <div class="swipe-card-area" id="swipeCardArea">
@@ -40,22 +49,18 @@
                 <h2 id="swipeDishName"></h2>
               </div>
             </article>
+            <section class="swipe-complete-card" id="swipeCompleteCard" hidden aria-live="polite">
+              <p>10枚のスワイプが完了しました</p>
+              <button class="primary-action swipe-result-action" id="swipeResultButton" type="button">検索結果を表示</button>
+            </section>
           </div>
 
           <div class="swipe-actions" aria-label="回答操作">
-            <button class="swipe-action swipe-dislike-button" id="swipeDislikeButton" type="button">今じゃない</button>
-            <button class="swipe-action swipe-like-button" id="swipeLikeButton" type="button">食べたい</button>
+            <button class="swipe-action swipe-dislike-button" id="swipeDislikeButton" type="button">← 今じゃない</button>
+            <button class="swipe-action swipe-like-button" id="swipeLikeButton" type="button">食べたい →</button>
           </div>
 
-          <section class="swipe-complete" id="swipeComplete" hidden>
-            <p class="section-kicker">Analyzing</p>
-            <h2>今日のおすすめを探しています</h2>
-            <p>ここに後から、スワイプ結果に近い実在YouTubeレシピを表示します。</p>
-            <div class="swipe-complete-actions">
-              <button class="primary-action" id="swipeResultButton" type="button">結果を見る</button>
-              <button class="secondary-action" id="swipeRestartButton" type="button">もう一度試す</button>
-            </div>
-          </section>
+          <button class="secondary-action swipe-restart-inline" id="swipeRestartButton" type="button">もう一度試す</button>
         </section>
 
         <details class="swipe-debug" id="swipeDebug">

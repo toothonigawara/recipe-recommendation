@@ -244,6 +244,21 @@ NON_RECIPE_TITLE_REGEXES = (
     re.compile(r"(?:ごはん|ご飯|弁当|自炊).*?記録"),
     re.compile(r"食費.*?(?:生活|記録|紹介|節約)"),
 )
+BENTO_SUBPOSITION_REGEX = re.compile(
+    r"(?:お?弁当|べんとう|bento).{0,10}(?:にも|におすすめ|にもおすすめ|使える|ぴったり|便利)"
+    r"|(?:お弁当|べんとう).{0,6}おかず"
+)
+BENTO_MAIN_REGEX = re.compile(
+    r"(?:ランチケース|ランチボックス|lunchbox|lunch box)"
+    r"|"
+    r"(?:丼弁当|お?弁当レシピ|べんとうレシピ|bento recipe)"
+    r"|"
+    r"(?:お?弁当|べんとう|bento).{0,14}"
+    r"(?:作り|づくり|詰め|詰め方|詰める|記録|献立|毎日|冷凍弁当|節約弁当|弁当レシピ|ランチケース|ランチボックス|lunchbox|lunch box)"
+    r"|(?:旦那|夫|高校生|幼稚園|園児|息子|娘|OL|一人暮らし|同棲).{0,8}(?:お?弁当|べんとう)"
+    r"|(?:お?弁当|べんとう|bento).{0,14}(?:旦那|夫|高校生|幼稚園|園児|息子|娘|OL|一人暮らし|同棲)"
+    r"|(?:冷凍|節約|ズボラ|そうめん|パスタ|グラタン|カオマンガイ|うどん|ステーキ).{0,8}(?:お?弁当|べんとう)"
+)
 MAX_DURATION_SECONDS = 300
 TITLE_ONLY_TAGS = {"rice", "soba", "bread"}
 NEGATED_TAG_PATTERNS = {
@@ -292,6 +307,8 @@ def is_likely_recipe_record(title: str, description: str) -> bool:
 
 
 def is_excluded_title(title: str) -> bool:
+    if BENTO_MAIN_REGEX.search(title) and not BENTO_SUBPOSITION_REGEX.search(title):
+        return True
     return any(word in title for word in EXCLUDED_TITLE_WORDS) or any(
         pattern.search(title) for pattern in NON_RECIPE_TITLE_REGEXES
     )

@@ -29,7 +29,7 @@ const swipeElements = {
   progressBar: document.querySelector("#swipeProgressBar"),
   likeButton: document.querySelector("#swipeLikeButton"),
   dislikeButton: document.querySelector("#swipeDislikeButton"),
-  complete: document.querySelector("#swipeComplete"),
+  complete: document.querySelector("#swipeCompleteCard"),
   resultButton: document.querySelector("#swipeResultButton"),
   restartButton: document.querySelector("#swipeRestartButton"),
   debugOutput: document.querySelector("#swipeDebugOutput")
@@ -262,19 +262,24 @@ function renderSwipeDish() {
   swipeElements.progressBar.style.width = `${(swipeState.currentIndex / progressTotal) * 100}%`;
 
   swipeElements.card.hidden = false;
-  swipeElements.complete.hidden = true;
+  if (swipeElements.complete) swipeElements.complete.hidden = true;
   setSwipeButtonsDisabled(false);
+  if (swipeElements.resultButton) {
+    swipeElements.resultButton.hidden = true;
+    swipeElements.resultButton.disabled = true;
+  }
   resetCardPosition();
   updateDebugOutput();
 }
 
 function renderSwipeComplete() {
   swipeElements.card.hidden = true;
-  swipeElements.complete.hidden = false;
+  if (swipeElements.complete) swipeElements.complete.hidden = false;
   swipeElements.progressText.textContent = `${swipeState.deck.length} / ${swipeState.deck.length}`;
   swipeElements.progressBar.style.width = "100%";
   setSwipeButtonsDisabled(true);
   if (swipeElements.resultButton) {
+    swipeElements.resultButton.hidden = false;
     swipeElements.resultButton.disabled = false;
   }
   updateDebugOutput();
@@ -372,6 +377,7 @@ function restartSwipeSession() {
   window.swipePrototype.summary = {};
   window.swipePrototype.profile = {};
   if (swipeElements.resultButton) {
+    swipeElements.resultButton.hidden = true;
     swipeElements.resultButton.disabled = true;
   }
   renderSwipeDish();
