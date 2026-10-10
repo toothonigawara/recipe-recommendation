@@ -16,6 +16,13 @@ const labels = {
     warm: "温かい",
     cold: "冷たい"
   },
+  genre: {
+    "和食": "和食",
+    "洋食": "洋食",
+    "中華": "中華",
+    "韓国": "韓国",
+    "その他": "その他"
+  },
   dishType: {
     rice: "丼物",
     bread: "パン系",
@@ -933,15 +940,19 @@ function renderSelectedIngredients(conditions) {
 function renderSummary(conditions, swipeSession = null) {
   if (!summaryStrip) return;
 
+  const swipeGenres = swipeSession?.profile?.genres || [];
   const swipeDishTypes = swipeSession?.profile?.dishTypes || [];
   const tags = [
     conditions.taste ? labels.taste[conditions.taste] : "",
     conditions.time ? labels.time[conditions.time] : "",
     conditions.temperature ? labels.temperature[conditions.temperature] : "",
+    swipeGenres.length > 0
+      ? `ジャンル: ${swipeGenres.map((genre) => labels.genre[genre] || genre).join(" / ")}`
+      : "",
     swipeDishTypes.length > 0
       ? `料理タイプ: ${swipeDishTypes.map((type) => labels.dishType[type]).filter(Boolean).join(" / ")}`
       : conditions.dishType ? labels.dishType[conditions.dishType] : "",
-    conditions.mainIngredient ? labels.mainIngredient[conditions.mainIngredient] : ""
+    !swipeSession && conditions.mainIngredient ? labels.mainIngredient[conditions.mainIngredient] : ""
   ].filter(Boolean);
 
   if (conditions.noKnife) tags.push("包丁なし");
@@ -1098,9 +1109,19 @@ function scoreRecipeForSwipe(recipe, conditions, profile) {
   const scored = scoreRecipe(recipe, {
     ...conditions,
     time: "",
-    dishType: ""
+    dishType: "",
+    mainIngredient: ""
   });
+  const genre = getRecipeGenre(recipe);
   const dishType = getDishType(recipe);
+
+  if (profile.genres && profile.genres.includes(genre)) {
+    scored.score += 18;
+    scored.reasons = [
+      `食べたい料理ジャンル「${labels.genre[genre] || genre}」の候補`,
+      ...scored.reasons
+    ].slice(0, 4);
+  }
 
   if (profile.dishTypes && profile.dishTypes.includes(dishType)) {
     scored.score += 22;
@@ -1222,17 +1243,23 @@ function recipeMatchesSwipeDish(recipe, dish) {
 
 function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
   const profile = swipeSession?.profile || {};
-  const candidateRecipes = allRecipes.filter((recipe) => matchesSwipeOptions(recipe, conditions));
+  const swipeConditions = {
+    ...conditions,
+    time: "",
+    dishType: "",
+    mainIngredient: ""
+  };
+  const candidateRecipes = allRecipes.filter((recipe) => matchesSwipeOptions(recipe, swipeConditions));
   const activeDish = getActiveSwipeDish(swipeSession);
   const focusedCandidates = activeDish
     ? candidateRecipes.filter((recipe) => recipeMatchesSwipeDish(recipe, activeDish))
     : [];
   const recommendationBase = focusedCandidates.length > 0 ? focusedCandidates : candidateRecipes;
   const scoredRecipes = candidateRecipes
-    .map((recipe) => scoreRecipeForSwipe(recipe, conditions, profile))
+    .map((recipe) => scoreRecipeForSwipe(recipe, swipeConditions, profile))
     .sort((a, b) => b.score - a.score);
   const focusedScoredRecipes = recommendationBase
-    .map((recipe) => scoreRecipeForSwipe(recipe, conditions, profile))
+    .map((recipe) => scoreRecipeForSwipe(recipe, swipeConditions, profile))
     .sort((a, b) => b.score - a.score);
 
   if (focusedCandidates.length > 0) {

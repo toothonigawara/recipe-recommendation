@@ -157,49 +157,32 @@ function mapDishType(value) {
   return "side";
 }
 
-function mapMainIngredient(value) {
-  return {
-    "肉": "meat",
-    "魚": "fish",
-    "卵": "egg",
-    "豆腐・大豆": "soy",
-    "野菜中心": "vegetable",
-    "その他": "other"
-  }[value] || "";
-}
-
 function inferRecommendationConditions(results) {
   const tasteStats = buildRateStats(results, "taste_level").filter((item) => item.likes > 0);
   const temperatureStats = buildRateStats(results, "temperature").filter((item) => item.likes > 0);
+  const genreStats = buildRateStats(results, "genre").filter((item) => item.likes > 0);
   const dishTypeStats = buildRateStats(results, "dish_type").filter((item) => item.likes > 0);
-  const mainIngredientStats = buildRateStats(results, "main_ingredient").filter((item) => item.likes > 0);
-  const topIngredient = mainIngredientStats[0];
-  const nextIngredient = mainIngredientStats[1];
-  const shouldUseMainIngredient = Boolean(
-    topIngredient &&
-    topIngredient.likes >= 2 &&
-    topIngredient.likeRate >= 0.67 &&
-    (!nextIngredient || topIngredient.likes > nextIngredient.likes || topIngredient.likeRate >= 0.8)
-  );
 
   return {
     taste: mapTasteLevel(tasteStats[0]?.value),
     temperature: mapTemperature(temperatureStats[0]?.value),
+    genres: genreStats.slice(0, 3).map((item) => item.value).filter(Boolean),
     dishTypes: dishTypeStats.slice(0, 3).map((item) => mapDishType(item.value)).filter(Boolean),
-    mainIngredient: shouldUseMainIngredient ? mapMainIngredient(topIngredient.value) : "",
     likedDishes: results
       .filter((result) => result.action === "like")
       .map((result) => ({
         dish_id: result.dish_id,
         dish_name: result.dish_name,
+        genre: result.genre,
         dish_type: result.dish_type,
         main_ingredient: result.main_ingredient
       })),
     stats: {
       taste: tasteStats,
       temperature: temperatureStats,
+      genre: genreStats,
       dishType: dishTypeStats,
-      mainIngredient: mainIngredientStats
+      mainIngredient: buildRateStats(results, "main_ingredient").filter((item) => item.likes > 0)
     }
   };
 }
@@ -209,8 +192,7 @@ function buildResultsUrl(results) {
   const params = new URLSearchParams();
   Object.entries({
     taste: conditions.taste,
-    temperature: conditions.temperature,
-    mainIngredient: conditions.mainIngredient
+    temperature: conditions.temperature
   }).forEach(([key, value]) => {
     if (value) params.set(key, value);
   });
