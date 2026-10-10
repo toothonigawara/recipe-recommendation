@@ -165,8 +165,8 @@ TAG_CATEGORY_MAP = {
 
 # 味スコアの仮モデルで使う重み。
 RICHNESS_WEIGHTS = {
-    "ingredient": 0.6,
-    "oil": 0.3,
+    "ingredient": 0.5,
+    "oil": 0.4,
     "creator": 0.1,
 }
 
@@ -438,7 +438,7 @@ def calculate_richness_score(
     """材料・油感・投稿者傾向からrichness_scoreを計算する。
 
     仮モデル:
-    richness_score = 0.6 * 材料 + 0.3 * 油感 + 0.1 * 投稿者
+    richness_score = 0.5 * 材料 + 0.4 * 油感 + 0.1 * 投稿者
     """
     if row.get(ingredient_score_column):
         ingredient_score = parse_number(row.get(ingredient_score_column))

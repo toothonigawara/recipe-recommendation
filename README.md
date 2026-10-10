@@ -168,7 +168,7 @@ python3 scripts/curate_recipe_ingredients.py
 
 `taste_level` は固定しきい値ではなく、CSV内の全 `richness_score` のQ1、Q2、Q3で分類します。
 
-現在の味スコアは `0.6×材料 + 0.3×油感 + 0.1×投稿者` で計算します。
+現在の味スコアは `0.5×材料 + 0.4×油感 + 0.1×投稿者` で計算します。
 
 ## 1人前換算
 

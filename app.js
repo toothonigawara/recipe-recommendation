@@ -854,8 +854,8 @@ function getTentativeRichnessProfile(recipe) {
   const creator = getCreatorTasteScore(recipe);
 
   // 仮モデル:
-  // 味スコア = 0.6 * 材料 + 0.3 * 油感 + 0.1 * 投稿者
-  const score = material * 0.6 + oil * 0.3 + creator * 0.1;
+  // 味スコア = 0.5 * 材料 + 0.4 * 油感 + 0.1 * 投稿者
+  const score = material * 0.5 + oil * 0.4 + creator * 0.1;
   return {
     score: Math.round(score * 10) / 10,
     material,
@@ -1113,24 +1113,65 @@ function scoreRecipeForSwipe(recipe, conditions, profile) {
   return scored;
 }
 
-function selectDiverseSwipeRecommendations(scoredRecipes, dishTypes) {
+const swipeRecommendationRandomPoolSize = 30;
+
+function getRecipeGenre(recipe) {
+  return recipe.featureTags?.genre || "その他";
+}
+
+function pickRandomRecipe(scoredRecipes, selectedIds, predicate = () => true) {
+  const pool = scoredRecipes
+    .filter((recipe) => !selectedIds.has(recipe.videoId) && predicate(recipe))
+    .slice(0, swipeRecommendationRandomPoolSize);
+  if (pool.length === 0) return null;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
+
+function addSelectedRecipe(selected, selectedIds, recipe) {
+  if (!recipe || selectedIds.has(recipe.videoId)) return false;
+  selected.push(recipe);
+  selectedIds.add(recipe.videoId);
+  return true;
+}
+
+function hasDifferentGenreCandidate(scoredRecipes, selectedIds, baseGenre) {
+  return scoredRecipes.some((recipe) => !selectedIds.has(recipe.videoId) && getRecipeGenre(recipe) !== baseGenre);
+}
+
+function hasDifferentDishTypeCandidate(scoredRecipes, selectedIds, baseDishType) {
+  return scoredRecipes.some((recipe) => !selectedIds.has(recipe.videoId) && getDishType(recipe) !== baseDishType);
+}
+
+function selectDiverseSwipeRecommendations(scoredRecipes) {
   const selected = [];
   const selectedIds = new Set();
+  const first = pickRandomRecipe(scoredRecipes, selectedIds);
 
-  (dishTypes || []).slice(0, 3).forEach((dishType) => {
-    const candidate = scoredRecipes.find((recipe) => (
-      !selectedIds.has(recipe.videoId) && getDishType(recipe) === dishType
-    ));
-    if (!candidate) return;
-    selected.push(candidate);
-    selectedIds.add(candidate.videoId);
-  });
+  if (!addSelectedRecipe(selected, selectedIds, first)) return [];
 
-  scoredRecipes.forEach((recipe) => {
-    if (selected.length >= 3 || selectedIds.has(recipe.videoId)) return;
-    selected.push(recipe);
-    selectedIds.add(recipe.videoId);
-  });
+  const firstGenre = getRecipeGenre(first);
+  const firstDishType = getDishType(first);
+  const differentGenre = hasDifferentGenreCandidate(scoredRecipes, selectedIds, firstGenre)
+    ? pickRandomRecipe(scoredRecipes, selectedIds, (recipe) => getRecipeGenre(recipe) !== firstGenre)
+    : pickRandomRecipe(scoredRecipes, selectedIds);
+  addSelectedRecipe(selected, selectedIds, differentGenre);
+
+  const differentDishType = hasDifferentDishTypeCandidate(scoredRecipes, selectedIds, firstDishType)
+    ? pickRandomRecipe(scoredRecipes, selectedIds, (recipe) => getDishType(recipe) !== firstDishType)
+    : pickRandomRecipe(scoredRecipes, selectedIds);
+  addSelectedRecipe(selected, selectedIds, differentDishType);
+
+  while (selected.length < 3) {
+    const usedGenres = new Set(selected.map(getRecipeGenre));
+    const usedDishTypes = new Set(selected.map(getDishType));
+    const diverseCandidate = pickRandomRecipe(
+      scoredRecipes,
+      selectedIds,
+      (recipe) => !usedGenres.has(getRecipeGenre(recipe)) && !usedDishTypes.has(getDishType(recipe))
+    );
+    const fallbackCandidate = diverseCandidate || pickRandomRecipe(scoredRecipes, selectedIds);
+    if (!addSelectedRecipe(selected, selectedIds, fallbackCandidate)) break;
+  }
 
   return selected;
 }
@@ -1195,18 +1236,10 @@ function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
     .sort((a, b) => b.score - a.score);
 
   if (focusedCandidates.length > 0) {
-    return selectDiverseSwipeRecommendations(focusedScoredRecipes, [mapDishShapeToType(activeDish.dish_type)]);
+    return selectDiverseSwipeRecommendations(focusedScoredRecipes);
   }
 
-  return selectDiverseSwipeRecommendations(scoredRecipes, profile.dishTypes);
-}
-
-function mapDishShapeToType(value) {
-  if (value === "丼" || value === "ご飯もの") return "rice";
-  if (value === "パン料理") return "bread";
-  if (value === "麺料理") return "noodle";
-  if (value === "汁物") return "soup";
-  return "side";
+  return selectDiverseSwipeRecommendations(scoredRecipes);
 }
 
 function renderSwipeInsight(swipeSession) {
