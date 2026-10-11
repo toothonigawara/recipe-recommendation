@@ -1225,7 +1225,17 @@ const swipeDishKeywords = {
   pizza_toast: ["ピザトースト", "トースト"],
   minestrone: ["ミネストローネ"],
   tuna_mayo_onigiri: ["ツナマヨ", "おにぎり"],
-  nikujaga: ["肉じゃが"]
+  nikujaga: ["肉じゃが"],
+  french_toast: ["フレンチトースト"],
+  blt_sandwich: ["BLT", "サンド"],
+  chawanmushi: ["茶碗蒸し", "ちゃわん蒸し"],
+  yudofu: ["湯豆腐"],
+  hiyashi_chuka: ["冷やし中華"],
+  cold_pasta: ["冷製パスタ", "冷たいパスタ"],
+  zosui: ["雑炊"],
+  saba_miso: ["サバ味噌", "鯖味噌", "さば味噌"],
+  vegetable_stir_fry: ["野菜炒め"],
+  tonjiru: ["豚汁"]
 };
 
 function getActiveSwipeDish(swipeSession) {
