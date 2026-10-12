@@ -23,8 +23,8 @@
             <span class="swipe-title-pop">スワイプ</span>
           </h1>
           <p class="lead">
-            代表的な料理を見ながら、今の気分に近いものを選んでください。
-            スワイプ結果に近い実在YouTubeレシピを表示します。
+            <span>代表的な料理を見ながら、今の気分に近いものを選んでください。</span>
+            <span>スワイプ結果に近い実在YouTubeレシピを表示します。</span>
           </p>
         </header>
 
@@ -36,9 +36,15 @@
             </div>
           </div>
 
-          <div class="swipe-direction-hint" aria-label="スワイプ方向の説明">
-            <span class="swipe-direction-dislike">← 左へ: 今じゃない</span>
-            <span class="swipe-direction-like">右へ: 食べたい →</span>
+          <div class="swipe-actions" aria-label="回答操作">
+            <button class="swipe-action swipe-dislike-button" id="swipeDislikeButton" type="button">
+              <span class="swipe-action-direction">← 左へスワイプ</span>
+              <span class="swipe-action-choice">今じゃない</span>
+            </button>
+            <button class="swipe-action swipe-like-button" id="swipeLikeButton" type="button">
+              <span class="swipe-action-direction">右へスワイプ →</span>
+              <span class="swipe-action-choice">食べたい</span>
+            </button>
           </div>
 
           <div class="swipe-card-area" id="swipeCardArea">
@@ -55,11 +61,6 @@
               <p>10枚のスワイプが完了しました</p>
               <button class="primary-action swipe-result-action" id="swipeResultButton" type="button">検索結果を表示</button>
             </section>
-          </div>
-
-          <div class="swipe-actions" aria-label="回答操作">
-            <button class="swipe-action swipe-dislike-button" id="swipeDislikeButton" type="button">← 今じゃない</button>
-            <button class="swipe-action swipe-like-button" id="swipeLikeButton" type="button">食べたい →</button>
           </div>
 
           <button class="secondary-action swipe-restart-inline" id="swipeRestartButton" type="button">もう一度試す</button>

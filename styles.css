@@ -112,7 +112,11 @@
 }
 
 .swipe-intro .lead {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
   margin-inline: auto;
+  text-align: center;
 }
 
 .swipe-workspace {
@@ -144,34 +148,6 @@
   border-radius: inherit;
   background: #0aa982;
   transition: width 0.18s ease;
-}
-
-.swipe-direction-hint {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px;
-  margin-bottom: 12px;
-}
-
-.swipe-direction-hint span {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 38px;
-  padding: 8px 10px;
-  border: 2px solid rgba(122, 77, 53, 0.15);
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.84);
-  font-size: 0.84rem;
-  font-weight: 900;
-}
-
-.swipe-direction-dislike {
-  color: #9b3b30;
-}
-
-.swipe-direction-like {
-  color: #08745f;
 }
 
 .swipe-card-area {
@@ -267,17 +243,32 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
-  margin-top: 16px;
+  margin: 0 0 14px;
 }
 
 .swipe-action {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 3px;
   min-height: 58px;
+  padding: 8px 10px;
   border: 2px solid rgba(122, 77, 53, 0.2);
   border-radius: 999px;
   background: #fff;
   color: var(--ink);
   font-weight: 900;
+  line-height: 1.15;
   cursor: pointer;
+}
+
+.swipe-action-direction {
+  font-size: 0.78rem;
+  opacity: 0.72;
+}
+
+.swipe-action-choice {
+  font-size: 1rem;
 }
 
 .swipe-action:disabled {
