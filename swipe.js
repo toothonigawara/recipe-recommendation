@@ -278,13 +278,13 @@ function setSwipeButtonsDisabled(disabled) {
 
 function resetCardPosition() {
   swipeState.isAnimating = false;
-  swipeElements.card.classList.remove("is-like", "is-dislike", "is-resetting");
+  swipeElements.card.classList.remove("is-like", "is-dislike", "is-resetting", "is-dragging");
   swipeElements.card.style.transform = "";
 }
 
-function moveCard(x, y) {
+function moveCard(x) {
   const rotate = Math.max(-14, Math.min(14, x / 14));
-  swipeElements.card.style.transform = `translate(${x}px, ${y}px) rotate(${rotate}deg)`;
+  swipeElements.card.style.transform = `translate3d(${x}px, 0, 0) rotate(${rotate}deg)`;
   swipeElements.card.classList.toggle("is-like", x > 24);
   swipeElements.card.classList.toggle("is-dislike", x < -24);
 }
@@ -307,9 +307,10 @@ function answerSwipe(action) {
   const direction = action === "like" ? 1 : -1;
   swipeState.isAnimating = true;
   setSwipeButtonsDisabled(true);
+  swipeElements.card.classList.remove("is-dragging");
   swipeElements.card.classList.toggle("is-like", action === "like");
   swipeElements.card.classList.toggle("is-dislike", action === "dislike");
-  swipeElements.card.style.transform = `translate(${direction * 120}vw, -12px) rotate(${direction * 18}deg)`;
+  swipeElements.card.style.transform = `translate3d(${direction * 120}vw, -12px, 0) rotate(${direction * 18}deg)`;
 
   window.setTimeout(() => {
     recordSwipe(action);
@@ -324,6 +325,7 @@ function startDrag(event) {
   swipeState.drag.startY = event.clientY;
   swipeState.drag.currentX = 0;
   swipeState.drag.currentY = 0;
+  swipeElements.card.classList.add("is-dragging");
   swipeElements.card.setPointerCapture(event.pointerId);
 }
 
@@ -332,7 +334,7 @@ function moveDrag(event) {
 
   swipeState.drag.currentX = event.clientX - swipeState.drag.startX;
   swipeState.drag.currentY = event.clientY - swipeState.drag.startY;
-  moveCard(swipeState.drag.currentX, swipeState.drag.currentY);
+  moveCard(swipeState.drag.currentX);
 }
 
 function endDrag(event) {
@@ -347,6 +349,7 @@ function endDrag(event) {
     return;
   }
 
+  swipeElements.card.classList.remove("is-dragging");
   swipeElements.card.classList.add("is-resetting");
   window.setTimeout(resetCardPosition, 160);
 }

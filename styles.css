@@ -154,7 +154,7 @@
   position: relative;
   display: grid;
   min-height: min(640px, calc(100vh - 300px));
-  touch-action: pan-y;
+  touch-action: none;
 }
 
 .swipe-card {
@@ -167,8 +167,12 @@
   background: #fff;
   box-shadow: 0 16px 34px rgba(35, 32, 31, 0.14);
   cursor: grab;
+  touch-action: none;
   user-select: none;
   transition: transform 0.22s ease;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 .swipe-card:active {
@@ -177,6 +181,10 @@
 
 .swipe-card.is-resetting {
   transition: transform 0.16s ease;
+}
+
+.swipe-card.is-dragging {
+  transition: none;
 }
 
 .swipe-card img {
