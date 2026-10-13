@@ -13,7 +13,7 @@
 - 温度の選択
 - 料理タイプと中心食材のカテゴリ選択
 - 包丁なし・火なしのオプション
-- 実在YouTube料理動画2000件の推薦データ
+- 精査済みの実在YouTube料理動画の推薦データ
 - 推薦カードからYouTube動画をサイト内で埋め込み再生
 - 調理負荷、洗い物、工程数を含むスコアリング
 - 味の傾向は、個別材料をカテゴリへ変換したうえで材料・油感・投稿者傾向からrichness_scoreを計算し、全レシピの四分位数で4段階分類
@@ -34,7 +34,7 @@ python3 -m http.server 8000
 http://127.0.0.1:8000/index.html
 ```
 
-YouTube Data APIで収集した実在する料理動画2000件を推薦対象にしています。
+YouTube Data APIで収集した実在する料理動画を推薦対象にしています。現在の精査済みデータは3000件です。
 
 - 2000件版CSV: `data/2000件料理レシピ.csv`
 - API取得元データ: `data/youtube_api_recipes.json`, `data/youtube_api_recipes.csv`
@@ -74,10 +74,10 @@ YouTube Data APIのキーを環境変数に設定してから実行します。
 export YOUTUBE_API_KEY="取得したAPIキー"
 ```
 
-1. YouTube Data APIで2000件以上収集
+1. YouTube Data APIで3000件以上収集
 
 ```bash
-python3 scripts/collect_youtube_api_recipes.py --target-count 2500 --merge-existing
+python3 scripts/collect_youtube_api_recipes.py --target-count 4000 --merge-existing
 ```
 
 2. 取得データをCSV/JSONに保存
@@ -96,10 +96,18 @@ python3 scripts/build_recipe_dataset.py \
   --csv-output data/2000件料理レシピ.csv \
   --json-output data/2000_recipes_scored.json \
   --js-output recipes-data.js \
-  --limit 2000
+  --limit 3000
 ```
 
 `data/recipes-master.csv` に `review_status=confirmed` の行がある場合は、YouTube説明文からの自動抽出よりも台帳の `exact_ingredients`、調理時間、包丁、火などを優先します。未確認データは `fact_status=estimated` として出力し、確認済みデータと区別します。
+
+YouTubeテキストは、ノイズ混入を減らすために根拠の強さを分けて扱います。
+
+- タイトル本文: 強い根拠
+- 冒頭説明文: 中くらいの根拠
+- 材料欄: 強い根拠
+- ハッシュタグ: 弱い根拠
+- 関連動画リンク、SNS、宣伝以降: 原則無視
 
 料理ジャンル、主食、料理の形、中心食材、味、温度、調理時間、調理負荷は、各タグごとに `*_confidence` と `*_basis` を付けて出力します。confidenceが低いものは `data/recipe-tag-review.csv` に抽出されます。
 

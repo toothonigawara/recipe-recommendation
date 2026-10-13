@@ -10,6 +10,8 @@ import json
 import re
 from dataclasses import dataclass
 
+from recipe_text_context import RecipeTextContext, build_text_context
+
 
 MEAT_TAGS = {"beef", "pork", "chicken", "minced_meat", "ham", "bacon"}
 FISH_TAGS = {
@@ -215,14 +217,16 @@ def parse_tags(value: str | list[str] | None) -> list[str]:
     return [tag.strip() for tag in (value or "").split(",") if tag.strip()]
 
 
+def context_for_rules(title: str, description: str) -> RecipeTextContext:
+    return build_text_context(title, description)
+
+
 def text_for_rules(title: str, description: str) -> str:
-    return f"{title}\n{description[:1200]}"
+    return context_for_rules(title, description).reliable_text
 
 
 def text_without_hashtags(title: str, description: str) -> str:
-    title_core = re.split(r"[#＃]", title, maxsplit=1)[0]
-    description_core = re.sub(r"[#＃]\S+", "", description[:1200])
-    return f"{title_core}\n{description_core}"
+    return context_for_rules(title, description).reliable_text
 
 
 def has_any_tag(tags: set[str], candidates: set[str]) -> bool:
@@ -233,20 +237,32 @@ def first_matching_words(text: str, words: tuple[str, ...]) -> list[str]:
     return [word for word in words if word in text][:3]
 
 
+def first_matching_context_words(context: RecipeTextContext, words: tuple[str, ...]) -> tuple[list[str], str, float]:
+    sources = (
+        ("タイトル・材料欄", context.strong_text, 0.95),
+        ("冒頭説明文", context.medium_text, 0.82),
+        ("ハッシュタグ", context.weak_text, 0.55),
+    )
+    for source_name, source_text, confidence in sources:
+        found = first_matching_words(source_text, words)
+        if found:
+            return found, source_name, confidence
+    return [], "", 0.0
+
+
 def decide_genre(title: str, description: str, tags: set[str]) -> Decision:
-    text = text_for_rules(title, description)
+    context = context_for_rules(title, description)
     matches = []
     for genre, words in GENRE_RULES:
-        found = first_matching_words(text, words)
+        found, source_name, confidence = first_matching_context_words(context, words)
         if found:
-            matches.append((genre, found))
+            matches.append((genre, found, source_name, confidence))
 
     if matches:
-        genre, found = matches[0]
-        confidence = 0.95 if any(word in title for word in found) else 0.82
+        genre, found, source_name, confidence = sorted(matches, key=lambda match: match[3], reverse=True)[0]
         if len(matches) > 1:
             confidence = min(confidence, 0.76)
-        return Decision(genre, confidence, f"キーワード: {', '.join(found)}")
+        return Decision(genre, confidence, f"{source_name}キーワード: {', '.join(found)}")
 
     if has_any_tag(tags, NOODLE_TAGS | RICE_TAGS | BREAD_TAGS | MEAT_TAGS | FISH_TAGS | EGG_TAGS | SOY_TAGS | VEGETABLE_TAGS):
         return Decision("その他", 0.72, "食材はあるがジャンル語がないためその他")
@@ -255,6 +271,7 @@ def decide_genre(title: str, description: str, tags: set[str]) -> Decision:
 
 def decide_staple(title: str, description: str, tags: set[str]) -> Decision:
     text = text_without_hashtags(title, description)
+    rice_text = re.sub(r"ご(?:飯|はん).{0,10}(?:すすむ|すすみ|進む|進み|おかわり|止まらない|止まらん)", "", text)
     bread_text = re.sub(r"フライパン|ワンパン|パン粉", "", text)
 
     if "スープ" in title and not has_any_tag(tags, NOODLE_TAGS | RICE_TAGS | {"bread"}):
@@ -267,7 +284,7 @@ def decide_staple(title: str, description: str, tags: set[str]) -> Decision:
         return Decision("パン", 0.93, "パンタグまたはパン料理名")
     if "サラダ" in title and not has_any_tag(tags, RICE_TAGS):
         return Decision("その他", 0.90, "サラダ名で主食タグなし")
-    if has_any_tag(tags, RICE_TAGS) or re.search(r"ご飯|ごはん|米|丼|炒飯|チャーハン|オムライス|雑炊|リゾット|おにぎり", text):
+    if has_any_tag(tags, RICE_TAGS) or re.search(r"ご飯|ごはん|米|丼|炒飯|チャーハン|オムライス|雑炊|リゾット|おにぎり", rice_text):
         return Decision("ご飯", 0.92, "米タグまたはご飯料理名")
     return Decision("その他", 0.82, "主食タグなし")
 

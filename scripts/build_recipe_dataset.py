@@ -13,6 +13,7 @@ from ingredient_score import (
     generate_ingredient_categories,
 )
 from recipe_feature_tags import build_feature_tags
+from recipe_text_context import build_text_context
 
 
 LABELS = {
@@ -321,58 +322,41 @@ def duration_seconds(record: dict) -> int:
         return 0
 
 
-def trim_description_for_ingredient_extraction(description: str) -> str:
-    """Keep likely recipe text and drop links, promos, SNS, and book sections."""
-    if not description:
-        return ""
-
-    source = description
-    using_recipe_section = False
-    for marker in RECIPE_SECTION_MARKERS:
-        marker_index = source.find(marker)
-        if marker_index >= 0:
-            source = source[marker_index:]
-            using_recipe_section = True
-            break
-
-    promo_markers = PROMO_SECTION_MARKERS if using_recipe_section else tuple(
-        marker for marker in PROMO_SECTION_MARKERS if marker not in {"◆", "▼", "～～"}
-    )
-    lines = []
-    for raw_line in source.splitlines():
-        line = raw_line.strip()
-        if not line:
-            continue
-        if line.startswith(("http://", "https://")):
-            continue
-        if any(marker in line for marker in promo_markers):
-            if lines:
-                break
-            continue
-        lines.append(line)
-
-    return "\n".join(lines)
-
-
 def extract_tags(*texts: str) -> list[str]:
-    """Extract ingredient tags from title and description text."""
+    """Extract ingredient tags with weighted YouTube text sources.
+
+    Strong: title body and material section.
+    Medium: opening description.
+    Weak: hashtags. Hashtags alone are not enough to add a tag.
+    Related links and promo sections are ignored.
+    """
     title = texts[0] if texts else ""
     description = texts[1] if len(texts) > 1 else ""
-    relevant_description = trim_description_for_ingredient_extraction(description)
-    joined = "\n".join([title, relevant_description])
+    context = build_text_context(title, description)
 
-    def collect_tags(joined_text: str) -> list[str]:
-        found_tags = []
-        for tag, keywords in TAG_KEYWORDS:
-            source = title if tag in TITLE_ONLY_TAGS else joined_text
-            if any(keyword in source for keyword in keywords):
-                found_tags.append(tag)
-        return found_tags
+    def keyword_score(tag: str, keywords: list[str]) -> float:
+        score = 0.0
+        strong_source = context.title_core if tag in TITLE_ONLY_TAGS else context.strong_text
+        if any(keyword in strong_source for keyword in keywords):
+            score += 1.0
+        if tag not in TITLE_ONLY_TAGS and any(keyword in context.medium_text for keyword in keywords):
+            score += 0.75
+        if any(keyword in context.weak_text for keyword in keywords):
+            score += 0.25
+        return score
 
-    tags = collect_tags(joined)
-    if not tags and relevant_description != description:
-        joined = "\n".join([title, description])
-        tags = collect_tags(joined)
+    tags = [
+        tag
+        for tag, keywords in TAG_KEYWORDS
+        if keyword_score(tag, keywords) >= 0.70
+    ]
+    if not tags:
+        tags = [
+            tag
+            for tag, keywords in TAG_KEYWORDS
+            if keyword_score(tag, keywords) >= 0.25
+        ]
+    joined = context.all_weighted_text
     tags = [
         tag
         for tag in tags
@@ -380,6 +364,15 @@ def extract_tags(*texts: str) -> list[str]:
     ]
     if "rice" in tags and "pasta" in tags and re.search(r"パスタに|パスタへ|パスタ化|パスタアレンジ|パスタにアレンジ", joined):
         tags = [tag for tag in tags if tag != "rice"]
+    if (
+        "pasta" in tags
+        and not re.search(r"パスタ|スパゲッティ|ナポリタン|ペペロンチーノ|カルボナーラ", context.title_core)
+        and (
+            re.search(r"パスタ\s*[0-9０-９一二三四五六七八九十〜~\-、・\s]+本", context.materials)
+            or re.search(r"パスタで(?:止め|留め)", joined)
+        )
+    ):
+        tags = [tag for tag in tags if tag != "pasta"]
     if "rice_noodles" in tags and not re.search(r"ビーフン|フォー(?!ク)", joined):
         tags = [tag for tag in tags if tag != "rice_noodles"]
     return list(dict.fromkeys(tags))
