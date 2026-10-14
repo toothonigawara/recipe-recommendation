@@ -71,6 +71,23 @@
           <pre id="swipeDebugOutput">[]</pre>
         </details>
       </section>
+
+      <section class="research-start-overlay" id="researchStartOverlay" aria-labelledby="researchStartTitle" aria-modal="true" role="dialog">
+        <div class="research-start-card">
+          <p class="section-kicker">User Study</p>
+          <h2 id="researchStartTitle">今日食べたいものを1つ思い浮かべてください</h2>
+          <p>
+            ある程度「これが食べたいかも」という料理を決めてから始めてください。
+            スワイプ後に、候補との近さを確認します。
+          </p>
+          <label class="research-start-field" for="initialDesiredDish">
+            <span>思い浮かべた料理</span>
+            <input id="initialDesiredDish" type="text" autocomplete="off" placeholder="例: ラーメン、オムライス、親子丼">
+          </label>
+          <p class="research-start-error" id="researchStartError" hidden>料理名を入力してから始めてください。</p>
+          <button class="primary-action research-start-button" id="researchStartButton" type="button">スタート！</button>
+        </div>
+      </section>
     </main>
 
     <script src="swipe-dishes.js?v=swipe-prototype-20261006"></script>

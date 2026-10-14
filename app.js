@@ -292,6 +292,12 @@ const summaryStrip = document.querySelector("#summaryStrip");
 const resultJumpNav = document.querySelector("#resultJumpNav");
 const swipeInsightPanel = document.querySelector("#swipeInsightPanel");
 const swipeLikedDishes = document.querySelector("#swipeLikedDishes");
+const researchFeedbackPanel = document.querySelector("#researchFeedbackPanel");
+const researchFeedbackForm = document.querySelector("#researchFeedbackForm");
+const researchInitialAnswer = document.querySelector("#researchInitialAnswer");
+const researchCloseChoices = document.querySelector("#researchCloseChoices");
+const researchSaveNote = document.querySelector("#researchSaveNote");
+const copyResearchAnswerButton = document.querySelector("#copyResearchAnswerButton");
 const template = document.querySelector("#recipeCardTemplate");
 const ingredientDialog = document.querySelector("#ingredientDialog");
 const openIngredientSelector = document.querySelector("#openIngredientSelector");
@@ -310,6 +316,8 @@ const changeConditionsLink = document.querySelector("#changeConditionsLink");
 const brandHomeLink = document.querySelector("#brandHomeLink");
 const floatingBackButton = document.querySelector("#floatingBackButton");
 let activeSwipeDishId = "";
+let lastResearchFeedbackPayload = null;
+let lastDisplayedRecipes = [];
 
 const defaultConditions = {
   taste: "",
@@ -1031,6 +1039,7 @@ function renderCards(scoredRecipes) {
   if (!recommendations || !template) return;
 
   recommendations.innerHTML = "";
+  lastDisplayedRecipes = scoredRecipes.slice(0, 3);
 
   if (scoredRecipes.length === 0) {
     if (resultJumpNav) resultJumpNav.hidden = true;
@@ -1103,6 +1112,103 @@ function renderCards(scoredRecipes) {
     youtubeLink.textContent = getVideoPlatform(recipe) === "youtube" ? "YouTubeで開く" : "動画を開く";
     recommendations.appendChild(card);
   });
+}
+
+function getResearchStorageKey() {
+  return "recipeResearchFeedbackResponses";
+}
+
+function readResearchResponses() {
+  try {
+    const raw = localStorage.getItem(getResearchStorageKey());
+    const parsed = raw ? JSON.parse(raw) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    console.warn("failed to read research responses", error);
+    return [];
+  }
+}
+
+function saveResearchResponse(payload) {
+  const responses = readResearchResponses();
+  responses.push(payload);
+  localStorage.setItem(getResearchStorageKey(), JSON.stringify(responses));
+}
+
+function buildResearchChoiceItems(swipeSession, displayedRecipes) {
+  const likedDishes = (swipeSession?.profile?.likedDishes || []).slice(0, 10).map((dish) => ({
+    value: `liked:${dish.dish_id}`,
+    label: `スワイプ: ${dish.dish_name}`,
+    type: "liked_dish"
+  }));
+  const recipeItems = displayedRecipes.slice(0, 3).map((recipe, index) => ({
+    value: `recipe:${recipe.videoId || index + 1}`,
+    label: `候補${index + 1}: ${recipe.title}`,
+    type: "recommended_recipe"
+  }));
+  return [...recipeItems, ...likedDishes];
+}
+
+function renderResearchFeedback(swipeSession, displayedRecipes) {
+  if (!researchFeedbackPanel || !researchFeedbackForm || !swipeSession) return;
+
+  researchFeedbackPanel.hidden = false;
+  if (researchInitialAnswer) {
+    researchInitialAnswer.textContent = swipeSession.initialDesiredDish || "未入力";
+  }
+  if (researchCloseChoices) {
+    researchCloseChoices.innerHTML = "";
+    buildResearchChoiceItems(swipeSession, displayedRecipes).forEach((item) => {
+      const label = document.createElement("label");
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.name = "closeItems";
+      input.value = item.value;
+      input.dataset.label = item.label;
+      input.dataset.type = item.type;
+      label.append(input, document.createTextNode(` ${item.label}`));
+      researchCloseChoices.appendChild(label);
+    });
+  }
+}
+
+function buildResearchFeedbackPayload() {
+  const swipeSession = readSwipeSession();
+  if (!researchFeedbackForm || !swipeSession) return null;
+
+  const formData = new FormData(researchFeedbackForm);
+  const closeItems = Array.from(researchFeedbackForm.querySelectorAll('input[name="closeItems"]:checked')).map((input) => ({
+    value: input.value,
+    label: input.dataset.label || input.value,
+    type: input.dataset.type || ""
+  }));
+
+  return {
+    version: 1,
+    createdAt: new Date().toISOString(),
+    initialDesiredDish: swipeSession.initialDesiredDish || "",
+    fit: formData.get("fit") || "",
+    closeItems,
+    gapText: (formData.get("gapText") || "").toString().trim(),
+    swipeResults: swipeSession.results || [],
+    swipeProfile: swipeSession.profile || {},
+    recommendedRecipes: lastDisplayedRecipes.map((recipe, index) => ({
+      rank: index + 1,
+      videoId: recipe.videoId || "",
+      title: recipe.title || "",
+      url: buildVideoUrl(recipe),
+      genre: getRecipeGenre(recipe),
+      dishType: getDishType(recipe),
+      taste: recipe.taste || "",
+      temperature: getRecipeTemperature(recipe)
+    }))
+  };
+}
+
+function showResearchSaveNote(message) {
+  if (!researchSaveNote) return;
+  researchSaveNote.hidden = false;
+  researchSaveNote.textContent = message;
 }
 
 function scoreRecipeForSwipe(recipe, conditions, profile) {
@@ -1315,6 +1421,7 @@ function updateRecommendations() {
   renderSummary(conditions, swipeSession);
   renderSwipeInsight(swipeSession);
   renderCards(recommendedRecipes);
+  renderResearchFeedback(swipeSession, recommendedRecipes.slice(0, 3));
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
     if (link === changeConditionsLink) {
@@ -1347,6 +1454,37 @@ if (searchButton) {
   searchButton.addEventListener("click", (event) => {
     event.preventDefault();
     attemptGoToResults();
+  });
+}
+
+if (researchFeedbackForm) {
+  researchFeedbackForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const payload = buildResearchFeedbackPayload();
+    if (!payload || !payload.fit) {
+      showResearchSaveNote("近さの項目を選んでから保存してください。");
+      return;
+    }
+
+    saveResearchResponse(payload);
+    lastResearchFeedbackPayload = payload;
+    if (copyResearchAnswerButton) copyResearchAnswerButton.disabled = false;
+    showResearchSaveNote("回答をこのブラウザに保存しました。研究用に回収する場合は「回答をコピー」で内容を共有できます。");
+  });
+}
+
+if (copyResearchAnswerButton) {
+  copyResearchAnswerButton.addEventListener("click", async () => {
+    const payload = lastResearchFeedbackPayload || buildResearchFeedbackPayload();
+    if (!payload) return;
+
+    const text = JSON.stringify(payload, null, 2);
+    try {
+      await navigator.clipboard.writeText(text);
+      showResearchSaveNote("回答データをコピーしました。");
+    } catch (error) {
+      showResearchSaveNote(text);
+    }
   });
 }
 

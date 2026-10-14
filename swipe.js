@@ -5,6 +5,8 @@ const swipeState = {
   currentIndex: 0,
   results: [],
   isAnimating: false,
+  started: false,
+  initialDesiredDish: "",
   drag: {
     active: false,
     startX: 0,
@@ -32,7 +34,11 @@ const swipeElements = {
   complete: document.querySelector("#swipeCompleteCard"),
   resultButton: document.querySelector("#swipeResultButton"),
   restartButton: document.querySelector("#swipeRestartButton"),
-  debugOutput: document.querySelector("#swipeDebugOutput")
+  debugOutput: document.querySelector("#swipeDebugOutput"),
+  startOverlay: document.querySelector("#researchStartOverlay"),
+  initialDesiredDish: document.querySelector("#initialDesiredDish"),
+  startButton: document.querySelector("#researchStartButton"),
+  startError: document.querySelector("#researchStartError")
 };
 
 function shuffleDishes(dishes) {
@@ -44,6 +50,58 @@ function shuffleDishes(dishes) {
 
 function selectSwipeDishes(dishes, sessionSize = swipeConfig.sessionSize) {
   return shuffleDishes(dishes).slice(0, sessionSize);
+}
+
+function countResultsBy(results, key) {
+  return results.reduce((counts, result) => {
+    const value = result[key];
+    if (value) counts[value] = (counts[value] || 0) + 1;
+    return counts;
+  }, {});
+}
+
+function scoreDishForAdaptiveSwipe(dish, likedCounts) {
+  let score = Math.random() * 0.8;
+  score += (likedCounts.taste_level[dish.taste_level] || 0) * 4;
+  score += (likedCounts.temperature[dish.temperature] || 0) * 4;
+  score += (likedCounts.genre[dish.genre] || 0) * 2;
+  score += (likedCounts.dish_type[dish.dish_type] || 0) * 2;
+  return score;
+}
+
+function selectAdaptiveSwipeDishes(dishes, results, size) {
+  const shownIds = new Set(results.map((result) => result.dish_id));
+  const liked = results.filter((result) => result.action === "like");
+  if (liked.length === 0) {
+    return shuffleDishes(dishes.filter((dish) => !shownIds.has(dish.id))).slice(0, size);
+  }
+
+  const likedCounts = {
+    taste_level: countResultsBy(liked, "taste_level"),
+    temperature: countResultsBy(liked, "temperature"),
+    genre: countResultsBy(liked, "genre"),
+    dish_type: countResultsBy(liked, "dish_type")
+  };
+
+  return dishes
+    .filter((dish) => !shownIds.has(dish.id))
+    .map((dish) => ({ dish, score: scoreDishForAdaptiveSwipe(dish, likedCounts) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, Math.max(size * 3, size))
+    .sort(() => Math.random() - 0.5)
+    .slice(0, size)
+    .map((item) => item.dish);
+}
+
+function adaptRemainingDeckIfNeeded() {
+  const midpoint = Math.floor(swipeConfig.sessionSize / 2);
+  if (swipeState.currentIndex !== midpoint) return;
+
+  const remainingSize = swipeConfig.sessionSize - midpoint;
+  const adaptiveDishes = selectAdaptiveSwipeDishes(swipeDishPool, swipeState.results, remainingSize);
+  if (adaptiveDishes.length > 0) {
+    swipeState.deck = swipeState.deck.slice(0, midpoint).concat(adaptiveDishes);
+  }
 }
 
 function getNextSwipeDish(state = swipeState) {
@@ -204,8 +262,9 @@ function buildResultsUrl(results) {
 function saveSwipeSession() {
   const profile = inferRecommendationConditions(swipeState.results);
   const payload = {
-    version: 1,
+    version: 2,
     createdAt: new Date().toISOString(),
+    initialDesiredDish: swipeState.initialDesiredDish,
     results: swipeState.results,
     profile
   };
@@ -295,6 +354,7 @@ function recordSwipe(action) {
 
   swipeState.results.push(buildSwipeResult(dish, action, swipeState.currentIndex + 1));
   swipeState.currentIndex += 1;
+  adaptRemainingDeckIfNeeded();
   window.swipePrototype.results = swipeState.results;
   window.swipePrototype.summary = summarizeSwipeResults(swipeState.results);
   window.swipePrototype.profile = inferRecommendationConditions(swipeState.results);
@@ -302,7 +362,7 @@ function recordSwipe(action) {
 }
 
 function answerSwipe(action) {
-  if (swipeState.isAnimating) return;
+  if (!swipeState.started || swipeState.isAnimating) return;
 
   const direction = action === "like" ? 1 : -1;
   swipeState.isAnimating = true;
@@ -318,7 +378,7 @@ function answerSwipe(action) {
 }
 
 function startDrag(event) {
-  if (swipeState.isAnimating || !getNextSwipeDish()) return;
+  if (!swipeState.started || swipeState.isAnimating || !getNextSwipeDish()) return;
 
   swipeState.drag.active = true;
   swipeState.drag.startX = event.clientX;
@@ -358,6 +418,11 @@ function restartSwipeSession() {
   swipeState.deck = selectSwipeDishes(swipeDishPool);
   swipeState.currentIndex = 0;
   swipeState.results = [];
+  swipeState.started = false;
+  swipeState.initialDesiredDish = "";
+  if (swipeElements.initialDesiredDish) swipeElements.initialDesiredDish.value = "";
+  if (swipeElements.startError) swipeElements.startError.hidden = true;
+  if (swipeElements.startOverlay) swipeElements.startOverlay.hidden = false;
   window.swipePrototype.results = swipeState.results;
   window.swipePrototype.summary = {};
   window.swipePrototype.profile = {};
@@ -366,6 +431,20 @@ function restartSwipeSession() {
     swipeElements.resultButton.disabled = true;
   }
   renderSwipeDish();
+}
+
+function startResearchSwipe() {
+  const answer = (swipeElements.initialDesiredDish?.value || "").trim();
+  if (!answer) {
+    if (swipeElements.startError) swipeElements.startError.hidden = false;
+    swipeElements.initialDesiredDish?.focus();
+    return;
+  }
+
+  swipeState.started = true;
+  swipeState.initialDesiredDish = answer;
+  if (swipeElements.startError) swipeElements.startError.hidden = true;
+  if (swipeElements.startOverlay) swipeElements.startOverlay.hidden = true;
 }
 
 window.swipePrototype = {
@@ -386,6 +465,7 @@ window.swipePrototype = {
   buildRateStats,
   inferRecommendationConditions,
   buildResultsUrl,
+  selectAdaptiveSwipeDishes,
   restart: restartSwipeSession
 };
 
@@ -397,6 +477,20 @@ if (swipeElements.card && swipeDishPool.length > 0) {
     window.location.href = buildResultsUrl(swipeState.results);
   });
   swipeElements.restartButton.addEventListener("click", restartSwipeSession);
+  if (swipeElements.startButton) {
+    swipeElements.startButton.addEventListener("click", startResearchSwipe);
+  }
+  if (swipeElements.initialDesiredDish) {
+    swipeElements.initialDesiredDish.addEventListener("input", () => {
+      if (swipeElements.startError) swipeElements.startError.hidden = true;
+    });
+    swipeElements.initialDesiredDish.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        startResearchSwipe();
+      }
+    });
+  }
 
   swipeElements.card.addEventListener("pointerdown", startDrag);
   swipeElements.card.addEventListener("pointermove", moveDrag);
@@ -404,6 +498,7 @@ if (swipeElements.card && swipeDishPool.length > 0) {
   swipeElements.card.addEventListener("pointercancel", endDrag);
 
   document.addEventListener("keydown", (event) => {
+    if (!swipeState.started) return;
     if (event.key === "ArrowRight") answerSwipe("like");
     if (event.key === "ArrowLeft") answerSwipe("dislike");
   });

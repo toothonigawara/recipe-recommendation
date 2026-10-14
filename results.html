@@ -54,6 +54,46 @@
             <div class="swipe-liked-dishes" id="swipeLikedDishes"></div>
           </section>
           <div class="recommendations" id="recommendations"></div>
+          <section class="research-feedback-panel" id="researchFeedbackPanel" hidden aria-labelledby="researchFeedbackTitle">
+            <div>
+              <p class="section-kicker">Survey</p>
+              <h3 id="researchFeedbackTitle">スワイプ結果の確認</h3>
+              <p class="research-feedback-lead">
+                最初に思い浮かべた料理と、表示された候補がどれくらい近かったか教えてください。
+              </p>
+            </div>
+            <form id="researchFeedbackForm" class="research-feedback-form">
+              <div class="research-answer-box">
+                <span>最初に思い浮かべていた料理</span>
+                <strong id="researchInitialAnswer">未入力</strong>
+              </div>
+
+              <fieldset>
+                <legend>候補は気分に近かったですか？</legend>
+                <label><input type="radio" name="fit" value="very_close" required> かなり近かった</label>
+                <label><input type="radio" name="fit" value="close"> 少し近かった</label>
+                <label><input type="radio" name="fit" value="neutral"> どちらとも言えない</label>
+                <label><input type="radio" name="fit" value="far"> あまり近くなかった</label>
+                <label><input type="radio" name="fit" value="very_far"> 全然違った</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>どの料理・候補を見て近いと感じましたか？</legend>
+                <div class="research-choice-list" id="researchCloseChoices"></div>
+              </fieldset>
+
+              <label class="research-textarea-label" for="researchGapText">
+                <span>ズレていたところ・良かったところ</span>
+                <textarea id="researchGapText" name="gapText" rows="4" placeholder="例: 麺の気分は合っていたけど、もっと辛いものがよかった"></textarea>
+              </label>
+
+              <div class="research-feedback-actions">
+                <button class="primary-action" type="submit">回答を保存</button>
+                <button class="secondary-action" id="copyResearchAnswerButton" type="button" disabled>回答をコピー</button>
+              </div>
+              <p class="research-save-note" id="researchSaveNote" hidden></p>
+            </form>
+          </section>
           <div class="result-actions">
             <a class="secondary-action" id="changeConditionsLink" href="conditions.html">条件を変える</a>
           </div>
