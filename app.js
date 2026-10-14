@@ -296,6 +296,7 @@ const researchFeedbackPanel = document.querySelector("#researchFeedbackPanel");
 const researchFeedbackForm = document.querySelector("#researchFeedbackForm");
 const researchInitialAnswer = document.querySelector("#researchInitialAnswer");
 const researchCloseChoices = document.querySelector("#researchCloseChoices");
+const researchGoogleFormFrame = document.querySelector("#researchGoogleFormFrame");
 const researchSaveNote = document.querySelector("#researchSaveNote");
 const copyResearchAnswerButton = document.querySelector("#copyResearchAnswerButton");
 const template = document.querySelector("#recipeCardTemplate");
@@ -1150,7 +1151,7 @@ function buildResearchChoiceItems(swipeSession, displayedRecipes) {
 }
 
 function renderResearchFeedback(swipeSession, displayedRecipes) {
-  if (!researchFeedbackPanel || !researchFeedbackForm || !swipeSession) return;
+  if (!researchFeedbackPanel || !swipeSession) return;
 
   researchFeedbackPanel.hidden = false;
   if (researchInitialAnswer) {
@@ -1159,16 +1160,35 @@ function renderResearchFeedback(swipeSession, displayedRecipes) {
   if (researchCloseChoices) {
     researchCloseChoices.innerHTML = "";
     buildResearchChoiceItems(swipeSession, displayedRecipes).forEach((item) => {
-      const label = document.createElement("label");
-      const input = document.createElement("input");
-      input.type = "checkbox";
-      input.name = "closeItems";
-      input.value = item.value;
-      input.dataset.label = item.label;
-      input.dataset.type = item.type;
-      label.append(input, document.createTextNode(` ${item.label}`));
-      researchCloseChoices.appendChild(label);
+      const chip = document.createElement("span");
+      chip.textContent = item.label;
+      researchCloseChoices.appendChild(chip);
     });
+  }
+  renderResearchGoogleForm();
+}
+
+function renderResearchGoogleForm() {
+  if (!researchGoogleFormFrame) return;
+
+  const rawUrl = window.SURVEY_FORM_EMBED_URL || "";
+  if (!rawUrl) {
+    researchGoogleFormFrame.innerHTML = '<p class="research-save-note">GoogleフォームのURLが設定されていません。</p>';
+    return;
+  }
+
+  try {
+    const url = new URL(rawUrl);
+    url.searchParams.set("embedded", "true");
+    researchGoogleFormFrame.replaceChildren();
+    const iframe = document.createElement("iframe");
+    iframe.src = url.href;
+    iframe.title = "ユーザー調査アンケート";
+    iframe.loading = "lazy";
+    iframe.textContent = "読み込んでいます...";
+    researchGoogleFormFrame.appendChild(iframe);
+  } catch (error) {
+    researchGoogleFormFrame.innerHTML = '<p class="research-save-note">GoogleフォームのURLを読み込めませんでした。</p>';
   }
 }
 
