@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>スワイプで探す | 動画レシピ提案サイト</title>
+    <link rel="stylesheet" href="styles.css?v=swipe-prototype-20261006">
+  </head>
+  <body>
+    <main class="app-shell swipe-shell">
+      <section class="swipe-stage" aria-labelledby="page-title">
+        <div class="site-topbar swipe-topbar">
+          <a class="brand-pill" href="index.html">動画レシピ提案サイト</a>
+          <aside class="topbar-condition-card" aria-label="条件検索への入口">
+            <span>詳しい条件を指定したい方はこちらから</span>
+            <a href="../conditions.html">条件で検索する</a>
+          </aside>
+        </div>
+
+        <header class="swipe-intro">
+          <h1 id="page-title">
+            <span>今日食べたい料理を</span>
+            <span class="swipe-title-pop">スワイプ</span>
+          </h1>
+          <p class="lead">
+            <span>代表的な料理を見ながら、今の気分に近いものを選んでください。</span>
+            <span>スワイプ結果に近い実在YouTubeレシピを表示します。</span>
+          </p>
+        </header>
+
+        <section class="swipe-workspace" aria-label="代表料理スワイプ">
+          <div class="swipe-progress" aria-live="polite">
+            <span id="swipeProgressText">1 / 10</span>
+            <div class="swipe-progress-bar" aria-hidden="true">
+              <span id="swipeProgressBar"></span>
+            </div>
+          </div>
+
+          <div class="swipe-actions" aria-label="回答操作">
+            <button class="swipe-action swipe-dislike-button" id="swipeDislikeButton" type="button">
+              <span class="swipe-action-direction">← 左へスワイプ</span>
+              <span class="swipe-action-choice">今じゃない</span>
+            </button>
+            <button class="swipe-action swipe-like-button" id="swipeLikeButton" type="button">
+              <span class="swipe-action-direction">右へスワイプ →</span>
+              <span class="swipe-action-choice">食べたい</span>
+            </button>
+          </div>
+
+          <div class="swipe-card-area" id="swipeCardArea">
+            <article class="swipe-card" id="swipeCard" aria-live="polite">
+              <div class="swipe-choice-label swipe-choice-like" aria-hidden="true">食べたい</div>
+              <div class="swipe-choice-label swipe-choice-dislike" aria-hidden="true">今じゃない</div>
+              <img id="swipeDishImage" alt="">
+              <div class="swipe-card-body">
+                <p class="swipe-card-kicker" id="swipeDishMeta"></p>
+                <h2 id="swipeDishName"></h2>
+              </div>
+            </article>
+            <section class="swipe-complete-card" id="swipeCompleteCard" hidden aria-live="polite">
+              <p>10枚のスワイプが完了しました</p>
+              <button class="primary-action swipe-result-action" id="swipeResultButton" type="button">検索結果を表示</button>
+            </section>
+          </div>
+
+          <button class="secondary-action swipe-restart-inline" id="swipeRestartButton" type="button">もう一度試す</button>
+        </section>
+
+        <details class="swipe-debug" id="swipeDebug">
+          <summary>開発用: スワイプ結果</summary>
+          <pre id="swipeDebugOutput">[]</pre>
+        </details>
+      </section>
+
+      <section class="research-start-overlay" id="researchStartOverlay" aria-labelledby="researchStartTitle" aria-modal="true" role="dialog">
+        <div class="research-start-card">
+          <p class="section-kicker">User Study</p>
+          <h2 id="researchStartTitle">今日食べたいものを1つ思い浮かべてください</h2>
+          <p>
+            ある程度「これが食べたいかも」という料理を決めてから始めてください。
+            スワイプ後に、候補との近さを確認します。
+          </p>
+          <label class="research-start-field" for="initialDesiredDish">
+            <span>思い浮かべた料理</span>
+            <input id="initialDesiredDish" type="text" autocomplete="off" placeholder="例: ラーメン、オムライス、親子丼">
+          </label>
+          <p class="research-start-error" id="researchStartError" hidden>料理名を入力してから始めてください。</p>
+          <button class="primary-action research-start-button" id="researchStartButton" type="button">スタート！</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="swipe-dishes.js?v=swipe-prototype-20261006"></script>
+    <script src="swipe.js?v=swipe-prototype-20261006"></script>
+  </body>
+</html>

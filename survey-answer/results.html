@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>推薦動画 | 動画レシピ提案サイト</title>
+    <link rel="stylesheet" href="styles.css?v=swipe-prototype-20261006">
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="site-topbar">
+          <a class="brand-pill" id="brandHomeLink" href="index.html">動画レシピ提案サイト</a>
+          <a href="../conditions.html">Conditions</a>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">好み・時間・食材からおすすめを表示</p>
+          <h1 id="page-title">動画レシピ提案サイト</h1>
+          <p class="lead">
+            今日の気分に合う料理動画を、ぎゅっと3本だけ。
+          </p>
+          <div class="hero-badges" aria-label="推薦の特徴">
+            <span>2000 DATA</span>
+            <span>3 PICKS</span>
+            <span>SHORTS</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace result-workspace" aria-label="推薦結果">
+        <section class="result-panel" aria-label="推薦結果">
+          <div class="result-header">
+            <div>
+              <p class="section-kicker">Top 3</p>
+              <h2>推薦動画</h2>
+              <p class="source-note">精査済みの実在YouTube料理動画から推薦</p>
+              <p class="embed-note" id="embedNote" hidden>動画再生はローカルサーバー経由で開くと安定します。</p>
+            </div>
+            <div class="result-jump-nav" id="resultJumpNav" aria-label="推薦候補への移動">
+              <span>3つの候補をチェック</span>
+              <div>
+                <a href="#recipe-1">#1</a>
+                <a href="#recipe-2">#2</a>
+                <a href="#recipe-3">#3</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="summary-strip" id="summaryStrip"></div>
+          <section class="swipe-insight-panel" id="swipeInsightPanel" hidden>
+            <h3>スワイプで「食べたい」に選んだ料理</h3>
+            <p>気になった料理があれば、ここからその料理に近いレシピ候補に切り替えられます。</p>
+            <div class="swipe-liked-dishes" id="swipeLikedDishes"></div>
+          </section>
+          <div class="recommendations" id="recommendations"></div>
+          <section class="research-feedback-panel" id="researchFeedbackPanel" hidden aria-labelledby="researchFeedbackTitle">
+            <div>
+              <p class="section-kicker">Survey</p>
+              <h3 id="researchFeedbackTitle">アンケートにご協力ください</h3>
+              <p class="research-feedback-lead">
+                最初に思い浮かべた料理と、表示された候補がどれくらい近かったかをフォームへ入力してください。
+              </p>
+            </div>
+            <div class="research-answer-box">
+              <span>最初に思い浮かべていた料理</span>
+              <strong id="researchInitialAnswer">未入力</strong>
+            </div>
+            <div class="research-answer-box">
+              <span>近いと感じた料理・候補のメモ</span>
+              <div class="research-choice-list" id="researchCloseChoices"></div>
+            </div>
+            <div class="research-google-form-frame" id="researchGoogleFormFrame">
+              <p class="research-save-note">Googleフォームを読み込んでいます。</p>
+            </div>
+          </section>
+          <div class="result-actions">
+            <a class="secondary-action" id="changeConditionsLink" href="../conditions.html">条件を変える</a>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <template id="recipeCardTemplate">
+      <article class="recipe-card">
+        <div class="video-frame-wrap card-video-frame">
+          <button class="video-load-button" type="button" aria-label="動画を再生">
+            <img alt="">
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </button>
+          <span class="rank-badge"></span>
+        </div>
+        <div class="card-body">
+          <div class="card-topline">
+            <span class="creator"></span>
+            <span class="score"></span>
+          </div>
+          <h3></h3>
+          <p class="description"></p>
+          <div class="meta-row"></div>
+          <div class="reason-box"></div>
+          <div class="card-actions">
+            <a class="youtube-link" target="_blank" rel="noreferrer">YouTubeで開く</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <div class="video-dialog" id="videoDialog" role="dialog" aria-modal="true" aria-labelledby="videoDialogTitle" hidden>
+      <div class="video-dialog-panel">
+        <div class="video-dialog-header">
+          <h2 id="videoDialogTitle"></h2>
+          <button class="icon-button" id="closeVideoDialog" type="button" aria-label="閉じる">×</button>
+        </div>
+        <div class="video-frame-wrap" id="videoFrameWrap"></div>
+      </div>
+    </div>
+
+    <button class="floating-back-button" id="floatingBackButton" type="button" aria-label="前のページに戻る">←</button>
+
+    <script src="../recipes-data.js?v=database-2000-20260929"></script>
+    <script src="survey-config.js?v=google-form-20261014"></script>
+    <script src="app.js?v=research-google-form-20261014"></script>
+  </body>
+</html>
