@@ -137,6 +137,11 @@ NON_RECIPE_TITLE_PATTERNS = [
         "hints": (),
         "message": "title looks like a storage-tip video rather than a recipe",
     },
+    {
+        "required": ("知られざる関係",),
+        "hints": (),
+        "message": "title looks like food-history commentary rather than a recipe",
+    },
 ]
 
 NON_RECIPE_TITLE_REGEXES = [
@@ -147,6 +152,7 @@ NON_RECIPE_TITLE_REGEXES = [
     (re.compile(r"(?:週|週間).*?(?:ごはん|ご飯|自炊|弁当|献立|紹介)"), "title looks like a weekly meal diary or compilation"),
     (re.compile(r"(?:ごはん|ご飯|弁当|自炊).*?記録"), "title looks like a diary rather than a single recipe"),
     (re.compile(r"食費.*?(?:生活|記録|紹介|節約)"), "title looks like budget-life content rather than a single recipe"),
+    (re.compile(r"(?:歴史|由来|起源|家系図|関係性?).{0,12}(?:解説|紹介|について)"), "title looks like food-history commentary rather than a recipe"),
 ]
 BENTO_SUBPOSITION_REGEX = re.compile(
     r"(?:お?弁当|べんとう|bento).{0,10}(?:にも|におすすめ|にもおすすめ|使える|ぴったり|便利)"
