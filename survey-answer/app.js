@@ -1151,6 +1151,61 @@ function buildResearchChoiceItems(swipeSession, displayedRecipes) {
   return [...recipeItems, ...likedDishes];
 }
 
+function sanitizeResearchFormValue(value) {
+  return String(value ?? "")
+    .replace(/\r?\n/g, " ")
+    .replace(/\|/g, "｜")
+    .trim();
+}
+
+function formatResearchSwipeResults(swipeSession) {
+  return (swipeSession?.results || []).map((result, index) => [
+    result.order || index + 1,
+    sanitizeResearchFormValue(result.dish_id),
+    sanitizeResearchFormValue(result.dish_name),
+    result.action === "like" ? "like" : "dislike"
+  ].join("|")).join("\n");
+}
+
+function formatResearchSwipeProfile(swipeSession) {
+  const profile = swipeSession?.profile || {};
+  const genres = Array.isArray(profile.genres) ? profile.genres.join("/") : "";
+  const dishTypes = Array.isArray(profile.dishTypes)
+    ? profile.dishTypes.map((value) => labels.dishType[value] || value).join("/")
+    : "";
+  return [
+    `味=${labels.taste[profile.taste] || profile.taste || "未判定"}`,
+    `温度=${labels.temperature[profile.temperature] || profile.temperature || "未判定"}`,
+    `ジャンル=${genres || "未判定"}`,
+    `料理タイプ=${dishTypes || "未判定"}`
+  ].join(" / ");
+}
+
+function formatResearchRecommendations(displayedRecipes) {
+  return (displayedRecipes || []).slice(0, 3).map((recipe, index) => [
+    `#${index + 1}`,
+    sanitizeResearchFormValue(recipe.videoId),
+    sanitizeResearchFormValue(recipe.title)
+  ].join("|")).join("\n");
+}
+
+function addResearchPrefillValues(url, swipeSession, displayedRecipes) {
+  const fields = window.SURVEY_FORM_PREFILL_FIELDS || {};
+  const fallbackSessionId = `survey-${sanitizeResearchFormValue(swipeSession?.createdAt) || "unknown"}`;
+  const values = {
+    responseId: swipeSession?.sessionId || fallbackSessionId,
+    experimentVersion: swipeSession?.experimentVersion || "adaptive-v1",
+    initialDesiredDish: swipeSession?.initialDesiredDish || "",
+    swipeResults: formatResearchSwipeResults(swipeSession),
+    swipeProfile: formatResearchSwipeProfile(swipeSession),
+    recommendations: formatResearchRecommendations(displayedRecipes)
+  };
+
+  Object.entries(values).forEach(([key, value]) => {
+    if (fields[key] && value) url.searchParams.set(fields[key], value);
+  });
+}
+
 function renderResearchFeedback(swipeSession, displayedRecipes) {
   if (!researchFeedbackPanel || !swipeSession) return;
 
@@ -1166,10 +1221,10 @@ function renderResearchFeedback(swipeSession, displayedRecipes) {
       researchCloseChoices.appendChild(chip);
     });
   }
-  renderResearchGoogleForm();
+  renderResearchGoogleForm(swipeSession, displayedRecipes);
 }
 
-function renderResearchGoogleForm() {
+function renderResearchGoogleForm(swipeSession, displayedRecipes) {
   if (!researchGoogleFormFrame) return;
 
   const rawUrl = window.SURVEY_FORM_EMBED_URL || "";
@@ -1180,6 +1235,7 @@ function renderResearchGoogleForm() {
 
   try {
     const url = new URL(rawUrl);
+    addResearchPrefillValues(url, swipeSession, displayedRecipes);
     url.searchParams.set("embedded", "true");
     researchGoogleFormFrame.replaceChildren();
     const iframe = document.createElement("iframe");

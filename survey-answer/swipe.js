@@ -6,6 +6,7 @@ const swipeState = {
   results: [],
   isAnimating: false,
   started: false,
+  sessionId: "",
   initialDesiredDish: "",
   drag: {
     active: false,
@@ -18,8 +19,17 @@ const swipeState = {
 
 const swipeConfig = {
   sessionSize: 10,
-  swipeThreshold: 90
+  swipeThreshold: 90,
+  experimentVersion: "adaptive-v1"
 };
+
+function createResearchSessionId() {
+  const timestamp = new Date().toISOString().replace(/[-:.TZ]/g, "");
+  const randomPart = typeof crypto !== "undefined" && typeof crypto.randomUUID === "function"
+    ? crypto.randomUUID().slice(0, 8)
+    : Math.random().toString(36).slice(2, 10);
+  return `survey-${timestamp}-${randomPart}`;
+}
 
 const swipeElements = {
   card: document.querySelector("#swipeCard"),
@@ -262,7 +272,9 @@ function buildResultsUrl(results) {
 function saveSwipeSession() {
   const profile = inferRecommendationConditions(swipeState.results);
   const payload = {
-    version: 2,
+    version: 3,
+    sessionId: swipeState.sessionId || createResearchSessionId(),
+    experimentVersion: swipeConfig.experimentVersion,
     createdAt: new Date().toISOString(),
     initialDesiredDish: swipeState.initialDesiredDish,
     results: swipeState.results,
@@ -419,6 +431,7 @@ function restartSwipeSession() {
   swipeState.currentIndex = 0;
   swipeState.results = [];
   swipeState.started = false;
+  swipeState.sessionId = createResearchSessionId();
   swipeState.initialDesiredDish = "";
   if (swipeElements.initialDesiredDish) swipeElements.initialDesiredDish.value = "";
   if (swipeElements.startError) swipeElements.startError.hidden = true;
