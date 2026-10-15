@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>推薦動画 | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="styles.css?v=swipe-prototype-20261006">
+    <link rel="stylesheet" href="styles.css?v=research-submit-20261015">
   </head>
   <body>
     <main class="app-shell">
@@ -59,20 +59,52 @@
               <p class="section-kicker">Survey</p>
               <h3 id="researchFeedbackTitle">アンケートにご協力ください</h3>
               <p class="research-feedback-lead">
-                最初に思い浮かべた料理と、表示された候補がどれくらい近かったかをフォームへ入力してください。
+                最初に思い浮かべた料理と、表示された候補について教えてください。
               </p>
             </div>
             <div class="research-answer-box">
               <span>最初に思い浮かべていた料理</span>
               <strong id="researchInitialAnswer">未入力</strong>
             </div>
-            <div class="research-answer-box">
-              <span>近いと感じた料理・候補のメモ</span>
-              <div class="research-choice-list" id="researchCloseChoices"></div>
-            </div>
-            <div class="research-google-form-frame" id="researchGoogleFormFrame">
-              <p class="research-save-note">Googleフォームを読み込んでいます。</p>
-            </div>
+            <form class="research-feedback-form" id="researchFeedbackForm">
+              <fieldset>
+                <legend>推薦された3件は、最初に思い浮かべた料理にどの程度近かったですか。</legend>
+                <label><input type="radio" name="initialFit" value="近い" required>近い</label>
+                <label><input type="radio" name="initialFit" value="少し近い">少し近い</label>
+                <label><input type="radio" name="initialFit" value="どちらでもない">どちらでもない</label>
+                <label><input type="radio" name="initialFit" value="あまり近くない">あまり近くない</label>
+                <label><input type="radio" name="initialFit" value="近くない">近くない</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>推薦された3件は、今の気分にどの程度合っていましたか。</legend>
+                <label><input type="radio" name="moodFit" value="合っていた" required>合っていた</label>
+                <label><input type="radio" name="moodFit" value="少し合っていた">少し合っていた</label>
+                <label><input type="radio" name="moodFit" value="どちらでもない">どちらでもない</label>
+                <label><input type="radio" name="moodFit" value="あまり合っていなかった">あまり合っていなかった</label>
+                <label><input type="radio" name="moodFit" value="合っていなかった">合っていなかった</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>スワイプ操作で、今日食べたい気分を伝えられたと思いますか。</legend>
+                <label><input type="radio" name="swipeExpression" value="そう思う" required>そう思う</label>
+                <label><input type="radio" name="swipeExpression" value="少しそう思う">少しそう思う</label>
+                <label><input type="radio" name="swipeExpression" value="どちらでもない">どちらでもない</label>
+                <label><input type="radio" name="swipeExpression" value="あまりそう思わない">あまりそう思わない</label>
+                <label><input type="radio" name="swipeExpression" value="そう思わない">そう思わない</label>
+              </fieldset>
+
+              <label class="research-textarea-label" for="researchImprovements">
+                <span>分かりにくかった点や改善してほしい点があれば教えてください。（任意）</span>
+                <textarea id="researchImprovements" name="improvements" placeholder="自由に入力してください"></textarea>
+              </label>
+
+              <div class="research-feedback-actions">
+                <button class="primary-action research-submit-button" id="researchSubmitButton" type="submit">アンケートを送信</button>
+              </div>
+              <p class="research-save-note" id="researchSaveNote" role="status" hidden></p>
+            </form>
+            <iframe class="research-submit-frame" id="researchSubmitFrame" name="researchSubmitFrame" title="アンケート送信先" hidden></iframe>
           </section>
           <div class="result-actions">
             <a class="secondary-action" id="changeConditionsLink" href="../conditions.html">条件を変える</a>
@@ -119,7 +151,7 @@
     <button class="floating-back-button" id="floatingBackButton" type="button" aria-label="前のページに戻る">←</button>
 
     <script src="../recipes-data.js?v=database-2000-20260929"></script>
-    <script src="survey-config.js?v=research-prefill-20261015"></script>
-    <script src="app.js?v=research-prefill-20261015"></script>
+    <script src="survey-config.js?v=research-submit-20261015"></script>
+    <script src="app.js?v=research-submit-20261015"></script>
   </body>
 </html>

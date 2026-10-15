@@ -295,10 +295,9 @@ const swipeLikedDishes = document.querySelector("#swipeLikedDishes");
 const researchFeedbackPanel = document.querySelector("#researchFeedbackPanel");
 const researchFeedbackForm = document.querySelector("#researchFeedbackForm");
 const researchInitialAnswer = document.querySelector("#researchInitialAnswer");
-const researchCloseChoices = document.querySelector("#researchCloseChoices");
-const researchGoogleFormFrame = document.querySelector("#researchGoogleFormFrame");
 const researchSaveNote = document.querySelector("#researchSaveNote");
-const copyResearchAnswerButton = document.querySelector("#copyResearchAnswerButton");
+const researchSubmitButton = document.querySelector("#researchSubmitButton");
+const researchSubmitFrame = document.querySelector("#researchSubmitFrame");
 const template = document.querySelector("#recipeCardTemplate");
 const ingredientDialog = document.querySelector("#ingredientDialog");
 const openIngredientSelector = document.querySelector("#openIngredientSelector");
@@ -317,8 +316,8 @@ const changeConditionsLink = document.querySelector("#changeConditionsLink");
 const brandHomeLink = document.querySelector("#brandHomeLink");
 const floatingBackButton = document.querySelector("#floatingBackButton");
 let activeSwipeDishId = "";
-let lastResearchFeedbackPayload = null;
 let lastDisplayedRecipes = [];
+let researchSubmissionPending = false;
 
 const defaultConditions = {
   taste: "",
@@ -1116,41 +1115,6 @@ function renderCards(scoredRecipes) {
   });
 }
 
-function getResearchStorageKey() {
-  return "recipeResearchFeedbackResponses";
-}
-
-function readResearchResponses() {
-  try {
-    const raw = localStorage.getItem(getResearchStorageKey());
-    const parsed = raw ? JSON.parse(raw) : [];
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (error) {
-    console.warn("failed to read research responses", error);
-    return [];
-  }
-}
-
-function saveResearchResponse(payload) {
-  const responses = readResearchResponses();
-  responses.push(payload);
-  localStorage.setItem(getResearchStorageKey(), JSON.stringify(responses));
-}
-
-function buildResearchChoiceItems(swipeSession, displayedRecipes) {
-  const likedDishes = (swipeSession?.profile?.likedDishes || []).slice(0, 10).map((dish) => ({
-    value: `liked:${dish.dish_id}`,
-    label: `スワイプ: ${dish.dish_name}`,
-    type: "liked_dish"
-  }));
-  const recipeItems = displayedRecipes.slice(0, 3).map((recipe, index) => ({
-    value: `recipe:${recipe.videoId || index + 1}`,
-    label: `候補${index + 1}: ${recipe.title}`,
-    type: "recommended_recipe"
-  }));
-  return [...recipeItems, ...likedDishes];
-}
-
 function sanitizeResearchFormValue(value) {
   return String(value ?? "")
     .replace(/\r?\n/g, " ")
@@ -1189,10 +1153,9 @@ function formatResearchRecommendations(displayedRecipes) {
   ].join("|")).join("\n");
 }
 
-function addResearchPrefillValues(url, swipeSession, displayedRecipes) {
-  const fields = window.SURVEY_FORM_PREFILL_FIELDS || {};
+function getResearchAutomaticValues(swipeSession, displayedRecipes) {
   const fallbackSessionId = `survey-${sanitizeResearchFormValue(swipeSession?.createdAt) || "unknown"}`;
-  const values = {
+  return {
     responseId: swipeSession?.sessionId || fallbackSessionId,
     experimentVersion: swipeSession?.experimentVersion || "adaptive-v1",
     initialDesiredDish: swipeSession?.initialDesiredDish || "",
@@ -1200,86 +1163,56 @@ function addResearchPrefillValues(url, swipeSession, displayedRecipes) {
     swipeProfile: formatResearchSwipeProfile(swipeSession),
     recommendations: formatResearchRecommendations(displayedRecipes)
   };
-
-  Object.entries(values).forEach(([key, value]) => {
-    if (fields[key] && value) url.searchParams.set(fields[key], value);
-  });
 }
 
-function renderResearchFeedback(swipeSession, displayedRecipes) {
+function renderResearchFeedback(swipeSession) {
   if (!researchFeedbackPanel || !swipeSession) return;
 
   researchFeedbackPanel.hidden = false;
   if (researchInitialAnswer) {
     researchInitialAnswer.textContent = swipeSession.initialDesiredDish || "未入力";
   }
-  if (researchCloseChoices) {
-    researchCloseChoices.innerHTML = "";
-    buildResearchChoiceItems(swipeSession, displayedRecipes).forEach((item) => {
-      const chip = document.createElement("span");
-      chip.textContent = item.label;
-      researchCloseChoices.appendChild(chip);
-    });
-  }
-  renderResearchGoogleForm(swipeSession, displayedRecipes);
 }
 
-function renderResearchGoogleForm(swipeSession, displayedRecipes) {
-  if (!researchGoogleFormFrame) return;
-
-  const rawUrl = window.SURVEY_FORM_EMBED_URL || "";
-  if (!rawUrl) {
-    researchGoogleFormFrame.innerHTML = '<p class="research-save-note">GoogleフォームのURLが設定されていません。</p>';
-    return;
-  }
-
-  try {
-    const url = new URL(rawUrl);
-    addResearchPrefillValues(url, swipeSession, displayedRecipes);
-    url.searchParams.set("embedded", "true");
-    researchGoogleFormFrame.replaceChildren();
-    const iframe = document.createElement("iframe");
-    iframe.src = url.href;
-    iframe.title = "ユーザー調査アンケート";
-    iframe.loading = "lazy";
-    iframe.textContent = "読み込んでいます...";
-    researchGoogleFormFrame.appendChild(iframe);
-  } catch (error) {
-    researchGoogleFormFrame.innerHTML = '<p class="research-save-note">GoogleフォームのURLを読み込めませんでした。</p>';
-  }
-}
-
-function buildResearchFeedbackPayload() {
+function buildResearchFormValues() {
   const swipeSession = readSwipeSession();
   if (!researchFeedbackForm || !swipeSession) return null;
 
   const formData = new FormData(researchFeedbackForm);
-  const closeItems = Array.from(researchFeedbackForm.querySelectorAll('input[name="closeItems"]:checked')).map((input) => ({
-    value: input.value,
-    label: input.dataset.label || input.value,
-    type: input.dataset.type || ""
-  }));
-
   return {
-    version: 1,
-    createdAt: new Date().toISOString(),
-    initialDesiredDish: swipeSession.initialDesiredDish || "",
-    fit: formData.get("fit") || "",
-    closeItems,
-    gapText: (formData.get("gapText") || "").toString().trim(),
-    swipeResults: swipeSession.results || [],
-    swipeProfile: swipeSession.profile || {},
-    recommendedRecipes: lastDisplayedRecipes.map((recipe, index) => ({
-      rank: index + 1,
-      videoId: recipe.videoId || "",
-      title: recipe.title || "",
-      url: buildVideoUrl(recipe),
-      genre: getRecipeGenre(recipe),
-      dishType: getDishType(recipe),
-      taste: recipe.taste || "",
-      temperature: getRecipeTemperature(recipe)
-    }))
+    ...getResearchAutomaticValues(swipeSession, lastDisplayedRecipes),
+    initialFit: formData.get("initialFit") || "",
+    moodFit: formData.get("moodFit") || "",
+    swipeExpression: formData.get("swipeExpression") || "",
+    improvements: (formData.get("improvements") || "").toString().trim()
   };
+}
+
+function submitResearchGoogleForm(values) {
+  const responseUrl = window.SURVEY_FORM_RESPONSE_URL || "";
+  const fields = window.SURVEY_FORM_FIELDS || {};
+  if (!responseUrl || !researchSubmitFrame) return false;
+
+  const submissionForm = document.createElement("form");
+  submissionForm.method = "post";
+  submissionForm.action = responseUrl;
+  submissionForm.target = researchSubmitFrame.name;
+  submissionForm.hidden = true;
+
+  Object.entries(values).forEach(([key, value]) => {
+    if (!fields[key]) return;
+    const input = document.createElement("input");
+    input.type = "hidden";
+    input.name = fields[key];
+    input.value = value;
+    submissionForm.appendChild(input);
+  });
+
+  document.body.appendChild(submissionForm);
+  researchSubmissionPending = true;
+  submissionForm.submit();
+  submissionForm.remove();
+  return true;
 }
 
 function showResearchSaveNote(message) {
@@ -1498,7 +1431,7 @@ function updateRecommendations() {
   renderSummary(conditions, swipeSession);
   renderSwipeInsight(swipeSession);
   renderCards(recommendedRecipes);
-  renderResearchFeedback(swipeSession, recommendedRecipes.slice(0, 3));
+  renderResearchFeedback(swipeSession);
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
     if (link === changeConditionsLink) {
@@ -1537,31 +1470,33 @@ if (searchButton) {
 if (researchFeedbackForm) {
   researchFeedbackForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    const payload = buildResearchFeedbackPayload();
-    if (!payload || !payload.fit) {
-      showResearchSaveNote("近さの項目を選んでから保存してください。");
+    if (!researchFeedbackForm.reportValidity()) return;
+
+    const values = buildResearchFormValues();
+    if (!values) {
+      showResearchSaveNote("回答データを読み込めませんでした。もう一度スワイプしてからお試しください。");
       return;
     }
 
-    saveResearchResponse(payload);
-    lastResearchFeedbackPayload = payload;
-    if (copyResearchAnswerButton) copyResearchAnswerButton.disabled = false;
-    showResearchSaveNote("回答をこのブラウザに保存しました。研究用に回収する場合は「回答をコピー」で内容を共有できます。");
+    if (!submitResearchGoogleForm(values)) {
+      showResearchSaveNote("送信先を読み込めませんでした。時間をおいてもう一度お試しください。");
+      return;
+    }
+
+    researchFeedbackForm.querySelectorAll("input, textarea, button").forEach((control) => {
+      control.disabled = true;
+    });
+    if (researchSubmitButton) researchSubmitButton.textContent = "送信中...";
+    showResearchSaveNote("アンケートを送信しています。");
   });
 }
 
-if (copyResearchAnswerButton) {
-  copyResearchAnswerButton.addEventListener("click", async () => {
-    const payload = lastResearchFeedbackPayload || buildResearchFeedbackPayload();
-    if (!payload) return;
-
-    const text = JSON.stringify(payload, null, 2);
-    try {
-      await navigator.clipboard.writeText(text);
-      showResearchSaveNote("回答データをコピーしました。");
-    } catch (error) {
-      showResearchSaveNote(text);
-    }
+if (researchSubmitFrame) {
+  researchSubmitFrame.addEventListener("load", () => {
+    if (!researchSubmissionPending) return;
+    researchSubmissionPending = false;
+    if (researchSubmitButton) researchSubmitButton.textContent = "送信しました";
+    showResearchSaveNote("ご回答ありがとうございました。アンケートを送信しました。");
   });
 }
 
