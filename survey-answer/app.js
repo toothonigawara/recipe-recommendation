@@ -1036,7 +1036,7 @@ function getVisibleSelectedIngredients(selectedIds) {
   return visibleIds;
 }
 
-function renderCards(scoredRecipes) {
+function renderCards(scoredRecipes, emptyMessage = "条件に合う動画が見つかりませんでした。条件を少しゆるめて検索してください。") {
   if (!recommendations || !template) return;
 
   recommendations.innerHTML = "";
@@ -1046,7 +1046,7 @@ function renderCards(scoredRecipes) {
     if (resultJumpNav) resultJumpNav.hidden = true;
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "条件に合う動画が見つかりませんでした。条件を少しゆるめて検索してください。";
+    empty.textContent = emptyMessage;
     recommendations.appendChild(empty);
     return;
   }
@@ -1313,46 +1313,69 @@ function selectDiverseSwipeRecommendations(scoredRecipes) {
   return selected;
 }
 
-const swipeDishKeywords = {
-  omelette_rice: ["オムライス"],
-  ramen: ["ラーメン"],
-  oyakodon: ["親子丼"],
-  ginger_pork: ["生姜焼き", "しょうが焼き"],
-  yakisoba: ["焼きそば"],
-  seafood_pasta: ["魚介", "シーフード", "パスタ"],
-  curry_rice: ["カレー"],
-  salted_salmon: ["鮭", "サケ", "塩焼き"],
-  bibimbap: ["ビビンバ"],
-  kimchi_jjigae: ["キムチチゲ", "チゲ"],
-  hiyayakko: ["冷奴", "冷ややっこ"],
-  cold_soba: ["ざるそば", "そば", "蕎麦"],
-  egg_sandwich: ["卵サンド", "たまごサンド", "サンド"],
-  hamburger: ["ハンバーグ"],
-  mapo_tofu: ["麻婆豆腐", "マーボー豆腐"],
-  fried_rice: ["チャーハン", "炒飯"],
-  kaisendon: ["海鮮丼", "海鮮"],
-  green_salad: ["サラダ"],
-  caprese: ["カプレーゼ"],
-  gratin: ["グラタン"],
-  tonkatsu: ["とんかつ", "トンカツ"],
-  sanma_shioyaki: ["さんま", "サンマ"],
-  niku_udon: ["肉うどん", "うどん"],
-  kimbap: ["キンパ"],
-  pizza_toast: ["ピザトースト", "トースト"],
-  minestrone: ["ミネストローネ"],
-  tuna_mayo_onigiri: ["ツナマヨ", "おにぎり"],
-  nikujaga: ["肉じゃが"],
-  french_toast: ["フレンチトースト"],
-  blt_sandwich: ["BLT", "サンド"],
-  chawanmushi: ["茶碗蒸し", "ちゃわん蒸し"],
-  yudofu: ["湯豆腐"],
-  hiyashi_chuka: ["冷やし中華"],
-  cold_pasta: ["冷製パスタ", "冷たいパスタ"],
-  zosui: ["雑炊"],
-  saba_miso: ["サバ味噌", "鯖味噌", "さば味噌"],
-  vegetable_stir_fry: ["野菜炒め"],
-  tonjiru: ["豚汁"]
+const swipeDishMatchRules = {
+  omelette_rice: { any: ["オムライス"] },
+  ramen: { any: ["ラーメン"] },
+  oyakodon: { any: ["親子丼"] },
+  ginger_pork: { any: ["生姜焼き", "しょうが焼き"] },
+  yakisoba: { any: ["焼きそば", "焼そば"] },
+  seafood_pasta: {
+    allOfAny: [
+      ["パスタ", "スパゲッティ", "スパゲティ"],
+      ["魚介", "シーフード", "海鮮", "えび", "エビ", "海老", "あさり", "アサリ", "ホタテ", "帆立", "いか", "イカ", "たこ", "タコ", "ツナ", "しらす", "明太", "サーモン", "鮭", "牡蠣", "かき", "蟹", "カニ"]
+    ]
+  },
+  curry_rice: {
+    any: ["カレー"],
+    none: ["カレーうどん", "カレーそば", "カレーパスタ", "カレーパン", "カレートースト", "カレーラーメン"]
+  },
+  salted_salmon: {
+    allOfAny: [["鮭", "サケ", "しゃけ"], ["塩焼", "焼き鮭", "焼鮭"]]
+  },
+  bibimbap: { any: ["ビビンバ", "ビビンパ"] },
+  kimchi_jjigae: { any: ["キムチチゲ", "キムチ鍋"] },
+  hiyayakko: { any: ["冷奴", "冷ややっこ", "ひややっこ"] },
+  cold_soba: { any: ["ざるそば", "ざる蕎麦", "もりそば", "もり蕎麦", "冷たいそば", "冷たい蕎麦", "冷やしそば", "冷やし蕎麦", "冷製そば", "冷製蕎麦"] },
+  egg_sandwich: { allOfAny: [["卵", "たまご", "玉子"], ["サンド", "サンドイッチ"]] },
+  hamburger: { any: ["ハンバーグ"] },
+  mapo_tofu: { any: ["麻婆豆腐", "マーボー豆腐", "マーボ豆腐"] },
+  fried_rice: { any: ["チャーハン", "炒飯"] },
+  kaisendon: { any: ["海鮮丼", "刺身丼", "ネギトロ丼", "まぐろ丼", "マグロ丼", "サーモン丼"] },
+  green_salad: { allOfAny: [["サラダ"], ["野菜", "レタス", "キャベツ", "トマト", "きゅうり", "ブロッコリー"]] },
+  caprese: { any: ["カプレーゼ"] },
+  gratin: { any: ["グラタン"] },
+  tonkatsu: { any: ["とんかつ", "トンカツ", "豚カツ"] },
+  sanma_shioyaki: { allOfAny: [["さんま", "サンマ", "秋刀魚"], ["塩焼", "焼き"]] },
+  niku_udon: { allOfAny: [["うどん"], ["肉", "牛すじ", "牛肉", "豚肉", "鶏肉"]] },
+  kimbap: { any: ["キンパ"] },
+  pizza_toast: { any: ["ピザトースト"] },
+  minestrone: { any: ["ミネストローネ"] },
+  tuna_mayo_onigiri: { allOfAny: [["ツナマヨ"], ["おにぎり", "おむすび"]] },
+  nikujaga: { any: ["肉じゃが"] },
+  french_toast: { any: ["フレンチトースト"] },
+  blt_sandwich: { any: ["bltサンド", "bltサンドイッチ", "blt"] },
+  chawanmushi: { any: ["茶碗蒸し", "ちゃわん蒸し"] },
+  yudofu: { any: ["湯豆腐"] },
+  hiyashi_chuka: { any: ["冷やし中華"] },
+  cold_pasta: {
+    allOfAny: [["パスタ", "スパゲッティ", "スパゲティ"], ["冷製", "冷たい", "冷やし"]]
+  },
+  zosui: { any: ["雑炊"] },
+  saba_miso: {
+    allOfAny: [["サバ", "さば", "鯖"], ["味噌", "みそ"]],
+    none: ["パスタ", "スパゲッティ", "スパゲティ", "うどん", "ラーメン"]
+  },
+  vegetable_stir_fry: { any: ["野菜炒め"] },
+  tonjiru: { any: ["豚汁"] }
 };
+
+function normalizeSwipeMatchText(value) {
+  return String(value || "").normalize("NFKC").toLowerCase().replace(/\s+/g, "");
+}
+
+function swipeTextIncludesAny(text, keywords) {
+  return keywords.some((keyword) => text.includes(normalizeSwipeMatchText(keyword)));
+}
 
 function getActiveSwipeDish(swipeSession) {
   const likedDishes = swipeSession?.profile?.likedDishes || [];
@@ -1362,9 +1385,25 @@ function getActiveSwipeDish(swipeSession) {
 function recipeMatchesSwipeDish(recipe, dish) {
   if (!dish) return false;
 
-  const text = `${recipe.title || ""} ${recipe.description || ""}`;
-  const keywords = swipeDishKeywords[dish.dish_id] || [dish.dish_name];
-  return keywords.some((keyword) => text.includes(keyword));
+  const title = normalizeSwipeMatchText(recipe.title);
+  const rule = swipeDishMatchRules[dish.dish_id];
+  if (!rule) return title.includes(normalizeSwipeMatchText(dish.dish_name));
+  if (rule.any && !swipeTextIncludesAny(title, rule.any)) return false;
+  if (rule.allOfAny && !rule.allOfAny.every((group) => swipeTextIncludesAny(title, group))) return false;
+  if (rule.none && swipeTextIncludesAny(title, rule.none)) return false;
+  return true;
+}
+
+function selectFocusedSwipeRecommendations(scoredRecipes) {
+  const pool = scoredRecipes.slice(0, swipeRecommendationRandomPoolSize);
+  const selected = [];
+
+  while (pool.length > 0 && selected.length < 3) {
+    const index = Math.floor(Math.random() * pool.length);
+    selected.push(pool.splice(index, 1)[0]);
+  }
+
+  return selected;
 }
 
 function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
@@ -1378,18 +1417,17 @@ function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
   const candidateRecipes = allRecipes.filter((recipe) => matchesSwipeOptions(recipe, swipeConditions));
   const activeDish = getActiveSwipeDish(swipeSession);
   const focusedCandidates = activeDish
-    ? candidateRecipes.filter((recipe) => recipeMatchesSwipeDish(recipe, activeDish))
+    ? allRecipes.filter((recipe) => !excludedRecipeIds.has(recipe.videoId) && recipeMatchesSwipeDish(recipe, activeDish))
     : [];
-  const recommendationBase = focusedCandidates.length > 0 ? focusedCandidates : candidateRecipes;
   const scoredRecipes = candidateRecipes
     .map((recipe) => scoreRecipeForSwipe(recipe, swipeConditions, profile))
     .sort((a, b) => b.score - a.score);
-  const focusedScoredRecipes = recommendationBase
+  const focusedScoredRecipes = focusedCandidates
     .map((recipe) => scoreRecipeForSwipe(recipe, swipeConditions, profile))
     .sort((a, b) => b.score - a.score);
 
-  if (focusedCandidates.length > 0) {
-    return selectDiverseSwipeRecommendations(focusedScoredRecipes);
+  if (activeDish) {
+    return selectFocusedSwipeRecommendations(focusedScoredRecipes);
   }
 
   return selectDiverseSwipeRecommendations(scoredRecipes);
@@ -1430,7 +1468,11 @@ function updateRecommendations() {
   renderSelectedIngredients(conditions);
   renderSummary(conditions, swipeSession);
   renderSwipeInsight(swipeSession);
-  renderCards(recommendedRecipes);
+  const activeDish = getActiveSwipeDish(swipeSession);
+  const emptyMessage = activeDish
+    ? `「${activeDish.dish_name}」に一致するレシピ動画は、現在のDBに登録されていません。`
+    : undefined;
+  renderCards(recommendedRecipes, emptyMessage);
   renderResearchFeedback(swipeSession);
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
