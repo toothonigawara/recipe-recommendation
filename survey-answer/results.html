@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>推薦動画 | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="styles.css?v=research-submit-20261015">
+    <link rel="stylesheet" href="styles.css?v=retry-recommendations-20261027">
   </head>
   <body>
     <main class="app-shell">
@@ -54,6 +54,11 @@
             <div class="swipe-liked-dishes" id="swipeLikedDishes"></div>
           </section>
           <div class="recommendations" id="recommendations"></div>
+          <div class="recommendation-refresh" id="recommendationRefresh" hidden>
+            <p>希望に近いものがなければ、同じ条件で別の動画を探せます。</p>
+            <button class="recommendation-refresh-button" id="retryRecommendationsButton" type="button">別の3件を見る</button>
+            <p class="recommendation-retry-status" id="recommendationRetryStatus" role="status" aria-live="polite" hidden></p>
+          </div>
           <section class="research-feedback-panel" id="researchFeedbackPanel" hidden aria-labelledby="researchFeedbackTitle">
             <div>
               <p class="section-kicker">Survey</p>
@@ -152,6 +157,6 @@
 
     <script src="../recipes-data.js?v=database-2000-20260929"></script>
     <script src="survey-config.js?v=research-submit-20261015"></script>
-    <script src="app.js?v=research-submit-20261015"></script>
+    <script src="app.js?v=retry-recommendations-20261027"></script>
   </body>
 </html>

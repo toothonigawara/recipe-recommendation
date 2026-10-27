@@ -1370,6 +1370,56 @@ legend {
   text-decoration: none;
 }
 
+.recommendation-refresh {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+  margin-top: 26px;
+  padding: 20px 16px;
+  border-block: 1px solid rgba(10, 169, 130, 0.24);
+  background: #effcf7;
+  text-align: center;
+}
+
+.recommendation-refresh p {
+  margin: 0;
+  color: #5f6863;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.recommendation-refresh-button {
+  min-width: min(100%, 220px);
+  min-height: 48px;
+  padding: 10px 24px;
+  border: 2px solid rgba(10, 169, 130, 0.5);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--green-dark);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+}
+
+.recommendation-refresh-button:hover,
+.recommendation-refresh-button:focus-visible {
+  border-color: var(--tomato);
+  background: #fff3f1;
+  color: #9b3b30;
+}
+
+.recommendation-refresh-button:disabled {
+  border-color: #d8ddd9;
+  background: #f5f6f5;
+  color: #8a918d;
+  cursor: default;
+}
+
+.recommendation-retry-status {
+  color: var(--green-dark) !important;
+  font-size: 0.84rem !important;
+}
+
 body.dialog-open {
   overflow: hidden;
 }

@@ -292,6 +292,9 @@ const summaryStrip = document.querySelector("#summaryStrip");
 const resultJumpNav = document.querySelector("#resultJumpNav");
 const swipeInsightPanel = document.querySelector("#swipeInsightPanel");
 const swipeLikedDishes = document.querySelector("#swipeLikedDishes");
+const recommendationRefresh = document.querySelector("#recommendationRefresh");
+const retryRecommendationsButton = document.querySelector("#retryRecommendationsButton");
+const recommendationRetryStatus = document.querySelector("#recommendationRetryStatus");
 const researchFeedbackPanel = document.querySelector("#researchFeedbackPanel");
 const researchFeedbackForm = document.querySelector("#researchFeedbackForm");
 const researchInitialAnswer = document.querySelector("#researchInitialAnswer");
@@ -317,6 +320,9 @@ const brandHomeLink = document.querySelector("#brandHomeLink");
 const floatingBackButton = document.querySelector("#floatingBackButton");
 let activeSwipeDishId = "";
 let lastDisplayedRecipes = [];
+let displayedRecipeIds = new Set();
+let recommendationContextKey = "";
+let recommendationHistory = [];
 let researchSubmissionPending = false;
 
 const defaultConditions = {
@@ -1146,11 +1152,22 @@ function formatResearchSwipeProfile(swipeSession) {
 }
 
 function formatResearchRecommendations(displayedRecipes) {
-  return (displayedRecipes || []).slice(0, 3).map((recipe, index) => [
-    `#${index + 1}`,
-    sanitizeResearchFormValue(recipe.videoId),
-    sanitizeResearchFormValue(recipe.title)
-  ].join("|")).join("\n");
+  const sets = recommendationHistory.length > 0
+    ? recommendationHistory
+    : [(displayedRecipes || []).slice(0, 3)];
+  const rows = [`再提案回数=${Math.max(0, sets.length - 1)}`];
+
+  sets.forEach((recipeSet, setIndex) => {
+    recipeSet.forEach((recipe, index) => {
+      rows.push([
+        `候補${setIndex + 1}-#${index + 1}`,
+        sanitizeResearchFormValue(recipe.videoId),
+        sanitizeResearchFormValue(recipe.title)
+      ].join("|"));
+    });
+  });
+
+  return rows.join("\n");
 }
 
 function getResearchAutomaticValues(swipeSession, displayedRecipes) {
@@ -1279,9 +1296,9 @@ function hasDifferentDishTypeCandidate(scoredRecipes, selectedIds, baseDishType)
   return scoredRecipes.some((recipe) => !selectedIds.has(recipe.videoId) && getDishType(recipe) !== baseDishType);
 }
 
-function selectDiverseSwipeRecommendations(scoredRecipes) {
+function selectDiverseSwipeRecommendations(scoredRecipes, omittedRecipeIds = new Set()) {
   const selected = [];
-  const selectedIds = new Set();
+  const selectedIds = new Set(omittedRecipeIds);
   const first = pickRandomRecipe(scoredRecipes, selectedIds);
 
   if (!addSelectedRecipe(selected, selectedIds, first)) return [];
@@ -1394,8 +1411,10 @@ function recipeMatchesSwipeDish(recipe, dish) {
   return true;
 }
 
-function selectFocusedSwipeRecommendations(scoredRecipes) {
-  const pool = scoredRecipes.slice(0, swipeRecommendationRandomPoolSize);
+function selectFocusedSwipeRecommendations(scoredRecipes, omittedRecipeIds = new Set()) {
+  const pool = scoredRecipes
+    .filter((recipe) => !omittedRecipeIds.has(recipe.videoId))
+    .slice(0, swipeRecommendationRandomPoolSize);
   const selected = [];
 
   while (pool.length > 0 && selected.length < 3) {
@@ -1406,7 +1425,7 @@ function selectFocusedSwipeRecommendations(scoredRecipes) {
   return selected;
 }
 
-function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
+function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession, omittedRecipeIds = new Set()) {
   const profile = swipeSession?.profile || {};
   const swipeConditions = {
     ...conditions,
@@ -1417,7 +1436,11 @@ function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
   const candidateRecipes = allRecipes.filter((recipe) => matchesSwipeOptions(recipe, swipeConditions));
   const activeDish = getActiveSwipeDish(swipeSession);
   const focusedCandidates = activeDish
-    ? allRecipes.filter((recipe) => !excludedRecipeIds.has(recipe.videoId) && recipeMatchesSwipeDish(recipe, activeDish))
+    ? allRecipes.filter((recipe) => (
+        !excludedRecipeIds.has(recipe.videoId) &&
+        !omittedRecipeIds.has(recipe.videoId) &&
+        recipeMatchesSwipeDish(recipe, activeDish)
+      ))
     : [];
   const scoredRecipes = candidateRecipes
     .map((recipe) => scoreRecipeForSwipe(recipe, swipeConditions, profile))
@@ -1427,10 +1450,10 @@ function getSwipeRecommendedRecipes(allRecipes, conditions, swipeSession) {
     .sort((a, b) => b.score - a.score);
 
   if (activeDish) {
-    return selectFocusedSwipeRecommendations(focusedScoredRecipes);
+    return selectFocusedSwipeRecommendations(focusedScoredRecipes, omittedRecipeIds);
   }
 
-  return selectDiverseSwipeRecommendations(scoredRecipes);
+  return selectDiverseSwipeRecommendations(scoredRecipes, omittedRecipeIds);
 }
 
 function renderSwipeInsight(swipeSession) {
@@ -1453,17 +1476,61 @@ function renderSwipeInsight(swipeSession) {
   });
 }
 
-function updateRecommendations() {
+function buildRecommendationContextKey(conditions, swipeSession) {
+  return JSON.stringify({
+    conditions,
+    swipeSessionId: swipeSession?.sessionId || swipeSession?.createdAt || "",
+    activeSwipeDishId
+  });
+}
+
+function setRecommendationRetryState({ hasResults, refreshed = false, exhausted = false }) {
+  if (recommendationRefresh) recommendationRefresh.hidden = !hasResults;
+  if (!retryRecommendationsButton) return;
+
+  retryRecommendationsButton.hidden = !hasResults;
+  retryRecommendationsButton.disabled = exhausted;
+  retryRecommendationsButton.textContent = exhausted ? "ほかの候補はありません" : "別の3件を見る";
+
+  if (!recommendationRetryStatus) return;
+  recommendationRetryStatus.hidden = !refreshed && !exhausted;
+  recommendationRetryStatus.textContent = exhausted
+    ? "現在の条件で表示できる別の候補をすべて確認しました。"
+    : "同じ条件で、別の3件を表示しました。";
+}
+
+function updateRecommendations({ requestAlternatives = false } = {}) {
   const conditions = readConditions();
   const swipeSession = readSwipeSession();
+  const nextContextKey = buildRecommendationContextKey(conditions, swipeSession);
+  if (nextContextKey !== recommendationContextKey) {
+    recommendationContextKey = nextContextKey;
+    displayedRecipeIds = new Set();
+    recommendationHistory = [];
+    requestAlternatives = false;
+  }
+
+  const omittedRecipeIds = requestAlternatives ? displayedRecipeIds : new Set();
   const candidateRecipes = recipes.filter((recipe) => matchesHardOptions(recipe, conditions));
   const recommendedRecipes = swipeSession
-    ? getSwipeRecommendedRecipes(recipes, conditions, swipeSession)
+    ? getSwipeRecommendedRecipes(recipes, conditions, swipeSession, omittedRecipeIds)
     : hasActiveConditions(conditions)
-      ? candidateRecipes
-          .map((recipe) => scoreRecipe(recipe, conditions))
-          .sort((a, b) => b.score - a.score)
-      : getRandomRecommendations(candidateRecipes);
+      ? (() => {
+          const scoredRecipes = candidateRecipes
+            .map((recipe) => scoreRecipe(recipe, conditions))
+            .sort((a, b) => b.score - a.score);
+          return requestAlternatives
+            ? selectDiverseSwipeRecommendations(scoredRecipes, omittedRecipeIds)
+            : scoredRecipes;
+        })()
+      : getRandomRecommendations(
+          candidateRecipes.filter((recipe) => !omittedRecipeIds.has(recipe.videoId))
+        );
+
+  if (requestAlternatives && recommendedRecipes.length < 3) {
+    setRecommendationRetryState({ hasResults: true, exhausted: true });
+    return false;
+  }
 
   renderSelectedIngredients(conditions);
   renderSummary(conditions, swipeSession);
@@ -1473,6 +1540,13 @@ function updateRecommendations() {
     ? `「${activeDish.dish_name}」に一致するレシピ動画は、現在のDBに登録されていません。`
     : undefined;
   renderCards(recommendedRecipes, emptyMessage);
+  const displayedRecipes = recommendedRecipes.slice(0, 3);
+  displayedRecipes.forEach((recipe) => displayedRecipeIds.add(recipe.videoId));
+  if (displayedRecipes.length > 0) recommendationHistory.push(displayedRecipes);
+  setRecommendationRetryState({
+    hasResults: recommendedRecipes.length > 0,
+    refreshed: requestAlternatives
+  });
   renderResearchFeedback(swipeSession);
 
   [changeConditionsLink, brandHomeLink].forEach((link) => {
@@ -1480,6 +1554,17 @@ function updateRecommendations() {
       link.href = buildPageUrl(getConditionsPagePath(), conditions);
     } else if (link) {
       link.href = "index.html";
+    }
+  });
+
+  return recommendedRecipes.length > 0;
+}
+
+if (retryRecommendationsButton) {
+  retryRecommendationsButton.addEventListener("click", () => {
+    const updated = updateRecommendations({ requestAlternatives: true });
+    if (updated && recommendations) {
+      recommendations.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   });
 }
