@@ -1743,6 +1743,24 @@ body.dialog-open {
   font-weight: 900;
 }
 
+.research-question-progress {
+  display: block;
+  width: fit-content;
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #e8fff6;
+  color: #08745f;
+  font-size: 0.76rem;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.research-textarea-label > .research-question-progress {
+  color: #08745f;
+  font-size: 0.76rem;
+}
+
 .research-feedback-form fieldset label {
   display: flex;
   align-items: center;
