@@ -1764,12 +1764,103 @@ body.dialog-open {
   color: #08745f;
 }
 
+.research-feedback-form fieldset label:has(input:disabled) {
+  cursor: default;
+  opacity: 0.48;
+}
+
 .research-feedback-form input[type="radio"],
 .research-feedback-form input[type="checkbox"] {
   flex: 0 0 auto;
   width: 18px;
   height: 18px;
   accent-color: var(--green);
+}
+
+.research-feedback-form fieldset .research-choice-entry {
+  cursor: text;
+}
+
+.research-feedback-form .research-choice-input {
+  width: 100%;
+  min-width: 0;
+  min-height: 42px;
+  padding: 9px 11px;
+  border: 2px solid rgba(122, 77, 53, 0.16);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+
+.research-feedback-form .research-choice-input:focus {
+  outline: 3px solid rgba(10, 169, 130, 0.16);
+  border-color: rgba(10, 169, 130, 0.42);
+}
+
+.research-feedback-form fieldset .research-other-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-height: 46px;
+  padding: 10px 12px;
+  border: 2px solid rgba(122, 77, 53, 0.12);
+  border-radius: 8px;
+  background: #fffaf0;
+}
+
+.research-feedback-form fieldset .research-other-option:has(input[value="__other_option__"]:checked) {
+  border-color: rgba(10, 169, 130, 0.56);
+  background: #e8fff6;
+  color: #08745f;
+}
+
+.research-feedback-form fieldset .research-other-option:has(input[value="__other_option__"]:disabled) {
+  opacity: 0.48;
+}
+
+.research-feedback-form fieldset .research-other-option > label {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.research-feedback-form fieldset .research-other-option > label:has(input:checked),
+.research-feedback-form fieldset .research-other-option > label:has(input:disabled) {
+  border: 0;
+  background: transparent;
+  opacity: 1;
+}
+
+.research-other-option span {
+  flex: 0 0 auto;
+}
+
+.research-feedback-form .research-other-input {
+  flex: 1 1 180px;
+  min-width: 0;
+  min-height: 40px;
+  padding: 8px 10px;
+  border: 2px solid rgba(122, 77, 53, 0.16);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+
+.research-feedback-form .research-other-input:focus {
+  outline: 3px solid rgba(10, 169, 130, 0.16);
+  border-color: rgba(10, 169, 130, 0.42);
+}
+
+.research-field-error {
+  margin: 0;
+  color: #b33b2f;
+  font-size: 0.86rem;
+  font-weight: 800;
 }
 
 .research-choice-list {

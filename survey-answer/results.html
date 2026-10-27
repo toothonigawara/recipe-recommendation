@@ -79,11 +79,13 @@
                 <label><input type="radio" name="swipeDishCoverage" value="まったくなかった">まったくなかった</label>
               </fieldset>
 
-              <label class="research-short-answer" for="researchClosestDish">
-                <span>表示された10件のうち、最初に思い浮かべた料理に最も近かったものを1つ記入してください。</span>
-                <input id="researchClosestDish" name="closestDisplayedDish" list="researchDishOptions" required placeholder="料理名を入力または候補から選択">
+              <fieldset>
+                <legend>表示された10件のうち、最初に思い浮かべた料理に最も近かったものを1つ選んでください。</legend>
+                <label class="research-choice-entry" for="researchClosestDish">
+                  <input class="research-choice-input" id="researchClosestDish" name="closestDisplayedDish" list="researchDishOptions" required placeholder="料理名を入力または候補から選択">
+                </label>
                 <datalist id="researchDishOptions"></datalist>
-              </label>
+              </fieldset>
 
               <fieldset>
                 <legend>スワイプで「食べたい／今じゃない」を判断するとき、重視したものを選んでください。（3つまで）</legend>
@@ -94,11 +96,10 @@
                 <label><input type="checkbox" name="swipeDecisionFactors" value="肉・魚・卵・野菜などの食材">肉・魚・卵・野菜などの食材</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="料理そのもの">料理そのもの</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="料理画像の見た目">料理画像の見た目</label>
-                <label class="research-other-option">
-                  <input type="checkbox" name="swipeDecisionFactors" value="__other_option__">
-                  <span>その他</span>
+                <div class="research-other-option">
+                  <label><input type="checkbox" name="swipeDecisionFactors" value="__other_option__"><span>その他</span></label>
                   <input class="research-other-input" name="swipeDecisionFactorsOther" aria-label="その他の判断基準">
-                </label>
+                </div>
                 <p class="research-field-error" id="swipeDecisionFactorsError" hidden></p>
               </fieldset>
 
@@ -124,11 +125,10 @@
                 <label><input type="radio" name="swipeCountOpinion" value="多い" required>多い</label>
                 <label><input type="radio" name="swipeCountOpinion" value="ちょうどよい">ちょうどよい</label>
                 <label><input type="radio" name="swipeCountOpinion" value="少ない">少ない</label>
-                <label class="research-other-option">
-                  <input type="radio" name="swipeCountOpinion" value="__other_option__">
-                  <span>その他</span>
+                <div class="research-other-option">
+                  <label><input type="radio" name="swipeCountOpinion" value="__other_option__"><span>その他</span></label>
                   <input class="research-other-input" name="swipeCountOpinionOther" aria-label="スワイプ数についてのその他の回答">
-                </label>
+                </div>
               </fieldset>
 
               <fieldset>
@@ -136,11 +136,10 @@
                 <label><input type="radio" name="recommendationCountOpinion" value="多い" required>多い</label>
                 <label><input type="radio" name="recommendationCountOpinion" value="ちょうどよい">ちょうどよい</label>
                 <label><input type="radio" name="recommendationCountOpinion" value="少ない">少ない</label>
-                <label class="research-other-option">
-                  <input type="radio" name="recommendationCountOpinion" value="__other_option__">
-                  <span>その他</span>
+                <div class="research-other-option">
+                  <label><input type="radio" name="recommendationCountOpinion" value="__other_option__"><span>その他</span></label>
                   <input class="research-other-input" name="recommendationCountOpinionOther" aria-label="推薦数についてのその他の回答">
-                </label>
+                </div>
               </fieldset>
 
               <fieldset>
@@ -150,11 +149,10 @@
                 <label><input type="radio" name="usability" value="どちらともいえない">どちらともいえない</label>
                 <label><input type="radio" name="usability" value="使いにくい">使いにくい</label>
                 <label><input type="radio" name="usability" value="とても使いにくい">とても使いにくい</label>
-                <label class="research-other-option">
-                  <input type="radio" name="usability" value="__other_option__">
-                  <span>その他</span>
+                <div class="research-other-option">
+                  <label><input type="radio" name="usability" value="__other_option__"><span>その他</span></label>
                   <input class="research-other-input" name="usabilityOther" aria-label="使いやすさについてのその他の回答">
-                </label>
+                </div>
               </fieldset>
 
               <label class="research-textarea-label" for="researchImprovements">

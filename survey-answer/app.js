@@ -1715,7 +1715,8 @@ if (researchFeedbackForm) {
   researchFeedbackForm.addEventListener("input", (event) => {
     if (!event.target.matches(".research-other-input")) return;
     event.target.setCustomValidity("");
-    const otherChoice = event.target.closest("label")?.querySelector('input[value="__other_option__"]');
+    const otherChoice = event.target.closest(".research-other-option")
+      ?.querySelector('input[value="__other_option__"]');
     if (event.target.value.trim() && otherChoice && !otherChoice.disabled) {
       otherChoice.checked = true;
       updateSwipeDecisionFactorState();
