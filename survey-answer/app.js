@@ -315,7 +315,6 @@ const closeVideoDialog = document.querySelector("#closeVideoDialog");
 const videoDialogTitle = document.querySelector("#videoDialogTitle");
 const videoFrameWrap = document.querySelector("#videoFrameWrap");
 const searchButton = document.querySelector("#searchButton");
-const changeConditionsLink = document.querySelector("#changeConditionsLink");
 const brandHomeLink = document.querySelector("#brandHomeLink");
 const floatingBackButton = document.querySelector("#floatingBackButton");
 let activeSwipeDishId = "";
@@ -447,11 +446,6 @@ function readSwipeSession() {
     console.warn("failed to read swipe session", error);
     return null;
   }
-}
-
-function getConditionsPagePath() {
-  if (window.location.pathname.includes("/survey-answer/")) return "../conditions.html";
-  return window.location.pathname.includes("/survey/") ? "index.html" : "conditions.html";
 }
 
 function applyConditionsToForm(conditions) {
@@ -1583,13 +1577,7 @@ function updateRecommendations({ requestAlternatives = false } = {}) {
   });
   renderResearchFeedback(swipeSession);
 
-  [changeConditionsLink, brandHomeLink].forEach((link) => {
-    if (link === changeConditionsLink) {
-      link.href = buildPageUrl(getConditionsPagePath(), conditions);
-    } else if (link) {
-      link.href = "index.html";
-    }
-  });
+  if (brandHomeLink) brandHomeLink.href = "index.html";
 
   return recommendedRecipes.length > 0;
 }
@@ -1663,12 +1651,7 @@ if (researchSubmitFrame) {
 
 if (floatingBackButton) {
   floatingBackButton.addEventListener("click", () => {
-    if (window.history.length > 1) {
-      window.history.back();
-      return;
-    }
-
-    window.location.href = getConditionsPagePath();
+    window.location.href = "index.html";
   });
 }
 
