@@ -1157,7 +1157,7 @@ function getResearchAutomaticValues(swipeSession, displayedRecipes) {
   const fallbackSessionId = `survey-${sanitizeResearchFormValue(swipeSession?.createdAt) || "unknown"}`;
   return {
     responseId: swipeSession?.sessionId || fallbackSessionId,
-    experimentVersion: swipeSession?.experimentVersion || "adaptive-v1",
+    experimentVersion: swipeSession?.experimentVersion || "balanced-random-v1",
     initialDesiredDish: swipeSession?.initialDesiredDish || "",
     swipeResults: formatResearchSwipeResults(swipeSession),
     swipeProfile: formatResearchSwipeProfile(swipeSession),

@@ -42,8 +42,71 @@ function shuffleDishes(dishes) {
     .map((item) => item.dish);
 }
 
+const swipeBalanceDimensions = [
+  { key: "genre", distributionWeight: 2 },
+  { key: "staple", distributionWeight: 2 },
+  { key: "dish_type", distributionWeight: 2 },
+  { key: "taste_level", distributionWeight: 4 },
+  { key: "temperature", distributionWeight: 4 }
+];
+
+function countDishesBy(dishes, key) {
+  return dishes.reduce((counts, dish) => {
+    const value = dish[key] || "未設定";
+    counts[value] = (counts[value] || 0) + 1;
+    return counts;
+  }, {});
+}
+
+function scoreSwipeDeck(dishes, pool) {
+  let score = 0;
+
+  swipeBalanceDimensions.forEach(({ key, distributionWeight }) => {
+    const selectedCounts = countDishesBy(dishes, key);
+    const poolCounts = countDishesBy(pool, key);
+    Object.entries(poolCounts).forEach(([value, poolCount]) => {
+      const targetCount = dishes.length * poolCount / pool.length;
+      score -= Math.pow((selectedCounts[value] || 0) - targetCount, 2) * distributionWeight;
+    });
+  });
+
+  const genreAndTypeCounts = Object.values(countDishesBy(
+    dishes.map((dish) => ({ combination: `${dish.genre}|${dish.dish_type}` })),
+    "combination"
+  ));
+  score -= genreAndTypeCounts.reduce(
+    (penalty, count) => penalty + Math.pow(Math.max(0, count - 1), 2),
+    0
+  ) * 2;
+
+  return score;
+}
+
+function meetsSwipeBalanceMinimums(dishes) {
+  return Object.keys(countDishesBy(dishes, "genre")).length >= 4
+    && Object.keys(countDishesBy(dishes, "staple")).length >= 4
+    && Object.keys(countDishesBy(dishes, "dish_type")).length >= 5
+    && Object.keys(countDishesBy(dishes, "taste_level")).length >= 4
+    && Object.keys(countDishesBy(dishes, "temperature")).length >= 2;
+}
+
 function selectSwipeDishes(dishes, sessionSize = swipeConfig.sessionSize) {
-  return shuffleDishes(dishes).slice(0, sessionSize);
+  const selectionSize = Math.min(sessionSize, dishes.length);
+  if (selectionSize === 0) return [];
+  if (selectionSize === dishes.length) return shuffleDishes(dishes);
+
+  const attempts = Math.max(200, dishes.length * 10);
+  const candidates = Array.from({ length: attempts }, () => {
+    const deck = shuffleDishes(dishes).slice(0, selectionSize);
+    return { deck, score: scoreSwipeDeck(deck, dishes) };
+  });
+  const balancedCandidates = candidates.filter((candidate) => meetsSwipeBalanceMinimums(candidate.deck));
+  const rankedCandidates = (balancedCandidates.length > 0 ? balancedCandidates : candidates)
+    .sort((a, b) => b.score - a.score);
+
+  const eliteSize = Math.min(12, rankedCandidates.length);
+  const selected = rankedCandidates[Math.floor(Math.random() * eliteSize)].deck;
+  return shuffleDishes(selected);
 }
 
 function getNextSwipeDish(state = swipeState) {

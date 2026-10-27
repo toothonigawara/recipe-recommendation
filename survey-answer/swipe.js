@@ -20,7 +20,7 @@ const swipeState = {
 const swipeConfig = {
   sessionSize: 10,
   swipeThreshold: 90,
-  experimentVersion: "adaptive-v1"
+  experimentVersion: "balanced-random-v1"
 };
 
 function createResearchSessionId() {
@@ -58,60 +58,71 @@ function shuffleDishes(dishes) {
     .map((item) => item.dish);
 }
 
-function selectSwipeDishes(dishes, sessionSize = swipeConfig.sessionSize) {
-  return shuffleDishes(dishes).slice(0, sessionSize);
-}
+const swipeBalanceDimensions = [
+  { key: "genre", distributionWeight: 2 },
+  { key: "staple", distributionWeight: 2 },
+  { key: "dish_type", distributionWeight: 2 },
+  { key: "taste_level", distributionWeight: 4 },
+  { key: "temperature", distributionWeight: 4 }
+];
 
-function countResultsBy(results, key) {
-  return results.reduce((counts, result) => {
-    const value = result[key];
-    if (value) counts[value] = (counts[value] || 0) + 1;
+function countDishesBy(dishes, key) {
+  return dishes.reduce((counts, dish) => {
+    const value = dish[key] || "未設定";
+    counts[value] = (counts[value] || 0) + 1;
     return counts;
   }, {});
 }
 
-function scoreDishForAdaptiveSwipe(dish, likedCounts) {
-  let score = Math.random() * 0.8;
-  score += (likedCounts.taste_level[dish.taste_level] || 0) * 4;
-  score += (likedCounts.temperature[dish.temperature] || 0) * 4;
-  score += (likedCounts.genre[dish.genre] || 0) * 2;
-  score += (likedCounts.dish_type[dish.dish_type] || 0) * 2;
+function scoreSwipeDeck(dishes, pool) {
+  let score = 0;
+
+  swipeBalanceDimensions.forEach(({ key, distributionWeight }) => {
+    const selectedCounts = countDishesBy(dishes, key);
+    const poolCounts = countDishesBy(pool, key);
+    Object.entries(poolCounts).forEach(([value, poolCount]) => {
+      const targetCount = dishes.length * poolCount / pool.length;
+      score -= Math.pow((selectedCounts[value] || 0) - targetCount, 2) * distributionWeight;
+    });
+  });
+
+  const genreAndTypeCounts = Object.values(countDishesBy(
+    dishes.map((dish) => ({ combination: `${dish.genre}|${dish.dish_type}` })),
+    "combination"
+  ));
+  score -= genreAndTypeCounts.reduce(
+    (penalty, count) => penalty + Math.pow(Math.max(0, count - 1), 2),
+    0
+  ) * 2;
+
   return score;
 }
 
-function selectAdaptiveSwipeDishes(dishes, results, size) {
-  const shownIds = new Set(results.map((result) => result.dish_id));
-  const liked = results.filter((result) => result.action === "like");
-  if (liked.length === 0) {
-    return shuffleDishes(dishes.filter((dish) => !shownIds.has(dish.id))).slice(0, size);
-  }
-
-  const likedCounts = {
-    taste_level: countResultsBy(liked, "taste_level"),
-    temperature: countResultsBy(liked, "temperature"),
-    genre: countResultsBy(liked, "genre"),
-    dish_type: countResultsBy(liked, "dish_type")
-  };
-
-  return dishes
-    .filter((dish) => !shownIds.has(dish.id))
-    .map((dish) => ({ dish, score: scoreDishForAdaptiveSwipe(dish, likedCounts) }))
-    .sort((a, b) => b.score - a.score)
-    .slice(0, Math.max(size * 3, size))
-    .sort(() => Math.random() - 0.5)
-    .slice(0, size)
-    .map((item) => item.dish);
+function meetsSwipeBalanceMinimums(dishes) {
+  return Object.keys(countDishesBy(dishes, "genre")).length >= 4
+    && Object.keys(countDishesBy(dishes, "staple")).length >= 4
+    && Object.keys(countDishesBy(dishes, "dish_type")).length >= 5
+    && Object.keys(countDishesBy(dishes, "taste_level")).length >= 4
+    && Object.keys(countDishesBy(dishes, "temperature")).length >= 2;
 }
 
-function adaptRemainingDeckIfNeeded() {
-  const midpoint = Math.floor(swipeConfig.sessionSize / 2);
-  if (swipeState.currentIndex !== midpoint) return;
+function selectSwipeDishes(dishes, sessionSize = swipeConfig.sessionSize) {
+  const selectionSize = Math.min(sessionSize, dishes.length);
+  if (selectionSize === 0) return [];
+  if (selectionSize === dishes.length) return shuffleDishes(dishes);
 
-  const remainingSize = swipeConfig.sessionSize - midpoint;
-  const adaptiveDishes = selectAdaptiveSwipeDishes(swipeDishPool, swipeState.results, remainingSize);
-  if (adaptiveDishes.length > 0) {
-    swipeState.deck = swipeState.deck.slice(0, midpoint).concat(adaptiveDishes);
-  }
+  const attempts = Math.max(200, dishes.length * 10);
+  const candidates = Array.from({ length: attempts }, () => {
+    const deck = shuffleDishes(dishes).slice(0, selectionSize);
+    return { deck, score: scoreSwipeDeck(deck, dishes) };
+  });
+  const balancedCandidates = candidates.filter((candidate) => meetsSwipeBalanceMinimums(candidate.deck));
+  const rankedCandidates = (balancedCandidates.length > 0 ? balancedCandidates : candidates)
+    .sort((a, b) => b.score - a.score);
+
+  const eliteSize = Math.min(12, rankedCandidates.length);
+  const selected = rankedCandidates[Math.floor(Math.random() * eliteSize)].deck;
+  return shuffleDishes(selected);
 }
 
 function getNextSwipeDish(state = swipeState) {
@@ -366,7 +377,6 @@ function recordSwipe(action) {
 
   swipeState.results.push(buildSwipeResult(dish, action, swipeState.currentIndex + 1));
   swipeState.currentIndex += 1;
-  adaptRemainingDeckIfNeeded();
   window.swipePrototype.results = swipeState.results;
   window.swipePrototype.summary = summarizeSwipeResults(swipeState.results);
   window.swipePrototype.profile = inferRecommendationConditions(swipeState.results);
@@ -478,7 +488,6 @@ window.swipePrototype = {
   buildRateStats,
   inferRecommendationConditions,
   buildResultsUrl,
-  selectAdaptiveSwipeDishes,
   restart: restartSwipeSession
 };
 
