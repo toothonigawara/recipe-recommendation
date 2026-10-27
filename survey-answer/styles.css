@@ -2015,6 +2015,13 @@ h3 {
   line-height: 1.6;
 }
 
+.recipe-card .meta-row,
+.recipe-card .reason-box,
+.recipe-card .description,
+.recipe-card .score {
+  display: none;
+}
+
 .card-actions {
   display: grid;
   grid-template-columns: 1fr;

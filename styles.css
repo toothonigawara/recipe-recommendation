@@ -735,6 +735,13 @@ h1 {
   margin-top: 0;
 }
 
+.survey-shell .recipe-card .meta-row,
+.survey-shell .recipe-card .reason-box,
+.survey-shell .recipe-card .description,
+.survey-shell .recipe-card .score {
+  display: none;
+}
+
 .survey-feedback-panel {
   margin: 24px 0 0;
 }
