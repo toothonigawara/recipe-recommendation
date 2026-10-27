@@ -2148,15 +2148,15 @@ h3 {
   }
 
   .results-page {
-    --hero-height: 500px;
+    --hero-height: 280px;
   }
 
   .results-page .hero {
-    padding-bottom: 36px;
+    padding-bottom: 24px;
   }
 
   .results-page .hero-content {
-    margin-top: 54px;
+    margin-top: 42px;
   }
 
   .results-page h1 {
@@ -2178,7 +2178,7 @@ h3 {
   }
 
   .results-page .workspace {
-    margin-top: calc(42vh - var(--hero-height));
+    margin-top: -20px;
   }
 
   .lead {
