@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>推薦動画 | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="styles.css?v=retry-recommendations-20261027">
+    <link rel="stylesheet" href="styles.css?v=result-previews-20261027">
   </head>
   <body>
     <main class="app-shell">
@@ -38,11 +38,11 @@
               <p class="embed-note" id="embedNote" hidden>動画再生はローカルサーバー経由で開くと安定します。</p>
             </div>
             <div class="result-jump-nav" id="resultJumpNav" aria-label="推薦候補への移動">
-              <span>3つの候補をチェック</span>
-              <div>
-                <a href="#recipe-1">#1</a>
-                <a href="#recipe-2">#2</a>
-                <a href="#recipe-3">#3</a>
+              <span>おすすめが3つ見つかりました</span>
+              <div class="result-preview-list">
+                <a href="#recipe-1" data-result-preview="0"><img alt=""><span>候補1</span></a>
+                <a href="#recipe-2" data-result-preview="1"><img alt=""><span>候補2</span></a>
+                <a href="#recipe-3" data-result-preview="2"><img alt=""><span>候補3</span></a>
               </div>
             </div>
           </div>
@@ -104,6 +104,6 @@
     <button class="floating-back-button" id="floatingBackButton" type="button" aria-label="前のページに戻る">←</button>
 
     <script src="recipes-data.js?v=database-2000-20260929"></script>
-    <script src="app.js?v=retry-recommendations-20261027"></script>
+    <script src="app.js?v=result-previews-20261027"></script>
   </body>
 </html>

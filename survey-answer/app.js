@@ -1042,10 +1042,35 @@ function getVisibleSelectedIngredients(selectedIds) {
   return visibleIds;
 }
 
+function renderResultPreviews(scoredRecipes) {
+  if (!resultJumpNav) return;
+
+  resultJumpNav.querySelectorAll("[data-result-preview]").forEach((link, index) => {
+    const recipe = scoredRecipes[index];
+    link.hidden = !recipe;
+    if (!recipe) return;
+
+    const image = link.querySelector("img");
+    link.setAttribute("aria-label", `候補${index + 1}「${recipe.title}」へ移動`);
+    if (!image) return;
+
+    delete image.dataset.fallbackApplied;
+    image.src = getYoutubeThumbnail(recipe);
+    image.onerror = () => {
+      const videoId = getYoutubeVideoId(recipe);
+      if (videoId && !image.dataset.fallbackApplied) {
+        image.dataset.fallbackApplied = "true";
+        image.src = `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+      }
+    };
+  });
+}
+
 function renderCards(scoredRecipes, emptyMessage = "条件に合う動画が見つかりませんでした。条件を少しゆるめて検索してください。") {
   if (!recommendations || !template) return;
 
   recommendations.innerHTML = "";
+  renderResultPreviews(scoredRecipes.slice(0, 3));
   lastDisplayedRecipes = scoredRecipes.slice(0, 3);
 
   if (scoredRecipes.length === 0) {

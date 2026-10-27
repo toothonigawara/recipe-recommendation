@@ -1524,9 +1524,10 @@ body.dialog-open {
 
 .result-jump-nav {
   display: grid;
-  gap: 8px;
-  min-width: min(100%, 250px);
-  padding: 10px 12px;
+  gap: 10px;
+  width: min(100%, 360px);
+  min-width: 0;
+  padding: 12px;
   border: 2px solid rgba(10, 169, 130, 0.25);
   border-radius: 8px;
   background: #e8fff6;
@@ -1535,28 +1536,45 @@ body.dialog-open {
   font-weight: 900;
 }
 
-.result-jump-nav span {
+.result-jump-nav > span {
   display: block;
+  text-align: center;
 }
 
-.result-jump-nav div {
+.result-preview-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 8px;
+  gap: 6px;
 }
 
 .result-jump-nav a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 38px;
+  display: grid;
+  min-width: 0;
+  gap: 5px;
+  padding: 4px;
   border: 2px solid rgba(10, 169, 130, 0.28);
-  border-radius: 999px;
+  border-radius: 6px;
   background: #fff;
   color: #08745f;
-  font-size: 0.96rem;
+  font-size: 0.76rem;
   font-weight: 900;
   text-decoration: none;
+  text-align: center;
+}
+
+.result-jump-nav img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 4px;
+  background: #171717;
+}
+
+.result-jump-nav a span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .result-jump-nav a:hover,
