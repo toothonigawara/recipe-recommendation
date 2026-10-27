@@ -121,8 +121,8 @@ def apply_results(rows: list[dict[str, str]], jev_rows: list[dict[str, str]], th
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Apply high-confidence Jev tag results.")
-    parser.add_argument("--csv-input", default="data/2000件料理レシピ.csv")
-    parser.add_argument("--json-output", default="data/2000_recipes_scored.json")
+    parser.add_argument("--csv-input", default="data/3000件料理レシピ.csv")
+    parser.add_argument("--json-output", default="data/3000_recipes_scored.json")
     parser.add_argument("--js-output", default="recipes-data.js")
     parser.add_argument("--jev-results", default="data/jev-tag-results.csv")
     parser.add_argument("--threshold", type=float, default=0.75)

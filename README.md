@@ -36,9 +36,9 @@ http://127.0.0.1:8000/index.html
 
 YouTube Data APIで収集した実在する料理動画を推薦対象にしています。現在の精査済みデータは3000件です。
 
-- 2000件版CSV: `data/2000件料理レシピ.csv`
+- 3000件版CSV: `data/3000件料理レシピ.csv`
 - API取得元データ: `data/youtube_api_recipes.json`, `data/youtube_api_recipes.csv`
-- アプリ用2000件データ: `recipes-data.js`
+- アプリ用3000件データ: `recipes-data.js`
 - 食材カテゴリ味スコア表: `data/ingredient-taste-categories.csv`
 - 食材の1人前基準量表: `data/ingredient-serving-standards.csv`
 - 材料スコア計算スクリプト: `scripts/ingredient_score.py`
@@ -66,7 +66,7 @@ CSVにはYouTube埋め込み用の `video_id` 列を持たせています。
 
 既存の `video_id`、`動画URL`、`url` はYouTube互換用として残しています。
 
-## 2000件データ作成の流れ
+## 3000件データ作成の流れ
 
 YouTube Data APIのキーを環境変数に設定してから実行します。
 
@@ -93,8 +93,8 @@ python3 scripts/collect_youtube_api_recipes.py --target-count 4000 --merge-exist
 python3 scripts/build_recipe_dataset.py \
   --input data/youtube_api_recipes.json \
   --master-data data/recipes-master.csv \
-  --csv-output data/2000件料理レシピ.csv \
-  --json-output data/2000_recipes_scored.json \
+  --csv-output data/3000件料理レシピ.csv \
+  --json-output data/3000_recipes_scored.json \
   --js-output recipes-data.js \
   --limit 3000
 ```
@@ -114,7 +114,7 @@ YouTubeテキストは、ノイズ混入を減らすために根拠の強さを�
 4. 品質チェック
 
 ```bash
-python3 scripts/check_recipe_quality.py data/2000件料理レシピ.csv --fail-on-warning
+python3 scripts/check_recipe_quality.py data/3000件料理レシピ.csv --fail-on-warning
 ```
 
 「卵液不要なのに卵タグが入る」「親子丼に白身魚タグが混入する」など、推薦説明に直結する不整合はP0として検出します。
