@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>推薦動画 | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="styles.css?v=even-result-spacing-20261027">
+    <link rel="stylesheet" href="styles.css?v=survey-questions-20261027">
   </head>
   <body class="results-page">
     <main class="app-shell">
@@ -71,30 +71,90 @@
             </div>
             <form class="research-feedback-form" id="researchFeedbackForm">
               <fieldset>
-                <legend>推薦された3件は、最初に思い浮かべた料理にどの程度近かったですか。</legend>
-                <label><input type="radio" name="initialFit" value="近い" required>近い</label>
-                <label><input type="radio" name="initialFit" value="少し近い">少し近い</label>
-                <label><input type="radio" name="initialFit" value="どちらでもない">どちらでもない</label>
-                <label><input type="radio" name="initialFit" value="あまり近くない">あまり近くない</label>
-                <label><input type="radio" name="initialFit" value="近くない">近くない</label>
+                <legend>最初に思い浮かべた料理に近いものは、スワイプの際に表示された10件の料理の中にありましたか。</legend>
+                <label><input type="radio" name="swipeDishCoverage" value="とても近いものがあった" required>とても近いものがあった</label>
+                <label><input type="radio" name="swipeDishCoverage" value="少し近いものがあった">少し近いものがあった</label>
+                <label><input type="radio" name="swipeDishCoverage" value="どちらでもない">どちらでもない</label>
+                <label><input type="radio" name="swipeDishCoverage" value="あまり近いものはなかった">あまり近いものはなかった</label>
+                <label><input type="radio" name="swipeDishCoverage" value="まったくなかった">まったくなかった</label>
+              </fieldset>
+
+              <label class="research-short-answer" for="researchClosestDish">
+                <span>表示された10件のうち、最初に思い浮かべた料理に最も近かったものを1つ記入してください。</span>
+                <input id="researchClosestDish" name="closestDisplayedDish" list="researchDishOptions" required placeholder="料理名を入力または候補から選択">
+                <datalist id="researchDishOptions"></datalist>
+              </label>
+
+              <fieldset>
+                <legend>スワイプで「食べたい／今じゃない」を判断するとき、重視したものを選んでください。（3つまで）</legend>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="味の重さ（ガッツリ・あっさり）">味の重さ（ガッツリ・あっさり）</label>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="温かい・冷たい">温かい・冷たい</label>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="和食・洋食・中華・韓国料理などの料理ジャンル">和食・洋食・中華・韓国料理などの料理ジャンル</label>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="ご飯・麺・パンなどの料理タイプ">ご飯・麺・パンなどの料理タイプ</label>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="肉・魚・卵・野菜などの食材">肉・魚・卵・野菜などの食材</label>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="料理そのもの">料理そのもの</label>
+                <label><input type="checkbox" name="swipeDecisionFactors" value="料理画像の見た目">料理画像の見た目</label>
+                <label class="research-other-option">
+                  <input type="checkbox" name="swipeDecisionFactors" value="__other_option__">
+                  <span>その他</span>
+                  <input class="research-other-input" name="swipeDecisionFactorsOther" aria-label="その他の判断基準">
+                </label>
+                <p class="research-field-error" id="swipeDecisionFactorsError" hidden></p>
               </fieldset>
 
               <fieldset>
-                <legend>推薦された3件は、今の気分にどの程度合っていましたか。</legend>
-                <label><input type="radio" name="moodFit" value="合っていた" required>合っていた</label>
-                <label><input type="radio" name="moodFit" value="少し合っていた">少し合っていた</label>
+                <legend>推薦された3件のレシピ動画は、最初に思い浮かべた「食べたい気分」にどの程度合っていましたか。</legend>
+                <label><input type="radio" name="moodFit" value="とても合っていた" required>とても合っていた</label>
+                <label><input type="radio" name="moodFit" value="合っていた">合っていた</label>
                 <label><input type="radio" name="moodFit" value="どちらでもない">どちらでもない</label>
-                <label><input type="radio" name="moodFit" value="あまり合っていなかった">あまり合っていなかった</label>
                 <label><input type="radio" name="moodFit" value="合っていなかった">合っていなかった</label>
+                <label><input type="radio" name="moodFit" value="全く合っていなかった">全く合っていなかった</label>
               </fieldset>
 
               <fieldset>
-                <legend>スワイプ操作で、今日食べたい気分を伝えられたと思いますか。</legend>
-                <label><input type="radio" name="swipeExpression" value="そう思う" required>そう思う</label>
-                <label><input type="radio" name="swipeExpression" value="少しそう思う">少しそう思う</label>
-                <label><input type="radio" name="swipeExpression" value="どちらでもない">どちらでもない</label>
-                <label><input type="radio" name="swipeExpression" value="あまりそう思わない">あまりそう思わない</label>
-                <label><input type="radio" name="swipeExpression" value="そう思わない">そう思わない</label>
+                <legend>推薦された3件のレシピ動画の中に、食べたいと思えるレシピはいくつありましたか。</legend>
+                <label><input type="radio" name="desiredRecipeCount" value="3件" required>3件</label>
+                <label><input type="radio" name="desiredRecipeCount" value="2件">2件</label>
+                <label><input type="radio" name="desiredRecipeCount" value="1件">1件</label>
+                <label><input type="radio" name="desiredRecipeCount" value="0件">0件</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>スワイプ数（10回）はどうでしたか。</legend>
+                <label><input type="radio" name="swipeCountOpinion" value="多い" required>多い</label>
+                <label><input type="radio" name="swipeCountOpinion" value="ちょうどよい">ちょうどよい</label>
+                <label><input type="radio" name="swipeCountOpinion" value="少ない">少ない</label>
+                <label class="research-other-option">
+                  <input type="radio" name="swipeCountOpinion" value="__other_option__">
+                  <span>その他</span>
+                  <input class="research-other-input" name="swipeCountOpinionOther" aria-label="スワイプ数についてのその他の回答">
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <legend>推薦される料理レシピ動画数（3件）はどうでしたか。</legend>
+                <label><input type="radio" name="recommendationCountOpinion" value="多い" required>多い</label>
+                <label><input type="radio" name="recommendationCountOpinion" value="ちょうどよい">ちょうどよい</label>
+                <label><input type="radio" name="recommendationCountOpinion" value="少ない">少ない</label>
+                <label class="research-other-option">
+                  <input type="radio" name="recommendationCountOpinion" value="__other_option__">
+                  <span>その他</span>
+                  <input class="research-other-input" name="recommendationCountOpinionOther" aria-label="推薦数についてのその他の回答">
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <legend>スワイプ操作や検索結果画面の使いやすさはどうでしたか。</legend>
+                <label><input type="radio" name="usability" value="とても使いやすい" required>とても使いやすい</label>
+                <label><input type="radio" name="usability" value="使いやすい">使いやすい</label>
+                <label><input type="radio" name="usability" value="どちらともいえない">どちらともいえない</label>
+                <label><input type="radio" name="usability" value="使いにくい">使いにくい</label>
+                <label><input type="radio" name="usability" value="とても使いにくい">とても使いにくい</label>
+                <label class="research-other-option">
+                  <input type="radio" name="usability" value="__other_option__">
+                  <span>その他</span>
+                  <input class="research-other-input" name="usabilityOther" aria-label="使いやすさについてのその他の回答">
+                </label>
               </fieldset>
 
               <label class="research-textarea-label" for="researchImprovements">
@@ -151,7 +211,7 @@
     <button class="floating-back-button" id="floatingBackButton" type="button" aria-label="前のページに戻る">←</button>
 
     <script src="../recipes-data.js?v=database-3000-20261027"></script>
-    <script src="survey-config.js?v=research-submit-20261015"></script>
-    <script src="app.js?v=research-navigation-20261027"></script>
+    <script src="survey-config.js?v=survey-questions-20261027"></script>
+    <script src="app.js?v=survey-questions-20261027"></script>
   </body>
 </html>
