@@ -1629,27 +1629,45 @@ body.dialog-open {
 }
 
 .swipe-liked-dishes {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 8px;
 }
 
 .swipe-liked-dishes button {
-  display: inline-flex;
-  align-items: center;
-  min-height: 34px;
-  padding: 6px 12px;
-  border: 2px solid rgba(239, 92, 72, 0.18);
-  border-radius: 999px;
-  background: #fff3f1;
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  min-height: 62px;
+  padding: 10px 12px;
+  border: 2px solid rgba(239, 92, 72, 0.32);
+  border-radius: 8px;
+  background: #fff0ee;
   color: #8a3c36;
-  font-size: 0.86rem;
-  font-weight: 800;
+  font: inherit;
+  text-align: left;
   cursor: pointer;
 }
 
+.swipe-liked-dishes button:hover,
+.swipe-liked-dishes button:focus-visible {
+  border-color: var(--tomato);
+  background: #ffe2dd;
+}
+
+.swipe-liked-dish-name {
+  font-size: 0.94rem;
+  font-weight: 900;
+}
+
+.swipe-liked-dish-action {
+  color: #aa4a3d;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
 .swipe-liked-dishes button.is-active {
-  border-color: rgba(239, 92, 72, 0.42);
+  border-color: var(--tomato);
   background: #ffd3cd;
   color: #7a2b24;
 }

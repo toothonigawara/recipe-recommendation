@@ -1362,9 +1362,18 @@ function renderSwipeInsight(swipeSession) {
 
   likedDishes.slice(0, 10).forEach((dish) => {
     const chip = document.createElement("button");
+    const isActive = dish.dish_id === activeSwipeDishId;
+    const dishName = document.createElement("span");
+    const actionLabel = document.createElement("span");
     chip.type = "button";
-    chip.textContent = `${dish.dish_name}系`;
-    chip.className = dish.dish_id === activeSwipeDishId ? "is-active" : "";
+    chip.className = isActive ? "is-active" : "";
+    chip.setAttribute("aria-pressed", String(isActive));
+    chip.setAttribute("aria-label", `${dish.dish_name}のレシピを表示`);
+    dishName.className = "swipe-liked-dish-name";
+    dishName.textContent = dish.dish_name;
+    actionLabel.className = "swipe-liked-dish-action";
+    actionLabel.textContent = isActive ? "選択中・押すと解除" : "この料理で探す →";
+    chip.append(dishName, actionLabel);
     chip.addEventListener("click", () => {
       activeSwipeDishId = activeSwipeDishId === dish.dish_id ? "" : dish.dish_id;
       updateRecommendations();
