@@ -1910,6 +1910,40 @@ h3 {
     font-size: 3.2rem;
   }
 
+  .results-page {
+    --hero-height: 500px;
+  }
+
+  .results-page .hero {
+    padding-bottom: 36px;
+  }
+
+  .results-page .hero-content {
+    margin-top: 54px;
+  }
+
+  .results-page h1 {
+    margin-bottom: 10px;
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
+  .results-page .hero-badges {
+    flex-wrap: nowrap;
+    gap: 6px;
+    margin-top: 14px;
+  }
+
+  .results-page .hero-badges span {
+    min-height: 34px;
+    padding: 6px 9px;
+    font-size: 0.72rem;
+  }
+
+  .results-page .workspace {
+    margin-top: calc(42vh - var(--hero-height));
+  }
+
   .lead {
     font-size: 1rem;
   }
