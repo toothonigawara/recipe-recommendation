@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>推薦動画 | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="styles.css?v=survey-progress-20261027">
+    <link rel="stylesheet" href="styles.css?v=research-entry-20261105">
   </head>
   <body class="results-page">
     <main class="app-shell">
@@ -61,39 +61,40 @@
             <div>
               <p class="section-kicker">Survey</p>
               <h3 id="researchFeedbackTitle">アンケートにご協力ください</h3>
-              <p class="research-feedback-lead">
-                最初に思い浮かべた料理と、表示された候補について教えてください。
+              <p class="research-feedback-lead" id="researchFeedbackLead">
+                スワイプによる気分の変化と、表示された候補について教えてください。
               </p>
             </div>
-            <div class="research-answer-box">
-              <span>最初に思い浮かべていた料理</span>
-              <strong id="researchInitialAnswer">未入力</strong>
+            <div class="research-answer-box" id="researchStartingState">
+              <span>スワイプ開始時の状態</span>
+              <strong id="researchStartingStateText">未記録</strong>
+              <p id="researchStartingDirections" hidden></p>
             </div>
             <form class="research-feedback-form" id="researchFeedbackForm">
-              <fieldset>
-                <legend><span class="research-question-progress">質問 1 / 9</span>最初に思い浮かべた料理に近いものは、スワイプの際に表示された10件の料理の中にありましたか。</legend>
-                <label><input type="radio" name="swipeDishCoverage" value="とても近いものがあった" required>とても近いものがあった</label>
-                <label><input type="radio" name="swipeDishCoverage" value="少し近いものがあった">少し近いものがあった</label>
-                <label><input type="radio" name="swipeDishCoverage" value="どちらでもない">どちらでもない</label>
-                <label><input type="radio" name="swipeDishCoverage" value="あまり近いものはなかった">あまり近いものはなかった</label>
-                <label><input type="radio" name="swipeDishCoverage" value="まったくなかった">まったくなかった</label>
+              <fieldset id="researchNarrowingQuestion" data-research-branch="direction_only" hidden>
+                <legend><span class="research-question-progress" data-step-direction="3"></span>スワイプによって、始める前の方向性に合う料理を絞り込めましたか。</legend>
+                <label><input type="radio" name="narrowingSuccess" value="はっきり絞り込めた">はっきり絞り込めた</label>
+                <label><input type="radio" name="narrowingSuccess" value="ある程度絞り込めた">ある程度絞り込めた</label>
+                <label><input type="radio" name="narrowingSuccess" value="どちらともいえない">どちらともいえない</label>
+                <label><input type="radio" name="narrowingSuccess" value="あまり絞り込めなかった">あまり絞り込めなかった</label>
+                <label><input type="radio" name="narrowingSuccess" value="まったく絞り込めなかった">まったく絞り込めなかった</label>
+              </fieldset>
+
+              <fieldset id="researchDiscoveryQuestion" data-research-branch="undecided" hidden>
+                <legend><span class="research-question-progress" data-step-undecided="2"></span>スワイプによって、食べたい方向性や料理が見つかりましたか。</legend>
+                <label><input type="radio" name="discoverySuccess" value="はっきり見つかった">はっきり見つかった</label>
+                <label><input type="radio" name="discoverySuccess" value="なんとなく見つかった">なんとなく見つかった</label>
+                <label><input type="radio" name="discoverySuccess" value="どちらともいえない">どちらともいえない</label>
+                <label><input type="radio" name="discoverySuccess" value="あまり見つからなかった">あまり見つからなかった</label>
+                <label><input type="radio" name="discoverySuccess" value="まったく見つからなかった">まったく見つからなかった</label>
               </fieldset>
 
               <fieldset>
-                <legend><span class="research-question-progress">質問 2 / 9</span>表示された10件のうち、最初に思い浮かべた料理に最も近かったものを1つ選んでください。</legend>
-                <label class="research-choice-entry" for="researchClosestDish">
-                  <input class="research-choice-input" id="researchClosestDish" name="closestDisplayedDish" list="researchDishOptions" required placeholder="料理名を入力または候補から選択">
-                </label>
-                <datalist id="researchDishOptions"></datalist>
-              </fieldset>
-
-              <fieldset>
-                <legend><span class="research-question-progress">質問 3 / 9</span>スワイプで「食べたい／今じゃない」を判断するとき、重視したものを選んでください。（3つまで）</legend>
+                <legend><span class="research-question-progress" data-step-direction="4" data-step-undecided="3"></span>スワイプで「食べたい／今じゃない」を判断するとき、特に重視したものを選んでください。（2つまで）</legend>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="味の重さ（ガッツリ・あっさり）">味の重さ（ガッツリ・あっさり）</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="温かい・冷たい">温かい・冷たい</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="和食・洋食・中華・韓国料理などの料理ジャンル">和食・洋食・中華・韓国料理などの料理ジャンル</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="ご飯・麺・パンなどの料理タイプ">ご飯・麺・パンなどの料理タイプ</label>
-                <label><input type="checkbox" name="swipeDecisionFactors" value="肉・魚・卵・野菜などの食材">肉・魚・卵・野菜などの食材</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="料理そのもの">料理そのもの</label>
                 <label><input type="checkbox" name="swipeDecisionFactors" value="料理画像の見た目">料理画像の見た目</label>
                 <div class="research-other-option">
@@ -104,16 +105,15 @@
               </fieldset>
 
               <fieldset>
-                <legend><span class="research-question-progress">質問 4 / 9</span>推薦された3件のレシピ動画は、最初に思い浮かべた「食べたい気分」にどの程度合っていましたか。</legend>
-                <label><input type="radio" name="moodFit" value="とても合っていた" required>とても合っていた</label>
-                <label><input type="radio" name="moodFit" value="合っていた">合っていた</label>
-                <label><input type="radio" name="moodFit" value="どちらでもない">どちらでもない</label>
-                <label><input type="radio" name="moodFit" value="合っていなかった">合っていなかった</label>
-                <label><input type="radio" name="moodFit" value="全く合っていなかった">全く合っていなかった</label>
+                <legend><span class="research-question-progress" data-step-direction="5" data-step-undecided="4"></span>表示された10件のうち、今の気分に最も近かった料理を1つ選んでください。</legend>
+                <label class="research-choice-entry" for="researchClosestDish">
+                  <input class="research-choice-input" id="researchClosestDish" name="closestDisplayedDish" list="researchDishOptions" required placeholder="料理名を入力または候補から選択">
+                </label>
+                <datalist id="researchDishOptions"></datalist>
               </fieldset>
 
               <fieldset>
-                <legend><span class="research-question-progress">質問 5 / 9</span>推薦された3件のレシピ動画の中に、食べたいと思えるレシピはいくつありましたか。</legend>
+                <legend><span class="research-question-progress" data-step-direction="6" data-step-undecided="5"></span>推薦された3件のレシピ動画の中に、食べたいと思えるレシピはいくつありましたか。</legend>
                 <label><input type="radio" name="desiredRecipeCount" value="3件" required>3件</label>
                 <label><input type="radio" name="desiredRecipeCount" value="2件">2件</label>
                 <label><input type="radio" name="desiredRecipeCount" value="1件">1件</label>
@@ -121,42 +121,23 @@
               </fieldset>
 
               <fieldset>
-                <legend><span class="research-question-progress">質問 6 / 9</span>スワイプ数（10回）はどうでしたか。</legend>
+                <legend><span class="research-question-progress" data-step-direction="7" data-step-undecided="6"></span>スワイプ数（10回）はどうでしたか。</legend>
                 <label><input type="radio" name="swipeCountOpinion" value="多い" required>多い</label>
                 <label><input type="radio" name="swipeCountOpinion" value="ちょうどよい">ちょうどよい</label>
                 <label><input type="radio" name="swipeCountOpinion" value="少ない">少ない</label>
-                <div class="research-other-option">
-                  <label><input type="radio" name="swipeCountOpinion" value="__other_option__"><span>その他</span></label>
-                  <input class="research-other-input" name="swipeCountOpinionOther" aria-label="スワイプ数についてのその他の回答">
-                </div>
               </fieldset>
 
               <fieldset>
-                <legend><span class="research-question-progress">質問 7 / 9</span>推薦される料理レシピ動画数（3件）はどうでしたか。</legend>
-                <label><input type="radio" name="recommendationCountOpinion" value="多い" required>多い</label>
-                <label><input type="radio" name="recommendationCountOpinion" value="ちょうどよい">ちょうどよい</label>
-                <label><input type="radio" name="recommendationCountOpinion" value="少ない">少ない</label>
-                <div class="research-other-option">
-                  <label><input type="radio" name="recommendationCountOpinion" value="__other_option__"><span>その他</span></label>
-                  <input class="research-other-input" name="recommendationCountOpinionOther" aria-label="推薦数についてのその他の回答">
-                </div>
-              </fieldset>
-
-              <fieldset>
-                <legend><span class="research-question-progress">質問 8 / 9</span>スワイプ操作や検索結果画面の使いやすさはどうでしたか。</legend>
-                <label><input type="radio" name="usability" value="とても使いやすい" required>とても使いやすい</label>
-                <label><input type="radio" name="usability" value="使いやすい">使いやすい</label>
+                <legend><span class="research-question-progress" data-step-direction="8" data-step-undecided="7"></span>スワイプ操作や検索結果画面は使いやすかったですか。</legend>
+                <label><input type="radio" name="usability" value="とても使いやすい" required>とても使いやすかった</label>
+                <label><input type="radio" name="usability" value="使いやすい">使いやすかった</label>
                 <label><input type="radio" name="usability" value="どちらともいえない">どちらともいえない</label>
-                <label><input type="radio" name="usability" value="使いにくい">使いにくい</label>
-                <label><input type="radio" name="usability" value="とても使いにくい">とても使いにくい</label>
-                <div class="research-other-option">
-                  <label><input type="radio" name="usability" value="__other_option__"><span>その他</span></label>
-                  <input class="research-other-input" name="usabilityOther" aria-label="使いやすさについてのその他の回答">
-                </div>
+                <label><input type="radio" name="usability" value="使いにくい">使いにくかった</label>
+                <label><input type="radio" name="usability" value="とても使いにくい">とても使いにくかった</label>
               </fieldset>
 
               <label class="research-textarea-label" for="researchImprovements">
-                <span class="research-question-progress">質問 9 / 9</span>
+                <span class="research-question-progress" data-step-direction="9" data-step-undecided="8"></span>
                 <span>分かりにくかった点や改善してほしい点があれば教えてください。（任意）</span>
                 <textarea id="researchImprovements" name="improvements" placeholder="自由に入力してください"></textarea>
               </label>
@@ -210,7 +191,7 @@
     <button class="floating-back-button" id="floatingBackButton" type="button" aria-label="前のページに戻る">←</button>
 
     <script src="../recipes-data.js?v=database-3000-20261027"></script>
-    <script src="survey-config.js?v=survey-questions-20261027"></script>
-    <script src="app.js?v=survey-questions-20261027"></script>
+    <script src="survey-config.js?v=research-entry-20261105"></script>
+    <script src="app.js?v=research-entry-20261105"></script>
   </body>
 </html>

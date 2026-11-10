@@ -297,7 +297,9 @@ const retryRecommendationsButton = document.querySelector("#retryRecommendations
 const recommendationRetryStatus = document.querySelector("#recommendationRetryStatus");
 const researchFeedbackPanel = document.querySelector("#researchFeedbackPanel");
 const researchFeedbackForm = document.querySelector("#researchFeedbackForm");
-const researchInitialAnswer = document.querySelector("#researchInitialAnswer");
+const researchFeedbackLead = document.querySelector("#researchFeedbackLead");
+const researchStartingStateText = document.querySelector("#researchStartingStateText");
+const researchStartingDirections = document.querySelector("#researchStartingDirections");
 const researchDishOptions = document.querySelector("#researchDishOptions");
 const swipeDecisionFactorsError = document.querySelector("#swipeDecisionFactorsError");
 const researchSaveNote = document.querySelector("#researchSaveNote");
@@ -1195,21 +1197,75 @@ function getResearchAutomaticValues(swipeSession, displayedRecipes) {
   const fallbackSessionId = `survey-${sanitizeResearchFormValue(swipeSession?.createdAt) || "unknown"}`;
   return {
     responseId: swipeSession?.sessionId || fallbackSessionId,
-    experimentVersion: swipeSession?.experimentVersion || "balanced-random-v1",
-    initialDesiredDish: swipeSession?.initialDesiredDish || "",
+    experimentVersion: swipeSession?.experimentVersion || "balanced-random-segmented-v2",
+    initialDesiredDish: "",
     swipeResults: formatResearchSwipeResults(swipeSession),
     swipeProfile: formatResearchSwipeProfile(swipeSession),
     recommendations: formatResearchRecommendations(displayedRecipes)
   };
 }
 
+function getResearchPreferenceClarity(swipeSession) {
+  return swipeSession?.preferenceClarity === "direction_only" ? "direction_only" : "undecided";
+}
+
+function formatResearchParticipantContext(swipeSession, outcome = "") {
+  const clarity = getResearchPreferenceClarity(swipeSession);
+  const clarityLabel = swipeSession?.preferenceClarityLabel
+    || (clarity === "direction_only"
+      ? "食べたい方向性はあるが、料理は決まっていない"
+      : "何を食べたいかほとんど決まっていない");
+  const directions = Array.isArray(swipeSession?.initialDirections)
+    ? swipeSession.initialDirections.join("/")
+    : "";
+  return [
+    `開始状態=${clarityLabel}`,
+    `事前方向性=${directions || "なし"}`,
+    `スワイプ後評価=${outcome || "未回答"}`
+  ].join(" / ");
+}
+
 function renderResearchFeedback(swipeSession) {
   if (!researchFeedbackPanel || !swipeSession) return;
 
+  const clarity = getResearchPreferenceClarity(swipeSession);
+  const isDirectionOnly = clarity === "direction_only";
+  const totalQuestions = isDirectionOnly ? 9 : 8;
   researchFeedbackPanel.hidden = false;
-  if (researchInitialAnswer) {
-    researchInitialAnswer.textContent = swipeSession.initialDesiredDish || "未入力";
+  if (researchFeedbackLead) {
+    researchFeedbackLead.textContent = isDirectionOnly
+      ? "最初に考えていた方向性を、スワイプで具体化できたか教えてください。"
+      : "スワイプによって、食べたい方向性を見つけられたか教えてください。";
   }
+  if (researchStartingStateText) {
+    researchStartingStateText.textContent = swipeSession.preferenceClarityLabel
+      || (isDirectionOnly
+        ? "食べたい方向性はあるが、料理は決まっていない"
+        : "何を食べたいかほとんど決まっていない");
+  }
+  if (researchStartingDirections) {
+    const directions = Array.isArray(swipeSession.initialDirections)
+      ? swipeSession.initialDirections.filter(Boolean)
+      : [];
+    researchStartingDirections.hidden = directions.length === 0;
+    researchStartingDirections.textContent = directions.length > 0
+      ? `最初の方向性: ${directions.join("・")}`
+      : "";
+  }
+  researchFeedbackForm?.querySelectorAll("[data-research-branch]").forEach((fieldset) => {
+    const isActive = fieldset.dataset.researchBranch === clarity;
+    fieldset.hidden = !isActive;
+    fieldset.querySelectorAll("input").forEach((input, index) => {
+      input.required = isActive && index === 0;
+      if (!isActive) input.checked = false;
+    });
+  });
+  researchFeedbackForm?.querySelectorAll(
+    ".research-question-progress[data-step-direction], .research-question-progress[data-step-undecided]"
+  ).forEach((label) => {
+    const step = isDirectionOnly ? label.dataset.stepDirection : label.dataset.stepUndecided;
+    label.textContent = `質問 ${step} / ${totalQuestions}`;
+  });
   if (researchDishOptions) {
     const dishNames = [...new Set(
       (swipeSession.results || []).map((result) => result.dish_name).filter(Boolean)
@@ -1230,30 +1286,29 @@ function buildResearchFormValues() {
   const formData = new FormData(researchFeedbackForm);
   const swipeDecisionFactors = formData.getAll("swipeDecisionFactors");
   const swipeCountOpinion = formData.get("swipeCountOpinion") || "";
-  const recommendationCountOpinion = formData.get("recommendationCountOpinion") || "";
   const usability = formData.get("usability") || "";
+  const clarity = getResearchPreferenceClarity(swipeSession);
+  const narrowingSuccess = formData.get("narrowingSuccess") || "";
+  const discoverySuccess = formData.get("discoverySuccess") || "";
+  const outcome = clarity === "direction_only" ? narrowingSuccess : discoverySuccess;
+  const automaticValues = getResearchAutomaticValues(swipeSession, lastDisplayedRecipes);
+  const participantContext = formatResearchParticipantContext(swipeSession, outcome);
   return {
-    ...getResearchAutomaticValues(swipeSession, lastDisplayedRecipes),
-    swipeDishCoverage: formData.get("swipeDishCoverage") || "",
+    ...automaticValues,
+    initialDesiredDish: participantContext,
+    swipeProfile: `${automaticValues.swipeProfile} / ${participantContext}`,
+    startState: clarity,
+    initialDirections: swipeSession.initialDirections || [],
+    narrowingSuccess,
+    discoverySuccess,
     closestDisplayedDish: (formData.get("closestDisplayedDish") || "").toString().trim(),
     swipeDecisionFactors,
     swipeDecisionFactorsOther: swipeDecisionFactors.includes("__other_option__")
       ? (formData.get("swipeDecisionFactorsOther") || "").toString().trim()
       : "",
-    moodFit: formData.get("moodFit") || "",
     desiredRecipeCount: formData.get("desiredRecipeCount") || "",
     swipeCountOpinion,
-    swipeCountOpinionOther: swipeCountOpinion === "__other_option__"
-      ? (formData.get("swipeCountOpinionOther") || "").toString().trim()
-      : "",
-    recommendationCountOpinion,
-    recommendationCountOpinionOther: recommendationCountOpinion === "__other_option__"
-      ? (formData.get("recommendationCountOpinionOther") || "").toString().trim()
-      : "",
     usability,
-    usabilityOther: usability === "__other_option__"
-      ? (formData.get("usabilityOther") || "").toString().trim()
-      : "",
     improvements: (formData.get("improvements") || "").toString().trim()
   };
 }
@@ -1265,8 +1320,8 @@ function validateResearchFeedback() {
   const checkedFactors = factorInputs.filter((input) => input.checked);
   const factorMessage = checkedFactors.length === 0
     ? "重視したものを1つ以上選択してください。"
-    : checkedFactors.length > 3
-      ? "重視したものは3つまで選択できます。"
+    : checkedFactors.length > 2
+      ? "重視したものは2つまで選択できます。"
       : "";
 
   if (factorInputs[0]) factorInputs[0].setCustomValidity(factorMessage);
@@ -1276,10 +1331,7 @@ function validateResearchFeedback() {
   }
 
   const otherPairs = [
-    ["swipeDecisionFactors", "swipeDecisionFactorsOther"],
-    ["swipeCountOpinion", "swipeCountOpinionOther"],
-    ["recommendationCountOpinion", "recommendationCountOpinionOther"],
-    ["usability", "usabilityOther"]
+    ["swipeDecisionFactors", "swipeDecisionFactorsOther"]
   ];
 
   otherPairs.forEach(([choiceName, textName]) => {
@@ -1300,7 +1352,7 @@ function updateSwipeDecisionFactorState() {
   if (!researchFeedbackForm) return;
   const factorInputs = [...researchFeedbackForm.querySelectorAll('input[name="swipeDecisionFactors"]')];
   const checkedCount = factorInputs.filter((input) => input.checked).length;
-  const limitReached = checkedCount >= 3;
+  const limitReached = checkedCount >= 2;
   factorInputs.forEach((input) => {
     input.disabled = !input.checked && limitReached;
   });

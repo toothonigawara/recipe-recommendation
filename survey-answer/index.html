@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>スワイプで探す | 動画レシピ提案サイト</title>
-    <link rel="stylesheet" href="styles.css?v=swipe-prototype-20261006">
+    <link rel="stylesheet" href="styles.css?v=research-entry-20261105">
   </head>
   <body>
     <main class="app-shell swipe-shell">
@@ -71,22 +71,69 @@
       <section class="research-start-overlay" id="researchStartOverlay" aria-labelledby="researchStartTitle" aria-modal="true" role="dialog">
         <div class="research-start-card">
           <p class="section-kicker">User Study</p>
-          <h2 id="researchStartTitle">今日食べたいものを1つ思い浮かべてください</h2>
+          <h2 id="researchStartTitle">
+            <span>今の食べたい気分を</span>
+            <span>教えてください</span>
+          </h2>
           <p>
-            ある程度「これが食べたいかも」という料理を決めてから始めてください。
-            スワイプ後に、候補との近さを確認します。
+            食べたい料理が決まっていなくても大丈夫です。
+            今の状態に一番近いものを選んでください。
           </p>
-          <label class="research-start-field" for="initialDesiredDish">
-            <span>思い浮かべた料理</span>
-            <input id="initialDesiredDish" type="text" autocomplete="off" placeholder="例: ラーメン、オムライス、親子丼">
-          </label>
-          <p class="research-start-error" id="researchStartError" hidden>料理名を入力してから始めてください。</p>
+          <fieldset class="research-start-question">
+            <legend>
+              <span class="research-question-progress" id="researchStartProgress">質問 1</span>
+              今の食べたい気分に最も近いものを選んでください。
+            </legend>
+            <label>
+              <input type="radio" name="preferenceClarity" value="direction_only">
+              <span>食べたい方向性はあるが、料理は決まっていない</span>
+            </label>
+            <label>
+              <input type="radio" name="preferenceClarity" value="undecided">
+              <span>何を食べたいかほとんど決まっていない</span>
+            </label>
+            <label>
+              <input type="radio" name="preferenceClarity" value="specific_dish">
+              <span>食べたい料理が具体的に決まっている</span>
+            </label>
+          </fieldset>
+
+          <fieldset class="research-start-question research-start-directions" id="researchStartDirections" hidden>
+            <legend>
+              <span class="research-question-progress">質問 2 / 9</span>
+              現在なんとなく考えている方向性を選んでください。（3つまで）
+            </legend>
+            <div class="research-start-chip-grid">
+              <label><input type="checkbox" name="initialDirections" value="ガッツリ"><span>ガッツリ</span></label>
+              <label><input type="checkbox" name="initialDirections" value="あっさり"><span>あっさり</span></label>
+              <label><input type="checkbox" name="initialDirections" value="温かい"><span>温かい</span></label>
+              <label><input type="checkbox" name="initialDirections" value="冷たい"><span>冷たい</span></label>
+              <label><input type="checkbox" name="initialDirections" value="和食"><span>和食</span></label>
+              <label><input type="checkbox" name="initialDirections" value="洋食"><span>洋食</span></label>
+              <label><input type="checkbox" name="initialDirections" value="中華"><span>中華</span></label>
+              <label><input type="checkbox" name="initialDirections" value="韓国料理"><span>韓国料理</span></label>
+              <label><input type="checkbox" name="initialDirections" value="ご飯もの"><span>ご飯もの</span></label>
+              <label><input type="checkbox" name="initialDirections" value="麺料理"><span>麺料理</span></label>
+              <label><input type="checkbox" name="initialDirections" value="パン料理"><span>パン料理</span></label>
+              <label><input type="checkbox" name="initialDirections" value="その他"><span>その他</span></label>
+            </div>
+          </fieldset>
+
+          <div class="research-screenout-note" id="researchScreenoutNote" hidden>
+            <strong>今回は調査対象外です</strong>
+            <p>
+              今回の調査は、食べたい料理がまだ具体的に決まっていない方を対象としています。
+              次に「何を食べようかな」と迷ったときに、改めてご協力いただけますと幸いです。
+            </p>
+          </div>
+
+          <p class="research-start-error" id="researchStartError" hidden></p>
           <button class="primary-action research-start-button" id="researchStartButton" type="button">スタート！</button>
         </div>
       </section>
     </main>
 
     <script src="swipe-dishes.js?v=swipe-prototype-20261006"></script>
-    <script src="swipe.js?v=balanced-random-20261027"></script>
+    <script src="swipe.js?v=research-entry-20261105"></script>
   </body>
 </html>

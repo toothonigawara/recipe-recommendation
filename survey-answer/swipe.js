@@ -7,7 +7,8 @@ const swipeState = {
   isAnimating: false,
   started: false,
   sessionId: "",
-  initialDesiredDish: "",
+  preferenceClarity: "",
+  initialDirections: [],
   drag: {
     active: false,
     startX: 0,
@@ -20,7 +21,7 @@ const swipeState = {
 const swipeConfig = {
   sessionSize: 10,
   swipeThreshold: 90,
-  experimentVersion: "balanced-random-v1"
+  experimentVersion: "balanced-random-segmented-v2"
 };
 
 function createResearchSessionId() {
@@ -46,9 +47,19 @@ const swipeElements = {
   restartButton: document.querySelector("#swipeRestartButton"),
   debugOutput: document.querySelector("#swipeDebugOutput"),
   startOverlay: document.querySelector("#researchStartOverlay"),
-  initialDesiredDish: document.querySelector("#initialDesiredDish"),
+  clarityInputs: [...document.querySelectorAll('input[name="preferenceClarity"]')],
+  directionPanel: document.querySelector("#researchStartDirections"),
+  directionInputs: [...document.querySelectorAll('input[name="initialDirections"]')],
+  startProgress: document.querySelector("#researchStartProgress"),
+  screenoutNote: document.querySelector("#researchScreenoutNote"),
   startButton: document.querySelector("#researchStartButton"),
   startError: document.querySelector("#researchStartError")
+};
+
+const preferenceClarityLabels = {
+  direction_only: "食べたい方向性はあるが、料理は決まっていない",
+  undecided: "何を食べたいかほとんど決まっていない",
+  specific_dish: "食べたい料理が具体的に決まっている"
 };
 
 function shuffleDishes(dishes) {
@@ -287,7 +298,9 @@ function saveSwipeSession() {
     sessionId: swipeState.sessionId || createResearchSessionId(),
     experimentVersion: swipeConfig.experimentVersion,
     createdAt: new Date().toISOString(),
-    initialDesiredDish: swipeState.initialDesiredDish,
+    preferenceClarity: swipeState.preferenceClarity,
+    preferenceClarityLabel: preferenceClarityLabels[swipeState.preferenceClarity] || "",
+    initialDirections: swipeState.initialDirections,
     results: swipeState.results,
     profile
   };
@@ -442,8 +455,19 @@ function restartSwipeSession() {
   swipeState.results = [];
   swipeState.started = false;
   swipeState.sessionId = createResearchSessionId();
-  swipeState.initialDesiredDish = "";
-  if (swipeElements.initialDesiredDish) swipeElements.initialDesiredDish.value = "";
+  swipeState.preferenceClarity = "";
+  swipeState.initialDirections = [];
+  swipeElements.clarityInputs.forEach((input) => {
+    input.checked = false;
+  });
+  swipeElements.directionInputs.forEach((input) => {
+    input.checked = false;
+    input.disabled = false;
+  });
+  if (swipeElements.directionPanel) swipeElements.directionPanel.hidden = true;
+  if (swipeElements.screenoutNote) swipeElements.screenoutNote.hidden = true;
+  if (swipeElements.startProgress) swipeElements.startProgress.textContent = "質問 1";
+  if (swipeElements.startButton) swipeElements.startButton.hidden = false;
   if (swipeElements.startError) swipeElements.startError.hidden = true;
   if (swipeElements.startOverlay) swipeElements.startOverlay.hidden = false;
   window.swipePrototype.results = swipeState.results;
@@ -456,16 +480,69 @@ function restartSwipeSession() {
   renderSwipeDish();
 }
 
+function getSelectedPreferenceClarity() {
+  return swipeElements.clarityInputs.find((input) => input.checked)?.value || "";
+}
+
+function getSelectedInitialDirections() {
+  return swipeElements.directionInputs
+    .filter((input) => input.checked)
+    .map((input) => input.value);
+}
+
+function updateInitialDirectionLimit() {
+  const selectedCount = getSelectedInitialDirections().length;
+  swipeElements.directionInputs.forEach((input) => {
+    input.disabled = !input.checked && selectedCount >= 3;
+  });
+}
+
+function updateResearchStartState() {
+  const clarity = getSelectedPreferenceClarity();
+  const asksDirections = clarity === "direction_only";
+  const isScreenedOut = clarity === "specific_dish";
+
+  if (swipeElements.startProgress) {
+    swipeElements.startProgress.textContent = clarity
+      ? `質問 1 / ${asksDirections ? 9 : isScreenedOut ? 1 : 8}`
+      : "質問 1";
+  }
+  if (swipeElements.directionPanel) swipeElements.directionPanel.hidden = !asksDirections;
+  if (swipeElements.screenoutNote) swipeElements.screenoutNote.hidden = !isScreenedOut;
+  if (swipeElements.startButton) swipeElements.startButton.hidden = isScreenedOut;
+  if (!asksDirections) {
+    swipeElements.directionInputs.forEach((input) => {
+      input.checked = false;
+      input.disabled = false;
+    });
+  }
+  if (swipeElements.startError) swipeElements.startError.hidden = true;
+}
+
 function startResearchSwipe() {
-  const answer = (swipeElements.initialDesiredDish?.value || "").trim();
-  if (!answer) {
-    if (swipeElements.startError) swipeElements.startError.hidden = false;
-    swipeElements.initialDesiredDish?.focus();
+  const clarity = getSelectedPreferenceClarity();
+  const directions = getSelectedInitialDirections();
+  if (!clarity) {
+    if (swipeElements.startError) {
+      swipeElements.startError.textContent = "今の状態に一番近いものを選んでください。";
+      swipeElements.startError.hidden = false;
+    }
+    swipeElements.clarityInputs[0]?.focus();
+    return;
+  }
+  if (clarity === "specific_dish") return;
+  if (clarity === "direction_only" && directions.length === 0) {
+    if (swipeElements.startError) {
+      swipeElements.startError.textContent = "現在考えている方向性を1つ以上選んでください。";
+      swipeElements.startError.hidden = false;
+    }
+    swipeElements.directionInputs[0]?.focus();
     return;
   }
 
   swipeState.started = true;
-  swipeState.initialDesiredDish = answer;
+  swipeState.preferenceClarity = clarity;
+  swipeState.initialDirections = directions;
   if (swipeElements.startError) swipeElements.startError.hidden = true;
   if (swipeElements.startOverlay) swipeElements.startOverlay.hidden = true;
 }
@@ -502,17 +579,15 @@ if (swipeElements.card && swipeDishPool.length > 0) {
   if (swipeElements.startButton) {
     swipeElements.startButton.addEventListener("click", startResearchSwipe);
   }
-  if (swipeElements.initialDesiredDish) {
-    swipeElements.initialDesiredDish.addEventListener("input", () => {
+  swipeElements.clarityInputs.forEach((input) => {
+    input.addEventListener("change", updateResearchStartState);
+  });
+  swipeElements.directionInputs.forEach((input) => {
+    input.addEventListener("change", () => {
+      updateInitialDirectionLimit();
       if (swipeElements.startError) swipeElements.startError.hidden = true;
     });
-    swipeElements.initialDesiredDish.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        startResearchSwipe();
-      }
-    });
-  }
+  });
 
   swipeElements.card.addEventListener("pointerdown", startDrag);
   swipeElements.card.addEventListener("pointermove", moveDrag);
